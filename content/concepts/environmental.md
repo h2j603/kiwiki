@@ -8,16 +8,50 @@ nav_order: 4
 
 <a href="/kiwiki/" class="home-link">⌂</a>
 
+<div class="ko" markdown="1">
+
+| 항목 | 값 |
+|------|-----|
+| 분류 | <span class="pill pill-type">유형</span> |
+| 분류 코드 | <span class="pill pill-code">WKV-E</span> |
+| 영향 영역 | 물리적 공간, 물체, 구조물 |
+| 알려진 바이러스 | 8종 |
+| 평균 심각도 | 치명적 |
+
+</div>
+
+<div class="en" markdown="1">
 
 | Key | Value |
 |-----|-------|
-| Category | <span class="pill pill-type">유형 / Type</span> |
+| Category | <span class="pill pill-type">Type</span> |
 | Classification Code | <span class="pill pill-code">WKV-E</span> |
 | Affected Domain | Physical spaces, objects, structures |
 | Known Viruses | 8 |
 | Avg. Severity | Critical |
 
+</div>
+
+<div class="ja" markdown="1">
+
+| 項目 | 値 |
+|------|-----|
+| 分類 | <span class="pill pill-type">タイプ</span> |
+| 分類コード | <span class="pill pill-code">WKV-E</span> |
+| 影響領域 | 物理的空間、物体、構造物 |
+| 既知のウイルス | 8種 |
+| 平均重症度 | 致命的 |
+
+</div>
+
+## 개요
+{: .ko}
+
 ## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 Environmental-type viruses are the most dangerous classification of Web Kiwi Virus. Unlike the other three types -- which affect the individual's mind, senses, or reasoning -- Environmental-type viruses alter the **physical world itself**. Walls grow circuitry. Rooms change dimensions. Objects rust overnight. Moss made of static spreads across concrete. These are not hallucinations and they are not perceptual distortions: Environmental-type effects are measurable, photographable, and permanent. This is [Boundary Collapse](boundary-collapse.md) in its most literal form -- the properties of the web physically manifesting in real space. Environmental-type viruses have the highest concentration of [Irreversible Transformation](irreversible.md) cases, with four confirmed: [GlitchMoss](../viruses/glitchmoss.md), [CacheVein](../viruses/cachevein.md), [VoidMail](../viruses/voidmail.md), and [WireRoot](../viruses/wireroot.md).
 {: .en}
@@ -28,7 +62,14 @@ Environmental-type viruses are the most dangerous classification of Web Kiwi Vir
 環境型ウイルスはウェブキウイウイルスの最も危険な類型である。個人の精神、感覚、推論に影響を与える他の3類型とは異なり、環境型ウイルスは**物理的世界そのもの**を変容させる。壁に回路が生える。部屋の寸法が変わる。物体が一晩で錆びる。静電ノイズでできた苔がコンクリートの上に広がる。これらは幻覚ではなく知覚の歪みでもない：環境型の効果は測定可能で、写真撮影可能で、永続的である。これが最も文字通りの[境界崩壊](boundary-collapse.md)である――ウェブの属性が物理的に実空間で発現するのだ。環境型ウイルスは[不可逆的変容](irreversible.md)の症例が最も集中しており、[グリッチモス](../viruses/glitchmoss.md)、[キャッシュベイン](../viruses/cachevein.md)、[ボイドメール](../viruses/voidmail.md)、[ワイヤールート](../viruses/wireroot.md)の4件が確認されている。
 {: .ja}
 
+## 환경형 감염의 작동 원리
+{: .ko}
+
 ## How Environmental Infection Works
+{: .en}
+
+## 環境型感染の仕組み
+{: .ja}
 
 Environmental-type infections operate differently from other types. The virus infects a *person*, but the symptoms manifest in the *space around them*. The infected individual often shows no personal symptoms at all -- no altered thinking, no sensory distortion, no memory loss. Instead, the rooms they inhabit begin to change. This creates a unique diagnostic challenge: how do you treat a patient who feels perfectly fine while their apartment is growing wire roots through the floor?
 
@@ -45,20 +86,68 @@ The prevailing theory is that Environmental-type viruses use the infected person
 主流の理論は、環境型ウイルスが感染者を**導管**として使用するというものだ。感染者のデジタル活動（ブラウジング、メッセージング、メール）がウェブ現象を物理空間に投影するチャネルとなる。感染者を影響を受けた空間から除去しても変化は元に戻らない。空間は変容したままである。しかし拡散は止まる――感染者が新しい空間に入り、プロセスが再び始まるまで。
 {: .ja}
 
+## 알려진 환경형 바이러스
+{: .ko}
+
 ## Known Environmental-type Viruses
+{: .en}
+
+## 既知の環境型ウイルス
+{: .ja}
+
+<div class="en" markdown="1">
 
 | Virus | Vector | Severity | Physical Effect |
 |-------|--------|----------|----------------|
-| [GlitchMoss](../viruses/glitchmoss.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-critical">치명적</span> | Static-patterned moss growth on surfaces |
-| [CacheVein](../viruses/cachevein.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-critical">치명적</span> | Circuit-like veins spreading through walls |
-| [StaticBloom](../viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | Flower-like static formations on screens and surfaces |
-| [VoidMail](../viruses/voidmail.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-critical">치명적</span> | Spatial voids that consume physical matter |
-| [RustPixel](../viruses/rustpixel.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-high">높음</span> | Pixel-patterned rust consuming metal objects |
-| [WireRoot](../viruses/wireroot.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-critical">치명적</span> | Wire-like roots growing from floors and walls |
-| [EchoRoom](../viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | Rooms develop acoustic anomalies that echo web sounds |
-| [NullSpace](../viruses/nullspace.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-high">높음</span> | Rooms where spatial dimensions become undefined |
+| [GlitchMoss](../viruses/glitchmoss.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-critical">Critical</span> | Static-patterned moss growth on surfaces |
+| [CacheVein](../viruses/cachevein.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-critical">Critical</span> | Circuit-like veins spreading through walls |
+| [StaticBloom](../viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">High</span> | Flower-like static formations on screens and surfaces |
+| [VoidMail](../viruses/voidmail.md) | <span class="pill pill-vector">Email</span> | <span class="pill pill-severity-critical">Critical</span> | Spatial voids that consume physical matter |
+| [RustPixel](../viruses/rustpixel.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-high">High</span> | Pixel-patterned rust consuming metal objects |
+| [WireRoot](../viruses/wireroot.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-critical">Critical</span> | Wire-like roots growing from floors and walls |
+| [EchoRoom](../viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">Moderate</span> | Rooms develop acoustic anomalies that echo web sounds |
+| [NullSpace](../viruses/nullspace.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-high">High</span> | Rooms where spatial dimensions become undefined |
+
+</div>
+
+<div class="ko" markdown="1">
+
+| 바이러스 | 경로 | 심각도 | 물리적 효과 |
+|----------|------|--------|-------------|
+| [글리치모스](../viruses/glitchmoss.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-critical">치명적</span> | 표면에 정적 패턴 이끼 성장 |
+| [캐시베인](../viruses/cachevein.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-critical">치명적</span> | 벽을 통해 퍼지는 회로형 맥관 |
+| [스태틱블룸](../viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | 화면과 표면에 꽃 형태의 정적 형성 |
+| [보이드메일](../viruses/voidmail.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-critical">치명적</span> | 물리적 물질을 소멸시키는 공간적 공허 |
+| [러스트픽셀](../viruses/rustpixel.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-high">높음</span> | 금속 물체를 먹어치우는 픽셀 패턴 녹 |
+| [와이어루트](../viruses/wireroot.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-critical">치명적</span> | 바닥과 벽에서 자라는 전선형 뿌리 |
+| [에코룸](../viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | 웹 소리를 반향하는 음향 이상이 발생하는 방 |
+| [널스페이스](../viruses/nullspace.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-high">높음</span> | 공간 차원이 정의되지 않는 방 |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| ウイルス | 経路 | 重症度 | 物理的効果 |
+|----------|------|--------|-----------|
+| [グリッチモス](../viruses/glitchmoss.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 表面に静電パターンの苔の成長 |
+| [キャッシュベイン](../viruses/cachevein.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 壁を通じて広がる回路状の脈管 |
+| [スタティックブルーム](../viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 画面と表面に花状の静電形成 |
+| [ボイドメール](../viruses/voidmail.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-critical">致命的</span> | 物理的物質を消滅させる空間的空虚 |
+| [ラストピクセル](../viruses/rustpixel.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 金属物体を侵食するピクセルパターンの錆 |
+| [ワイヤールート](../viruses/wireroot.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 床と壁から生えるワイヤー状の根 |
+| [エコルーム](../viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | ウェブの音を反響する音響異常が発生する部屋 |
+| [ヌルスペース](../viruses/nullspace.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 空間次元が未定義になる部屋 |
+
+</div>
+
+## 환경형이 가장 위험한 이유
+{: .ko}
 
 ## Why Environmental-type is the Most Dangerous
+{: .en}
+
+## 環境型が最も危険な理由
+{: .ja}
 
 Three factors combine to make Environmental-type viruses the most dangerous classification:
 
@@ -81,9 +170,29 @@ Three factors combine to make Environmental-type viruses the most dangerous clas
 3. **隠れたキャリア** ── 感染者は何も感じない。気づくべき症状も、行動すべき警告サインもない。誰かが事態に気づく前に何十もの空間を汚染する可能性がある。
 {: .ja}
 
+## 관련 개념
+{: .ko}
+
 ## Related Concepts
+{: .en}
+
+## 関連概念
+{: .ja}
 
 - [Boundary Collapse](boundary-collapse.md) -- Environmental-type is boundary collapse in its most literal, physical form
 - [Irreversible Transformation](irreversible.md) -- 4 of 8 Environmental viruses produce confirmed irreversible changes
 - [Manifestation](manifestation.md) -- Environmental manifestation is physical and measurable, unlike other types
 - [Co-infection](co-infection.md) -- Environmental + any other type creates compound danger
+{: .en}
+
+- [경계 무너짐](boundary-collapse.md) -- 환경형은 가장 문자 그대로의 물리적 경계 무너짐
+- [비가역적 변형](irreversible.md) -- 8종의 환경형 바이러스 중 4종이 비가역적 변화 확인
+- [발현](manifestation.md) -- 환경형 발현은 다른 유형과 달리 물리적이고 측정 가능
+- [동시 감염](co-infection.md) -- 환경형 + 다른 유형의 조합이 복합적 위험 생성
+{: .ko}
+
+- [境界崩壊](boundary-collapse.md) -- 環境型は最も文字通りの物理的な境界崩壊
+- [不可逆的変形](irreversible.md) -- 環境型ウイルス8種中4種が不可逆的変化を確認
+- [発現](manifestation.md) -- 環境型の発現は他のタイプとは異なり物理的で測定可能
+- [同時感染](co-infection.md) -- 環境型 + 他のタイプの組み合わせが複合的危険を生む
+{: .ja}

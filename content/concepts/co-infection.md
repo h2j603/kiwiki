@@ -8,15 +8,47 @@ nav_order: 11
 
 <a href="/kiwiki/" class="home-link">⌂</a>
 
+<div class="ko" markdown="1">
+
+| 항목 | 값 |
+|------|-----|
+| 분류 | <span class="pill pill-type">핵심 개념</span> |
+| 정의 | 2종 이상의 웹키위바이러스에 동시 감염 |
+| 위험 수준 | 단일 감염보다 기하급수적으로 높음 |
+| 기록된 사례 | 드물지만 증가 추세 |
+
+</div>
+
+<div class="en" markdown="1">
 
 | Key | Value |
 |-----|-------|
-| Category | <span class="pill pill-type">핵심 개념 / Core Concept</span> |
+| Category | <span class="pill pill-type">Core Concept</span> |
 | Definition | Simultaneous infection by 2+ Web Kiwi Viruses |
 | Risk Level | Exponentially higher than single infection |
 | Documented Cases | Rare but increasing |
 
+</div>
+
+<div class="ja" markdown="1">
+
+| 項目 | 値 |
+|------|-----|
+| 分類 | <span class="pill pill-type">核心概念</span> |
+| 定義 | 2種以上のウェブキウイウイルスへの同時感染 |
+| リスクレベル | 単一感染より指数関数的に高い |
+| 記録された症例 | 稀だが増加傾向 |
+
+</div>
+
+## 개요
+{: .ko}
+
 ## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 Co-infection occurs when an individual is simultaneously infected by two or more Web Kiwi Viruses. This is not simply additive -- co-infected individuals do not merely experience two sets of symptoms side by side. Instead, the viruses **synergize**, producing combined effects that are qualitatively different from and far more dangerous than either infection alone. A person infected with both [EchoLoop](../viruses/echoloop.md) (cognitive loops) and [NullWhisper](../viruses/nullwhisper.md) (corrupted decision-making) doesn't just experience loops *and* whispers. The loops begin *containing* the whispers, creating an inescapable feedback cycle where every repeated perception reinforces the corrupted logic, and the corrupted logic prevents the victim from recognizing the loop. Co-infection transforms two manageable conditions into one unmanageable one.
 {: .en}
@@ -27,7 +59,14 @@ Co-infection occurs when an individual is simultaneously infected by two or more
 同時感染は、個人が2種以上のウェブキウイウイルスに同時に感染した時に発生する。これは単純な加算ではない――同時感染者は2セットの症状を並行して経験するのではない。代わりにウイルスが**相乗効果**を起こし、いずれの感染単独よりも質的に異なり、はるかに危険な複合効果を生み出す。[エコループ](../viruses/echoloop.md)（認知ループ）と[ヌルウィスパー](../viruses/nullwhisper.md)（汚染された意思決定）に同時感染した人はループ*と*囁きを別々に経験するのではない。ループが囁きを*含み*始め、繰り返される知覚が汚染された論理を強化し、汚染された論理が感染者のループ認識を妨げる、脱出不可能なフィードバックサイクルを作り出す。同時感染は管理可能な2つの状態を管理不可能な1つの状態に変換する。
 {: .ja}
 
+## 동시 감염의 발생 경로
+{: .ko}
+
 ## How Co-infection Occurs
+{: .en}
+
+## 同時感染の発生経路
+{: .ja}
 
 Co-infection can happen through several pathways:
 
@@ -53,11 +92,34 @@ Co-infection can happen through several pathways:
 4. **意図的な組み合わせ** ── 特に[メール](email.md)経路を通じて、標的型攻撃が単一メッセージに複数のウイルスペイロードを配信しうる。
 {: .ja}
 
+## 위험한 조합
+{: .ko}
+
 ## Dangerous Combinations
+{: .en}
+
+## 危険な組み合わせ
+{: .ja}
 
 The following co-infection pairs have been documented or theorized as particularly dangerous:
+{: .en}
+
+다음은 특히 위험한 것으로 기록되었거나 이론화된 동시 감염 쌍이다:
+{: .ko}
+
+以下は特に危険であると記録または理論化された同時感染ペアである：
+{: .ja}
+
+### 치명적 조합
+{: .ko}
 
 ### Critical Combinations
+{: .en}
+
+### 致命的な組み合わせ
+{: .ja}
+
+<div class="en" markdown="1">
 
 | Pair | Types | Risk | Synergy Effect |
 |------|-------|------|----------------|
@@ -66,7 +128,40 @@ The following co-infection pairs have been documented or theorized as particular
 | [ThreadCut](../viruses/threadcut.md) + [ParadoxFeed](../viruses/paradoxfeed.md) | Cognitive + Logic | Extreme | Severed memory connections are filled with contradictory logic |
 | [CacheVein](../viruses/cachevein.md) + [WireRoot](../viruses/wireroot.md) | Environmental + Environmental | Extreme | Two environmental viruses combine to produce accelerated physical contamination |
 
+</div>
+
+<div class="ko" markdown="1">
+
+| 조합 | 유형 | 위험도 | 시너지 효과 |
+|------|------|--------|-------------|
+| [널위스퍼](../viruses/nullwhisper.md) + [포겟미낫](../viruses/forgetmenot.md) | 로직형 + 인지형 | 극도 | 감염자가 잘못된 결정을 잊지만 계속 내림 |
+| [블라인드스팟](../viruses/blindspot.md) + [글리치모스](../viruses/glitchmoss.md) | 감각형 + 환경형 | 극도 | 감염자가 주변에서 일어나는 물리적 변화를 볼 수 없음 |
+| [스레드컷](../viruses/threadcut.md) + [패러독스피드](../viruses/paradoxfeed.md) | 인지형 + 로직형 | 극도 | 절단된 기억 연결이 모순적 논리로 채워짐 |
+| [캐시베인](../viruses/cachevein.md) + [와이어루트](../viruses/wireroot.md) | 환경형 + 환경형 | 극도 | 두 환경형 바이러스가 결합하여 가속된 물리적 오염 생산 |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| 組み合わせ | タイプ | リスク | シナジー効果 |
+|-----------|--------|--------|-------------|
+| [ヌルウィスパー](../viruses/nullwhisper.md) + [フォーゲットミーノット](../viruses/forgetmenot.md) | ロジック型 + 認知型 | 極度 | 感染者が悪い決定を忘れるが作り続ける |
+| [ブラインドスポット](../viruses/blindspot.md) + [グリッチモス](../viruses/glitchmoss.md) | 感覚型 + 環境型 | 極度 | 感染者が周囲で起きている物理的変化を見ることができない |
+| [スレッドカット](../viruses/threadcut.md) + [パラドックスフィード](../viruses/paradoxfeed.md) | 認知型 + ロジック型 | 極度 | 切断された記憶の接続が矛盾する論理で埋められる |
+| [キャッシュベイン](../viruses/cachevein.md) + [ワイヤールート](../viruses/wireroot.md) | 環境型 + 環境型 | 極度 | 2つの環境型ウイルスが結合して加速された物理的汚染を生む |
+
+</div>
+
+### 고위험 조합
+{: .ko}
+
 ### High-risk Combinations
+{: .en}
+
+### 高リスクの組み合わせ
+{: .ja}
+
+<div class="en" markdown="1">
 
 | Pair | Types | Risk | Synergy Effect |
 |------|-------|------|----------------|
@@ -75,19 +170,44 @@ The following co-infection pairs have been documented or theorized as particular
 | [InkBleed](../viruses/inkbleed.md) + [NameEater](../viruses/nameeater.md) | Logic + Cognitive | Very High | Written words change meaning while proper nouns are consumed from memory |
 | [HowlLink](../viruses/howllink.md) + [EchoRoom](../viruses/echoroom.md) | Sensory + Environmental | Very High | Phantom howling amplified by acoustically altered spaces |
 
-{: .en}
+</div>
 
-다음은 특히 위험한 것으로 기록되었거나 이론화된 동시 감염 쌍이다:
+<div class="ko" markdown="1">
+
+| 조합 | 유형 | 위험도 | 시너지 효과 |
+|------|------|--------|-------------|
+| [에코루프](../viruses/echoloop.md) + [데드스크롤](../viruses/deadscroll.md) | 인지형 + 인지형 | 매우 높음 | 무한 지각 루프와 콘텐츠 소비 중단 불능의 결합 |
+| [미러링크](../viruses/mirrorlink.md) + [크로마드리프트](../viruses/chromadrift.md) | 감각형 + 감각형 | 매우 높음 | 반영 왜곡과 색상 스펙트럼 재매핑의 결합 |
+| [잉크블리드](../viruses/inkbleed.md) + [네임이터](../viruses/nameeater.md) | 로직형 + 인지형 | 매우 높음 | 글자의 의미가 변하면서 고유명사가 기억에서 사라짐 |
+| [하울링크](../viruses/howllink.md) + [에코룸](../viruses/echoroom.md) | 감각형 + 환경형 | 매우 높음 | 음향적으로 변형된 공간에 의해 증폭되는 유령 울음 |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| 組み合わせ | タイプ | リスク | シナジー効果 |
+|-----------|--------|--------|-------------|
+| [エコループ](../viruses/echoloop.md) + [デッドスクロール](../viruses/deadscroll.md) | 認知型 + 認知型 | 非常に高い | 無限の知覚ループとコンテンツ消費停止不能の結合 |
+| [ミラーリンク](../viruses/mirrorlink.md) + [クロマドリフト](../viruses/chromadrift.md) | 感覚型 + 感覚型 | 非常に高い | 反映歪みと色スペクトル再マッピングの結合 |
+| [インクブリード](../viruses/inkbleed.md) + [ネームイーター](../viruses/nameeater.md) | ロジック型 + 認知型 | 非常に高い | 文字の意味が変わりながら固有名詞が記憶から消える |
+| [ハウルリンク](../viruses/howllink.md) + [エコルーム](../viruses/echoroom.md) | 感覚型 + 環境型 | 非常に高い | 音響的に変容した空間により増幅される幻の遠吠え |
+
+</div>
 
 위의 조합들은 각각의 시너지 효과가 단독 감염보다 훨씬 위험한 복합 증상을 만들어낸다. 특히 로직형 + 인지형의 조합이 가장 치명적인 것으로 간주되는데, 판단력 오염과 인지 기반 파괴가 서로를 강화하여 자가 진단과 자가 치료를 모두 불가능하게 만들기 때문이다.
 {: .ko}
 
-以下は特に危険であると記録または理論化された同時感染ペアである：
-
 上記の組み合わせはそれぞれのシナジー効果が単独感染よりはるかに危険な複合症状を生み出す。特にロジック型＋認知型の組み合わせが最も致命的と見なされているが、判断力の汚染と認知基盤の破壊が互いを強化し、自己診断と自己治療の両方を不可能にするためである。
 {: .ja}
 
+## 가속된 경계 무너짐
+{: .ko}
+
 ## Accelerated Boundary Collapse
+{: .en}
+
+## 加速された境界崩壊
+{: .ja}
 
 One of the most significant effects of co-infection is **accelerated [Boundary Collapse](boundary-collapse.md)**. A single infection may take weeks or months to progress from Stage 1 (Web-Contained) to Stage 3 (Reality Breach). Co-infection has been documented compressing this timeline to days. The theory is that each virus weakens the web-reality boundary independently, and when two viruses attack the same boundary from different angles, the cumulative stress causes rapid failure. This is why co-infection cases disproportionately result in [Irreversible Transformation](irreversible.md) -- the collapse happens so quickly that intervention cannot occur in time.
 {: .en}
@@ -98,9 +218,29 @@ One of the most significant effects of co-infection is **accelerated [Boundary C
 同時感染の最も重要な効果の1つは**加速された[境界崩壊](boundary-collapse.md)**である。単一感染は第1段階（ウェブ限定）から第3段階（現実侵犯）への進行に数週間から数ヶ月かかることがある。同時感染はこのタイムラインを数日に圧縮することが記録されている。理論上、各ウイルスが独立してウェブ-現実境界を弱め、2つのウイルスが異なる角度から同じ境界を攻撃すると、累積されたストレスが急速な破壊を引き起こす。これが同時感染のケースが[不可逆的変容](irreversible.md)に不均衡に至る理由である――崩壊が速すぎて介入が間に合わないのだ。
 {: .ja}
 
+## 관련 개념
+{: .ko}
+
 ## Related Concepts
+{: .en}
+
+## 関連概念
+{: .ja}
 
 - [Boundary Collapse](boundary-collapse.md) -- co-infection dramatically accelerates the collapse timeline
 - [Irreversible Transformation](irreversible.md) -- co-infection cases are disproportionately likely to become irreversible
 - [Manifestation](manifestation.md) -- co-infection manifestations are qualitatively unique, not just combined
 - [SNS](sns.md) -- the vector most likely to produce co-infection due to high exposure volume
+{: .en}
+
+- [경계 무너짐](boundary-collapse.md) -- 동시 감염이 무너짐 시간을 극적으로 가속시킨다
+- [비가역적 변형](irreversible.md) -- 동시 감염 사례는 비가역적으로 될 가능성이 불균형적으로 높다
+- [발현](manifestation.md) -- 동시 감염 발현은 단순한 조합이 아닌 질적으로 독특하다
+- [SNS](sns.md) -- 높은 노출량으로 인해 동시 감염을 가장 많이 유발하는 경로
+{: .ko}
+
+- [境界崩壊](boundary-collapse.md) -- 同時感染が崩壊タイムラインを劇的に加速する
+- [不可逆的変形](irreversible.md) -- 同時感染のケースは不可逆的になる可能性が不均衡に高い
+- [発現](manifestation.md) -- 同時感染の発現は単なる組み合わせではなく質的に独特である
+- [SNS](sns.md) -- 高い曝露量のため同時感染を最も多く生み出す経路
+{: .ja}

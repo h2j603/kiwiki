@@ -8,15 +8,47 @@ nav_order: 10
 
 <a href="/kiwiki/" class="home-link">⌂</a>
 
+<div class="ko" markdown="1">
+
+| 항목 | 값 |
+|------|-----|
+| 분류 | <span class="pill pill-type">핵심 개념</span> |
+| 적용 대상 | 모든 웹키위바이러스 |
+| 단계 | 4-5 (바이러스마다 다름) |
+| 최종 단계 | [비가역적 변형](irreversible.md) |
+
+</div>
+
+<div class="en" markdown="1">
 
 | Key | Value |
 |-----|-------|
-| Category | <span class="pill pill-type">핵심 개념 / Core Concept</span> |
+| Category | <span class="pill pill-type">Core Concept</span> |
 | Applies To | All Web Kiwi Viruses |
 | Stages | 4-5 (varies by virus) |
 | Terminal Stage | [Irreversible Transformation](irreversible.md) |
 
+</div>
+
+<div class="ja" markdown="1">
+
+| 項目 | 値 |
+|------|-----|
+| 分類 | <span class="pill pill-type">核心概念</span> |
+| 適用対象 | すべてのウェブキウイウイルス |
+| 段階 | 4-5（ウイルスにより異なる） |
+| 最終段階 | [不可逆的変形](irreversible.md) |
+
+</div>
+
+## 개요
+{: .ko}
+
 ## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 Boundary Collapse is the central mechanism underlying every Web Kiwi Virus infection. It describes the process by which phenomena that originate in the web -- digital artifacts, data patterns, network behaviors -- cross the boundary between the digital and physical worlds to manifest in reality. Every WKV infection is, at its core, a boundary collapse event. The virus begins as a web phenomenon (a corrupted image, a malformed message, an abandoned page) and, through the infected person, progressively extends its effects into the physical world. What starts as a screen glitch becomes a visual distortion in the real world. What starts as a phantom notification becomes an audible sound with no source. What starts as static on a webpage becomes moss growing on a wall.
 
@@ -33,11 +65,33 @@ The term "boundary" refers to the assumed separation between digital information
 「境界」という用語はデジタル情報と物理的現実の間の想定された分離――画面上で起こることは画面にとどまるという観念――を指す。ウェブキウイウイルスはこの境界が絶対的でないことを証明する。それは弱められ、突破され、最終的なケースでは永久に消去されうる。
 {: .ja}
 
+## 경계 무너짐의 단계
+{: .ko}
+
 ## The Stages of Boundary Collapse
+{: .en}
+
+## 境界崩壊の段階
+{: .ja}
 
 While each virus has its own unique collapse pattern, most follow a general progression through 4-5 stages:
+{: .en}
 
-### Stage 1: Web-Contained (웹 한정 / ウェブ限定)
+각 바이러스마다 고유한 무너짐 패턴이 있지만, 대부분 4-5단계를 거쳐 진행된다:
+{: .ko}
+
+各ウイルスには固有の崩壊パターンがあるが、ほとんどは4-5段階を経て進行する：
+{: .ja}
+
+### 1단계: 웹 한정
+{: .ko}
+
+### Stage 1: Web-Contained
+{: .en}
+
+### 第1段階：ウェブ限定
+{: .ja}
+
 The virus exists only in the digital space. Symptoms appear exclusively on screens: corrupted images, distorted text, phantom notifications, altered search results. At this stage, turning off the device eliminates all symptoms. The boundary is intact; the virus is probing it.
 {: .en}
 
@@ -47,7 +101,15 @@ The virus exists only in the digital space. Symptoms appear exclusively on scree
 ウイルスはデジタル空間にのみ存在する。症状は画面上にのみ現れる：破損した画像、歪んだテキスト、幻の通知、変容した検索結果。この段階ではデバイスの電源を切ればすべての症状が消える。境界は無傷だ；ウイルスがそれを探っている。
 {: .ja}
 
-### Stage 2: Web Spread (웹 확산 / ウェブ拡散)
+### 2단계: 웹 확산
+{: .ko}
+
+### Stage 2: Web Spread
+{: .en}
+
+### 第2段階：ウェブ拡散
+{: .ja}
+
 The virus spreads across multiple digital surfaces. It is no longer confined to the original infection vector. A virus contracted through [SNS](sns.md) now appears in [Email](email.md). A [Messenger](messenger.md) virus manifests across all messaging apps. The victim's entire digital environment is contaminated. Symptoms intensify but remain digital. The boundary is weakening.
 {: .en}
 
@@ -57,7 +119,15 @@ The virus spreads across multiple digital surfaces. It is no longer confined to 
 ウイルスが複数のデジタル面に拡散する。もはや元の感染経路に限定されない。[SNS](sns.md)を通じて感染したウイルスが[メール](email.md)に現れる。[メッセンジャー](messenger.md)ウイルスがすべてのメッセージングアプリで発現する。感染者のデジタル環境全体が汚染される。症状は悪化するがデジタルにとどまる。境界が弱まっている。
 {: .ja}
 
-### Stage 3: Reality Breach (현실 침범 / 現実侵犯)
+### 3단계: 현실 침범
+{: .ko}
+
+### Stage 3: Reality Breach
+{: .en}
+
+### 第3段階：現実侵犯
+{: .ja}
+
 The critical threshold. Symptoms begin appearing without any device present. The victim sees visual distortions while looking at a blank wall. They hear notification sounds with their phone turned off. They feel phantom textures on their skin with no screen in sight. For [Environmental-type](environmental.md) viruses, physical objects begin showing changes -- rust patterns, growth, structural warping. The boundary has been breached. Turning off all devices no longer provides relief.
 {: .en}
 
@@ -67,7 +137,15 @@ The critical threshold. Symptoms begin appearing without any device present. The
 決定的な閾値である。症状がデバイスなしでも現れ始める。感染者は白い壁を見ながら視覚的歪みを見る。携帯の電源が切れた状態で通知音を聞く。近くに画面がないのに皮膚に幻の質感を感じる。[環境型](environmental.md)ウイルスの場合、物理的物体に変化が現れ始める――錆のパターン、成長、構造的歪み。境界が突破された。すべてのデバイスの電源を切ってももはや緩和されない。
 {: .ja}
 
-### Stage 4: Reality Anchor (현실 정착 / 現実定着)
+### 4단계: 현실 정착
+{: .ko}
+
+### Stage 4: Reality Anchor
+{: .en}
+
+### 第4段階：現実定着
+{: .ja}
+
 The virus has established a permanent presence in physical reality. Symptoms are constant, stable, and self-sustaining. They no longer require the victim's digital activity to maintain themselves. For some virus types, treatment at this stage can still achieve partial or full reversal. For others, the infection has become part of the victim's baseline reality. The boundary has not just been breached -- it has been relocated. What was once purely digital is now also physical.
 {: .en}
 
@@ -77,7 +155,15 @@ The virus has established a permanent presence in physical reality. Symptoms are
 ウイルスが物理的現実に恒久的な存在を確立した。症状は持続的、安定的、自己維持的である。もはや感染者のデジタル活動を維持に必要としない。一部のウイルス類型ではこの段階での治療で部分的または完全な逆転が可能である。他の類型では感染が感染者の基準現実の一部となっている。境界は突破されたのではない――再配置されたのだ。かつて純粋にデジタルだったものが、今や物理的でもある。
 {: .ja}
 
-### Stage 5: Irreversible (비가역 / 不可逆) — *Not all viruses reach this stage*
+### 5단계: 비가역 — *모든 바이러스가 이 단계에 도달하지는 않음*
+{: .ko}
+
+### Stage 5: Irreversible — *Not all viruses reach this stage*
+{: .en}
+
+### 第5段階：不可逆 — *すべてのウイルスがこの段階に到達するわけではない*
+{: .ja}
+
 The terminal stage, documented in only a subset of viruses. See [Irreversible Transformation](irreversible.md) for full details. At this stage, the boundary between web and reality has been permanently destroyed in the affected domain. The change cannot be undone by any known means. GlitchMoss-covered walls cannot be cleaned. BlindSpot-erased vision cannot be restored. ForgetMeNot-consumed memories cannot be recovered. The collapse is total and permanent.
 {: .en}
 
@@ -87,7 +173,14 @@ The terminal stage, documented in only a subset of viruses. See [Irreversible Tr
 最終段階で、一部のウイルスでのみ記録されている。詳細は[不可逆的変容](irreversible.md)を参照。この段階では、ウェブと現実の境界が影響を受けた領域で恒久的に破壊されている。既知のいかなる手段でも変化を元に戻せない。グリッチモスに覆われた壁は清掃できない。ブラインドスポットで消された視力は復元できない。フォーゲットミーノットに食べられた記憶は回復できない。崩壊は完全かつ永久的である。
 {: .ja}
 
+## 유형별 무너짐 패턴
+{: .ko}
+
 ## Collapse Patterns by Type
+{: .en}
+
+## タイプ別崩壊パターン
+{: .ja}
 
 Each virus type exhibits a characteristic boundary collapse pattern:
 
@@ -113,9 +206,29 @@ Each virus type exhibits a characteristic boundary collapse pattern:
 - **[環境型](environmental.md)：** 最も文字通りの崩壊。物理的物質が変容する。崩壊は測定可能で、写真撮影可能で、しばしば不可逆的である。
 {: .ja}
 
+## 관련 개념
+{: .ko}
+
 ## Related Concepts
+{: .en}
+
+## 関連概念
+{: .ja}
 
 - [Irreversible Transformation](irreversible.md) -- the terminal stage of boundary collapse
 - [Manifestation](manifestation.md) -- boundary collapse is the mechanism; manifestation is the result
 - [Co-infection](co-infection.md) -- multiple simultaneous collapses accelerate progression
 - [Environmental Type](environmental.md) -- the type most directly defined by boundary collapse
+{: .en}
+
+- [비가역적 변형](irreversible.md) -- 경계 무너짐의 최종 단계
+- [발현](manifestation.md) -- 경계 무너짐은 메커니즘이고, 발현은 결과다
+- [동시 감염](co-infection.md) -- 다중 동시 무너짐이 진행을 가속시킨다
+- [환경형](environmental.md) -- 경계 무너짐으로 가장 직접 정의되는 유형
+{: .ko}
+
+- [不可逆的変形](irreversible.md) -- 境界崩壊の最終段階
+- [発現](manifestation.md) -- 境界崩壊はメカニズムであり、発現は結果である
+- [同時感染](co-infection.md) -- 複数の同時崩壊が進行を加速する
+- [環境型](environmental.md) -- 境界崩壊で最も直接的に定義されるタイプ
+{: .ja}

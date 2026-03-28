@@ -29,7 +29,14 @@ Manifestation refers to the way a Web Kiwi Virus expresses its symptoms in the p
 
 ## Manifestation Categories
 
-### Sensory Manifestation (감각적 발현 / 感覚的発現)
+### 감각적 발현
+{: .ko}
+
+### Sensory Manifestation
+{: .en}
+
+### 感覚的発現
+{: .ja}
 
 Produced by [Sensory-type](sensory.md) viruses. The victim perceives stimuli that are not physically present, or loses the ability to perceive stimuli that are. Sensory manifestation is the **most detectable** category because it produces immediate, obvious disruptions to the victim's experience. Visual distortions, phantom sounds, phantom tactile sensations -- these are things the victim notices immediately, even if they initially attribute them to fatigue or stress.
 
@@ -46,7 +53,14 @@ Examples:
 [感覚型](sensory.md)ウイルスによって生み出される。感染者が物理的に存在しない刺激を知覚するか、存在する刺激を知覚する能力を失う。感覚的発現は感染者の体験に即座かつ明白な混乱を引き起こすため、**最も検出可能な**カテゴリである。視覚的歪み、幻聴、幻触覚――これらは感染者が最初は疲労やストレスのせいにしても即座に気づくものだ。
 {: .ja}
 
-### Cognitive Manifestation (인지적 발현 / 認知的発現)
+### 인지적 발현
+{: .ko}
+
+### Cognitive Manifestation
+{: .en}
+
+### 認知的発現
+{: .ja}
 
 Produced by [Cognitive-type](cognitive.md) viruses. Memory gaps, temporal distortion, identity confusion, perceptual loops. Cognitive manifestation occupies a middle ground of detectability -- the victim often notices that *something* is wrong, but cannot precisely identify *what*. They forget a name and think nothing of it. They lose track of time and blame their schedule. The subtle, gradual nature of cognitive manifestation means it often progresses significantly before detection.
 
@@ -63,7 +77,14 @@ Examples:
 [認知型](cognitive.md)ウイルスによって生み出される。記憶の空白、時間的歪曲、アイデンティティの混乱、知覚ループ。認知的発現は検出可能性の中間地帯を占める――感染者は*何か*が間違っていることに気づくことが多いが、*何が*間違っているか正確に特定できない。名前を忘れて気にしない。時間感覚を失いスケジュールのせいにする。認知的発現の微妙で漸進的な性質は、検出前にかなり進行していることが多いことを意味する。
 {: .ja}
 
-### Logical Manifestation (논리적 발현 / 論理的発現)
+### 논리적 발현
+{: .ko}
+
+### Logical Manifestation
+{: .en}
+
+### 論理的発現
+{: .ja}
 
 Produced by [Logic-type](logic.md) viruses. Corrupted reasoning, biased judgment, self-destructive decision-making that appears rational. Logical manifestation is the **least detectable** category -- and paradoxically, this makes it the most dangerous. The victim's behavior changes, but the changes are always justifiable. They can explain every decision. They can defend every choice. The corrupted logic produces perfectly constructed rationalizations for increasingly harmful actions. External observers may notice a pattern of poor decisions, but the victim will argue convincingly that each decision was correct.
 
@@ -80,7 +101,14 @@ Examples:
 [ロジック型](logic.md)ウイルスによって生み出される。汚染された推論、偏った判断、合理的に見える自己破壊的意思決定。論理的発現は**最も検出困難な**カテゴリである――そしてパラドックス的に、これが最も危険にする。感染者の行動は変化するが、変化は常に正当化可能である。すべての決定を説明できる。すべての選択を弁護できる。汚染された論理がますます有害な行動に対する完璧に構成された合理化を生み出す。外部の観察者が悪い決定のパターンに気づくかもしれないが、感染者は各決定が正しかったと説得力を持って主張するだろう。
 {: .ja}
 
-### Physical Manifestation (물리적 발현 / 物理的発現)
+### 물리적 발현
+{: .ko}
+
+### Physical Manifestation
+{: .en}
+
+### 物理的発現
+{: .ja}
 
 Produced by [Environmental-type](environmental.md) viruses. Measurable, photographable changes to physical spaces and objects. Physical manifestation is unique because it affects the world rather than the individual. The infected person may feel perfectly fine while their apartment grows circuitry through its walls. Physical manifestation is the most alarming category because it proves that [Boundary Collapse](boundary-collapse.md) is not merely perceptual -- the web really is crossing into physical reality.
 

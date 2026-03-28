@@ -8,16 +8,50 @@ nav_order: 1
 
 <a href="/kiwiki/" class="home-link">⌂</a>
 
+<div class="ko" markdown="1">
+
+| 항목 | 값 |
+|------|-----|
+| 분류 | <span class="pill pill-type">유형</span> |
+| 분류 코드 | <span class="pill pill-code">WKV-L</span> |
+| 영향 영역 | 추론, 판단, 의사결정 |
+| 알려진 바이러스 | 8종 |
+| 평균 심각도 | 높음 |
+
+</div>
+
+<div class="en" markdown="1">
 
 | Key | Value |
 |-----|-------|
-| Category | <span class="pill pill-type">유형 / Type</span> |
+| Category | <span class="pill pill-type">Type</span> |
 | Classification Code | <span class="pill pill-code">WKV-L</span> |
 | Affected Domain | Reasoning, judgment, decision-making |
 | Known Viruses | 8 |
 | Avg. Severity | High |
 
+</div>
+
+<div class="ja" markdown="1">
+
+| 項目 | 値 |
+|------|-----|
+| 分類 | <span class="pill pill-type">タイプ</span> |
+| 分類コード | <span class="pill pill-code">WKV-L</span> |
+| 影響領域 | 推論、判断、意思決定 |
+| 既知のウイルス | 8種 |
+| 平均重症度 | 高 |
+
+</div>
+
+## 개요
+{: .ko}
+
 ## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 Logic-type viruses are one of four primary classifications of Web Kiwi Virus. They target the victim's reasoning processes, judgment, and decision-making ability. Unlike [Cognitive-type](cognitive.md) viruses, which distort *how* a person perceives information, Logic-type viruses distort *how* a person acts on information. The infected individual's capacity to process facts remains intact -- but the conclusions they draw, the choices they make, and the priorities they set are systematically corrupted. This makes Logic-type infections notoriously difficult to self-diagnose: the victim believes they are thinking clearly, because they are. The logic itself is sound. It is the premises that have been poisoned.
 {: .en}
@@ -28,7 +62,14 @@ Logic-type viruses are one of four primary classifications of Web Kiwi Virus. Th
 ロジック型ウイルスは、ウェブキウイウイルスの4つの主要分類の1つであり、感染者の推論過程、判断力、意思決定能力を標的とする。情報の*認識方法*を歪める[認知型](cognitive.md)ウイルスとは異なり、ロジック型ウイルスは情報への*対応方法*を歪める。感染者の事実処理能力自体は完全に維持されるが、導き出す結論、下す選択、設定する優先順位が体系的に汚染される。このためロジック型感染は自己診断が極めて困難である。感染者は自分が明確に思考していると信じているが、実際にその通りだからだ。論理そのものは健全である。汚染されているのは前提なのだ。
 {: .ja}
 
+## 일반적 패턴
+{: .ko}
+
 ## Common Patterns
+{: .en}
+
+## 一般的なパターン
+{: .ja}
 
 Logic-type viruses share several operational patterns that distinguish them from other types. First, they tend to operate through **suggestion rather than compulsion**. The victim is never forced to act; instead, corrupted reasoning makes the harmful choice appear to be the optimal one. Second, they frequently employ **escalating stakes** -- early decisions seem trivial (choosing a different route to work, skipping a meal), but each corrupted choice narrows the victim's options until they are locked into catastrophic outcomes. Third, most Logic-type viruses exhibit a **mimicry of rationality**: symptoms present as reasonable thought rather than intrusive or alien impulses, which is why third-party intervention is often the only path to diagnosis.
 {: .en}
@@ -39,20 +80,68 @@ Logic-type viruses share several operational patterns that distinguish them from
 ロジック型ウイルスは、他の型と区別される共通の動作パターンを持つ。第一に、**強制ではなく暗示**を通じて作動する傾向がある。感染者は行動を強制されず、代わりに汚染された推論が有害な選択を最適に見せる。第二に、**段階的なリスク上昇**を頻繁に用いる――初期の決定は些細に見えるが（通勤ルートの変更、食事の抜き）、汚染された選択のたびに選択肢が狭まり、最終的に壊滅的な結果へ至る。第三に、ほとんどのロジック型ウイルスは**合理性の模倣**を示す：症状が侵入的あるいは異質な衝動ではなく合理的思考として現れるため、第三者の介入が唯一の診断経路となることが多い。
 {: .ja}
 
+## 알려진 로직형 바이러스
+{: .ko}
+
 ## Known Logic-type Viruses
+{: .en}
+
+## 既知のロジック型ウイルス
+{: .ja}
+
+<div class="en" markdown="1">
 
 | Virus | Vector | Severity | Key Characteristic |
 |-------|--------|----------|--------------------|
-| [NullWhisper](../viruses/nullwhisper.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-high">높음</span> | Whispered suggestions at decision points |
-| [SyntaxWraith](../viruses/syntaxwraith.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-moderate">보통</span> | Corrupts grammatical logic in written communication |
-| [PhantomTab](../viruses/phantomtab.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | Creates phantom browser tabs that influence choices |
-| [ByteShade](../viruses/byteshade.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-high">높음</span> | Shades numerical reasoning toward wrong conclusions |
-| [GhostPing](../viruses/ghostping.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-moderate">보통</span> | Phantom notifications that redirect attention and priority |
-| [ParadoxFeed](../viruses/paradoxfeed.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-high">높음</span> | Feeds contradictory premises that both seem true |
-| [InkBleed](../viruses/inkbleed.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | Written words bleed new meaning, altering intent |
-| [ClipBoard](../viruses/clipboard.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-moderate">보통</span> | Clipboard contents subtly alter pasted decisions |
+| [NullWhisper](../viruses/nullwhisper.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-high">High</span> | Whispered suggestions at decision points |
+| [SyntaxWraith](../viruses/syntaxwraith.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-moderate">Moderate</span> | Corrupts grammatical logic in written communication |
+| [PhantomTab](../viruses/phantomtab.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">Moderate</span> | Creates phantom browser tabs that influence choices |
+| [ByteShade](../viruses/byteshade.md) | <span class="pill pill-vector">Email</span> | <span class="pill pill-severity-high">High</span> | Shades numerical reasoning toward wrong conclusions |
+| [GhostPing](../viruses/ghostping.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-moderate">Moderate</span> | Phantom notifications that redirect attention and priority |
+| [ParadoxFeed](../viruses/paradoxfeed.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-high">High</span> | Feeds contradictory premises that both seem true |
+| [InkBleed](../viruses/inkbleed.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">High</span> | Written words bleed new meaning, altering intent |
+| [ClipBoard](../viruses/clipboard.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-moderate">Moderate</span> | Clipboard contents subtly alter pasted decisions |
+
+</div>
+
+<div class="ko" markdown="1">
+
+| 바이러스 | 경로 | 심각도 | 핵심 특성 |
+|----------|------|--------|-----------|
+| [널위스퍼](../viruses/nullwhisper.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-high">높음</span> | 결정 시점에서의 속삭이는 암시 |
+| [신택스레이스](../viruses/syntaxwraith.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-moderate">보통</span> | 문어 커뮤니케이션의 문법적 논리를 오염 |
+| [팬텀탭](../viruses/phantomtab.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | 선택에 영향을 미치는 유령 브라우저 탭 생성 |
+| [바이트셰이드](../viruses/byteshade.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-high">높음</span> | 수치적 추론을 잘못된 결론 쪽으로 왜곡 |
+| [고스트핑](../viruses/ghostping.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-moderate">보통</span> | 주의와 우선순위를 재지향하는 유령 알림 |
+| [패러독스피드](../viruses/paradoxfeed.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-high">높음</span> | 둘 다 참으로 보이는 모순된 전제를 공급 |
+| [잉크블리드](../viruses/inkbleed.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | 글자가 새로운 의미를 흘려 의도를 변형 |
+| [클립보드](../viruses/clipboard.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-moderate">보통</span> | 클립보드 내용이 미묘하게 붙여넣기된 결정을 변형 |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| ウイルス | 経路 | 重症度 | 主な特徴 |
+|----------|------|--------|----------|
+| [ヌルウィスパー](../viruses/nullwhisper.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 決定時点での囁く暗示 |
+| [シンタックスレイス](../viruses/syntaxwraith.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-moderate">中</span> | 書面コミュニケーションの文法的論理を汚染 |
+| [ファントムタブ](../viruses/phantomtab.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 選択に影響する幻のブラウザタブを作成 |
+| [バイトシェイド](../viruses/byteshade.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-high">高</span> | 数値的推論を誤った結論に歪曲 |
+| [ゴーストピング](../viruses/ghostping.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 注意と優先順位を再指向する幻の通知 |
+| [パラドックスフィード](../viruses/paradoxfeed.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 両方とも真に見える矛盾した前提を供給 |
+| [インクブリード](../viruses/inkbleed.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 文字が新しい意味を滲ませ意図を変容 |
+| [クリップボード](../viruses/clipboard.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-moderate">中</span> | クリップボード内容が微妙に貼り付けられた決定を変容 |
+
+</div>
+
+## 로직형이 위험한 이유
+{: .ko}
 
 ## Why Logic-type is Dangerous
+{: .en}
+
+## ロジック型が危険な理由
+{: .ja}
 
 The greatest threat posed by Logic-type viruses is their **invisibility to the infected**. A person suffering from [Sensory-type](sensory.md) distortion knows something is wrong when they see colors that shouldn't exist. A person experiencing [Cognitive-type](cognitive.md) memory loss notices the gaps. But a Logic-type victim experiences perfect clarity -- a clarity that is entirely manufactured. This is why Logic-type viruses have the highest rate of late-stage detection among all four types. By the time the infection is identified, the victim has often already made a chain of decisions whose consequences are difficult or impossible to reverse. The concept of [Boundary Collapse](boundary-collapse.md) applies uniquely here: it is not the environment or senses that cross from web to reality, but the *reasoning framework itself*.
 {: .en}
@@ -63,9 +152,29 @@ The greatest threat posed by Logic-type viruses is their **invisibility to the i
 ロジック型ウイルスの最大の脅威は、**感染者にとって不可視**であることだ。[感覚型](sensory.md)の歪みに苦しむ人は、存在しないはずの色が見えた時に異常を察知する。[認知型](cognitive.md)の記憶喪失を経験する人は空白に気づく。しかしロジック型の感染者は完璧な明晰さを経験する――完全に作られた明晰さを。これが、ロジック型ウイルスが4類型の中で後期段階での発見率が最も高い理由である。感染が特定される頃には、感染者はすでに取り返しのつかない一連の決定を下していることが多い。[境界崩壊](boundary-collapse.md)の概念がここで独自に適用される：ウェブから現実に越境するのは環境や感覚ではなく、*推論体系そのもの*なのだ。
 {: .ja}
 
+## 관련 개념
+{: .ko}
+
 ## Related Concepts
+{: .en}
+
+## 関連概念
+{: .ja}
 
 - [Cognitive Type](cognitive.md) -- frequently confused with Logic-type; see key differences above
 - [Boundary Collapse](boundary-collapse.md) -- Logic-type collapse manifests as corrupted reasoning frameworks
 - [Co-infection](co-infection.md) -- Logic + Cognitive co-infection is considered one of the most dangerous combinations
 - [Manifestation](manifestation.md) -- Logic-type manifestation is the hardest to detect externally
+{: .en}
+
+- [인지형](cognitive.md) -- 로직형과 자주 혼동됨; 위의 핵심 차이 참조
+- [경계 무너짐](boundary-collapse.md) -- 로직형 무너짐은 오염된 추론 체계로 나타남
+- [동시 감염](co-infection.md) -- 로직형 + 인지형 동시 감염이 가장 위험한 조합 중 하나
+- [발현](manifestation.md) -- 로직형 발현이 외부에서 가장 감지하기 어려움
+{: .ko}
+
+- [認知型](cognitive.md) -- ロジック型と頻繁に混同される；上記の主要な違いを参照
+- [境界崩壊](boundary-collapse.md) -- ロジック型の崩壊は汚染された推論フレームワークとして現れる
+- [同時感染](co-infection.md) -- ロジック型 + 認知型の同時感染が最も危険な組み合わせの1つ
+- [発現](manifestation.md) -- ロジック型の発現が外部から最も検出困難
+{: .ja}

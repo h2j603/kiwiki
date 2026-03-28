@@ -8,16 +8,50 @@ nav_order: 8
 
 <a href="/kiwiki/" class="home-link">⌂</a>
 
+<div class="ko" markdown="1">
+
+| 항목 | 값 |
+|------|-----|
+| 분류 | <span class="pill pill-vector">전파 경로</span> |
+| 한국어 | 이메일 |
+| 감염 방식 | 첨부 파일, 본문 텍스트, 반송 알림, 헤더 |
+| 알려진 바이러스 | 5종 |
+| 특이사항 | 표적화된 개인 공격이 가능 |
+
+</div>
+
+<div class="en" markdown="1">
 
 | Key | Value |
 |-----|-------|
-| Category | <span class="pill pill-vector">전파 경로 / Vector</span> |
+| Category | <span class="pill pill-vector">Vector</span> |
 | Korean | 이메일 |
 | Infection Method | Attachments, body text, bounce notifications, headers |
 | Known Viruses | 5 |
 | Notable Feature | Enables targeted, individual attacks |
 
+</div>
+
+<div class="ja" markdown="1">
+
+| 項目 | 値 |
+|------|-----|
+| 分類 | <span class="pill pill-vector">伝播経路</span> |
+| 韓国語 | 이메일 |
+| 感染方式 | 添付ファイル、本文テキスト、バウンス通知、ヘッダー |
+| 既知のウイルス | 5種 |
+| 特記事項 | 標的型の個人攻撃が可能 |
+
+</div>
+
+## 개요
+{: .ko}
+
 ## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 Email is the fourth most common infection vector by volume, but it is unique in one critical respect: it is the only vector that reliably enables **targeted attacks**. [SNS](sns.md) viruses spread broadly and indiscriminately. [Search Engine](search-engine.md) viruses infect whoever searches for the right terms. But Email-vector viruses can be directed at a specific individual, sent to their personal inbox, crafted to exploit their specific patterns of behavior. This makes Email-vector viruses the preferred tool for what researchers have termed "precision infections" -- cases where a specific person appears to have been deliberately targeted. [VoidMail](../viruses/voidmail.md), the most dangerous Email-vector virus, has shown patterns consistent with intentional targeting, though the question of *who or what* is doing the targeting remains unanswered.
 {: .en}
@@ -28,9 +62,24 @@ Email is the fourth most common infection vector by volume, but it is unique in 
 メールは発生件数基準で4番目に一般的な感染経路だが、1つの決定的な側面で独特である：**標的型攻撃**を確実に可能にする唯一の経路であることだ。[SNS](sns.md)ウイルスは広範かつ無差別に拡散する。[検索エンジン](search-engine.md)ウイルスは適切な検索語を入力した誰でも感染させる。しかしメール経路ウイルスは特定の個人を狙い、個人の受信箱に送られ、その特定の行動パターンを悪用するよう作られうる。このためメール経路ウイルスは研究者が「精密感染」と呼ぶものの好まれるツールとなる――特定の人物が意図的に標的とされたと思われるケースだ。最も危険なメール経路ウイルスである[ボイドメール](../viruses/voidmail.md)は意図的な標的化と一致するパターンを示してきたが、*誰が、あるいは何が*標的を定めているかという疑問は未解決のままである。
 {: .ja}
 
+## 전파 방식
+{: .ko}
+
 ## Transmission Methods
+{: .en}
+
+## 伝播方式
+{: .ja}
+
+### 본문 텍스트 감염
+{: .ko}
 
 ### Body Text Infection
+{: .en}
+
+### 本文テキスト感染
+{: .ja}
+
 The simplest method. Viral payload is embedded in the email's text content. [ByteShade](../viruses/byteshade.md) operates this way -- the email appears to contain a normal message, but specific word patterns and character sequences in the body text trigger the infection upon reading. The infected person often does not even remember the email's content afterward, only that they read an email and felt slightly uneasy.
 {: .en}
 
@@ -40,7 +89,15 @@ The simplest method. Viral payload is embedded in the email's text content. [Byt
 最も単純な方法である。ウイルスペイロードがメールのテキストコンテンツに埋め込まれる。[バイトシェイド](../viruses/byteshade.md)がこの方式で動作する――メールは通常のメッセージを含んでいるように見えるが、本文の特定の単語パターンと文字列が読まれると同時に感染を引き起こす。感染者はその後メールの内容すら覚えていないことが多く、メールを読んで少し不安を感じたことだけを覚えている。
 {: .ja}
 
+### 첨부 파일 감염
+{: .ko}
+
 ### Attachment Infection
+{: .en}
+
+### 添付ファイル感染
+{: .ja}
+
 [PixelRot](../viruses/pixelrot.md) spreads primarily through image attachments. The images appear normal at first glance but contain pixel patterns that, when processed by the viewer's visual system, initiate the infection. [GlassVoice](../viruses/glassvoice.md) has been documented spreading through audio file attachments embedded in emails.
 {: .en}
 
@@ -50,7 +107,15 @@ The simplest method. Viral payload is embedded in the email's text content. [Byt
 [ピクセルロット](../viruses/pixelrot.md)は主に画像添付ファイルを通じて拡散する。画像は一見正常に見えるが、閲覧者の視覚システムが処理する際に感染を開始するピクセルパターンを含んでいる。[グラスボイス](../viruses/glassvoice.md)はメールに埋め込まれた音声ファイル添付を通じて拡散することが記録されている。
 {: .ja}
 
+### 반송 알림
+{: .ko}
+
 ### Bounce Notifications
+{: .en}
+
+### バウンス通知
+{: .ja}
+
 Perhaps the most disturbing Email-vector mechanism. [ForgetMeNot](../viruses/forgetmenot.md) and [VoidMail](../viruses/voidmail.md) have been documented spreading through **bounce-back notifications** -- the automated error messages you receive when an email cannot be delivered. The victim receives a bounce notification for an email they never sent, to an address they don't recognize. Reading the bounce notification is sufficient for infection. This weaponizes the email system's own error-handling infrastructure.
 {: .en}
 
@@ -60,19 +125,74 @@ Perhaps the most disturbing Email-vector mechanism. [ForgetMeNot](../viruses/for
 おそらく最も不穏なメール経路メカニズムである。[フォーゲットミーノット](../viruses/forgetmenot.md)と[ボイドメール](../viruses/voidmail.md)は**バウンス通知**――メールが配信できない時に受け取る自動エラーメッセージ――を通じて拡散することが記録されている。感染者は自分が送ったことのない、認識できないアドレスへのメールのバウンス通知を受け取る。バウンス通知を読むだけで感染に十分である。これはメールシステム自体のエラー処理インフラを武器化する。
 {: .ja}
 
+## 알려진 이메일 경로 바이러스
+{: .ko}
+
 ## Known Email-vector Viruses
+{: .en}
+
+## 既知のメール経路ウイルス
+{: .ja}
+
+<div class="en" markdown="1">
 
 | Virus | Type | Severity | Email Mechanism |
 |-------|------|----------|-----------------|
-| [PixelRot](../viruses/pixelrot.md) | <span class="pill pill-type">감각형</span> | <span class="pill pill-severity-moderate">보통</span> | Image attachments |
-| [ByteShade](../viruses/byteshade.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-high">높음</span> | Body text |
-| [ForgetMeNot](../viruses/forgetmenot.md) | <span class="pill pill-type">인지형</span> | <span class="pill pill-severity-critical">치명적</span> | Bounce notifications |
-| [VoidMail](../viruses/voidmail.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | Bounce notifications / body |
-| [GlassVoice](../viruses/glassvoice.md) | <span class="pill pill-type">감각형</span> | <span class="pill pill-severity-high">높음</span> | Audio attachments |
+| [PixelRot](../viruses/pixelrot.md) | <span class="pill pill-type">Sensory</span> | <span class="pill pill-severity-moderate">Moderate</span> | Image attachments |
+| [ByteShade](../viruses/byteshade.md) | <span class="pill pill-type">Logic</span> | <span class="pill pill-severity-high">High</span> | Body text |
+| [ForgetMeNot](../viruses/forgetmenot.md) | <span class="pill pill-type">Cognitive</span> | <span class="pill pill-severity-critical">Critical</span> | Bounce notifications |
+| [VoidMail](../viruses/voidmail.md) | <span class="pill pill-type">Environmental</span> | <span class="pill pill-severity-critical">Critical</span> | Bounce notifications / body |
+| [GlassVoice](../viruses/glassvoice.md) | <span class="pill pill-type">Sensory</span> | <span class="pill pill-severity-high">High</span> | Audio attachments |
+
+</div>
+
+<div class="ko" markdown="1">
+
+| 바이러스 | 유형 | 심각도 | 이메일 메커니즘 |
+|----------|------|--------|-----------------|
+| [픽셀롯](../viruses/pixelrot.md) | <span class="pill pill-type">감각형</span> | <span class="pill pill-severity-moderate">보통</span> | 이미지 첨부 파일 |
+| [바이트셰이드](../viruses/byteshade.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-high">높음</span> | 본문 텍스트 |
+| [포겟미낫](../viruses/forgetmenot.md) | <span class="pill pill-type">인지형</span> | <span class="pill pill-severity-critical">치명적</span> | 반송 알림 |
+| [보이드메일](../viruses/voidmail.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | 반송 알림 / 본문 |
+| [글래스보이스](../viruses/glassvoice.md) | <span class="pill pill-type">감각형</span> | <span class="pill pill-severity-high">높음</span> | 오디오 첨부 파일 |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| ウイルス | タイプ | 重症度 | メールメカニズム |
+|----------|--------|--------|-----------------|
+| [ピクセルロット](../viruses/pixelrot.md) | <span class="pill pill-type">感覚型</span> | <span class="pill pill-severity-moderate">中</span> | 画像添付ファイル |
+| [バイトシェイド](../viruses/byteshade.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-high">高</span> | 本文テキスト |
+| [フォーゲットミーノット](../viruses/forgetmenot.md) | <span class="pill pill-type">認知型</span> | <span class="pill pill-severity-critical">致命的</span> | バウンス通知 |
+| [ボイドメール](../viruses/voidmail.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | バウンス通知 / 本文 |
+| [グラスボイス](../viruses/glassvoice.md) | <span class="pill pill-type">感覚型</span> | <span class="pill pill-severity-high">高</span> | 音声添付ファイル |
+
+</div>
+
+## 관련 개념
+{: .ko}
 
 ## Related Concepts
+{: .en}
+
+## 関連概念
+{: .ja}
 
 - [Messenger](messenger.md) -- both are direct communication vectors, but email enables more precise targeting
 - [Irreversible Transformation](irreversible.md) -- ForgetMeNot and VoidMail are both irreversible and email-vector
 - [Boundary Collapse](boundary-collapse.md) -- email vector collapse often begins with phantom emails appearing in physical mailboxes
 - [Co-infection](co-infection.md) -- targeted email attacks may deliberately pair viruses for co-infection
+{: .en}
+
+- [메신저](messenger.md) -- 둘 다 직접 커뮤니케이션 경로이지만 이메일이 더 정밀한 표적화 가능
+- [비가역적 변형](irreversible.md) -- 포겟미낫과 보이드메일 모두 비가역적이며 이메일 경로
+- [경계 무너짐](boundary-collapse.md) -- 이메일 경로 무너짐은 종종 물리적 우편함에 유령 이메일이 나타나는 것으로 시작
+- [동시 감염](co-infection.md) -- 표적화된 이메일 공격이 동시 감염을 위해 의도적으로 바이러스를 조합할 수 있음
+{: .ko}
+
+- [メッセンジャー](messenger.md) -- どちらも直接コミュニケーション経路だがメールはより精密な標的化が可能
+- [不可逆的変形](irreversible.md) -- フォーゲットミーノットとボイドメールはどちらも不可逆的でメール経路
+- [境界崩壊](boundary-collapse.md) -- メール経路の崩壊はしばしば物理的な郵便受けに幻のメールが現れることで始まる
+- [同時感染](co-infection.md) -- 標的型メール攻撃が同時感染のために意図的にウイルスを組み合わせうる
+{: .ja}
