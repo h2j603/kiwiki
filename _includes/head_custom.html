@@ -16,23 +16,23 @@
 .lang-ja .ko, .lang-ja .en { display: none !important; }
 .lang-en .ko, .lang-en .ja { display: none !important; }
 
-.virus-echoloop .main-content p:nth-child(5n)::after { content: attr(data-text); display: block; opacity: 0.15; font-style: italic; }
-.virus-mirrorlink .main-content p:nth-child(4n) { transform: scaleX(-1); display: inline-block; }
-.virus-pixelrot .main-content p { filter: blur(0.3px); }
-.virus-pixelrot .main-content p:nth-child(n+5) { filter: blur(0.6px); }
-.virus-pixelrot .main-content p:nth-child(n+10) { filter: blur(1px); }
-.virus-glitchmoss .main-content hr { background: lawngreen !important; height: 2px; }
-.virus-nullwhisper .main-content::before { content: "choose wisely..."; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); font-style: italic; font-size: 48px; color: orangered; opacity: 0; pointer-events: none; animation: whisper 15s infinite; }
+.virus-kiwiecho .main-content p:nth-child(5n)::after { content: attr(data-text); display: block; opacity: 0.15; font-style: italic; }
+.virus-kiwimirror .main-content p:nth-child(4n) { transform: scaleX(-1); display: inline-block; }
+.virus-kiwirot .main-content p { filter: blur(0.3px); }
+.virus-kiwirot .main-content p:nth-child(n+5) { filter: blur(0.6px); }
+.virus-kiwirot .main-content p:nth-child(n+10) { filter: blur(1px); }
+.virus-kiwimoss .main-content hr { background: lawngreen !important; height: 2px; }
+.virus-kiwhisper .main-content::before { content: "choose wisely..."; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); font-style: italic; font-size: 48px; color: orangered; opacity: 0; pointer-events: none; animation: whisper 15s infinite; }
 @keyframes whisper { 0%,90%,100% { opacity: 0; } 95% { opacity: 0.04; } }
-.virus-blindspot .main-content p:nth-child(3) { color: transparent !important; user-select: none; }
-.virus-blindspot .main-content p:nth-child(3) a { color: transparent !important; }
-.virus-staticbloom .main-content::after { content: "\2726"; position: fixed; bottom: 30px; left: 30px; font-size: 32px; color: lawngreen; opacity: 0; animation: bloom 10s infinite; pointer-events: none; }
+.virus-kiwispot .main-content p:nth-child(3) { color: transparent !important; user-select: none; }
+.virus-kiwispot .main-content p:nth-child(3) a { color: transparent !important; }
+.virus-kiwibloom .main-content::after { content: "\2726"; position: fixed; bottom: 30px; left: 30px; font-size: 32px; color: lawngreen; opacity: 0; animation: bloom 10s infinite; pointer-events: none; }
 @keyframes bloom { 0%,80%,100% { opacity: 0; transform: scale(0.5); } 85% { opacity: 0.3; transform: scale(1); } 90% { opacity: 0.15; transform: scale(1.5); } }
-.virus-syntaxwraith .main-content p { font-family: "t26-carbon", monospace !important; font-style: italic; }
-.virus-cachevein .main-content { background-image: linear-gradient(90deg, transparent 98%, rgba(255,69,0,0.03) 100%), linear-gradient(0deg, transparent 97%, rgba(255,69,0,0.02) 100%); background-size: 40px 40px; }
-.virus-forgetmenot .main-content p:nth-child(n+8) { opacity: 0.7; }
-.virus-forgetmenot .main-content p:nth-child(n+12) { opacity: 0.4; }
-.virus-forgetmenot .main-content p:nth-child(n+16) { opacity: 0.15; }
+.virus-kiwisyntax .main-content p { font-family: "t26-carbon", monospace !important; font-style: italic; }
+.virus-kiwivein .main-content { background-image: linear-gradient(90deg, transparent 98%, rgba(255,69,0,0.03) 100%), linear-gradient(0deg, transparent 97%, rgba(255,69,0,0.02) 100%); background-size: 40px 40px; }
+.virus-kiwiforgot .main-content p:nth-child(n+8) { opacity: 0.7; }
+.virus-kiwiforgot .main-content p:nth-child(n+12) { opacity: 0.4; }
+.virus-kiwiforgot .main-content p:nth-child(n+16) { opacity: 0.15; }
 .infection-splash {
   position: fixed;
   top: 50%;
@@ -55,6 +55,6 @@
 .infection-splash-code { font-size: 11px; color: rgba(124,252,0,0.5); }
 @keyframes splashIn { to { opacity: 1; } }
 
-.virus-staticbloom .main-content::after { content: "\2726\2726\2726"; position: fixed; bottom: 20px; right: 20px; font-size: 28px; color: lawngreen; opacity: 0.4; pointer-events: none; letter-spacing: 8px; animation: bloomPulse 3s infinite; }
+.virus-kiwibloom .main-content::after { content: "\2726\2726\2726"; position: fixed; bottom: 20px; right: 20px; font-size: 28px; color: lawngreen; opacity: 0.4; pointer-events: none; letter-spacing: 8px; animation: bloomPulse 3s infinite; }
 @keyframes bloomPulse { 0%,100% { opacity: 0.2; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.2); } }
 </style>

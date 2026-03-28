@@ -164,10 +164,10 @@ The virus has established a permanent presence in physical reality. Symptoms are
 ### 第5段階：不可逆 — *すべてのウイルスがこの段階に到達するわけではない*
 {: .ja}
 
-The terminal stage, documented in only a subset of viruses. See [Irreversible Transformation](irreversible.md) for full details. At this stage, the boundary between web and reality has been permanently destroyed in the affected domain. The change cannot be undone by any known means. GlitchMoss-covered walls cannot be cleaned. BlindSpot-erased vision cannot be restored. ForgetMeNot-consumed memories cannot be recovered. The collapse is total and permanent.
+The terminal stage, documented in only a subset of viruses. See [Irreversible Transformation](irreversible.md) for full details. At this stage, the boundary between web and reality has been permanently destroyed in the affected domain. The change cannot be undone by any known means. KiwiMoss-covered walls cannot be cleaned. KiwiSpot-erased vision cannot be restored. KiwiForgot-consumed memories cannot be recovered. The collapse is total and permanent.
 {: .en}
 
-최종 단계로, 일부 바이러스에서만 기록되었다. 전체 내용은 [비가역적 변형](irreversible.md)을 참조. 이 단계에서는 웹과 현실 사이의 경계가 영향받은 영역에서 영구적으로 파괴되었다. 알려진 어떤 수단으로도 변화를 되돌릴 수 없다. 글리치모스로 뒤덮인 벽은 청소할 수 없다. 블라인드스팟으로 지워진 시력은 복원할 수 없다. 포겟미낫이 먹어치운 기억은 회복할 수 없다. 붕괴는 완전하고 영구적이다.
+최종 단계로, 일부 바이러스에서만 기록되었다. 전체 내용은 [비가역적 변형](irreversible.md)을 참조. 이 단계에서는 웹과 현실 사이의 경계가 영향받은 영역에서 영구적으로 파괴되었다. 알려진 어떤 수단으로도 변화를 되돌릴 수 없다. 키위모스로 뒤덮인 벽은 청소할 수 없다. 키위스팟으로 지워진 시력은 복원할 수 없다. 키위포갓이 먹어치운 기억은 회복할 수 없다. 붕괴는 완전하고 영구적이다.
 {: .ko}
 
 最終段階で、一部のウイルスでのみ記録されている。詳細は[不可逆的変容](irreversible.md)を参照。この段階では、ウェブと現実の境界が影響を受けた領域で恒久的に破壊されている。既知のいかなる手段でも変化を元に戻せない。グリッチモスに覆われた壁は清掃できない。ブラインドスポットで消された視力は復元できない。フォーゲットミーノットに食べられた記憶は回復できない。崩壊は完全かつ永久的である。

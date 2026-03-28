@@ -2,148 +2,148 @@
   "description": "웹키위바이러스 종류 인덱스 / Web Kiwi Virus Index",
   "viruses": [
     {
-      "id": "nullwhisper",
-      "title": "널위스퍼 / NullWhisper",
+      "id": "kiwhisper",
+      "title": "키위스퍼 / KiWhisper",
       "type": "로직형 / Logic",
       "vector": "메신저 / Messenger",
       "severity": "높음 / High",
       "status": "활성 / Active",
-      "file": "content/viruses/nullwhisper.md"
+      "file": "content/viruses/kiwhisper.md"
     },
     {
-      "id": "syntaxwraith",
-      "title": "신택스레이스 / SyntaxWraith",
+      "id": "kiwisyntax",
+      "title": "키위신택스 / KiwiSyntax",
       "type": "로직형 / Logic",
       "vector": "직접접근 / Direct Access",
       "severity": "보통 / Moderate",
       "status": "활성 / Active",
-      "file": "content/viruses/syntaxwraith.md"
+      "file": "content/viruses/kiwisyntax.md"
     },
     {
-      "id": "phantomtab",
-      "title": "팬텀탭 / PhantomTab",
+      "id": "kiwitab",
+      "title": "키위탭 / KiwiTab",
       "type": "로직형 / Logic",
       "vector": "SNS / Social Media",
       "severity": "보통 / Moderate",
       "status": "활성 / Active",
-      "file": "content/viruses/phantomtab.md"
+      "file": "content/viruses/kiwitab.md"
     },
     {
-      "id": "byteshade",
-      "title": "바이트셰이드 / ByteShade",
+      "id": "kiwishade",
+      "title": "키위셰이드 / KiwiShade",
       "type": "로직형 / Logic",
       "vector": "이메일 / Email",
       "severity": "높음 / High",
       "status": "활성 / Active",
-      "file": "content/viruses/byteshade.md"
+      "file": "content/viruses/kiwishade.md"
     },
     {
-      "id": "mirrorlink",
-      "title": "미러링크 / MirrorLink",
+      "id": "kiwimirror",
+      "title": "키위미러 / KiwiMirror",
       "type": "감각형 / Sensory",
       "vector": "SNS / Social Media",
       "severity": "높음 / High",
       "status": "활성 / Active",
-      "file": "content/viruses/mirrorlink.md"
+      "file": "content/viruses/kiwimirror.md"
     },
     {
-      "id": "pixelrot",
-      "title": "픽셀롯 / PixelRot",
+      "id": "kiwirot",
+      "title": "키위롯 / KiwiRot",
       "type": "감각형 / Sensory",
       "vector": "이메일 / Email",
       "severity": "보통 / Moderate",
       "status": "활성 / Active",
-      "file": "content/viruses/pixelrot.md"
+      "file": "content/viruses/kiwirot.md"
     },
     {
-      "id": "howllink",
-      "title": "하울링크 / HowlLink",
+      "id": "kiwihowl",
+      "title": "키위하울 / KiwiHowl",
       "type": "감각형 / Sensory",
       "vector": "메신저 / Messenger",
       "severity": "높음 / High",
       "status": "활성 / Active",
-      "file": "content/viruses/howllink.md"
+      "file": "content/viruses/kiwihowl.md"
     },
     {
-      "id": "blindspot",
-      "title": "블라인드스팟 / BlindSpot",
+      "id": "kiwispot",
+      "title": "키위스팟 / KiwiSpot",
       "type": "감각형 / Sensory",
       "vector": "검색엔진 / Search Engine",
       "severity": "치명적 / Critical",
       "status": "활성 / Active",
-      "file": "content/viruses/blindspot.md"
+      "file": "content/viruses/kiwispot.md"
     },
     {
-      "id": "echoloop",
-      "title": "에코루프 / EchoLoop",
+      "id": "kiwiecho",
+      "title": "키위에코 / KiwiEcho",
       "type": "인지형 / Cognitive",
       "vector": "검색엔진 / Search Engine",
       "severity": "보통 / Moderate",
       "status": "활성 / Active",
-      "file": "content/viruses/echoloop.md"
+      "file": "content/viruses/kiwiecho.md"
     },
     {
-      "id": "deadscroll",
-      "title": "데드스크롤 / DeadScroll",
+      "id": "kiwiscroll",
+      "title": "키위스크롤 / KiwiScroll",
       "type": "인지형 / Cognitive",
       "vector": "SNS / Social Media",
       "severity": "높음 / High",
       "status": "활성 / Active",
-      "file": "content/viruses/deadscroll.md"
+      "file": "content/viruses/kiwiscroll.md"
     },
     {
-      "id": "forgetmenot",
-      "title": "포겟미낫 / ForgetMeNot",
+      "id": "kiwiforgot",
+      "title": "키위포갓 / KiwiForgot",
       "type": "인지형 / Cognitive",
       "vector": "이메일 / Email",
       "severity": "치명적 / Critical",
       "status": "활성 / Active",
-      "file": "content/viruses/forgetmenot.md"
+      "file": "content/viruses/kiwiforgot.md"
     },
     {
-      "id": "loophole",
-      "title": "루프홀 / Loophole",
+      "id": "kiwiloop",
+      "title": "키위루프 / KiwiLoop",
       "type": "인지형 / Cognitive",
       "vector": "메신저 / Messenger",
       "severity": "보통 / Moderate",
       "status": "활성 / Active",
-      "file": "content/viruses/loophole.md"
+      "file": "content/viruses/kiwiloop.md"
     },
     {
-      "id": "glitchmoss",
-      "title": "글리치모스 / GlitchMoss",
+      "id": "kiwimoss",
+      "title": "키위모스 / KiwiMoss",
       "type": "환경형 / Environmental",
       "vector": "직접접근 / Direct Access",
       "severity": "치명적 / Critical",
       "status": "활성 / Active",
-      "file": "content/viruses/glitchmoss.md"
+      "file": "content/viruses/kiwimoss.md"
     },
     {
-      "id": "cachevein",
-      "title": "캐시베인 / CacheVein",
+      "id": "kiwivein",
+      "title": "키위베인 / KiwiVein",
       "type": "환경형 / Environmental",
       "vector": "메신저 / Messenger",
       "severity": "치명적 / Critical",
       "status": "활성 / Active",
-      "file": "content/viruses/cachevein.md"
+      "file": "content/viruses/kiwivein.md"
     },
     {
-      "id": "staticbloom",
-      "title": "스태틱블룸 / StaticBloom",
+      "id": "kiwibloom",
+      "title": "키위블룸 / KiwiBloom",
       "type": "환경형 / Environmental",
       "vector": "SNS / Social Media",
       "severity": "높음 / High",
       "status": "활성 / Active",
-      "file": "content/viruses/staticbloom.md"
+      "file": "content/viruses/kiwibloom.md"
     },
     {
-      "id": "voidmail",
-      "title": "보이드메일 / VoidMail",
+      "id": "kiwivoid",
+      "title": "키위보이드 / KiwiVoid",
       "type": "환경형 / Environmental",
       "vector": "이메일 / Email",
       "severity": "치명적 / Critical",
       "status": "활성 / Active",
-      "file": "content/viruses/voidmail.md"
+      "file": "content/viruses/kiwivoid.md"
     }
   ]
 }
