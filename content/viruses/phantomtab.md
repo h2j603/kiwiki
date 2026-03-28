@@ -7,7 +7,6 @@ classification:
   vector: "SNS / Social Media"
   severity: "보통 / Moderate"
 origin: "다중 탭 기반 SNS 클라이언트의 알 수 없는 확장 기능 / Unknown extension in a multi-tab SNS client"
-first_detected: "2025년 여름 / Summer 2025"
 status: "활성 / Active"
 code: "WKV-L.SN-003"
 tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attention", "tab"]
@@ -19,7 +18,6 @@ tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attenti
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">SNS</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
-| 최초 발견 | 2025년 여름 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

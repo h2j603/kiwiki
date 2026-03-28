@@ -8,7 +8,6 @@ classification:
   vector: "SNS / Social Media"
   severity: "높음 / High"
 origin: "출처 불명의 이미지 공유 스레드 / Image-sharing thread of unknown origin"
-first_detected: "2024년 가을 / Autumn 2024"
 status: "활성 / Active"
 code: "WKV-S.SN-001"
 tags: ["감각형", "SNS", "시각", "거울", "sensory", "social media", "visual", "mirror"]
@@ -20,7 +19,6 @@ tags: ["감각형", "SNS", "시각", "거울", "sensory", "social media", "visua
 | 유형 | <span class="pill pill-type">감각형</span> |
 | 전파 경로 | <span class="pill pill-vector">SNS</span> |
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
-| 최초 발견 | 2024년 가을 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

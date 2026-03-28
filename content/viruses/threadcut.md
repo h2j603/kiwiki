@@ -8,7 +8,6 @@ classification:
   vector: "메신저 / Messenger"
   severity: "치명적 / Critical"
 origin: "비정상 종료된 메신저 앱의 끊어진 대화 스레드 / Severed conversation threads from abnormally terminated messenger apps"
-first_detected: "2026년 초 / Early 2026"
 status: "활성 / Active"
 tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger", "context", "continuity"]
 ---
@@ -19,7 +18,6 @@ tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger"
 | 유형 | <span class="pill pill-type">인지형 / Cognitive</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저 / Messenger</span> |
 | 위험도 | <span class="pill pill-severity-critical">치명적 / Critical</span> |
-| 최초 발견 | 2026년 초 / Early 2026 |
 | 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 ## 개요 / Overview

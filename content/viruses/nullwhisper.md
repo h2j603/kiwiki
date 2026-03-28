@@ -8,7 +8,6 @@ classification:
   vector: "메신저 / Messenger"
   severity: "높음 / High"
 origin: "삭제된 단체 채팅방의 잔여 데이터 / Residual data from a deleted group chat"
-first_detected: "2025년 봄 / Spring 2025"
 status: "활성 / Active"
 code: "WKV-L.MS-001"
 tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger", "judgment", "whisper"]
@@ -20,7 +19,6 @@ tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger",
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저</span> |
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
-| 최초 발견 | 2025년 봄 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

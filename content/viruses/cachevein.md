@@ -8,7 +8,6 @@ classification:
   vector: "메신저 / Messenger"
   severity: "치명적 / Critical"
 origin: "삭제된 메시지의 서버 캐시 잔류물 / Server cache residue of deleted messages"
-first_detected: "2025년 가을 / Autumn 2025"
 status: "활성 / Active"
 code: "WKV-E.MS-002"
 tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental", "messenger", "physical", "vein", "data"]
@@ -20,7 +19,6 @@ tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental
 | 유형 | <span class="pill pill-type">환경형</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저</span> |
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
-| 최초 발견 | 2025년 가을 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

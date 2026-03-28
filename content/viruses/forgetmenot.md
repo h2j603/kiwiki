@@ -7,7 +7,6 @@ classification:
   vector: "이메일 / Email"
   severity: "치명적 / Critical"
 origin: "자동 발송된 뉴스레터의 손상된 헤더 / Corrupted header in an auto-generated newsletter"
-first_detected: "2025년 가을 / Autumn 2025"
 status: "활성 / Active"
 code: "WKV-C.EM-003"
 tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memory", "deletion"]
@@ -19,7 +18,6 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 | 유형 | <span class="pill pill-type">인지형</span> |
 | 전파 경로 | <span class="pill pill-vector">이메일</span> |
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
-| 최초 발견 | 2025년 가을 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

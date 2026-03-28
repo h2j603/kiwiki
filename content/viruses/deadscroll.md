@@ -8,7 +8,6 @@ classification:
   vector: "SNS / Social Media"
   severity: "높음 / High"
 origin: "알 수 없는 SNS 알고리즘 변이 / Unknown social media algorithm mutation"
-first_detected: "2025년 초 / Early 2025"
 status: "활성 / Active"
 code: "WKV-C.SN-002"
 tags: ["인지형", "SNS", "시간", "스크롤", "cognitive", "social media", "time", "scroll"]
@@ -20,7 +19,6 @@ tags: ["인지형", "SNS", "시간", "스크롤", "cognitive", "social media", "
 | 유형 | <span class="pill pill-type">인지형</span> |
 | 전파 경로 | <span class="pill pill-vector">SNS</span> |
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
-| 최초 발견 | 2025년 초 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

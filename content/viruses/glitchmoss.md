@@ -8,7 +8,6 @@ classification:
   vector: "직접접근 / Direct Access"
   severity: "치명적 / Critical"
 origin: "폐쇄된 웹호스팅 서버의 404 페이지 / 404 page of an abandoned web hosting server"
-first_detected: "2024년 여름 / Summer 2024"
 status: "활성 / Active"
 code: "WKV-E.DA-001"
 tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental", "direct access", "physical", "corrosion", "moss"]
@@ -20,7 +19,6 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 | 유형 | <span class="pill pill-type">환경형</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근</span> |
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
-| 최초 발견 | 2024년 여름 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

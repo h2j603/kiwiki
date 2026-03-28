@@ -8,7 +8,6 @@ classification:
   vector: "SNS / Social Media"
   severity: "보통 / Moderate"
 origin: "SNS 무한 스크롤 인터페이스의 터치 이벤트 핸들러 오작동 / Malfunction in the touch event handler of SNS infinite scroll interfaces"
-first_detected: "2025년 봄 / Spring 2025"
 status: "활성 / Active"
 tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tactile", "touch"]
 ---
@@ -19,7 +18,6 @@ tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tacti
 | 유형 | <span class="pill pill-type">감각형</span> |
 | 전파 경로 | <span class="pill pill-vector">SNS</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
-| 최초 발견 | 2025년 봄 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

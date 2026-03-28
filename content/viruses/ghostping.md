@@ -8,7 +8,6 @@ classification:
   vector: "검색엔진 / Search Engine"
   severity: "보통 / Moderate"
 origin: "폐쇄된 메타 검색엔진의 알림 시스템 잔해 / Remnants of a defunct meta-search engine's notification system"
-first_detected: "2025년 겨울 / Winter 2025"
 status: "활성 / Active"
 tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine", "notification", "compulsion"]
 ---
@@ -19,7 +18,6 @@ tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine"
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
-| 최초 발견 | 2025년 겨울 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

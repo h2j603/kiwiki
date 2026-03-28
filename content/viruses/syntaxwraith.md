@@ -8,7 +8,6 @@ classification:
   vector: "직접접근 / Direct Access"
   severity: "보통 / Moderate"
 origin: "방치된 오픈소스 코드 저장소 / Neglected open-source code repository"
-first_detected: "2024년 겨울 / Winter 2024"
 status: "활성 / Active"
 code: "WKV-L.DA-002"
 tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access", "thought", "code"]
@@ -20,7 +19,6 @@ tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access"
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
-| 최초 발견 | 2024년 겨울 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

@@ -8,7 +8,6 @@ classification:
   vector: "검색엔진 / Search Engine"
   severity: "높음 / High"
 origin: "이미지 검색엔진의 손상된 썸네일 캐시 / Corrupted thumbnail caches in image search engines"
-first_detected: "2025년 가을 / Autumn 2025"
 status: "활성 / Active"
 tags: ["환경형", "검색엔진", "부식", "금속", "environmental", "search engine", "corrosion", "metal"]
 ---
@@ -19,7 +18,6 @@ tags: ["환경형", "검색엔진", "부식", "금속", "environmental", "search
 | 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
 | 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
-| 최초 발견 | 2025년 가을 / Autumn 2025 |
 | 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 ## 개요 / Overview

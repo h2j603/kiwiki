@@ -8,7 +8,6 @@ classification:
   vector: "메신저 / Messenger"
   severity: "보통 / Moderate"
 origin: "폐쇄된 메신저 앱의 클립보드 동기화 프로토콜 잔재 / Remnants of a clipboard sync protocol from a discontinued messenger app"
-first_detected: "2025년 가을 / Autumn 2025"
 status: "활성 / Active"
 tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger", "clipboard", "thought"]
 ---
@@ -19,7 +18,6 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
-| 최초 발견 | 2025년 가을 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

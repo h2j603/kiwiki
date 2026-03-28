@@ -8,7 +8,6 @@ classification:
   vector: "검색엔진 / Search Engine"
   severity: "보통 / Moderate"
 origin: "자동 생성된 검색 결과 페이지 / Auto-generated search result page"
-first_detected: "2025년 초 / Early 2025"
 status: "활성 / Active"
 code: "WKV-C.SE-001"
 tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search engine", "memory", "loop"]
@@ -20,7 +19,6 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 | 유형 | <span class="pill pill-type">인지형</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
-| 최초 발견 | 2025년 초 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

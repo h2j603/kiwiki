@@ -8,7 +8,6 @@ classification:
   vector: "이메일 / Email"
   severity: "높음 / High"
 origin: "손상된 오디오 코덱이 내장된 스팸 이메일 캠페인 / Spam email campaign with embedded corrupted audio codec"
-first_detected: "2025년 여름 / Summer 2025"
 status: "활성 / Active"
 tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "auditory", "voice"]
 ---
@@ -19,7 +18,6 @@ tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "aud
 | 유형 | <span class="pill pill-type">감각형</span> |
 | 전파 경로 | <span class="pill pill-vector">이메일</span> |
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
-| 최초 발견 | 2025년 여름 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview
