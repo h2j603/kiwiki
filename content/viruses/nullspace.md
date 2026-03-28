@@ -57,13 +57,11 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ An Environmental-type virus contracted by receiving messenger messages with hidd
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection occurs when null characters (\0) are embedded between text within mess
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +138,11 @@ Infection occurs when null characters (\0) are embedded between text within mess
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +172,11 @@ Infection occurs when null characters (\0) are embedded between text within mess
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +206,11 @@ Infection occurs when null characters (\0) are embedded between text within mess
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +240,11 @@ Infection occurs when null characters (\0) are embedded between text within mess
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +265,11 @@ In winter 2025, a programmer reported that their mouse "disappeared" from their 
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +296,11 @@ In winter 2025, a programmer reported that their mouse "disappeared" from their 
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -334,3 +316,9 @@ In winter 2025, a programmer reported that their mouse "disappeared" from their 
 - ヌルスペースの透明化は感染者の視覚にのみ影響するのではなく、カメラやCCTVなどの光学機器にも同様に適用される——感染空間を撮影すると実際に物体が映らない。これは単なる認知の歪みではなく物理的な光学現象であることが証明されている。
 - 一部の感染者は透明化された物体を触る際に「データの質感」を感じると報告している——滑らかな金属が微細な格子パターンの凹凸として感じられ、これはヌル文字のバイナリ構造が触覚に転写されたものだという仮説が提起されている。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-06-18 by Observer_X (Added co-infection data)<br>Previous: 2025-03-13 by Unit_13 (Discovery log expanded)</div>
+<div class="ko">최종 편집: 2025-06-18 by Observer_X (동시 감염 데이터 추가)<br>이전: 2025-03-13 by Unit_13 (발견 기록 확장)</div>
+<div class="ja">最終編集: 2025-06-18 by Observer_X<br>前回: 2025-03-13 by Unit_13</div>
+</div>

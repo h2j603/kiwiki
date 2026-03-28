@@ -58,13 +58,11 @@ tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger",
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -85,13 +83,11 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by 
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -112,13 +108,11 @@ Transmitted when an empty message with no content is sent in a chat room where a
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -145,13 +139,11 @@ Transmitted when an empty message with no content is sent in a chat room where a
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -181,13 +173,11 @@ Transmitted when an empty message with no content is sent in a chat room where a
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -217,13 +207,11 @@ Transmitted when an empty message with no content is sent in a chat room where a
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -253,13 +241,11 @@ Transmitted when an empty message with no content is sent in a chat room where a
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -280,13 +266,11 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -313,13 +297,11 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -335,3 +317,9 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 - 感染者が送ったメッセージにも微細な論理的誤りが含まれており、受信者の判断力に弱い影響を及ぼす可能性がある（間接伝播の可能性）
 - 現在までに発見されたロジック型ウイルスの中で最も高い社会的被害を記録している
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-02-15 by Unit_13 (Added co-infection data)<br>Previous: 2025-02-02 by Dr.NULL (Severity reassessment)</div>
+<div class="ko">최종 편집: 2025-02-15 by Unit_13 (동시 감염 데이터 추가)<br>이전: 2025-02-02 by Dr.NULL (위험도 재평가)</div>
+<div class="ja">最終編集: 2025-02-15 by Unit_13<br>前回: 2025-02-02 by Dr.NULL</div>
+</div>

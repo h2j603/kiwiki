@@ -57,13 +57,11 @@ tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "aud
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A Sensory-type virus contracted through emails embedded with corrupted audio cod
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -147,13 +141,11 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -183,13 +175,11 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -219,13 +209,11 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -255,13 +243,11 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -282,13 +268,11 @@ Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -315,13 +299,11 @@ Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -337,3 +319,9 @@ Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid
 - グラスボイス感染者の脳画像検査で、自己発声認識を担当する領域の活動パターンがガラスの破砕音を聞く非感染者のパターンと同一であることが確認された。つまり、感染者の脳は実際にガラスの割れる音を「聞いて」いる。
 - 皮肉なことに、感染者の実際の声は感染前よりも澄んで綺麗になる傾向がある。ウイルスが発声器官自体には影響を与えないためである。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-05-28 by Agent_K (Updated countermeasures)<br>Previous: 2025-01-09 by Observer_X (New field observation added)</div>
+<div class="ko">최종 편집: 2025-05-28 by Agent_K (대응 방법 업데이트)<br>이전: 2025-01-09 by Observer_X (현장 관찰 기록 추가)</div>
+<div class="ja">最終編集: 2025-05-28 by Agent_K<br>前回: 2025-01-09 by Observer_X</div>
+</div>

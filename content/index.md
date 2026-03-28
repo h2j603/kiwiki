@@ -13,6 +13,12 @@ Web Kiwi Virus Wiki
 ウェブキウイウイルス ウィキ
 {: .ja}
 
+<div class="stats-bar en"><span>32 documented</span> <span>7 critical</span> <span>4 types</span> <span>5 vectors</span></div>
+
+<div class="stats-bar ko"><span>32종 문서화</span> <span>7종 치명적</span> <span>4개 유형</span> <span>5개 경로</span></div>
+
+<div class="stats-bar ja"><span>32種 文書化</span> <span>7種 致命的</span> <span>4タイプ</span> <span>5経路</span></div>
+
 
 <div class="en" markdown="1">
 

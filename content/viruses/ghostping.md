@@ -57,13 +57,11 @@ tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine"
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A Logic-type virus that causes search engine result pages to emit phantom notifi
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection begins when scrolling through result pages on certain search engines. 
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -147,13 +141,11 @@ Infection begins when scrolling through result pages on certain search engines. 
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -183,13 +175,11 @@ Infection begins when scrolling through result pages on certain search engines. 
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -219,13 +209,11 @@ Infection begins when scrolling through result pages on certain search engines. 
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -255,13 +243,11 @@ Infection begins when scrolling through result pages on certain search engines. 
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -282,13 +268,11 @@ Discovered in winter 2025 when three researchers at a university lab simultaneou
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -315,13 +299,11 @@ Discovered in winter 2025 when three researchers at a university lab simultaneou
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -337,3 +319,9 @@ Discovered in winter 2025 when three researchers at a university lab simultaneou
 - ゴーストピング感染者は他のロジック型ウイルスに対する感受性が平均の2.3倍高いことが観察されている。絶え間ない確認行為がウェブ露出時間を増加させるためと推定される。
 - 検索エンジン運営会社は該当通知プロトコルの残骸の存在を公式に否定している。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-09-20 by Archivist_M (Updated countermeasures)<br>Previous: 2025-07-03 by Researcher_7 (Discovery log expanded)</div>
+<div class="ko">최종 편집: 2025-09-20 by Archivist_M (대응 방법 업데이트)<br>이전: 2025-07-03 by Researcher_7 (발견 기록 확장)</div>
+<div class="ja">最終編集: 2025-09-20 by Archivist_M<br>前回: 2025-07-03 by Researcher_7</div>
+</div>

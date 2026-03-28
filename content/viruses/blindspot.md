@@ -15,6 +15,10 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 
 <a href="../index.md" class="home-link">Kiwiki</a>
 
+<div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>
+<div class="warning-banner ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</div>
+<div class="warning-banner ja">危険度: 致命的 — このウイルスは不可逆的変形を引き起こします</div>
+
 
 <div class="ko" markdown="1">
 
@@ -57,13 +61,11 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +86,11 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted b
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +111,11 @@ Infection occurs simply by reading a search result preview snippet that contains
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +142,11 @@ Infection occurs simply by reading a search result preview snippet that contains
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +176,11 @@ Infection occurs simply by reading a search result preview snippet that contains
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +210,11 @@ Infection occurs simply by reading a search result preview snippet that contains
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +244,11 @@ Infection occurs simply by reading a search result preview snippet that contains
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +269,11 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +300,11 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -334,3 +320,19 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 - ブラインドスポットは感覚型ウイルスの中で唯一「致命的」等級を受けた種であり、視覚消失の不可逆性がその理由である
 - 感染者に見えない領域にメッセージを置いても伝達不可能という点が、救護活動の大きな障害となっている
 {: .ja}
+
+
+- <span class="redacted">Data removed per Protocol 7 clearance requirement</span>
+{: .en}
+
+- <span class="redacted">보안 등급 B 이상에서만 열람 가능한 정보가 삭제되었습니다</span>
+{: .ko}
+
+- <span class="redacted">セキュリティレベルB以上でのみ閲覧可能な情報が削除されました</span>
+{: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-04-04 by Researcher_7 (Updated countermeasures)<br>Previous: 2025-02-03 by Agent_K (Added co-infection data)</div>
+<div class="ko">최종 편집: 2025-04-04 by Researcher_7 (대응 방법 업데이트)<br>이전: 2025-02-03 by Agent_K (동시 감염 데이터 추가)</div>
+<div class="ja">最終編集: 2025-04-04 by Researcher_7<br>前回: 2025-02-03 by Agent_K</div>
+</div>

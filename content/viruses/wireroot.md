@@ -15,6 +15,10 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 
 <a href="../index.md" class="home-link">Kiwiki</a>
 
+<div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>
+<div class="warning-banner ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</div>
+<div class="warning-banner ja">危険度: 致命的 — このウイルスは不可逆的変形を引き起こします</div>
+
 
 <div class="ko" markdown="1">
 
@@ -57,13 +61,11 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +86,11 @@ An Environmental-type virus contracted by accessing forgotten server infrastruct
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +111,11 @@ Infection occurs by directly accessing infrastructure management pages of server
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +142,11 @@ Infection occurs by directly accessing infrastructure management pages of server
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +176,11 @@ Infection occurs by directly accessing infrastructure management pages of server
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +210,11 @@ Infection occurs by directly accessing infrastructure management pages of server
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +244,11 @@ Infection occurs by directly accessing infrastructure management pages of server
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +269,11 @@ The first recorded infection occurred in autumn 2024, when a former employee of 
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +300,11 @@ The first recorded infection occurred in autumn 2024, when a former employee of 
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -334,3 +320,19 @@ The first recorded infection occurred in autumn 2024, when a former employee of 
 - ワイヤールートによって成長したケーブルは実際にデータを伝送でき、伝送されるデータは感染者がアクセスした閉鎖サーバーの残存データであることが確認されている——死んだサーバーのデータが物理的ケーブルを通じて「復活」するのである。
 - 最も古い感染事例では、ケーブルの根が建物の地下まで到達して都市の電力網に直接接続した場合が報告されており、これは該当建物全体の電気システムに深刻な不安定をもたらした。
 {: .ja}
+
+
+- <span class="redacted">Data removed per Protocol 7 clearance requirement</span>
+{: .en}
+
+- <span class="redacted">보안 등급 B 이상에서만 열람 가능한 정보가 삭제되었습니다</span>
+{: .ko}
+
+- <span class="redacted">セキュリティレベルB以上でのみ閲覧可能な情報が削除されました</span>
+{: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-01-17 by Dr.Kang (New field observation added)<br>Previous: 2025-01-08 by Archivist_M (Updated countermeasures)</div>
+<div class="ko">최종 편집: 2025-01-17 by Dr.Kang (현장 관찰 기록 추가)<br>이전: 2025-01-08 by Archivist_M (대응 방법 업데이트)</div>
+<div class="ja">最終編集: 2025-01-17 by Dr.Kang<br>前回: 2025-01-08 by Archivist_M</div>
+</div>

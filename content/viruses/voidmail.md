@@ -15,6 +15,10 @@ tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "
 
 <a href="../index.md" class="home-link">Kiwiki</a>
 
+<div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>
+<div class="warning-banner ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</div>
+<div class="warning-banner ja">危険度: 致命的 — このウイルスは不可逆的変形を引き起こします</div>
+
 
 <div class="ko" markdown="1">
 
@@ -57,13 +61,11 @@ tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -81,13 +83,11 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contr
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -105,13 +105,11 @@ When sending email to a non-existent address, the SMTP server sends a bounce not
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -133,13 +131,11 @@ When sending email to a non-existent address, the SMTP server sends a bounce not
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -163,13 +159,11 @@ When sending email to a non-existent address, the SMTP server sends a bounce not
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -193,13 +187,11 @@ When sending email to a non-existent address, the SMTP server sends a bounce not
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -223,13 +215,11 @@ When sending email to a non-existent address, the SMTP server sends a bounce not
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -247,13 +237,11 @@ Discovered in early 2026 when a post office worker reported "objects I place on 
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -275,13 +263,11 @@ Discovered in early 2026 when a post office worker reported "objects I place on 
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -293,3 +279,19 @@ Discovered in early 2026 when a post office worker reported "objects I place on 
 - VoidMail is the most recently discovered Web Kiwi Virus, and "where objects that disappear into voids go" remains unsolved.
 - Theoretically, sufficiently large void zones could cause building structures themselves to vanish, but no case of this scale has been reported yet.
 {: .en}
+
+
+- <span class="redacted">Data removed per Protocol 7 clearance requirement</span>
+{: .en}
+
+- <span class="redacted">보안 등급 B 이상에서만 열람 가능한 정보가 삭제되었습니다</span>
+{: .ko}
+
+- <span class="redacted">セキュリティレベルB以上でのみ閲覧可能な情報が削除されました</span>
+{: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-04-10 by Unit_13 (Revised boundary collapse stages)<br>Previous: 2025-04-10 by Researcher_7 (Updated countermeasures)</div>
+<div class="ko">최종 편집: 2025-04-10 by Unit_13 (경계 무너짐 단계 수정)<br>이전: 2025-04-10 by Researcher_7 (대응 방법 업데이트)</div>
+<div class="ja">最終編集: 2025-04-10 by Unit_13<br>前回: 2025-04-10 by Researcher_7</div>
+</div>

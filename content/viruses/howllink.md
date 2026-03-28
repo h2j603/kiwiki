@@ -57,13 +57,11 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus transmitted 
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Among voice messages received on messengers, those where recorded duration subtl
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +138,11 @@ Among voice messages received on messengers, those where recorded duration subtl
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +172,11 @@ Among voice messages received on messengers, those where recorded duration subtl
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +206,11 @@ Among voice messages received on messengers, those where recorded duration subtl
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +240,11 @@ Among voice messages received on messengers, those where recorded duration subtl
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +265,11 @@ Discovered in autumn 2025 when a sound engineer reported "impossible frequencies
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +296,11 @@ Discovered in autumn 2025 when a sound engineer reported "impossible frequencies
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -334,3 +316,9 @@ Discovered in autumn 2025 when a sound engineer reported "impossible frequencies
 - 現在までに発見された感覚型ウイルスの中で唯一、聴覚を標的とする種である
 - 感染者の付近にいる動物（特に犬）が異常な反応を示すという報告が多数ある
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-05-02 by Dr.Kang (Severity reassessment)<br>Previous: 2025-03-05 by Field_Op_22 (New field observation added)</div>
+<div class="ko">최종 편집: 2025-05-02 by Dr.Kang (위험도 재평가)<br>이전: 2025-03-05 by Field_Op_22 (현장 관찰 기록 추가)</div>
+<div class="ja">最終編集: 2025-05-02 by Dr.Kang<br>前回: 2025-03-05 by Field_Op_22</div>
+</div>

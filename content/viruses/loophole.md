@@ -57,13 +57,11 @@ tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +138,11 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +172,11 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +206,11 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +240,11 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +265,11 @@ Discovered in summer 2025 when chat log analysis revealed that an online study g
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +296,11 @@ Discovered in summer 2025 when chat log analysis revealed that an online study g
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -331,3 +313,9 @@ Discovered in summer 2025 when chat log analysis revealed that an online study g
 
 - ループホールは「最も社会的なウイルス」と呼ばれ、必ず複数人が同時に感染する。単独感染の事例は報告されていない
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-12-06 by Dr.NULL (Added co-infection data)<br>Previous: 2025-05-26 by Unit_13 (Updated countermeasures)</div>
+<div class="ko">최종 편집: 2025-12-06 by Dr.NULL (동시 감염 데이터 추가)<br>이전: 2025-05-26 by Unit_13 (대응 방법 업데이트)</div>
+<div class="ja">最終編集: 2025-12-06 by Dr.NULL<br>前回: 2025-05-26 by Unit_13</div>
+</div>

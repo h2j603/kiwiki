@@ -16,6 +16,10 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 
 <a href="../index.md" class="home-link">Kiwiki</a>
 
+<div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>
+<div class="warning-banner ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</div>
+<div class="warning-banner ja">危険度: 致命的 — このウイルスは不可逆的変形を引き起こします</div>
+
 
 <div class="ko" markdown="1">
 
@@ -58,13 +62,11 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -85,13 +87,11 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contr
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -112,13 +112,11 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -148,13 +146,11 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -184,13 +180,11 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -223,13 +217,11 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -262,13 +254,11 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -289,13 +279,11 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -322,13 +310,11 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -344,3 +330,19 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 - 現在までに発見された[ウェブキウイウイルス](../glossary/index.md#웹키위바이러스--web-kiwi-virus)の中で唯一、物理的環境を不可逆的に変形させる種である
 - 感染した空間を撮影した写真をウェブにアップロードすると、その画像を通じて二次感染が発生する可能性があるという非公式の報告があるが、未確認である
 {: .ja}
+
+
+- <span class="redacted">Data removed per Protocol 7 clearance requirement</span>
+{: .en}
+
+- <span class="redacted">보안 등급 B 이상에서만 열람 가능한 정보가 삭제되었습니다</span>
+{: .ko}
+
+- <span class="redacted">セキュリティレベルB以上でのみ閲覧可能な情報が削除されました</span>
+{: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-09-04 by Archivist_M (Added co-infection data)<br>Previous: 2025-03-25 by Dr.Kang (Severity reassessment)</div>
+<div class="ko">최종 편집: 2025-09-04 by Archivist_M (동시 감염 데이터 추가)<br>이전: 2025-03-25 by Dr.Kang (위험도 재평가)</div>
+<div class="ja">最終編集: 2025-09-04 by Archivist_M<br>前回: 2025-03-25 by Dr.Kang</div>
+</div>

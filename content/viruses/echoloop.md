@@ -58,13 +58,11 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -85,13 +83,11 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -112,13 +108,11 @@ Infection occurs when searching a combination of three or more specific keywords
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -145,13 +139,11 @@ Infection occurs when searching a combination of three or more specific keywords
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -178,13 +170,11 @@ Infection occurs when searching a combination of three or more specific keywords
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -214,13 +204,11 @@ Infection occurs when searching a combination of three or more specific keywords
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -250,13 +238,11 @@ Infection occurs when searching a combination of three or more specific keywords
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -277,13 +263,11 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -310,13 +294,11 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -329,3 +311,9 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 
 - 感染者が書いた文章にも反復的な構造が見られる傾向があり、テキスト分析によって感染の有無を推定できるという研究がある
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-02-09 by Observer_X (Severity reassessment)<br>Previous: 2025-02-24 by Archivist_M (Discovery log expanded)</div>
+<div class="ko">최종 편집: 2025-02-09 by Observer_X (위험도 재평가)<br>이전: 2025-02-24 by Archivist_M (발견 기록 확장)</div>
+<div class="ja">最終編集: 2025-02-09 by Observer_X<br>前回: 2025-02-24 by Archivist_M</div>
+</div>

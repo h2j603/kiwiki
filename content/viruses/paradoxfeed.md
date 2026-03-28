@@ -57,13 +57,11 @@ tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access"
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A Logic-type virus contracted through direct access to self-contradicting web pa
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection begins when directly accessing specific web pages containing self-cont
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -147,13 +141,11 @@ Infection begins when directly accessing specific web pages containing self-cont
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -183,13 +175,11 @@ Infection begins when directly accessing specific web pages containing self-cont
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -219,13 +209,11 @@ Infection begins when directly accessing specific web pages containing self-cont
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -255,13 +243,11 @@ Infection begins when directly accessing specific web pages containing self-cont
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -282,13 +268,11 @@ Discovered in summer 2025 when a lawyer at a law firm judged both the plaintiff'
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -315,13 +299,11 @@ Discovered in summer 2025 when a lawyer at a law firm judged both the plaintiff'
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -337,3 +319,9 @@ Discovered in summer 2025 when a lawyer at a law firm judged both the plaintiff'
 - パラドックスフィード感染者は嘘発見器を無力化する。矛盾した発言をしても自ら真実だと確信しているため、生理的な虚偽反応が現れない。
 - 一部の哲学教授が意図的に感染を試みて「真の弁証法的思考」を体験しようとしたが、全員が不可逆的感染段階に入った。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-02-28 by Field_Op_22 (Updated countermeasures)<br>Previous: 2025-02-23 by Observer_X (Discovery log expanded)</div>
+<div class="ko">최종 편집: 2025-02-28 by Field_Op_22 (대응 방법 업데이트)<br>이전: 2025-02-23 by Observer_X (발견 기록 확장)</div>
+<div class="ja">最終編集: 2025-02-28 by Field_Op_22<br>前回: 2025-02-23 by Observer_X</div>
+</div>

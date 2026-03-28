@@ -293,6 +293,53 @@ body.lang-ja {
   &::before { content: "← "; }
 }
 
+// ---- Warning banner (Critical viruses) ----
+.warning-banner {
+  border: 1px solid lawngreen;
+  background: #111;
+  color: lawngreen;
+  padding: 8px 14px;
+  font-family: "t26-carbon", monospace;
+  font-style: italic;
+  font-size: 12px;
+  margin-bottom: 20px;
+  &::before { content: "⚠ "; }
+}
+
+// ---- Redacted text ----
+.redacted {
+  background: orangered;
+  color: orangered;
+  padding: 0 2px;
+  cursor: help;
+  user-select: none;
+  transition: color 0.3s;
+  &:hover { color: #ffffff; }
+}
+
+// ---- Edit history ----
+.edit-history {
+  border-top: 1px solid orangered;
+  margin-top: 40px;
+  padding-top: 12px;
+  font-size: 11px;
+  color: rgba(255, 69, 0, 0.5);
+  font-family: "t26-carbon", monospace;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+// ---- Stats bar (main page) ----
+.stats-bar {
+  font-family: "t26-carbon", monospace;
+  font-style: italic;
+  font-size: 13px;
+  color: orangered;
+  margin-bottom: 20px;
+  opacity: 0.7;
+  span { margin-right: 16px; }
+}
+
 // ---- Mobile ----
 @media (max-width: 768px) {
   .main-content {

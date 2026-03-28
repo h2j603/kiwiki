@@ -58,13 +58,11 @@ tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -85,13 +83,11 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted b
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -112,13 +108,11 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -145,13 +139,11 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -181,13 +173,11 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -217,13 +207,11 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -253,13 +241,11 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -280,13 +266,11 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -313,13 +297,11 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -335,3 +317,9 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 - ピクセルロットは感覚型ウイルスの中で唯一感染経路がメールである種で、標的感染が可能という点で他の感覚型と区別される
 - 感染者が撮影した写真にもピクセルの劣化が現れるという報告があるが、これがウイルスの直接的効果なのか感染者の認知の歪みなのかは議論中である
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-05-15 by Researcher_7 (Severity reassessment)<br>Previous: 2025-02-03 by Field_Op_22 (New field observation added)</div>
+<div class="ko">최종 편집: 2025-05-15 by Researcher_7 (위험도 재평가)<br>이전: 2025-02-03 by Field_Op_22 (현장 관찰 기록 추가)</div>
+<div class="ja">最終編集: 2025-05-15 by Researcher_7<br>前回: 2025-02-03 by Field_Op_22</div>
+</div>

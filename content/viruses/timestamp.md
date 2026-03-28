@@ -57,13 +57,11 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A Cognitive-type virus contracted by repeatedly searching for specific dates, ti
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection occurs when repeatedly searching for records of specific past time poi
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +138,11 @@ Infection occurs when repeatedly searching for records of specific past time poi
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +172,11 @@ Infection occurs when repeatedly searching for records of specific past time poi
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +206,11 @@ Infection occurs when repeatedly searching for records of specific past time poi
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +240,11 @@ Infection occurs when repeatedly searching for records of specific past time poi
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +265,11 @@ In winter 2025, a digital archiving specialist became infected during a project 
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +296,11 @@ In winter 2025, a digital archiving specialist became infected during a project 
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -334,3 +316,9 @@ In winter 2025, a digital archiving specialist became infected during a project 
 - タイムスタンプ感染者の一部は「未来のデジャヴ」を経験すると報告している——まだ起きていない出来事が「すでに起きた」と感じられ、予言と区別できない確信を持つようになる。
 - 逆説的に、タイムスタンプ感染者は実際に繰り返される日常（通勤、食事など）ではデジャヴを感じず、客観的に「新しい」経験でのみ症状が発現する。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-03-02 by Agent_K (Updated countermeasures)<br>Previous: 2025-01-12 by Unit_13 (Discovery log expanded)</div>
+<div class="ko">최종 편집: 2025-03-02 by Agent_K (대응 방법 업데이트)<br>이전: 2025-01-12 by Unit_13 (발견 기록 확장)</div>
+<div class="ja">最終編集: 2025-03-02 by Agent_K<br>前回: 2025-01-12 by Unit_13</div>
+</div>

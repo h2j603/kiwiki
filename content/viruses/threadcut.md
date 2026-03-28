@@ -15,6 +15,10 @@ tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger"
 
 <a href="../index.md" class="home-link">Kiwiki</a>
 
+<div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>
+<div class="warning-banner ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</div>
+<div class="warning-banner ja">危険度: 致命的 — このウイルスは不可逆的変形を引き起こします</div>
+
 
 <div class="ko" markdown="1">
 
@@ -57,13 +61,11 @@ tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger"
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +86,11 @@ A Cognitive-type virus contracted through the experience of conversations being 
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +111,11 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +142,11 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +176,11 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +210,11 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +244,11 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +269,11 @@ In early 2026, a mass infection was discovered among a group of remote workers l
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +300,11 @@ In early 2026, a mass infection was discovered among a group of remote workers l
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -334,3 +320,19 @@ In early 2026, a mass infection was discovered among a group of remote workers l
 - スレッドカットはテキストだけでなく音楽鑑賞にも影響を及ぼす——感染者はメロディの進行を追えず、各音を独立した音として認識する。音楽が「騒音の連続」に聞こえるという報告が多数ある。
 - 一部の研究者はスレッドカットが人間の意識の「物語的自己」を解体すると主張し、このウイルスが「自己は物語で構成される」という心理学的仮説を逆説的に証明すると提案している。
 {: .ja}
+
+
+- <span class="redacted">Data removed per Protocol 7 clearance requirement</span>
+{: .en}
+
+- <span class="redacted">보안 등급 B 이상에서만 열람 가능한 정보가 삭제되었습니다</span>
+{: .ko}
+
+- <span class="redacted">セキュリティレベルB以上でのみ閲覧可能な情報が削除されました</span>
+{: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-07-22 by Unit_13 (Updated countermeasures)<br>Previous: 2025-01-24 by Dr.NULL (Revised boundary collapse stages)</div>
+<div class="ko">최종 편집: 2025-07-22 by Unit_13 (대응 방법 업데이트)<br>이전: 2025-01-24 by Dr.NULL (경계 무너짐 단계 수정)</div>
+<div class="ja">最終編集: 2025-07-22 by Unit_13<br>前回: 2025-01-24 by Dr.NULL</div>
+</div>
