@@ -54,6 +54,7 @@
 .infection-splash-name { font-size: 28px; font-weight: 100; margin-bottom: 4px; }
 .infection-splash-code { font-size: 11px; color: rgba(124,252,0,0.5); }
 @keyframes splashIn { to { opacity: 1; } }
+@keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-3px)} 75%{transform:translateX(3px)} }
 
 .virus-kiwibloom .main-content::after { content: "\2726\2726\2726"; position: fixed; bottom: 20px; right: 20px; font-size: 28px; color: lawngreen; opacity: 0.4; pointer-events: none; letter-spacing: 8px; animation: bloomPulse 3s infinite; }
 @keyframes bloomPulse { 0%,100% { opacity: 0.2; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.2); } }
