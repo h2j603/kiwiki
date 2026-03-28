@@ -22,7 +22,14 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 메신저의 음성 메시지를 통해 전파되는 [감각형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자는 현실에서 존재하지 않는 소리—멀리서 들리는 울음, 기계적 속삭임, 주파수 이탈된 윙윙거림—를 지속적으로 듣게 된다.
 {: .ko}
@@ -33,7 +40,14 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus transmitted 
 メッセンジャーの音声メッセージを通じて伝播する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は現実に存在しない音——遠くから聞こえる鳴き声、機械的な囁き、周波数がずれたうなり——を持続的に聞くようになる。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 메신저에서 수신한 음성 메시지 중, 녹음 시간과 실제 재생 시간이 미세하게 다른(0.3~0.7초 차이) 것이 감염 매체이다. 이 "여분의 시간"에는 인간 가청 범위 경계(18~22kHz)의 초고주파가 포함되어 있으며, 이 주파수를 이어폰이나 스피커로 재생하면 감염된다.
 {: .ko}
@@ -44,7 +58,14 @@ Among voice messages received on messengers, those where recorded duration subtl
 メッセンジャーで受信した音声メッセージのうち、録音時間と実際の再生時間が微妙に異なる（0.3〜0.7秒の差）ものが感染媒体である。この「余分な時間」には人間の可聴範囲の境界（18〜22kHz）の超高周波が含まれており、この周波数をイヤホンやスピーカーで再生すると感染する。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 음성 메시지 재생 중 들리지 않았던 배경 소리가 나중에 기억남
 - 음악이나 팟캐스트에서 존재하지 않는 레이어의 소리가 들림
@@ -61,7 +82,14 @@ Among voice messages received on messengers, those where recorded duration subtl
 - 通知音が実際より頻繁に鳴っているように感じる
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 조용한 공간에서 먼 곳의 울음소리나 기계음이 들림
 - 다른 사람은 듣지 못하는 저주파 진동을 감지
@@ -81,7 +109,14 @@ Among voice messages received on messengers, those where recorded duration subtl
 - 末期には実際の音と幻聴の区別が不可能になる
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 메신저 음성 메시지에서 이상 주파수 노출 (웹)
 2. 모든 디지털 오디오에서 없는 소리 감지 (웹 확산)
@@ -101,7 +136,14 @@ Among voice messages received on messengers, those where recorded duration subtl
 4. 実際の音と幻聴の境界が消滅（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 음성 메시지는 이어폰 대신 스피커폰으로 재생 (거리 감쇠로 초고주파 무력화)
 - 음성 메시지 수신 전 파일 길이와 표시 시간 비교
@@ -121,7 +163,14 @@ Among voice messages received on messengers, those where recorded duration subtl
 - 感染者の付近で音声録音をすると幻聴が実際に録音される事例があり、これを通じた診断が可能
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 가을, 한 음향 엔지니어가 "녹음실에서 존재할 수 없는 주파수가 잡힌다"고 보고. 분석 결과 해당 엔지니어가 받은 음성 메시지들에서 가청 한계 부근의 일관된 주파수 패턴이 발견됨. 이 패턴은 자연계에 존재하지 않는 파형이었다.
 {: .ko}
@@ -132,7 +181,14 @@ Discovered in autumn 2025 when a sound engineer reported "impossible frequencies
 2025年秋、ある音響エンジニアが「録音スタジオで存在しえない周波数が拾われる」と報告。分析の結果、そのエンジニアが受信した音声メッセージから可聴限界付近の一貫した周波数パターンが発見された。この波形は自然界に存在しないものであった。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [미러링크 (MirrorLink)](mirrorlink.md): 같은 감각형이나, 미러링크는 시각, 하울링크는 청각을 왜곡. 동시 감염 시 "보이지 않는 것이 소리를 내는" 공감각적 현상이 보고됨.
 - [캐시베인 (CacheVein)](cachevein.md): 메신저 전파 경로 공유. 캐시베인의 정맥 패턴에서 미약한 전자기파가 방출되며, 하울링크 감염자만이 이를 "소리"로 감지한다.
@@ -149,7 +205,14 @@ Discovered in autumn 2025 when a sound engineer reported "impossible frequencies
 - [ヌルウィスパー（NullWhisper）](nullwhisper.md)：ヌルウィスパーの「囁き」がハウルリンクの幻聴と結合すると、囁きの説得力が最大化される。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 현재까지 발견된 감각형 바이러스 중 유일하게 청각을 표적으로 하는 종
 - 감염자 주변의 동물(특히 개)이 비정상적 반응을 보인다는 보고가 다수 있음

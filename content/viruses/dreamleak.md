@@ -22,7 +22,14 @@ tags: ["인지형", "SNS", "꿈", "기억", "cognitive", "social media", "dream"
 | 위험도 | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
 | 상태 | <span class="pill pill-active">활성 / Active</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 SNS 플랫폼에서 숏폼 영상(릴스, 쇼츠 등)을 취침 전에 반복 시청하면 감염되는 인지형 바이러스. 감염자는 꿈에서 경험한 기억과 현실에서 경험한 기억의 경계가 점진적으로 붕괴하여, 두 영역을 구분하는 능력을 완전히 상실하게 된다. 특히 감정적으로 강렬한 영상일수록 꿈과 현실의 융합이 가속화되며, 감염자의 일상적 판단 능력이 심각하게 저하된다.
 {: .ko}
@@ -33,7 +40,14 @@ A Cognitive-type virus contracted by repeatedly watching short-form video conten
 SNSプラットフォームでショートフォーム動画（リール、ショートなど）を就寝前に繰り返し視聴すると感染する認知型ウイルス。感染者は夢で経験した記憶と現実で経験した記憶の境界が段階的に崩壊し、二つの領域を区別する能力を完全に喪失する。特に感情的に強烈な映像ほど夢と現実の融合が加速し、感染者の日常的な判断能力が深刻に低下する。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 취침 전 30분 이내에 SNS 숏폼 영상을 연속으로 15개 이상 시청하면 감염 위험이 급격히 증가한다. 루프 재생되는 영상의 반복 패턴이 수면 중 REM 주기와 동기화되어, 뇌의 기억 분류 체계에 간섭한다. 플랫폼의 자동재생 알고리즘이 생성하는 특정 시청 패턴이 감염 벡터로 작용하며, 사용자가 의식적으로 영상을 선택하지 않고 알고리즘에 맡길수록 감염 확률이 높아진다.
 {: .ko}
@@ -44,7 +58,14 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 就寝前30分以内にSNSショートフォーム動画を連続で15本以上視聴すると感染リスクが急激に上昇する。ループ再生される動画の反復パターンが睡眠中のREMサイクルと同期し、脳の記憶分類体系に干渉する。プラットフォームの自動再生アルゴリズムが生成する特定の視聴パターンが感染ベクターとして作用し、ユーザーが意識的に動画を選択せずアルゴリズムに任せるほど感染確率が高まる。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 시청 기록에 본 기억이 없는 영상이 다수 존재함
 - SNS 피드가 꿈에서 본 듯한 콘텐츠로 가득 차 보임
@@ -61,7 +82,14 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 - コメントを書いたと確信しているが、実際には存在しない
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 전날 밤 꿈의 사건이 실제 일어난 일처럼 행동함 ("어제 상사에게 그 얘기 했잖아요"—실제로는 꿈)
 - 실제로 있었던 대화나 사건을 꿈이었다고 확신하여 무시함
@@ -81,7 +109,14 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 - 睡眠を重ねるごとに区別能力が悪化し、末期には覚醒状態すら夢かどうか疑う
 {: .ja}
 
-## 경계 무너짐 단계 / Boundary Collapse Stages
+## 경계 무너짐 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 시청한 숏폼 영상의 내용이 꿈에 빈번히 등장 (웹 침투)
 2. 꿈의 기억과 시청 기억이 혼동되기 시작—영상을 봤는지 꿈을 꿨는지 구분 불가 (웹-꿈 융합)
@@ -101,7 +136,14 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 4. 睡眠と覚醒の主観的境界が完全崩壊——起きていても夢の中にいるか確信できない（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 취침 2시간 전부터 모든 숏폼 콘텐츠 시청을 중단할 것
 - 매일 아침 "현실 확인 일지"를 작성하여 전날의 사건을 기록하고 제3자에게 검증받을 것
@@ -121,7 +163,14 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 - 感染初期に就寝前に紙の本を読むなど非デジタル活動に切り替えると進行が止まる事例が報告されている
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 봄, 대학생 커뮤니티에서 "어젯밤 꿈에서 있었던 일을 친구에게 확인했더니 실제로 일어나지 않았다"는 게시글이 폭발적으로 증가했다. 초기에는 단순한 밈으로 취급되었으나, 피해자들이 공통적으로 취침 전 1시간 이상 릴스를 시청했다는 패턴이 확인되면서 신종 바이러스로 분류되었다. 감염자 중 한 명이 꿈에서 퇴직서를 제출한 기억을 현실로 착각해 출근하지 않은 사건이 대중의 주목을 받았다.
 {: .ko}
@@ -132,7 +181,14 @@ In spring 2025, posts in university student communities exploded with variations
 2025年春、大学生コミュニティで「昨夜の夢で起きたことを友人に確認したら実際には起きていなかった」という投稿が爆発的に増加した。当初は単なるミームとして扱われたが、被害者が共通して就寝前1時間以上リールを視聴していたというパターンが確認され、新種ウイルスとして分類された。感染者の1人が夢の中で退職届を提出した記憶を現実と勘違いして出勤しなかった事件が大衆の注目を集めた。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [에코루프 (EchoLoop)](echoloop.md): 반복 검색 행동과 드림리크의 반복 시청 행동이 상호 강화될 수 있음. 에코루프로 같은 영상을 반복 검색하면 드림리크의 루프 패턴이 강화됨.
 - [포겟미낫 (ForgetMeNot)](forgetmenot.md): 기억 관련 인지형 바이러스. 포겟미낫이 기억을 "지운다"면, 드림리크는 기억을 "대체한다"—동시 감염 시 기억 체계가 완전히 와해됨.
@@ -149,7 +205,14 @@ In spring 2025, posts in university student communities exploded with variations
 - [タイムスタンプ（TimeStamp）](timestamp.md)：夢の記憶とデジャヴが結合すると、すべての経験が「すでに夢で見た繰り返し」と感じられ、極度の無力感を誘発する。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 드림리크는 감염자가 자신의 감염 여부를 판단하기 가장 어려운 바이러스 중 하나로, "내가 감염된 것도 꿈일 수 있다"는 역설이 발생함.
 - 일부 감염자는 루시드 드리밍(자각몽) 기술을 통해 증상을 관리하려 시도했으나, 오히려 꿈과 현실의 경계를 더욱 흐리게 만드는 역효과가 보고됨.

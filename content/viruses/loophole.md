@@ -22,7 +22,14 @@ tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 메신저 대화에서 논리적 모순이 포함된 대화 흐름에 노출되면 감염되는 [인지형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 현실 인식에 "구멍"이 생겨, 인과 관계나 시간 순서가 맞지 않는 상황을 이상하게 느끼지 못하게 된다.
 {: .ko}
@@ -33,7 +40,14 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 メッセンジャーの会話で論理的矛盾を含む対話の流れに曝露されると感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の現実認識に「穴」が生じ、因果関係や時間順序が合わない状況を異常と感じられなくなる。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 단체 채팅에서 대화가 순환 구조(A→B→C→A)를 형성하면서도 참여자 누구도 이를 인지하지 못하는 상태가 20분 이상 지속될 때, 해당 채팅방의 모든 참여자가 감염된다. 이 순환은 자연 발생하며, 인위적으로 유도할 수 없다.
 {: .ko}
@@ -44,7 +58,14 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 グループチャットで会話が循環構造（A→B→C→A）を形成し、参加者の誰もそれに気づかない状態が20分以上続くと、そのチャットルームの全参加者が感染する。この循環は自然発生するもので、人為的に誘導することはできない。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 대화 내용의 모순을 인지하지 못함
 - 시간 순서가 뒤바뀐 메시지를 정상으로 인식
@@ -61,7 +82,14 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 - 同じ会話が繰り返されても「ずっと新しい会話」と感じる
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - "아까 그거 했잖아" → "안 했는데?" 같은 인식 불일치가 빈번해짐
 - 원인과 결과가 뒤바뀐 상황을 자연스럽게 받아들임 (비 오기 전에 우산을 접는 등)
@@ -81,7 +109,14 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 - 末期には現実の因果体系を完全に失い、合理的な判断が不可能になる
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 채팅 대화의 논리적 모순 감지 불가 (웹)
 2. 모든 온라인 텍스트에서 모순 인지 불능 (웹 확산)
@@ -101,7 +136,14 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 4. 因果体系が崩壊、矛盾を真実として受容（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 단체 채팅에서 대화가 20분 이상 순환한다고 느끼면 즉시 나갈 것
 - 감염 의심 시, 간단한 논리 퍼즐(삼단논법 등)을 주기적으로 풀어 인과 인식을 점검
@@ -121,7 +163,14 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 - 初期段階では3日間すべてのチャットを中止し、対面での会話のみを行えば回復可能
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 여름, 한 온라인 스터디 그룹에서 "우리가 3시간 동안 같은 토론을 반복했는데 아무도 몰랐다"는 사실이 채팅 로그 분석으로 밝혀짐. 해당 그룹의 참여자 전원이 인과 인식 저하 증상을 보였으며, 채팅 로그에서 정확히 45분 주기의 대화 순환 패턴이 확인됨.
 {: .ko}
@@ -132,7 +181,14 @@ Discovered in summer 2025 when chat log analysis revealed that an online study g
 2025年夏、あるオンライン勉強会で「3時間同じ議論を繰り返していたのに誰も気づかなかった」という事実がチャットログの分析で判明。そのグループの参加者全員が因果認識の低下症状を示しており、チャットログからは正確に45分周期の対話循環パターンが確認された。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [에코루프 (EchoLoop)](echoloop.md): 에코루프는 행동의 반복, 루프홀은 논리의 반복. 증상은 유사하나 메커니즘이 다르며, 동시 감염 시 "반복하면서 모순도 인지 못하는" 상태가 됨.
 - [널위스퍼 (NullWhisper)](nullwhisper.md): 메신저 전파 경로 공유. 루프홀 감염자는 논리적 모순을 감지 못하므로 널위스퍼의 "합리적 속삭임"이 모순적이라는 점을 알아채지 못함.
@@ -149,7 +205,14 @@ Discovered in summer 2025 when chat log analysis revealed that an online study g
 - [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：興味深いことに、シンタックスレイス感染者は思考が厳格な構文構造に制限されるため、ループホールへの抵抗力が高い。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 루프홀은 "가장 사회적인 바이러스"로 불리며, 반드시 여러 명이 동시에 감염됨. 단독 감염 사례는 보고된 바 없음
 {: .ko}

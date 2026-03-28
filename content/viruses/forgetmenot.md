@@ -22,7 +22,14 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 특정 뉴스레터 형식의 이메일을 열면 감염되는 [인지형](../taxonomy/index.md#유형별-분류) 바이러스. 이름과 달리, 감염자의 기억을 가장 최근 것부터 역순으로 삭제한다. "나를 잊지 마"라는 이름은 감염자가 마지막까지 반복하는 말에서 유래했다.
 {: .ko}
@@ -33,7 +40,14 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 特定のニュースレター形式のメールを開くと感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。名前に反して、感染者の記憶を最も新しいものから逆順に削除していく。「フォゲットミーノット（私を忘れないで）」という名前は、感染者が最後まで繰り返す言葉に由来する。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 뉴스레터 형태의 이메일에서 "구독 해지" 링크의 URL 구조가 특정 해시 패턴을 포함할 때, 해당 이메일을 끝까지 스크롤하는 행위로 감염된다. 이메일 내용 자체는 무해하며, URL의 해시 패턴이 브라우저의 프리페치 기능을 통해 처리될 때 감염이 발생한다.
 {: .ko}
@@ -44,7 +58,14 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 ニュースレター形式のメールで「配信停止」リンクのURL構造が特定のハッシュパターンを含む場合、そのメールを最後までスクロールする行為で感染する。メールの内容自体は無害であり、URLのハッシュパターンがブラウザのプリフェッチ機能を通じて処理される際に感染が発生する。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 최근 읽은 이메일의 내용이 기억나지 않음
 - 브라우저 히스토리에 있는 사이트를 방문한 기억이 없음
@@ -61,7 +82,14 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 - パスワードを何度も間違える（最近変更した記憶が消失）
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 오늘 한 일을 저녁에 기억하지 못함
 - 며칠 전 대화 내용 소실 → 주 단위 기억 소실 → 월 단위 기억 소실로 진행
@@ -81,7 +109,14 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 - 末期には数年分の記憶が消失し、自我のアイデンティティが過去の自分へ退行する
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 최근 이메일·웹 활동 기억 소실 (웹)
 2. 디지털 활동 전반의 기억 소실 (웹 확산)
@@ -101,7 +136,14 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 4. 逆順の記憶削除が加速し、不可逆的に（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 뉴스레터 이메일을 끝까지 스크롤하지 말 것—특히 구독 해지 링크 부근
 - 이메일 클라이언트의 프리페치 기능을 비활성화
@@ -121,7 +163,14 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 - 初期段階では写真や映像などの外部記録に繰り返し触れることで記憶の削除が鈍化する
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 가을, 한 연구원이 "나는 오늘 무엇을 했는지 모르겠다. 어제도 모르겠다. 그저께도"라는 글을 SNS에 올림. 동료들의 증언에 따르면 해당 연구원은 일주일 전까지 정상이었으며, 공통적으로 같은 뉴스레터를 구독 중이었던 다른 연구원 3명도 유사 증상을 보임.
 {: .ko}
@@ -132,7 +181,14 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 2025年秋、ある研究者が「今日何をしたかわからない。昨日もわからない。一昨日も」とSNSに投稿。同僚の証言によれば、その研究者は一週間前まで正常であり、同じニュースレターを購読していた他の研究者3名にも類似の症状が見られた。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [에코루프 (EchoLoop)](echoloop.md): 에코루프는 같은 것을 반복하고, 포겟미낫은 했던 것을 잊는다. 동시 감염 시 "기억은 없는데 반복은 하는" 극단적 상태가 된다.
 - [데드스크롤 (DeadScroll)](deadscroll.md): 데드스크롤이 시간의 "빈틈"을 만든다면, 포겟미낫은 시간의 "삭제"를 수행. 증상이 유사해 초기 진단에서 혼동되기 쉬움.
@@ -149,7 +205,14 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 - [バイトシェイド（ByteShade）](byteshade.md)：メールという伝播経路を共有。同一のメールに両ウイルスが同時に存在する事例が報告されている。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - "나를 잊지 마(Forget Me Not)"라는 이름은 감염자가 기억을 잃어가면서도 반복하는 마지막 말에서 유래. 이 말조차 잊게 되면 말기로 판정
 - 기억이 삭제된 빈 공간을 뇌가 어떻게 "채우는지"에 대한 연구가 진행 중이며, 일부 감염자는 다른 감염자의 기억을 대신 채운다는 미확인 보고가 있음

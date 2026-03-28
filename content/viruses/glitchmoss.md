@@ -23,7 +23,14 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 폐쇄되었거나 버려진 웹페이지에 직접 접속하면 감염되는 [환경형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 주변 물리적 환경에 디지털 글리치와 유사한 패턴의 부식/변형이 나타나며, 마치 현실 공간에 이끼가 끼듯 번져나간다.
 {: .ko}
@@ -34,7 +41,14 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contr
 閉鎖された、または放棄されたウェブページに直接アクセスすると感染する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周囲の物理的環境にデジタルグリッチに似たパターンの腐食・変形が現れ、まるで現実空間に苔が生えるように広がっていく。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 더 이상 관리되지 않는 웹사이트의 404 페이지나 만료된 도메인에 직접 URL을 입력하여 접속할 때 감염된다. 특히 해당 페이지가 오래전에 마지막으로 업데이트된 상태에서 서버가 완전히 다운되지 않고 반쯤 살아있는 경우에 감염률이 높다.
 {: .ko}
@@ -45,7 +59,14 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 管理されなくなったウェブサイトの404ページや期限切れドメインにURLを直接入力してアクセスすると感染する。特に、最後の更新がかなり前で、サーバーが完全にはダウンせず半ば生きている状態の場合に感染率が高い。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 방문한 웹페이지의 레이아웃이 서서히 깨져 보임
 - 텍스트에 의미 없는 유니코드 문자가 끼어들기 시작
@@ -65,7 +86,14 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 - ブラウザ自体が断続的にフリーズする
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 감염자가 오래 머무는 공간(방, 사무실)의 벽면에 회녹색 얼룩이 서서히 나타남
 - 전자기기 화면에 물리적 번인(burn-in)과 유사한 자국 발생
@@ -85,7 +113,14 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 - 末期には空間自体が「読み込まれない」かのように一部領域が認知から消失する
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 브라우저에서 글리치 현상 발생 (웹)
 2. 사용 중인 기기 화면에 물리적 손상 발생 (기기 침투)
@@ -108,7 +143,14 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 5. その空間が物理的に「アクセス不能」状態に（不可逆的）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 출처 불명의 오래된 URL에 직접 접속하지 않을 것
 - 만료된 도메인 탐색 시 반드시 가상환경(VM) 사용
@@ -131,7 +173,14 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 - 末期段階に達した空間は復旧不可と判定される
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2024년 여름, 한 도시탐험(어반 익스플로링) 커뮤니티에서 폐건물 내부 사진에 이상한 패턴이 찍힌다는 제보가 올라옴. 조사 결과 해당 건물에 남아있던 서버룸의 장비가 반쯤 작동 중이었으며, 탐험자들이 현장에서 해당 서버에 접속한 것이 감염 경로로 추정됨. 이후 서버를 물리적으로 파괴했으나, 이미 감염된 공간의 부식은 멈추지 않았다.
 {: .ko}
@@ -142,7 +191,14 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 2024年夏、都市探検（アーバンエクスプローリング）コミュニティで、廃墟内部の写真に奇妙なパターンが写り込むという情報が寄せられた。調査の結果、その建物に残っていたサーバールームの機器が半ば稼働中であり、探検者たちが現場でそのサーバーに接続したことが感染経路と推定された。その後サーバーを物理的に破壊したが、既に感染した空間の腐食は止まらなかった。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [캐시베인 (CacheVein)](cachevein.md): 같은 환경형 바이러스. 글리치모스가 공간을 부식시킨다면, 캐시베인은 공간에 데이터의 물리적 흔적을 새긴다. 두 바이러스가 동시에 존재하는 공간은 극도로 위험하다.
 - [신택스레이스 (SyntaxWraith)](syntaxwraith.md): 직접접근이라는 전파 경로를 공유. 글리치모스가 버려진 페이지에서 온다면, 신택스레이스는 방치된 코드 저장소에서 온다.
@@ -159,7 +215,14 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 - [ミラーリンク（MirrorLink）](mirrorlink.md)：ミラーリンク末期患者周辺の反射面でグリッチモスに類似した腐食が観察された事例がある。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 현재까지 발견된 [웹키위바이러스](../glossary/index.md#웹키위바이러스--web-kiwi-virus) 중 유일하게 물리적 환경을 비가역적으로 변형시키는 종
 - 감염된 공간을 촬영한 사진을 웹에 업로드하면 해당 이미지를 통해 2차 감염이 발생할 수 있다는 비공식 보고가 있으나 미확인

@@ -23,7 +23,14 @@ tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 메신저에서 삭제된 메시지의 캐시 데이터를 통해 전파되는 [환경형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자 주변의 물리적 표면(벽, 천장, 바닥)에 회로도나 데이터 흐름을 닮은 정맥 형태의 무늬가 나타나며, 이 무늬를 통해 실제 데이터 조각이 물리적으로 "흐르는" 것이 관찰된다.
 {: .ko}
@@ -34,7 +41,14 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus trans
 メッセンジャーで削除されたメッセージのキャッシュデータを介して伝播する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周辺の物理的表面（壁、天井、床）に回路図やデータフローに似た静脈状の模様が現れ、この模様を通じて実際のデータ断片が物理的に「流れる」のが観察される。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 메신저에서 "모두에게 삭제"된 메시지가 실제로는 서버 캐시에 잔류하는 경우가 있다. 이 잔류 데이터에 바이러스가 기생하며, 삭제된 메시지가 있던 채팅방에 계속 참여하는 사용자가 점진적으로 감염된다. 삭제된 메시지를 직접 보지 않아도 감염 가능.
 {: .ko}
@@ -45,7 +59,14 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 メッセンジャーで「全員に対して削除」されたメッセージが実際にはサーバーキャッシュに残留している場合がある。この残留データにウイルスが寄生し、削除されたメッセージがあったチャットルームに留まり続けるユーザーが徐々に感染する。削除されたメッセージを直接見ていなくても感染は可能。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 삭제된 메시지의 내용이 다른 앱(메모, 캘린더 등)에 무작위로 나타남
 - 디바이스 저장 공간이 알 수 없는 캐시 파일로 가득 참
@@ -62,7 +83,14 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - 画面をオフにしてもデバイスが発熱し、データを処理しているような症状
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 감염자 거주 공간의 벽면에 가는 검은 선이 정맥처럼 뻗어나감
 - 선을 따라가면 회로 기판의 배선도와 유사한 패턴
@@ -82,7 +110,14 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - 末期には静脈が建物の構造を弱体化させ、建物自体が一つの巨大な回路のように動作する
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 메신저에서 삭제된 메시지 잔류 데이터 노출 (웹)
 2. 디바이스 전반에 캐시 이상 발생 (웹 확산)
@@ -105,7 +140,14 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 5. 建物構造が「データネットワーク」に変換（不可逆的）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 메신저에서 삭제된 메시지가 있는 채팅방은 나갈 것
 - 디바이스 캐시를 주기적으로 완전 삭제
@@ -125,7 +167,14 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - [グリッチモス](glitchmoss.md)感染空間との近接を必ず避けること
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 가을, 한 아파트 관리사무소에 "벽에서 이상한 무늬가 자라난다"는 신고가 접수됨. 현장 조사 결과 해당 세대 거주자는 한 대형 단체 채팅방에서 반복적으로 메시지가 삭제되는 상황에 노출되어 있었음. 정맥 무늬를 현미경으로 관찰한 결과, 삭제된 메시지의 텍스트가 미세한 크기로 새겨져 있었다.
 {: .ko}
@@ -136,7 +185,14 @@ Discovered in autumn 2025 when an apartment management office received a report 
 2025年秋、あるマンションの管理事務所に「壁に奇妙な模様が育っている」という通報があった。現場調査の結果、その住人は大規模なグループチャットで繰り返しメッセージが削除される状況に曝されていた。静脈模様を顕微鏡で観察したところ、削除されたメッセージのテキストが微細なサイズで刻まれていた。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [글리치모스 (GlitchMoss)](glitchmoss.md): 같은 환경형 바이러스. 글리치모스가 공간을 "부식"시킨다면, 캐시베인은 공간을 "배선"한다. 두 바이러스가 같은 공간에 존재하면 건물 붕괴 위험이 급격히 상승한다.
 - [널위스퍼 (NullWhisper)](nullwhisper.md): 메신저를 통해 전파된다는 공통점. 널위스퍼의 빈 메시지가 삭제되면서 캐시베인의 먹이가 된다는 가설이 있다.
@@ -153,7 +209,14 @@ Discovered in autumn 2025 when an apartment management office received a report 
 - [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：キャッシュベインが生み出す静脈パターンがプログラミング言語の構文構造に類似しているという分析があり、シンタックスレイスとの関連性が研究中である。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 캐시베인은 현재까지 발견된 환경형 바이러스 중 가장 최근에 발견되었으나, 전파 속도가 가장 빠름
 - 정맥을 통해 흐르는 데이터는 감염자뿐 아니라 주변인의 삭제된 메시지 내용도 포함하여, 프라이버시 침해 문제도 제기됨

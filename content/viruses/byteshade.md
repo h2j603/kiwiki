@@ -22,7 +22,14 @@ tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgm
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 이메일 본문에 삽입된 보이지 않는 유니코드 문자(제로폭 문자 등)를 통해 감염되는 [로직형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자가 선택지 앞에 놓일 때마다, 실제로는 존재하지 않는 "그림자 선택지"가 보이며 항상 그것을 고르게 된다.
 {: .ko}
@@ -33,7 +40,14 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus transmitted th
 メール本文に埋め込まれた不可視のユニコード文字（ゼロ幅文字など）を介して感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者が選択肢を前にするたびに、実際には存在しない「影の選択肢」が見え、常にそれを選んでしまう。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 정상적인 비즈니스 이메일처럼 보이는 메일에 제로폭 접합자(ZWJ), 제로폭 비접합자(ZWNJ) 등 보이지 않는 유니코드 문자가 특정 패턴으로 삽입되어 있다. 이메일을 읽는 행위 자체가 해당 패턴을 뇌가 처리하게 만들어 감염이 발생한다.
 {: .ko}
@@ -44,7 +58,14 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 正常なビジネスメールのように見えるメールに、ゼロ幅接合子（ZWJ）、ゼロ幅非接合子（ZWNJ）などの不可視ユニコード文字が特定のパターンで挿入されている。メールを読む行為自体が脳にそのパターンを処理させ、感染が発生する。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 이메일을 복사·붙여넣기하면 보이지 않는 문자가 의도치 않게 전파됨
 - 온라인 양식에서 선택지가 하나 더 보이는 환각 발생
@@ -61,7 +82,14 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 - テキストエディタでカーソルが不可視文字の位置で止まる現象
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 식당 메뉴에서 없는 메뉴를 주문하려고 시도
 - 선택해야 할 상황에서 "세 번째 선택지"가 항상 보임 (실제로는 두 개뿐인 경우에도)
@@ -81,7 +109,14 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 - 末期にはすべての選択肢が影に置き換わり、一切の決定を下せなくなる
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 이메일에서 보이지 않는 문자 패턴 처리 (웹)
 2. 온라인 양식·투표 등에서 환각 선택지 출현 (웹 확산)
@@ -101,7 +136,14 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 4. 実際の選択肢と影が区別不能に（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 이메일 클라이언트에서 비가시 유니코드 문자를 표시하는 기능을 활성화할 것
 - 의심스러운 이메일은 일반 텍스트(plain text) 모드로 열어 확인
@@ -118,7 +160,14 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 - 感染初期には、すべての決定を「見える選択肢だけ」を基準に他者に確認してもらう習慣が有効
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 봄, 한 대기업 인사팀에서 면접관들이 존재하지 않는 "4번 후보"에게 합격 판정을 내린 사건이 발생. 내부 이메일을 분석한 결과, 인사 관련 메일에 체계적으로 삽입된 제로폭 문자 패턴이 발견됨.
 {: .ko}
@@ -129,7 +178,14 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 2025年春、ある大企業の人事部で面接官たちが存在しない「4番候補」に合格判定を下した事件が発生。社内メールを分析した結果、人事関連メールに体系的に挿入されたゼロ幅文字パターンが発見された。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [널위스퍼 (NullWhisper)](nullwhisper.md): 둘 다 로직형이나, 널위스퍼는 잘못된 선택으로 유도하고 바이트셰이드는 존재하지 않는 선택으로 유도한다는 차이.
 - [픽셀롯 (PixelRot)](pixelrot.md): 이메일 전파 경로 공유. 바이트셰이드가 보이지 않는 문자라면, 픽셀롯은 보이지만 비정상적인 픽셀.
@@ -146,7 +202,14 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 - [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：シンタックスレイス感染者はゼロ幅文字を「コード」として認識するため、バイトシェイドに免疫を示す事例がある。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 바이트셰이드는 표적 공격에 사용될 수 있어, 현재까지 발견된 로직형 중 유일하게 "무기화 가능성"이 논의되는 종
 {: .ko}
