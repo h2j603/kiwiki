@@ -9,6 +9,8 @@ function kiwikiLang(l){
   var b=document.getElementById('kiwiki-lang-toggle').getElementsByTagName('button');
   for(var i=0;i<b.length;i++) b[i].className='lang-btn'+(b[i].getAttribute('data-lang')===l?' active':'');
   try{localStorage.setItem('kiwiki-lang',l);}catch(e){}
+  // Rebuild TOC after language switch
+  if(typeof buildKiwikiToc==='function') setTimeout(buildKiwikiToc,30);
 }
 (function(){
   try{var s=localStorage.getItem('kiwiki-lang');if(s&&s!=='en'){kiwikiLang(s);}}catch(e){}
