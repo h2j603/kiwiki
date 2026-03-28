@@ -44,14 +44,5 @@ layout: table_wrappers
     {% include components/mermaid.html %}
   {% endif %}
 
-  <!-- infection only -->
-  <script>
-  (function(){try{
-    var n=parseInt(localStorage.getItem('kiwiki-pages')||'0')+1;
-    localStorage.setItem('kiwiki-pages',n);
-    if(n>=8)document.body.className+=' infected-1';
-    if(n>=16)document.body.className+=' infected-2';
-  }catch(e){}})();
-  </script>
 </body>
 </html>
