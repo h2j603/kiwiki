@@ -9,8 +9,39 @@ function kiwikiLang(l){
   var b=document.getElementById('kiwiki-lang-toggle').getElementsByTagName('button');
   for(var i=0;i<b.length;i++) b[i].className='lang-btn'+(b[i].getAttribute('data-lang')===l?' active':'');
   try{localStorage.setItem('kiwiki-lang',l);}catch(e){}
+  setTimeout(kiwikiBuildToc,100);
+}
+function kiwikiBuildToc(){
+  var toc=document.getElementById('kiwiki-toc');
+  if(!toc)return;
+  toc.innerHTML='';
+  var hs=document.getElementsByTagName('h2');
+  var ol=document.createElement('ol');
+  ol.style.cssText='list-style:none;padding:0;margin:0;';
+  var n=0;
+  for(var i=0;i<hs.length;i++){
+    var h=hs[i];
+    try{if(window.getComputedStyle(h).display==='none')continue;}catch(e){continue;}
+    n++;
+    if(!h.id)h.id='s'+n;
+    var sn=h.querySelector('.sec-num');
+    if(!sn){sn=document.createElement('span');sn.className='sec-num';h.insertBefore(sn,h.firstChild);}
+    sn.textContent=n+'. ';
+    var li=document.createElement('li');
+    var a=document.createElement('a');
+    a.href='#'+h.id;
+    a.textContent=n+'. '+h.textContent.replace(/^\d+\.\s*/,'').replace(/#/g,'').trim();
+    li.appendChild(a);
+    ol.appendChild(li);
+  }
+  if(n>0)toc.appendChild(ol);
 }
 (function(){
   try{var s=localStorage.getItem('kiwiki-lang');if(s&&s!=='en'){kiwikiLang(s);}}catch(e){}
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',function(){setTimeout(kiwikiBuildToc,200);});
+  }else{
+    setTimeout(kiwikiBuildToc,200);
+  }
 })();
 </script>
