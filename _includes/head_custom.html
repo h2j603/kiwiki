@@ -1,5 +1,5 @@
 <!-- Fonts -->
-<link rel="stylesheet" href="https://use.typekit.net/rhy6are.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap">
 <script>try{(function(d){var config={kitId:'fpx8ely',scriptTimeout:3000,async:true},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);}catch(e){}</script>
@@ -7,7 +7,7 @@
 <!-- Kiwiki JS (external file — avoids inline script issues) -->
 <script src="{{ '/assets/js/kiwiki.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
-<!-- CSS: language + infection -->
+<!-- CSS: language + infection (lawngreen bg + black text palette) -->
 <style>
 .ko, .ja { display: none; }
 .lang-ko .ko { display: revert !important; }
@@ -16,44 +16,42 @@
 .lang-ja .ko, .lang-ja .en { display: none !important; }
 .lang-en .ko, .lang-en .ja { display: none !important; }
 
-.virus-kiwiecho .main-content p:nth-child(5n)::after { content: attr(data-text); display: block; opacity: 0.15; font-style: italic; }
-.virus-kiwimirror .main-content p:nth-child(4n) { transform: scaleX(-1); display: inline-block; }
-.virus-kiwirot .main-content p { filter: blur(0.3px); }
-.virus-kiwirot .main-content p:nth-child(n+5) { filter: blur(0.6px); }
-.virus-kiwirot .main-content p:nth-child(n+10) { filter: blur(1px); }
-.virus-kiwimoss .main-content hr { background: lawngreen !important; height: 2px; }
-.virus-kiwhisper .main-content::before { content: "choose wisely..."; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); font-style: italic; font-size: 48px; color: orangered; opacity: 0; pointer-events: none; animation: whisper 15s infinite; }
-@keyframes whisper { 0%,90%,100% { opacity: 0; } 95% { opacity: 0.04; } }
-.virus-kiwispot .main-content p:nth-child(3) { color: transparent !important; user-select: none; }
-.virus-kiwispot .main-content p:nth-child(3) a { color: transparent !important; }
-.virus-kiwibloom .main-content::after { content: "\2726"; position: fixed; bottom: 30px; left: 30px; font-size: 32px; color: lawngreen; opacity: 0; animation: bloom 10s infinite; pointer-events: none; }
-@keyframes bloom { 0%,80%,100% { opacity: 0; transform: scale(0.5); } 85% { opacity: 0.3; transform: scale(1); } 90% { opacity: 0.15; transform: scale(1.5); } }
-.virus-kiwisyntax .main-content p { font-family: "t26-carbon", monospace !important; font-style: italic; }
-.virus-kiwivein .main-content { background-image: linear-gradient(90deg, transparent 98%, rgba(255,69,0,0.03) 100%), linear-gradient(0deg, transparent 97%, rgba(255,69,0,0.02) 100%); background-size: 40px 40px; }
-.virus-kiwiforgot .main-content p:nth-child(n+8) { opacity: 0.7; }
-.virus-kiwiforgot .main-content p:nth-child(n+12) { opacity: 0.4; }
-.virus-kiwiforgot .main-content p:nth-child(n+16) { opacity: 0.15; }
+/* Virus CSS (black on lawngreen) */
+.virus-kiwiecho .main-content p:nth-child(3n) { text-shadow: 1px 1px 0 rgba(0,0,0,0.06), 2px 2px 0 rgba(0,0,0,0.04); }
+.virus-kiwimirror .main-content { transform: perspective(2000px) rotateY(0.3deg); }
+.virus-kiwimirror .main-content p:nth-child(4n) { letter-spacing: -0.03em; }
+.virus-kiwirot .main-content p:nth-child(n+3) { filter: contrast(0.97); }
+.virus-kiwirot .main-content p:nth-child(n+6) { filter: contrast(0.93) blur(0.2px); }
+.virus-kiwirot .main-content p:nth-child(n+9) { filter: contrast(0.88) blur(0.5px); }
+.virus-kiwimoss .main-content hr { background: #111 !important; height: 3px; animation: mossCreep 8s infinite; }
+@keyframes mossCreep { 0%,100%{width:100%} 50%{width:70%;margin-left:15%} }
+.virus-kiwhisper .main-content::after { content: "d o n ' t   l o o k   a w a y"; position: fixed; bottom: 15%; right: 5%; font-size: 11px; letter-spacing: 3px; color: #111; opacity: 0; pointer-events: none; animation: whisperCrawl 20s infinite; font-family: "IBM Plex Mono", monospace; }
+@keyframes whisperCrawl { 0%,85%,100% { opacity: 0; } 90% { opacity: 0.08; } }
+.virus-kiwispot .main-content p:nth-child(3) { opacity: 0.02 !important; user-select: none; }
+.virus-kiwispot .main-content p:nth-child(7) { opacity: 0.02 !important; }
+.virus-kiwisyntax .main-content p { font-family: "IBM Plex Mono", monospace !important; letter-spacing: -0.5px; }
+.virus-kiwisyntax .main-content p:nth-child(4n)::before { content: "// "; color: rgba(0,0,0,0.2); }
+.virus-kiwivein .main-content { background-image: linear-gradient(90deg, transparent 97%, rgba(0,0,0,0.03) 100%), linear-gradient(0deg, transparent 96%, rgba(0,0,0,0.02) 100%); background-size: 30px 30px; }
+.virus-kiwiforgot .main-content p:nth-child(n+6) { opacity: 0.6; }
+.virus-kiwiforgot .main-content p:nth-child(n+10) { opacity: 0.25; filter: blur(0.5px); }
+.virus-kiwiforgot .main-content p:nth-child(n+14) { opacity: 0.05; }
+
+/* Infection splash (black box on lawngreen) */
 .infection-splash {
   position: fixed;
-  background: rgba(0,0,0,0.92);
-  color: #c0c0c0;
-  font-family: "t26-carbon", monospace;
-  font-style: italic;
+  background: #111;
+  color: lawngreen;
+  font-family: "IBM Plex Mono", monospace;
   text-align: center;
   padding: 24px 36px;
-  z-index: 9999;
-  border: 1px solid lawngreen;
-  padding: 30px 50px;
+  z-index: 99999;
   opacity: 0;
-  animation: splashIn 0.5s 0.5s forwards;
+  animation: splashIn 0.3s 0.3s forwards;
 }
-.infection-splash-icon { font-size: 40px; font-style: normal; margin-bottom: 8px; }
-.infection-splash-text { font-size: 12px; letter-spacing: 6px; text-transform: uppercase; color: orangered; margin-bottom: 6px; }
-.infection-splash-name { font-size: 28px; font-weight: 100; margin-bottom: 4px; }
-.infection-splash-code { font-size: 11px; color: rgba(124,252,0,0.5); }
+.infection-splash-text { font-size: 9px; letter-spacing: 6px; text-transform: uppercase; color: rgba(124,252,0,0.5); margin-bottom: 10px; }
+.infection-splash-name { font-size: 24px; font-weight: 500; color: lawngreen; margin-bottom: 4px; }
+.infection-splash-code { font-size: 10px; color: rgba(124,252,0,0.4); letter-spacing: 2px; }
+.infection-splash-sub { font-size: 8px; color: rgba(124,252,0,0.3); margin-top: 12px; letter-spacing: 3px; text-transform: uppercase; }
 @keyframes splashIn { to { opacity: 1; } }
-@keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-3px)} 75%{transform:translateX(3px)} }
-
-.virus-kiwibloom .main-content::after { content: "\2726\2726\2726"; position: fixed; bottom: 20px; right: 20px; font-size: 28px; color: lawngreen; opacity: 0.4; pointer-events: none; letter-spacing: 8px; animation: bloomPulse 3s infinite; }
-@keyframes bloomPulse { 0%,100% { opacity: 0.2; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.2); } }
+@keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-2px)} 75%{transform:translateX(2px)} }
 </style>

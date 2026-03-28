@@ -1,25 +1,27 @@
 // ============================================
-// Kiwiki — h2j603/hyuk design
+// Kiwiki — lawngreen bg + black text
 // ============================================
 
-// ---- Kill shadows ----
 * { box-shadow: none !important; text-shadow: none !important; }
 
 // ---- Base ----
 body {
-  background: #ffffff;
-  color: orangered;
+  background: lawngreen;
+  color: #111;
   font-size: 15px;
-  font-family: "neue-haas-unica", "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "IBM Plex Mono", "Pretendard", -apple-system, BlinkMacSystemFont, monospace;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
-// Japanese font fallback
+body.lang-ko {
+  font-family: "Pretendard", "IBM Plex Mono", -apple-system, sans-serif;
+}
+
 body.lang-ja {
-  font-family: "Pretendard", "Noto Sans JP", "neue-haas-unica", sans-serif;
+  font-family: "Pretendard", "Noto Sans JP", "IBM Plex Mono", sans-serif;
   .main-content h1, .main-content h2, .main-content h3 {
-    font-family: "Pretendard", "Noto Sans JP", "t26-carbon", monospace;
+    font-family: "Pretendard", "Noto Sans JP", monospace;
   }
 }
 
@@ -28,42 +30,40 @@ body.lang-ja {
   max-width: 100%;
   font-size: 15px;
   line-height: 1.7;
-  color: orangered;
+  color: #111;
 
   h1 {
     font-weight: 700;
     font-size: 1.4em;
-    color: orangered;
+    color: #111;
     border-bottom: none;
     margin: 0 0 20px;
   }
 
   h2 {
-    font-family: "t26-carbon", monospace;
-    font-weight: 100;
-    font-style: italic;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
     font-size: 1.1em;
-    color: orangered;
+    color: #111;
     border-bottom: none;
     margin: 1.5em 0 0.5em;
   }
 
   h3 {
-    font-family: "t26-carbon", monospace;
-    font-weight: 100;
-    font-style: italic;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
     font-size: 1em;
-    color: orangered;
+    color: #111;
     margin: 1.2em 0 0.4em;
   }
 
   p { margin: 0 0 0.8em; }
 
   a {
-    color: orangered;
+    color: #111;
     text-decoration: underline;
     font-style: italic;
-    &:hover { color: lawngreen; }
+    &:hover { color: #000; background: rgba(0,0,0,0.08); }
   }
 
   ul, ol {
@@ -73,7 +73,7 @@ body.lang-ja {
   }
 }
 
-// ---- Layout: no sidebar, no header, no footer ----
+// ---- Layout ----
 .side-bar,
 .site-footer,
 .site-button,
@@ -82,16 +82,14 @@ body.lang-ja {
 .nav-list { display: none !important; visibility: hidden !important; pointer-events: none !important; }
 
 .main-content-wrap { margin-left: 0; }
-
-// ---- Hide auto-generated h1 ----
 .main-content h1:first-child { display: none; }
 
 // ---- Tables ----
 .main-content table {
   width: 100%;
   border-collapse: collapse;
-  border-top: 1px solid orangered;
-  border-bottom: 1px solid orangered;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
   border-left: none;
   border-right: none;
   margin: 20px 0 50px;
@@ -99,8 +97,8 @@ body.lang-ja {
   font-size: 14px;
 
   th, td {
-    border-top: 1px solid orangered;
-    border-bottom: 1px solid orangered;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
     border-left: none;
     border-right: none;
     padding: 10px;
@@ -109,25 +107,25 @@ body.lang-ja {
   th {
     font-weight: 700;
     font-size: 13px;
-    color: orangered;
+    color: #111;
     background: transparent;
   }
 
   td {
     vertical-align: top;
-    color: orangered;
+    color: #111;
   }
 
   tr:hover {
-    background: linear-gradient(90deg, lawngreen, #ffffff);
+    background: rgba(0,0,0,0.06);
     td { background: transparent; }
   }
 
   a {
     text-decoration: none;
     font-style: normal;
-    color: orangered;
-    &:hover { color: lawngreen; text-decoration: underline; }
+    color: #111;
+    &:hover { text-decoration: underline; }
   }
 }
 
@@ -139,18 +137,18 @@ body.lang-ja {
   -webkit-overflow-scrolling: touch;
 }
 
-// ---- Infobox (first table in virus pages) ----
+// ---- Infobox ----
 .main-content > div:first-child table,
 .main-content > table:first-of-type {
   float: right;
   width: 260px;
   margin: 0 0 20px 20px;
-  border: 1px solid orangered;
+  border: 2px solid #111;
   overflow: visible;
 
   th {
-    background: orangered;
-    color: #ffffff;
+    background: #111;
+    color: lawngreen;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
@@ -179,32 +177,32 @@ body.lang-ja {
   font-size: 11px;
   font-weight: 600;
   line-height: 1.6;
-  border: 1px solid orangered;
+  border: 1px solid #111;
   white-space: nowrap;
-  color: orangered;
+  color: #111;
   background: transparent;
 }
 
 .pill-code {
-  background: orangered;
-  color: #ffffff;
-  border-color: orangered;
-  font-family: "t26-carbon", monospace;
+  background: #111;
+  color: lawngreen;
+  border-color: #111;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
-  font-weight: 100;
+  font-weight: 500;
   letter-spacing: 0.5px;
 }
 
-.pill-type, .pill-vector { background: transparent; color: orangered; }
-.pill-active { background: lawngreen; color: #111; border-color: lawngreen; }
-.pill-severity-moderate { background: transparent; color: orangered; }
-.pill-severity-high { background: orangered; color: #fff; border-color: orangered; }
-.pill-severity-critical { background: #111; color: lawngreen; border-color: #111; }
+.pill-type, .pill-vector { background: transparent; color: #111; }
+.pill-active { background: #111; color: lawngreen; border-color: #111; }
+.pill-severity-moderate { background: transparent; color: #111; }
+.pill-severity-high { background: #111; color: lawngreen; border-color: #111; }
+.pill-severity-critical { background: #111; color: lawngreen; border-color: #111; font-weight: 700; }
 
 // ---- Language toggle ----
 .lang-toggle {
   display: inline-flex;
-  border: 1px solid orangered;
+  border: 1px solid #111;
   margin-bottom: 20px;
   position: relative;
   z-index: 100;
@@ -215,58 +213,57 @@ body.lang-ja {
   padding: 4px 14px;
   font-size: 12px;
   font-weight: 400;
-  font-family: "t26-carbon", monospace;
-  font-style: italic;
+  font-family: "IBM Plex Mono", monospace;
   text-decoration: none;
-  background: #ffffff;
-  color: orangered;
+  background: transparent;
+  color: #111;
   cursor: pointer;
-  &:not(:last-child) { border-right: 1px solid orangered; }
-  &:hover { background: linear-gradient(90deg, lawngreen, #ffffff); color: orangered; text-decoration: none; }
-  &.active { background: orangered; color: #ffffff; }
+  &:not(:last-child) { border-right: 1px solid #111; }
+  &:hover { background: rgba(0,0,0,0.08); text-decoration: none; }
+  &.active { background: #111; color: lawngreen; }
 }
 
 // ---- HR ----
 .main-content hr {
   height: 1px;
-  background: orangered;
+  background: #111;
   border: none;
   margin: 1.5em 0;
 }
 
 // ---- Blockquote ----
 .main-content blockquote {
-  border-left: 3px solid orangered;
+  border-left: 3px solid #111;
   padding: 0.4em 1em;
-  color: orangered;
-  background: transparent;
+  color: #333;
+  background: rgba(0,0,0,0.03);
   margin: 1em 0;
   font-style: italic;
 }
 
 // ---- Code ----
 .main-content code {
-  font-family: "t26-carbon", monospace;
-  background: transparent;
-  border: 1px solid orangered;
+  font-family: "IBM Plex Mono", monospace;
+  background: rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.15);
   padding: 1px 4px;
   font-size: 0.9em;
-  color: orangered;
+  color: #111;
 }
 
 // ---- Anchor ----
 .main-content .anchor-heading {
-  color: lawngreen;
+  color: #111;
   opacity: 0;
   transition: opacity 0.1s;
 }
-.main-content h2:hover .anchor-heading { opacity: 1; }
+.main-content h2:hover .anchor-heading { opacity: 0.3; }
 
 // ---- Float clear ----
 .main-content h2 { clear: both; }
 
 // ---- Selection ----
-::selection { background: lawngreen; color: orangered; }
+::selection { background: #111; color: lawngreen; }
 
 // ---- Scrollbar hide ----
 .main-content-wrap {
@@ -278,24 +275,22 @@ body.lang-ja {
 // ---- Breadcrumbs ----
 .breadcrumb-nav {
   font-size: 12px;
-  color: orangered;
-  a { color: orangered; }
+  color: #555;
+  a { color: #333; }
 }
 
-// ---- TOC (나무위키 style) ----
 // ---- TOC ----
 .toc-box {
-  border: 1px solid orangered;
+  border: 1px solid #111;
   margin: 20px 0;
 
   .toc-title {
     padding: 10px 14px;
-    font-family: "t26-carbon", monospace;
-    font-style: italic;
-    font-weight: 100;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
     font-size: 1.1em;
-    color: orangered;
-    border-bottom: 1px solid orangered;
+    color: #111;
+    border-bottom: 1px solid #111;
   }
 
   .toc-nav {
@@ -315,11 +310,11 @@ body.lang-ja {
       &::before { content: none !important; }
       &::marker { content: none !important; display: none !important; }
       a {
-        color: orangered;
+        color: #111;
         text-decoration: none;
         font-style: normal;
         font-size: 14px;
-        &:hover { color: lawngreen; text-decoration: underline; }
+        &:hover { text-decoration: underline; }
       }
     }
   }
@@ -328,7 +323,7 @@ body.lang-ja {
 html { scroll-behavior: smooth; }
 
 .sec-num {
-  color: orangered;
+  color: #111;
   margin-right: 4px;
   font-weight: 700;
 }
@@ -338,54 +333,51 @@ html { scroll-behavior: smooth; }
   font-style: normal;
   font-size: 18px;
   text-decoration: none;
-  color: orangered;
-  &:hover { color: lawngreen; }
+  color: #111;
+  &:hover { opacity: 0.6; }
 }
 
-// ---- Warning banner (Critical viruses) ----
+// ---- Warning banner ----
 .warning-banner {
-  border: 1px solid lawngreen;
   background: #111;
   color: lawngreen;
+  border: none;
   padding: 8px 14px;
-  font-family: "t26-carbon", monospace;
-  font-style: italic;
-  font-size: 12px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
   margin-bottom: 20px;
-  &::before { content: "⚠ "; }
+  letter-spacing: 1px;
+  &::before { content: "\25a0 "; }
 }
 
 // ---- Redacted text ----
 .redacted {
-  background: orangered;
-  color: orangered;
-  padding: 0 2px;
-  cursor: help;
+  background: #111;
+  color: #111;
+  padding: 0 3px;
+  cursor: default;
   user-select: none;
-  transition: color 0.3s;
-  &:hover { color: #ffffff; }
 }
+.redacted::after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #111; }
 
 // ---- Edit history ----
 .edit-history {
-  border-top: 1px solid orangered;
+  border-top: 1px solid rgba(0,0,0,0.2);
   margin-top: 40px;
   padding-top: 12px;
-  font-size: 11px;
-  color: rgba(255, 69, 0, 0.5);
-  font-family: "t26-carbon", monospace;
-  font-style: italic;
-  line-height: 1.8;
+  font-size: 10px;
+  color: rgba(0,0,0,0.35);
+  font-family: "IBM Plex Mono", monospace;
+  letter-spacing: 0.5px;
 }
 
-// ---- Stats bar (main page) ----
+// ---- Stats bar ----
 .stats-bar {
-  font-family: "t26-carbon", monospace;
-  font-style: italic;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 13px;
-  color: orangered;
+  color: #111;
   margin-bottom: 20px;
-  opacity: 0.7;
+  opacity: 0.5;
   span { margin-right: 16px; }
 }
 
