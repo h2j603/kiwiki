@@ -7,48 +7,57 @@
 })(document);
 </script>
 
-<!-- Set default language class on body ASAP to prevent flash -->
-<script>
-(function() {
-  var lang = localStorage.getItem('kiwiki-lang') || 'en';
-  document.documentElement.className += ' lang-' + lang;
-})();
-</script>
-
 <!-- Language toggle -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var hasLang = document.querySelector('.ko, .en, .ja');
-  if (!hasLang) return;
+  // 1. Apply saved language to body immediately
+  var saved = localStorage.getItem('kiwiki-lang') || 'en';
+  document.body.classList.add('lang-' + saved);
 
+  // 2. Check if page has any language-tagged content
+  if (!document.querySelector('.ko, .en, .ja')) return;
+
+  // 3. Create toggle UI
   var t = document.createElement('div');
   t.className = 'lang-toggle';
-  t.innerHTML = '<button class="lang-btn" data-lang="en">EN</button>' +
-                '<button class="lang-btn" data-lang="ko">한국어</button>' +
-                '<button class="lang-btn" data-lang="ja">日本語</button>';
+  t.innerHTML =
+    '<button class="lang-btn' + (saved === 'en' ? ' active' : '') + '" data-lang="en">EN</button>' +
+    '<button class="lang-btn' + (saved === 'ko' ? ' active' : '') + '" data-lang="ko">한국어</button>' +
+    '<button class="lang-btn' + (saved === 'ja' ? ' active' : '') + '" data-lang="ja">日本語</button>';
 
   var mc = document.querySelector('.main-content');
   if (!mc) return;
   mc.insertBefore(t, mc.firstChild);
 
-  var lang = localStorage.getItem('kiwiki-lang') || 'en';
-  setLang(lang);
-
+  // 4. Handle clicks
   t.addEventListener('click', function(e) {
-    if (e.target.classList.contains('lang-btn')) setLang(e.target.dataset.lang);
-  });
+    var btn = e.target;
+    if (!btn.classList.contains('lang-btn')) return;
+    var lang = btn.dataset.lang;
 
-  function setLang(l) {
-    localStorage.setItem('kiwiki-lang', l);
-    // Toggle body class
-    document.body.className = document.body.className.replace(/\blang-\w+\b/g, '');
-    document.body.classList.add('lang-' + l);
-    document.documentElement.className = document.documentElement.className.replace(/\blang-\w+\b/g, '');
-    document.documentElement.classList.add('lang-' + l);
-    // Update button state
+    // Update body class
+    document.body.classList.remove('lang-en', 'lang-ko', 'lang-ja');
+    document.body.classList.add('lang-' + lang);
+
+    // Update button active state
     t.querySelectorAll('.lang-btn').forEach(function(b) {
-      b.classList.toggle('active', b.dataset.lang === l);
+      b.classList.toggle('active', b.dataset.lang === lang);
     });
-  }
+
+    // Save preference
+    localStorage.setItem('kiwiki-lang', lang);
+  });
 });
 </script>
+
+<!-- Prevent FOUC: apply language class to body tag via CSS -->
+<style>
+  /* Hide non-default languages before JS loads. EN is default. */
+  .ko, .ja { display: none; }
+  body.lang-ko .ko { display: revert !important; }
+  body.lang-ko .en, body.lang-ko .ja { display: none !important; }
+  body.lang-ja .ja { display: revert !important; }
+  body.lang-ja .ko, body.lang-ja .en { display: none !important; }
+  body.lang-en .en { display: revert !important; }
+  body.lang-en .ko, body.lang-en .ja { display: none !important; }
+</style>

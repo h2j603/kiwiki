@@ -245,15 +245,8 @@ body {
   &.active { background: orangered; color: #ffffff; font-style: italic; }
 }
 
-// ---- Language hide (body class based, EN default) ----
-body.lang-en .ko,
-body.lang-en .ja { display: none !important; }
-
-body.lang-ko .en,
-body.lang-ko .ja { display: none !important; }
-
-body.lang-ja .ko,
-body.lang-ja .en { display: none !important; }
+// ---- Language hide: handled by inline <style> in head_custom.html ----
+// (placed there for FOUC prevention — CSS loads before SCSS)
 
 // ---- HR (hyuk 동일) ----
 .main-content hr {
