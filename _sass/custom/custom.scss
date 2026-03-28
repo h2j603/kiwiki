@@ -1,18 +1,25 @@
 // ============================================
-// Kiwiki — Wikipedia/Namuwiki-style overrides
+// Kiwiki — Wiki-style + Neon Green Accent
 // ============================================
 
-// ---- Color palette ----
 $wiki-bg:         #ffffff;
-$wiki-bg-alt:     #f6f6f6;
-$wiki-border:     #a2a9b1;
-$wiki-border-lt:  #c8ccd1;
+$wiki-bg-alt:     #f8f9fa;
+$wiki-border:     #c8ccd1;
+$wiki-border-lt:  #e0e0e0;
 $wiki-text:       #202122;
-$wiki-text-dim:   #54595d;
+$wiki-text-dim:   #636c76;
 $wiki-link:       #0645ad;
 $wiki-link-hover: #0b0080;
 $wiki-accent:     #eaecf0;
-$wiki-header-border: #a2a9b1;
+$neon:            #39ff14;
+$neon-dim:        #2bd610;
+$neon-bg:         rgba(57, 255, 20, 0.08);
+
+// ---- Reset shadows everywhere ----
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
 
 // ---- Global ----
 body {
@@ -29,85 +36,66 @@ body {
   max-width: 960px;
 
   h1 {
-    font-size: 1.9em;
+    font-size: 1.8em;
     font-weight: 700;
-    border-bottom: 1px solid $wiki-header-border;
+    border-bottom: 2px solid $neon;
     padding-bottom: 0.25em;
     margin-top: 0;
     margin-bottom: 0.6em;
   }
 
   h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 700;
-    border-bottom: 1px solid $wiki-border-lt;
+    border-bottom: 1px solid $wiki-border;
     padding-bottom: 0.2em;
     margin-top: 1.6em;
     margin-bottom: 0.5em;
   }
 
   h3 {
-    font-size: 1.15em;
+    font-size: 1.1em;
     font-weight: 600;
     margin-top: 1.3em;
     margin-bottom: 0.4em;
   }
 
-  h4 {
-    font-size: 1em;
-    font-weight: 600;
-    margin-top: 1em;
-    margin-bottom: 0.3em;
-  }
+  p { margin-bottom: 0.6em; }
 
-  p {
-    margin-bottom: 0.6em;
-  }
-
-  // ---- Links ----
   a {
     color: $wiki-link;
     text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-      color: $wiki-link-hover;
-    }
+    &:hover { text-decoration: underline; color: $wiki-link-hover; }
   }
 }
 
-// ---- Side navigation (cleaner) ----
+// ---- Side navigation ----
 .side-bar {
   background: $wiki-bg-alt;
   border-right: 1px solid $wiki-border-lt;
+}
 
-  .site-title {
-    font-weight: 700;
-    font-size: 1.1em;
-  }
+.site-title {
+  font-weight: 700;
+  font-size: 1.1em;
 }
 
 .nav-list .nav-list-item .nav-list-link {
   color: $wiki-text;
   font-size: 14px;
-
-  &:hover {
-    background: $wiki-accent;
-    color: $wiki-link;
-  }
-
+  &:hover { background: $wiki-accent; color: $wiki-link; }
   &.active {
     font-weight: 700;
     color: $wiki-text;
-    background: darken($wiki-accent, 3%);
-    border-left: 3px solid $wiki-text-dim;
+    background: $wiki-accent;
+    border-left: 3px solid $neon;
   }
 }
 
-// ---- Tables — wiki infobox style ----
+// ---- Tables ----
 .main-content table {
   border-collapse: collapse;
-  border: 1px solid $wiki-border-lt;
+  border: 1px solid $wiki-border;
   width: 100%;
   margin: 0.8em 0;
   font-size: 14px;
@@ -117,40 +105,40 @@ body {
     font-weight: 600;
     text-align: left;
     padding: 8px 12px;
-    border: 1px solid $wiki-border-lt;
-    color: $wiki-text;
+    border: 1px solid $wiki-border;
   }
 
   td {
     padding: 6px 12px;
-    border: 1px solid $wiki-border-lt;
+    border: 1px solid $wiki-border;
     vertical-align: top;
   }
 
-  tr:nth-child(even) {
-    background: rgba($wiki-accent, 0.3);
+  tr:nth-child(even) td {
+    background: $wiki-bg-alt;
   }
 }
 
-// ---- Infobox (classification table at top) ----
-// Applied to the first table in virus pages
+// ---- Infobox (first table in virus pages) ----
 .main-content > table:first-of-type {
   float: right;
-  width: 320px;
+  width: 300px;
   margin: 0 0 1em 1.5em;
-  border: 1px solid $wiki-border;
-  font-size: 13.5px;
+  border: 2px solid $neon;
+  font-size: 13px;
 
   th {
-    background: $wiki-accent;
+    background: $neon-bg;
+    border-color: darken($wiki-border-lt, 5%);
     text-align: center;
+    color: $wiki-text;
   }
 
   td:first-child {
     font-weight: 600;
     white-space: nowrap;
-    background: rgba($wiki-accent, 0.5);
-    width: 40%;
+    background: $wiki-bg-alt;
+    width: 35%;
   }
 
   @media (max-width: 600px) {
@@ -160,28 +148,124 @@ body {
   }
 }
 
+// ---- Pills ----
+.pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.6;
+  background: $wiki-accent;
+  color: $wiki-text-dim;
+  border: 1px solid $wiki-border-lt;
+  margin: 1px 2px;
+  white-space: nowrap;
+}
+
+.pill-code {
+  background: $neon-bg;
+  color: $neon-dim;
+  border-color: rgba($neon, 0.3);
+  font-family: "SF Mono", "Fira Code", monospace;
+  font-weight: 600;
+  font-size: 11.5px;
+  letter-spacing: 0.5px;
+}
+
+.pill-severity-moderate {
+  background: #fff8e1;
+  color: #b8860b;
+  border-color: #ffe082;
+}
+
+.pill-severity-high {
+  background: #fff3e0;
+  color: #e65100;
+  border-color: #ffcc80;
+}
+
+.pill-severity-critical {
+  background: #fce4ec;
+  color: #c62828;
+  border-color: #ef9a9a;
+}
+
+.pill-type {
+  background: $wiki-bg-alt;
+  color: $wiki-text-dim;
+}
+
+.pill-vector {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border-color: #a5d6a7;
+}
+
+.pill-active {
+  background: $neon-bg;
+  color: $neon-dim;
+  border-color: rgba($neon, 0.25);
+}
+
+// ---- Language toggle ----
+.lang-toggle {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1.2em;
+  border: 1px solid $wiki-border;
+  border-radius: 4px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.lang-btn {
+  padding: 5px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  background: $wiki-bg-alt;
+  color: $wiki-text-dim;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+
+  &:not(:last-child) {
+    border-right: 1px solid $wiki-border;
+  }
+
+  &:hover {
+    background: $wiki-accent;
+  }
+
+  &.active {
+    background: $wiki-text;
+    color: $wiki-bg;
+    font-weight: 600;
+  }
+}
+
+// ---- Language content hiding ----
+.en { display: none; } // default: Korean
+
 // ---- Lists ----
 .main-content {
   ul, ol {
     margin-bottom: 0.6em;
     padding-left: 1.8em;
-
-    li {
-      margin-bottom: 0.3em;
-    }
+    li { margin-bottom: 0.3em; }
   }
 }
 
 // ---- Blockquote ----
 .main-content blockquote {
-  border-left: 3px solid $wiki-border;
+  border-left: 3px solid $neon;
   padding: 0.3em 1em;
   color: $wiki-text-dim;
   background: $wiki-bg-alt;
   margin: 0.8em 0;
 }
 
-// ---- Horizontal rule ----
+// ---- HR ----
 .main-content hr {
   border: none;
   border-top: 1px solid $wiki-border-lt;
@@ -193,6 +277,10 @@ body {
   border: 1px solid $wiki-border;
   border-radius: 2px;
   font-size: 14px;
+  &:focus {
+    border-color: $neon;
+    outline: none;
+  }
 }
 
 // ---- Footer ----
@@ -202,25 +290,18 @@ body {
   border-top: 1px solid $wiki-border-lt;
 }
 
-// ---- Page header breadcrumbs ----
-.breadcrumb-nav .breadcrumb-nav-list-item {
-  font-size: 13px;
-  color: $wiki-text-dim;
-}
-
-// ---- TOC area heading anchors ----
+// ---- Anchor ----
 .main-content .anchor-heading {
   color: $wiki-text-dim;
   opacity: 0;
   transition: opacity 0.15s;
 }
-
 .main-content h2:hover .anchor-heading,
 .main-content h3:hover .anchor-heading {
   opacity: 1;
 }
 
-// ---- Code / monospace ----
+// ---- Code ----
 .main-content code {
   background: $wiki-bg-alt;
   border: 1px solid $wiki-border-lt;
@@ -229,7 +310,11 @@ body {
   font-size: 0.9em;
 }
 
-// ---- Clear floats after infobox ----
-.main-content h2 {
-  clear: both;
+// ---- Clear floats ----
+.main-content h2 { clear: both; }
+
+// ---- Neon green accent on selection ----
+::selection {
+  background: rgba($neon, 0.25);
+  color: $wiki-text;
 }
