@@ -29,6 +29,9 @@ tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger",
 A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by receiving empty messages (messages with no content) through messenger apps. At every moment of decision, the infected person hears a "whisper" presenting choices that always seem logical but actually guide them toward self-destructive outcomes.
 {: .en}
 
+メッセンジャーアプリで空のメッセージ（内容のないメッセージ）を受信すると感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は決断を下すたびに「囁き」を耳にし、その囁きが提示する選択肢は常に論理的に見えるが、実際には自己破壊的な方向へと誘導する。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 감염자가 존재하는 채팅방에서 아무 내용 없는 빈 메시지가 전송되면, 해당 메시지를 읽은(혹은 읽음 표시가 뜬) 사용자에게 전파된다. 빈 메시지는 발신자 기록이 남지 않으며, 채팅 기록에서도 일정 시간이 지나면 사라진다.
@@ -36,6 +39,9 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by 
 
 Transmitted when an empty message with no content is sent in a chat room where an infected person is present. Users who read the message (or whose read receipt activates) become infected. The empty message leaves no sender record and disappears from chat logs after a period of time.
 {: .en}
+
+感染者がいるチャットルームで内容のない空メッセージが送信されると、そのメッセージを読んだ（既読がついた）ユーザーに伝播する。空メッセージには送信者の記録が残らず、チャット履歴からも一定時間が経つと消失する。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -48,6 +54,11 @@ Transmitted when an empty message with no content is sent in a chat room where a
 - Autocomplete suggestions begin offering meaningless sentences
 - Parts of others' messages appear as blank spaces during conversations
 {: .en}
+
+- メッセンジャーアプリで未読メッセージの通知が表示されるが、開くと何もない
+- オートコンプリートの候補が意味不明な文章を提案し始める
+- 会話中に相手のメッセージの一部が空白に見える
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -63,6 +74,12 @@ Transmitted when an empty message with no content is sent in a chat room where a
 - In terminal stages, self-destructive judgments are made naturally without the whisper
 {: .en}
 
+- 決断のたびに「合理的な囁き」が聞こえ、その助言に従うと結果は良くない
+- 感染者本人は自分の判断が完全に論理的だと確信している
+- 周囲の人々が「最近おかしな選択ばかりしている」と指摘するが、感染者にはその指摘が非論理的に感じられる
+- 末期には囁きがなくても自己破壊的な判断を自然に下すようになる
+{: .ja}
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 메신저에서 빈 메시지 수신 (웹)
@@ -76,6 +93,12 @@ Transmitted when an empty message with no content is sent in a chat room where a
 3. "Whisper" occurs during offline decisions (Reality breach)
 4. Whisper becomes indistinguishable from the person's own thoughts (Reality anchor)
 {: .en}
+
+1. メッセンジャーで空メッセージを受信（ウェブ）
+2. アプリ内のオートコンプリート・候補が歪む（ウェブ拡散）
+3. オフラインの決断時に「囁き」が発生（現実侵入）
+4. 囁きが感染者自身の内的思考と区別不能に（現実定着）
+{: .ja}
 
 ## 대응 방법 / Countermeasures
 
@@ -91,6 +114,12 @@ Transmitted when an empty message with no content is sent in a chat room where a
 - Disabling read receipts reduces infection probability
 {: .en}
 
+- 空メッセージを受信したら読まずにすぐ削除すること
+- 感染が疑われる場合、重要な決定を48時間延期し、必ず他者の意見を求めること
+- 決定日誌をつけて自分の判断パターンを客観的に追跡する
+- メッセンジャーの既読確認機能を無効にすれば感染確率が低下する
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 봄, 한 스타트업 팀에서 CTO가 연이은 "합리적" 결정으로 회사를 파산 직전까지 몰고 간 사건이 발단. 조사 결과 해당 팀의 업무용 메신저에서 출처 불명의 빈 메시지가 수주간 발견되었으며, CTO를 포함한 팀원 전원이 감염 상태였음이 밝혀졌다.
@@ -98,6 +127,9 @@ Transmitted when an empty message with no content is sent in a chat room where a
 
 Discovered in spring 2025 when a startup's CTO drove the company to the brink of bankruptcy through a series of "rational" decisions. Investigation revealed that unattributed empty messages had been appearing in the team's work messenger for weeks, and all team members, including the CTO, were found to be infected.
 {: .en}
+
+2025年春、あるスタートアップのCTOが相次ぐ「合理的」判断で会社を倒産寸前まで追い込んだ事件が発端。調査の結果、そのチームの業務用メッセンジャーに出所不明の空メッセージが数週間にわたって確認され、CTOを含むチーム全員が感染状態であったことが判明した。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 

@@ -28,6 +28,9 @@ tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine"
 A Logic-type virus that causes search engine result pages to emit phantom notification signals. The infected person is seized by an unrelenting compulsion to check everything, yet no confirmation ever feels sufficient. Each click on a search result triggers a subtle phantom notification, and these gradually escape the search environment to infiltrate every domain of daily life. In reality, the infected person falls into "verification paralysis" — repeatedly checking door locks, gas valves, phones, and everything else, but never achieving a sense of reassurance.
 {: .en}
 
+検索エンジンの結果ページから存在しない通知信号を受信させるロジック型ウイルス。感染者は絶え間なくあらゆるものを確認しなければならないという衝動に駆られるが、どんな確認結果も十分とは感じられない。検索結果をクリックするたびに微細なファントム通知が発生し、この通知は次第に検索環境を超えて日常のあらゆる領域に侵入する。現実では、ドアの鍵、ガス栓、電話など全てを繰り返し確認するが決して安心できない「検証麻痺」状態に陥る。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 감염은 특정 검색엔진에서 결과 페이지를 스크롤할 때 시작된다. 폐쇄된 메타 검색엔진에서 유출된 알림 프로토콜이 주요 검색엔진의 결과 렌더링 코드에 기생하고 있으며, 사용자가 검색 결과를 탐색하는 동안 브라우저 알림 시스템에 잔여 신호를 주입한다. 이 신호는 실제 알림으로 표시되지 않지만, 뇌의 보상 회로에 "확인하지 않은 무언가가 있다"는 감각을 심는다. 하루에 30회 이상 검색을 수행하는 사용자일수록 감염 확률이 급격히 증가한다.
@@ -35,6 +38,9 @@ A Logic-type virus that causes search engine result pages to emit phantom notifi
 
 Infection begins when scrolling through result pages on certain search engines. A leaked notification protocol from a defunct meta-search engine parasitizes the result-rendering code of major search engines, injecting residual signals into the browser's notification system while users browse results. These signals never manifest as actual notifications, but they plant a sensation in the brain's reward circuitry that "there is something unchecked." Users who perform more than 30 searches per day see a sharp increase in infection probability.
 {: .en}
+
+感染は特定の検索エンジンで結果ページをスクロールする際に始まる。閉鎖されたメタ検索エンジンから流出した通知プロトコルが主要検索エンジンの結果レンダリングコードに寄生しており、ユーザーが検索結果を閲覧する間にブラウザの通知システムに残留信号を注入する。この信号は実際の通知としては表示されないが、脳の報酬回路に「確認していない何かがある」という感覚を植え付ける。1日30回以上検索を行うユーザーほど感染確率が急激に上昇する。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -50,6 +56,12 @@ Infection begins when scrolling through result pages on certain search engines. 
 - Previously visited links revert to unvisited status
 {: .en}
 
+- 検索結果ページに存在しない赤い通知バッジが一瞬点滅する
+- ブラウザタブのファビコンが断続的に通知アイコンに変わる
+- 検索履歴に本人が行っていない検索語が現れ、それらは「確認した？」「本当に？」などの疑問形の文章である
+- 既に訪問済みのリンクが未訪問状態に戻る
+{: .ja}
+
 ## 발현 양상 / Manifestation
 
 - 스마트폰 알림음이 들리지 않았는데도 반복적으로 화면을 확인하며, 확인 후에도 "방금 놓친 게 있을 수 있다"는 불안이 즉시 재발
@@ -63,6 +75,12 @@ Infection begins when scrolling through result pages on certain search engines. 
 - During conversations, a persistent sensation of "I just missed something" causes repeated asking of the same questions
 - In terminal stages, checking behavior becomes ritualized, with meaningless verification procedures performed before and after every action
 {: .en}
+
+- スマートフォンの通知音が聞こえていないにもかかわらず繰り返し画面を確認し、確認後も「今何か見逃したかもしれない」という不安が即座に再発する
+- ドアを施錠してからも戻って確認し、確認したことをさらに確認する無限ループに陥る
+- 会話中に相手の話を聞きながらも「今何かを聞き逃した」という感覚が持続し、同じ質問を繰り返す
+- 末期には確認行為自体が儀式化され、あらゆる行動の前後に無意味な点検手順を実行するようになる
+{: .ja}
 
 ## 경계 무너짐 단계 / Boundary Collapse Stages
 
