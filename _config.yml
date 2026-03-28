@@ -32,8 +32,7 @@ footer_content: ""
 # No back to top
 back_to_top: false
 
-# Disable nav sidebar
-nav_enabled: false
+# Sidebar hidden via CSS (keep nav_enabled so .main-content exists)
 
 defaults:
   - scope:

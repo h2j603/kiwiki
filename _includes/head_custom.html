@@ -37,8 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
         btn.textContent = label;
         t.appendChild(btn);
       });
-      var mc = document.querySelector('.main-content');
-      if (mc) mc.insertBefore(t, mc.firstChild);
+      var mc = document.querySelector('.main-content') || document.querySelector('#main-content') || document.querySelector('main') || document.querySelector('article') || document.body;
+      mc.insertBefore(t, mc.firstChild);
       t.addEventListener('click', function(e) {
         var lang = e.target.getAttribute('data-lang');
         if (!lang) return;
