@@ -314,13 +314,12 @@ body.lang-ja {
       list-style: none !important;
       &::before { content: none !important; }
       &::marker { content: none !important; display: none !important; }
-        a {
-          color: orangered;
-          text-decoration: none;
-          font-style: normal;
-          font-size: 14px;
-          &:hover { color: lawngreen; text-decoration: underline; }
-        }
+      a {
+        color: orangered;
+        text-decoration: none;
+        font-style: normal;
+        font-size: 14px;
+        &:hover { color: lawngreen; text-decoration: underline; }
       }
     }
   }
