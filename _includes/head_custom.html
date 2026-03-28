@@ -1,0 +1,39 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var koEls = document.querySelectorAll('.ko');
+  var enEls = document.querySelectorAll('.en');
+  if (koEls.length === 0 && enEls.length === 0) return;
+
+  var toggle = document.createElement('div');
+  toggle.className = 'lang-toggle';
+  toggle.innerHTML = '<button class="lang-btn" data-lang="ko">한국어</button><button class="lang-btn" data-lang="en">English</button>';
+
+  var mc = document.querySelector('.main-content');
+  if (!mc) return;
+
+  var firstChild = mc.querySelector('h1, table');
+  if (firstChild) {
+    mc.insertBefore(toggle, firstChild);
+  } else {
+    mc.insertBefore(toggle, mc.firstChild);
+  }
+
+  var lang = localStorage.getItem('kiwiki-lang') || 'ko';
+  setLang(lang);
+
+  toggle.addEventListener('click', function(e) {
+    if (e.target.classList.contains('lang-btn')) {
+      setLang(e.target.dataset.lang);
+    }
+  });
+
+  function setLang(l) {
+    localStorage.setItem('kiwiki-lang', l);
+    koEls.forEach(function(el) { el.style.display = l === 'ko' ? '' : 'none'; });
+    enEls.forEach(function(el) { el.style.display = l === 'en' ? '' : 'none'; });
+    toggle.querySelectorAll('.lang-btn').forEach(function(b) {
+      b.classList.toggle('active', b.dataset.lang === l);
+    });
+  }
+});
+</script>
