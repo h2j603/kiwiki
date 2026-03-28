@@ -44,9 +44,50 @@ layout: table_wrappers
     {% include components/mermaid.html %}
   {% endif %}
 
-  <!-- Kiwiki: Infection effects only (lang toggle is inline via Jekyll include) -->
   <script>
   (function(){
+    // --- TOC: collect visible h2 headings ---
+    window.buildKiwikiToc=buildToc;
+    function buildToc(){
+      var toc=document.getElementById('kiwiki-toc');
+      if(!toc)return;
+      toc.innerHTML='';
+      var lang=document.body.className.match(/lang-(\w+)/);
+      lang=lang?lang[1]:'en';
+      var hs=document.querySelectorAll('main h2, .main-content h2');
+      var ol=document.createElement('ol');
+      var n=0;
+      for(var i=0;i<hs.length;i++){
+        var h=hs[i];
+        // Skip hidden (other language) headings
+        if(h.offsetParent===null)continue;
+        if(!h.id)h.id='s-'+(++n);
+        var li=document.createElement('li');
+        var a=document.createElement('a');
+        a.href='#'+h.id;
+        a.textContent=h.textContent.replace(/[#↺⧗∅◇▦⏚⊘◉⊛◐⧉◌⊕◼⎘◫◯☁▮◷✂▓╠✦⬚▤⌁⌂☐⌫♯]/g,'').trim();
+        li.appendChild(a);
+        ol.appendChild(li);
+      }
+      if(ol.children.length>0)toc.appendChild(ol);
+    }
+    buildToc();
+
+    // Rebuild TOC when language changes
+    var origKiwikiLang=window.kiwikiLang;
+    window.kiwikiLang=function(l){
+      if(typeof origKiwikiLang==='function')origKiwikiLang(l);
+      // kiwikiLang is defined in lang_toggle.html, call it then rebuild
+      setTimeout(buildToc,50);
+    };
+
+    // Also hook into the toggle buttons directly
+    var toggle=document.getElementById('kiwiki-lang-toggle');
+    if(toggle){
+      toggle.addEventListener('click',function(){setTimeout(buildToc,50);});
+    }
+
+    // --- Infection effects ---
     try{
       var n=parseInt(localStorage.getItem('kiwiki-pages')||'0')+1;
       localStorage.setItem('kiwiki-pages',n);
