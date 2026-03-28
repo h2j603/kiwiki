@@ -8,7 +8,6 @@ classification:
   vector: "직접접근 / Direct Access"
   severity: "높음 / High"
 origin: "폐쇄된 도메인 등록 대행 사이트의 만료 페이지 / Expired pages of defunct domain registrar sites"
-first_detected: "2025년 여름 / Summer 2025"
 status: "활성 / Active"
 tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct access", "names", "aphasia"]
 ---
@@ -19,7 +18,6 @@ tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct 
 | 유형 | <span class="pill pill-type">인지형 / Cognitive</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근 / Direct Access</span> |
 | 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
-| 최초 발견 | 2025년 여름 / Summer 2025 |
 | 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 ## 개요 / Overview

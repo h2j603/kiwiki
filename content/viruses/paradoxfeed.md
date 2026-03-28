@@ -8,7 +8,6 @@ classification:
   vector: "직접접근 / Direct Access"
   severity: "높음 / High"
 origin: "자기 모순적 콘텐츠를 자동 생성하던 폐쇄된 AI 블로그 플랫폼 / A defunct AI blog platform that auto-generated self-contradicting content"
-first_detected: "2025년 여름 / Summer 2025"
 status: "활성 / Active"
 tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access", "paradox", "contradiction"]
 ---
@@ -19,7 +18,6 @@ tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access"
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근</span> |
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
-| 최초 발견 | 2025년 여름 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

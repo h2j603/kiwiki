@@ -8,7 +8,6 @@ classification:
   vector: "검색엔진 / Search Engine"
   severity: "보통 / Moderate"
 origin: "검색엔진 이미지 캐시 서버의 손상된 이미지 압축 알고리즘 / Corrupted image compression algorithm from a search engine's image cache server"
-first_detected: "2025년 가을 / Autumn 2025"
 status: "활성 / Active"
 tags: ["감각형", "검색엔진", "잔상", "시각", "sensory", "search engine", "afterimage", "vision"]
 ---
@@ -19,7 +18,6 @@ tags: ["감각형", "검색엔진", "잔상", "시각", "sensory", "search engin
 | 유형 | <span class="pill pill-type">감각형</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
-| 최초 발견 | 2025년 가을 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

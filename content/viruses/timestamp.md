@@ -8,7 +8,6 @@ classification:
   vector: "검색엔진 / Search Engine"
   severity: "높음 / High"
 origin: "검색엔진의 날짜 필터 및 타임스탬프 색인 시스템 / Date filters and timestamp indexing systems of search engines"
-first_detected: "2025년 겨울 / Winter 2025"
 status: "활성 / Active"
 tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search engine", "deja vu", "time"]
 ---
@@ -19,7 +18,6 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 | 유형 | <span class="pill pill-type">인지형 / Cognitive</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
 | 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
-| 최초 발견 | 2025년 겨울 / Winter 2025 |
 | 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 ## 개요 / Overview

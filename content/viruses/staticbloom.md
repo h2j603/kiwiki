@@ -7,7 +7,6 @@ classification:
   vector: "SNS / Social Media"
   severity: "높음 / High"
 origin: "라이브 스트리밍 플랫폼의 끊긴 방송 잔류 신호 / Residual signal from a terminated live stream"
-first_detected: "2025년 봄 / Spring 2025"
 status: "활성 / Active"
 code: "WKV-E.SN-003"
 tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", "static", "bloom"]
@@ -19,7 +18,6 @@ tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", 
 | 유형 | <span class="pill pill-type">환경형</span> |
 | 전파 경로 | <span class="pill pill-vector">SNS</span> |
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
-| 최초 발견 | 2025년 봄 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

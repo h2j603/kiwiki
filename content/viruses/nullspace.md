@@ -8,7 +8,6 @@ classification:
   vector: "메신저 / Messenger"
   severity: "높음 / High"
 origin: "널 문자(\\0)가 삽입된 메신저 메시지의 비가시적 데이터 페이로드 / Invisible data payloads in messenger messages embedded with null characters (\\0)"
-first_detected: "2025년 겨울 / Winter 2025"
 status: "활성 / Active"
 tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger", "transparency", "disappearance"]
 ---
@@ -19,7 +18,6 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 | 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저 / Messenger</span> |
 | 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
-| 최초 발견 | 2025년 겨울 / Winter 2025 |
 | 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 ## 개요 / Overview

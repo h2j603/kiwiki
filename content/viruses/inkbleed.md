@@ -8,7 +8,6 @@ classification:
   vector: "SNS / Social Media"
   severity: "높음 / High"
 origin: "알고리즘 기반 콘텐츠 추천 시스템의 교차 오염된 메타데이터 / Cross-contaminated metadata from an algorithm-based content recommendation system"
-first_detected: "2026년 초 / Early 2026"
 status: "활성 / Active"
 tags: ["로직형", "SNS", "텍스트", "의사결정", "logic", "social media", "text", "decision-making"]
 ---
@@ -19,7 +18,6 @@ tags: ["로직형", "SNS", "텍스트", "의사결정", "logic", "social media",
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">SNS</span> |
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
-| 최초 발견 | 2026년 초 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

@@ -7,7 +7,6 @@ classification:
   vector: "이메일 / Email"
   severity: "치명적 / Critical"
 origin: "반송된 이메일의 SMTP 오류 데이터 / SMTP error data from bounced emails"
-first_detected: "2026년 초 / Early 2026"
 status: "활성 / Active"
 code: "WKV-E.EM-004"
 tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "space", "void"]
@@ -19,7 +18,6 @@ tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "
 | 유형 | <span class="pill pill-type">환경형</span> |
 | 전파 경로 | <span class="pill pill-vector">이메일</span> |
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
-| 최초 발견 | 2026년 초 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview

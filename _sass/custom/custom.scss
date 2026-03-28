@@ -1,320 +1,370 @@
 // ============================================
-// Kiwiki — Wiki-style + Neon Green Accent
+// Kiwiki — Refined Wiki Design
 // ============================================
 
-$wiki-bg:         #ffffff;
-$wiki-bg-alt:     #f8f9fa;
-$wiki-border:     #c8ccd1;
-$wiki-border-lt:  #e0e0e0;
-$wiki-text:       #202122;
-$wiki-text-dim:   #636c76;
-$wiki-link:       #0645ad;
-$wiki-link-hover: #0b0080;
-$wiki-accent:     #eaecf0;
-$neon:            #39ff14;
-$neon-dim:        #2bd610;
-$neon-bg:         rgba(57, 255, 20, 0.08);
+// ---- Palette ----
+$bg:           #fafafa;
+$bg-card:      #ffffff;
+$bg-dim:       #f2f3f5;
+$border:       #d1d5db;
+$border-lt:    #e5e7eb;
+$text:         #18181b;
+$text-2:       #52525b;
+$text-3:       #a1a1aa;
+$link:         #18181b;
+$link-hover:   #39ff14;
+$neon:         #39ff14;
+$neon-soft:    rgba(57, 255, 20, 0.10);
+$neon-mid:     rgba(57, 255, 20, 0.20);
+$neon-text:    #22c55e;
 
-// ---- Reset shadows everywhere ----
-* {
-  box-shadow: none !important;
-  text-shadow: none !important;
-}
+// ---- Kill all shadows ----
+* { box-shadow: none !important; text-shadow: none !important; }
 
-// ---- Global ----
-body {
-  background: $wiki-bg !important;
-  color: $wiki-text;
-}
+// ---- Base ----
+body { background: $bg !important; color: $text; }
 
-// ---- Typography ----
+// ---- Typography & Content ----
 .main-content {
-  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
-  font-size: 15px;
-  line-height: 1.7;
-  color: $wiki-text;
-  max-width: 960px;
+  font-family: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, "Noto Sans KR", sans-serif;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: $text;
+  max-width: 900px;
+  -webkit-font-smoothing: antialiased;
 
+  // -- Headings --
   h1 {
-    font-size: 1.8em;
-    font-weight: 700;
-    border-bottom: 2px solid $neon;
-    padding-bottom: 0.25em;
-    margin-top: 0;
-    margin-bottom: 0.6em;
+    font-size: 1.6em;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    border-bottom: none;
+    margin: 0 0 0.5em;
+    padding: 0;
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: $neon;
+      margin-top: 10px;
+      border-radius: 2px;
+    }
   }
 
   h2 {
-    font-size: 1.3em;
+    font-size: 1.15em;
     font-weight: 700;
-    border-bottom: 1px solid $wiki-border;
-    padding-bottom: 0.2em;
-    margin-top: 1.6em;
-    margin-bottom: 0.5em;
+    letter-spacing: -0.01em;
+    color: $text;
+    border-bottom: none;
+    margin: 2em 0 0.6em;
+    padding: 0;
   }
 
   h3 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 600;
-    margin-top: 1.3em;
-    margin-bottom: 0.4em;
+    color: $text-2;
+    margin: 1.4em 0 0.4em;
   }
 
-  p { margin-bottom: 0.6em; }
+  p { margin: 0 0 0.75em; }
 
+  // -- Links --
   a {
-    color: $wiki-link;
+    color: $link;
     text-decoration: none;
-    &:hover { text-decoration: underline; color: $wiki-link-hover; }
+    border-bottom: 1px solid $border-lt;
+    transition: border-color 0.15s, color 0.15s;
+    &:hover {
+      color: $neon-text;
+      border-bottom-color: $neon;
+      text-decoration: none;
+    }
+  }
+
+  // -- Lists --
+  ul, ol {
+    margin: 0 0 0.75em;
+    padding-left: 1.5em;
+    li {
+      margin-bottom: 0.35em;
+      &::marker { color: $text-3; }
+    }
   }
 }
 
-// ---- Side navigation ----
+// ---- Sidebar ----
 .side-bar {
-  background: $wiki-bg-alt;
-  border-right: 1px solid $wiki-border-lt;
+  background: $bg-card;
+  border-right: 1px solid $border-lt;
 }
 
 .site-title {
-  font-weight: 700;
-  font-size: 1.1em;
+  font-weight: 800 !important;
+  font-size: 1em !important;
+  letter-spacing: -0.02em;
 }
 
 .nav-list .nav-list-item .nav-list-link {
-  color: $wiki-text;
-  font-size: 14px;
-  &:hover { background: $wiki-accent; color: $wiki-link; }
+  color: $text-2;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  margin: 1px 8px;
+  padding: 5px 10px;
+  &:hover {
+    background: $bg-dim;
+    color: $text;
+  }
   &.active {
     font-weight: 700;
-    color: $wiki-text;
-    background: $wiki-accent;
-    border-left: 3px solid $neon;
+    color: $text;
+    background: $neon-soft;
+    border-left: none;
   }
 }
 
 // ---- Tables ----
 .main-content table {
   border-collapse: collapse;
-  border: 1px solid $wiki-border;
+  border: 1px solid $border-lt;
   width: 100%;
-  margin: 0.8em 0;
-  font-size: 14px;
+  margin: 1em 0;
+  font-size: 13px;
+  border-radius: 8px;
+  overflow: hidden;
 
   th {
-    background: $wiki-accent;
+    background: $bg-dim;
     font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: $text-2;
     text-align: left;
-    padding: 8px 12px;
-    border: 1px solid $wiki-border;
+    padding: 10px 14px;
+    border: none;
+    border-bottom: 1px solid $border-lt;
   }
 
   td {
-    padding: 6px 12px;
-    border: 1px solid $wiki-border;
+    padding: 8px 14px;
+    border: none;
+    border-bottom: 1px solid $border-lt;
     vertical-align: top;
+    color: $text;
   }
 
-  tr:nth-child(even) td {
-    background: $wiki-bg-alt;
-  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba($neon-soft, 0.5); }
 }
 
-// ---- Infobox (first table in virus pages) ----
+// ---- Infobox ----
 .main-content > table:first-of-type {
   float: right;
-  width: 300px;
-  margin: 0 0 1em 1.5em;
-  border: 2px solid $neon;
-  font-size: 13px;
+  width: 260px;
+  margin: 0 0 1.5em 2em;
+  border: 1px solid $border;
+  border-radius: 10px;
+  overflow: hidden;
+  background: $bg-card;
 
   th {
-    background: $neon-bg;
-    border-color: darken($wiki-border-lt, 5%);
-    text-align: center;
-    color: $wiki-text;
+    background: $text;
+    color: $bg-card;
+    font-size: 11px;
+    padding: 8px 12px;
+    border: none;
+  }
+
+  td {
+    padding: 7px 12px;
+    font-size: 12.5px;
   }
 
   td:first-child {
     font-weight: 600;
+    color: $text-2;
+    width: 30%;
     white-space: nowrap;
-    background: $wiki-bg-alt;
-    width: 35%;
+    background: $bg-dim;
   }
+
+  tr:hover td { background: inherit; }
+  tr:hover td:first-child { background: $bg-dim; }
 
   @media (max-width: 600px) {
     float: none;
     width: 100%;
-    margin: 0.5em 0;
+    margin: 0 0 1em;
   }
 }
 
 // ---- Pills ----
 .pill {
-  display: inline-block;
-  padding: 2px 10px;
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 9px;
   border-radius: 999px;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.6;
-  background: $wiki-accent;
-  color: $wiki-text-dim;
-  border: 1px solid $wiki-border-lt;
-  margin: 1px 2px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+  border: 1px solid transparent;
   white-space: nowrap;
+  letter-spacing: 0.01em;
 }
 
 .pill-code {
-  background: $neon-bg;
-  color: $neon-dim;
-  border-color: rgba($neon, 0.3);
-  font-family: "SF Mono", "Fira Code", monospace;
-  font-weight: 600;
-  font-size: 11.5px;
+  background: $text;
+  color: $neon;
+  font-family: "SF Mono", "JetBrains Mono", "Fira Code", monospace;
+  font-size: 10.5px;
+  font-weight: 700;
   letter-spacing: 0.5px;
-}
-
-.pill-severity-moderate {
-  background: #fff8e1;
-  color: #b8860b;
-  border-color: #ffe082;
-}
-
-.pill-severity-high {
-  background: #fff3e0;
-  color: #e65100;
-  border-color: #ffcc80;
-}
-
-.pill-severity-critical {
-  background: #fce4ec;
-  color: #c62828;
-  border-color: #ef9a9a;
+  padding: 2px 8px;
 }
 
 .pill-type {
-  background: $wiki-bg-alt;
-  color: $wiki-text-dim;
+  background: $bg-dim;
+  color: $text-2;
+  border-color: $border-lt;
 }
 
 .pill-vector {
-  background: #e8f5e9;
-  color: #2e7d32;
-  border-color: #a5d6a7;
+  background: #ecfdf5;
+  color: #059669;
+  border-color: #a7f3d0;
 }
 
 .pill-active {
-  background: $neon-bg;
-  color: $neon-dim;
-  border-color: rgba($neon, 0.25);
+  background: $neon-soft;
+  color: $neon-text;
+  border-color: $neon-mid;
+}
+
+.pill-severity-moderate {
+  background: #fefce8;
+  color: #a16207;
+  border-color: #fde68a;
+}
+
+.pill-severity-high {
+  background: #fff7ed;
+  color: #c2410c;
+  border-color: #fed7aa;
+}
+
+.pill-severity-critical {
+  background: #fef2f2;
+  color: #dc2626;
+  border-color: #fecaca;
 }
 
 // ---- Language toggle ----
 .lang-toggle {
-  display: flex;
+  display: inline-flex;
   gap: 0;
-  margin-bottom: 1.2em;
-  border: 1px solid $wiki-border;
-  border-radius: 4px;
-  overflow: hidden;
-  width: fit-content;
+  margin-bottom: 1.5em;
+  background: $bg-dim;
+  border-radius: 8px;
+  padding: 3px;
 }
 
 .lang-btn {
-  padding: 5px 16px;
-  font-size: 13px;
-  font-weight: 500;
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 600;
   border: none;
-  background: $wiki-bg-alt;
-  color: $wiki-text-dim;
+  border-radius: 6px;
+  background: transparent;
+  color: $text-3;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s;
+  transition: all 0.15s;
 
-  &:not(:last-child) {
-    border-right: 1px solid $wiki-border;
-  }
-
-  &:hover {
-    background: $wiki-accent;
-  }
+  &:hover { color: $text-2; }
 
   &.active {
-    background: $wiki-text;
-    color: $wiki-bg;
-    font-weight: 600;
+    background: $bg-card;
+    color: $text;
+    border: 1px solid $border-lt;
   }
 }
 
-// ---- Language content hiding ----
-.en { display: none; } // default: Korean
-
-// ---- Lists ----
-.main-content {
-  ul, ol {
-    margin-bottom: 0.6em;
-    padding-left: 1.8em;
-    li { margin-bottom: 0.3em; }
-  }
-}
+// ---- Language hide ----
+.en { display: none; }
 
 // ---- Blockquote ----
 .main-content blockquote {
   border-left: 3px solid $neon;
-  padding: 0.3em 1em;
-  color: $wiki-text-dim;
-  background: $wiki-bg-alt;
-  margin: 0.8em 0;
+  padding: 0.5em 1em;
+  color: $text-2;
+  background: $bg-dim;
+  margin: 1em 0;
+  border-radius: 0 6px 6px 0;
+  font-size: 13.5px;
 }
 
 // ---- HR ----
 .main-content hr {
   border: none;
-  border-top: 1px solid $wiki-border-lt;
-  margin: 1.5em 0;
+  border-top: 1px solid $border-lt;
+  margin: 2em 0;
 }
 
 // ---- Search ----
 .search-input {
-  border: 1px solid $wiki-border;
-  border-radius: 2px;
-  font-size: 14px;
+  border: 1px solid $border-lt;
+  border-radius: 8px;
+  font-size: 13px;
+  background: $bg-dim;
   &:focus {
     border-color: $neon;
+    background: $bg-card;
     outline: none;
   }
 }
 
 // ---- Footer ----
 .site-footer {
-  font-size: 12px;
-  color: $wiki-text-dim;
-  border-top: 1px solid $wiki-border-lt;
+  font-size: 11px;
+  color: $text-3;
+  border-top: 1px solid $border-lt;
 }
 
-// ---- Anchor ----
+// ---- Anchors ----
 .main-content .anchor-heading {
-  color: $wiki-text-dim;
+  color: $neon;
   opacity: 0;
   transition: opacity 0.15s;
+  font-weight: 400;
 }
-.main-content h2:hover .anchor-heading,
-.main-content h3:hover .anchor-heading {
-  opacity: 1;
-}
+.main-content h2:hover .anchor-heading { opacity: 1; }
 
 // ---- Code ----
 .main-content code {
-  background: $wiki-bg-alt;
-  border: 1px solid $wiki-border-lt;
-  border-radius: 2px;
-  padding: 1px 4px;
-  font-size: 0.9em;
+  background: $bg-dim;
+  border: 1px solid $border-lt;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.85em;
+  font-family: "SF Mono", "JetBrains Mono", monospace;
+  color: $text-2;
 }
 
-// ---- Clear floats ----
+// ---- Float clear ----
 .main-content h2 { clear: both; }
 
-// ---- Neon green accent on selection ----
+// ---- Selection ----
 ::selection {
-  background: rgba($neon, 0.25);
-  color: $wiki-text;
+  background: $neon-mid;
+  color: $text;
+}
+
+// ---- Breadcrumbs ----
+.breadcrumb-nav {
+  font-size: 12px;
+  color: $text-3;
 }

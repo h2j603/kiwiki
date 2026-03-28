@@ -8,7 +8,6 @@ classification:
   vector: "직접접근 / Direct Access"
   severity: "높음 / High"
 origin: "2000년대 초반에 방치된 웹 디자인 포트폴리오 사이트의 색상 팔레트 코드 / Color palette code from abandoned early-2000s web design portfolio sites"
-first_detected: "2024년 겨울 / Winter 2024"
 status: "활성 / Active"
 tags: ["감각형", "직접접근", "색각", "시각", "sensory", "direct access", "color", "vision"]
 ---
@@ -19,7 +18,6 @@ tags: ["감각형", "직접접근", "색각", "시각", "sensory", "direct acces
 | 유형 | <span class="pill pill-type">감각형</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근</span> |
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
-| 최초 발견 | 2024년 겨울 |
 | 상태 | <span class="pill pill-active">활성</span> |
 
 ## 개요 / Overview
