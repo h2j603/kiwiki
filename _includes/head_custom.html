@@ -1,160 +1,39 @@
-<!-- Typekit fonts -->
+<!-- Fonts -->
 <link rel="stylesheet" href="https://use.typekit.net/rhy6are.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap">
+<script>try{(function(d){var config={kitId:'fpx8ely',scriptTimeout:3000,async:true},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);}catch(e){}</script>
 
-<script>
-try{(function(d){var config={kitId:'fpx8ely',scriptTimeout:3000,async:true},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);}catch(e){}
-</script>
+<!-- Kiwiki JS (external file — avoids inline script issues) -->
+<script src="{{ '/assets/js/kiwiki.js' | relative_url }}"></script>
 
-<script>
-// ====== LANGUAGE: read from URL ?lang= or localStorage ======
-(function(){
-  var params = new URLSearchParams(window.location.search);
-  var lang = params.get('lang');
-  if (lang && (lang === 'ko' || lang === 'en' || lang === 'ja')) {
-    try { localStorage.setItem('kiwiki-lang', lang); } catch(e) {}
-  } else {
-    try { lang = localStorage.getItem('kiwiki-lang'); } catch(e) {}
-  }
-  if (!lang) lang = 'en';
-  // Apply immediately to <html> to prevent FOUC
-  document.documentElement.className += ' lang-' + lang;
-  window._kiwikiLang = lang;
-
-  // Infection: also apply to <html> immediately
-  try {
-    var viruses = ['echoloop','mirrorlink','pixelrot','deadscroll','glitchmoss','nullwhisper','blindspot','phantomtab','staticbloom','syntaxwraith','cachevein','forgetmenot'];
-    var vid = sessionStorage.getItem('kiwiki-virus');
-    if (!vid) { vid = viruses[Math.floor(Math.random() * viruses.length)]; sessionStorage.setItem('kiwiki-virus', vid); }
-    document.documentElement.className += ' virus-' + vid;
-    window._kiwikiVirus = vid;
-  } catch(e) {}
-})();
-
-// ====== TOC builder ======
-function kiwikiBuildToc() {
-  try {
-    var toc = document.getElementById('kiwiki-toc');
-    if (!toc) return;
-    toc.innerHTML = '';
-    var all = document.getElementsByTagName('h2');
-    var items = [];
-    for (var i = 0; i < all.length; i++) {
-      try { if (window.getComputedStyle(all[i]).display === 'none') continue; } catch(e) { continue; }
-      items.push(all[i]);
-    }
-    if (items.length < 2) return;
-    var ol = document.createElement('ol');
-    ol.style.cssText = 'list-style:none;padding:0;margin:0;';
-    for (var j = 0; j < items.length; j++) {
-      var h = items[j];
-      var num = j + 1;
-      if (!h.id) h.id = 'sec-' + num;
-      var sn = h.querySelector('.sec-num');
-      if (!sn) { sn = document.createElement('span'); sn.className = 'sec-num'; h.insertBefore(sn, h.firstChild); }
-      sn.textContent = num + '. ';
-      var txt = '';
-      for (var c = 0; c < h.childNodes.length; c++) {
-        var cn = h.childNodes[c];
-        if (cn.nodeType === 1 && (cn.className === 'sec-num' || cn.className === 'anchor-heading')) continue;
-        txt += cn.textContent || '';
-      }
-      var li = document.createElement('li');
-      var a = document.createElement('a');
-      a.href = '#' + h.id;
-      a.textContent = num + '. ' + txt.replace(/#/g, '').trim();
-      li.appendChild(a);
-      ol.appendChild(li);
-    }
-    toc.appendChild(ol);
-  } catch(e) {}
-}
-
-// ====== INIT on DOM ready ======
-function kiwikiInit() {
-  var lang = window._kiwikiLang || 'en';
-
-  // Apply lang class to body
-  document.body.className += ' lang-' + lang;
-
-  // Mark active button
-  try {
-    var el = document.getElementById('kiwiki-lang-toggle');
-    if (el) {
-      var links = el.getElementsByTagName('a');
-      for (var i = 0; i < links.length; i++) {
-        var href = links[i].getAttribute('href');
-        if (href && href.indexOf('lang=' + lang) !== -1) {
-          links[i].className = 'lang-btn active';
-        } else {
-          links[i].className = 'lang-btn';
-        }
-      }
-    }
-  } catch(e) {}
-
-  // Build TOC
-  try { kiwikiBuildToc(); } catch(e) {}
-
-  // Infection
-  try {
-    var viruses = ['echoloop','mirrorlink','pixelrot','deadscroll','glitchmoss','nullwhisper','blindspot','phantomtab','staticbloom','syntaxwraith','cachevein','forgetmenot'];
-    var names = {echoloop:'EchoLoop',mirrorlink:'MirrorLink',pixelrot:'PixelRot',deadscroll:'DeadScroll',glitchmoss:'GlitchMoss',nullwhisper:'NullWhisper',blindspot:'BlindSpot',phantomtab:'PhantomTab',staticbloom:'StaticBloom',syntaxwraith:'SyntaxWraith',cachevein:'CacheVein',forgetmenot:'ForgetMeNot'};
-    var codes = {echoloop:'WKV-C.SE-001',mirrorlink:'WKV-S.SN-001',pixelrot:'WKV-S.EM-002',deadscroll:'WKV-C.SN-002',glitchmoss:'WKV-E.DA-001',nullwhisper:'WKV-L.MS-001',blindspot:'WKV-S.SE-004',phantomtab:'WKV-L.SN-003',staticbloom:'WKV-E.SN-003',syntaxwraith:'WKV-L.DA-002',cachevein:'WKV-E.MS-002',forgetmenot:'WKV-C.EM-003'};
-    var vid = sessionStorage.getItem('kiwiki-virus');
-    if (!vid) { vid = viruses[Math.floor(Math.random() * viruses.length)]; sessionStorage.setItem('kiwiki-virus', vid); }
-    document.body.className += ' virus-' + vid;
-    var bar = document.createElement('div');
-    bar.className = 'infection-notice';
-    bar.innerHTML = '\u26a0 infected: <b>' + (names[vid]||vid) + '</b> (' + (codes[vid]||'') + ')';
-    document.body.appendChild(bar);
-    setTimeout(function(){ bar.style.transition='opacity 1s'; bar.style.opacity='0'; }, 8000);
-  } catch(e) {}
-
-  // DeadScroll JS effect
-  try {
-    if (sessionStorage.getItem('kiwiki-virus') === 'deadscroll') {
-      var sc = 0;
-      window.addEventListener('scroll', function() { if (++sc % 60 === 0) window.scrollBy(0, Math.random()*150-75); });
-    }
-  } catch(e) {}
-}
-
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', kiwikiInit);
-} else {
-  kiwikiInit();
-}
-</script>
-
-<!-- CSS -->
+<!-- CSS: language + infection -->
 <style>
 .ko, .ja { display: none; }
-html.lang-ko .ko, body.lang-ko .ko { display: revert !important; }
-html.lang-ko .en, body.lang-ko .en, html.lang-ko .ja, body.lang-ko .ja { display: none !important; }
-html.lang-ja .ja, body.lang-ja .ja { display: revert !important; }
-html.lang-ja .ko, body.lang-ja .ko, html.lang-ja .en, body.lang-ja .en { display: none !important; }
-html.lang-en .ko, body.lang-en .ko, html.lang-en .ja, body.lang-en .ja { display: none !important; }
+.lang-ko .ko { display: revert !important; }
+.lang-ko .en, .lang-ko .ja { display: none !important; }
+.lang-ja .ja { display: revert !important; }
+.lang-ja .ko, .lang-ja .en { display: none !important; }
+.lang-en .ko, .lang-en .ja { display: none !important; }
 
-html.virus-echoloop .main-content p:nth-child(5n)::after { content: attr(data-text); display: block; opacity: 0.15; font-style: italic; }
-html.virus-mirrorlink .main-content { transform: scaleX(-1); }
-html.virus-mirrorlink .main-content * { transform: scaleX(-1); }
-html.virus-pixelrot .main-content p { filter: blur(0.3px); }
-html.virus-pixelrot .main-content p:nth-child(n+5) { filter: blur(0.6px); }
-html.virus-pixelrot .main-content p:nth-child(n+10) { filter: blur(1px); }
-html.virus-glitchmoss .main-content hr { background: lawngreen !important; height: 2px; }
-html.virus-nullwhisper .main-content::before { content: "choose wisely..."; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); font-style: italic; font-size: 48px; color: orangered; opacity: 0; pointer-events: none; animation: whisper 15s infinite; }
+.virus-echoloop .main-content p:nth-child(5n)::after { content: attr(data-text); display: block; opacity: 0.15; font-style: italic; }
+.virus-mirrorlink .main-content { transform: scaleX(-1); }
+.virus-mirrorlink .main-content * { transform: scaleX(-1); }
+.virus-pixelrot .main-content p { filter: blur(0.3px); }
+.virus-pixelrot .main-content p:nth-child(n+5) { filter: blur(0.6px); }
+.virus-pixelrot .main-content p:nth-child(n+10) { filter: blur(1px); }
+.virus-glitchmoss .main-content hr { background: lawngreen !important; height: 2px; }
+.virus-nullwhisper .main-content::before { content: "choose wisely..."; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); font-style: italic; font-size: 48px; color: orangered; opacity: 0; pointer-events: none; animation: whisper 15s infinite; }
 @keyframes whisper { 0%,90%,100% { opacity: 0; } 95% { opacity: 0.04; } }
-html.virus-blindspot .main-content p:nth-child(3) { color: transparent !important; user-select: none; }
-html.virus-blindspot .main-content p:nth-child(3) a { color: transparent !important; }
-html.virus-staticbloom .main-content::after { content: "\2726"; position: fixed; bottom: 30px; left: 30px; font-size: 32px; color: lawngreen; opacity: 0; animation: bloom 10s infinite; pointer-events: none; }
+.virus-blindspot .main-content p:nth-child(3) { color: transparent !important; user-select: none; }
+.virus-blindspot .main-content p:nth-child(3) a { color: transparent !important; }
+.virus-staticbloom .main-content::after { content: "\2726"; position: fixed; bottom: 30px; left: 30px; font-size: 32px; color: lawngreen; opacity: 0; animation: bloom 10s infinite; pointer-events: none; }
 @keyframes bloom { 0%,80%,100% { opacity: 0; transform: scale(0.5); } 85% { opacity: 0.3; transform: scale(1); } 90% { opacity: 0.15; transform: scale(1.5); } }
-html.virus-syntaxwraith .main-content p { font-family: "t26-carbon", monospace !important; font-style: italic; }
-html.virus-cachevein .main-content { background-image: linear-gradient(90deg, transparent 98%, rgba(255,69,0,0.03) 100%), linear-gradient(0deg, transparent 97%, rgba(255,69,0,0.02) 100%); background-size: 40px 40px; }
-html.virus-forgetmenot .main-content p:nth-child(n+8) { opacity: 0.7; }
-html.virus-forgetmenot .main-content p:nth-child(n+12) { opacity: 0.4; }
-html.virus-forgetmenot .main-content p:nth-child(n+16) { opacity: 0.15; }
+.virus-syntaxwraith .main-content p { font-family: "t26-carbon", monospace !important; font-style: italic; }
+.virus-cachevein .main-content { background-image: linear-gradient(90deg, transparent 98%, rgba(255,69,0,0.03) 100%), linear-gradient(0deg, transparent 97%, rgba(255,69,0,0.02) 100%); background-size: 40px 40px; }
+.virus-forgetmenot .main-content p:nth-child(n+8) { opacity: 0.7; }
+.virus-forgetmenot .main-content p:nth-child(n+12) { opacity: 0.4; }
+.virus-forgetmenot .main-content p:nth-child(n+16) { opacity: 0.15; }
 .infection-notice { position: fixed; bottom: 0; left: 0; right: 0; background: #111; color: lawngreen; font-family: "t26-carbon", monospace; font-style: italic; font-size: 11px; padding: 4px 14px; text-align: center; z-index: 9999; opacity: 0; animation: noticeIn 1s 2s forwards; }
 @keyframes noticeIn { to { opacity: 1; } }
 </style>
