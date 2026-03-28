@@ -1,63 +1,61 @@
 <!-- Typekit fonts (hyuk: neue-haas-unica + t26-carbon) -->
 <link rel="stylesheet" href="https://use.typekit.net/rhy6are.css">
 <script>
-(function(d) {
-  var config = { kitId: 'fpx8ely', scriptTimeout: 3000, async: true },
-  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-})(document);
+try{(function(d){var config={kitId:'fpx8ely',scriptTimeout:3000,async:true},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);}catch(e){}
 </script>
 
-<!-- Language toggle -->
+<!-- Language: default hide KO/JA, show EN -->
+<style>
+.ko, .ja { display: none; }
+body.lang-ko .ko { display: revert !important; }
+body.lang-ko .en, body.lang-ko .ja { display: none !important; }
+body.lang-ja .ja { display: revert !important; }
+body.lang-ja .ko, body.lang-ja .en { display: none !important; }
+body.lang-en .ko, body.lang-en .ja { display: none !important; }
+</style>
+
+<!-- Language toggle (separate script, won't break if Typekit fails) -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // 1. Apply saved language to body immediately
-  var saved = localStorage.getItem('kiwiki-lang') || 'en';
-  document.body.classList.add('lang-' + saved);
+  try {
+    var saved = localStorage.getItem('kiwiki-lang') || 'en';
+    document.body.classList.add('lang-' + saved);
 
-  // 2. Check if page has any language-tagged content
-  if (!document.querySelector('.ko, .en, .ja')) return;
+    if (!document.querySelector('.ko') && !document.querySelector('.en') && !document.querySelector('.ja')) return;
 
-  // 3. Create toggle UI
-  var t = document.createElement('div');
-  t.className = 'lang-toggle';
-  t.innerHTML =
-    '<button class="lang-btn' + (saved === 'en' ? ' active' : '') + '" data-lang="en">EN</button>' +
-    '<button class="lang-btn' + (saved === 'ko' ? ' active' : '') + '" data-lang="ko">한국어</button>' +
-    '<button class="lang-btn' + (saved === 'ja' ? ' active' : '') + '" data-lang="ja">日本語</button>';
-
-  var mc = document.querySelector('.main-content');
-  if (!mc) return;
-  mc.insertBefore(t, mc.firstChild);
-
-  // 4. Handle clicks
-  t.addEventListener('click', function(e) {
-    var btn = e.target;
-    if (!btn.classList.contains('lang-btn')) return;
-    var lang = btn.dataset.lang;
-
-    // Update body class
-    document.body.classList.remove('lang-en', 'lang-ko', 'lang-ja');
-    document.body.classList.add('lang-' + lang);
-
-    // Update button active state
-    t.querySelectorAll('.lang-btn').forEach(function(b) {
-      b.classList.toggle('active', b.dataset.lang === lang);
+    var toggle = document.createElement('div');
+    toggle.className = 'lang-toggle';
+    ['en', '한국어', '日本語'].forEach(function(label, i) {
+      var lang = ['en', 'ko', 'ja'][i];
+      var btn = document.createElement('button');
+      btn.className = 'lang-btn' + (saved === lang ? ' active' : '');
+      btn.setAttribute('data-lang', lang);
+      btn.textContent = label;
+      toggle.appendChild(btn);
     });
 
-    // Save preference
-    localStorage.setItem('kiwiki-lang', lang);
-  });
+    var mc = document.querySelector('.main-content');
+    if (mc) {
+      mc.insertBefore(toggle, mc.firstChild);
+    }
+
+    toggle.addEventListener('click', function(e) {
+      if (!e.target.getAttribute('data-lang')) return;
+      var lang = e.target.getAttribute('data-lang');
+      document.body.classList.remove('lang-en', 'lang-ko', 'lang-ja');
+      document.body.classList.add('lang-' + lang);
+      var btns = toggle.querySelectorAll('.lang-btn');
+      for (var i = 0; i < btns.length; i++) {
+        if (btns[i].getAttribute('data-lang') === lang) {
+          btns[i].classList.add('active');
+        } else {
+          btns[i].classList.remove('active');
+        }
+      }
+      localStorage.setItem('kiwiki-lang', lang);
+    });
+  } catch(e) {
+    console.error('Kiwiki lang toggle error:', e);
+  }
 });
 </script>
-
-<!-- Prevent FOUC: apply language class to body tag via CSS -->
-<style>
-  /* Hide non-default languages before JS loads. EN is default. */
-  .ko, .ja { display: none; }
-  body.lang-ko .ko { display: revert !important; }
-  body.lang-ko .en, body.lang-ko .ja { display: none !important; }
-  body.lang-ja .ja { display: revert !important; }
-  body.lang-ja .ko, body.lang-ja .en { display: none !important; }
-  body.lang-en .en { display: revert !important; }
-  body.lang-en .ko, body.lang-en .ja { display: none !important; }
-</style>
