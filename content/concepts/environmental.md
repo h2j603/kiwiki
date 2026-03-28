@@ -59,7 +59,7 @@ Environmental-type viruses are the most dangerous classification of Web Kiwi Vir
 환경형 바이러스는 웹키위바이러스의 가장 위험한 유형이다. 개인의 정신, 감각, 추론에 영향을 미치는 다른 세 유형과 달리, 환경형 바이러스는 **물리적 세계 자체**를 변형한다. 벽에 회로가 자란다. 방의 크기가 변한다. 물체가 하룻밤 사이에 녹슨다. 정적으로 이루어진 이끼가 콘크리트 위에 퍼진다. 이것은 환각이 아니며 지각적 왜곡도 아니다: 환경형 효과는 측정 가능하고, 사진 촬영이 가능하며, 영구적이다. 이것이 가장 문자 그대로의 [경계 무너짐](boundary-collapse.md)이다 -- 웹의 속성이 물리적으로 실제 공간에 발현하는 것이다. 환경형 바이러스는 [비가역적 변형](irreversible.md) 사례가 가장 집중되어 있으며, [키위모스](/kiwiki/viruses/kiwimoss.md), [키위베인](/kiwiki/viruses/kiwivein.md), [키위보이드](/kiwiki/viruses/kiwivoid.md), [키위루트](/kiwiki/viruses/kiwiroot.md) 네 건이 확인되었다.
 {: .ko}
 
-環境型ウイルスはウェブキウイウイルスの最も危険な類型である。個人の精神、感覚、推論に影響を与える他の3類型とは異なり、環境型ウイルスは**物理的世界そのもの**を変容させる。壁に回路が生える。部屋の寸法が変わる。物体が一晩で錆びる。静電ノイズでできた苔がコンクリートの上に広がる。これらは幻覚ではなく知覚の歪みでもない：環境型の効果は測定可能で、写真撮影可能で、永続的である。これが最も文字通りの[境界崩壊](boundary-collapse.md)である――ウェブの属性が物理的に実空間で発現するのだ。環境型ウイルスは[不可逆的変容](irreversible.md)の症例が最も集中しており、[グリッチモス](/kiwiki/viruses/kiwimoss.md)、[キャッシュベイン](/kiwiki/viruses/kiwivein.md)、[ボイドメール](/kiwiki/viruses/kiwivoid.md)、[ワイヤールート](/kiwiki/viruses/kiwiroot.md)の4件が確認されている。
+環境型ウイルスはウェブキウイウイルスの最も危険な類型である。個人の精神、感覚、推論に影響を与える他の3類型とは異なり、環境型ウイルスは**物理的世界そのもの**を変容させる。壁に回路が生える。部屋の寸法が変わる。物体が一晩で錆びる。静電ノイズでできた苔がコンクリートの上に広がる。これらは幻覚ではなく知覚の歪みでもない：環境型の効果は測定可能で、写真撮影可能で、永続的である。これが最も文字通りの[境界崩壊](boundary-collapse.md)である――ウェブの属性が物理的に実空間で発現するのだ。環境型ウイルスは[不可逆的変容](irreversible.md)の症例が最も集中しており、[キウイモス](/kiwiki/viruses/kiwimoss.md)、[キウイベイン](/kiwiki/viruses/kiwivein.md)、[キウイボイド](/kiwiki/viruses/kiwivoid.md)、[キウイルート](/kiwiki/viruses/kiwiroot.md)の4件が確認されている。
 {: .ja}
 
 ## 환경형 감염의 작동 원리
@@ -129,14 +129,14 @@ The prevailing theory is that Environmental-type viruses use the infected person
 
 | ウイルス | 経路 | 重症度 | 物理的効果 |
 |----------|------|--------|-----------|
-| [グリッチモス](/kiwiki/viruses/kiwimoss.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 表面に静電パターンの苔の成長 |
-| [キャッシュベイン](/kiwiki/viruses/kiwivein.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 壁を通じて広がる回路状の脈管 |
-| [スタティックブルーム](/kiwiki/viruses/kiwibloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 画面と表面に花状の静電形成 |
-| [ボイドメール](/kiwiki/viruses/kiwivoid.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-critical">致命的</span> | 物理的物質を消滅させる空間的空虚 |
-| [ラストピクセル](/kiwiki/viruses/kiwirust.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 金属物体を侵食するピクセルパターンの錆 |
-| [ワイヤールート](/kiwiki/viruses/kiwiroot.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 床と壁から生えるワイヤー状の根 |
-| [エコルーム](/kiwiki/viruses/kiwiroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | ウェブの音を反響する音響異常が発生する部屋 |
-| [ヌルスペース](/kiwiki/viruses/kiwispace.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 空間次元が未定義になる部屋 |
+| [キウイモス](/kiwiki/viruses/kiwimoss.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 表面に静電パターンの苔の成長 |
+| [キウイベイン](/kiwiki/viruses/kiwivein.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 壁を通じて広がる回路状の脈管 |
+| [キウイブルーム](/kiwiki/viruses/kiwibloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 画面と表面に花状の静電形成 |
+| [キウイボイド](/kiwiki/viruses/kiwivoid.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-critical">致命的</span> | 物理的物質を消滅させる空間的空虚 |
+| [キウイラスト](/kiwiki/viruses/kiwirust.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 金属物体を侵食するピクセルパターンの錆 |
+| [キウイルート](/kiwiki/viruses/kiwiroot.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 床と壁から生えるワイヤー状の根 |
+| [キウイルーム](/kiwiki/viruses/kiwiroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | ウェブの音を反響する音響異常が発生する部屋 |
+| [キウイスペース](/kiwiki/viruses/kiwispace.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 空間次元が未定義になる部屋 |
 
 </div>
 
@@ -165,8 +165,8 @@ Three factors combine to make Environmental-type viruses the most dangerous clas
 
 3つの要因が組み合わさり、環境型ウイルスを最も危険な類型にしている：
 
-1. **不可逆性** ── 既知の環境型ウイルス8種のうち4種が確認された不可逆的変化を生み出す。他のどの類型も及ばない。グリッチモスが壁に生えれば、その壁は分子レベルで永久に変容する。解体しても無駄だ；瓦礫に汚染が残る。
-2. **巻き添え被害** ── 他の類型は感染者個人にのみ影響する。環境型ウイルスは汚染空間に入るすべての人に影響する。キャッシュベインによって変容したアパートは、元の感染者だけでなくすべての居住者にとって危険である。
+1. **不可逆性** ── 既知の環境型ウイルス8種のうち4種が確認された不可逆的変化を生み出す。他のどの類型も及ばない。キウイモスが壁に生えれば、その壁は分子レベルで永久に変容する。解体しても無駄だ；瓦礫に汚染が残る。
+2. **巻き添え被害** ── 他の類型は感染者個人にのみ影響する。環境型ウイルスは汚染空間に入るすべての人に影響する。キウイベインによって変容したアパートは、元の感染者だけでなくすべての居住者にとって危険である。
 3. **隠れたキャリア** ── 感染者は何も感じない。気づくべき症状も、行動すべき警告サインもない。誰かが事態に気づく前に何十もの空間を汚染する可能性がある。
 {: .ja}
 

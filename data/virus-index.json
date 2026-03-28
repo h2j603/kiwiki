@@ -38,6 +38,42 @@
       "file": "content/viruses/kiwishade.md"
     },
     {
+      "id": "kiwighost",
+      "title": "키위고스트 / KiwiGhost",
+      "type": "로직형 / Logic",
+      "vector": "검색엔진 / Search Engine",
+      "severity": "보통 / Moderate",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwighost.md"
+    },
+    {
+      "id": "kiwiparadox",
+      "title": "키위패러독스 / KiwiParadox",
+      "type": "로직형 / Logic",
+      "vector": "직접접근 / Direct Access",
+      "severity": "높음 / High",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwiparadox.md"
+    },
+    {
+      "id": "kiwibleed",
+      "title": "키위블리드 / KiwiBleed",
+      "type": "로직형 / Logic",
+      "vector": "SNS / Social Media",
+      "severity": "높음 / High",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwibleed.md"
+    },
+    {
+      "id": "kiwiclip",
+      "title": "키위클립 / KiwiClip",
+      "type": "로직형 / Logic",
+      "vector": "메신저 / Messenger",
+      "severity": "보통 / Moderate",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwiclip.md"
+    },
+    {
       "id": "kiwimirror",
       "title": "키위미러 / KiwiMirror",
       "type": "감각형 / Sensory",
@@ -72,6 +108,42 @@
       "severity": "치명적 / Critical",
       "status": "활성 / Active",
       "file": "content/viruses/kiwispot.md"
+    },
+    {
+      "id": "kiwidrift",
+      "title": "키위드리프트 / KiwiDrift",
+      "type": "감각형 / Sensory",
+      "vector": "직접접근 / Direct Access",
+      "severity": "높음 / High",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwidrift.md"
+    },
+    {
+      "id": "kiwitouch",
+      "title": "키위터치 / KiwiTouch",
+      "type": "감각형 / Sensory",
+      "vector": "SNS / Social Media",
+      "severity": "보통 / Moderate",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwitouch.md"
+    },
+    {
+      "id": "kiwivoice",
+      "title": "키위보이스 / KiwiVoice",
+      "type": "감각형 / Sensory",
+      "vector": "이메일 / Email",
+      "severity": "높음 / High",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwivoice.md"
+    },
+    {
+      "id": "kiwiafter",
+      "title": "키위애프터 / KiwiAfter",
+      "type": "감각형 / Sensory",
+      "vector": "검색엔진 / Search Engine",
+      "severity": "보통 / Moderate",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwiafter.md"
     },
     {
       "id": "kiwiecho",
@@ -110,6 +182,42 @@
       "file": "content/viruses/kiwiloop.md"
     },
     {
+      "id": "kiwidream",
+      "title": "키위드림 / KiwiDream",
+      "type": "인지형 / Cognitive",
+      "vector": "SNS / Social Media",
+      "severity": "보통 / Moderate",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwidream.md"
+    },
+    {
+      "id": "kiwieater",
+      "title": "키위이터 / KiwiEater",
+      "type": "인지형 / Cognitive",
+      "vector": "직접접근 / Direct Access",
+      "severity": "높음 / High",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwieater.md"
+    },
+    {
+      "id": "kiwitime",
+      "title": "키위타임 / KiwiTime",
+      "type": "인지형 / Cognitive",
+      "vector": "검색엔진 / Search Engine",
+      "severity": "높음 / High",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwitime.md"
+    },
+    {
+      "id": "kiwicut",
+      "title": "키위컷 / KiwiCut",
+      "type": "인지형 / Cognitive",
+      "vector": "메신저 / Messenger",
+      "severity": "치명적 / Critical",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwicut.md"
+    },
+    {
       "id": "kiwimoss",
       "title": "키위모스 / KiwiMoss",
       "type": "환경형 / Environmental",
@@ -144,6 +252,42 @@
       "severity": "치명적 / Critical",
       "status": "활성 / Active",
       "file": "content/viruses/kiwivoid.md"
+    },
+    {
+      "id": "kiwirust",
+      "title": "키위러스트 / KiwiRust",
+      "type": "환경형 / Environmental",
+      "vector": "검색엔진 / Search Engine",
+      "severity": "높음 / High",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwirust.md"
+    },
+    {
+      "id": "kiwiroot",
+      "title": "키위루트 / KiwiRoot",
+      "type": "환경형 / Environmental",
+      "vector": "직접접근 / Direct Access",
+      "severity": "치명적 / Critical",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwiroot.md"
+    },
+    {
+      "id": "kiwiroom",
+      "title": "키위룸 / KiwiRoom",
+      "type": "환경형 / Environmental",
+      "vector": "SNS / Social Media",
+      "severity": "보통 / Moderate",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwiroom.md"
+    },
+    {
+      "id": "kiwispace",
+      "title": "키위스페이스 / KiwiSpace",
+      "type": "환경형 / Environmental",
+      "vector": "메신저 / Messenger",
+      "severity": "높음 / High",
+      "status": "활성 / Active",
+      "file": "content/viruses/kiwispace.md"
     }
   ]
 }

@@ -280,9 +280,9 @@ First identified in autumn 2024 when posts saying "something is wrong with my mi
 - [KiwiMoss](kiwimoss.md): Visual corrosion similar to KiwiMoss has been observed on reflective surfaces near late-stage KiwiMirror patients.
 {: .en}
 
-- [ピクセルロット（KiwiRot）](kiwirot.md)：同じ感覚型ウイルス。ミラーリンクが反射像を歪めるのに対し、ピクセルロットは視野全体を侵食する。
-- [デッドスクロール（KiwiScroll）](kiwiscroll.md)：SNSを通じて伝播するという共通点。ミラーリンク感染者が無限スクロールに陥るとデッドスクロールの同時感染リスクがある。
-- [グリッチモス（KiwiMoss）](kiwimoss.md)：ミラーリンク末期患者の周辺の反射面でグリッチモスに類似した視覚的腐食が観察されたことがある。
+- [キウイロット（KiwiRot）](kiwirot.md)：同じ感覚型ウイルス。キウイミラーが反射像を歪めるのに対し、キウイロットは視野全体を侵食する。
+- [キウイスクロール（KiwiScroll）](kiwiscroll.md)：SNSを通じて伝播するという共通点。キウイミラー感染者が無限スクロールに陥るとキウイスクロールの同時感染リスクがある。
+- [キウイモス（KiwiMoss）](kiwimoss.md)：キウイミラー末期患者の周辺の反射面でキウイモスに類似した視覚的腐食が観察されたことがある。
 {: .ja}
 
 

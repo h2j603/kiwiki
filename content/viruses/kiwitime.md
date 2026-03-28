@@ -73,7 +73,7 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 A Cognitive-type virus contracted by repeatedly searching for specific dates, times, and timestamps on search engines. The infected person falls into a state of permanent deja vu where every experience feels like "something already lived through." New experiences, first-time encounters with people, and visits to unfamiliar places all feel like repetitions of events that have already occurred, and the sensation of "novelty" is completely extinguished from life. This induces severe existential ennui and dread, plunging the infected into profound helplessness.
 {: .en}
 
-検索エンジンで特定の日付、時刻、タイムスタンプを繰り返し検索すると感染する認知型ウイルス。感染者はすべての経験が「すでに体験したことがある」と感じる永続的なデジャヴ状態に陥る。新しい経験、初めて会う人、初めて訪れる場所のすべてが過去にすでに起こった出来事の繰り返しのように感じられ、人生から「新しさ」という感覚が完全に消滅する。これは極度の実存的倦怠と恐怖を引き起こし、感染者を深い無力感に陥れる。
+検索エンジンで特定の日付、時刻、キウイタイムを繰り返し検索すると感染する認知型ウイルス。感染者はすべての経験が「すでに体験したことがある」と感じる永続的なデジャヴ状態に陥る。新しい経験、初めて会う人、初めて訪れる場所のすべてが過去にすでに起こった出来事の繰り返しのように感じられ、人生から「新しさ」という感覚が完全に消滅する。これは極度の実存的倦怠と恐怖を引き起こし、感染者を深い無力感に陥れる。
 {: .ja}
 
 
@@ -98,7 +98,7 @@ A Cognitive-type virus contracted by repeatedly searching for specific dates, ti
 Infection occurs when repeatedly searching for records of specific past time points using the date range filter of a search engine, or intensively reviewing log data containing timestamps. The "what happened on this day" type of retrospective search pattern is particularly dangerous, and the infection vector activates after clicking date/time metadata displayed in search results five or more consecutive times. Accessing past versions of web pages through search engine cached pages is also included as an infection pathway.
 {: .en}
 
-検索エンジンの日付範囲フィルターを使用して過去の特定時点の記録を繰り返し検索したり、タイムスタンプを含むログデータを集中的に閲覧すると感染する。特に「この日何があったか」式の過去回帰的な検索パターンが危険であり、検索結果に表示される日付・時刻のメタデータを5回以上連続でクリックすると感染ベクターが活性化する。検索エンジンのキャッシュページを通じて過去時点のウェブページにアクセスする行為も感染経路に含まれる。
+検索エンジンの日付範囲フィルターを使用して過去の特定時点の記録を繰り返し検索したり、キウイタイムを含むログデータを集中的に閲覧すると感染する。特に「この日何があったか」式の過去回帰的な検索パターンが危険であり、検索結果に表示される日付・時刻のメタデータを5回以上連続でクリックすると感染ベクターが活性化する。検索エンジンのキャッシュページを通じて過去時点のウェブページにアクセスする行為も感染経路に含まれる。
 {: .ja}
 
 
@@ -285,9 +285,9 @@ In winter 2025, a digital archiving specialist became infected during a project 
 - [KiwiScroll](kiwiscroll.md): If KiwiScroll causes time distortion through infinite scrolling, KiwiTime compresses all time periods into a single repetition—co-infection brings time perception to a complete halt.
 {: .en}
 
-- [ドリームリーク（KiwiDream）](kiwidream.md)：夢の記憶とデジャヴが結合すると、すべての経験が「夢ですでに経験した繰り返し」と感じられ、現実感が二重に破壊される。
-- [エコループ（KiwiEcho）](kiwiecho.md)：エコループの反復検索行動がタイムスタンプの過去回帰的検索パターンと共鳴し、双方の症状を同時に加速させる。
-- [デッドスクロール（KiwiScroll）](kiwiscroll.md)：デッドスクロールが無限スクロールによる時間の歪みを引き起こすのに対し、タイムスタンプはすべての時間帯を一つの繰り返しに圧縮する——同時感染時、時間認識が完全に停止する。
+- [キウイドリーム（KiwiDream）](kiwidream.md)：夢の記憶とデジャヴが結合すると、すべての経験が「夢ですでに経験した繰り返し」と感じられ、現実感が二重に破壊される。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：キウイエコーの反復検索行動がキウイタイムの過去回帰的検索パターンと共鳴し、双方の症状を同時に加速させる。
+- [キウイスクロール（KiwiScroll）](kiwiscroll.md)：キウイスクロールが無限スクロールによる時間の歪みを引き起こすのに対し、キウイタイムはすべての時間帯を一つの繰り返しに圧縮する——同時感染時、時間認識が完全に停止する。
 {: .ja}
 
 
@@ -314,8 +314,8 @@ In winter 2025, a digital archiving specialist became infected during a project 
 - Paradoxically, KiwiTime-infected individuals do not experience deja vu during actually repetitive routines (commuting, meals, etc.) and symptoms manifest only during objectively "new" experiences.
 {: .en}
 
-- タイムスタンプ感染者の一部は「未来のデジャヴ」を経験すると報告している——まだ起きていない出来事が「すでに起きた」と感じられ、予言と区別できない確信を持つようになる。
-- 逆説的に、タイムスタンプ感染者は実際に繰り返される日常（通勤、食事など）ではデジャヴを感じず、客観的に「新しい」経験でのみ症状が発現する。
+- キウイタイム感染者の一部は「未来のデジャヴ」を経験すると報告している——まだ起きていない出来事が「すでに起きた」と感じられ、予言と区別できない確信を持つようになる。
+- 逆説的に、キウイタイム感染者は実際に繰り返される日常（通勤、食事など）ではデジャヴを感じず、客観的に「新しい」経験でのみ症状が発現する。
 {: .ja}
 
 <div class="edit-history">

@@ -288,9 +288,9 @@ Discovered in early 2026 when proposals written by a creative director at an adv
 - [KiwiScroll](kiwiscroll.md): Shares a similar infection pathway through SNS scrolling behavior; simultaneous exposure to KiwiScroll accelerates KiwiBleed symptoms.
 {: .en}
 
-- [クリップボード（KiwiClip）](kiwiclip.md)：インクブリードがテキストの意味構造を滲ませるのに対し、クリップボードは他人の言葉そのもので感染者の思考を置き換える。両ウイルスの同時感染時、自己の言語的基盤が完全に消滅する。
-- [パラドックスフィード（KiwiParadox）](kiwiparadox.md)：パラドックスフィードで論理構造が解体された状態でインクブリードに感染すると、矛盾的でありながら同時に外部テキストに支配される二重汚染状態となる。
-- [デッドスクロール（KiwiScroll）](kiwiscroll.md)：SNSスクロール行為を媒介とする点で感染経路が類似しており、デッドスクロールへの同時曝露はインクブリードの症状を加速させる。
+- [キウイクリップ（KiwiClip）](kiwiclip.md)：キウイブリードがテキストの意味構造を滲ませるのに対し、キウイクリップは他人の言葉そのもので感染者の思考を置き換える。両ウイルスの同時感染時、自己の言語的基盤が完全に消滅する。
+- [キウイパラドックス（KiwiParadox）](kiwiparadox.md)：キウイパラドックスで論理構造が解体された状態でキウイブリードに感染すると、矛盾的でありながら同時に外部テキストに支配される二重汚染状態となる。
+- [キウイスクロール（KiwiScroll）](kiwiscroll.md)：SNSスクロール行為を媒介とする点で感染経路が類似しており、キウイスクロールへの同時曝露はキウイブリードの症状を加速させる。
 {: .ja}
 
 
@@ -317,8 +317,8 @@ Discovered in early 2026 when proposals written by a creative director at an adv
 - Interestingly, illiterate individuals have been observed to be immune to KiwiBleed, suggesting the virus depends on the ability to decode written text.
 {: .en}
 
-- インクブリード感染者の言語パターンを分析すると、約45分周期で語彙体系が完全に入れ替わることが確認できる。これを「インクサイクル」と称する。
-- 興味深いことに、非識字者はインクブリードに免疫があることが観察された。これはウイルスが文字解読能力に依存していることを示唆する。
+- キウイブリード感染者の言語パターンを分析すると、約45分周期で語彙体系が完全に入れ替わることが確認できる。これを「インクサイクル」と称する。
+- 興味深いことに、非識字者はキウイブリードに免疫があることが観察された。これはウイルスが文字解読能力に依存していることを示唆する。
 {: .ja}
 
 <div class="edit-history">

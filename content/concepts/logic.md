@@ -123,14 +123,14 @@ Logic-type viruses share several operational patterns that distinguish them from
 
 | ウイルス | 経路 | 重症度 | 主な特徴 |
 |----------|------|--------|----------|
-| [ヌルウィスパー](/kiwiki/viruses/kiwhisper.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 決定時点での囁く暗示 |
-| [シンタックスレイス](/kiwiki/viruses/kiwisyntax.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-moderate">中</span> | 書面コミュニケーションの文法的論理を汚染 |
-| [ファントムタブ](/kiwiki/viruses/kiwitab.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 選択に影響する幻のブラウザタブを作成 |
-| [バイトシェイド](/kiwiki/viruses/kiwishade.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-high">高</span> | 数値的推論を誤った結論に歪曲 |
-| [ゴーストピング](/kiwiki/viruses/kiwighost.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 注意と優先順位を再指向する幻の通知 |
-| [パラドックスフィード](/kiwiki/viruses/kiwiparadox.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 両方とも真に見える矛盾した前提を供給 |
-| [インクブリード](/kiwiki/viruses/kiwibleed.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 文字が新しい意味を滲ませ意図を変容 |
-| [クリップボード](/kiwiki/viruses/kiwiclip.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-moderate">中</span> | クリップボード内容が微妙に貼り付けられた決定を変容 |
+| [キウィスパー](/kiwiki/viruses/kiwhisper.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 決定時点での囁く暗示 |
+| [キウイシンタックス](/kiwiki/viruses/kiwisyntax.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-moderate">中</span> | 書面コミュニケーションの文法的論理を汚染 |
+| [キウイタブ](/kiwiki/viruses/kiwitab.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 選択に影響する幻のブラウザタブを作成 |
+| [キウイシェイド](/kiwiki/viruses/kiwishade.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-high">高</span> | 数値的推論を誤った結論に歪曲 |
+| [キウイゴースト](/kiwiki/viruses/kiwighost.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 注意と優先順位を再指向する幻の通知 |
+| [キウイパラドックス](/kiwiki/viruses/kiwiparadox.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 両方とも真に見える矛盾した前提を供給 |
+| [キウイブリード](/kiwiki/viruses/kiwibleed.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 文字が新しい意味を滲ませ意図を変容 |
+| [キウイクリップ](/kiwiki/viruses/kiwiclip.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-moderate">中</span> | キウイクリップ内容が微妙に貼り付けられた決定を変容 |
 
 </div>
 

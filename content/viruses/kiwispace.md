@@ -285,9 +285,9 @@ In winter 2025, a programmer reported that their mouse "disappeared" from their 
 - [KiwiShade](kiwishade.md): If KiwiShade manipulates shadows, KiwiSpace removes objects themselves from sight—when the two viruses combine, the bizarre phenomenon of "only the shadows of invisible objects remaining" occurs.
 {: .en}
 
-- [ワイヤールート（KiwiRoot）](kiwiroot.md)：ヌルスペースによって透明になったケーブルはワイヤールートの成長を視覚的に追跡できなくなり、対処を事実上不可能にする。
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：同じ「ヌル（null）」系列のウイルス。ヌルウィスパーが認知の空白を作るのに対し、ヌルスペースは物理的視野の空白を作る——同時感染時、判断と視覚の両方が「空白」に侵食される。
-- [バイトシェード（KiwiShade）](kiwishade.md)：バイトシェードが影を操作するのに対し、ヌルスペースは物体そのものを視覚から除去する——二つのウイルスが結合すると「見えない物体の影だけが残る」という奇妙な現象が発生する。
+- [キウイルート（KiwiRoot）](kiwiroot.md)：キウイスペースによって透明になったケーブルはキウイルートの成長を視覚的に追跡できなくなり、対処を事実上不可能にする。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：同じ「ヌル（null）」系列のウイルス。キウィスパーが認知の空白を作るのに対し、キウイスペースは物理的視野の空白を作る——同時感染時、判断と視覚の両方が「空白」に侵食される。
+- [バイトシェード（KiwiShade）](kiwishade.md)：バイトシェードが影を操作するのに対し、キウイスペースは物体そのものを視覚から除去する——二つのウイルスが結合すると「見えない物体の影だけが残る」という奇妙な現象が発生する。
 {: .ja}
 
 
@@ -314,7 +314,7 @@ In winter 2025, a programmer reported that their mouse "disappeared" from their 
 - Some infected individuals report feeling a "texture of data" when touching transparent objects—smooth metal feels like fine grid-patterned bumps, leading to the hypothesis that the binary structure of null characters is being transcribed into tactile sensation.
 {: .en}
 
-- ヌルスペースの透明化は感染者の視覚にのみ影響するのではなく、カメラやCCTVなどの光学機器にも同様に適用される——感染空間を撮影すると実際に物体が映らない。これは単なる認知の歪みではなく物理的な光学現象であることが証明されている。
+- キウイスペースの透明化は感染者の視覚にのみ影響するのではなく、カメラやCCTVなどの光学機器にも同様に適用される——感染空間を撮影すると実際に物体が映らない。これは単なる認知の歪みではなく物理的な光学現象であることが証明されている。
 - 一部の感染者は透明化された物体を触る際に「データの質感」を感じると報告している——滑らかな金属が微細な格子パターンの凹凸として感じられ、これはヌル文字のバイナリ構造が触覚に転写されたものだという仮説が提起されている。
 {: .ja}
 

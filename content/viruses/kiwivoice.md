@@ -234,7 +234,7 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 - 送信者不明のメールを開かず、メールクライアントでHTMLの自動レンダリングを無効にすること
 - 感染初期に自分の声を録音して再生し、録音された音が正常であることを繰り返し確認する「聴覚現実検証」を実施する
 - メールセキュリティソフトウェアでインラインオーディオタグの自動除去機能を有効にする
-- 感染が疑われる場合、他人に自分の声が正常か持続的に確認してもらい、確認結果を必ず信じること——グラスボイスは感染者の自己認識のみを歪める
+- 感染が疑われる場合、他人に自分の声が正常か持続的に確認してもらい、確認結果を必ず信じること——キウイボイスは感染者の自己認識のみを歪める
 {: .ja}
 
 
@@ -288,9 +288,9 @@ Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid
 - [KiwiTouch](kiwitouch.md): KiwiTouch distorts touch while KiwiVoice distorts hearing; co-infection severs sensory connection to the outside world through both touch and hearing.
 {: .en}
 
-- [ハウリンク（KiwiHowl）](kiwihowl.md)：ハウリンクが外部の音を物理的衝撃に変換するのに対し、グラスボイスは自分自身の音のみを選択的に歪める。同時感染時、外部の音は衝撃として、内部の音はガラスの破砕音として認識され、完全な聴覚的孤立に陥る。
-- [ボイドメール（KiwiVoid）](kiwivoid.md)：メールベクターを共有する。ボイドメールの「空虚なメール」とグラスボイスの「コーデックメール」が同一の受信箱に共存する場合、相互感染促進効果が観察されている。
-- [タングルタッチ（KiwiTouch）](kiwitouch.md)：タングルタッチが触覚を、グラスボイスが聴覚を歪め、二つのウイルスの同時感染時、外界との感覚的接続が触覚と聴覚の両方で遮断される。
+- [ハウリンク（KiwiHowl）](kiwihowl.md)：ハウリンクが外部の音を物理的衝撃に変換するのに対し、キウイボイスは自分自身の音のみを選択的に歪める。同時感染時、外部の音は衝撃として、内部の音はガラスの破砕音として認識され、完全な聴覚的孤立に陥る。
+- [キウイボイド（KiwiVoid）](kiwivoid.md)：メールベクターを共有する。キウイボイドの「空虚なメール」とキウイボイスの「コーデックメール」が同一の受信箱に共存する場合、相互感染促進効果が観察されている。
+- [キウイタッチ（KiwiTouch）](kiwitouch.md)：キウイタッチが触覚を、キウイボイスが聴覚を歪め、二つのウイルスの同時感染時、外界との感覚的接続が触覚と聴覚の両方で遮断される。
 {: .ja}
 
 
@@ -317,7 +317,7 @@ Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid
 - Ironically, infected individuals' actual voices tend to become clearer and purer than before infection, as the virus does not affect the vocal apparatus itself.
 {: .en}
 
-- グラスボイス感染者の脳画像検査で、自己発声認識を担当する領域の活動パターンがガラスの破砕音を聞く非感染者のパターンと同一であることが確認された。つまり、感染者の脳は実際にガラスの割れる音を「聞いて」いる。
+- キウイボイス感染者の脳画像検査で、自己発声認識を担当する領域の活動パターンがガラスの破砕音を聞く非感染者のパターンと同一であることが確認された。つまり、感染者の脳は実際にガラスの割れる音を「聞いて」いる。
 - 皮肉なことに、感染者の実際の声は感染前よりも澄んで綺麗になる傾向がある。ウイルスが発声器官自体には影響を与えないためである。
 {: .ja}
 

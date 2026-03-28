@@ -286,9 +286,9 @@ Investigation began in early 2025 when a college student posted "I opened my pho
 - [KiwiRot](kiwirot.md): KiwiRot-infected individuals cannot visually distinguish KiwiScroll's 13-interval pattern due to low-resolution vision, increasing infection risk.
 {: .en}
 
-- [エコループ（KiwiEcho）](kiwiecho.md)：同じ認知型ウイルス。エコループが行動の反復なら、デッドスクロールは時間の消滅である。同時感染すると、繰り返していることも知らず時間も失う二重の認知障害が発生する。
-- [ミラーリンク（KiwiMirror）](kiwimirror.md)：SNSという伝播経路を共有。ミラーリンク感染者がデッドスクロールに同時感染すると、タイムギャップ中に鏡の中の自分が「独立して動く」現象が報告されている。
-- [ピクセルロット（KiwiRot）](kiwirot.md)：ピクセルロット感染者は低解像度の視野によりデッドスクロールの13個間隔パターンを視覚的に区別できず、感染リスクが増大する。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：同じ認知型ウイルス。キウイエコーが行動の反復なら、キウイスクロールは時間の消滅である。同時感染すると、繰り返していることも知らず時間も失う二重の認知障害が発生する。
+- [キウイミラー（KiwiMirror）](kiwimirror.md)：SNSという伝播経路を共有。キウイミラー感染者がキウイスクロールに同時感染すると、タイムギャップ中に鏡の中の自分が「独立して動く」現象が報告されている。
+- [キウイロット（KiwiRot）](kiwirot.md)：キウイロット感染者は低解像度の視野によりキウイスクロールの13個間隔パターンを視覚的に区別できず、感染リスクが増大する。
 {: .ja}
 
 
@@ -316,7 +316,7 @@ Investigation began in early 2025 when a college student posted "I opened my pho
 {: .en}
 
 - タイムギャップ中の感染者の脳波は睡眠状態に類似しているが、目は開いており呼吸と心拍は正常である
-- デッドスクロールは全[ウェブキウイウイルス](/kiwiki/glossary/#웹키위바이러스--web-kiwi-virus)の中で最も急速に感染者数が増加しており、SNSアルゴリズムの普遍性がその原因とされている
+- キウイスクロールは全[ウェブキウイウイルス](/kiwiki/glossary/#웹키위바이러스--web-kiwi-virus)の中で最も急速に感染者数が増加しており、SNSアルゴリズムの普遍性がその原因とされている
 {: .ja}
 
 <div class="edit-history">

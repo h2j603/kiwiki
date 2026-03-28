@@ -285,9 +285,9 @@ In spring 2025, posts in university student communities exploded with variations
 - [KiwiTime](kiwitime.md): When dream memories combine with deja vu, all experiences feel like "repetitions already seen in dreams," inducing extreme helplessness.
 {: .en}
 
-- [エコループ（KiwiEcho）](kiwiecho.md)：エコループの反復検索行動とドリームリークの反復視聴行動が相互に強化される可能性がある。エコループで同じ動画を繰り返し検索するとドリームリークのループパターンが強化される。
-- [フォーゲットミーノット（KiwiForgot）](kiwiforgot.md)：記憶関連の認知型ウイルス。フォーゲットミーノットが記憶を「消す」のに対し、ドリームリークは記憶を「置き換える」——同時感染時、記憶体系が完全に瓦解する。
-- [タイムスタンプ（KiwiTime）](kiwitime.md)：夢の記憶とデジャヴが結合すると、すべての経験が「すでに夢で見た繰り返し」と感じられ、極度の無力感を誘発する。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：キウイエコーの反復検索行動とキウイドリームの反復視聴行動が相互に強化される可能性がある。キウイエコーで同じ動画を繰り返し検索するとキウイドリームのループパターンが強化される。
+- [フォーゲットミーノット（KiwiForgot）](kiwiforgot.md)：記憶関連の認知型ウイルス。フォーゲットミーノットが記憶を「消す」のに対し、キウイドリームは記憶を「置き換える」——同時感染時、記憶体系が完全に瓦解する。
+- [キウイタイム（KiwiTime）](kiwitime.md)：夢の記憶とデジャヴが結合すると、すべての経験が「すでに夢で見た繰り返し」と感じられ、極度の無力感を誘発する。
 {: .ja}
 
 
@@ -314,7 +314,7 @@ In spring 2025, posts in university student communities exploded with variations
 - Some infected individuals attempted to manage symptoms through lucid dreaming techniques, but this was reported to have the adverse effect of further blurring the boundary between dream and reality.
 {: .en}
 
-- ドリームリークは感染者が自身の感染有無を判断するのが最も困難なウイルスの一つであり、「自分が感染していること自体も夢かもしれない」という逆説が発生する。
+- キウイドリームは感染者が自身の感染有無を判断するのが最も困難なウイルスの一つであり、「自分が感染していること自体も夢かもしれない」という逆説が発生する。
 - 一部の感染者はルシッドドリーミング（明晰夢）技術で症状を管理しようと試みたが、むしろ夢と現実の境界をさらに曖昧にする逆効果が報告されている。
 {: .ja}
 

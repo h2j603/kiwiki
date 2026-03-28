@@ -289,9 +289,9 @@ In early 2026, a mass infection was discovered among a group of remote workers l
 - [KiwiGhost](kiwighost.md): KiwiGhost's false notifications arrive without context for KiwiCut-infected individuals, making it even more impossible to distinguish real messages from phantom alerts.
 {: .en}
 
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：同じメッセンジャーベクターのウイルス。ヌルウィスパーが判断を歪めるのに対し、スレッドカットは判断の前提となる文脈把握自体を不可能にする——同時感染時、意思決定能力が完全に瓦解する。
-- [ネームイーター（KiwiEater）](kiwieater.md)：ネームイーターが「名前」を消すのに対し、スレッドカットは「繋がり」を消す——二つのウイルスが結合すると名前のない断片だけが残り、世界が完全な混沌となる。
-- [ゴーストピング（KiwiGhost）](kiwighost.md)：ゴーストピングの偽通知がスレッドカット感染者にはすべて文脈なしで到着するため、本物のメッセージとファントム通知の区別がさらに不可能になる。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：同じメッセンジャーベクターのウイルス。キウィスパーが判断を歪めるのに対し、キウイカットは判断の前提となる文脈把握自体を不可能にする——同時感染時、意思決定能力が完全に瓦解する。
+- [キウイイーター（KiwiEater）](kiwieater.md)：キウイイーターが「名前」を消すのに対し、キウイカットは「繋がり」を消す——二つのウイルスが結合すると名前のない断片だけが残り、世界が完全な混沌となる。
+- [キウイゴースト（KiwiGhost）](kiwighost.md)：キウイゴーストの偽通知がキウイカット感染者にはすべて文脈なしで到着するため、本物のメッセージとファントム通知の区別がさらに不可能になる。
 {: .ja}
 
 
@@ -318,8 +318,8 @@ In early 2026, a mass infection was discovered among a group of remote workers l
 - Some researchers argue that KiwiCut dismantles the "narrative self" of human consciousness, paradoxically proving the psychological hypothesis that "the self is composed of stories."
 {: .en}
 
-- スレッドカットはテキストだけでなく音楽鑑賞にも影響を及ぼす——感染者はメロディの進行を追えず、各音を独立した音として認識する。音楽が「騒音の連続」に聞こえるという報告が多数ある。
-- 一部の研究者はスレッドカットが人間の意識の「物語的自己」を解体すると主張し、このウイルスが「自己は物語で構成される」という心理学的仮説を逆説的に証明すると提案している。
+- キウイカットはテキストだけでなく音楽鑑賞にも影響を及ぼす——感染者はメロディの進行を追えず、各音を独立した音として認識する。音楽が「騒音の連続」に聞こえるという報告が多数ある。
+- 一部の研究者はキウイカットが人間の意識の「物語的自己」を解体すると主張し、このウイルスが「自己は物語で構成される」という心理学的仮説を逆説的に証明すると提案している。
 {: .ja}
 
 

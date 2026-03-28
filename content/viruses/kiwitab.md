@@ -282,9 +282,9 @@ Discovered in summer 2025 when a freelancer posted "the feeling of having 100 ta
 - [KiwiEcho](kiwiecho.md): The repetition of "what was I about to do?" can resonate with KiwiEcho's repetition loops.
 {: .en}
 
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：同じロジック型。ファントムタブが注意力を分散させるとヌルウィスパーの「囁き」を批判的に検証する余裕がなくなり、同時感染時は極めて危険。
-- [デッドスクロール（KiwiScroll）](kiwiscroll.md)：SNS伝播経路を共有。ファントムタブ感染者は複数のフィードを同時にスクロールするため、デッドスクロールの13個間隔パターンに曝露される確率が高い。
-- [エコループ（KiwiEcho）](kiwiecho.md)：「さっき何しようとしてたっけ？」の繰り返しがエコループの反復ループと共鳴する可能性がある。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：同じロジック型。キウイタブが注意力を分散させるとキウィスパーの「囁き」を批判的に検証する余裕がなくなり、同時感染時は極めて危険。
+- [キウイスクロール（KiwiScroll）](kiwiscroll.md)：SNS伝播経路を共有。キウイタブ感染者は複数のフィードを同時にスクロールするため、キウイスクロールの13個間隔パターンに曝露される確率が高い。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：「さっき何しようとしてたっけ？」の繰り返しがキウイエコーの反復ループと共鳴する可能性がある。
 {: .ja}
 
 
@@ -309,7 +309,7 @@ Discovered in summer 2025 when a freelancer posted "the feeling of having 100 ta
 - KiwiTab is easily confused with "digital ADHD," but paradoxically, actual ADHD patients show lower infection rates.
 {: .en}
 
-- ファントムタブは「デジタルADHD」と混同されやすいが、実際のADHD患者には感染率が低いという逆説的な研究結果がある
+- キウイタブは「デジタルADHD」と混同されやすいが、実際のADHD患者には感染率が低いという逆説的な研究結果がある
 {: .ja}
 
 <div class="edit-history">

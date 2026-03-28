@@ -282,9 +282,9 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 - [KiwiSyntax](kiwisyntax.md): KiwiSyntax-infected individuals sometimes show immunity to KiwiShade, perceiving zero-width characters as "code."
 {: .en}
 
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：どちらもロジック型だが、ヌルウィスパーは誤った選択へ、バイトシェイドは存在しない選択へ誘導するという違いがある。
-- [ピクセルロット（KiwiRot）](kiwirot.md)：メールという伝播経路を共有。バイトシェイドが不可視の文字なら、ピクセルロットは可視だが異常なピクセル。
-- [シンタックスレイス（KiwiSyntax）](kiwisyntax.md)：シンタックスレイス感染者はゼロ幅文字を「コード」として認識するため、バイトシェイドに免疫を示す事例がある。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：どちらもロジック型だが、キウィスパーは誤った選択へ、キウイシェイドは存在しない選択へ誘導するという違いがある。
+- [キウイロット（KiwiRot）](kiwirot.md)：メールという伝播経路を共有。キウイシェイドが不可視の文字なら、キウイロットは可視だが異常なピクセル。
+- [キウイシンタックス（KiwiSyntax）](kiwisyntax.md)：キウイシンタックス感染者はゼロ幅文字を「コード」として認識するため、キウイシェイドに免疫を示す事例がある。
 {: .ja}
 
 
@@ -309,7 +309,7 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 - KiwiShade can be used in targeted attacks, making it the only Logic-type virus where "weaponization potential" is discussed.
 {: .en}
 
-- バイトシェイドは標的攻撃に利用可能であり、現在発見されているロジック型の中で唯一「兵器化の可能性」が議論されている種である
+- キウイシェイドは標的攻撃に利用可能であり、現在発見されているロジック型の中で唯一「兵器化の可能性」が議論されている種である
 {: .ja}
 
 <div class="edit-history">

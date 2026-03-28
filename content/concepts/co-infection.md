@@ -56,7 +56,7 @@ Co-infection occurs when an individual is simultaneously infected by two or more
 동시 감염은 한 개인이 2종 이상의 웹키위바이러스에 동시에 감염될 때 발생한다. 이는 단순한 합산이 아니다 -- 동시 감염자는 두 세트의 증상을 나란히 겪는 것이 아니다. 대신 바이러스가 **상승효과**를 일으켜, 어느 감염 단독보다 질적으로 다르고 훨씬 위험한 복합 효과를 생산한다. [키위에코](/kiwiki/viruses/kiwiecho.md)(인지 루프)와 [키위스퍼](/kiwiki/viruses/kiwhisper.md)(오염된 의사결정)에 동시 감염된 사람은 루프*와* 속삭임을 별도로 겪는 것이 아니다. 루프가 속삭임을 *포함하기* 시작하여, 반복되는 모든 지각이 오염된 논리를 강화하고 오염된 논리가 감염자의 루프 인식을 막는 탈출 불가능한 피드백 사이클을 만든다. 동시 감염은 관리 가능한 두 상태를 관리 불가능한 하나의 상태로 변환한다.
 {: .ko}
 
-同時感染は、個人が2種以上のウェブキウイウイルスに同時に感染した時に発生する。これは単純な加算ではない――同時感染者は2セットの症状を並行して経験するのではない。代わりにウイルスが**相乗効果**を起こし、いずれの感染単独よりも質的に異なり、はるかに危険な複合効果を生み出す。[エコループ](/kiwiki/viruses/kiwiecho.md)（認知ループ）と[ヌルウィスパー](/kiwiki/viruses/kiwhisper.md)（汚染された意思決定）に同時感染した人はループ*と*囁きを別々に経験するのではない。ループが囁きを*含み*始め、繰り返される知覚が汚染された論理を強化し、汚染された論理が感染者のループ認識を妨げる、脱出不可能なフィードバックサイクルを作り出す。同時感染は管理可能な2つの状態を管理不可能な1つの状態に変換する。
+同時感染は、個人が2種以上のウェブキウイウイルスに同時に感染した時に発生する。これは単純な加算ではない――同時感染者は2セットの症状を並行して経験するのではない。代わりにウイルスが**相乗効果**を起こし、いずれの感染単独よりも質的に異なり、はるかに危険な複合効果を生み出す。[キウイエコー](/kiwiki/viruses/kiwiecho.md)（認知ループ）と[キウィスパー](/kiwiki/viruses/kiwhisper.md)（汚染された意思決定）に同時感染した人はループ*と*囁きを別々に経験するのではない。ループが囁きを*含み*始め、繰り返される知覚が汚染された論理を強化し、汚染された論理が感染者のループ認識を妨げる、脱出不可能なフィードバックサイクルを作り出す。同時感染は管理可能な2つの状態を管理不可能な1つの状態に変換する。
 {: .ja}
 
 ## 동시 감염의 발생 경로
@@ -87,7 +87,7 @@ Co-infection can happen through several pathways:
 同時感染はいくつかの経路で発生しうる：
 
 1. **順次的曝露** ── 最も一般的な経路。すでに1つのウイルスに感染した人が2つ目に接触する。損なわれた状態が追加感染への感受性を高める可能性がある。
-2. **共有経路** ── 一部の経路は複数のウイルスを同時に運ぶ。1回の[SNS](sns.md)フィードスクロールセッションが感染者を[ミラーリンク](/kiwiki/viruses/kiwimirror.md)と[インクブリード](/kiwiki/viruses/kiwibleed.md)の両方に曝露しうる。
+2. **共有経路** ── 一部の経路は複数のウイルスを同時に運ぶ。1回の[SNS](sns.md)フィードスクロールセッションが感染者を[キウイミラー](/kiwiki/viruses/kiwimirror.md)と[キウイブリード](/kiwiki/viruses/kiwibleed.md)の両方に曝露しうる。
 3. **ウイルス共生** ── 稀に記録された事例で、1つのウイルスが別のウイルスによる感染を積極的に促進することが確認された。[直接アクセス](direct-access.md)ウイルスが[認知型](cognitive.md)感染者に追加ウイルスをホストするページを探す強迫的衝動を作り出すことが観察された。
 4. **意図的な組み合わせ** ── 特に[メール](email.md)経路を通じて、標的型攻撃が単一メッセージに複数のウイルスペイロードを配信しうる。
 {: .ja}
@@ -145,10 +145,10 @@ The following co-infection pairs have been documented or theorized as particular
 
 | 組み合わせ | タイプ | リスク | シナジー効果 |
 |-----------|--------|--------|-------------|
-| [ヌルウィスパー](/kiwiki/viruses/kiwhisper.md) + [フォーゲットミーノット](/kiwiki/viruses/kiwiforgot.md) | ロジック型 + 認知型 | 極度 | 感染者が悪い決定を忘れるが作り続ける |
-| [ブラインドスポット](/kiwiki/viruses/kiwispot.md) + [グリッチモス](/kiwiki/viruses/kiwimoss.md) | 感覚型 + 環境型 | 極度 | 感染者が周囲で起きている物理的変化を見ることができない |
-| [スレッドカット](/kiwiki/viruses/kiwicut.md) + [パラドックスフィード](/kiwiki/viruses/kiwiparadox.md) | 認知型 + ロジック型 | 極度 | 切断された記憶の接続が矛盾する論理で埋められる |
-| [キャッシュベイン](/kiwiki/viruses/kiwivein.md) + [ワイヤールート](/kiwiki/viruses/kiwiroot.md) | 環境型 + 環境型 | 極度 | 2つの環境型ウイルスが結合して加速された物理的汚染を生む |
+| [キウィスパー](/kiwiki/viruses/kiwhisper.md) + [フォーゲットミーノット](/kiwiki/viruses/kiwiforgot.md) | ロジック型 + 認知型 | 極度 | 感染者が悪い決定を忘れるが作り続ける |
+| [キウイスポット](/kiwiki/viruses/kiwispot.md) + [キウイモス](/kiwiki/viruses/kiwimoss.md) | 感覚型 + 環境型 | 極度 | 感染者が周囲で起きている物理的変化を見ることができない |
+| [キウイカット](/kiwiki/viruses/kiwicut.md) + [キウイパラドックス](/kiwiki/viruses/kiwiparadox.md) | 認知型 + ロジック型 | 極度 | 切断された記憶の接続が矛盾する論理で埋められる |
+| [キウイベイン](/kiwiki/viruses/kiwivein.md) + [キウイルート](/kiwiki/viruses/kiwiroot.md) | 環境型 + 環境型 | 極度 | 2つの環境型ウイルスが結合して加速された物理的汚染を生む |
 
 </div>
 
@@ -187,10 +187,10 @@ The following co-infection pairs have been documented or theorized as particular
 
 | 組み合わせ | タイプ | リスク | シナジー効果 |
 |-----------|--------|--------|-------------|
-| [エコループ](/kiwiki/viruses/kiwiecho.md) + [デッドスクロール](/kiwiki/viruses/kiwiscroll.md) | 認知型 + 認知型 | 非常に高い | 無限の知覚ループとコンテンツ消費停止不能の結合 |
-| [ミラーリンク](/kiwiki/viruses/kiwimirror.md) + [クロマドリフト](/kiwiki/viruses/kiwidrift.md) | 感覚型 + 感覚型 | 非常に高い | 反映歪みと色スペクトル再マッピングの結合 |
-| [インクブリード](/kiwiki/viruses/kiwibleed.md) + [ネームイーター](/kiwiki/viruses/kiwieater.md) | ロジック型 + 認知型 | 非常に高い | 文字の意味が変わりながら固有名詞が記憶から消える |
-| [ハウルリンク](/kiwiki/viruses/kiwihowl.md) + [エコルーム](/kiwiki/viruses/kiwiroom.md) | 感覚型 + 環境型 | 非常に高い | 音響的に変容した空間により増幅される幻の遠吠え |
+| [キウイエコー](/kiwiki/viruses/kiwiecho.md) + [キウイスクロール](/kiwiki/viruses/kiwiscroll.md) | 認知型 + 認知型 | 非常に高い | 無限の知覚ループとコンテンツ消費停止不能の結合 |
+| [キウイミラー](/kiwiki/viruses/kiwimirror.md) + [キウイドリフト](/kiwiki/viruses/kiwidrift.md) | 感覚型 + 感覚型 | 非常に高い | 反映歪みと色スペクトル再マッピングの結合 |
+| [キウイブリード](/kiwiki/viruses/kiwibleed.md) + [キウイイーター](/kiwiki/viruses/kiwieater.md) | ロジック型 + 認知型 | 非常に高い | 文字の意味が変わりながら固有名詞が記憶から消える |
+| [キウイハウル](/kiwiki/viruses/kiwihowl.md) + [キウイルーム](/kiwiki/viruses/kiwiroom.md) | 感覚型 + 環境型 | 非常に高い | 音響的に変容した空間により増幅される幻の遠吠え |
 
 </div>
 

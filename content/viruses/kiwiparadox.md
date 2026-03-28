@@ -288,9 +288,9 @@ Discovered in summer 2025 when a lawyer at a law firm judged both the plaintiff'
 - [KiwiBleed](kiwibleed.md): When a KiwiParadox-infected person is exposed to KiwiBleed on social media, a compound infection can occur in which contradictory text further confuses decision-making.
 {: .en}
 
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：ヌルウィスパーが判断の方向性を歪めるのに対し、パラドックスフィードは判断の論理構造そのものを解体する。二つのウイルスの同時感染事例はまだ報告されていないが、理論的には極めて危険と予測される。
-- [シンタックスレイス（KiwiSyntax）](kiwisyntax.md)：思考過程を変形させるシンタックスレイスと論理構造を解体するパラドックスフィードは相互促進関係にある。
-- [インクブリード（KiwiBleed）](kiwibleed.md)：パラドックスフィード感染者がSNSでインクブリードに曝露されると、矛盾的なテキストが意思決定をさらに混乱させる複合感染が発生する可能性がある。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：キウィスパーが判断の方向性を歪めるのに対し、キウイパラドックスは判断の論理構造そのものを解体する。二つのウイルスの同時感染事例はまだ報告されていないが、理論的には極めて危険と予測される。
+- [キウイシンタックス（KiwiSyntax）](kiwisyntax.md)：思考過程を変形させるキウイシンタックスと論理構造を解体するキウイパラドックスは相互促進関係にある。
+- [キウイブリード（KiwiBleed）](kiwibleed.md)：キウイパラドックス感染者がSNSでキウイブリードに曝露されると、矛盾的なテキストが意思決定をさらに混乱させる複合感染が発生する可能性がある。
 {: .ja}
 
 
@@ -317,7 +317,7 @@ Discovered in summer 2025 when a lawyer at a law firm judged both the plaintiff'
 - Several philosophy professors intentionally attempted infection to experience "true dialectical thinking," but all entered the irreversible stage of infection.
 {: .en}
 
-- パラドックスフィード感染者は嘘発見器を無力化する。矛盾した発言をしても自ら真実だと確信しているため、生理的な虚偽反応が現れない。
+- キウイパラドックス感染者は嘘発見器を無力化する。矛盾した発言をしても自ら真実だと確信しているため、生理的な虚偽反応が現れない。
 - 一部の哲学教授が意図的に感染を試みて「真の弁証法的思考」を体験しようとしたが、全員が不可逆的感染段階に入った。
 {: .ja}
 

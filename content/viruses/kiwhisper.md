@@ -286,9 +286,9 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 - [KiwiVein](kiwivein.md): Shares the messenger transmission vector. There is a hypothesis that traces of KiWhisper's empty messages catalyze KiwiVein's physical manifestation.
 {: .en}
 
-- [シンタックスレイス（KiwiSyntax）](kiwisyntax.md)：同じロジック型ウイルス。ヌルウィスパーが判断の*結果*を歪めるのに対し、シンタックスレイスは思考の*過程*を変容させる。
-- [エコループ（KiwiEcho）](kiwiecho.md)：エコループ感染者がメッセンジャーを使用するとヌルウィスパーへの感受性が高まる。反復的思考と歪んだ判断が組み合わさると症状が加速する。
-- [キャッシュベイン（KiwiVein）](kiwivein.md)：メッセンジャーという伝播経路を共有。ヌルウィスパーの空メッセージの痕跡がキャッシュベインの物理的[発現](/kiwiki/glossary/#발현--manifestation)を促進するという仮説がある。
+- [キウイシンタックス（KiwiSyntax）](kiwisyntax.md)：同じロジック型ウイルス。キウィスパーが判断の*結果*を歪めるのに対し、キウイシンタックスは思考の*過程*を変容させる。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：キウイエコー感染者がメッセンジャーを使用するとキウィスパーへの感受性が高まる。反復的思考と歪んだ判断が組み合わさると症状が加速する。
+- [キウイベイン（KiwiVein）](kiwivein.md)：メッセンジャーという伝播経路を共有。キウィスパーの空メッセージの痕跡がキウイベインの物理的[発現](/kiwiki/glossary/#발현--manifestation)を促進するという仮説がある。
 {: .ja}
 
 

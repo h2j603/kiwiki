@@ -285,9 +285,9 @@ In summer 2025, a graduate student whose daily routine included reading thousand
 - [KiwiHowl](kiwihowl.md): KiwiHowl's howling feedback is dramatically amplified in KiwiRoom's reverberant space, filling the infected space with unbearable noise.
 {: .en}
 
-- [エコループ（KiwiEcho）](kiwiecho.md)：名前と「反響」の概念を共有するがメカニズムが異なる。エコループが認知的反復を誘発するのに対し、エコルームは物理的音響反響を誘発する——同時感染時、反復的思考が部屋の中で実際の音として響き渡る。
-- [グラスボイス（KiwiVoice）](kiwivoice.md)：グラスボイスのガラス共鳴とエコルームの空間反響が結合すると、感染者周辺のガラスがコメントの囁きに共鳴して振動・破損する。
-- [ハウリンク（KiwiHowl）](kiwihowl.md)：ハウリンクのハウリングフィードバックがエコルームの反響空間で劇的に増幅され、感染空間が耐えられない騒音で満たされる事例が報告されている。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：名前と「反響」の概念を共有するがメカニズムが異なる。キウイエコーが認知的反復を誘発するのに対し、キウイルームは物理的音響反響を誘発する——同時感染時、反復的思考が部屋の中で実際の音として響き渡る。
+- [キウイボイス（KiwiVoice）](kiwivoice.md)：キウイボイスのガラス共鳴とキウイルームの空間反響が結合すると、感染者周辺のガラスがコメントの囁きに共鳴して振動・破損する。
+- [ハウリンク（KiwiHowl）](kiwihowl.md)：ハウリンクのハウリングフィードバックがキウイルームの反響空間で劇的に増幅され、感染空間が耐えられない騒音で満たされる事例が報告されている。
 {: .ja}
 
 
@@ -314,7 +314,7 @@ In summer 2025, a graduate student whose daily routine included reading thousand
 - Interestingly, comments written by the infected person themselves are not included in the reverberations; only comments written by others return as whispers—unique in that the virus distinguishes between "one's own opinions" and "others' opinions."
 {: .en}
 
-- エコルームの反響を録音すると実際に音波が記録され、音声分析時に読んだコメント内容と一致する単語が検出される——純粋な幻覚ではなく実際の物理的音波現象である。
+- キウイルームの反響を録音すると実際に音波が記録され、音声分析時に読んだコメント内容と一致する単語が検出される——純粋な幻覚ではなく実際の物理的音波現象である。
 - 興味深いことに、感染者自身が書いたコメントは反響に含まれず、他人が書いたコメントのみが囁きとして返ってくる——ウイルスが「自分の意見」と「他人の意見」を区別するという点で独特である。
 {: .ja}
 

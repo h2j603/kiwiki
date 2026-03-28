@@ -134,12 +134,12 @@ How do people find pages that cannot be found? This is the central paradox of Di
 
 | ウイルス | タイプ | 重症度 | ページタイプ |
 |----------|--------|--------|-------------|
-| [グリッチモス](/kiwiki/viruses/kiwimoss.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたジオシティ時代のページ |
-| [シンタックスレイス](/kiwiki/viruses/kiwisyntax.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-moderate">中</span> | 廃止されたプログラミングチュートリアル |
-| [クロマドリフト](/kiwiki/viruses/kiwidrift.md) | <span class="pill pill-type">感覚型</span> | <span class="pill pill-severity-high">高</span> | 死んだアートポートフォリオ |
-| [パラドックスフィード](/kiwiki/viruses/kiwiparadox.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-high">高</span> | 自己矛盾するFAQページ |
-| [ネームイーター](/kiwiki/viruses/kiwieater.md) | <span class="pill pill-type">認知型</span> | <span class="pill pill-severity-high">高</span> | 忘れられた名前登録所 |
-| [ワイヤールート](/kiwiki/viruses/kiwiroot.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたスマートホーム文書 |
+| [キウイモス](/kiwiki/viruses/kiwimoss.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたジオシティ時代のページ |
+| [キウイシンタックス](/kiwiki/viruses/kiwisyntax.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-moderate">中</span> | 廃止されたプログラミングチュートリアル |
+| [キウイドリフト](/kiwiki/viruses/kiwidrift.md) | <span class="pill pill-type">感覚型</span> | <span class="pill pill-severity-high">高</span> | 死んだアートポートフォリオ |
+| [キウイパラドックス](/kiwiki/viruses/kiwiparadox.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-high">高</span> | 自己矛盾するFAQページ |
+| [キウイイーター](/kiwiki/viruses/kiwieater.md) | <span class="pill pill-type">認知型</span> | <span class="pill pill-severity-high">高</span> | 忘れられた名前登録所 |
+| [キウイルート](/kiwiki/viruses/kiwiroot.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたスマートホーム文書 |
 
 </div>
 
@@ -174,9 +174,9 @@ No other vector has zero low-severity viruses. The theory is that Direct Access 
 
 直接アクセスは他の経路と比較して劇的に偏った重症度分布を示す：
 
-- **致命的：** 2種（グリッチモス、ワイヤールート）
-- **高：** 3種（クロマドリフト、パラドックスフィード、ネームイーター）
-- **中：** 1種（シンタックスレイス）
+- **致命的：** 2種（キウイモス、キウイルート）
+- **高：** 3種（キウイドリフト、キウイパラドックス、キウイイーター）
+- **中：** 1種（キウイシンタックス）
 - **低：** 0種
 
 他のどの経路も低重症度ウイルスが0種というケースはない。理論上、直接アクセスページはトラフィックなしにウイルスペイロードを蓄積・濃縮する数年間――時には数十年間――を持っている。訪問者がようやく到着すると、絶え間ないトラフィックの流れがある他の経路では不可能な濃縮された量を受け取ることになる。
