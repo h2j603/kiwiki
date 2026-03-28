@@ -14,7 +14,7 @@
 // --- INFECTION (runs immediately) ---
 (function(){
   try {
-    var vs = ['echoloop','mirrorlink','pixelrot','deadscroll','glitchmoss','nullwhisper','blindspot','phantomtab','staticbloom','syntaxwraith','cachevein','forgetmenot'];
+    var vs = ['kiwiecho','kiwimirror','kiwirot','kiwiscroll','kiwimoss','kiwhisper','kiwispot','kiwitab','kiwibloom','kiwisyntax','kiwivein','kiwiforgot'];
     var v = sessionStorage.getItem('kiwiki-virus');
     if (!v) { v = vs[Math.floor(Math.random()*vs.length)]; sessionStorage.setItem('kiwiki-virus', v); }
     document.documentElement.className += ' virus-' + v;
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function(){
   try {
     var v = window._kVirus;
     if (v) {
-      var names = {echoloop:'EchoLoop',mirrorlink:'MirrorLink',pixelrot:'PixelRot',deadscroll:'DeadScroll',glitchmoss:'GlitchMoss',nullwhisper:'NullWhisper',blindspot:'BlindSpot',phantomtab:'PhantomTab',staticbloom:'StaticBloom',syntaxwraith:'SyntaxWraith',cachevein:'CacheVein',forgetmenot:'ForgetMeNot'};
+      var names = {echoloop:'KiwiEcho',mirrorlink:'KiwiMirror',pixelrot:'KiwiRot',deadscroll:'KiwiScroll',glitchmoss:'KiwiMoss',nullwhisper:'KiWhisper',blindspot:'KiwiSpot',phantomtab:'KiwiTab',staticbloom:'KiwiBloom',syntaxwraith:'KiwiSyntax',cachevein:'KiwiVein',forgetmenot:'KiwiForgot'};
       var codes = {echoloop:'WKV-C.SE-001',mirrorlink:'WKV-S.SN-001',pixelrot:'WKV-S.EM-002',deadscroll:'WKV-C.SN-002',glitchmoss:'WKV-E.DA-001',nullwhisper:'WKV-L.MS-001',blindspot:'WKV-S.SE-004',phantomtab:'WKV-L.SN-003',staticbloom:'WKV-E.SN-003',syntaxwraith:'WKV-L.DA-002',cachevein:'WKV-E.MS-002',forgetmenot:'WKV-C.EM-003'};
 
       // Stage 1: Center splash
@@ -114,8 +114,8 @@ document.addEventListener('DOMContentLoaded', function(){
   var v = window._kVirus;
   if (!v) return;
 
-  // EchoLoop: 30초 후 랜덤 문단 복제 반복
-  if (v === 'echoloop') { try {
+  // KiwiEcho: 30초 후 랜덤 문단 복제 반복
+  if (v === 'kiwiecho') { try {
     setInterval(function(){
       var ps = document.querySelectorAll('.main-content p');
       if (ps.length > 3) {
@@ -128,16 +128,16 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 30000);
   } catch(e){} }
 
-  // DeadScroll: 스크롤 중 간헐적 위치 점프
-  if (v === 'deadscroll') { try {
+  // KiwiScroll: 스크롤 중 간헐적 위치 점프
+  if (v === 'kiwiscroll') { try {
     var sc = 0;
     window.addEventListener('scroll', function(){
       if (++sc % 50 === 0) window.scrollBy(0, Math.random()*200-100);
     });
   } catch(e){} }
 
-  // MirrorLink: 5초마다 랜덤 이미지/텍스트 좌우 반전
-  if (v === 'mirrorlink') { try {
+  // KiwiMirror: 5초마다 랜덤 이미지/텍스트 좌우 반전
+  if (v === 'kiwimirror') { try {
     setInterval(function(){
       var ps = document.querySelectorAll('.main-content p, .main-content li');
       if (ps.length > 0) {
@@ -148,8 +148,8 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 5000);
   } catch(e){} }
 
-  // PixelRot: 시간이 지날수록 페이지 blur 증가
-  if (v === 'pixelrot') { try {
+  // KiwiRot: 시간이 지날수록 페이지 blur 증가
+  if (v === 'kiwirot') { try {
     var blur = 0;
     setInterval(function(){
       blur += 0.1;
@@ -159,8 +159,8 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 10000);
   } catch(e){} }
 
-  // GlitchMoss: 랜덤 위치에 ▓ 글리치 문자 삽입
-  if (v === 'glitchmoss') { try {
+  // KiwiMoss: 랜덤 위치에 ▓ 글리치 문자 삽입
+  if (v === 'kiwimoss') { try {
     setInterval(function(){
       var ps = document.querySelectorAll('.main-content p');
       if (ps.length > 0) {
@@ -174,8 +174,8 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 8000);
   } catch(e){} }
 
-  // NullWhisper: 주기적으로 + 클릭 시 "속삭임" 표시
-  if (v === 'nullwhisper') { try {
+  // KiWhisper: 주기적으로 + 클릭 시 "속삭임" 표시
+  if (v === 'kiwhisper') { try {
     var whispers = ['choose this one...','trust yourself...','the other option is wrong...','this is the logical choice...','ignore their advice...','you know the answer...','don\'t listen to them...'];
     function showWhisper() {
       var w = document.createElement('div');
@@ -190,8 +190,8 @@ document.addEventListener('DOMContentLoaded', function(){
     document.addEventListener('click', function(){ if(Math.random()>0.5) showWhisper(); });
   } catch(e){} }
 
-  // BlindSpot: 마우스/터치 위치 근처에 검은 원 (사각지대)
-  if (v === 'blindspot') { try {
+  // KiwiSpot: 마우스/터치 위치 근처에 검은 원 (사각지대)
+  if (v === 'kiwispot') { try {
     var spot = document.createElement('div');
     spot.style.cssText = 'position:fixed;width:120px;height:120px;border-radius:50%;background:rgba(255,255,255,0.95);pointer-events:none;z-index:9998;transform:translate(-50%,-50%);display:none;';
     document.body.appendChild(spot);
@@ -200,8 +200,8 @@ document.addEventListener('DOMContentLoaded', function(){
     document.addEventListener('touchmove', function(e){ spot.style.display='block'; var t=e.touches[0]; spot.style.left=t.clientX+'px'; spot.style.top=t.clientY+'px'; });
   } catch(e){} }
 
-  // PhantomTab: 주기적으로 "유령 알림" 팝업
-  if (v === 'phantomtab') { try {
+  // KiwiTab: 주기적으로 "유령 알림" 팝업
+  if (v === 'kiwitab') { try {
     setInterval(function(){
       var n = document.createElement('div');
       n.textContent = '📑 New tab opened...';
@@ -212,8 +212,8 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 15000);
   } catch(e){} }
 
-  // StaticBloom: 랜덤 위치에 ✦ 꽃 생성 (강화)
-  if (v === 'staticbloom') { try {
+  // KiwiBloom: 랜덤 위치에 ✦ 꽃 생성 (강화)
+  if (v === 'kiwibloom') { try {
     var symbols = ['✦','✧','✶','✷','❋','✸'];
     setInterval(function(){
       for (var fi = 0; fi < 2; fi++) {
@@ -227,8 +227,8 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 2000);
   } catch(e){} }
 
-  // SyntaxWraith: 랜덤 텍스트를 코드 구문으로 변환
-  if (v === 'syntaxwraith') { try {
+  // KiwiSyntax: 랜덤 텍스트를 코드 구문으로 변환
+  if (v === 'kiwisyntax') { try {
     setTimeout(function(){
       var ps = document.querySelectorAll('.main-content p');
       for (var i = 0; i < ps.length; i++) {
@@ -240,8 +240,8 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 5000);
   } catch(e){} }
 
-  // CacheVein: 페이지에 서서히 정맥 라인 추가
-  if (v === 'cachevein') { try {
+  // KiwiVein: 페이지에 서서히 정맥 라인 추가
+  if (v === 'kiwivein') { try {
     setInterval(function(){
       var vein = document.createElement('div');
       var isHorizontal = Math.random() > 0.5;
@@ -253,8 +253,8 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 3000);
   } catch(e){} }
 
-  // ForgetMeNot: 스크롤 할수록 위쪽 콘텐츠가 사라짐
-  if (v === 'forgetmenot') { try {
+  // KiwiForgot: 스크롤 할수록 위쪽 콘텐츠가 사라짐
+  if (v === 'kiwiforgot') { try {
     window.addEventListener('scroll', function(){
       var ps = document.querySelectorAll('.main-content p, .main-content li');
       var scrollRatio = window.scrollY / (document.body.scrollHeight - window.innerHeight);

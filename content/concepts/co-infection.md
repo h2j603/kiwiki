@@ -50,13 +50,13 @@ nav_order: 11
 ## 概要
 {: .ja}
 
-Co-infection occurs when an individual is simultaneously infected by two or more Web Kiwi Viruses. This is not simply additive -- co-infected individuals do not merely experience two sets of symptoms side by side. Instead, the viruses **synergize**, producing combined effects that are qualitatively different from and far more dangerous than either infection alone. A person infected with both [EchoLoop](/kiwiki/viruses/echoloop.md) (cognitive loops) and [NullWhisper](/kiwiki/viruses/nullwhisper.md) (corrupted decision-making) doesn't just experience loops *and* whispers. The loops begin *containing* the whispers, creating an inescapable feedback cycle where every repeated perception reinforces the corrupted logic, and the corrupted logic prevents the victim from recognizing the loop. Co-infection transforms two manageable conditions into one unmanageable one.
+Co-infection occurs when an individual is simultaneously infected by two or more Web Kiwi Viruses. This is not simply additive -- co-infected individuals do not merely experience two sets of symptoms side by side. Instead, the viruses **synergize**, producing combined effects that are qualitatively different from and far more dangerous than either infection alone. A person infected with both [KiwiEcho](/kiwiki/viruses/kiwiecho.md) (cognitive loops) and [KiWhisper](/kiwiki/viruses/kiwhisper.md) (corrupted decision-making) doesn't just experience loops *and* whispers. The loops begin *containing* the whispers, creating an inescapable feedback cycle where every repeated perception reinforces the corrupted logic, and the corrupted logic prevents the victim from recognizing the loop. Co-infection transforms two manageable conditions into one unmanageable one.
 {: .en}
 
-동시 감염은 한 개인이 2종 이상의 웹키위바이러스에 동시에 감염될 때 발생한다. 이는 단순한 합산이 아니다 -- 동시 감염자는 두 세트의 증상을 나란히 겪는 것이 아니다. 대신 바이러스가 **상승효과**를 일으켜, 어느 감염 단독보다 질적으로 다르고 훨씬 위험한 복합 효과를 생산한다. [에코루프](/kiwiki/viruses/echoloop.md)(인지 루프)와 [널위스퍼](/kiwiki/viruses/nullwhisper.md)(오염된 의사결정)에 동시 감염된 사람은 루프*와* 속삭임을 별도로 겪는 것이 아니다. 루프가 속삭임을 *포함하기* 시작하여, 반복되는 모든 지각이 오염된 논리를 강화하고 오염된 논리가 감염자의 루프 인식을 막는 탈출 불가능한 피드백 사이클을 만든다. 동시 감염은 관리 가능한 두 상태를 관리 불가능한 하나의 상태로 변환한다.
+동시 감염은 한 개인이 2종 이상의 웹키위바이러스에 동시에 감염될 때 발생한다. 이는 단순한 합산이 아니다 -- 동시 감염자는 두 세트의 증상을 나란히 겪는 것이 아니다. 대신 바이러스가 **상승효과**를 일으켜, 어느 감염 단독보다 질적으로 다르고 훨씬 위험한 복합 효과를 생산한다. [키위에코](/kiwiki/viruses/kiwiecho.md)(인지 루프)와 [키위스퍼](/kiwiki/viruses/kiwhisper.md)(오염된 의사결정)에 동시 감염된 사람은 루프*와* 속삭임을 별도로 겪는 것이 아니다. 루프가 속삭임을 *포함하기* 시작하여, 반복되는 모든 지각이 오염된 논리를 강화하고 오염된 논리가 감염자의 루프 인식을 막는 탈출 불가능한 피드백 사이클을 만든다. 동시 감염은 관리 가능한 두 상태를 관리 불가능한 하나의 상태로 변환한다.
 {: .ko}
 
-同時感染は、個人が2種以上のウェブキウイウイルスに同時に感染した時に発生する。これは単純な加算ではない――同時感染者は2セットの症状を並行して経験するのではない。代わりにウイルスが**相乗効果**を起こし、いずれの感染単独よりも質的に異なり、はるかに危険な複合効果を生み出す。[エコループ](/kiwiki/viruses/echoloop.md)（認知ループ）と[ヌルウィスパー](/kiwiki/viruses/nullwhisper.md)（汚染された意思決定）に同時感染した人はループ*と*囁きを別々に経験するのではない。ループが囁きを*含み*始め、繰り返される知覚が汚染された論理を強化し、汚染された論理が感染者のループ認識を妨げる、脱出不可能なフィードバックサイクルを作り出す。同時感染は管理可能な2つの状態を管理不可能な1つの状態に変換する。
+同時感染は、個人が2種以上のウェブキウイウイルスに同時に感染した時に発生する。これは単純な加算ではない――同時感染者は2セットの症状を並行して経験するのではない。代わりにウイルスが**相乗効果**を起こし、いずれの感染単独よりも質的に異なり、はるかに危険な複合効果を生み出す。[エコループ](/kiwiki/viruses/kiwiecho.md)（認知ループ）と[ヌルウィスパー](/kiwiki/viruses/kiwhisper.md)（汚染された意思決定）に同時感染した人はループ*と*囁きを別々に経験するのではない。ループが囁きを*含み*始め、繰り返される知覚が汚染された論理を強化し、汚染された論理が感染者のループ認識を妨げる、脱出不可能なフィードバックサイクルを作り出す。同時感染は管理可能な2つの状態を管理不可能な1つの状態に変換する。
 {: .ja}
 
 ## 동시 감염의 발생 경로
@@ -71,7 +71,7 @@ Co-infection occurs when an individual is simultaneously infected by two or more
 Co-infection can happen through several pathways:
 
 1. **Sequential exposure** -- The most common route. A person already infected with one virus encounters a second. Their compromised state may make them more susceptible to additional infection.
-2. **Shared vector** -- Some vectors carry multiple viruses simultaneously. A single [SNS](sns.md) feed scroll session could expose the victim to both [MirrorLink](/kiwiki/viruses/mirrorlink.md) and [InkBleed](/kiwiki/viruses/inkbleed.md).
+2. **Shared vector** -- Some vectors carry multiple viruses simultaneously. A single [SNS](sns.md) feed scroll session could expose the victim to both [KiwiMirror](/kiwiki/viruses/kiwimirror.md) and [KiwiBleed](/kiwiki/viruses/kiwibleed.md).
 3. **Viral symbiosis** -- In rare documented cases, one virus appears to actively facilitate infection by another. [Direct Access](direct-access.md) viruses have been observed creating compulsive urges in [Cognitive-type](cognitive.md) victims to seek out pages hosting additional viruses.
 4. **Deliberate pairing** -- Particularly through [Email](email.md) vector, where targeted attacks may deliver multiple viral payloads in a single message.
 {: .en}
@@ -79,7 +79,7 @@ Co-infection can happen through several pathways:
 동시 감염은 여러 경로를 통해 발생할 수 있다:
 
 1. **순차적 노출** -- 가장 흔한 경로. 이미 하나의 바이러스에 감염된 사람이 두 번째에 접촉한다. 손상된 상태가 추가 감염에 더 취약하게 만들 수 있다.
-2. **공유 경로** -- 일부 경로는 여러 바이러스를 동시에 전달한다. 한 번의 [SNS](sns.md) 피드 스크롤 세션이 감염자를 [미러링크](/kiwiki/viruses/mirrorlink.md)와 [잉크블리드](/kiwiki/viruses/inkbleed.md) 모두에 노출시킬 수 있다.
+2. **공유 경로** -- 일부 경로는 여러 바이러스를 동시에 전달한다. 한 번의 [SNS](sns.md) 피드 스크롤 세션이 감염자를 [키위미러](/kiwiki/viruses/kiwimirror.md)와 [키위블리드](/kiwiki/viruses/kiwibleed.md) 모두에 노출시킬 수 있다.
 3. **바이러스 공생** -- 드문 기록 사례에서, 한 바이러스가 다른 바이러스에 의한 감염을 적극적으로 촉진하는 것으로 나타났다. [직접접근](direct-access.md) 바이러스가 [인지형](cognitive.md) 감염자에게 추가 바이러스를 호스팅하는 페이지를 찾도록 강박적 충동을 만드는 것이 관찰되었다.
 4. **의도적 조합** -- 특히 [이메일](email.md) 경로를 통해, 표적 공격이 단일 메시지에 여러 바이러스 페이로드를 전달할 수 있다.
 {: .ko}
@@ -87,7 +87,7 @@ Co-infection can happen through several pathways:
 同時感染はいくつかの経路で発生しうる：
 
 1. **順次的曝露** ── 最も一般的な経路。すでに1つのウイルスに感染した人が2つ目に接触する。損なわれた状態が追加感染への感受性を高める可能性がある。
-2. **共有経路** ── 一部の経路は複数のウイルスを同時に運ぶ。1回の[SNS](sns.md)フィードスクロールセッションが感染者を[ミラーリンク](/kiwiki/viruses/mirrorlink.md)と[インクブリード](/kiwiki/viruses/inkbleed.md)の両方に曝露しうる。
+2. **共有経路** ── 一部の経路は複数のウイルスを同時に運ぶ。1回の[SNS](sns.md)フィードスクロールセッションが感染者を[ミラーリンク](/kiwiki/viruses/kiwimirror.md)と[インクブリード](/kiwiki/viruses/kiwibleed.md)の両方に曝露しうる。
 3. **ウイルス共生** ── 稀に記録された事例で、1つのウイルスが別のウイルスによる感染を積極的に促進することが確認された。[直接アクセス](direct-access.md)ウイルスが[認知型](cognitive.md)感染者に追加ウイルスをホストするページを探す強迫的衝動を作り出すことが観察された。
 4. **意図的な組み合わせ** ── 特に[メール](email.md)経路を通じて、標的型攻撃が単一メッセージに複数のウイルスペイロードを配信しうる。
 {: .ja}
@@ -123,10 +123,10 @@ The following co-infection pairs have been documented or theorized as particular
 
 | Pair | Types | Risk | Synergy Effect |
 |------|-------|------|----------------|
-| [NullWhisper](/kiwiki/viruses/nullwhisper.md) + [ForgetMeNot](/kiwiki/viruses/forgetmenot.md) | Logic + Cognitive | Extreme | Victim forgets the bad decisions but continues making them |
-| [BlindSpot](/kiwiki/viruses/blindspot.md) + [GlitchMoss](/kiwiki/viruses/glitchmoss.md) | Sensory + Environmental | Extreme | Victim cannot see the physical changes happening around them |
-| [ThreadCut](/kiwiki/viruses/threadcut.md) + [ParadoxFeed](/kiwiki/viruses/paradoxfeed.md) | Cognitive + Logic | Extreme | Severed memory connections are filled with contradictory logic |
-| [CacheVein](/kiwiki/viruses/cachevein.md) + [WireRoot](/kiwiki/viruses/wireroot.md) | Environmental + Environmental | Extreme | Two environmental viruses combine to produce accelerated physical contamination |
+| [KiWhisper](/kiwiki/viruses/kiwhisper.md) + [KiwiForgot](/kiwiki/viruses/kiwiforgot.md) | Logic + Cognitive | Extreme | Victim forgets the bad decisions but continues making them |
+| [KiwiSpot](/kiwiki/viruses/kiwispot.md) + [KiwiMoss](/kiwiki/viruses/kiwimoss.md) | Sensory + Environmental | Extreme | Victim cannot see the physical changes happening around them |
+| [KiwiCut](/kiwiki/viruses/kiwicut.md) + [KiwiParadox](/kiwiki/viruses/kiwiparadox.md) | Cognitive + Logic | Extreme | Severed memory connections are filled with contradictory logic |
+| [KiwiVein](/kiwiki/viruses/kiwivein.md) + [KiwiRoot](/kiwiki/viruses/kiwiroot.md) | Environmental + Environmental | Extreme | Two environmental viruses combine to produce accelerated physical contamination |
 
 </div>
 
@@ -134,10 +134,10 @@ The following co-infection pairs have been documented or theorized as particular
 
 | 조합 | 유형 | 위험도 | 시너지 효과 |
 |------|------|--------|-------------|
-| [널위스퍼](/kiwiki/viruses/nullwhisper.md) + [포겟미낫](/kiwiki/viruses/forgetmenot.md) | 로직형 + 인지형 | 극도 | 감염자가 잘못된 결정을 잊지만 계속 내림 |
-| [블라인드스팟](/kiwiki/viruses/blindspot.md) + [글리치모스](/kiwiki/viruses/glitchmoss.md) | 감각형 + 환경형 | 극도 | 감염자가 주변에서 일어나는 물리적 변화를 볼 수 없음 |
-| [스레드컷](/kiwiki/viruses/threadcut.md) + [패러독스피드](/kiwiki/viruses/paradoxfeed.md) | 인지형 + 로직형 | 극도 | 절단된 기억 연결이 모순적 논리로 채워짐 |
-| [캐시베인](/kiwiki/viruses/cachevein.md) + [와이어루트](/kiwiki/viruses/wireroot.md) | 환경형 + 환경형 | 극도 | 두 환경형 바이러스가 결합하여 가속된 물리적 오염 생산 |
+| [키위스퍼](/kiwiki/viruses/kiwhisper.md) + [키위포갓](/kiwiki/viruses/kiwiforgot.md) | 로직형 + 인지형 | 극도 | 감염자가 잘못된 결정을 잊지만 계속 내림 |
+| [키위스팟](/kiwiki/viruses/kiwispot.md) + [키위모스](/kiwiki/viruses/kiwimoss.md) | 감각형 + 환경형 | 극도 | 감염자가 주변에서 일어나는 물리적 변화를 볼 수 없음 |
+| [키위컷](/kiwiki/viruses/kiwicut.md) + [키위패러독스](/kiwiki/viruses/kiwiparadox.md) | 인지형 + 로직형 | 극도 | 절단된 기억 연결이 모순적 논리로 채워짐 |
+| [키위베인](/kiwiki/viruses/kiwivein.md) + [키위루트](/kiwiki/viruses/kiwiroot.md) | 환경형 + 환경형 | 극도 | 두 환경형 바이러스가 결합하여 가속된 물리적 오염 생산 |
 
 </div>
 
@@ -145,10 +145,10 @@ The following co-infection pairs have been documented or theorized as particular
 
 | 組み合わせ | タイプ | リスク | シナジー効果 |
 |-----------|--------|--------|-------------|
-| [ヌルウィスパー](/kiwiki/viruses/nullwhisper.md) + [フォーゲットミーノット](/kiwiki/viruses/forgetmenot.md) | ロジック型 + 認知型 | 極度 | 感染者が悪い決定を忘れるが作り続ける |
-| [ブラインドスポット](/kiwiki/viruses/blindspot.md) + [グリッチモス](/kiwiki/viruses/glitchmoss.md) | 感覚型 + 環境型 | 極度 | 感染者が周囲で起きている物理的変化を見ることができない |
-| [スレッドカット](/kiwiki/viruses/threadcut.md) + [パラドックスフィード](/kiwiki/viruses/paradoxfeed.md) | 認知型 + ロジック型 | 極度 | 切断された記憶の接続が矛盾する論理で埋められる |
-| [キャッシュベイン](/kiwiki/viruses/cachevein.md) + [ワイヤールート](/kiwiki/viruses/wireroot.md) | 環境型 + 環境型 | 極度 | 2つの環境型ウイルスが結合して加速された物理的汚染を生む |
+| [ヌルウィスパー](/kiwiki/viruses/kiwhisper.md) + [フォーゲットミーノット](/kiwiki/viruses/kiwiforgot.md) | ロジック型 + 認知型 | 極度 | 感染者が悪い決定を忘れるが作り続ける |
+| [ブラインドスポット](/kiwiki/viruses/kiwispot.md) + [グリッチモス](/kiwiki/viruses/kiwimoss.md) | 感覚型 + 環境型 | 極度 | 感染者が周囲で起きている物理的変化を見ることができない |
+| [スレッドカット](/kiwiki/viruses/kiwicut.md) + [パラドックスフィード](/kiwiki/viruses/kiwiparadox.md) | 認知型 + ロジック型 | 極度 | 切断された記憶の接続が矛盾する論理で埋められる |
+| [キャッシュベイン](/kiwiki/viruses/kiwivein.md) + [ワイヤールート](/kiwiki/viruses/kiwiroot.md) | 環境型 + 環境型 | 極度 | 2つの環境型ウイルスが結合して加速された物理的汚染を生む |
 
 </div>
 
@@ -165,10 +165,10 @@ The following co-infection pairs have been documented or theorized as particular
 
 | Pair | Types | Risk | Synergy Effect |
 |------|-------|------|----------------|
-| [EchoLoop](/kiwiki/viruses/echoloop.md) + [DeadScroll](/kiwiki/viruses/deadscroll.md) | Cognitive + Cognitive | Very High | Infinite perceptual loop combined with inability to stop consuming content |
-| [MirrorLink](/kiwiki/viruses/mirrorlink.md) + [ChromaDrift](/kiwiki/viruses/chromadrift.md) | Sensory + Sensory | Very High | Reflection distortion combined with color spectrum remapping |
-| [InkBleed](/kiwiki/viruses/inkbleed.md) + [NameEater](/kiwiki/viruses/nameeater.md) | Logic + Cognitive | Very High | Written words change meaning while proper nouns are consumed from memory |
-| [HowlLink](/kiwiki/viruses/howllink.md) + [EchoRoom](/kiwiki/viruses/echoroom.md) | Sensory + Environmental | Very High | Phantom howling amplified by acoustically altered spaces |
+| [KiwiEcho](/kiwiki/viruses/kiwiecho.md) + [KiwiScroll](/kiwiki/viruses/kiwiscroll.md) | Cognitive + Cognitive | Very High | Infinite perceptual loop combined with inability to stop consuming content |
+| [KiwiMirror](/kiwiki/viruses/kiwimirror.md) + [KiwiDrift](/kiwiki/viruses/kiwidrift.md) | Sensory + Sensory | Very High | Reflection distortion combined with color spectrum remapping |
+| [KiwiBleed](/kiwiki/viruses/kiwibleed.md) + [KiwiEater](/kiwiki/viruses/kiwieater.md) | Logic + Cognitive | Very High | Written words change meaning while proper nouns are consumed from memory |
+| [KiwiHowl](/kiwiki/viruses/kiwihowl.md) + [KiwiRoom](/kiwiki/viruses/kiwiroom.md) | Sensory + Environmental | Very High | Phantom howling amplified by acoustically altered spaces |
 
 </div>
 
@@ -176,10 +176,10 @@ The following co-infection pairs have been documented or theorized as particular
 
 | 조합 | 유형 | 위험도 | 시너지 효과 |
 |------|------|--------|-------------|
-| [에코루프](/kiwiki/viruses/echoloop.md) + [데드스크롤](/kiwiki/viruses/deadscroll.md) | 인지형 + 인지형 | 매우 높음 | 무한 지각 루프와 콘텐츠 소비 중단 불능의 결합 |
-| [미러링크](/kiwiki/viruses/mirrorlink.md) + [크로마드리프트](/kiwiki/viruses/chromadrift.md) | 감각형 + 감각형 | 매우 높음 | 반영 왜곡과 색상 스펙트럼 재매핑의 결합 |
-| [잉크블리드](/kiwiki/viruses/inkbleed.md) + [네임이터](/kiwiki/viruses/nameeater.md) | 로직형 + 인지형 | 매우 높음 | 글자의 의미가 변하면서 고유명사가 기억에서 사라짐 |
-| [하울링크](/kiwiki/viruses/howllink.md) + [에코룸](/kiwiki/viruses/echoroom.md) | 감각형 + 환경형 | 매우 높음 | 음향적으로 변형된 공간에 의해 증폭되는 유령 울음 |
+| [키위에코](/kiwiki/viruses/kiwiecho.md) + [키위스크롤](/kiwiki/viruses/kiwiscroll.md) | 인지형 + 인지형 | 매우 높음 | 무한 지각 루프와 콘텐츠 소비 중단 불능의 결합 |
+| [키위미러](/kiwiki/viruses/kiwimirror.md) + [키위드리프트](/kiwiki/viruses/kiwidrift.md) | 감각형 + 감각형 | 매우 높음 | 반영 왜곡과 색상 스펙트럼 재매핑의 결합 |
+| [키위블리드](/kiwiki/viruses/kiwibleed.md) + [키위이터](/kiwiki/viruses/kiwieater.md) | 로직형 + 인지형 | 매우 높음 | 글자의 의미가 변하면서 고유명사가 기억에서 사라짐 |
+| [키위하울](/kiwiki/viruses/kiwihowl.md) + [키위룸](/kiwiki/viruses/kiwiroom.md) | 감각형 + 환경형 | 매우 높음 | 음향적으로 변형된 공간에 의해 증폭되는 유령 울음 |
 
 </div>
 
@@ -187,10 +187,10 @@ The following co-infection pairs have been documented or theorized as particular
 
 | 組み合わせ | タイプ | リスク | シナジー効果 |
 |-----------|--------|--------|-------------|
-| [エコループ](/kiwiki/viruses/echoloop.md) + [デッドスクロール](/kiwiki/viruses/deadscroll.md) | 認知型 + 認知型 | 非常に高い | 無限の知覚ループとコンテンツ消費停止不能の結合 |
-| [ミラーリンク](/kiwiki/viruses/mirrorlink.md) + [クロマドリフト](/kiwiki/viruses/chromadrift.md) | 感覚型 + 感覚型 | 非常に高い | 反映歪みと色スペクトル再マッピングの結合 |
-| [インクブリード](/kiwiki/viruses/inkbleed.md) + [ネームイーター](/kiwiki/viruses/nameeater.md) | ロジック型 + 認知型 | 非常に高い | 文字の意味が変わりながら固有名詞が記憶から消える |
-| [ハウルリンク](/kiwiki/viruses/howllink.md) + [エコルーム](/kiwiki/viruses/echoroom.md) | 感覚型 + 環境型 | 非常に高い | 音響的に変容した空間により増幅される幻の遠吠え |
+| [エコループ](/kiwiki/viruses/kiwiecho.md) + [デッドスクロール](/kiwiki/viruses/kiwiscroll.md) | 認知型 + 認知型 | 非常に高い | 無限の知覚ループとコンテンツ消費停止不能の結合 |
+| [ミラーリンク](/kiwiki/viruses/kiwimirror.md) + [クロマドリフト](/kiwiki/viruses/kiwidrift.md) | 感覚型 + 感覚型 | 非常に高い | 反映歪みと色スペクトル再マッピングの結合 |
+| [インクブリード](/kiwiki/viruses/kiwibleed.md) + [ネームイーター](/kiwiki/viruses/kiwieater.md) | ロジック型 + 認知型 | 非常に高い | 文字の意味が変わりながら固有名詞が記憶から消える |
+| [ハウルリンク](/kiwiki/viruses/kiwihowl.md) + [エコルーム](/kiwiki/viruses/kiwiroom.md) | 感覚型 + 環境型 | 非常に高い | 音響的に変容した空間により増幅される幻の遠吠え |
 
 </div>
 

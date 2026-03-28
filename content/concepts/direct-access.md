@@ -108,12 +108,12 @@ How do people find pages that cannot be found? This is the central paradox of Di
 
 | Virus | Type | Severity | Page Type |
 |-------|------|----------|-----------|
-| [GlitchMoss](/kiwiki/viruses/glitchmoss.md) | <span class="pill pill-type">Environmental</span> | <span class="pill pill-severity-critical">Critical</span> | Abandoned geocities-era page |
-| [SyntaxWraith](/kiwiki/viruses/syntaxwraith.md) | <span class="pill pill-type">Logic</span> | <span class="pill pill-severity-moderate">Moderate</span> | Defunct programming tutorial |
-| [ChromaDrift](/kiwiki/viruses/chromadrift.md) | <span class="pill pill-type">Sensory</span> | <span class="pill pill-severity-high">High</span> | Dead art portfolio |
-| [ParadoxFeed](/kiwiki/viruses/paradoxfeed.md) | <span class="pill pill-type">Logic</span> | <span class="pill pill-severity-high">High</span> | Self-contradicting FAQ page |
-| [NameEater](/kiwiki/viruses/nameeater.md) | <span class="pill pill-type">Cognitive</span> | <span class="pill pill-severity-high">High</span> | Forgotten name registry |
-| [WireRoot](/kiwiki/viruses/wireroot.md) | <span class="pill pill-type">Environmental</span> | <span class="pill pill-severity-critical">Critical</span> | Abandoned smart-home documentation |
+| [KiwiMoss](/kiwiki/viruses/kiwimoss.md) | <span class="pill pill-type">Environmental</span> | <span class="pill pill-severity-critical">Critical</span> | Abandoned geocities-era page |
+| [KiwiSyntax](/kiwiki/viruses/kiwisyntax.md) | <span class="pill pill-type">Logic</span> | <span class="pill pill-severity-moderate">Moderate</span> | Defunct programming tutorial |
+| [KiwiDrift](/kiwiki/viruses/kiwidrift.md) | <span class="pill pill-type">Sensory</span> | <span class="pill pill-severity-high">High</span> | Dead art portfolio |
+| [KiwiParadox](/kiwiki/viruses/kiwiparadox.md) | <span class="pill pill-type">Logic</span> | <span class="pill pill-severity-high">High</span> | Self-contradicting FAQ page |
+| [KiwiEater](/kiwiki/viruses/kiwieater.md) | <span class="pill pill-type">Cognitive</span> | <span class="pill pill-severity-high">High</span> | Forgotten name registry |
+| [KiwiRoot](/kiwiki/viruses/kiwiroot.md) | <span class="pill pill-type">Environmental</span> | <span class="pill pill-severity-critical">Critical</span> | Abandoned smart-home documentation |
 
 </div>
 
@@ -121,12 +121,12 @@ How do people find pages that cannot be found? This is the central paradox of Di
 
 | 바이러스 | 유형 | 심각도 | 페이지 유형 |
 |----------|------|--------|-------------|
-| [글리치모스](/kiwiki/viruses/glitchmoss.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | 버려진 지오시티 시대 페이지 |
-| [신택스레이스](/kiwiki/viruses/syntaxwraith.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-moderate">보통</span> | 폐기된 프로그래밍 튜토리얼 |
-| [크로마드리프트](/kiwiki/viruses/chromadrift.md) | <span class="pill pill-type">감각형</span> | <span class="pill pill-severity-high">높음</span> | 죽은 아트 포트폴리오 |
-| [패러독스피드](/kiwiki/viruses/paradoxfeed.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-high">높음</span> | 자기 모순적 FAQ 페이지 |
-| [네임이터](/kiwiki/viruses/nameeater.md) | <span class="pill pill-type">인지형</span> | <span class="pill pill-severity-high">높음</span> | 잊혀진 이름 등록소 |
-| [와이어루트](/kiwiki/viruses/wireroot.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | 버려진 스마트홈 문서 |
+| [키위모스](/kiwiki/viruses/kiwimoss.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | 버려진 지오시티 시대 페이지 |
+| [키위신택스](/kiwiki/viruses/kiwisyntax.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-moderate">보통</span> | 폐기된 프로그래밍 튜토리얼 |
+| [키위드리프트](/kiwiki/viruses/kiwidrift.md) | <span class="pill pill-type">감각형</span> | <span class="pill pill-severity-high">높음</span> | 죽은 아트 포트폴리오 |
+| [키위패러독스](/kiwiki/viruses/kiwiparadox.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-high">높음</span> | 자기 모순적 FAQ 페이지 |
+| [키위이터](/kiwiki/viruses/kiwieater.md) | <span class="pill pill-type">인지형</span> | <span class="pill pill-severity-high">높음</span> | 잊혀진 이름 등록소 |
+| [키위루트](/kiwiki/viruses/kiwiroot.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | 버려진 스마트홈 문서 |
 
 </div>
 
@@ -134,12 +134,12 @@ How do people find pages that cannot be found? This is the central paradox of Di
 
 | ウイルス | タイプ | 重症度 | ページタイプ |
 |----------|--------|--------|-------------|
-| [グリッチモス](/kiwiki/viruses/glitchmoss.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたジオシティ時代のページ |
-| [シンタックスレイス](/kiwiki/viruses/syntaxwraith.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-moderate">中</span> | 廃止されたプログラミングチュートリアル |
-| [クロマドリフト](/kiwiki/viruses/chromadrift.md) | <span class="pill pill-type">感覚型</span> | <span class="pill pill-severity-high">高</span> | 死んだアートポートフォリオ |
-| [パラドックスフィード](/kiwiki/viruses/paradoxfeed.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-high">高</span> | 自己矛盾するFAQページ |
-| [ネームイーター](/kiwiki/viruses/nameeater.md) | <span class="pill pill-type">認知型</span> | <span class="pill pill-severity-high">高</span> | 忘れられた名前登録所 |
-| [ワイヤールート](/kiwiki/viruses/wireroot.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたスマートホーム文書 |
+| [グリッチモス](/kiwiki/viruses/kiwimoss.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたジオシティ時代のページ |
+| [シンタックスレイス](/kiwiki/viruses/kiwisyntax.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-moderate">中</span> | 廃止されたプログラミングチュートリアル |
+| [クロマドリフト](/kiwiki/viruses/kiwidrift.md) | <span class="pill pill-type">感覚型</span> | <span class="pill pill-severity-high">高</span> | 死んだアートポートフォリオ |
+| [パラドックスフィード](/kiwiki/viruses/kiwiparadox.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-high">高</span> | 自己矛盾するFAQページ |
+| [ネームイーター](/kiwiki/viruses/kiwieater.md) | <span class="pill pill-type">認知型</span> | <span class="pill pill-severity-high">高</span> | 忘れられた名前登録所 |
+| [ワイヤールート](/kiwiki/viruses/kiwiroot.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたスマートホーム文書 |
 
 </div>
 
@@ -154,9 +154,9 @@ How do people find pages that cannot be found? This is the central paradox of Di
 
 Direct Access has a dramatically skewed severity distribution compared to other vectors:
 
-- **Critical:** 2 viruses (GlitchMoss, WireRoot)
-- **High:** 3 viruses (ChromaDrift, ParadoxFeed, NameEater)
-- **Moderate:** 1 virus (SyntaxWraith)
+- **Critical:** 2 viruses (KiwiMoss, KiwiRoot)
+- **High:** 3 viruses (KiwiDrift, KiwiParadox, KiwiEater)
+- **Moderate:** 1 virus (KiwiSyntax)
 - **Low:** 0 viruses
 
 No other vector has zero low-severity viruses. The theory is that Direct Access pages have had years -- sometimes decades -- to accumulate and concentrate viral payload without any traffic to dilute it. When a visitor finally arrives, they receive a concentrated dose that other vectors, with their constant stream of traffic, cannot match.
@@ -164,9 +164,9 @@ No other vector has zero low-severity viruses. The theory is that Direct Access 
 
 직접접근은 다른 경로에 비해 극적으로 편중된 심각도 분포를 보인다:
 
-- **치명적:** 2종 (글리치모스, 와이어루트)
-- **높음:** 3종 (크로마드리프트, 패러독스피드, 네임이터)
-- **보통:** 1종 (신택스레이스)
+- **치명적:** 2종 (키위모스, 키위루트)
+- **높음:** 3종 (키위드리프트, 키위패러독스, 키위이터)
+- **보통:** 1종 (키위신택스)
 - **낮음:** 0종
 
 다른 어떤 경로도 낮은 심각도 바이러스가 0종인 경우는 없다. 이론상 직접접근 페이지는 트래픽 없이 바이러스 페이로드를 축적하고 농축할 수 있는 수년 -- 때로는 수십 년 -- 의 시간을 가졌다. 방문자가 마침내 도착하면, 끊임없는 트래픽 흐름이 있는 다른 경로로는 불가능한 농축된 용량을 받게 된다.

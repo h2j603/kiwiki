@@ -35,23 +35,23 @@ The following 7 viruses have confirmed cases of irreversible transformation:
 
 | Virus | What Becomes Irreversible |
 |-------|--------------------------|
-| [GlitchMoss](/kiwiki/viruses/glitchmoss.md) | Static-patterned moss permanently bonds to surfaces at the molecular level. Cannot be removed, burned, or chemically dissolved. Rubble from demolished walls retains the growth. |
-| [CacheVein](/kiwiki/viruses/cachevein.md) | Circuit-like veins become structurally integrated into walls and floors. They conduct electrical signals of unknown origin. Cutting them causes them to regrow from both severed ends. |
-| [VoidMail](/kiwiki/viruses/voidmail.md) | Spatial voids -- areas where physical matter has been consumed and replaced by *nothing* -- are permanent. The void does not fill. Air does not flow through it. It simply exists as an absence in space. |
-| [WireRoot](/kiwiki/viruses/wireroot.md) | Wire-like roots become load-bearing structural elements. Removing them causes the building to collapse, as if the original structure has been consumed and replaced by the roots. |
+| [KiwiMoss](/kiwiki/viruses/kiwimoss.md) | Static-patterned moss permanently bonds to surfaces at the molecular level. Cannot be removed, burned, or chemically dissolved. Rubble from demolished walls retains the growth. |
+| [KiwiVein](/kiwiki/viruses/kiwivein.md) | Circuit-like veins become structurally integrated into walls and floors. They conduct electrical signals of unknown origin. Cutting them causes them to regrow from both severed ends. |
+| [KiwiVoid](/kiwiki/viruses/kiwivoid.md) | Spatial voids -- areas where physical matter has been consumed and replaced by *nothing* -- are permanent. The void does not fill. Air does not flow through it. It simply exists as an absence in space. |
+| [KiwiRoot](/kiwiki/viruses/kiwiroot.md) | Wire-like roots become load-bearing structural elements. Removing them causes the building to collapse, as if the original structure has been consumed and replaced by the roots. |
 
 ### Cognitive Type (2 confirmed)
 
 | Virus | What Becomes Irreversible |
 |-------|--------------------------|
-| [ForgetMeNot](/kiwiki/viruses/forgetmenot.md) | Consumed memories are permanently erased. Brain imaging shows that the neural pathways that once held these memories have been physically restructured -- not damaged, but *reorganized* into patterns that match no known cognitive architecture. |
-| [ThreadCut](/kiwiki/viruses/threadcut.md) | Connections between memories are permanently severed. The memories themselves may still exist, but they are isolated islands with no bridges between them. The victim can recall individual facts but cannot connect them into narratives, timelines, or relationships. |
+| [KiwiForgot](/kiwiki/viruses/kiwiforgot.md) | Consumed memories are permanently erased. Brain imaging shows that the neural pathways that once held these memories have been physically restructured -- not damaged, but *reorganized* into patterns that match no known cognitive architecture. |
+| [KiwiCut](/kiwiki/viruses/kiwicut.md) | Connections between memories are permanently severed. The memories themselves may still exist, but they are isolated islands with no bridges between them. The victim can recall individual facts but cannot connect them into narratives, timelines, or relationships. |
 
 ### Sensory Type (1 confirmed)
 
 | Virus | What Becomes Irreversible |
 |-------|--------------------------|
-| [BlindSpot](/kiwiki/viruses/blindspot.md) | Expanding blind spots in the visual field become permanent. The eyes show no physical damage, but the visual cortex processes input from an unknown source instead of the optic nerve. The brain fills the blind spots with fabricated visual data that does not correspond to reality. |
+| [KiwiSpot](/kiwiki/viruses/kiwispot.md) | Expanding blind spots in the visual field become permanent. The eyes show no physical damage, but the visual cortex processes input from an unknown source instead of the optic nerve. The brain fills the blind spots with fabricated visual data that does not correspond to reality. |
 
 {: .en}
 
@@ -70,14 +70,14 @@ The following 7 viruses have confirmed cases of irreversible transformation:
 Irreversible transformation is not simply "very severe damage." It represents a fundamental change in the nature of the affected domain. Key characteristics that distinguish irreversible transformation from severe-but-recoverable cases:
 
 1. **Self-sustaining** -- The change maintains itself without any ongoing viral activity. Even if the virus were somehow eradicated, the transformation persists.
-2. **Structurally integrated** -- The transformation becomes part of the host system's architecture. WireRoot becomes load-bearing. ForgetMeNot's memory restructuring follows a consistent (if alien) organizational pattern. The virus's effects are not parasitic; they are architectural.
+2. **Structurally integrated** -- The transformation becomes part of the host system's architecture. KiwiRoot becomes load-bearing. KiwiForgot's memory restructuring follows a consistent (if alien) organizational pattern. The virus's effects are not parasitic; they are architectural.
 3. **Resistant to all intervention** -- Physical removal, chemical treatment, surgical intervention, cognitive therapy -- nothing has reversed a confirmed irreversible case. The transformations resist intervention as if they are the intended state.
 {: .en}
 
 비가역적 변형은 단순히 "매우 심각한 손상"이 아니다. 영향받은 영역의 본질적 변화를 나타낸다. 비가역적 변형을 심각하지만 회복 가능한 사례와 구별하는 핵심 특징:
 
 1. **자기 유지** -- 변화가 지속적인 바이러스 활동 없이도 스스로를 유지한다. 바이러스가 어떻게든 박멸되더라도 변형은 지속된다.
-2. **구조적 통합** -- 변형이 숙주 시스템의 건축 구조의 일부가 된다. 와이어루트는 하중을 지탱한다. 포겟미낫의 기억 재구성은 (이질적이지만) 일관된 조직 패턴을 따른다. 바이러스의 효과는 기생적이 아니다; 건축적이다.
+2. **구조적 통합** -- 변형이 숙주 시스템의 건축 구조의 일부가 된다. 키위루트는 하중을 지탱한다. 키위포갓의 기억 재구성은 (이질적이지만) 일관된 조직 패턴을 따른다. 바이러스의 효과는 기생적이 아니다; 건축적이다.
 3. **모든 개입에 저항** -- 물리적 제거, 화학적 처리, 외과적 개입, 인지 치료 -- 확인된 비가역적 사례를 되돌린 것은 아무것도 없다. 변형은 마치 의도된 상태인 것처럼 개입에 저항한다.
 {: .ko}
 
