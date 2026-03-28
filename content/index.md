@@ -15,7 +15,16 @@ Web Kiwi Virus Wiki
 ウェブキウイウイルス（Web Kiwi Virus）ウィキ
 {: .ja}
 
-## 문서 목록 / Documents
+## 문서 목록
+{: .ko}
+
+## Documents
+{: .en}
+
+## ドキュメント
+{: .ja}
+
+<div class="ko" markdown="1">
 
 | 코드 | 이름 | 유형 | 경로 | 위험도 |
 |------|------|------|------|--------|
@@ -52,4 +61,94 @@ Web Kiwi Virus Wiki
 | <span class="pill pill-code">E.SN-007</span> | [에코룸 / EchoRoom](viruses/echoroom.md) | 환경형 | SNS | <span class="pill pill-severity-moderate">보통</span> |
 | <span class="pill pill-code">E.MS-008</span> | [널스페이스 / NullSpace](viruses/nullspace.md) | 환경형 | 메신저 | <span class="pill pill-severity-high">높음</span> |
 
-[분류 체계 / Taxonomy](taxonomy/index.md) · [용어 사전 / Glossary](glossary/index.md) · [개념 / Concepts](concepts/index.md)
+</div>
+
+<div class="en" markdown="1">
+
+| Code | Name | Type | Vector | Severity |
+|------|------|------|--------|----------|
+| <span class="pill pill-code">L.MS-001</span> | [NullWhisper](viruses/nullwhisper.md) | Logic | Messenger | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">L.DA-002</span> | [SyntaxWraith](viruses/syntaxwraith.md) | Logic | Direct Access | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">L.SN-003</span> | [PhantomTab](viruses/phantomtab.md) | Logic | SNS | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">L.EM-004</span> | [ByteShade](viruses/byteshade.md) | Logic | Email | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">L.SE-005</span> | [GhostPing](viruses/ghostping.md) | Logic | Search Engine | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">L.DA-006</span> | [ParadoxFeed](viruses/paradoxfeed.md) | Logic | Direct Access | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">L.SN-007</span> | [InkBleed](viruses/inkbleed.md) | Logic | SNS | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">L.MS-008</span> | [ClipBoard](viruses/clipboard.md) | Logic | Messenger | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">S.SN-001</span> | [MirrorLink](viruses/mirrorlink.md) | Sensory | SNS | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">S.EM-002</span> | [PixelRot](viruses/pixelrot.md) | Sensory | Email | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">S.MS-003</span> | [HowlLink](viruses/howllink.md) | Sensory | Messenger | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">S.SE-004</span> | [BlindSpot](viruses/blindspot.md) | Sensory | Search Engine | <span class="pill pill-severity-critical">Critical</span> |
+| <span class="pill pill-code">S.DA-005</span> | [ChromaDrift](viruses/chromadrift.md) | Sensory | Direct Access | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">S.SN-006</span> | [TangleTouch](viruses/tangletouch.md) | Sensory | SNS | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">S.EM-007</span> | [GlassVoice](viruses/glassvoice.md) | Sensory | Email | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">S.SE-008</span> | [AfterImage](viruses/afterimage.md) | Sensory | Search Engine | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">C.SE-001</span> | [EchoLoop](viruses/echoloop.md) | Cognitive | Search Engine | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">C.SN-002</span> | [DeadScroll](viruses/deadscroll.md) | Cognitive | SNS | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">C.EM-003</span> | [ForgetMeNot](viruses/forgetmenot.md) | Cognitive | Email | <span class="pill pill-severity-critical">Critical</span> |
+| <span class="pill pill-code">C.MS-004</span> | [Loophole](viruses/loophole.md) | Cognitive | Messenger | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">C.SN-005</span> | [DreamLeak](viruses/dreamleak.md) | Cognitive | SNS | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">C.DA-006</span> | [NameEater](viruses/nameeater.md) | Cognitive | Direct Access | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">C.SE-007</span> | [TimeStamp](viruses/timestamp.md) | Cognitive | Search Engine | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">C.MS-008</span> | [ThreadCut](viruses/threadcut.md) | Cognitive | Messenger | <span class="pill pill-severity-critical">Critical</span> |
+| <span class="pill pill-code">E.DA-001</span> | [GlitchMoss](viruses/glitchmoss.md) | Environmental | Direct Access | <span class="pill pill-severity-critical">Critical</span> |
+| <span class="pill pill-code">E.MS-002</span> | [CacheVein](viruses/cachevein.md) | Environmental | Messenger | <span class="pill pill-severity-critical">Critical</span> |
+| <span class="pill pill-code">E.SN-003</span> | [StaticBloom](viruses/staticbloom.md) | Environmental | SNS | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">E.EM-004</span> | [VoidMail](viruses/voidmail.md) | Environmental | Email | <span class="pill pill-severity-critical">Critical</span> |
+| <span class="pill pill-code">E.SE-005</span> | [RustPixel](viruses/rustpixel.md) | Environmental | Search Engine | <span class="pill pill-severity-high">High</span> |
+| <span class="pill pill-code">E.DA-006</span> | [WireRoot](viruses/wireroot.md) | Environmental | Direct Access | <span class="pill pill-severity-critical">Critical</span> |
+| <span class="pill pill-code">E.SN-007</span> | [EchoRoom](viruses/echoroom.md) | Environmental | SNS | <span class="pill pill-severity-moderate">Moderate</span> |
+| <span class="pill pill-code">E.MS-008</span> | [NullSpace](viruses/nullspace.md) | Environmental | Messenger | <span class="pill pill-severity-high">High</span> |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| コード | 名前 | タイプ | 経路 | 危険度 |
+|--------|------|--------|------|--------|
+| <span class="pill pill-code">L.MS-001</span> | [ヌルウィスパー / NullWhisper](viruses/nullwhisper.md) | ロジック型 | メッセンジャー | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">L.DA-002</span> | [シンタックスレイス / SyntaxWraith](viruses/syntaxwraith.md) | ロジック型 | 直接アクセス | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">L.SN-003</span> | [ファントムタブ / PhantomTab](viruses/phantomtab.md) | ロジック型 | SNS | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">L.EM-004</span> | [バイトシェイド / ByteShade](viruses/byteshade.md) | ロジック型 | メール | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">L.SE-005</span> | [ゴーストピング / GhostPing](viruses/ghostping.md) | ロジック型 | 検索エンジン | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">L.DA-006</span> | [パラドックスフィード / ParadoxFeed](viruses/paradoxfeed.md) | ロジック型 | 直接アクセス | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">L.SN-007</span> | [インクブリード / InkBleed](viruses/inkbleed.md) | ロジック型 | SNS | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">L.MS-008</span> | [クリップボード / ClipBoard](viruses/clipboard.md) | ロジック型 | メッセンジャー | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">S.SN-001</span> | [ミラーリンク / MirrorLink](viruses/mirrorlink.md) | 感覚型 | SNS | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">S.EM-002</span> | [ピクセルロット / PixelRot](viruses/pixelrot.md) | 感覚型 | メール | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">S.MS-003</span> | [ハウルリンク / HowlLink](viruses/howllink.md) | 感覚型 | メッセンジャー | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">S.SE-004</span> | [ブラインドスポット / BlindSpot](viruses/blindspot.md) | 感覚型 | 検索エンジン | <span class="pill pill-severity-critical">致命的</span> |
+| <span class="pill pill-code">S.DA-005</span> | [クロマドリフト / ChromaDrift](viruses/chromadrift.md) | 感覚型 | 直接アクセス | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">S.SN-006</span> | [タングルタッチ / TangleTouch](viruses/tangletouch.md) | 感覚型 | SNS | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">S.EM-007</span> | [グラスボイス / GlassVoice](viruses/glassvoice.md) | 感覚型 | メール | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">S.SE-008</span> | [アフターイメージ / AfterImage](viruses/afterimage.md) | 感覚型 | 検索エンジン | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">C.SE-001</span> | [エコループ / EchoLoop](viruses/echoloop.md) | 認知型 | 検索エンジン | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">C.SN-002</span> | [デッドスクロール / DeadScroll](viruses/deadscroll.md) | 認知型 | SNS | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">C.EM-003</span> | [フォゲットミーノット / ForgetMeNot](viruses/forgetmenot.md) | 認知型 | メール | <span class="pill pill-severity-critical">致命的</span> |
+| <span class="pill pill-code">C.MS-004</span> | [ループホール / Loophole](viruses/loophole.md) | 認知型 | メッセンジャー | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">C.SN-005</span> | [ドリームリーク / DreamLeak](viruses/dreamleak.md) | 認知型 | SNS | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">C.DA-006</span> | [ネームイーター / NameEater](viruses/nameeater.md) | 認知型 | 直接アクセス | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">C.SE-007</span> | [タイムスタンプ / TimeStamp](viruses/timestamp.md) | 認知型 | 検索エンジン | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">C.MS-008</span> | [スレッドカット / ThreadCut](viruses/threadcut.md) | 認知型 | メッセンジャー | <span class="pill pill-severity-critical">致命的</span> |
+| <span class="pill pill-code">E.DA-001</span> | [グリッチモス / GlitchMoss](viruses/glitchmoss.md) | 環境型 | 直接アクセス | <span class="pill pill-severity-critical">致命的</span> |
+| <span class="pill pill-code">E.MS-002</span> | [キャッシュベイン / CacheVein](viruses/cachevein.md) | 環境型 | メッセンジャー | <span class="pill pill-severity-critical">致命的</span> |
+| <span class="pill pill-code">E.SN-003</span> | [スタティックブルーム / StaticBloom](viruses/staticbloom.md) | 環境型 | SNS | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">E.EM-004</span> | [ボイドメール / VoidMail](viruses/voidmail.md) | 環境型 | メール | <span class="pill pill-severity-critical">致命的</span> |
+| <span class="pill pill-code">E.SE-005</span> | [ラストピクセル / RustPixel](viruses/rustpixel.md) | 環境型 | 検索エンジン | <span class="pill pill-severity-high">高</span> |
+| <span class="pill pill-code">E.DA-006</span> | [ワイヤールート / WireRoot](viruses/wireroot.md) | 環境型 | 直接アクセス | <span class="pill pill-severity-critical">致命的</span> |
+| <span class="pill pill-code">E.SN-007</span> | [エコルーム / EchoRoom](viruses/echoroom.md) | 環境型 | SNS | <span class="pill pill-severity-moderate">中</span> |
+| <span class="pill pill-code">E.MS-008</span> | [ヌルスペース / NullSpace](viruses/nullspace.md) | 環境型 | メッセンジャー | <span class="pill pill-severity-high">高</span> |
+
+</div>
+
+<div class="ko" markdown="1">
+[분류 체계](taxonomy/index.md) · [용어 사전](glossary/index.md) · [개념](concepts/index.md)
+</div>
+
+<div class="en" markdown="1">
+[Taxonomy](taxonomy/index.md) · [Glossary](glossary/index.md) · [Concepts](concepts/index.md)
+</div>
+
+<div class="ja" markdown="1">
+[分類体系](taxonomy/index.md) · [用語辞典](glossary/index.md) · [概念](concepts/index.md)
+</div>
