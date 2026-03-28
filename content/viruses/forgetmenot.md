@@ -30,10 +30,10 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-C.EM-003</span> |
-| Type | <span class="pill pill-type">인지형</span> |
-| Vector | <span class="pill pill-vector">이메일</span> |
-| Severity | <span class="pill pill-severity-critical">치명적</span> |
-| Status | <span class="pill pill-active">활성</span> |
+| Type | <span class="pill pill-type">Cognitive</span> |
+| Vector | <span class="pill pill-vector">Email</span> |
+| Severity | <span class="pill pill-severity-critical">Critical</span> |
+| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -42,10 +42,10 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-C.EM-003</span> |
-| タイプ | <span class="pill pill-type">인지형</span> |
-| 経路 | <span class="pill pill-vector">이메일</span> |
-| 危険度 | <span class="pill pill-severity-critical">치명적</span> |
-| 状態 | <span class="pill pill-active">활성</span> |
+| タイプ | <span class="pill pill-type">認知型</span> |
+| 経路 | <span class="pill pill-vector">メール</span> |
+| 危険度 | <span class="pill pill-severity-critical">致命的</span> |
+| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 

@@ -30,10 +30,10 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-S.SE-004</span> |
-| Type | <span class="pill pill-type">감각형</span> |
-| Vector | <span class="pill pill-vector">검색엔진</span> |
-| Severity | <span class="pill pill-severity-critical">치명적</span> |
-| Status | <span class="pill pill-active">활성</span> |
+| Type | <span class="pill pill-type">Sensory</span> |
+| Vector | <span class="pill pill-vector">Search Engine</span> |
+| Severity | <span class="pill pill-severity-critical">Critical</span> |
+| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -42,10 +42,10 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-S.SE-004</span> |
-| タイプ | <span class="pill pill-type">감각형</span> |
-| 経路 | <span class="pill pill-vector">검색엔진</span> |
-| 危険度 | <span class="pill pill-severity-critical">치명적</span> |
-| 状態 | <span class="pill pill-active">활성</span> |
+| タイプ | <span class="pill pill-type">感覚型</span> |
+| 経路 | <span class="pill pill-vector">検索エンジン</span> |
+| 危険度 | <span class="pill pill-severity-critical">致命的</span> |
+| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 

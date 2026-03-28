@@ -23,6 +23,17 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+// Japanese: Pretendard for CJK fallback (t26-carbon doesn't cover JP)
+body.lang-ja {
+  font-family: "Pretendard", "Noto Sans JP", "neue-haas-unica", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  .main-content h1,
+  .main-content h2,
+  .main-content h3 {
+    font-family: "Pretendard", "Noto Sans JP", "t26-carbon", monospace;
+  }
+}
+
 // ---- Content ----
 .main-content {
   max-width: 100%;

@@ -30,10 +30,10 @@ tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access"
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-L.DA-006</span> |
-| Type | <span class="pill pill-type">로직형</span> |
-| Vector | <span class="pill pill-vector">직접접근</span> |
-| Severity | <span class="pill pill-severity-high">높음</span> |
-| Status | <span class="pill pill-active">활성</span> |
+| Type | <span class="pill pill-type">Logic</span> |
+| Vector | <span class="pill pill-vector">Direct Access</span> |
+| Severity | <span class="pill pill-severity-high">High</span> |
+| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -42,10 +42,10 @@ tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access"
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-L.DA-006</span> |
-| タイプ | <span class="pill pill-type">로직형</span> |
-| 経路 | <span class="pill pill-vector">직접접근</span> |
-| 危険度 | <span class="pill pill-severity-high">높음</span> |
-| 状態 | <span class="pill pill-active">활성</span> |
+| タイプ | <span class="pill pill-type">ロジック型</span> |
+| 経路 | <span class="pill pill-vector">直接アクセス</span> |
+| 危険度 | <span class="pill pill-severity-high">高</span> |
+| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 
