@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["환경형", "검색엔진", "부식", "금속", "environmental", "search engine", "corrosion", "metal"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

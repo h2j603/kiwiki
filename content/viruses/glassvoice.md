@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "auditory", "voice"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

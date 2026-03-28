@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine", "notification", "compulsion"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

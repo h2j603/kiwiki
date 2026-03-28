@@ -14,6 +14,8 @@ icon: "◇"
 tags: ["감각형", "SNS", "시각", "거울", "sensory", "social media", "visual", "mirror"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

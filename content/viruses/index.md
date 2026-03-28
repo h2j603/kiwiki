@@ -5,6 +5,8 @@ has_children: true
 permalink: /viruses/
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 # 바이러스 목록 / Virus Index

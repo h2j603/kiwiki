@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["로직형", "SNS", "텍스트", "의사결정", "logic", "social media", "text", "decision-making"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

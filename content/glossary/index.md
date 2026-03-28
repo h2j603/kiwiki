@@ -4,6 +4,8 @@ nav_order: 4
 permalink: /glossary/
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 # 용어 사전 / Glossary

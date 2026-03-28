@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["인지형", "SNS", "꿈", "기억", "cognitive", "social media", "dream", "memory"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

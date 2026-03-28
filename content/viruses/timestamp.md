@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search engine", "deja vu", "time"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

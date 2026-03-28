@@ -13,6 +13,8 @@ icon: "⏚"
 tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "auditory", "howl"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

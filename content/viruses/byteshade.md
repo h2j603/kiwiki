@@ -13,6 +13,8 @@ icon: "◐"
 tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgment", "shadow"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

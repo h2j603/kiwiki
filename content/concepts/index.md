@@ -5,6 +5,8 @@ has_children: true
 permalink: /concepts/
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 # 개념 목록 / Concept Index

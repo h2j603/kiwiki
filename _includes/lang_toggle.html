@@ -1,0 +1,16 @@
+<div class="lang-toggle" id="kiwiki-lang-toggle">
+  <button class="lang-btn active" data-lang="en" onclick="kiwikiLang('en')">EN</button>
+  <button class="lang-btn" data-lang="ko" onclick="kiwikiLang('ko')">한국어</button>
+  <button class="lang-btn" data-lang="ja" onclick="kiwikiLang('ja')">日本語</button>
+</div>
+<script>
+function kiwikiLang(l){
+  document.body.className=document.body.className.replace(/lang-\w+/g,'')+' lang-'+l;
+  var b=document.getElementById('kiwiki-lang-toggle').getElementsByTagName('button');
+  for(var i=0;i<b.length;i++) b[i].className='lang-btn'+(b[i].getAttribute('data-lang')===l?' active':'');
+  try{localStorage.setItem('kiwiki-lang',l);}catch(e){}
+}
+(function(){
+  try{var s=localStorage.getItem('kiwiki-lang');if(s&&s!=='en'){kiwikiLang(s);}}catch(e){}
+})();
+</script>

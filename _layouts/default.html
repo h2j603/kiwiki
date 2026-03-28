@@ -44,51 +44,17 @@ layout: table_wrappers
     {% include components/mermaid.html %}
   {% endif %}
 
-  <!-- Kiwiki: Language toggle + infection effects -->
+  <!-- Kiwiki: Infection effects only (lang toggle is inline via Jekyll include) -->
   <script>
-  (function() {
-    var saved = localStorage.getItem('kiwiki-lang') || 'en';
-    document.body.className += ' lang-' + saved;
-
-    var mc = document.getElementById('main-content');
-    if (!mc) return;
-
-    var toggle = document.createElement('div');
-    toggle.className = 'lang-toggle';
-    var langs = [['en','EN'],['ko','한국어'],['ja','日本語']];
-    for (var i = 0; i < langs.length; i++) {
-      var b = document.createElement('button');
-      b.className = 'lang-btn' + (langs[i][0] === saved ? ' active' : '');
-      b.setAttribute('data-lang', langs[i][0]);
-      b.textContent = langs[i][1];
-      toggle.appendChild(b);
-    }
-
-    var main = mc.querySelector('main');
-    if (main) {
-      main.insertBefore(toggle, main.firstChild);
-    } else {
-      mc.insertBefore(toggle, mc.firstChild);
-    }
-
-    toggle.onclick = function(e) {
-      var lang = e.target.getAttribute('data-lang');
-      if (!lang) return;
-      document.body.className = document.body.className.replace(/lang-\w+/g, '') + ' lang-' + lang;
-      var btns = toggle.getElementsByTagName('button');
-      for (var j = 0; j < btns.length; j++) {
-        btns[j].className = 'lang-btn' + (btns[j].getAttribute('data-lang') === lang ? ' active' : '');
-      }
-      localStorage.setItem('kiwiki-lang', lang);
-    };
-
-    // Infection
-    var n = parseInt(localStorage.getItem('kiwiki-pages') || '0') + 1;
-    localStorage.setItem('kiwiki-pages', n);
-    if (n >= 8) document.body.className += ' infected-1';
-    if (n >= 16) document.body.className += ' infected-2';
-    var sc = 0;
-    window.onscroll = function() { if (++sc > 200) document.body.className += ' timewarp'; };
+  (function(){
+    try{
+      var n=parseInt(localStorage.getItem('kiwiki-pages')||'0')+1;
+      localStorage.setItem('kiwiki-pages',n);
+      if(n>=8)document.body.className+=' infected-1';
+      if(n>=16)document.body.className+=' infected-2';
+      var sc=0;
+      window.onscroll=function(){if(++sc>200)document.body.className+=' timewarp';};
+    }catch(e){}
   })();
   </script>
 </body>

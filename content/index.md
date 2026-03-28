@@ -4,6 +4,8 @@ nav_order: 1
 permalink: /
 ---
 
+{% include lang_toggle.html %}
+
 Web Kiwi Virus Wiki
 {: .en}
 
