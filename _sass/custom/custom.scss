@@ -245,9 +245,15 @@ body {
   &.active { background: orangered; color: #ffffff; font-style: italic; }
 }
 
-// ---- Language hide (EN default) ----
-.ko { display: none; }
-.ja { display: none; }
+// ---- Language hide (body class based, EN default) ----
+body.lang-en .ko,
+body.lang-en .ja { display: none !important; }
+
+body.lang-ko .en,
+body.lang-ko .ja { display: none !important; }
+
+body.lang-ja .ko,
+body.lang-ja .en { display: none !important; }
 
 // ---- HR (hyuk 동일) ----
 .main-content hr {
