@@ -13,6 +13,9 @@ status: "활성 / Active"
 tags: ["감각형", "직접접근", "색각", "시각", "sensory", "direct access", "color", "vision"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

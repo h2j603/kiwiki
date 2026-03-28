@@ -14,6 +14,9 @@ icon: "⧗"
 tags: ["인지형", "SNS", "시간", "스크롤", "cognitive", "social media", "time", "scroll"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

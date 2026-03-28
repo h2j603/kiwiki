@@ -13,6 +13,9 @@ icon: "⊘"
 tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engine", "visual", "vanishing"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

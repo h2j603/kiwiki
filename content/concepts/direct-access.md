@@ -4,6 +4,9 @@ parent: "개념 / Concepts"
 nav_order: 9
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 | Key | Value |
 |-----|-------|
 | Category | <span class="pill pill-vector">전파 경로 / Vector</span> |

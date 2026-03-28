@@ -5,6 +5,8 @@ has_children: true
 permalink: /viruses/
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
 # 바이러스 목록 / Virus Index
 
 현재까지 발견된 웹키위바이러스 목록입니다.

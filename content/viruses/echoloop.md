@@ -14,6 +14,9 @@ icon: "↺"
 tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search engine", "memory", "loop"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

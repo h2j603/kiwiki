@@ -4,6 +4,8 @@ nav_order: 4
 permalink: /glossary/
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
 # 용어 사전 / Glossary
 
 웹키위바이러스 관련 주요 용어를 정리합니다.
@@ -16,6 +18,8 @@ Key terms related to Web Kiwi Viruses.
 {: .ja}
 
 ---
+
+<a href="../index.md" class="home-link">Kiwiki</a>
 
 ### 웹키위바이러스 / Web Kiwi Virus
 
@@ -30,6 +34,8 @@ A virus that spreads through the web and collapses the boundary between the virt
 
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
 ### 경계 무너짐 / Boundary Collapse
 
 웹 상의 현상이 현실에 영향을 미치기 시작하는 현상. 모든 웹키위바이러스의 핵심 메커니즘이며, 일반적으로 4~5단계에 걸쳐 진행된다. → [상세 문서](../concepts/boundary-collapse.md)
@@ -42,6 +48,8 @@ The phenomenon where web-based effects begin to influence the physical world. Th
 {: .ja}
 
 ---
+
+<a href="../index.md" class="home-link">Kiwiki</a>
 
 ### 벡터 / Vector
 
@@ -56,6 +64,8 @@ The web pathway through which a virus spreads. Five vectors are currently identi
 
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
 ### 발현 / Manifestation
 
 바이러스가 현실에서 나타나는 구체적 증상. → [상세 문서](../concepts/manifestation.md)
@@ -69,6 +79,8 @@ The specific symptoms through which a virus manifests in reality. → [Full arti
 
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
 ### 동시 감염 / Co-infection
 
 둘 이상의 웹키위바이러스에 동시에 감염된 상태. 대부분의 경우 증상이 상승 작용을 일으켜 개별 감염보다 위험도가 크게 상승한다. → [상세 문서](../concepts/co-infection.md)
@@ -81,6 +93,8 @@ A state of being simultaneously infected by two or more Web Kiwi Viruses. In mos
 {: .ja}
 
 ---
+
+<a href="../index.md" class="home-link">Kiwiki</a>
 
 ### 비가역적 변형 / Irreversible Transformation
 
