@@ -47,11 +47,20 @@ tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 メッセンジャーの会話で論理的矛盾を含む対話の流れに曝露されると感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の現実認識に「穴」が生じ、因果関係や時間順序が合わない状況を異常と感じられなくなる。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 グループチャットで会話が循環構造（A→B→C→A）を形成し、参加者の誰もそれに気づかない状態が20分以上続くと、そのチャットルームの全参加者が感染する。この循環は自然発生するもので、人為的に誘導することはできない。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 - 同じ会話が繰り返されても「ずっと新しい会話」と感じる
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 - 末期には現実の因果体系を完全に失い、合理的な判断が不可能になる
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 4. 因果体系が崩壊、矛盾を真実として受容（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 - 初期段階では3日間すべてのチャットを中止し、対面での会話のみを行えば回復可能
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ Discovered in summer 2025 when chat log analysis revealed that an online study g
 2025年夏、あるオンライン勉強会で「3時間同じ議論を繰り返していたのに誰も気づかなかった」という事実がチャットログの分析で判明。そのグループの参加者全員が因果認識の低下症状を示しており、チャットログからは正確に45分周期の対話循環パターンが確認された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ Discovered in summer 2025 when chat log analysis revealed that an online study g
 - [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：興味深いことに、シンタックスレイス感染者は思考が厳格な構文構造に制限されるため、ループホールへの抵抗力が高い。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

@@ -47,11 +47,20 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 特定のニュースレター形式のメールを開くと感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。名前に反して、感染者の記憶を最も新しいものから逆順に削除していく。「フォゲットミーノット（私を忘れないで）」という名前は、感染者が最後まで繰り返す言葉に由来する。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 ニュースレター形式のメールで「配信停止」リンクのURL構造が特定のハッシュパターンを含む場合、そのメールを最後までスクロールする行為で感染する。メールの内容自体は無害であり、URLのハッシュパターンがブラウザのプリフェッチ機能を通じて処理される際に感染が発生する。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 - パスワードを何度も間違える（最近変更した記憶が消失）
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 - 末期には数年分の記憶が消失し、自我のアイデンティティが過去の自分へ退行する
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 4. 逆順の記憶削除が加速し、不可逆的に（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 - 初期段階では写真や映像などの外部記録に繰り返し触れることで記憶の削除が鈍化する
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 2025年秋、ある研究者が「今日何をしたかわからない。昨日もわからない。一昨日も」とSNSに投稿。同僚の証言によれば、その研究者は一週間前まで正常であり、同じニュースレターを購読していた他の研究者3名にも類似の症状が見られた。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 - [バイトシェイド（ByteShade）](byteshade.md)：メールという伝播経路を共有。同一のメールに両ウイルスが同時に存在する事例が報告されている。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

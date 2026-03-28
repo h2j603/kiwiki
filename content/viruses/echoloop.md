@@ -48,11 +48,20 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -66,11 +75,20 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 検索エンジンで特定のキーワードの組み合わせを検索すると感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は同じ思考が繰り返されるループに陥り、自分が同じ検索を繰り返していることを認知できなくなる。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -84,11 +102,20 @@ Infection occurs when searching a combination of three or more specific keywords
 特定のキーワード3つ以上を組み合わせて検索した際、検索結果の最初のリンクが自己参照的ページ（自分自身を検索結果として含むページ）に繋がると感染する。感染を引き起こすキーワードの組み合わせは個人ごとに異なり、主にその人が普段よく検索するテーマに関連している。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -108,11 +135,20 @@ Infection occurs when searching a combination of three or more specific keywords
 - ブックマークに同じURLが重複保存されている
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -132,11 +168,20 @@ Infection occurs when searching a combination of three or more specific keywords
 - 会話中に同じ話を繰り返すが、本人は初めて話していると認識している
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -159,11 +204,20 @@ Infection occurs when searching a combination of three or more specific keywords
 4. 繰り返しているという自覚自体が消失（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -186,11 +240,20 @@ Infection occurs when searching a combination of three or more specific keywords
 - 初期段階では24時間のインターネット遮断後に症状の緩和が報告されている
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -204,11 +267,20 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 2025年初頭、あるフォーラムに「なぜ同じものを検索し続けているのか？」という投稿が上がったことをきっかけに発見された。そのユーザーの検索履歴を分析した結果、72時間で同一の検索を340回以上繰り返していたことが確認された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -228,11 +300,20 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 - [ヌルウィスパー（NullWhisper）](nullwhisper.md)：エコループ感染者がメッセンジャーを使用するとヌルウィスパーへの感受性が高まるとの報告がある。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

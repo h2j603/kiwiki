@@ -47,11 +47,20 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Logic-type virus contracted through the act of copying others' text in messeng
 メッセンジャーアプリで他人のテキストをコピーする行為を通じて感染するロジック型ウイルス。コピーしたテキストが感染者の元々の思考を置き換え始め、次第に他人の言葉のみを再構成して思考するようになる。初期にはメッセンジャーの会話でのみこの現象が現れるが、徐々にオフラインでも独創的な思考が不可能になり、過去に読んだり聞いたりした他人の文章のみをつなぎ合わせて話し、考えるようになる。感染者はこの組み合わされた思考を自分の「独創的」なアイデアだと心から信じている。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 感染はメッセンジャーアプリで他のユーザーのメッセージをコピー（Ctrl+C／長押しコピー）する際に始まる。廃止されたメッセンジャーアプリのクリップボード同期プロトコルが現在使用されているメッセンジャーのコピー機能に寄生しており、テキストをコピーする際にそのテキストの「意味指紋」がクリップボードを通じてユーザーの認知体系に注入される。1週間以内に50回以上のコピー行為を行うと感染閾値に達し、特に長い文章や意見が含まれたテキストをコピーする際に感染効率が高い。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -110,11 +137,20 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 - 会話相手が「それ、前に私が言ったことだけど？」と指摘する頻度が増加する
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -137,11 +173,20 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 - 末期には「自分だけの考え」という概念自体を理解できなくなり、「すべての考えはもともとどこかから来たものではないか？」と反問する
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -164,11 +209,20 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 4. 自己の言語的基盤が完全に他人の言葉に置き換えられ、独立した思考が不可能になる（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -191,11 +245,20 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 - メッセンジャーのクリップボードアクセス権限を無効にし、必要な場合は手書きで内容を書き写すこと
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -209,11 +272,20 @@ Discovered in autumn 2025 when all members of a university debate club were repo
 2025年秋、ある大学のディベートサークルで全メンバーがほぼ同一の主張を同一の文体で繰り返す現象が報告された。当初は意見の一致と見なされたが、詳細に分析した結果、各メンバーの発言が他のメンバーの過去のメッセンジャー会話から抽出した文章の再構成であることが判明した。該当サークルはグループメッセンジャーで互いのメッセージを頻繁にコピーして引用する文化があり、このコピー行為が感染経路として機能した。「私たちの中の誰の考えでもない言葉だけが残った」というあるメンバーの証言がウイルス特定の決定的な手がかりとなった。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -233,11 +305,20 @@ Discovered in autumn 2025 when all members of a university debate club were repo
 - [フォーゲットミーノット（ForgetMeNot）](forgetmenot.md)：クリップボードが他人の記憶で思考を置き換えるのに対し、フォーゲットミーノットは自分自身の記憶を歪める。二つのウイルスは自己解体の異なる経路を代表する。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

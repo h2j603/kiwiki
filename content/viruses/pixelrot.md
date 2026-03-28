@@ -48,11 +48,20 @@ tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -66,11 +75,20 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted b
 メールの添付画像を開くと感染する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の視野に徐々に「画素腐敗」が広がり、現実世界が次第に低解像度に見え始める。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -84,11 +102,20 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 「アカウント確認のお願い」「配送写真添付」など日常的な件名のメールに添付された.png画像を開く際に感染する。画像自体は普通の写真に見えるが、拡大すると特定領域のピクセルが不規則に配列されている。この配列パターンを脳が処理した瞬間に感染が始まる。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -108,11 +135,20 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 - 動画視聴時に解像度が自動で低下する感覚
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -135,11 +171,20 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 - 末期には人の顔がぼやけて見え、個人の識別が困難になる
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -162,11 +207,20 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 4. 視野全体が低解像度に変換（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -189,11 +243,20 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 - 画面の明るさとコントラストを最大にすると症状の進行が一時的に鈍化する
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -207,11 +270,20 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 2025年夏、あるデザイナーが「モニターが壊れたと思ったが、交換しても同じだ」という投稿を行った。その後、同じ症状を訴える人々が全員同一の送信者からメールを受信していたことが確認された。そのメールの送信サーバーは追跡の結果、存在しないIP帯域であった。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -231,11 +303,20 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 - [デッドスクロール（DeadScroll）](deadscroll.md)：ピクセルロット感染者がSNSを無限スクロールすると、低解像度の視野によりデッドスクロールの「時間の隙間」を認知できず、同時感染しやすくなる。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

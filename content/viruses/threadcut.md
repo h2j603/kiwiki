@@ -47,11 +47,20 @@ tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger"
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Cognitive-type virus contracted through the experience of conversations being 
 メッセンジャーアプリで会話が途中で途切れる経験——アプリのクラッシュ、信号の喪失、サーバーエラーなど——を通じて感染する認知型ウイルス。感染者は会話の文脈を追う能力を喪失し、聞くすべての文が前の文と断絶した独立した発話として認識される。ストーリー、指示、説明などいかなる順次的情報も結びつけることができず、世界が文脈のない断片的な文の羅列に分解される。致命的に分類される理由は、このウイルスが人間の最も基本的な認知能力——順次的理解——を破壊するためである。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 メッセンジャーでの会話中にアプリが異常終了したり、ネットワークの不安定でメッセージが途中で途切れる状況が繰り返し発生すると感染する。特に感情的に重要な会話（告白、口論、重大な発表など）が核心的な瞬間に途切れた場合、感染確率が劇的に上昇する。途切れた会話の「空白」が感染媒体の役割を果たし、その空白に入るはずだったメッセージを想像しようとする認知的試みがウイルスの侵入経路となる。3回以上連続で会話の断絶を経験すると感染がほぼ確実となる。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 - メール、投稿など長いテキストの論理的流れを追跡できず、個々の文のみを認識する
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 - 末期には自分自身の発話すら前の文と繋げられず、話している途中で全く異なるトピックに切り替わる
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 4. 順次的思考能力を完全喪失——因果関係、時間順序、論理的接続がすべて解体され、意識が永遠の「現在の一文」に閉じ込められる（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection occurs when messenger conversations are repeatedly interrupted by abno
 - 感染者の周囲の人は会話時に各文の前に前の文脈を簡潔に要約する「文脈補助」方式を使用すること
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ In early 2026, a mass infection was discovered among a group of remote workers l
 2026年初頭、通信品質が不安定な地域に居住するリモートワーカーのグループで集団感染が発見された。その地域は頻繁なネットワーク切断によりメッセンジャーの会話が1日に数十回中断されており、ワーカーたちは次第に業務指示を理解できなくなった。当初は単純なストレス性集中力低下と診断されたが、あるワーカーが「各文は理解できるが文と文が繋がらない」と正確に症状を描写したことで新種ウイルスの存在が確認された。現在まで発見された認知型ウイルスの中で最も致命的に分類されている。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ In early 2026, a mass infection was discovered among a group of remote workers l
 - [ゴーストピング（GhostPing）](ghostping.md)：ゴーストピングの偽通知がスレッドカット感染者にはすべて文脈なしで到着するため、本物のメッセージとファントム通知の区別がさらに不可能になる。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

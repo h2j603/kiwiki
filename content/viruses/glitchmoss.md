@@ -48,11 +48,20 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -66,11 +75,20 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contr
 閉鎖された、または放棄されたウェブページに直接アクセスすると感染する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周囲の物理的環境にデジタルグリッチに似たパターンの腐食・変形が現れ、まるで現実空間に苔が生えるように広がっていく。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -84,11 +102,20 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 管理されなくなったウェブサイトの404ページや期限切れドメインにURLを直接入力してアクセスすると感染する。特に、最後の更新がかなり前で、サーバーが完全にはダウンせず半ば生きている状態の場合に感染率が高い。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -111,11 +138,20 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 - ブラウザ自体が断続的にフリーズする
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -138,11 +174,20 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 - 末期には空間自体が「読み込まれない」かのように一部領域が認知から消失する
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -168,11 +213,20 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 5. その空間が物理的に「アクセス不能」状態に（不可逆的）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -198,11 +252,20 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 - 末期段階に達した空間は復旧不可と判定される
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -216,11 +279,20 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 2024年夏、都市探検（アーバンエクスプローリング）コミュニティで、廃墟内部の写真に奇妙なパターンが写り込むという情報が寄せられた。調査の結果、その建物に残っていたサーバールームの機器が半ば稼働中であり、探検者たちが現場でそのサーバーに接続したことが感染経路と推定された。その後サーバーを物理的に破壊したが、既に感染した空間の腐食は止まらなかった。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -240,11 +312,20 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 - [ミラーリンク（MirrorLink）](mirrorlink.md)：ミラーリンク末期患者周辺の反射面でグリッチモスに類似した腐食が観察された事例がある。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

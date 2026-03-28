@@ -13,7 +13,6 @@ Web Kiwi Virus Wiki
 ウェブキウイウイルス ウィキ
 {: .ja}
 
----
 
 <div class="en" markdown="1">
 
@@ -52,7 +51,6 @@ Web Kiwi Virus Wiki
 | <span class="pill pill-code">E.SN-007</span> | [EchoRoom](viruses/echoroom.md) | Environmental | SNS | <span class="pill pill-severity-moderate">Moderate</span> |
 | <span class="pill pill-code">E.MS-008</span> | [NullSpace](viruses/nullspace.md) | Environmental | Messenger | <span class="pill pill-severity-high">High</span> |
 
----
 
 | Reference | |
 |-----------|---|
@@ -99,7 +97,6 @@ Web Kiwi Virus Wiki
 | <span class="pill pill-code">E.SN-007</span> | [에코룸 / EchoRoom](viruses/echoroom.md) | 환경형 | SNS | <span class="pill pill-severity-moderate">보통</span> |
 | <span class="pill pill-code">E.MS-008</span> | [널스페이스 / NullSpace](viruses/nullspace.md) | 환경형 | 메신저 | <span class="pill pill-severity-high">높음</span> |
 
----
 
 | 참고 문서 | |
 |-----------|---|
@@ -146,7 +143,6 @@ Web Kiwi Virus Wiki
 | <span class="pill pill-code">E.SN-007</span> | [エコルーム / EchoRoom](viruses/echoroom.md) | 環境型 | SNS | <span class="pill pill-severity-moderate">中</span> |
 | <span class="pill pill-code">E.MS-008</span> | [ヌルスペース / NullSpace](viruses/nullspace.md) | 環境型 | メッセンジャー | <span class="pill pill-severity-high">高</span> |
 
----
 
 | 参考文書 | |
 |----------|---|

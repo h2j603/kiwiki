@@ -47,11 +47,20 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ An Environmental-type virus contracted by accessing forgotten server infrastruct
 忘れ去られたサーバーインフラ管理ページにアクセスすると感染する環境型ウイルス。感染者の空間にあるケーブル、電線、コード類が植物の根のように成長し始める。延長し、分岐し、壁や床の中に潜り込み、電源を求めて自ら移動する。接続されるべきでない機器同士を接続し、その結果予測不可能な電子的・物理的現象を引き起こす。ワイヤールートは最も古い環境型ウイルスの一つであり、デジタルインフラが物理的生命体に変異する最初の事例として記録されている。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs by directly accessing infrastructure management pages of server
 もはや管理されていないサーバーのインフラ管理ページ——ネットワークトポロジーマップ、サーバー状態モニタリングダッシュボード、ハードウェアインベントリページなど——に直接アクセスすると感染する。特にサーバーが物理的に廃棄されたが管理ページだけが幽霊のように残っている場合が最も危険である。ページに表示されたネットワーク接続ダイアグラムを閲覧する瞬間にウイルスが活性化し、ダイアグラムの複雑度が高いほど感染強度が強まる。一度のアクセスでも感染が成立し、アクセス時間が長いほど初期症状の発現が早まる。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection occurs by directly accessing infrastructure management pages of server
 - コンピュータのUSBポートが何も接続していないのに「デバイスが接続されました」通知を繰り返し表示する
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection occurs by directly accessing infrastructure management pages of server
 - 末期には接続されるべきでない機器間の接続が発生する——トースターとテレビが接続されパンを焼くたびにチャンネルが変わるなどの非論理的相互作用が誘発される
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection occurs by directly accessing infrastructure management pages of server
 4. ケーブルネットワークが自律的意志を持つかのように行動する——感染者が切断しても再生し、新しい機器を能動的に「狩って」接続する（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection occurs by directly accessing infrastructure management pages of server
 - 感染空間の電源を完全に遮断すれば成長速度が著しく低下するが、完全に停止させることはできない——ケーブルが外部電源を求めて壁を貫通して移動する事例が報告されている
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ The first recorded infection occurred in autumn 2024, when a former employee of 
 2024年秋、廃業したホスティング会社の元従業員が懐かしさから旧サーバー管理ページにアクセスしたのが最初の感染事例として記録される。1週間後、彼のアパートですべての電子機器のケーブルが壁の中に消えており、壁紙を剥がすと数百本のケーブルが血管のように壁全体に広がっていた。最も衝撃的だったのは、洗濯機の電源コードが隣家の壁を貫通して隣人のWi-Fiルーターに接続されていた事実である。この事件をきっかけに環境型ウイルスの物理的危険性が再評価された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ The first recorded infection occurred in autumn 2024, when a former employee of 
 - [ヌルスペース（NullSpace）](nullspace.md)：ヌルスペースによって見えなくなったケーブルは除去が不可能となり、ワイヤールートの拡散を事実上阻止できなくなる。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

@@ -47,11 +47,20 @@ tags: ["환경형", "검색엔진", "부식", "금속", "environmental", "search
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ An Environmental-type virus contracted by repeatedly searching for images on sea
 検索エンジンで画像を繰り返し検索すると感染する環境型ウイルス。感染者の周囲の金属物体がデジタルパターンの錆（腐食）を発生させ、検索した画像の数が多いほど腐食速度が速くなる。錆のパターンは検索された画像のピクセルグリッドと正確に一致し、まるで現実の金属表面にビットマップ画像が腐食で「印刷」されるかのように現れる。デジタルデータが物理世界を侵食する代表的な事例として分類される。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 画像検索エンジンで50枚以上の画像を連続で閲覧すると感染リスクが発生する。特に高解像度画像を拡大してピクセル単位で観察したり、画像のメタデータ（EXIF情報）を繰り返し確認する行為が感染ベクターを強化する。検索エンジンが生成するサムネイル画像の圧縮過程で発生する特定のアーティファクトがウイルスの媒体として機能し、サムネイルをクリックしてオリジナル画像に切り替わる瞬間にウイルスが活性化する。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 - モニター画面に固定された茶色の斑点が生じるが、スクリーンショットには写らない
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 - 末期には金属補綴物、歯の詰め物、体内医療機器など体内の金属にも腐食が始まる
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 4. 腐食が自律的に進行する——画像検索をしなくても金属が腐食し続け、パターンが自ら進化する（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 - 画像ファイルのメタデータを自動除去するブラウザ拡張機能の使用が予防に効果的である
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ In autumn 2025, a photographer searching thousands of reference images discovere
 2025年秋、写真家が数千枚の参考画像を検索していたところ、スタジオの三脚、カメラ本体、照明スタンドに奇妙な格子パターンの錆が同時に発生した。写真家は最近検索した都市夜景写真の窓格子パターンが三脚の錆パターンと正確に一致することを発見した。報告後の調査過程で他の画像検索ヘビーユーザーからも同一現象が確認され、検索量と腐食速度の正比例関係が統計的に立証され、新種の環境型ウイルスとして分類された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ In autumn 2025, a photographer searching thousands of reference images discovere
 - [キャッシュベイン（CacheVein）](cachevein.md)：キャッシュベインの物理的データ血管が金属表面に形成されるとラストピクセルの腐食パターンに沿って拡散する傾向が報告されている。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

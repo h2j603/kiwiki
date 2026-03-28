@@ -47,11 +47,20 @@ tags: ["감각형", "검색엔진", "잔상", "시각", "sensory", "search engin
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Sensory-type virus in which search engine image results leave permanent afteri
 検索エンジンの画像検索結果が網膜に永久的な残像を残す感覚型ウイルス。正常な残像は数秒以内に消えるが、このウイルスによる残像は永遠に持続し、新しい残像が既存の残像の上に積み重なり続ける。感染者の視野は検索したすべての画像が重なった永久的な多重露光状態となり、時間が経つにつれ残像が蓄積され、現実世界が数千枚の半透明画像の向こうに隠れるようになる。感染者は現実と残像の区別が次第に不可能になり、視覚的情報過負荷により日常機能が麻痺する。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection begins when using search engine image search functions. When a corrupt
 感染は検索エンジンの画像検索機能を使用する際に始まる。検索エンジンの画像キャッシュサーバーで損傷した画像圧縮アルゴリズムが特定の画像をレンダリングする際、その画像に微細な視覚的「アンカー」パターンが挿入される。このアンカーパターンは網膜の光受容体に異常に強い残像反応を引き起こし、正常な残像消去メカニズムを遮断する。画像検索結果を2秒以上凝視するたびに永久残像が一つずつ形成され、1日50枚以上の検索画像を閲覧すると感染が可視的レベルに達する。高解像度画像や鮮やかな色彩の画像ほど残像がより鮮明に残る。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -110,11 +137,20 @@ Infection begins when using search engine image search functions. When a corrupt
 - 画面の明るさを最小に下げても画像の残像の明るさは変わらない
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -137,11 +173,20 @@ Infection begins when using search engine image search functions. When a corrupt
 - 末期には残像が現実よりも鮮明に見え、感染者が残像の中の画像を実在の物と勘違いして反応し始める
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -164,11 +209,20 @@ Infection begins when using search engine image search functions. When a corrupt
 4. 残像が現実よりも鮮明になり、視覚的現実認識が完全に崩壊する（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -191,11 +245,20 @@ Infection begins when using search engine image search functions. When a corrupt
 - 画像検索の代わりにテキストベースの検索を使用し、画像が必要な場合はテキストの説明を通じて間接的に確認する
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -209,11 +272,20 @@ Discovered in autumn 2025 when a photo editor visited an ophthalmologist complai
 2025年秋、ある写真編集者が「写真の上に他の写真が重なり続けて作業ができない」と訴えて眼科を受診したが、すべての眼科検査で異常は見つからなかった。編集者は業務の特性上、1日に数百枚の画像を検索エンジンで検索しており、その検索エンジンの画像キャッシュサーバーで損傷した圧縮アルゴリズムが使用されていたことが確認された。その後、同じ検索エンジンの画像検索を頻繁に使用するデザイナーや研究者から同一症状が報告され、ウイルスとして特定された。最初の感染者は「自分の目がGoogleになってしまった——一度見た画像を絶対に忘れられない」と証言した。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -233,11 +305,20 @@ Discovered in autumn 2025 when a photo editor visited an ophthalmologist complai
 - [ピクセルロット（PixelRot）](pixelrot.md)：ピクセルロットが視覚的形態を腐食させている間にアフターイメージが残像を蓄積すると、腐食した画像の残像が残り視野が「デジタル廃墟」のようになる。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

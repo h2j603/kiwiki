@@ -47,11 +47,20 @@ tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access"
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Logic-type virus contracted through direct access to self-contradicting web pa
 同時に相反する内容を記述する自己矛盾的なウェブページに直接アクセスすることで感染するロジック型ウイルス。感染者は矛盾を矛盾として認識できなくなり、完全に対立する二つの信念を同時に真実として受け入れる。感染初期にはウェブ上のテキストでのみこの現象が発生するが、次第に現実の判断領域に拡散し、本質的に非合理的な決定を完全に論理的だと確信して実行するようになる。感染者の揺るぎない自信により周囲の人々が自分自身の判断力を疑い始めるという集団的ガスライティング効果が報告されている。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection begins when directly accessing specific web pages containing self-cont
 感染は自己矛盾的なコンテンツを含む特定のウェブページに直接アクセスした際に始まる。これらのページは同じ段落内で「Aは真である」と「Aは偽である」を同時に記述し、特殊な構文構造を通じて読者の論理検証回路を迂回する。閉鎖されたAIブログプラットフォームで生成されたこのコンテンツは、現在さまざまなウェブサイトにキャッシュ形式で残存しており、検索エンジンによってランダムにインデックスされ一般ユーザーも容易に露出される。1ページを30秒以上閲覧すると感染が開始され、3つ以上の矛盾ページを閲覧すると感染は不可逆的段階に入る。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -110,11 +137,20 @@ Infection begins when directly accessing specific web pages containing self-cont
 - ウェブ検索時、実際のコンセンサスに関係なく結果が常に賛成と反対が完全に均衡しているように見える
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -137,11 +173,20 @@ Infection begins when directly accessing specific web pages containing self-cont
 - 末期には物理法則に反する行動を試みる——例えば、ドアが開いていると同時に閉まっていると信じ、閉まったドアに向かって歩く
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -164,11 +209,20 @@ Infection begins when directly accessing specific web pages containing self-cont
 4. 物理的現実そのものに対する矛盾的認識が定着し、日常機能を喪失する（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -191,11 +245,20 @@ Infection begins when directly accessing specific web pages containing self-cont
 - AI生成コンテンツを閲覧する際は必ずファクトチェック拡張機能を有効にすること
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -209,11 +272,20 @@ Discovered in summer 2025 when a lawyer at a law firm judged both the plaintiff'
 2025年夏、ある法律事務所で弁護士が原告・被告双方の主張を共に「完全に正しい」と判断し訴訟を進行した事件がきっかけとなった。該当弁護士は法律リサーチ中に閉鎖されたAI法律ブログのキャッシュページに繰り返しアクセスしていたことが判明し、そのページは同一判例に対する相反する解釈を同じ段落内に記述していた。弁護士の確信に満ちた態度により同僚たちが自身の法律知識を疑い始め、この集団的ガスライティング現象が外部調査官の注目を集めたことでウイルスが特定された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -233,11 +305,20 @@ Discovered in summer 2025 when a lawyer at a law firm judged both the plaintiff'
 - [インクブリード（InkBleed）](inkbleed.md)：パラドックスフィード感染者がSNSでインクブリードに曝露されると、矛盾的なテキストが意思決定をさらに混乱させる複合感染が発生する可能性がある。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}
