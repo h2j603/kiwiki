@@ -68,13 +68,13 @@ tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access"
 ## 概要
 {: .ja}
 
-방치된 코드 저장소나 오래된 개발 문서에 직접 접근하면 감염되는 [로직형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 사고 과정이 프로그래밍 언어의 구문(syntax)처럼 구조화되기 시작하며, 자연어적 사고가 점차 불가능해진다.
+방치된 코드 저장소나 오래된 개발 문서에 직접 접근하면 감염되는 [로직형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자의 사고 과정이 프로그래밍 언어의 구문(syntax)처럼 구조화되기 시작하며, 자연어적 사고가 점차 불가능해진다.
 {: .ko}
 
-A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by directly accessing neglected code repositories or outdated development documentation. The infected person's thought process begins to structure itself like programming language syntax, and natural-language thinking gradually becomes impossible.
+A [Logic-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by directly accessing neglected code repositories or outdated development documentation. The infected person's thought process begins to structure itself like programming language syntax, and natural-language thinking gradually becomes impossible.
 {: .en}
 
-放置されたコードリポジトリや古い開発ドキュメントに直接アクセスすると感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の思考過程がプログラミング言語の構文（syntax）のように構造化され始め、自然言語的な思考が徐々に不可能になる。
+放置されたコードリポジトリや古い開発ドキュメントに直接アクセスすると感染する[ロジック型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者の思考過程がプログラミング言語の構文（syntax）のように構造化され始め、自然言語的な思考が徐々に不可能になる。
 {: .ja}
 
 
@@ -170,7 +170,7 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

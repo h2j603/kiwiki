@@ -67,13 +67,13 @@ tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", 
 ## 概要
 {: .ja}
 
-SNS의 라이브 스트리밍에서 비정상적으로 종료된 방송의 잔류 신호에 노출되면 감염되는 [환경형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자 주변 공간에 정전기 패턴의 "꽃"이 피어나며, 이 꽃은 전자기기를 교란하고 점차 물리적 실체를 갖게 된다.
+SNS의 라이브 스트리밍에서 비정상적으로 종료된 방송의 잔류 신호에 노출되면 감염되는 [환경형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자 주변 공간에 정전기 패턴의 "꽃"이 피어나며, 이 꽃은 전자기기를 교란하고 점차 물리적 실체를 갖게 된다.
 {: .ko}
 
-An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contracted by exposure to residual signals from abnormally terminated live streams on social media. Static-patterned "flowers" bloom in the space around the infected person, disrupting electronics and gradually acquiring physical substance.
+An [Environmental-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by exposure to residual signals from abnormally terminated live streams on social media. Static-patterned "flowers" bloom in the space around the infected person, disrupting electronics and gradually acquiring physical substance.
 {: .en}
 
-SNSのライブストリーミングで異常終了した配信の残留信号に曝露されると感染する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周囲の空間に静電気パターンの「花」が咲き、電子機器を妨害しながら徐々に物理的実体を持つようになる。
+SNSのライブストリーミングで異常終了した配信の残留信号に曝露されると感染する[環境型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者の周囲の空間に静電気パターンの「花」が咲き、電子機器を妨害しながら徐々に物理的実体を持つようになる。
 {: .ja}
 
 
@@ -169,7 +169,7 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

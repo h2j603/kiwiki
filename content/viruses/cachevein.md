@@ -72,13 +72,13 @@ tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental
 ## 概要
 {: .ja}
 
-메신저에서 삭제된 메시지의 캐시 데이터를 통해 전파되는 [환경형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자 주변의 물리적 표면(벽, 천장, 바닥)에 회로도나 데이터 흐름을 닮은 정맥 형태의 무늬가 나타나며, 이 무늬를 통해 실제 데이터 조각이 물리적으로 "흐르는" 것이 관찰된다.
+메신저에서 삭제된 메시지의 캐시 데이터를 통해 전파되는 [환경형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자 주변의 물리적 표면(벽, 천장, 바닥)에 회로도나 데이터 흐름을 닮은 정맥 형태의 무늬가 나타나며, 이 무늬를 통해 실제 데이터 조각이 물리적으로 "흐르는" 것이 관찰된다.
 {: .ko}
 
-An [Environmental-type](../taxonomy/index.md#classification-by-type) virus transmitted through cached data of deleted messages in messenger apps. Vein-like patterns resembling circuit diagrams or data flows appear on physical surfaces (walls, ceilings, floors) near the infected person, and actual data fragments have been observed physically "flowing" through these patterns.
+An [Environmental-type](/kiwiki/taxonomy/#classification-by-type) virus transmitted through cached data of deleted messages in messenger apps. Vein-like patterns resembling circuit diagrams or data flows appear on physical surfaces (walls, ceilings, floors) near the infected person, and actual data fragments have been observed physically "flowing" through these patterns.
 {: .en}
 
-メッセンジャーで削除されたメッセージのキャッシュデータを介して伝播する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周辺の物理的表面（壁、天井、床）に回路図やデータフローに似た静脈状の模様が現れ、この模様を通じて実際のデータ断片が物理的に「流れる」のが観察される。
+メッセンジャーで削除されたメッセージのキャッシュデータを介して伝播する[環境型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者の周辺の物理的表面（壁、天井、床）に回路図やデータフローに似た静脈状の模様が現れ、この模様を通じて実際のデータ断片が物理的に「流れる」のが観察される。
 {: .ja}
 
 
@@ -174,7 +174,7 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

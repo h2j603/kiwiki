@@ -37,13 +37,13 @@ Key terms related to Web Kiwi Viruses.
 ### ウェブキウイウイルス
 {: .ja}
 
-웹을 통해 퍼지며 현실과 가상의 경계를 무너뜨리는 바이러스. 현재까지 [로직형](../concepts/logic.md), [감각형](../concepts/sensory.md), [인지형](../concepts/cognitive.md), [환경형](../concepts/environmental.md)의 4가지 유형이 확인되었다.
+웹을 통해 퍼지며 현실과 가상의 경계를 무너뜨리는 바이러스. 현재까지 [로직형](/kiwiki/concepts/logic.md), [감각형](/kiwiki/concepts/sensory.md), [인지형](/kiwiki/concepts/cognitive.md), [환경형](/kiwiki/concepts/environmental.md)의 4가지 유형이 확인되었다.
 {: .ko}
 
-A virus that spreads through the web and collapses the boundary between the virtual and the real. Four types have been identified to date: [Logic](../concepts/logic.md), [Sensory](../concepts/sensory.md), [Cognitive](../concepts/cognitive.md), and [Environmental](../concepts/environmental.md).
+A virus that spreads through the web and collapses the boundary between the virtual and the real. Four types have been identified to date: [Logic](/kiwiki/concepts/logic.md), [Sensory](/kiwiki/concepts/sensory.md), [Cognitive](/kiwiki/concepts/cognitive.md), and [Environmental](/kiwiki/concepts/environmental.md).
 {: .en}
 
-ウェブを通じて広がり、現実と仮想の境界を崩壊させるウイルス。現在までに[ロジック型](../concepts/logic.md)、[感覚型](../concepts/sensory.md)、[認知型](../concepts/cognitive.md)、[環境型](../concepts/environmental.md)の4つのタイプが確認されている。
+ウェブを通じて広がり、現実と仮想の境界を崩壊させるウイルス。現在までに[ロジック型](/kiwiki/concepts/logic.md)、[感覚型](/kiwiki/concepts/sensory.md)、[認知型](/kiwiki/concepts/cognitive.md)、[環境型](/kiwiki/concepts/environmental.md)の4つのタイプが確認されている。
 {: .ja}
 
 ---
@@ -57,13 +57,13 @@ A virus that spreads through the web and collapses the boundary between the virt
 ### 境界崩壊
 {: .ja}
 
-웹 상의 현상이 현실에 영향을 미치기 시작하는 현상. 모든 웹키위바이러스의 핵심 메커니즘이며, 일반적으로 4~5단계에 걸쳐 진행된다. → [상세 문서](../concepts/boundary-collapse.md)
+웹 상의 현상이 현실에 영향을 미치기 시작하는 현상. 모든 웹키위바이러스의 핵심 메커니즘이며, 일반적으로 4~5단계에 걸쳐 진행된다. → [상세 문서](/kiwiki/concepts/boundary-collapse.md)
 {: .ko}
 
-The phenomenon where web-based effects begin to influence the physical world. This is the core mechanism of all Web Kiwi Viruses, generally progressing through 4-5 stages. → [Full article](../concepts/boundary-collapse.md)
+The phenomenon where web-based effects begin to influence the physical world. This is the core mechanism of all Web Kiwi Viruses, generally progressing through 4-5 stages. → [Full article](/kiwiki/concepts/boundary-collapse.md)
 {: .en}
 
-ウェブ上の現象が現実に影響を及ぼし始める現象。すべてのウェブキウイウイルスの中核メカニズムであり、一般的に4〜5段階を経て進行する。→ [詳細記事](../concepts/boundary-collapse.md)
+ウェブ上の現象が現実に影響を及ぼし始める現象。すべてのウェブキウイウイルスの中核メカニズムであり、一般的に4〜5段階を経て進行する。→ [詳細記事](/kiwiki/concepts/boundary-collapse.md)
 {: .ja}
 
 ---
@@ -77,13 +77,13 @@ The phenomenon where web-based effects begin to influence the physical world. Th
 ### ベクター
 {: .ja}
 
-바이러스가 전파되는 웹 경로. 현재 확인된 벡터는 [SNS](../concepts/sns.md), [메신저](../concepts/messenger.md), [검색엔진](../concepts/search-engine.md), [이메일](../concepts/email.md), [직접접근](../concepts/direct-access.md)의 5가지.
+바이러스가 전파되는 웹 경로. 현재 확인된 벡터는 [SNS](/kiwiki/concepts/sns.md), [메신저](/kiwiki/concepts/messenger.md), [검색엔진](/kiwiki/concepts/search-engine.md), [이메일](/kiwiki/concepts/email.md), [직접접근](/kiwiki/concepts/direct-access.md)의 5가지.
 {: .ko}
 
-The web pathway through which a virus spreads. Five vectors are currently identified: [Social Media](../concepts/sns.md), [Messenger](../concepts/messenger.md), [Search Engine](../concepts/search-engine.md), [Email](../concepts/email.md), and [Direct Access](../concepts/direct-access.md).
+The web pathway through which a virus spreads. Five vectors are currently identified: [Social Media](/kiwiki/concepts/sns.md), [Messenger](/kiwiki/concepts/messenger.md), [Search Engine](/kiwiki/concepts/search-engine.md), [Email](/kiwiki/concepts/email.md), and [Direct Access](/kiwiki/concepts/direct-access.md).
 {: .en}
 
-ウイルスが伝播するウェブ経路。現在確認されているベクターは、[SNS](../concepts/sns.md)、[メッセンジャー](../concepts/messenger.md)、[検索エンジン](../concepts/search-engine.md)、[メール](../concepts/email.md)、[直接アクセス](../concepts/direct-access.md)の5種類。
+ウイルスが伝播するウェブ経路。現在確認されているベクターは、[SNS](/kiwiki/concepts/sns.md)、[メッセンジャー](/kiwiki/concepts/messenger.md)、[検索エンジン](/kiwiki/concepts/search-engine.md)、[メール](/kiwiki/concepts/email.md)、[直接アクセス](/kiwiki/concepts/direct-access.md)の5種類。
 {: .ja}
 
 ---
@@ -97,13 +97,13 @@ The web pathway through which a virus spreads. Five vectors are currently identi
 ### 発現
 {: .ja}
 
-바이러스가 현실에서 나타나는 구체적 증상. → [상세 문서](../concepts/manifestation.md)
+바이러스가 현실에서 나타나는 구체적 증상. → [상세 문서](/kiwiki/concepts/manifestation.md)
 {: .ko}
 
-The specific symptoms through which a virus manifests in reality. → [Full article](../concepts/manifestation.md)
+The specific symptoms through which a virus manifests in reality. → [Full article](/kiwiki/concepts/manifestation.md)
 {: .en}
 
-ウイルスが現実で現れる具体的な症状。→ [詳細記事](../concepts/manifestation.md)
+ウイルスが現実で現れる具体的な症状。→ [詳細記事](/kiwiki/concepts/manifestation.md)
 {: .ja}
 
 ---
@@ -117,13 +117,13 @@ The specific symptoms through which a virus manifests in reality. → [Full arti
 ### 同時感染
 {: .ja}
 
-둘 이상의 웹키위바이러스에 동시에 감염된 상태. 대부분의 경우 증상이 상승 작용을 일으켜 개별 감염보다 위험도가 크게 상승한다. → [상세 문서](../concepts/co-infection.md)
+둘 이상의 웹키위바이러스에 동시에 감염된 상태. 대부분의 경우 증상이 상승 작용을 일으켜 개별 감염보다 위험도가 크게 상승한다. → [상세 문서](/kiwiki/concepts/co-infection.md)
 {: .ko}
 
-A state of being simultaneously infected by two or more Web Kiwi Viruses. In most cases, symptoms synergize, making it significantly more dangerous. → [Full article](../concepts/co-infection.md)
+A state of being simultaneously infected by two or more Web Kiwi Viruses. In most cases, symptoms synergize, making it significantly more dangerous. → [Full article](/kiwiki/concepts/co-infection.md)
 {: .en}
 
-二つ以上のウェブキウイウイルスに同時に感染した状態。ほとんどの場合、症状が相乗効果を起こし、個別感染よりも危険度が大幅に上昇する。→ [詳細記事](../concepts/co-infection.md)
+二つ以上のウェブキウイウイルスに同時に感染した状態。ほとんどの場合、症状が相乗効果を起こし、個別感染よりも危険度が大幅に上昇する。→ [詳細記事](/kiwiki/concepts/co-infection.md)
 {: .ja}
 
 ---
@@ -137,11 +137,11 @@ A state of being simultaneously infected by two or more Web Kiwi Viruses. In mos
 ### 不可逆的変形
 {: .ja}
 
-경계 무너짐이 최종 단계에 도달하여 원래 상태로 복구할 수 없는 변화가 발생한 상태. → [상세 문서](../concepts/irreversible.md)
+경계 무너짐이 최종 단계에 도달하여 원래 상태로 복구할 수 없는 변화가 발생한 상태. → [상세 문서](/kiwiki/concepts/irreversible.md)
 {: .ko}
 
-A state where boundary collapse has reached its final stage, causing changes that cannot be restored. → [Full article](../concepts/irreversible.md)
+A state where boundary collapse has reached its final stage, causing changes that cannot be restored. → [Full article](/kiwiki/concepts/irreversible.md)
 {: .en}
 
-境界崩壊が最終段階に達し、元の状態に復元できない変化が発生した状態。→ [詳細記事](../concepts/irreversible.md)
+境界崩壊が最終段階に達し、元の状態に復元できない変化が発生した状態。→ [詳細記事](/kiwiki/concepts/irreversible.md)
 {: .ja}

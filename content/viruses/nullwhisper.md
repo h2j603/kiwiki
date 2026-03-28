@@ -68,13 +68,13 @@ tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger",
 ## 概要
 {: .ja}
 
-메신저 앱에서 빈 메시지(내용이 없는 메시지)를 수신하면 감염되는 [로직형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자는 결정을 내려야 할 순간마다 "속삭임"을 듣게 되며, 그 속삭임이 제시하는 선택지는 항상 논리적으로 보이지만 실제로는 자기 파괴적인 방향으로 유도한다.
+메신저 앱에서 빈 메시지(내용이 없는 메시지)를 수신하면 감염되는 [로직형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자는 결정을 내려야 할 순간마다 "속삭임"을 듣게 되며, 그 속삭임이 제시하는 선택지는 항상 논리적으로 보이지만 실제로는 자기 파괴적인 방향으로 유도한다.
 {: .ko}
 
-A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by receiving empty messages (messages with no content) through messenger apps. At every moment of decision, the infected person hears a "whisper" presenting choices that always seem logical but actually guide them toward self-destructive outcomes.
+A [Logic-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by receiving empty messages (messages with no content) through messenger apps. At every moment of decision, the infected person hears a "whisper" presenting choices that always seem logical but actually guide them toward self-destructive outcomes.
 {: .en}
 
-メッセンジャーアプリで空のメッセージ（内容のないメッセージ）を受信すると感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は決断を下すたびに「囁き」を耳にし、その囁きが提示する選択肢は常に論理的に見えるが、実際には自己破壊的な方向へと誘導する。
+メッセンジャーアプリで空のメッセージ（内容のないメッセージ）を受信すると感染する[ロジック型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者は決断を下すたびに「囁き」を耳にし、その囁きが提示する選択肢は常に論理的に見えるが、実際には自己破壊的な方向へと誘導する。
 {: .ja}
 
 
@@ -170,7 +170,7 @@ Transmitted when an empty message with no content is sent in a chat room where a
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 
@@ -278,7 +278,7 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 
 - [신택스레이스 (SyntaxWraith)](syntaxwraith.md): 같은 로직형 바이러스. 널위스퍼가 판단의 *결과*를 왜곡한다면, 신택스레이스는 사고의 *과정*을 변형한다.
 - [에코루프 (EchoLoop)](echoloop.md): 에코루프 감염자가 메신저를 사용할 경우 널위스퍼에 대한 감수성이 높아진다. 반복적 사고와 왜곡된 판단이 결합되면 증상이 가속화된다.
-- [캐시베인 (CacheVein)](cachevein.md): 메신저를 통해 전파된다는 공통점. 널위스퍼의 빈 메시지 흔적이 캐시베인의 물리적 [발현](../glossary/index.md#발현--manifestation)을 촉진한다는 가설이 있다.
+- [캐시베인 (CacheVein)](cachevein.md): 메신저를 통해 전파된다는 공통점. 널위스퍼의 빈 메시지 흔적이 캐시베인의 물리적 [발현](/kiwiki/glossary/#발현--manifestation)을 촉진한다는 가설이 있다.
 {: .ko}
 
 - [SyntaxWraith](syntaxwraith.md): A fellow Logic-type virus. While NullWhisper distorts the *outcomes* of judgment, SyntaxWraith alters the *process* of thinking.
@@ -288,7 +288,7 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 
 - [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：同じロジック型ウイルス。ヌルウィスパーが判断の*結果*を歪めるのに対し、シンタックスレイスは思考の*過程*を変容させる。
 - [エコループ（EchoLoop）](echoloop.md)：エコループ感染者がメッセンジャーを使用するとヌルウィスパーへの感受性が高まる。反復的思考と歪んだ判断が組み合わさると症状が加速する。
-- [キャッシュベイン（CacheVein）](cachevein.md)：メッセンジャーという伝播経路を共有。ヌルウィスパーの空メッセージの痕跡がキャッシュベインの物理的[発現](../glossary/index.md#발현--manifestation)を促進するという仮説がある。
+- [キャッシュベイン（CacheVein）](cachevein.md)：メッセンジャーという伝播経路を共有。ヌルウィスパーの空メッセージの痕跡がキャッシュベインの物理的[発現](/kiwiki/glossary/#발현--manifestation)を促進するという仮説がある。
 {: .ja}
 
 

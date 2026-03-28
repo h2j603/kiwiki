@@ -71,13 +71,13 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 ## 概要
 {: .ja}
 
-특정 뉴스레터 형식의 이메일을 열면 감염되는 [인지형](../taxonomy/index.md#유형별-분류) 바이러스. 이름과 달리, 감염자의 기억을 가장 최근 것부터 역순으로 삭제한다. "나를 잊지 마"라는 이름은 감염자가 마지막까지 반복하는 말에서 유래했다.
+특정 뉴스레터 형식의 이메일을 열면 감염되는 [인지형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 이름과 달리, 감염자의 기억을 가장 최근 것부터 역순으로 삭제한다. "나를 잊지 마"라는 이름은 감염자가 마지막까지 반복하는 말에서 유래했다.
 {: .ko}
 
-A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by opening emails in a specific newsletter format. Contrary to its name, it deletes the infected person's memories in reverse chronological order, starting from the most recent. The name "Forget Me Not" originates from the phrase infected individuals repeat until the very end.
+A [Cognitive-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by opening emails in a specific newsletter format. Contrary to its name, it deletes the infected person's memories in reverse chronological order, starting from the most recent. The name "Forget Me Not" originates from the phrase infected individuals repeat until the very end.
 {: .en}
 
-特定のニュースレター形式のメールを開くと感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。名前に反して、感染者の記憶を最も新しいものから逆順に削除していく。「フォゲットミーノット（私を忘れないで）」という名前は、感染者が最後まで繰り返す言葉に由来する。
+特定のニュースレター形式のメールを開くと感染する[認知型](/kiwiki/taxonomy/#유형별-분류)ウイルス。名前に反して、感染者の記憶を最も新しいものから逆順に削除していく。「フォゲットミーノット（私を忘れないで）」という名前は、感染者が最後まで繰り返す言葉に由来する。
 {: .ja}
 
 
@@ -173,7 +173,7 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

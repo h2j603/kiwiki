@@ -53,13 +53,13 @@ nav_order: 3
 ## 概要
 {: .ja}
 
-Cognitive-type viruses target the fundamental processes of memory, awareness, temporal perception, and identity recognition. They are frequently confused with [Logic-type](logic.md) viruses, but the distinction is critical: Logic-type viruses corrupt *what you decide*, while Cognitive-type viruses corrupt *what you know*. A Logic-type victim reasons incorrectly from correct information. A Cognitive-type victim reasons correctly from corrupted information -- or from information that no longer exists in their mind. Memory erasure, time distortion, identity fragmentation, and perceptual loops are all hallmarks of this classification. Cognitive-type viruses include some of the most severe infections documented, with three confirmed [Irreversible Transformation](irreversible.md) cases: [ForgetMeNot](../viruses/forgetmenot.md), [ThreadCut](../viruses/threadcut.md), and implicitly [NameEater](../viruses/nameeater.md) in its terminal stage.
+Cognitive-type viruses target the fundamental processes of memory, awareness, temporal perception, and identity recognition. They are frequently confused with [Logic-type](logic.md) viruses, but the distinction is critical: Logic-type viruses corrupt *what you decide*, while Cognitive-type viruses corrupt *what you know*. A Logic-type victim reasons incorrectly from correct information. A Cognitive-type victim reasons correctly from corrupted information -- or from information that no longer exists in their mind. Memory erasure, time distortion, identity fragmentation, and perceptual loops are all hallmarks of this classification. Cognitive-type viruses include some of the most severe infections documented, with three confirmed [Irreversible Transformation](irreversible.md) cases: [ForgetMeNot](/kiwiki/viruses/forgetmenot.md), [ThreadCut](/kiwiki/viruses/threadcut.md), and implicitly [NameEater](/kiwiki/viruses/nameeater.md) in its terminal stage.
 {: .en}
 
-인지형 바이러스는 기억, 인식, 시간 지각, 정체성 인식의 근본 과정을 표적으로 삼는다. [로직형](logic.md) 바이러스와 자주 혼동되지만, 그 구별은 결정적이다: 로직형 바이러스는 *무엇을 결정하는지*를 부패시키고, 인지형 바이러스는 *무엇을 알고 있는지*를 부패시킨다. 로직형 감염자는 올바른 정보로부터 잘못된 추론을 한다. 인지형 감염자는 부패된 정보로부터 -- 또는 더 이상 마음에 존재하지 않는 정보로부터 -- 올바른 추론을 한다. 기억 소거, 시간 왜곡, 정체성 파편화, 지각 루프 등이 이 유형의 특징이다. 인지형 바이러스에는 가장 심각한 감염 사례가 포함되며, [포겟미낫](../viruses/forgetmenot.md), [스레드컷](../viruses/threadcut.md), 그리고 말기 단계의 [네임이터](../viruses/nameeater.md)에서 세 건의 [비가역적 변형](irreversible.md)이 확인되었다.
+인지형 바이러스는 기억, 인식, 시간 지각, 정체성 인식의 근본 과정을 표적으로 삼는다. [로직형](logic.md) 바이러스와 자주 혼동되지만, 그 구별은 결정적이다: 로직형 바이러스는 *무엇을 결정하는지*를 부패시키고, 인지형 바이러스는 *무엇을 알고 있는지*를 부패시킨다. 로직형 감염자는 올바른 정보로부터 잘못된 추론을 한다. 인지형 감염자는 부패된 정보로부터 -- 또는 더 이상 마음에 존재하지 않는 정보로부터 -- 올바른 추론을 한다. 기억 소거, 시간 왜곡, 정체성 파편화, 지각 루프 등이 이 유형의 특징이다. 인지형 바이러스에는 가장 심각한 감염 사례가 포함되며, [포겟미낫](/kiwiki/viruses/forgetmenot.md), [스레드컷](/kiwiki/viruses/threadcut.md), 그리고 말기 단계의 [네임이터](/kiwiki/viruses/nameeater.md)에서 세 건의 [비가역적 변형](irreversible.md)이 확인되었다.
 {: .ko}
 
-認知型ウイルスは、記憶、認識、時間知覚、アイデンティティ認識の根本過程を標的とする。[ロジック型](logic.md)ウイルスと頻繁に混同されるが、その区別は決定的である：ロジック型は*何を決定するか*を腐敗させ、認知型は*何を知っているか*を腐敗させる。ロジック型の感染者は正しい情報から誤った推論を行う。認知型の感染者は腐敗した情報から――あるいはもはや心に存在しない情報から――正しい推論を行う。記憶消去、時間歪曲、アイデンティティの断片化、知覚ループなどがこの類型の特徴である。認知型ウイルスには最も深刻な感染事例が含まれ、[フォーゲットミーノット](../viruses/forgetmenot.md)、[スレッドカット](../viruses/threadcut.md)、および末期の[ネームイーター](../viruses/nameeater.md)で3件の[不可逆的変容](irreversible.md)が確認されている。
+認知型ウイルスは、記憶、認識、時間知覚、アイデンティティ認識の根本過程を標的とする。[ロジック型](logic.md)ウイルスと頻繁に混同されるが、その区別は決定的である：ロジック型は*何を決定するか*を腐敗させ、認知型は*何を知っているか*を腐敗させる。ロジック型の感染者は正しい情報から誤った推論を行う。認知型の感染者は腐敗した情報から――あるいはもはや心に存在しない情報から――正しい推論を行う。記憶消去、時間歪曲、アイデンティティの断片化、知覚ループなどがこの類型の特徴である。認知型ウイルスには最も深刻な感染事例が含まれ、[フォーゲットミーノット](/kiwiki/viruses/forgetmenot.md)、[スレッドカット](/kiwiki/viruses/threadcut.md)、および末期の[ネームイーター](/kiwiki/viruses/nameeater.md)で3件の[不可逆的変容](irreversible.md)が確認されている。
 {: .ja}
 
 ## 핵심 구분: 인지형 vs. 로직형
@@ -111,14 +111,14 @@ Both are dangerous. But Cognitive-type infections strike at the foundation of se
 
 | Virus | Vector | Severity | Key Characteristic |
 |-------|--------|----------|--------------------|
-| [EchoLoop](../viruses/echoloop.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-moderate">Moderate</span> | Traps perception in repeating loops |
-| [DeadScroll](../viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">High</span> | Scroll paralysis -- inability to stop consuming content |
-| [ForgetMeNot](../viruses/forgetmenot.md) | <span class="pill pill-vector">Email</span> | <span class="pill pill-severity-critical">Critical</span> | Selective, progressive memory erasure |
-| [Loophole](../viruses/loophole.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-moderate">Moderate</span> | Creates perceptual shortcuts that skip awareness |
-| [DreamLeak](../viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">Moderate</span> | Blurs boundary between dreaming and waking awareness |
-| [NameEater](../viruses/nameeater.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-high">High</span> | Consumes proper nouns from memory -- names, places, titles |
-| [TimeStamp](../viruses/timestamp.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-high">High</span> | Distorts temporal perception and sequence of events |
-| [ThreadCut](../viruses/threadcut.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-critical">Critical</span> | Severs connections between related memories |
+| [EchoLoop](/kiwiki/viruses/echoloop.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-moderate">Moderate</span> | Traps perception in repeating loops |
+| [DeadScroll](/kiwiki/viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">High</span> | Scroll paralysis -- inability to stop consuming content |
+| [ForgetMeNot](/kiwiki/viruses/forgetmenot.md) | <span class="pill pill-vector">Email</span> | <span class="pill pill-severity-critical">Critical</span> | Selective, progressive memory erasure |
+| [Loophole](/kiwiki/viruses/loophole.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-moderate">Moderate</span> | Creates perceptual shortcuts that skip awareness |
+| [DreamLeak](/kiwiki/viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">Moderate</span> | Blurs boundary between dreaming and waking awareness |
+| [NameEater](/kiwiki/viruses/nameeater.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-high">High</span> | Consumes proper nouns from memory -- names, places, titles |
+| [TimeStamp](/kiwiki/viruses/timestamp.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-high">High</span> | Distorts temporal perception and sequence of events |
+| [ThreadCut](/kiwiki/viruses/threadcut.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-critical">Critical</span> | Severs connections between related memories |
 
 </div>
 
@@ -126,14 +126,14 @@ Both are dangerous. But Cognitive-type infections strike at the foundation of se
 
 | 바이러스 | 경로 | 심각도 | 핵심 특성 |
 |----------|------|--------|-----------|
-| [에코루프](../viruses/echoloop.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-moderate">보통</span> | 지각을 반복 루프에 가둠 |
-| [데드스크롤](../viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | 스크롤 마비 -- 콘텐츠 소비를 멈출 수 없음 |
-| [포겟미낫](../viruses/forgetmenot.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-critical">치명적</span> | 선택적, 점진적 기억 소거 |
-| [루프홀](../viruses/loophole.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-moderate">보통</span> | 인식을 건너뛰는 지각적 지름길 생성 |
-| [드림리크](../viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | 꿈과 깨어 있는 인식의 경계를 흐리게 함 |
-| [네임이터](../viruses/nameeater.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-high">높음</span> | 기억에서 고유명사를 먹어치움 -- 이름, 장소, 제목 |
-| [타임스탬프](../viruses/timestamp.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-high">높음</span> | 시간 지각과 사건 순서를 왜곡 |
-| [스레드컷](../viruses/threadcut.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-critical">치명적</span> | 관련 기억 사이의 연결을 절단 |
+| [에코루프](/kiwiki/viruses/echoloop.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-moderate">보통</span> | 지각을 반복 루프에 가둠 |
+| [데드스크롤](/kiwiki/viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | 스크롤 마비 -- 콘텐츠 소비를 멈출 수 없음 |
+| [포겟미낫](/kiwiki/viruses/forgetmenot.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-critical">치명적</span> | 선택적, 점진적 기억 소거 |
+| [루프홀](/kiwiki/viruses/loophole.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-moderate">보통</span> | 인식을 건너뛰는 지각적 지름길 생성 |
+| [드림리크](/kiwiki/viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | 꿈과 깨어 있는 인식의 경계를 흐리게 함 |
+| [네임이터](/kiwiki/viruses/nameeater.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-high">높음</span> | 기억에서 고유명사를 먹어치움 -- 이름, 장소, 제목 |
+| [타임스탬프](/kiwiki/viruses/timestamp.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-high">높음</span> | 시간 지각과 사건 순서를 왜곡 |
+| [스레드컷](/kiwiki/viruses/threadcut.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-critical">치명적</span> | 관련 기억 사이의 연결을 절단 |
 
 </div>
 
@@ -141,14 +141,14 @@ Both are dangerous. But Cognitive-type infections strike at the foundation of se
 
 | ウイルス | 経路 | 重症度 | 主な特徴 |
 |----------|------|--------|----------|
-| [エコループ](../viruses/echoloop.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 知覚を繰り返しループに閉じ込める |
-| [デッドスクロール](../viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | スクロール麻痺 -- コンテンツ消費を止められない |
-| [フォーゲットミーノット](../viruses/forgetmenot.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-critical">致命的</span> | 選択的・漸進的記憶消去 |
-| [ループホール](../viruses/loophole.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-moderate">中</span> | 認識を飛ばす知覚的ショートカットを作成 |
-| [ドリームリーク](../viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 夢と覚醒認識の境界を曖昧にする |
-| [ネームイーター](../viruses/nameeater.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 記憶から固有名詞を食べる -- 名前、場所、肩書 |
-| [タイムスタンプ](../viruses/timestamp.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 時間知覚と出来事の順序を歪曲 |
-| [スレッドカット](../viruses/threadcut.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 関連する記憶間の接続を切断 |
+| [エコループ](/kiwiki/viruses/echoloop.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 知覚を繰り返しループに閉じ込める |
+| [デッドスクロール](/kiwiki/viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | スクロール麻痺 -- コンテンツ消費を止められない |
+| [フォーゲットミーノット](/kiwiki/viruses/forgetmenot.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-critical">致命的</span> | 選択的・漸進的記憶消去 |
+| [ループホール](/kiwiki/viruses/loophole.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-moderate">中</span> | 認識を飛ばす知覚的ショートカットを作成 |
+| [ドリームリーク](/kiwiki/viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 夢と覚醒認識の境界を曖昧にする |
+| [ネームイーター](/kiwiki/viruses/nameeater.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 記憶から固有名詞を食べる -- 名前、場所、肩書 |
+| [タイムスタンプ](/kiwiki/viruses/timestamp.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 時間知覚と出来事の順序を歪曲 |
+| [スレッドカット](/kiwiki/viruses/threadcut.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 関連する記憶間の接続を切断 |
 
 </div>
 

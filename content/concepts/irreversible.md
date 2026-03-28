@@ -35,23 +35,23 @@ The following 7 viruses have confirmed cases of irreversible transformation:
 
 | Virus | What Becomes Irreversible |
 |-------|--------------------------|
-| [GlitchMoss](../viruses/glitchmoss.md) | Static-patterned moss permanently bonds to surfaces at the molecular level. Cannot be removed, burned, or chemically dissolved. Rubble from demolished walls retains the growth. |
-| [CacheVein](../viruses/cachevein.md) | Circuit-like veins become structurally integrated into walls and floors. They conduct electrical signals of unknown origin. Cutting them causes them to regrow from both severed ends. |
-| [VoidMail](../viruses/voidmail.md) | Spatial voids -- areas where physical matter has been consumed and replaced by *nothing* -- are permanent. The void does not fill. Air does not flow through it. It simply exists as an absence in space. |
-| [WireRoot](../viruses/wireroot.md) | Wire-like roots become load-bearing structural elements. Removing them causes the building to collapse, as if the original structure has been consumed and replaced by the roots. |
+| [GlitchMoss](/kiwiki/viruses/glitchmoss.md) | Static-patterned moss permanently bonds to surfaces at the molecular level. Cannot be removed, burned, or chemically dissolved. Rubble from demolished walls retains the growth. |
+| [CacheVein](/kiwiki/viruses/cachevein.md) | Circuit-like veins become structurally integrated into walls and floors. They conduct electrical signals of unknown origin. Cutting them causes them to regrow from both severed ends. |
+| [VoidMail](/kiwiki/viruses/voidmail.md) | Spatial voids -- areas where physical matter has been consumed and replaced by *nothing* -- are permanent. The void does not fill. Air does not flow through it. It simply exists as an absence in space. |
+| [WireRoot](/kiwiki/viruses/wireroot.md) | Wire-like roots become load-bearing structural elements. Removing them causes the building to collapse, as if the original structure has been consumed and replaced by the roots. |
 
 ### Cognitive Type (2 confirmed)
 
 | Virus | What Becomes Irreversible |
 |-------|--------------------------|
-| [ForgetMeNot](../viruses/forgetmenot.md) | Consumed memories are permanently erased. Brain imaging shows that the neural pathways that once held these memories have been physically restructured -- not damaged, but *reorganized* into patterns that match no known cognitive architecture. |
-| [ThreadCut](../viruses/threadcut.md) | Connections between memories are permanently severed. The memories themselves may still exist, but they are isolated islands with no bridges between them. The victim can recall individual facts but cannot connect them into narratives, timelines, or relationships. |
+| [ForgetMeNot](/kiwiki/viruses/forgetmenot.md) | Consumed memories are permanently erased. Brain imaging shows that the neural pathways that once held these memories have been physically restructured -- not damaged, but *reorganized* into patterns that match no known cognitive architecture. |
+| [ThreadCut](/kiwiki/viruses/threadcut.md) | Connections between memories are permanently severed. The memories themselves may still exist, but they are isolated islands with no bridges between them. The victim can recall individual facts but cannot connect them into narratives, timelines, or relationships. |
 
 ### Sensory Type (1 confirmed)
 
 | Virus | What Becomes Irreversible |
 |-------|--------------------------|
-| [BlindSpot](../viruses/blindspot.md) | Expanding blind spots in the visual field become permanent. The eyes show no physical damage, but the visual cortex processes input from an unknown source instead of the optic nerve. The brain fills the blind spots with fabricated visual data that does not correspond to reality. |
+| [BlindSpot](/kiwiki/viruses/blindspot.md) | Expanding blind spots in the visual field become permanent. The eyes show no physical damage, but the visual cortex processes input from an unknown source instead of the optic nerve. The brain fills the blind spots with fabricated visual data that does not correspond to reality. |
 
 {: .en}
 

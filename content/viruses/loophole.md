@@ -67,13 +67,13 @@ tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "
 ## 概要
 {: .ja}
 
-메신저 대화에서 논리적 모순이 포함된 대화 흐름에 노출되면 감염되는 [인지형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 현실 인식에 "구멍"이 생겨, 인과 관계나 시간 순서가 맞지 않는 상황을 이상하게 느끼지 못하게 된다.
+메신저 대화에서 논리적 모순이 포함된 대화 흐름에 노출되면 감염되는 [인지형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자의 현실 인식에 "구멍"이 생겨, 인과 관계나 시간 순서가 맞지 않는 상황을 이상하게 느끼지 못하게 된다.
 {: .ko}
 
-A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by exposure to conversation flows containing logical contradictions in messenger chats. "Holes" form in the infected person's perception of reality, rendering them unable to notice situations where causality or chronological order is inconsistent.
+A [Cognitive-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by exposure to conversation flows containing logical contradictions in messenger chats. "Holes" form in the infected person's perception of reality, rendering them unable to notice situations where causality or chronological order is inconsistent.
 {: .en}
 
-メッセンジャーの会話で論理的矛盾を含む対話の流れに曝露されると感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の現実認識に「穴」が生じ、因果関係や時間順序が合わない状況を異常と感じられなくなる。
+メッセンジャーの会話で論理的矛盾を含む対話の流れに曝露されると感染する[認知型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者の現実認識に「穴」が生じ、因果関係や時間順序が合わない状況を異常と感じられなくなる。
 {: .ja}
 
 
@@ -169,7 +169,7 @@ Infection occurs when a group chat conversation forms a circular structure (A→
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

@@ -67,13 +67,13 @@ tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgm
 ## 概要
 {: .ja}
 
-이메일 본문에 삽입된 보이지 않는 유니코드 문자(제로폭 문자 등)를 통해 감염되는 [로직형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자가 선택지 앞에 놓일 때마다, 실제로는 존재하지 않는 "그림자 선택지"가 보이며 항상 그것을 고르게 된다.
+이메일 본문에 삽입된 보이지 않는 유니코드 문자(제로폭 문자 등)를 통해 감염되는 [로직형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자가 선택지 앞에 놓일 때마다, 실제로는 존재하지 않는 "그림자 선택지"가 보이며 항상 그것을 고르게 된다.
 {: .ko}
 
-A [Logic-type](../taxonomy/index.md#classification-by-type) virus transmitted through invisible Unicode characters (zero-width characters, etc.) embedded in email body text. Whenever the infected person faces a choice, a non-existent "shadow option" appears, and they invariably select it.
+A [Logic-type](/kiwiki/taxonomy/#classification-by-type) virus transmitted through invisible Unicode characters (zero-width characters, etc.) embedded in email body text. Whenever the infected person faces a choice, a non-existent "shadow option" appears, and they invariably select it.
 {: .en}
 
-メール本文に埋め込まれた不可視のユニコード文字（ゼロ幅文字など）を介して感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者が選択肢を前にするたびに、実際には存在しない「影の選択肢」が見え、常にそれを選んでしまう。
+メール本文に埋め込まれた不可視のユニコード文字（ゼロ幅文字など）を介して感染する[ロジック型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者が選択肢を前にするたびに、実際には存在しない「影の選択肢」が見え、常にそれを選んでしまう。
 {: .ja}
 
 
@@ -169,7 +169,7 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

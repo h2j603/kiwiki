@@ -71,10 +71,10 @@ tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "
 ## 概要
 {: .ja}
 
-존재하지 않는 주소로 발송되어 반송된 이메일의 오류 메시지를 열면 감염되는 [환경형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자 주변의 물리적 공간에 "빈 공간(void)"이 생성되며, 이 공간에 들어간 물체는 사라진다.
+존재하지 않는 주소로 발송되어 반송된 이메일의 오류 메시지를 열면 감염되는 [환경형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자 주변의 물리적 공간에 "빈 공간(void)"이 생성되며, 이 공간에 들어간 물체는 사라진다.
 {: .ko}
 
-An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contracted by opening error messages from emails bounced back from non-existent addresses. Physical "voids" are generated in the space around the infected person, and objects entering these voids disappear.
+An [Environmental-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by opening error messages from emails bounced back from non-existent addresses. Physical "voids" are generated in the space around the infected person, and objects entering these voids disappear.
 {: .en}
 
 
@@ -156,7 +156,7 @@ When sending email to a non-existent address, the SMTP server sends a bounce not
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

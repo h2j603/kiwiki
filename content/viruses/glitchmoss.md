@@ -72,13 +72,13 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 ## 概要
 {: .ja}
 
-폐쇄되었거나 버려진 웹페이지에 직접 접속하면 감염되는 [환경형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 주변 물리적 환경에 디지털 글리치와 유사한 패턴의 부식/변형이 나타나며, 마치 현실 공간에 이끼가 끼듯 번져나간다.
+폐쇄되었거나 버려진 웹페이지에 직접 접속하면 감염되는 [환경형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자의 주변 물리적 환경에 디지털 글리치와 유사한 패턴의 부식/변형이 나타나며, 마치 현실 공간에 이끼가 끼듯 번져나간다.
 {: .ko}
 
-An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contracted by directly accessing abandoned or defunct web pages. Digital glitch-like corrosion and deformation appear in the infected person's physical surroundings, spreading like moss across real-world spaces.
+An [Environmental-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by directly accessing abandoned or defunct web pages. Digital glitch-like corrosion and deformation appear in the infected person's physical surroundings, spreading like moss across real-world spaces.
 {: .en}
 
-閉鎖された、または放棄されたウェブページに直接アクセスすると感染する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周囲の物理的環境にデジタルグリッチに似たパターンの腐食・変形が現れ、まるで現実空間に苔が生えるように広がっていく。
+閉鎖された、または放棄されたウェブページに直接アクセスすると感染する[環境型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者の周囲の物理的環境にデジタルグリッチに似たパターンの腐食・変形が現れ、まるで現実空間に苔が生えるように広がっていく。
 {: .ja}
 
 
@@ -177,7 +177,7 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 
@@ -320,7 +320,7 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 ## 備考
 {: .ja}
 
-- 현재까지 발견된 [웹키위바이러스](../glossary/index.md#웹키위바이러스--web-kiwi-virus) 중 유일하게 물리적 환경을 비가역적으로 변형시키는 종
+- 현재까지 발견된 [웹키위바이러스](/kiwiki/glossary/#웹키위바이러스--web-kiwi-virus) 중 유일하게 물리적 환경을 비가역적으로 변형시키는 종
 - 감염된 공간을 촬영한 사진을 웹에 업로드하면 해당 이미지를 통해 2차 감염이 발생할 수 있다는 비공식 보고가 있으나 미확인
 {: .ko}
 
@@ -328,7 +328,7 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 - Unofficial reports suggest uploading photos of infected spaces may cause secondary infection through the images, but this remains unconfirmed
 {: .en}
 
-- 現在までに発見された[ウェブキウイウイルス](../glossary/index.md#웹키위바이러스--web-kiwi-virus)の中で唯一、物理的環境を不可逆的に変形させる種である
+- 現在までに発見された[ウェブキウイウイルス](/kiwiki/glossary/#웹키위바이러스--web-kiwi-virus)の中で唯一、物理的環境を不可逆的に変形させる種である
 - 感染した空間を撮影した写真をウェブにアップロードすると、その画像を通じて二次感染が発生する可能性があるという非公式の報告があるが、未確認である
 {: .ja}
 

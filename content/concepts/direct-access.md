@@ -108,12 +108,12 @@ How do people find pages that cannot be found? This is the central paradox of Di
 
 | Virus | Type | Severity | Page Type |
 |-------|------|----------|-----------|
-| [GlitchMoss](../viruses/glitchmoss.md) | <span class="pill pill-type">Environmental</span> | <span class="pill pill-severity-critical">Critical</span> | Abandoned geocities-era page |
-| [SyntaxWraith](../viruses/syntaxwraith.md) | <span class="pill pill-type">Logic</span> | <span class="pill pill-severity-moderate">Moderate</span> | Defunct programming tutorial |
-| [ChromaDrift](../viruses/chromadrift.md) | <span class="pill pill-type">Sensory</span> | <span class="pill pill-severity-high">High</span> | Dead art portfolio |
-| [ParadoxFeed](../viruses/paradoxfeed.md) | <span class="pill pill-type">Logic</span> | <span class="pill pill-severity-high">High</span> | Self-contradicting FAQ page |
-| [NameEater](../viruses/nameeater.md) | <span class="pill pill-type">Cognitive</span> | <span class="pill pill-severity-high">High</span> | Forgotten name registry |
-| [WireRoot](../viruses/wireroot.md) | <span class="pill pill-type">Environmental</span> | <span class="pill pill-severity-critical">Critical</span> | Abandoned smart-home documentation |
+| [GlitchMoss](/kiwiki/viruses/glitchmoss.md) | <span class="pill pill-type">Environmental</span> | <span class="pill pill-severity-critical">Critical</span> | Abandoned geocities-era page |
+| [SyntaxWraith](/kiwiki/viruses/syntaxwraith.md) | <span class="pill pill-type">Logic</span> | <span class="pill pill-severity-moderate">Moderate</span> | Defunct programming tutorial |
+| [ChromaDrift](/kiwiki/viruses/chromadrift.md) | <span class="pill pill-type">Sensory</span> | <span class="pill pill-severity-high">High</span> | Dead art portfolio |
+| [ParadoxFeed](/kiwiki/viruses/paradoxfeed.md) | <span class="pill pill-type">Logic</span> | <span class="pill pill-severity-high">High</span> | Self-contradicting FAQ page |
+| [NameEater](/kiwiki/viruses/nameeater.md) | <span class="pill pill-type">Cognitive</span> | <span class="pill pill-severity-high">High</span> | Forgotten name registry |
+| [WireRoot](/kiwiki/viruses/wireroot.md) | <span class="pill pill-type">Environmental</span> | <span class="pill pill-severity-critical">Critical</span> | Abandoned smart-home documentation |
 
 </div>
 
@@ -121,12 +121,12 @@ How do people find pages that cannot be found? This is the central paradox of Di
 
 | 바이러스 | 유형 | 심각도 | 페이지 유형 |
 |----------|------|--------|-------------|
-| [글리치모스](../viruses/glitchmoss.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | 버려진 지오시티 시대 페이지 |
-| [신택스레이스](../viruses/syntaxwraith.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-moderate">보통</span> | 폐기된 프로그래밍 튜토리얼 |
-| [크로마드리프트](../viruses/chromadrift.md) | <span class="pill pill-type">감각형</span> | <span class="pill pill-severity-high">높음</span> | 죽은 아트 포트폴리오 |
-| [패러독스피드](../viruses/paradoxfeed.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-high">높음</span> | 자기 모순적 FAQ 페이지 |
-| [네임이터](../viruses/nameeater.md) | <span class="pill pill-type">인지형</span> | <span class="pill pill-severity-high">높음</span> | 잊혀진 이름 등록소 |
-| [와이어루트](../viruses/wireroot.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | 버려진 스마트홈 문서 |
+| [글리치모스](/kiwiki/viruses/glitchmoss.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | 버려진 지오시티 시대 페이지 |
+| [신택스레이스](/kiwiki/viruses/syntaxwraith.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-moderate">보통</span> | 폐기된 프로그래밍 튜토리얼 |
+| [크로마드리프트](/kiwiki/viruses/chromadrift.md) | <span class="pill pill-type">감각형</span> | <span class="pill pill-severity-high">높음</span> | 죽은 아트 포트폴리오 |
+| [패러독스피드](/kiwiki/viruses/paradoxfeed.md) | <span class="pill pill-type">로직형</span> | <span class="pill pill-severity-high">높음</span> | 자기 모순적 FAQ 페이지 |
+| [네임이터](/kiwiki/viruses/nameeater.md) | <span class="pill pill-type">인지형</span> | <span class="pill pill-severity-high">높음</span> | 잊혀진 이름 등록소 |
+| [와이어루트](/kiwiki/viruses/wireroot.md) | <span class="pill pill-type">환경형</span> | <span class="pill pill-severity-critical">치명적</span> | 버려진 스마트홈 문서 |
 
 </div>
 
@@ -134,12 +134,12 @@ How do people find pages that cannot be found? This is the central paradox of Di
 
 | ウイルス | タイプ | 重症度 | ページタイプ |
 |----------|--------|--------|-------------|
-| [グリッチモス](../viruses/glitchmoss.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたジオシティ時代のページ |
-| [シンタックスレイス](../viruses/syntaxwraith.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-moderate">中</span> | 廃止されたプログラミングチュートリアル |
-| [クロマドリフト](../viruses/chromadrift.md) | <span class="pill pill-type">感覚型</span> | <span class="pill pill-severity-high">高</span> | 死んだアートポートフォリオ |
-| [パラドックスフィード](../viruses/paradoxfeed.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-high">高</span> | 自己矛盾するFAQページ |
-| [ネームイーター](../viruses/nameeater.md) | <span class="pill pill-type">認知型</span> | <span class="pill pill-severity-high">高</span> | 忘れられた名前登録所 |
-| [ワイヤールート](../viruses/wireroot.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたスマートホーム文書 |
+| [グリッチモス](/kiwiki/viruses/glitchmoss.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたジオシティ時代のページ |
+| [シンタックスレイス](/kiwiki/viruses/syntaxwraith.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-moderate">中</span> | 廃止されたプログラミングチュートリアル |
+| [クロマドリフト](/kiwiki/viruses/chromadrift.md) | <span class="pill pill-type">感覚型</span> | <span class="pill pill-severity-high">高</span> | 死んだアートポートフォリオ |
+| [パラドックスフィード](/kiwiki/viruses/paradoxfeed.md) | <span class="pill pill-type">ロジック型</span> | <span class="pill pill-severity-high">高</span> | 自己矛盾するFAQページ |
+| [ネームイーター](/kiwiki/viruses/nameeater.md) | <span class="pill pill-type">認知型</span> | <span class="pill pill-severity-high">高</span> | 忘れられた名前登録所 |
+| [ワイヤールート](/kiwiki/viruses/wireroot.md) | <span class="pill pill-type">環境型</span> | <span class="pill pill-severity-critical">致命的</span> | 放棄されたスマートホーム文書 |
 
 </div>
 

@@ -68,13 +68,13 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 ## 概要
 {: .ja}
 
-검색엔진에서 특정 키워드 조합을 검색하면 감염되는 [인지형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자는 같은 생각이 반복적으로 되풀이되는 루프에 빠지며, 자신이 같은 검색을 반복했다는 사실을 인지하지 못하게 된다.
+검색엔진에서 특정 키워드 조합을 검색하면 감염되는 [인지형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자는 같은 생각이 반복적으로 되풀이되는 루프에 빠지며, 자신이 같은 검색을 반복했다는 사실을 인지하지 못하게 된다.
 {: .ko}
 
-A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by searching specific keyword combinations on search engines. The infected person falls into a loop of repetitive thoughts and becomes unable to recognize that they have been repeating the same searches.
+A [Cognitive-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by searching specific keyword combinations on search engines. The infected person falls into a loop of repetitive thoughts and becomes unable to recognize that they have been repeating the same searches.
 {: .en}
 
-検索エンジンで特定のキーワードの組み合わせを検索すると感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は同じ思考が繰り返されるループに陥り、自分が同じ検索を繰り返していることを認知できなくなる。
+検索エンジンで特定のキーワードの組み合わせを検索すると感染する[認知型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者は同じ思考が繰り返されるループに陥り、自分が同じ検索を繰り返していることを認知できなくなる。
 {: .ja}
 
 
@@ -167,7 +167,7 @@ Infection occurs when searching a combination of three or more specific keywords
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

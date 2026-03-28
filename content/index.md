@@ -62,9 +62,9 @@ Web Kiwi Virus Wiki
 
 | Reference | |
 |-----------|---|
-| [Taxonomy](taxonomy/index.md) | Classification system |
-| [Glossary](glossary/index.md) | Key terms |
-| [Concepts](concepts/index.md) | Types, vectors, mechanisms |
+| [Taxonomy](/kiwiki/taxonomy/) | Classification system |
+| [Glossary](/kiwiki/glossary/) | Key terms |
+| [Concepts](/kiwiki/concepts/) | Types, vectors, mechanisms |
 
 </div>
 
@@ -108,9 +108,9 @@ Web Kiwi Virus Wiki
 
 | 참고 문서 | |
 |-----------|---|
-| [분류 체계](taxonomy/index.md) | 분류 코드 체계 |
-| [용어 사전](glossary/index.md) | 주요 용어 |
-| [개념](concepts/index.md) | 유형, 벡터, 메커니즘 |
+| [분류 체계](/kiwiki/taxonomy/) | 분류 코드 체계 |
+| [용어 사전](/kiwiki/glossary/) | 주요 용어 |
+| [개념](/kiwiki/concepts/) | 유형, 벡터, 메커니즘 |
 
 </div>
 
@@ -154,8 +154,8 @@ Web Kiwi Virus Wiki
 
 | 参考文書 | |
 |----------|---|
-| [分類体系](taxonomy/index.md) | 分類コード体系 |
-| [用語辞典](glossary/index.md) | 主要用語 |
-| [概念](concepts/index.md) | タイプ、ベクター、メカニズム |
+| [分類体系](/kiwiki/taxonomy/) | 分類コード体系 |
+| [用語辞典](/kiwiki/glossary/) | 主要用語 |
+| [概念](/kiwiki/concepts/) | タイプ、ベクター、メカニズム |
 
 </div>
