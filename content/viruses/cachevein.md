@@ -14,14 +14,42 @@ icon: "╠"
 tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental", "messenger", "physical", "vein", "data"]
 ---
 
+<div class="ko" markdown="1">
+
 | 항목 | 내용 |
 |------|------|
-| 아이콘 | ╠ |
 | 분류 코드 | <span class="pill pill-code">WKV-E.MS-002</span> |
 | 유형 | <span class="pill pill-type">환경형</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저</span> |
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
+
+</div>
+
+<div class="en" markdown="1">
+
+| Field | Details |
+|------|------|
+| Code | <span class="pill pill-code">WKV-E.MS-002</span> |
+| Type | <span class="pill pill-type">환경형</span> |
+| Vector | <span class="pill pill-vector">메신저</span> |
+| Severity | <span class="pill pill-severity-critical">치명적</span> |
+| Status | <span class="pill pill-active">활성</span> |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| 項目 | 内容 |
+|------|------|
+| 分類コード | <span class="pill pill-code">WKV-E.MS-002</span> |
+| タイプ | <span class="pill pill-type">환경형</span> |
+| 経路 | <span class="pill pill-vector">메신저</span> |
+| 危険度 | <span class="pill pill-severity-critical">치명적</span> |
+| 状態 | <span class="pill pill-active">활성</span> |
+
+</div>
+
 
 ## 개요
 {: .ko}
