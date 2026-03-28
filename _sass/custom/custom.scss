@@ -283,11 +283,11 @@ body.lang-ja {
 }
 
 // ---- TOC (나무위키 style) ----
+// ---- TOC (나무위키 style) ----
 .toc-box {
   border: 1px solid orangered;
   padding: 0;
   margin: 20px 0;
-  font-size: 14px;
 
   summary {
     padding: 10px 14px;
@@ -313,19 +313,11 @@ body.lang-ja {
 
     ol {
       margin: 0;
-      padding-left: 0;
-      counter-reset: toc;
+      padding: 0;
       list-style: none;
 
       li {
-        counter-increment: toc;
-        margin: 4px 0;
-        &::before {
-          content: counter(toc) ". ";
-          color: orangered;
-          font-weight: 700;
-          font-size: 13px;
-        }
+        margin: 5px 0;
         a {
           color: orangered;
           text-decoration: none;
@@ -336,6 +328,16 @@ body.lang-ja {
       }
     }
   }
+}
+
+// ---- Smooth scroll for TOC links ----
+html { scroll-behavior: smooth; }
+
+// ---- Section number in headings ----
+.sec-num {
+  color: orangered;
+  margin-right: 6px;
+  font-weight: 700;
 }
 
 // ---- Home link ----

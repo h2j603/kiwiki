@@ -50,13 +50,7 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 
 </div>
 
-<details class="toc-box" open>
-<summary><span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span></summary>
-<div class="toc-nav" markdown="1">
-* TOC
-{:toc}
-</div>
-</details>
+{% include toc.html %}
 
 ---
 
