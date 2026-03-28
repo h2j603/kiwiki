@@ -12,6 +12,9 @@ permalink: /taxonomy/
 Web Kiwi Viruses are viruses that spread through the web and collapse the boundary between the virtual and the real.
 {: .en}
 
+ウェブキウイウイルスは、ウェブを通じて拡散し、現実と仮想の境界を崩壊させるウイルスです。
+{: .ja}
+
 ## 분류 코드 체계 / Classification Code System
 
 `WKV-{유형}.{벡터}-{번호}` 형식으로 각 바이러스에 고유 코드가 부여됩니다.
@@ -19,6 +22,9 @@ Web Kiwi Viruses are viruses that spread through the web and collapse the bounda
 
 Each virus is assigned a unique code in the format `WKV-{TYPE}.{VECTOR}-{NUMBER}`.
 {: .en}
+
+`WKV-{タイプ}.{経路}-{番号}` の形式で各ウイルスに固有コードが付与されます。
+{: .ja}
 
 | 코드 | 유형 / Type |
 |------|------------|
