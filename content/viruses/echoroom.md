@@ -21,7 +21,6 @@ tags: ["환경형", "SNS", "음향", "반향", "environmental", "social media", 
 | 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
 | 전파 경로 | <span class="pill pill-vector">SNS / Social Media</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
-| 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -33,7 +32,6 @@ tags: ["환경형", "SNS", "음향", "반향", "environmental", "social media", 
 | Type | <span class="pill pill-type">환경형 / Environmental</span> |
 | Vector | <span class="pill pill-vector">SNS / Social Media</span> |
 | Severity | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
-| Status | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -45,7 +43,6 @@ tags: ["환경형", "SNS", "음향", "반향", "environmental", "social media", 
 | タイプ | <span class="pill pill-type">환경형 / Environmental</span> |
 | 経路 | <span class="pill pill-vector">SNS / Social Media</span> |
 | 危険度 | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
-| 状態 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 

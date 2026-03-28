@@ -21,7 +21,6 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 | 유형 | <span class="pill pill-type">인지형 / Cognitive</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
 | 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
-| 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -33,7 +32,6 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 | Type | <span class="pill pill-type">인지형 / Cognitive</span> |
 | Vector | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
 | Severity | <span class="pill pill-severity-high">높음 / High</span> |
-| Status | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -45,7 +43,6 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 | タイプ | <span class="pill pill-type">인지형 / Cognitive</span> |
 | 経路 | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
 | 危険度 | <span class="pill pill-severity-high">높음 / High</span> |
-| 状態 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 

@@ -21,7 +21,6 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 | 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근 / Direct Access</span> |
 | 위험도 | <span class="pill pill-severity-critical">치명적 / Critical</span> |
-| 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -33,7 +32,6 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 | Type | <span class="pill pill-type">환경형 / Environmental</span> |
 | Vector | <span class="pill pill-vector">직접접근 / Direct Access</span> |
 | Severity | <span class="pill pill-severity-critical">치명적 / Critical</span> |
-| Status | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -45,7 +43,6 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 | タイプ | <span class="pill pill-type">환경형 / Environmental</span> |
 | 経路 | <span class="pill pill-vector">직접접근 / Direct Access</span> |
 | 危険度 | <span class="pill pill-severity-critical">치명적 / Critical</span> |
-| 状態 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 

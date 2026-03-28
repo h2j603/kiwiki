@@ -4,17 +4,6 @@ nav_order: 1
 permalink: /
 ---
 
-# Kiwiki
-
-웹키위바이러스(Web Kiwi Virus) 위키
-{: .ko}
-
-Web Kiwi Virus Wiki
-{: .en}
-
-ウェブキウイウイルス（Web Kiwi Virus）ウィキ
-{: .ja}
-
 ## 문서 목록
 {: .ko}
 

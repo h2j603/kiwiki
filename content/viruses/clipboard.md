@@ -21,7 +21,6 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
-| 상태 | <span class="pill pill-active">활성</span> |
 
 </div>
 
@@ -33,7 +32,6 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 | Type | <span class="pill pill-type">Logic</span> |
 | Vector | <span class="pill pill-vector">Messenger</span> |
 | Severity | <span class="pill pill-severity-moderate">Moderate</span> |
-| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -45,7 +43,6 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 | タイプ | <span class="pill pill-type">ロジック型</span> |
 | 経路 | <span class="pill pill-vector">メッセンジャー</span> |
 | 危険度 | <span class="pill pill-severity-moderate">中</span> |
-| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 
