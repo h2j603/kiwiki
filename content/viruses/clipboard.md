@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger", "clipboard", "thought"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

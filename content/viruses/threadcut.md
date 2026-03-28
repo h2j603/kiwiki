@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger", "context", "continuity"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 <div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>

@@ -13,6 +13,8 @@ icon: "⧉"
 tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attention", "tab"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

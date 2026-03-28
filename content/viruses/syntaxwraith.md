@@ -14,6 +14,8 @@ icon: "⌥"
 tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access", "thought", "code"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

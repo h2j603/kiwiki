@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "direct access", "cables", "growth"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 <div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>

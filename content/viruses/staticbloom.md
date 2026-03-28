@@ -13,6 +13,8 @@ icon: "✦"
 tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", "static", "bloom"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

@@ -13,6 +13,8 @@ icon: "◯"
 tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "logic", "hole"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

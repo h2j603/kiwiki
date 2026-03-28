@@ -13,6 +13,8 @@ icon: "⊘"
 tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engine", "visual", "vanishing"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 <div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>

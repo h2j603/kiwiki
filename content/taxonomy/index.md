@@ -4,6 +4,8 @@ nav_order: 2
 permalink: /taxonomy/
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 # 웹키위바이러스 분류 체계 / Taxonomy

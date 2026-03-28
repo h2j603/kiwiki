@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tactile", "touch"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

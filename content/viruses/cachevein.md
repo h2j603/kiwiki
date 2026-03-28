@@ -14,6 +14,8 @@ icon: "╠"
 tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental", "messenger", "physical", "vein", "data"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 <div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>

@@ -13,6 +13,8 @@ icon: "⌫"
 tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memory", "deletion"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 <div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>

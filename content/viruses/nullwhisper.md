@@ -14,6 +14,8 @@ icon: "∅"
 tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger", "judgment", "whisper"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

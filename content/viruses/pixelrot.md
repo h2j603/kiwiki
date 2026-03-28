@@ -14,6 +14,8 @@ icon: "▦"
 tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual", "decay"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

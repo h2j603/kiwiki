@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["감각형", "검색엔진", "잔상", "시각", "sensory", "search engine", "afterimage", "vision"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

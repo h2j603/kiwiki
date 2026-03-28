@@ -13,6 +13,8 @@ icon: "⬚"
 tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "space", "void"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 <div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>

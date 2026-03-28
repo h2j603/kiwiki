@@ -4,6 +4,8 @@ parent: "개념 / Concepts"
 nav_order: 4
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 

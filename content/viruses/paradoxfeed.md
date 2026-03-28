@@ -13,6 +13,8 @@ status: "활성 / Active"
 tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access", "paradox", "contradiction"]
 ---
 
+{% include lang_toggle.html %}
+
 <a href="../index.md" class="home-link">Kiwiki</a>
 
 
