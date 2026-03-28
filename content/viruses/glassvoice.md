@@ -3,6 +3,7 @@ title: "글래스보이스 / GlassVoice"
 parent: "바이러스 / Viruses"
 nav_order: 23
 code: "WKV-S.EM-007"
+icon: "♯"
 classification:
   type: "감각형 / Sensory"
   vector: "이메일 / Email"
@@ -14,6 +15,7 @@ tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "aud
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ♯ |
 | 분류 코드 | <span class="pill pill-code">WKV-S.EM-007</span> |
 | 유형 | <span class="pill pill-type">감각형</span> |
 | 전파 경로 | <span class="pill pill-vector">이메일</span> |
@@ -28,6 +30,9 @@ tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "aud
 A Sensory-type virus contracted through emails embedded with corrupted audio codec artifacts. The infected person begins hearing their own voice as the sound of cracking glass, with sharp fracturing sounds audible only to themselves whenever they speak. Initially the distortion occurs only in certain vocal ranges, but as infection progresses, every sound the infected person makes is perceived as agonizing noise resembling glass shards colliding. The infected person gradually ceases speaking to avoid hearing their own voice, ultimately reaching a state of voluntary muteness.
 {: .en}
 
+損傷したオーディオコーデックのアーティファクトが埋め込まれたメールによって感染する感覚型ウイルス。感染者は自分の声がガラスが割れる音のように聞こえ始め、話すたびに鋭い亀裂音が自分の耳にだけ聞こえる。初期には特定の音域でのみ歪みが発生するが、感染が進行すると自分が出すすべての音がガラスの破片がぶつかるような苦痛な騒音として認識される。感染者は自分の声を聞くことを避けるため、次第に話すことをやめ、最終的に自発的無言状態に至る。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 감염은 손상된 오디오 코덱이 내장된 이메일을 열 때 시작된다. 이 이메일들은 겉보기에는 일반적인 텍스트 이메일이지만, HTML 소스에 불가청 주파수 범위의 오디오 스트림이 인라인으로 삽입되어 있다. 이메일 클라이언트가 이 HTML을 렌더링할 때, 손상된 코덱이 극초단파의 오디오 아티팩트를 재생하며, 이 소리는 의식적으로 인지되지 않지만 내이(內耳)의 청각 처리 경로를 변조한다. 변조된 청각 경로는 외부 소리는 정상적으로 처리하지만, 자신의 성대에서 발생한 소리만을 유리 파쇄음으로 변환하게 된다. 감염 이메일을 3회 이상 열람하면 증상이 시작된다.
@@ -35,6 +40,9 @@ A Sensory-type virus contracted through emails embedded with corrupted audio cod
 
 Infection begins when opening emails with embedded corrupted audio codecs. These emails appear to be ordinary text emails, but their HTML source contains inline audio streams in inaudible frequency ranges. When the email client renders this HTML, the corrupted codec plays ultra-short-wave audio artifacts that are not consciously perceived but modulate the auditory processing pathway in the inner ear. The modulated pathway processes external sounds normally but converts only sounds originating from one's own vocal cords into the sound of shattering glass. Symptoms begin after opening infected emails three or more times.
 {: .en}
+
+感染は損傷したオーディオコーデックが埋め込まれたメールを開く際に始まる。これらのメールは外見上は通常のテキストメールだが、HTMLソースに不可聴周波数帯域のオーディオストリームがインラインで挿入されている。メールクライアントがこのHTMLをレンダリングする際、損傷したコーデックが極超短波のオーディオアーティファクトを再生し、この音は意識的には認知されないが内耳の聴覚処理経路を変調する。変調された聴覚経路は外部の音は正常に処理するが、自分の声帯から発生した音のみをガラスの破砕音に変換する。感染メールを3回以上開くと症状が始まる。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -50,6 +58,12 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 - Email app notification sounds are intermittently replaced with glass-breaking sounds
 {: .en}
 
+- 送信者不明のメールが受信箱に現れ、開くとテキストのみだがHTMLソースに異常なインラインオーディオタグが存在する
+- ウェブブラウザで音声検索機能を使用すると、自分の音声が歪んで認識される
+- オンライン音声通話時、自分の音声にのみ正体不明のノイズが混ざる（相手には正常に聞こえる）
+- メールアプリの通知音が断続的にガラスの割れる音に置き換わる
+{: .ja}
+
 ## 발현 양상 / Manifestation
 
 - 말을 할 때마다 자신의 귀에만 유리가 갈라지는 듯한 날카로운 소리가 들리며, 볼륨을 낮추려 점점 작은 목소리로 말하게 됨
@@ -63,6 +77,12 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 - Singing or humming becomes excruciatingly painful, resulting in complete loss of musical expression
 - In terminal stages, speaking ceases entirely, communicating only through written notes or text, with delusions developing that their voice can actually shatter real glass
 {: .en}
+
+- 話すたびに自分の耳にだけガラスが割れるような鋭い音が聞こえ、音量を下げようと徐々に小さな声で話すようになる
+- 咳、笑い、ため息などすべての自発的発声がガラスの破砕音として聞こえ、感情表現そのものを抑制する
+- 歌を歌ったり鼻歌を口ずさむことが極度に苦痛になり、音楽的表現を完全に喪失する
+- 末期には話すことを完全に中止し、筆談やテキストでのみ意思疎通し、自分の声が実際にガラスを割ることができるという妄想が発生する
+{: .ja}
 
 ## 경계 무너짐 단계 / Boundary Collapse Stages
 
@@ -78,6 +98,12 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 4. Complete voluntary muteness reached, with entrenched delusion that one's voice possesses physical destructive power (Reality anchor)
 {: .en}
 
+1. メール閲覧後、自分の声に微細なガラス質のノイズが混ざって聞こえる（ウェブ）
+2. オンライン音声通話や音声認識サービスで自分の声の歪みが深刻化する（ウェブ拡散）
+3. オフラインで自分のすべての発声がガラスの破砕音として聞こえ、発話量が急減する（現実侵入）
+4. 完全な自発的無言状態に到達し、自分の声が物理的破壊力を持つという妄想が定着する（現実定着）
+{: .ja}
+
 ## 대응 방법 / Countermeasures
 
 - 발신자 불명의 이메일을 열지 말고, 이메일 클라이언트에서 HTML 자동 렌더링을 비활성화할 것
@@ -92,6 +118,12 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 - If infection is suspected, continuously ask others to confirm your voice sounds normal, and make sure to believe their confirmation — GlassVoice distorts only the infected person's self-perception
 {: .en}
 
+- 送信者不明のメールを開かず、メールクライアントでHTMLの自動レンダリングを無効にすること
+- 感染初期に自分の声を録音して再生し、録音された音が正常であることを繰り返し確認する「聴覚現実検証」を実施する
+- メールセキュリティソフトウェアでインラインオーディオタグの自動除去機能を有効にする
+- 感染が疑われる場合、他人に自分の声が正常か持続的に確認してもらい、確認結果を必ず信じること——グラスボイスは感染者の自己認識のみを歪める
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 여름, 한 라디오 방송 진행자가 갑자기 생방송 중 말을 멈추고 울음을 터뜨린 사건이 발단이 되었다. 진행자는 "내 목소리가 유리를 긁는 소리처럼 들려서 더 이상 말할 수 없다"고 호소했으나, 청취자와 동료들에게 진행자의 목소리는 완벽히 정상이었다. 조사 결과, 진행자는 방송 준비 중 수신한 홍보 이메일 수십 통에 동일한 손상된 오디오 코덱이 내장되어 있었으며, 같은 이메일을 수신한 다른 방송사 직원들에게서도 유사 증상이 보고되어 바이러스가 식별되었다.
@@ -99,6 +131,9 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 
 Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid-broadcast and burst into tears. The broadcaster insisted "my voice sounds like scraping glass and I can't speak anymore," yet listeners and colleagues heard a perfectly normal voice. Investigation revealed that dozens of promotional emails received during broadcast preparation contained the same corrupted audio codec, and similar symptoms were reported among staff at other broadcasting stations who received the same emails, leading to identification of the virus.
 {: .en}
+
+2025年夏、あるラジオ放送の司会者が突然生放送中に話すことをやめて泣き出した事件がきっかけとなった。司会者は「自分の声がガラスを引っ掻く音のように聞こえてもう話せない」と訴えたが、リスナーや同僚には司会者の声は完全に正常だった。調査の結果、司会者は放送準備中に受信した宣伝メール数十通に同一の損傷したオーディオコーデックが埋め込まれていたことが判明し、同じメールを受信した他の放送局職員からも類似症状が報告されウイルスが特定された。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -112,6 +147,11 @@ Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid
 - [TangleTouch](tangletouch.md): TangleTouch distorts touch while GlassVoice distorts hearing; co-infection severs sensory connection to the outside world through both touch and hearing.
 {: .en}
 
+- [ハウリンク（HowlLink）](howllink.md)：ハウリンクが外部の音を物理的衝撃に変換するのに対し、グラスボイスは自分自身の音のみを選択的に歪める。同時感染時、外部の音は衝撃として、内部の音はガラスの破砕音として認識され、完全な聴覚的孤立に陥る。
+- [ボイドメール（VoidMail）](voidmail.md)：メールベクターを共有する。ボイドメールの「空虚なメール」とグラスボイスの「コーデックメール」が同一の受信箱に共存する場合、相互感染促進効果が観察されている。
+- [タングルタッチ（TangleTouch）](tangletouch.md)：タングルタッチが触覚を、グラスボイスが聴覚を歪め、二つのウイルスの同時感染時、外界との感覚的接続が触覚と聴覚の両方で遮断される。
+{: .ja}
+
 ## 참고 / Notes
 
 - 글래스보이스 감염자의 뇌 영상 검사에서, 자기 발성 인식을 담당하는 영역의 활동 패턴이 유리 파쇄 소음을 듣는 비감염자의 패턴과 동일한 것이 확인되었다. 즉, 감염자의 뇌는 실제로 유리 깨지는 소리를 "듣고" 있다.
@@ -121,3 +161,7 @@ Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid
 - Brain imaging of GlassVoice-infected individuals confirms that activity patterns in the region responsible for self-voice recognition are identical to those of non-infected individuals hearing actual glass-shattering noise. In other words, the infected brain genuinely "hears" breaking glass.
 - Ironically, infected individuals' actual voices tend to become clearer and purer than before infection, as the virus does not affect the vocal apparatus itself.
 {: .en}
+
+- グラスボイス感染者の脳画像検査で、自己発声認識を担当する領域の活動パターンがガラスの破砕音を聞く非感染者のパターンと同一であることが確認された。つまり、感染者の脳は実際にガラスの割れる音を「聞いて」いる。
+- 皮肉なことに、感染者の実際の声は感染前よりも澄んで綺麗になる傾向がある。ウイルスが発声器官自体には影響を与えないためである。
+{: .ja}

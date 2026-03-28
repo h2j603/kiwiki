@@ -10,11 +10,13 @@ classification:
 origin: "자동 생성된 검색 결과 페이지 / Auto-generated search result page"
 status: "활성 / Active"
 code: "WKV-C.SE-001"
+icon: "↺"
 tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search engine", "memory", "loop"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ↺ |
 | 분류 코드 | <span class="pill pill-code">WKV-C.SE-001</span> |
 | 유형 | <span class="pill pill-type">인지형</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진</span> |
@@ -29,6 +31,9 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by searching specific keyword combinations on search engines. The infected person falls into a loop of repetitive thoughts and becomes unable to recognize that they have been repeating the same searches.
 {: .en}
 
+検索エンジンで特定のキーワードの組み合わせを検索すると感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は同じ思考が繰り返されるループに陥り、自分が同じ検索を繰り返していることを認知できなくなる。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 특정 키워드 3개 이상을 조합하여 검색할 때, 검색 결과의 첫 번째 링크가 자기참조적 페이지(자기 자신을 검색 결과로 포함하는 페이지)로 연결되면 감염된다. 감염 키워드 조합은 개인마다 다르며, 주로 그 사람이 평소에 자주 검색하는 주제와 관련이 있다.
@@ -36,6 +41,9 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 
 Infection occurs when searching a combination of three or more specific keywords, and the first search result links to a self-referential page (a page that includes itself as a search result). The triggering keyword combination varies per individual and is usually related to topics the person frequently searches.
 {: .en}
+
+特定のキーワード3つ以上を組み合わせて検索した際、検索結果の最初のリンクが自己参照的ページ（自分自身を検索結果として含むページ）に繋がると感染する。感染を引き起こすキーワードの組み合わせは個人ごとに異なり、主にその人が普段よく検索するテーマに関連している。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -49,6 +57,11 @@ Infection occurs when searching a combination of three or more specific keywords
 - Same URL bookmarked multiple times
 {: .en}
 
+- 検索履歴に同一の検索語が数十回にわたり記録されている（本人は気づいていない）
+- ブラウザのタブが同じページで複数開かれている
+- ブックマークに同じURLが重複保存されている
+{: .ja}
+
 ## 발현 양상 / Manifestation
 
 - 같은 말을 무의식적으로 반복하게 됨
@@ -60,6 +73,11 @@ Infection occurs when searching a combination of three or more specific keywords
 - Attempting to redo actions just completed (e.g., re-checking locked doors)
 - Repeating the same story in conversation while believing it's the first time
 {: .en}
+
+- 同じ言葉を無意識に繰り返すようになる
+- さっき行った行動をもう一度やろうとする（鍵をかけたか確認しに戻るなど）
+- 会話中に同じ話を繰り返すが、本人は初めて話していると認識している
+{: .ja}
 
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
@@ -75,6 +93,12 @@ Infection occurs when searching a combination of three or more specific keywords
 4. Loss of awareness of the repetition itself (Reality anchor)
 {: .en}
 
+1. 同じ検索を繰り返し実行（ウェブ）
+2. 検索以外のウェブ活動でも反復パターンが発生（ウェブ拡散）
+3. オフラインの行動で反復ループが開始（現実侵入）
+4. 繰り返しているという自覚自体が消失（現実定着）
+{: .ja}
+
 ## 대응 방법 / Countermeasures
 
 - 검색 기록을 주기적으로 확인하여 비정상적 반복 패턴 감시
@@ -89,6 +113,12 @@ Infection occurs when searching a combination of three or more specific keywords
 - In early stages, 24-hour internet disconnection has been reported to alleviate symptoms
 {: .en}
 
+- 検索履歴を定期的に確認し、異常な反復パターンを監視する
+- 感染が疑われる場合、他者に自分の行動パターンのモニタリングを依頼する
+- 検索時にオートコンプリート機能をオフにし、検索前に検索語を紙に書く習慣が予防に役立つ
+- 初期段階では24時間のインターネット遮断後に症状の緩和が報告されている
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 초, 한 포럼에서 "내가 왜 같은 걸 계속 검색하고 있지?"라는 글이 올라온 것을 계기로 발견됨. 해당 유저의 검색 기록을 분석한 결과, 72시간 동안 동일한 검색을 340회 이상 반복한 것으로 확인되었다.
@@ -96,6 +126,9 @@ Infection occurs when searching a combination of three or more specific keywords
 
 Discovered in early 2025 when a forum post titled "Why do I keep searching the same thing?" was published. Analysis of the user's search history revealed over 340 repetitions of the same search within 72 hours.
 {: .en}
+
+2025年初頭、あるフォーラムに「なぜ同じものを検索し続けているのか？」という投稿が上がったことをきっかけに発見された。そのユーザーの検索履歴を分析した結果、72時間で同一の検索を340回以上繰り返していたことが確認された。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -109,6 +142,11 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 - [NullWhisper](nullwhisper.md): Reports suggest EchoLoop-infected individuals show increased susceptibility to NullWhisper when using messengers.
 {: .en}
 
+- [デッドスクロール（DeadScroll）](deadscroll.md)：同じ認知型ウイルス。エコループが検索の反復なら、デッドスクロールはスクロールの反復に由来する。
+- [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：反復的思考パターンという点では類似するが、シンタックスレイスは思考の*構造*を変形させる。
+- [ヌルウィスパー（NullWhisper）](nullwhisper.md)：エコループ感染者がメッセンジャーを使用するとヌルウィスパーへの感受性が高まるとの報告がある。
+{: .ja}
+
 ## 참고 / Notes
 
 - 감염자가 작성한 글도 반복적 구조를 띠는 경향이 있어, 텍스트 분석으로 감염 여부를 추정할 수 있다는 연구가 있음
@@ -116,3 +154,6 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 
 - Research suggests that texts written by infected individuals tend to exhibit repetitive structures, enabling infection detection through text analysis.
 {: .en}
+
+- 感染者が書いた文章にも反復的な構造が見られる傾向があり、テキスト分析によって感染の有無を推定できるという研究がある
+{: .ja}

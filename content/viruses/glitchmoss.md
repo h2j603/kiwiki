@@ -10,11 +10,13 @@ classification:
 origin: "폐쇄된 웹호스팅 서버의 404 페이지 / 404 page of an abandoned web hosting server"
 status: "활성 / Active"
 code: "WKV-E.DA-001"
+icon: "▓"
 tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental", "direct access", "physical", "corrosion", "moss"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ▓ |
 | 분류 코드 | <span class="pill pill-code">WKV-E.DA-001</span> |
 | 유형 | <span class="pill pill-type">환경형</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근</span> |
@@ -29,6 +31,9 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contracted by directly accessing abandoned or defunct web pages. Digital glitch-like corrosion and deformation appear in the infected person's physical surroundings, spreading like moss across real-world spaces.
 {: .en}
 
+閉鎖された、または放棄されたウェブページに直接アクセスすると感染する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周囲の物理的環境にデジタルグリッチに似たパターンの腐食・変形が現れ、まるで現実空間に苔が生えるように広がっていく。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 더 이상 관리되지 않는 웹사이트의 404 페이지나 만료된 도메인에 직접 URL을 입력하여 접속할 때 감염된다. 특히 해당 페이지가 오래전에 마지막으로 업데이트된 상태에서 서버가 완전히 다운되지 않고 반쯤 살아있는 경우에 감염률이 높다.
@@ -36,6 +41,9 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contr
 
 Infection occurs when directly entering the URL of an unmanaged website's 404 page or an expired domain. Infection rates are especially high when the page was last updated long ago and the server remains in a half-alive state—not fully down but no longer maintained.
 {: .en}
+
+管理されなくなったウェブサイトの404ページや期限切れドメインにURLを直接入力してアクセスすると感染する。特に、最後の更新がかなり前で、サーバーが完全にはダウンせず半ば生きている状態の場合に感染率が高い。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -51,6 +59,12 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 - The browser itself intermittently freezes
 {: .en}
 
+- 閲覧したウェブページのレイアウトが徐々に崩れて見える
+- テキストに無意味なユニコード文字が紛れ込み始める
+- 画像が部分的にノイズに置き換わる
+- ブラウザ自体が断続的にフリーズする
+{: .ja}
+
 ## 발현 양상 / Manifestation
 
 - 감염자가 오래 머무는 공간(방, 사무실)의 벽면에 회녹색 얼룩이 서서히 나타남
@@ -64,6 +78,12 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 - Pixel-corruption-like corrosion patterns develop on furniture and door frames
 - In terminal stages, parts of the space "fail to load," disappearing from perception entirely
 {: .en}
+
+- 感染者が長く滞在する空間（部屋、オフィス）の壁面に灰緑色のシミが徐々に現れる
+- 電子機器の画面に物理的な焼き付き（バーンイン）に似た痕跡が発生する
+- 家具、ドア枠などにピクセルが壊れたようなパターンの腐食が進行する
+- 末期には空間自体が「読み込まれない」かのように一部領域が認知から消失する
+{: .ja}
 
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
@@ -81,6 +101,13 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 5. The space becomes physically "inaccessible" (Irreversible)
 {: .en}
 
+1. ブラウザでグリッチ現象が発生（ウェブ）
+2. 使用中のデバイス画面に物理的損傷が発生（デバイス侵入）
+3. 感染者周辺の空間に腐食パターンが出現（空間侵入）
+4. 腐食が自己増殖し空間を侵食（現実定着）
+5. その空間が物理的に「アクセス不能」状態に（不可逆的）
+{: .ja}
+
 ## 대응 방법 / Countermeasures
 
 - 출처 불명의 오래된 URL에 직접 접속하지 않을 것
@@ -97,6 +124,13 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 - Spaces reaching terminal stage are classified as irrecoverable
 {: .en}
 
+- 出所不明の古いURLに直接アクセスしないこと
+- 期限切れドメインの探索時は必ず仮想環境（VM）を使用する
+- 初期発見時に、その空間から電子機器をすべて撤去し24時間以上空室にすると進行が止まる事例が報告されている
+- 腐食が始まった物体は直ちにその空間から隔離する
+- 末期段階に達した空間は復旧不可と判定される
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2024년 여름, 한 도시탐험(어반 익스플로링) 커뮤니티에서 폐건물 내부 사진에 이상한 패턴이 찍힌다는 제보가 올라옴. 조사 결과 해당 건물에 남아있던 서버룸의 장비가 반쯤 작동 중이었으며, 탐험자들이 현장에서 해당 서버에 접속한 것이 감염 경로로 추정됨. 이후 서버를 물리적으로 파괴했으나, 이미 감염된 공간의 부식은 멈추지 않았다.
@@ -104,6 +138,9 @@ Infection occurs when directly entering the URL of an unmanaged website's 404 pa
 
 Discovered in summer 2024 when an urban exploration community reported strange patterns appearing in photos taken inside an abandoned building. Investigation revealed that server room equipment in the building was still partially operational, and explorers had connected to the server on-site—the suspected infection vector. The server was physically destroyed afterward, but corrosion in already-infected spaces did not stop.
 {: .en}
+
+2024年夏、都市探検（アーバンエクスプローリング）コミュニティで、廃墟内部の写真に奇妙なパターンが写り込むという情報が寄せられた。調査の結果、その建物に残っていたサーバールームの機器が半ば稼働中であり、探検者たちが現場でそのサーバーに接続したことが感染経路と推定された。その後サーバーを物理的に破壊したが、既に感染した空間の腐食は止まらなかった。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -117,6 +154,11 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 - [MirrorLink](mirrorlink.md): Corrosion similar to GlitchMoss has been observed on reflective surfaces near late-stage MirrorLink patients.
 {: .en}
 
+- [キャッシュベイン（CacheVein）](cachevein.md)：同じ環境型ウイルス。グリッチモスが空間を腐食させるなら、キャッシュベインは空間にデータの物理的痕跡を刻む。両ウイルスが同時に存在する空間は極めて危険である。
+- [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：直接アクセスという伝播経路を共有。グリッチモスが放棄されたページから、シンタックスレイスは放置されたコードリポジトリから発生する。
+- [ミラーリンク（MirrorLink）](mirrorlink.md)：ミラーリンク末期患者周辺の反射面でグリッチモスに類似した腐食が観察された事例がある。
+{: .ja}
+
 ## 참고 / Notes
 
 - 현재까지 발견된 [웹키위바이러스](../glossary/index.md#웹키위바이러스--web-kiwi-virus) 중 유일하게 물리적 환경을 비가역적으로 변형시키는 종
@@ -126,3 +168,7 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 - The only known Web Kiwi Virus species that irreversibly transforms the physical environment
 - Unofficial reports suggest uploading photos of infected spaces may cause secondary infection through the images, but this remains unconfirmed
 {: .en}
+
+- 現在までに発見された[ウェブキウイウイルス](../glossary/index.md#웹키위바이러스--web-kiwi-virus)の中で唯一、物理的環境を不可逆的に変形させる種である
+- 感染した空間を撮影した写真をウェブにアップロードすると、その画像を通じて二次感染が発生する可能性があるという非公式の報告があるが、未確認である
+{: .ja}

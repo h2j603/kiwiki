@@ -9,11 +9,13 @@ classification:
 origin: "자동 발송된 뉴스레터의 손상된 헤더 / Corrupted header in an auto-generated newsletter"
 status: "활성 / Active"
 code: "WKV-C.EM-003"
+icon: "⌫"
 tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memory", "deletion"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ⌫ |
 | 분류 코드 | <span class="pill pill-code">WKV-C.EM-003</span> |
 | 유형 | <span class="pill pill-type">인지형</span> |
 | 전파 경로 | <span class="pill pill-vector">이메일</span> |
@@ -28,6 +30,9 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by opening emails in a specific newsletter format. Contrary to its name, it deletes the infected person's memories in reverse chronological order, starting from the most recent. The name "Forget Me Not" originates from the phrase infected individuals repeat until the very end.
 {: .en}
 
+特定のニュースレター形式のメールを開くと感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。名前に反して、感染者の記憶を最も新しいものから逆順に削除していく。「フォゲットミーノット（私を忘れないで）」という名前は、感染者が最後まで繰り返す言葉に由来する。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 뉴스레터 형태의 이메일에서 "구독 해지" 링크의 URL 구조가 특정 해시 패턴을 포함할 때, 해당 이메일을 끝까지 스크롤하는 행위로 감염된다. 이메일 내용 자체는 무해하며, URL의 해시 패턴이 브라우저의 프리페치 기능을 통해 처리될 때 감염이 발생한다.
@@ -35,6 +40,9 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 
 Infection occurs when scrolling to the bottom of a newsletter-format email whose "unsubscribe" link URL contains a specific hash pattern. The email content itself is harmless; infection occurs when the URL's hash pattern is processed through the browser's prefetch function.
 {: .en}
+
+ニュースレター形式のメールで「配信停止」リンクのURL構造が特定のハッシュパターンを含む場合、そのメールを最後までスクロールする行為で感染する。メールの内容自体は無害であり、URLのハッシュパターンがブラウザのプリフェッチ機能を通じて処理される際に感染が発生する。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -47,6 +55,11 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 - No memory of visiting sites in browser history
 - Repeatedly entering wrong passwords (memory of recent changes is lost)
 {: .en}
+
+- 最近読んだメールの内容が思い出せない
+- ブラウザ履歴にあるサイトを訪問した記憶がない
+- パスワードを何度も間違える（最近変更した記憶が消失）
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -62,6 +75,12 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 - In terminal stages, years of memory are lost and self-identity regresses to a past version
 {: .en}
 
+- 今日したことを夕方には思い出せない
+- 数日前の会話記憶の消失 → 週単位の記憶消失 → 月単位の記憶消失へと進行
+- 記憶が削除される瞬間を認知できず、空白を古い記憶で自動的に埋める
+- 末期には数年分の記憶が消失し、自我のアイデンティティが過去の自分へ退行する
+{: .ja}
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 최근 이메일·웹 활동 기억 소실 (웹)
@@ -75,6 +94,12 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 3. Recent offline memories begin disappearing (Reality breach)
 4. Reverse-chronological memory deletion accelerates irreversibly (Reality anchor)
 {: .en}
+
+1. 最近のメール・ウェブ活動の記憶が消失（ウェブ）
+2. デジタル活動全般の記憶消失（ウェブ拡散）
+3. オフラインの最近の記憶が消え始める（現実侵入）
+4. 逆順の記憶削除が加速し、不可逆的に（現実定着）
+{: .ja}
 
 ## 대응 방법 / Countermeasures
 
@@ -90,6 +115,12 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 - In early stages, repeated exposure to external records (photos, videos) slows memory deletion
 {: .en}
 
+- ニュースレターのメールを最後までスクロールしないこと——特に配信停止リンク付近
+- メールクライアントのプリフェッチ機能を無効にする
+- 感染が疑われる場合、直ちに日記をつけ始めて記憶消失の速度を追跡する
+- 初期段階では写真や映像などの外部記録に繰り返し触れることで記憶の削除が鈍化する
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 가을, 한 연구원이 "나는 오늘 무엇을 했는지 모르겠다. 어제도 모르겠다. 그저께도"라는 글을 SNS에 올림. 동료들의 증언에 따르면 해당 연구원은 일주일 전까지 정상이었으며, 공통적으로 같은 뉴스레터를 구독 중이었던 다른 연구원 3명도 유사 증상을 보임.
@@ -97,6 +128,9 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 
 Discovered in autumn 2025 when a researcher posted on social media: "I don't know what I did today. Or yesterday. Or the day before." Colleagues testified the researcher was normal until a week prior, and three other researchers who shared the same newsletter subscription exhibited similar symptoms.
 {: .en}
+
+2025年秋、ある研究者が「今日何をしたかわからない。昨日もわからない。一昨日も」とSNSに投稿。同僚の証言によれば、その研究者は一週間前まで正常であり、同じニュースレターを購読していた他の研究者3名にも類似の症状が見られた。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -110,6 +144,11 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 - [ByteShade](byteshade.md): Shares email vector. Cases of both viruses coexisting in the same email have been reported.
 {: .en}
 
+- [エコループ（EchoLoop）](echoloop.md)：エコループは同じことを繰り返し、フォゲットミーノットはしたことを忘れる。同時感染すると「記憶がないのに繰り返す」極端な状態になる。
+- [デッドスクロール（DeadScroll）](deadscroll.md)：デッドスクロールが時間の「隙間」を作るなら、フォゲットミーノットは時間の「削除」を行う。症状が類似するため初期診断で混同されやすい。
+- [バイトシェイド（ByteShade）](byteshade.md)：メールという伝播経路を共有。同一のメールに両ウイルスが同時に存在する事例が報告されている。
+{: .ja}
+
 ## 참고 / Notes
 
 - "나를 잊지 마(Forget Me Not)"라는 이름은 감염자가 기억을 잃어가면서도 반복하는 마지막 말에서 유래. 이 말조차 잊게 되면 말기로 판정
@@ -119,3 +158,7 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 - The name originates from the last words infected individuals repeat as they lose memories. When even these words are forgotten, the case is classified as terminal.
 - Research is ongoing about how the brain "fills" deleted memory spaces; unconfirmed reports suggest some infected individuals fill gaps with other infected people's memories.
 {: .en}
+
+- 「私を忘れないで（Forget Me Not）」という名前は、感染者が記憶を失いながらも繰り返す最後の言葉に由来する。この言葉すら忘れると末期と判定される
+- 記憶が削除された空白を脳がどのように「埋める」かについて研究が進行中であり、一部の感染者は他の感染者の記憶で空白を埋めるという未確認の報告がある
+{: .ja}

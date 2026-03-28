@@ -1,200 +1,190 @@
 // ============================================
-// Kiwiki — Refined Wiki Design
+// Kiwiki — Brutalist Wiki (ref: h2j603/hyuk)
 // ============================================
 
-// ---- Palette ----
-$bg:           #fafafa;
-$bg-card:      #ffffff;
-$bg-dim:       #f2f3f5;
-$border:       #d1d5db;
-$border-lt:    #e5e7eb;
-$text:         #18181b;
-$text-2:       #52525b;
-$text-3:       #a1a1aa;
-$link:         #18181b;
-$link-hover:   #39ff14;
-$neon:         #39ff14;
-$neon-soft:    rgba(57, 255, 20, 0.10);
-$neon-mid:     rgba(57, 255, 20, 0.20);
-$neon-text:    #22c55e;
+@font-face {
+  font-family: "HakgyoansimBareondotumB";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HakgyoansimBareondotumB.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
 
-// ---- Kill all shadows ----
+$bg:        #ffffff;
+$bg-alt:    #f5f5f5;
+$text:      #111111;
+$text-2:    #555555;
+$text-3:    #999999;
+$border:    #111111;
+$border-lt: #dddddd;
+$neon:      #39ff14;
+$neon-dim:  #2bd610;
+$neon-bg:   rgba(57, 255, 20, 0.06);
+$link:      #111111;
+$mono:      "SF Mono", "JetBrains Mono", "Fira Code", monospace;
+
+// ---- Kill shadows ----
 * { box-shadow: none !important; text-shadow: none !important; }
 
 // ---- Base ----
-body { background: $bg !important; color: $text; }
-
-// ---- Typography & Content ----
-.main-content {
-  font-family: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, "Noto Sans KR", sans-serif;
-  font-size: 14.5px;
-  line-height: 1.75;
+body {
+  background: $bg !important;
   color: $text;
-  max-width: 900px;
+  font-size: 15px;
+  font-family: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, "Noto Sans KR", sans-serif;
   -webkit-font-smoothing: antialiased;
+}
 
-  // -- Headings --
+// ---- Content ----
+.main-content {
+  max-width: 860px;
+  font-size: 14.5px;
+  line-height: 1.8;
+  color: $text;
+
   h1 {
-    font-size: 1.6em;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    border-bottom: none;
-    margin: 0 0 0.5em;
-    padding: 0;
-    position: relative;
-    &::after {
-      content: "";
-      display: block;
-      width: 40px;
-      height: 3px;
-      background: $neon;
-      margin-top: 10px;
-      border-radius: 2px;
-    }
+    font-family: $mono;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    border-bottom: 2px solid $text;
+    padding-bottom: 8px;
+    margin: 0 0 20px;
   }
 
   h2 {
-    font-size: 1.15em;
+    font-family: $mono;
+    font-size: 1.05em;
     font-weight: 700;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
+    border-bottom: 1px solid $border-lt;
+    padding-bottom: 4px;
+    margin: 2em 0 0.5em;
     color: $text;
-    border-bottom: none;
-    margin: 2em 0 0.6em;
-    padding: 0;
   }
 
   h3 {
-    font-size: 1em;
-    font-weight: 600;
-    color: $text-2;
-    margin: 1.4em 0 0.4em;
+    font-size: 0.95em;
+    font-weight: 700;
+    margin: 1.5em 0 0.4em;
+    color: $text;
   }
 
-  p { margin: 0 0 0.75em; }
+  p { margin: 0 0 0.8em; }
 
-  // -- Links --
+  // Links — italic, underline (hyuk style)
   a {
     color: $link;
-    text-decoration: none;
-    border-bottom: 1px solid $border-lt;
-    transition: border-color 0.15s, color 0.15s;
+    text-decoration: underline;
+    font-style: italic;
+    transition: color 0.1s;
     &:hover {
-      color: $neon-text;
-      border-bottom-color: $neon;
-      text-decoration: none;
+      color: $neon-dim;
+      text-decoration: underline;
     }
   }
 
-  // -- Lists --
   ul, ol {
-    margin: 0 0 0.75em;
+    margin: 0 0 0.8em;
     padding-left: 1.5em;
-    li {
-      margin-bottom: 0.35em;
-      &::marker { color: $text-3; }
-    }
+    li { margin-bottom: 0.3em; }
   }
 }
 
 // ---- Sidebar ----
 .side-bar {
-  background: $bg-card;
-  border-right: 1px solid $border-lt;
+  background: $bg !important;
+  border-right: 1px solid $border;
 }
 
 .site-title {
-  font-weight: 800 !important;
+  font-family: $mono !important;
+  font-weight: 700 !important;
   font-size: 1em !important;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
 }
 
 .nav-list .nav-list-item .nav-list-link {
   color: $text-2;
   font-size: 13px;
-  font-weight: 500;
-  border-radius: 6px;
-  margin: 1px 8px;
-  padding: 5px 10px;
+  font-weight: 400;
+  padding: 4px 12px;
+  border-radius: 0;
+
+  a { font-style: normal; text-decoration: none; }
+
   &:hover {
-    background: $bg-dim;
+    background: $neon-bg;
     color: $text;
   }
+
   &.active {
     font-weight: 700;
     color: $text;
-    background: $neon-soft;
-    border-left: none;
+    background: transparent;
+    border-left: 3px solid $neon;
+    font-style: italic;
   }
 }
 
-// ---- Tables ----
+// ---- Tables (hyuk style: 1px border, hover gradient) ----
 .main-content table {
   border-collapse: collapse;
-  border: 1px solid $border-lt;
+  border: 1px solid $border;
   width: 100%;
   margin: 1em 0;
   font-size: 13px;
-  border-radius: 8px;
-  overflow: hidden;
+  text-align: left;
+
+  th, td {
+    border: 1px solid $border;
+    padding: 8px 12px;
+  }
 
   th {
-    background: $bg-dim;
-    font-weight: 600;
+    background: $bg-alt;
+    font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     color: $text-2;
-    text-align: left;
-    padding: 10px 14px;
-    border: none;
-    border-bottom: 1px solid $border-lt;
   }
 
-  td {
-    padding: 8px 14px;
-    border: none;
-    border-bottom: 1px solid $border-lt;
-    vertical-align: top;
-    color: $text;
+  td { vertical-align: top; }
+
+  tr:hover td {
+    background: linear-gradient(90deg, $neon-bg, $bg);
   }
 
-  tr:last-child td { border-bottom: none; }
-  tr:hover td { background: rgba($neon-soft, 0.5); }
+  // Links in table — no italic
+  a {
+    font-style: normal;
+    text-decoration: none;
+    border-bottom: 1px solid $border-lt;
+    &:hover { color: $neon-dim; border-bottom-color: $neon; }
+  }
 }
 
 // ---- Infobox ----
 .main-content > table:first-of-type {
   float: right;
-  width: 260px;
+  width: 240px;
   margin: 0 0 1.5em 2em;
-  border: 1px solid $border;
-  border-radius: 10px;
-  overflow: hidden;
-  background: $bg-card;
+  border: 2px solid $text;
+  font-size: 12px;
 
   th {
     background: $text;
-    color: $bg-card;
+    color: $bg;
     font-size: 11px;
-    padding: 8px 12px;
-    border: none;
-  }
-
-  td {
-    padding: 7px 12px;
-    font-size: 12.5px;
+    text-align: center;
   }
 
   td:first-child {
-    font-weight: 600;
-    color: $text-2;
+    font-weight: 700;
+    background: $bg-alt;
     width: 30%;
     white-space: nowrap;
-    background: $bg-dim;
   }
-
-  tr:hover td { background: inherit; }
-  tr:hover td:first-child { background: $bg-dim; }
 
   @media (max-width: 600px) {
     float: none;
@@ -205,92 +195,55 @@ body { background: $bg !important; color: $text; }
 
 // ---- Pills ----
 .pill {
-  display: inline-flex;
-  align-items: center;
-  padding: 2px 9px;
+  display: inline-block;
+  padding: 1px 8px;
   border-radius: 999px;
   font-size: 11px;
   font-weight: 600;
-  line-height: 1.5;
-  border: 1px solid transparent;
+  line-height: 1.6;
+  border: 1px solid $border-lt;
   white-space: nowrap;
-  letter-spacing: 0.01em;
 }
 
 .pill-code {
   background: $text;
   color: $neon;
-  font-family: "SF Mono", "JetBrains Mono", "Fira Code", monospace;
-  font-size: 10.5px;
+  border-color: $text;
+  font-family: $mono;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.5px;
-  padding: 2px 8px;
 }
 
-.pill-type {
-  background: $bg-dim;
-  color: $text-2;
-  border-color: $border-lt;
-}
+.pill-type { background: $bg-alt; color: $text-2; }
+.pill-vector { background: #f0fdf4; color: #16a34a; border-color: #bbf7d0; }
+.pill-active { background: $neon-bg; color: $neon-dim; border-color: rgba($neon, 0.3); }
 
-.pill-vector {
-  background: #ecfdf5;
-  color: #059669;
-  border-color: #a7f3d0;
-}
-
-.pill-active {
-  background: $neon-soft;
-  color: $neon-text;
-  border-color: $neon-mid;
-}
-
-.pill-severity-moderate {
-  background: #fefce8;
-  color: #a16207;
-  border-color: #fde68a;
-}
-
-.pill-severity-high {
-  background: #fff7ed;
-  color: #c2410c;
-  border-color: #fed7aa;
-}
-
-.pill-severity-critical {
-  background: #fef2f2;
-  color: #dc2626;
-  border-color: #fecaca;
-}
+.pill-severity-moderate { background: #fefce8; color: #a16207; border-color: #fde68a; }
+.pill-severity-high { background: #fff7ed; color: #c2410c; border-color: #fed7aa; }
+.pill-severity-critical { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
 
 // ---- Language toggle ----
 .lang-toggle {
   display: inline-flex;
-  gap: 0;
+  border: 1px solid $border;
   margin-bottom: 1.5em;
-  background: $bg-dim;
-  border-radius: 8px;
-  padding: 3px;
+  font-family: $mono;
 }
 
 .lang-btn {
-  padding: 4px 14px;
-  font-size: 12px;
-  font-weight: 600;
+  padding: 3px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   border: none;
-  border-radius: 6px;
-  background: transparent;
+  background: $bg;
   color: $text-3;
   cursor: pointer;
-  transition: all 0.15s;
 
-  &:hover { color: $text-2; }
-
-  &.active {
-    background: $bg-card;
-    color: $text;
-    border: 1px solid $border-lt;
-  }
+  &:not(:last-child) { border-right: 1px solid $border; }
+  &:hover { color: $text; background: $bg-alt; }
+  &.active { background: $text; color: $neon; }
 }
 
 // ---- Language hide (EN default) ----
@@ -300,72 +253,64 @@ body { background: $bg !important; color: $text; }
 // ---- Blockquote ----
 .main-content blockquote {
   border-left: 3px solid $neon;
-  padding: 0.5em 1em;
+  padding: 0.4em 1em;
   color: $text-2;
-  background: $bg-dim;
+  background: $bg-alt;
   margin: 1em 0;
-  border-radius: 0 6px 6px 0;
   font-size: 13.5px;
 }
 
-// ---- HR ----
+// ---- HR (hyuk style) ----
 .main-content hr {
+  height: 1px;
+  background: $border;
   border: none;
-  border-top: 1px solid $border-lt;
-  margin: 2em 0;
+  margin: 1.5em 0;
 }
 
 // ---- Search ----
 .search-input {
-  border: 1px solid $border-lt;
-  border-radius: 8px;
+  border: 1px solid $border;
+  border-radius: 0;
   font-size: 13px;
-  background: $bg-dim;
-  &:focus {
-    border-color: $neon;
-    background: $bg-card;
-    outline: none;
-  }
+  font-family: $mono;
+  &:focus { border-color: $neon; outline: none; }
 }
 
 // ---- Footer ----
 .site-footer {
   font-size: 11px;
   color: $text-3;
-  border-top: 1px solid $border-lt;
+  font-family: $mono;
+  border-top: 1px solid $border;
 }
 
-// ---- Anchors ----
+// ---- Anchor ----
 .main-content .anchor-heading {
   color: $neon;
   opacity: 0;
-  transition: opacity 0.15s;
-  font-weight: 400;
+  transition: opacity 0.1s;
 }
 .main-content h2:hover .anchor-heading { opacity: 1; }
 
 // ---- Code ----
 .main-content code {
-  background: $bg-dim;
+  font-family: $mono;
+  background: $bg-alt;
   border: 1px solid $border-lt;
-  border-radius: 4px;
-  padding: 1px 5px;
+  padding: 1px 4px;
   font-size: 0.85em;
-  font-family: "SF Mono", "JetBrains Mono", monospace;
-  color: $text-2;
 }
 
 // ---- Float clear ----
 .main-content h2 { clear: both; }
 
 // ---- Selection ----
-::selection {
-  background: $neon-mid;
-  color: $text;
-}
+::selection { background: rgba($neon, 0.25); color: $text; }
 
-// ---- Breadcrumbs ----
-.breadcrumb-nav {
-  font-size: 12px;
-  color: $text-3;
+// ---- Embedded iframe (hyuk style) ----
+.embedded-iframe {
+  width: 100%;
+  height: 400px;
+  border: 1px solid $border;
 }

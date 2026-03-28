@@ -10,11 +10,13 @@ classification:
 origin: "삭제된 메시지의 서버 캐시 잔류물 / Server cache residue of deleted messages"
 status: "활성 / Active"
 code: "WKV-E.MS-002"
+icon: "╠"
 tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental", "messenger", "physical", "vein", "data"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ╠ |
 | 분류 코드 | <span class="pill pill-code">WKV-E.MS-002</span> |
 | 유형 | <span class="pill pill-type">환경형</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저</span> |
@@ -29,6 +31,9 @@ tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental
 An [Environmental-type](../taxonomy/index.md#classification-by-type) virus transmitted through cached data of deleted messages in messenger apps. Vein-like patterns resembling circuit diagrams or data flows appear on physical surfaces (walls, ceilings, floors) near the infected person, and actual data fragments have been observed physically "flowing" through these patterns.
 {: .en}
 
+メッセンジャーで削除されたメッセージのキャッシュデータを介して伝播する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周辺の物理的表面（壁、天井、床）に回路図やデータフローに似た静脈状の模様が現れ、この模様を通じて実際のデータ断片が物理的に「流れる」のが観察される。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 메신저에서 "모두에게 삭제"된 메시지가 실제로는 서버 캐시에 잔류하는 경우가 있다. 이 잔류 데이터에 바이러스가 기생하며, 삭제된 메시지가 있던 채팅방에 계속 참여하는 사용자가 점진적으로 감염된다. 삭제된 메시지를 직접 보지 않아도 감염 가능.
@@ -36,6 +41,9 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus trans
 
 Messages "deleted for everyone" on messengers sometimes persist as residual data in server caches. The virus parasitizes this residual data, gradually infecting users who remain in chat rooms where deleted messages once existed. Direct viewing of the deleted message is not required for infection.
 {: .en}
+
+メッセンジャーで「全員に対して削除」されたメッセージが実際にはサーバーキャッシュに残留している場合がある。この残留データにウイルスが寄生し、削除されたメッセージがあったチャットルームに留まり続けるユーザーが徐々に感染する。削除されたメッセージを直接見ていなくても感染は可能。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -48,6 +56,11 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - Device storage fills with unidentifiable cache files
 - Device generates heat and appears to process data even with screen off
 {: .en}
+
+- 削除されたメッセージの内容が他のアプリ（メモ、カレンダーなど）に無作為に表示される
+- デバイスのストレージが正体不明のキャッシュファイルで満杯になる
+- 画面をオフにしてもデバイスが発熱し、データを処理しているような症状
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -62,6 +75,12 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - Luminous dots are observed moving along some veins—these are physical manifestations of actual data (text fragments, number sequences)
 - In terminal stages, veins weaken building structures, and the building itself operates like one massive circuit
 {: .en}
+
+- 感染者の居住空間の壁面に細い黒線が静脈のように広がっていく
+- 線をたどると回路基板の配線図に似たパターンが見られる
+- 一部の静脈では光る点が移動しているのが観察される——これは実際のデータ（テキスト断片、数列）が物理的に表現されたものである
+- 末期には静脈が建物の構造を弱体化させ、建物自体が一つの巨大な回路のように動作する
+{: .ja}
 
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
@@ -79,6 +98,13 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 5. Building structure converts into a "data network" (Irreversible)
 {: .en}
 
+1. メッセンジャーで削除されたメッセージの残留データに曝露（ウェブ）
+2. デバイス全般にキャッシュ異常が発生（ウェブ拡散）
+3. 感染者周辺の表面に静脈模様が出現（空間侵入）
+4. 静脈が自己増殖しデータを物理的に伝送（現実定着）
+5. 建物構造が「データネットワーク」に変換（不可逆的）
+{: .ja}
+
 ## 대응 방법 / Countermeasures
 
 - 메신저에서 삭제된 메시지가 있는 채팅방은 나갈 것
@@ -93,6 +119,12 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - Absolutely avoid proximity to [GlitchMoss](glitchmoss.md)-infected spaces
 {: .en}
 
+- メッセンジャーで削除されたメッセージがあるチャットルームから退室すること
+- デバイスのキャッシュを定期的に完全削除する
+- 静脈が発見されたら該当の表面を物理的に除去（壁紙の張り替え、塗り直し）する——初期段階でのみ有効
+- [グリッチモス](glitchmoss.md)感染空間との近接を必ず避けること
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 가을, 한 아파트 관리사무소에 "벽에서 이상한 무늬가 자라난다"는 신고가 접수됨. 현장 조사 결과 해당 세대 거주자는 한 대형 단체 채팅방에서 반복적으로 메시지가 삭제되는 상황에 노출되어 있었음. 정맥 무늬를 현미경으로 관찰한 결과, 삭제된 메시지의 텍스트가 미세한 크기로 새겨져 있었다.
@@ -100,6 +132,9 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 
 Discovered in autumn 2025 when an apartment management office received a report of "strange patterns growing on the walls." On-site investigation found the resident had been exposed to repeated message deletions in a large group chat. Microscopic examination of the vein patterns revealed the text of deleted messages engraved at microscopic scale.
 {: .en}
+
+2025年秋、あるマンションの管理事務所に「壁に奇妙な模様が育っている」という通報があった。現場調査の結果、その住人は大規模なグループチャットで繰り返しメッセージが削除される状況に曝されていた。静脈模様を顕微鏡で観察したところ、削除されたメッセージのテキストが微細なサイズで刻まれていた。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -113,6 +148,11 @@ Discovered in autumn 2025 when an apartment management office received a report 
 - [SyntaxWraith](syntaxwraith.md): Analysis suggests CacheVein's vein patterns resemble programming language syntax structures, and its connection to SyntaxWraith is under investigation.
 {: .en}
 
+- [グリッチモス（GlitchMoss）](glitchmoss.md)：同じ環境型ウイルス。グリッチモスが空間を「腐食」させるなら、キャッシュベインは空間を「配線」する。両ウイルスが同じ空間に存在すると建物崩壊のリスクが急激に上昇する。
+- [ヌルウィスパー（NullWhisper）](nullwhisper.md)：メッセンジャーという伝播経路を共有。ヌルウィスパーの空メッセージが削除されることでキャッシュベインの養分になるという仮説がある。
+- [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：キャッシュベインが生み出す静脈パターンがプログラミング言語の構文構造に類似しているという分析があり、シンタックスレイスとの関連性が研究中である。
+{: .ja}
+
 ## 참고 / Notes
 
 - 캐시베인은 현재까지 발견된 환경형 바이러스 중 가장 최근에 발견되었으나, 전파 속도가 가장 빠름
@@ -122,3 +162,7 @@ Discovered in autumn 2025 when an apartment management office received a report 
 - CacheVein is the most recently discovered Environmental-type virus but has the fastest transmission rate.
 - Data flowing through veins includes deleted messages from not only the infected person but also those around them, raising privacy concerns.
 {: .en}
+
+- キャッシュベインは現在まで発見された環境型ウイルスの中で最も最近発見されたが、伝播速度は最も速い
+- 静脈を通じて流れるデータには感染者だけでなく周囲の人々の削除メッセージの内容も含まれており、プライバシー侵害の問題も提起されている
+{: .ja}

@@ -3,6 +3,7 @@ title: "고스트핑 / GhostPing"
 parent: "바이러스 / Viruses"
 nav_order: 17
 code: "WKV-L.SE-005"
+icon: "◌"
 classification:
   type: "로직형 / Logic"
   vector: "검색엔진 / Search Engine"
@@ -14,6 +15,7 @@ tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine"
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ◌ |
 | 분류 코드 | <span class="pill pill-code">WKV-L.SE-005</span> |
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진</span> |
@@ -28,6 +30,9 @@ tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine"
 A Logic-type virus that causes search engine result pages to emit phantom notification signals. The infected person is seized by an unrelenting compulsion to check everything, yet no confirmation ever feels sufficient. Each click on a search result triggers a subtle phantom notification, and these gradually escape the search environment to infiltrate every domain of daily life. In reality, the infected person falls into "verification paralysis" — repeatedly checking door locks, gas valves, phones, and everything else, but never achieving a sense of reassurance.
 {: .en}
 
+検索エンジンの結果ページから存在しない通知信号を受信させるロジック型ウイルス。感染者は絶え間なくあらゆるものを確認しなければならないという衝動に駆られるが、どんな確認結果も十分とは感じられない。検索結果をクリックするたびに微細なファントム通知が発生し、この通知は次第に検索環境を超えて日常のあらゆる領域に侵入する。現実では、ドアの鍵、ガス栓、電話など全てを繰り返し確認するが決して安心できない「検証麻痺」状態に陥る。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 감염은 특정 검색엔진에서 결과 페이지를 스크롤할 때 시작된다. 폐쇄된 메타 검색엔진에서 유출된 알림 프로토콜이 주요 검색엔진의 결과 렌더링 코드에 기생하고 있으며, 사용자가 검색 결과를 탐색하는 동안 브라우저 알림 시스템에 잔여 신호를 주입한다. 이 신호는 실제 알림으로 표시되지 않지만, 뇌의 보상 회로에 "확인하지 않은 무언가가 있다"는 감각을 심는다. 하루에 30회 이상 검색을 수행하는 사용자일수록 감염 확률이 급격히 증가한다.
@@ -35,6 +40,9 @@ A Logic-type virus that causes search engine result pages to emit phantom notifi
 
 Infection begins when scrolling through result pages on certain search engines. A leaked notification protocol from a defunct meta-search engine parasitizes the result-rendering code of major search engines, injecting residual signals into the browser's notification system while users browse results. These signals never manifest as actual notifications, but they plant a sensation in the brain's reward circuitry that "there is something unchecked." Users who perform more than 30 searches per day see a sharp increase in infection probability.
 {: .en}
+
+感染は特定の検索エンジンで結果ページをスクロールする際に始まる。閉鎖されたメタ検索エンジンから流出した通知プロトコルが主要検索エンジンの結果レンダリングコードに寄生しており、ユーザーが検索結果を閲覧する間にブラウザの通知システムに残留信号を注入する。この信号は実際の通知としては表示されないが、脳の報酬回路に「確認していない何かがある」という感覚を植え付ける。1日30回以上検索を行うユーザーほど感染確率が急激に上昇する。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -50,6 +58,12 @@ Infection begins when scrolling through result pages on certain search engines. 
 - Previously visited links revert to unvisited status
 {: .en}
 
+- 検索結果ページに存在しない赤い通知バッジが一瞬点滅する
+- ブラウザタブのファビコンが断続的に通知アイコンに変わる
+- 検索履歴に本人が行っていない検索語が現れ、それらは「確認した？」「本当に？」などの疑問形の文章である
+- 既に訪問済みのリンクが未訪問状態に戻る
+{: .ja}
+
 ## 발현 양상 / Manifestation
 
 - 스마트폰 알림음이 들리지 않았는데도 반복적으로 화면을 확인하며, 확인 후에도 "방금 놓친 게 있을 수 있다"는 불안이 즉시 재발
@@ -63,6 +77,12 @@ Infection begins when scrolling through result pages on certain search engines. 
 - During conversations, a persistent sensation of "I just missed something" causes repeated asking of the same questions
 - In terminal stages, checking behavior becomes ritualized, with meaningless verification procedures performed before and after every action
 {: .en}
+
+- スマートフォンの通知音が聞こえていないにもかかわらず繰り返し画面を確認し、確認後も「今何か見逃したかもしれない」という不安が即座に再発する
+- ドアを施錠してからも戻って確認し、確認したことをさらに確認する無限ループに陥る
+- 会話中に相手の話を聞きながらも「今何かを聞き逃した」という感覚が持続し、同じ質問を繰り返す
+- 末期には確認行為自体が儀式化され、あらゆる行動の前後に無意味な点検手順を実行するようになる
+{: .ja}
 
 ## 경계 무너짐 단계 / Boundary Collapse Stages
 
@@ -78,6 +98,12 @@ Infection begins when scrolling through result pages on certain search engines. 
 4. Checking behavior consumes all domains of daily life, making normal activity impossible (Reality anchor)
 {: .en}
 
+1. 検索結果ページでファントム通知を受信（ウェブ）
+2. すべてのウェブサービスで存在しない通知を検知し始める（ウェブ拡散）
+3. オフラインで「確認していない何か」の感覚が発生し、反復確認行動が始まる（現実侵入）
+4. 確認行為が日常のあらゆる領域を侵食し、正常な活動が不可能になる（現実定着）
+{: .ja}
+
 ## 대응 방법 / Countermeasures
 
 - 검색 횟수를 하루 10회 이하로 제한하고, 검색 결과 페이지 체류 시간을 최소화할 것
@@ -92,6 +118,12 @@ Infection begins when scrolling through result pages on certain search engines. 
 - Participate in cognitive retraining programs that practice the rule "one check is enough" with the support of an external accountability partner
 {: .en}
 
+- 検索回数を1日10回以下に制限し、検索結果ページの滞在時間を最小限にすること
+- ブラウザのすべてのサイトに対する通知権限を完全にブロックすること
+- 感染が疑われる場合、「確認日誌」を作成して自身の確認頻度を客観的に記録し、1日の確認回数に上限を設定する
+- 「一度の確認で十分」というルールを外部の支援者と共に実践する認知再訓練プログラムへの参加を推奨
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 겨울, 한 대학 연구실에서 연구원 세 명이 동시에 실험 장비를 수백 회씩 재점검하는 행동을 보이며 연구가 완전히 중단된 사건이 발단이 되었다. 해당 연구원들은 모두 같은 학술 검색엔진을 집중적으로 사용하고 있었으며, 해당 검색엔진의 결과 페이지 소스코드에서 폐쇄된 메타 검색엔진의 알림 프로토콜 잔재가 발견되었다. 감염자 중 한 명은 "확인하지 않으면 세상이 무너질 것 같은 느낌"이라고 증언했다.
@@ -99,6 +131,9 @@ Infection begins when scrolling through result pages on certain search engines. 
 
 Discovered in winter 2025 when three researchers at a university lab simultaneously began re-inspecting equipment hundreds of times, bringing all research to a complete halt. All three had been intensively using the same academic search engine, and remnants of a defunct meta-search engine's notification protocol were found in the result page source code. One of the infected researchers testified: "It felt like the world would collapse if I didn't verify."
 {: .en}
+
+2025年冬、ある大学研究室で研究員3名が同時に実験機器を数百回も再点検する行動を見せ、研究が完全に中断した事件がきっかけとなった。該当研究員らは全員同じ学術検索エンジンを集中的に使用しており、その検索エンジンの結果ページのソースコードから閉鎖されたメタ検索エンジンの通知プロトコルの残骸が発見された。感染者の1人は「確認しなければ世界が崩壊するような感覚だった」と証言した。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -112,6 +147,11 @@ Discovered in winter 2025 when three researchers at a university lab simultaneou
 - [AfterImage](afterimage.md): Shares the search engine vector; cases have been reported where GhostPing's phantom notifications overlap with AfterImage's persistent afterimages.
 {: .en}
 
+- [エコループ（EchoLoop）](echoloop.md)：エコループの反復的思考パターンがゴーストピングの確認強迫と結合すると、症状が指数関数的に悪化する。
+- [ファントムタブ（PhantomTab）](phantomtab.md)：ファントムタブが生成するゴーストタブがゴーストピング感染者に追加の通知源として作用する可能性がある。
+- [アフターイメージ（AfterImage）](afterimage.md)：検索エンジンベクターを共有しており、ゴーストピングのファントム通知がアフターイメージの残像と重なる事例が報告されている。
+{: .ja}
+
 ## 참고 / Notes
 
 - 고스트핑 감염자는 다른 로직형 바이러스에 대한 감수성이 평균 대비 2.3배 높은 것으로 관찰되었다. 끊임없는 확인 행위가 웹 노출 시간을 증가시키기 때문으로 추정된다.
@@ -121,3 +161,7 @@ Discovered in winter 2025 when three researchers at a university lab simultaneou
 - GhostPing-infected individuals have been observed to show 2.3 times higher susceptibility to other Logic-type viruses compared to the average, presumably because constant checking behavior increases web exposure time.
 - Search engine operators officially deny the existence of the notification protocol remnants.
 {: .en}
+
+- ゴーストピング感染者は他のロジック型ウイルスに対する感受性が平均の2.3倍高いことが観察されている。絶え間ない確認行為がウェブ露出時間を増加させるためと推定される。
+- 検索エンジン運営会社は該当通知プロトコルの残骸の存在を公式に否定している。
+{: .ja}

@@ -3,6 +3,7 @@ title: "타임스탬프 / TimeStamp"
 parent: "바이러스 / Viruses"
 nav_order: 27
 code: "WKV-C.SE-007"
+icon: "◷"
 classification:
   type: "인지형 / Cognitive"
   vector: "검색엔진 / Search Engine"
@@ -14,6 +15,7 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ◷ |
 | 분류 코드 | <span class="pill pill-code">WKV-C.SE-007</span> |
 | 유형 | <span class="pill pill-type">인지형 / Cognitive</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
@@ -28,6 +30,9 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 A Cognitive-type virus contracted by repeatedly searching for specific dates, times, and timestamps on search engines. The infected person falls into a state of permanent deja vu where every experience feels like "something already lived through." New experiences, first-time encounters with people, and visits to unfamiliar places all feel like repetitions of events that have already occurred, and the sensation of "novelty" is completely extinguished from life. This induces severe existential ennui and dread, plunging the infected into profound helplessness.
 {: .en}
 
+検索エンジンで特定の日付、時刻、タイムスタンプを繰り返し検索すると感染する認知型ウイルス。感染者はすべての経験が「すでに体験したことがある」と感じる永続的なデジャヴ状態に陥る。新しい経験、初めて会う人、初めて訪れる場所のすべてが過去にすでに起こった出来事の繰り返しのように感じられ、人生から「新しさ」という感覚が完全に消滅する。これは極度の実存的倦怠と恐怖を引き起こし、感染者を深い無力感に陥れる。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 검색엔진의 날짜 범위 필터를 사용하여 과거 특정 시점의 기록을 반복 검색하거나, 타임스탬프가 포함된 로그 데이터를 집중적으로 열람하면 감염된다. 특히 "이 날 무슨 일이 있었나" 식의 과거 회귀적 검색 패턴이 위험하며, 검색 결과에 표시되는 날짜·시각 메타데이터를 5회 이상 연속으로 클릭하면 감염 벡터가 활성화된다. 검색엔진의 캐시된 페이지를 통해 과거 시점의 웹페이지에 접근하는 행위도 감염 경로에 포함된다.
@@ -35,6 +40,9 @@ A Cognitive-type virus contracted by repeatedly searching for specific dates, ti
 
 Infection occurs when repeatedly searching for records of specific past time points using the date range filter of a search engine, or intensively reviewing log data containing timestamps. The "what happened on this day" type of retrospective search pattern is particularly dangerous, and the infection vector activates after clicking date/time metadata displayed in search results five or more consecutive times. Accessing past versions of web pages through search engine cached pages is also included as an infection pathway.
 {: .en}
+
+検索エンジンの日付範囲フィルターを使用して過去の特定時点の記録を繰り返し検索したり、タイムスタンプを含むログデータを集中的に閲覧すると感染する。特に「この日何があったか」式の過去回帰的な検索パターンが危険であり、検索結果に表示される日付・時刻のメタデータを5回以上連続でクリックすると感染ベクターが活性化する。検索エンジンのキャッシュページを通じて過去時点のウェブページにアクセスする行為も感染経路に含まれる。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -47,6 +55,11 @@ Infection occurs when repeatedly searching for records of specific past time poi
 - Publication dates on web pages all appear as familiar dates from the past
 - Sites never visited appear as "previously visited" in browser history
 {: .en}
+
+- すべての検索結果が「すでに見たことがある」ように感じられ、新しい情報を受容できない
+- ウェブページの掲載日がすべて過去の馴染みのある日付に見える
+- ブラウザの履歴に訪問したことのないサイトが「過去に訪問済み」と表示される
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -62,6 +75,12 @@ Infection occurs when repeatedly searching for records of specific past time poi
 - In terminal stages, all anticipation for the future is extinguished—the conviction that "tomorrow is just a repetition of a day already lived" becomes permanent
 {: .en}
 
+- 初めて会う人に「前にお会いしましたよね？」と確信を持って言う
+- 新しい映画、音楽、本に接しても「これはもう見たものだ」という感覚が支配的で楽しめない
+- すべての会話が「この会話を前にもしたことがある」という感覚を伴い、会話への意欲が完全に喪失する
+- 末期には未来への期待感が完全に消滅する——「明日もすでに経験した一日の繰り返しに過ぎない」という確信が定着する
+{: .ja}
+
 ## 경계 무너짐 단계 / Boundary Collapse Stages
 
 1. 검색 결과가 이미 본 것처럼 느껴지기 시작—같은 검색을 반복하고 있다는 착각 (웹 침투)
@@ -75,6 +94,12 @@ Infection occurs when repeatedly searching for records of specific past time poi
 3. All offline experiences convert to deja vu—first-time places and actions all feel "already done" (Reality breach)
 4. Complete collapse of time perception—trapped in an eternal loop where past, present, and future are indistinguishable (Reality anchor)
 {: .en}
+
+1. 検索結果がすでに見たもののように感じ始める——同じ検索を繰り返しているという錯覚（ウェブ浸透）
+2. オンラインのすべてのコンテンツが過去の繰り返しとして認識される——新しいニュースも「以前読んだ記事」のように感じる（ウェブ拡散）
+3. オフラインの体験全体がデジャヴに転換する——初めて行く場所、初めてする行為のすべてが「すでにしたことがある」（現実侵入）
+4. 時間感覚が完全崩壊する——過去、現在、未来が区別されない永遠の繰り返しに閉じ込められる（現実定着）
+{: .ja}
 
 ## 대응 방법 / Countermeasures
 
@@ -90,6 +115,12 @@ Infection occurs when repeatedly searching for records of specific past time poi
 - Assign a "reality anchor" person whose role is to objectively confirm "this is happening for the first time"
 {: .en}
 
+- 検索エンジンの日付フィルター使用を直ちに中止し、過去回帰的な検索習慣を意識的に矯正すること
+- 毎日「今日初めて経験したこと」のリストを作成し、新しさに対する認知能力を強制的に訓練すること
+- 感染初期に予測不可能な活動（即興旅行、ランダムな趣味の試みなど）を積極的に行えばデジャヴの固着が遅延する
+- 他人が「これは初めてのことだよ」と客観的に確認してくれる「現実アンカー」役を配置すること
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 겨울, 디지털 아카이빙 전문가가 10년간의 웹 기록을 날짜별로 정리하는 프로젝트 중 감염되었다. 전문가는 프로젝트 완료 후 "모든 날이 같은 날 같다"고 호소했으며, 새해 카운트다운 행사에서도 "이 새해를 이미 맞이한 적 있다"고 확신하여 아무런 감흥을 느끼지 못했다. 이후 유사 증상을 보이는 사례가 역사 연구자, 저널리스트, 데이터 분석가 등 과거 기록을 빈번히 검색하는 직군에서 집중 발견되면서 신종 바이러스로 분류되었다.
@@ -97,6 +128,9 @@ Infection occurs when repeatedly searching for records of specific past time poi
 
 In winter 2025, a digital archiving specialist became infected during a project organizing ten years of web records by date. After completing the project, the specialist complained that "every day feels like the same day," and at a New Year's countdown event was convinced "I've already celebrated this New Year before," feeling no excitement whatsoever. Similar cases were subsequently identified concentrated among professions that frequently search past records—historians, journalists, data analysts—leading to classification as a new virus.
 {: .en}
+
+2025年冬、デジタルアーカイビング専門家が10年間のウェブ記録を日付別に整理するプロジェクト中に感染した。専門家はプロジェクト完了後「すべての日が同じ日のようだ」と訴え、年越しカウントダウンイベントでも「この新年をすでに迎えたことがある」と確信して何の感慨も抱かなかった。その後、類似症状を示す事例が歴史研究者、ジャーナリスト、データアナリストなど過去の記録を頻繁に検索する職種で集中的に発見され、新種ウイルスとして分類された。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -110,6 +144,11 @@ In winter 2025, a digital archiving specialist became infected during a project 
 - [DeadScroll](deadscroll.md): If DeadScroll causes time distortion through infinite scrolling, TimeStamp compresses all time periods into a single repetition—co-infection brings time perception to a complete halt.
 {: .en}
 
+- [ドリームリーク（DreamLeak）](dreamleak.md)：夢の記憶とデジャヴが結合すると、すべての経験が「夢ですでに経験した繰り返し」と感じられ、現実感が二重に破壊される。
+- [エコループ（EchoLoop）](echoloop.md)：エコループの反復検索行動がタイムスタンプの過去回帰的検索パターンと共鳴し、双方の症状を同時に加速させる。
+- [デッドスクロール（DeadScroll）](deadscroll.md)：デッドスクロールが無限スクロールによる時間の歪みを引き起こすのに対し、タイムスタンプはすべての時間帯を一つの繰り返しに圧縮する——同時感染時、時間認識が完全に停止する。
+{: .ja}
+
 ## 참고 / Notes
 
 - 타임스탬프 감염자 중 일부는 "미래의 데자뷔"를 경험한다고 보고함—아직 일어나지 않은 일이 "이미 일어난 것"으로 느껴져, 예언과 구분할 수 없는 확신을 갖게 됨.
@@ -119,3 +158,7 @@ In winter 2025, a digital archiving specialist became infected during a project 
 - Some TimeStamp-infected individuals report experiencing "future deja vu"—events that have not yet occurred feel as if they "already happened," producing convictions indistinguishable from prophecy.
 - Paradoxically, TimeStamp-infected individuals do not experience deja vu during actually repetitive routines (commuting, meals, etc.) and symptoms manifest only during objectively "new" experiences.
 {: .en}
+
+- タイムスタンプ感染者の一部は「未来のデジャヴ」を経験すると報告している——まだ起きていない出来事が「すでに起きた」と感じられ、予言と区別できない確信を持つようになる。
+- 逆説的に、タイムスタンプ感染者は実際に繰り返される日常（通勤、食事など）ではデジャヴを感じず、客観的に「新しい」経験でのみ症状が発現する。
+{: .ja}
