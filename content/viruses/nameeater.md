@@ -21,7 +21,6 @@ tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct 
 | 유형 | <span class="pill pill-type">인지형 / Cognitive</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근 / Direct Access</span> |
 | 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
-| 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -33,7 +32,6 @@ tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct 
 | Type | <span class="pill pill-type">인지형 / Cognitive</span> |
 | Vector | <span class="pill pill-vector">직접접근 / Direct Access</span> |
 | Severity | <span class="pill pill-severity-high">높음 / High</span> |
-| Status | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -45,7 +43,6 @@ tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct 
 | タイプ | <span class="pill pill-type">인지형 / Cognitive</span> |
 | 経路 | <span class="pill pill-vector">직접접근 / Direct Access</span> |
 | 危険度 | <span class="pill pill-severity-high">높음 / High</span> |
-| 状態 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 

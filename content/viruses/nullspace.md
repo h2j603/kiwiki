@@ -21,7 +21,6 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 | 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저 / Messenger</span> |
 | 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
-| 상태 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -33,7 +32,6 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 | Type | <span class="pill pill-type">환경형 / Environmental</span> |
 | Vector | <span class="pill pill-vector">메신저 / Messenger</span> |
 | Severity | <span class="pill pill-severity-high">높음 / High</span> |
-| Status | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 
@@ -45,7 +43,6 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 | タイプ | <span class="pill pill-type">환경형 / Environmental</span> |
 | 経路 | <span class="pill pill-vector">메신저 / Messenger</span> |
 | 危険度 | <span class="pill pill-severity-high">높음 / High</span> |
-| 状態 | <span class="pill pill-active">활성 / Active</span> |
 
 </div>
 

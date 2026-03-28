@@ -21,7 +21,6 @@ tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "
 | 유형 | <span class="pill pill-type">환경형</span> |
 | 전파 경로 | <span class="pill pill-vector">이메일</span> |
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
-| 상태 | <span class="pill pill-active">활성</span> |
 
 </div>
 
@@ -33,7 +32,6 @@ tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "
 | Type | <span class="pill pill-type">Environmental</span> |
 | Vector | <span class="pill pill-vector">Email</span> |
 | Severity | <span class="pill pill-severity-critical">Critical</span> |
-| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -45,7 +43,6 @@ tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "
 | タイプ | <span class="pill pill-type">環境型</span> |
 | 経路 | <span class="pill pill-vector">メール</span> |
 | 危険度 | <span class="pill pill-severity-critical">致命的</span> |
-| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 

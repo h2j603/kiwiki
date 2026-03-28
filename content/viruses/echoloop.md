@@ -22,7 +22,6 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 | 유형 | <span class="pill pill-type">인지형</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
-| 상태 | <span class="pill pill-active">활성</span> |
 
 </div>
 
@@ -34,7 +33,6 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 | Type | <span class="pill pill-type">Cognitive</span> |
 | Vector | <span class="pill pill-vector">Search Engine</span> |
 | Severity | <span class="pill pill-severity-moderate">Moderate</span> |
-| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -46,7 +44,6 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 | タイプ | <span class="pill pill-type">認知型</span> |
 | 経路 | <span class="pill pill-vector">検索エンジン</span> |
 | 危険度 | <span class="pill pill-severity-moderate">中</span> |
-| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 
