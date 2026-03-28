@@ -14,7 +14,7 @@
 // --- INFECTION (runs immediately) ---
 (function(){
   try {
-    var vs = ['kiwiecho','kiwimirror','kiwirot','kiwiscroll','kiwimoss','kiwhisper','kiwispot','kiwitab','kiwibloom','kiwisyntax','kiwivein','kiwiforgot'];
+    var vs = ['kiwiecho','kiwimirror','kiwirot','kiwiscroll','kiwimoss','kiwhisper','kiwispot','kiwitab','kiwibloom','kiwisyntax','kiwivein','kiwiforgot','kiwighost','kiwiparadox','kiwibleed','kiwiclip','kiwidrift','kiwitouch','kiwivoice','kiwiafter','kiwidream','kiwieater','kiwitime','kiwicut','kiwirust','kiwiroot','kiwiroom','kiwispace','kiwiloop','kiwishade','kiwihowl','kiwivoid'];
     var v = sessionStorage.getItem('kiwiki-virus');
     if (!v) { v = vs[Math.floor(Math.random()*vs.length)]; sessionStorage.setItem('kiwiki-virus', v); }
     document.documentElement.className += ' virus-' + v;
@@ -79,8 +79,8 @@ document.addEventListener('DOMContentLoaded', function(){
   try {
     var v = window._kVirus;
     if (v) {
-      var names = {echoloop:'KiwiEcho',mirrorlink:'KiwiMirror',pixelrot:'KiwiRot',deadscroll:'KiwiScroll',glitchmoss:'KiwiMoss',nullwhisper:'KiWhisper',blindspot:'KiwiSpot',phantomtab:'KiwiTab',staticbloom:'KiwiBloom',syntaxwraith:'KiwiSyntax',cachevein:'KiwiVein',forgetmenot:'KiwiForgot'};
-      var codes = {echoloop:'WKV-C.SE-001',mirrorlink:'WKV-S.SN-001',pixelrot:'WKV-S.EM-002',deadscroll:'WKV-C.SN-002',glitchmoss:'WKV-E.DA-001',nullwhisper:'WKV-L.MS-001',blindspot:'WKV-S.SE-004',phantomtab:'WKV-L.SN-003',staticbloom:'WKV-E.SN-003',syntaxwraith:'WKV-L.DA-002',cachevein:'WKV-E.MS-002',forgetmenot:'WKV-C.EM-003'};
+      var names = {kiwiecho:'KiwiEcho',kiwimirror:'KiwiMirror',kiwirot:'KiwiRot',kiwiscroll:'KiwiScroll',kiwimoss:'KiwiMoss',kiwhisper:'KiWhisper',kiwispot:'KiwiSpot',kiwitab:'KiwiTab',kiwibloom:'KiwiBloom',kiwisyntax:'KiwiSyntax',kiwivein:'KiwiVein',kiwiforgot:'KiwiForgot',kiwighost:'KiwiGhost',kiwiparadox:'KiwiParadox',kiwibleed:'KiwiBleed',kiwiclip:'KiwiClip',kiwidrift:'KiwiDrift',kiwitouch:'KiwiTouch',kiwivoice:'KiwiVoice',kiwiafter:'KiwiAfter',kiwidream:'KiwiDream',kiwieater:'KiwiEater',kiwitime:'KiwiTime',kiwicut:'KiwiCut',kiwirust:'KiwiRust',kiwiroot:'KiwiRoot',kiwiroom:'KiwiRoom',kiwispace:'KiwiSpace',kiwiloop:'KiwiLoop',kiwishade:'KiwiShade',kiwihowl:'KiwiHowl',kiwivoid:'KiwiVoid'};
+      var codes = {kiwiecho:'WKV-C.SE-001',kiwimirror:'WKV-S.SN-001',kiwirot:'WKV-S.EM-002',kiwiscroll:'WKV-C.SN-002',kiwimoss:'WKV-E.DA-001',kiwhisper:'WKV-L.MS-001',kiwispot:'WKV-S.SE-004',kiwitab:'WKV-L.SN-003',kiwibloom:'WKV-E.SN-003',kiwisyntax:'WKV-L.DA-002',kiwivein:'WKV-E.MS-002',kiwiforgot:'WKV-C.EM-003',kiwighost:'WKV-L.SE-005',kiwiparadox:'WKV-L.DA-006',kiwibleed:'WKV-L.SN-007',kiwiclip:'WKV-L.MS-008',kiwidrift:'WKV-S.DA-005',kiwitouch:'WKV-S.SN-006',kiwivoice:'WKV-S.EM-007',kiwiafter:'WKV-S.SE-008',kiwidream:'WKV-C.SN-005',kiwieater:'WKV-C.DA-006',kiwitime:'WKV-C.SE-007',kiwicut:'WKV-C.MS-008',kiwirust:'WKV-E.SE-005',kiwiroot:'WKV-E.DA-006',kiwiroom:'WKV-E.SN-007',kiwispace:'WKV-E.MS-008',kiwiloop:'WKV-C.MS-004',kiwishade:'WKV-L.EM-004',kiwihowl:'WKV-S.MS-003',kiwivoid:'WKV-E.EM-004'};
 
       // Stage 1: Center splash
       var splash = document.createElement('div');
