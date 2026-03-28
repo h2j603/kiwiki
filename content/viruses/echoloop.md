@@ -1,5 +1,7 @@
 ---
 title: "에코루프 / EchoLoop"
+parent: "바이러스 / Viruses"
+nav_order: 5
 aliases: ["EchoLoop", "메아리순환", "Echo Loop"]
 classification:
   type: "인지형 / Cognitive"
@@ -71,9 +73,9 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 
 ## 관련 바이러스 / Related Viruses
 
-- [[deadscroll|데드스크롤 (DeadScroll)]]: 같은 인지형 바이러스. 에코루프가 검색 반복이라면, 데드스크롤은 스크롤 반복에서 비롯된다. / A fellow Cognitive-type virus. While EchoLoop stems from search repetition, DeadScroll originates from scroll repetition.
-- [[syntaxwraith|신택스레이스 (SyntaxWraith)]]: 반복적 사고 패턴이라는 점에서 유사하나, 신택스레이스는 사고의 *구조*를 변형시킨다. / Similar in inducing repetitive thought patterns, but SyntaxWraith alters the *structure* of thought.
-- [[nullwhisper|널위스퍼 (NullWhisper)]]: 에코루프 감염자가 메신저를 사용할 경우 널위스퍼에 대한 감수성이 높아진다는 보고가 있다. / Reports suggest EchoLoop-infected individuals show increased susceptibility to NullWhisper when using messengers.
+- [데드스크롤 (DeadScroll)](deadscroll.md): 같은 인지형 바이러스. 에코루프가 검색 반복이라면, 데드스크롤은 스크롤 반복에서 비롯된다. / A fellow Cognitive-type virus. While EchoLoop stems from search repetition, DeadScroll originates from scroll repetition.
+- [신택스레이스 (SyntaxWraith)](syntaxwraith.md): 반복적 사고 패턴이라는 점에서 유사하나, 신택스레이스는 사고의 *구조*를 변형시킨다. / Similar in inducing repetitive thought patterns, but SyntaxWraith alters the *structure* of thought.
+- [널위스퍼 (NullWhisper)](nullwhisper.md): 에코루프 감염자가 메신저를 사용할 경우 널위스퍼에 대한 감수성이 높아진다는 보고가 있다. / Reports suggest EchoLoop-infected individuals show increased susceptibility to NullWhisper when using messengers.
 
 ## 참고 / Notes
 

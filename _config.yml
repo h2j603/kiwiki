@@ -1,0 +1,38 @@
+title: Kiwiki
+description: "웹키위바이러스 위키 / Web Kiwi Virus Wiki"
+theme: just-the-docs
+baseurl: "/kiwiki"
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+exclude:
+  - config/
+  - data/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - content/viruses/_template.md
+
+search_enabled: true
+search.heading_level: 3
+
+heading_anchor: true
+
+nav_sort: case_insensitive
+
+back_to_top: true
+back_to_top_text: "맨 위로"
+
+footer_content: "Kiwiki &mdash; 웹키위바이러스 위키 / Web Kiwi Virus Wiki"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

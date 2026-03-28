@@ -1,5 +1,7 @@
 ---
 title: "데드스크롤 / DeadScroll"
+parent: "바이러스 / Viruses"
+nav_order: 6
 aliases: ["DeadScroll", "사자의두루마리", "Dead Scroll"]
 classification:
   type: "인지형 / Cognitive"
@@ -72,9 +74,9 @@ Investigation began in early 2025 when a college student posted "I opened my pho
 
 ## 관련 바이러스 / Related Viruses
 
-- [[echoloop|에코루프 (EchoLoop)]]: 같은 인지형 바이러스. 에코루프가 행동의 반복이라면, 데드스크롤은 시간의 소멸이다. 두 바이러스에 동시 감염되면, 반복하는 줄도 모르고 시간도 잃는 이중 인지 장애가 발생한다. / A fellow Cognitive-type virus. If EchoLoop is repetition of action, DeadScroll is erasure of time. Co-infection creates a dual cognitive disorder: repeating without knowing while losing time.
-- [[mirrorlink|미러링크 (MirrorLink)]]: SNS 전파 경로를 공유. 미러링크 감염자가 데드스크롤에 동시 감염되면, 시간 빈틈 동안 거울 속 자신이 "독립적으로 움직이는" 현상이 보고됨. / Shares the SNS transmission vector. When MirrorLink-infected individuals co-contract DeadScroll, their reflection has been reported to "move independently" during time gaps.
-- [[pixelrot|픽셀롯 (PixelRot)]]: 픽셀롯 감염자는 저해상도 시야로 인해 데드스크롤의 13개 반복 패턴을 시각적으로 구별하지 못해 감염 위험이 증가한다. / PixelRot-infected individuals cannot visually distinguish DeadScroll's 13-interval pattern due to low-resolution vision, increasing infection risk.
+- [에코루프 (EchoLoop)](echoloop.md): 같은 인지형 바이러스. 에코루프가 행동의 반복이라면, 데드스크롤은 시간의 소멸이다. 두 바이러스에 동시 감염되면, 반복하는 줄도 모르고 시간도 잃는 이중 인지 장애가 발생한다. / A fellow Cognitive-type virus. If EchoLoop is repetition of action, DeadScroll is erasure of time. Co-infection creates a dual cognitive disorder: repeating without knowing while losing time.
+- [미러링크 (MirrorLink)](mirrorlink.md): SNS 전파 경로를 공유. 미러링크 감염자가 데드스크롤에 동시 감염되면, 시간 빈틈 동안 거울 속 자신이 "독립적으로 움직이는" 현상이 보고됨. / Shares the SNS transmission vector. When MirrorLink-infected individuals co-contract DeadScroll, their reflection has been reported to "move independently" during time gaps.
+- [픽셀롯 (PixelRot)](pixelrot.md): 픽셀롯 감염자는 저해상도 시야로 인해 데드스크롤의 13개 반복 패턴을 시각적으로 구별하지 못해 감염 위험이 증가한다. / PixelRot-infected individuals cannot visually distinguish DeadScroll's 13-interval pattern due to low-resolution vision, increasing infection risk.
 
 ## 참고 / Notes
 

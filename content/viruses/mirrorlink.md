@@ -1,5 +1,7 @@
 ---
 title: "미러링크 / MirrorLink"
+parent: "바이러스 / Viruses"
+nav_order: 3
 aliases: ["MirrorLink", "거울링크", "Mirror Link"]
 classification:
   type: "감각형 / Sensory"
@@ -70,9 +72,9 @@ First identified in autumn 2024 when posts saying "something is wrong with my mi
 
 ## 관련 바이러스 / Related Viruses
 
-- [[pixelrot|픽셀롯 (PixelRot)]]: 같은 감각형 바이러스. 미러링크가 반사상을 왜곡한다면, 픽셀롯은 시야 전체를 침식한다. / A fellow Sensory-type virus. While MirrorLink distorts reflections, PixelRot erodes the entire visual field.
-- [[deadscroll|데드스크롤 (DeadScroll)]]: SNS를 통해 전파된다는 공통점. 미러링크 감염자가 무한 스크롤에 빠지면 데드스크롤 동시 감염 위험이 있다. / Shares SNS as a transmission vector. MirrorLink-infected individuals falling into infinite scrolling risk co-infection with DeadScroll.
-- [[glitchmoss|글리치모스 (GlitchMoss)]]: 미러링크 말기 환자 주변 반사면에서 글리치모스와 유사한 시각적 부식이 관찰된 바 있다. / Visual corrosion similar to GlitchMoss has been observed on reflective surfaces near late-stage MirrorLink patients.
+- [픽셀롯 (PixelRot)](pixelrot.md): 같은 감각형 바이러스. 미러링크가 반사상을 왜곡한다면, 픽셀롯은 시야 전체를 침식한다. / A fellow Sensory-type virus. While MirrorLink distorts reflections, PixelRot erodes the entire visual field.
+- [데드스크롤 (DeadScroll)](deadscroll.md): SNS를 통해 전파된다는 공통점. 미러링크 감염자가 무한 스크롤에 빠지면 데드스크롤 동시 감염 위험이 있다. / Shares SNS as a transmission vector. MirrorLink-infected individuals falling into infinite scrolling risk co-infection with DeadScroll.
+- [글리치모스 (GlitchMoss)](glitchmoss.md): 미러링크 말기 환자 주변 반사면에서 글리치모스와 유사한 시각적 부식이 관찰된 바 있다. / Visual corrosion similar to GlitchMoss has been observed on reflective surfaces near late-stage MirrorLink patients.
 
 ## 참고 / Notes
 
