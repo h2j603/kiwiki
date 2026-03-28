@@ -30,6 +30,7 @@ body.lang-ja {
   max-width: 100%;
   font-size: 15px;
   line-height: 1.7;
+  letter-spacing: -0.02em;
   color: #111;
 
   h1 {
@@ -41,7 +42,7 @@ body.lang-ja {
   }
 
   h2 {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "t26-carbon", monospace;
     font-weight: 600;
     font-size: 1.1em;
     color: #111;
@@ -50,7 +51,7 @@ body.lang-ja {
   }
 
   h3 {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "t26-carbon", monospace;
     font-weight: 600;
     font-size: 1em;
     color: #111;
@@ -63,7 +64,7 @@ body.lang-ja {
     color: #111;
     text-decoration: underline;
     font-style: italic;
-    &:hover { color: #000; background: rgba(0,0,0,0.08); }
+    &:hover { color: #000; background: none; text-decoration-thickness: 2px; }
   }
 
   ul, ol {
@@ -114,11 +115,14 @@ body.lang-ja {
   td {
     vertical-align: top;
     color: #111;
+    background: transparent !important;
   }
 
+  tr { background: transparent !important; }
+  tr:nth-child(even) td { background: transparent !important; }
+
   tr:hover {
-    background: rgba(0,0,0,0.06);
-    td { background: transparent; }
+    background: rgba(0,0,0,0.04) !important;
   }
 
   a {
@@ -187,7 +191,7 @@ body.lang-ja {
   background: #111;
   color: lawngreen;
   border-color: #111;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "t26-carbon", monospace;
   font-size: 10px;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -213,22 +217,23 @@ body.lang-ja {
   padding: 4px 14px;
   font-size: 12px;
   font-weight: 400;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "t26-carbon", monospace;
   text-decoration: none;
   background: transparent;
   color: #111;
   cursor: pointer;
   &:not(:last-child) { border-right: 1px solid #111; }
-  &:hover { background: rgba(0,0,0,0.08); text-decoration: none; }
+  &:hover { background: rgba(0,0,0,0.1); text-decoration: none; }
   &.active { background: #111; color: lawngreen; }
 }
 
 // ---- HR ----
 .main-content hr {
   height: 1px;
-  background: #111;
-  border: none;
+  background: #111 !important;
+  border: none !important;
   margin: 1.5em 0;
+  color: #111;
 }
 
 // ---- Blockquote ----
@@ -236,16 +241,16 @@ body.lang-ja {
   border-left: 3px solid #111;
   padding: 0.4em 1em;
   color: #333;
-  background: rgba(0,0,0,0.03);
+  background: transparent;
   margin: 1em 0;
   font-style: italic;
 }
 
 // ---- Code ----
 .main-content code {
-  font-family: "IBM Plex Mono", monospace;
-  background: rgba(0,0,0,0.05);
-  border: 1px solid rgba(0,0,0,0.15);
+  font-family: "t26-carbon", monospace;
+  background: transparent;
+  border: 1px solid #111;
   padding: 1px 4px;
   font-size: 0.9em;
   color: #111;
@@ -286,7 +291,7 @@ body.lang-ja {
 
   .toc-title {
     padding: 10px 14px;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "t26-carbon", monospace;
     font-weight: 600;
     font-size: 1.1em;
     color: #111;
@@ -343,7 +348,7 @@ html { scroll-behavior: smooth; }
   color: lawngreen;
   border: none;
   padding: 8px 14px;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "t26-carbon", monospace;
   font-size: 11px;
   margin-bottom: 20px;
   letter-spacing: 1px;
@@ -367,13 +372,13 @@ html { scroll-behavior: smooth; }
   padding-top: 12px;
   font-size: 10px;
   color: rgba(0,0,0,0.35);
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "t26-carbon", monospace;
   letter-spacing: 0.5px;
 }
 
 // ---- Stats bar ----
 .stats-bar {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "t26-carbon", monospace;
   font-size: 13px;
   color: #111;
   margin-bottom: 20px;
