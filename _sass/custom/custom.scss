@@ -121,17 +121,23 @@ body {
   }
 }
 
-// ---- Tables (hyuk 동일: 1px solid orangered, collapse, hover gradient) ----
+// ---- Tables (hyuk style + no vertical borders on main index) ----
 .main-content table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid orangered;
+  border-top: 1px solid orangered;
+  border-bottom: 1px solid orangered;
+  border-left: none;
+  border-right: none;
   margin: 20px 0 50px;
   text-align: left;
   font-size: 14px;
 
   th, td {
-    border: 1px solid orangered;
+    border-top: 1px solid orangered;
+    border-bottom: 1px solid orangered;
+    border-left: none;
+    border-right: none;
     padding: 10px;
   }
 
