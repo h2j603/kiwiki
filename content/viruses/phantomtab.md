@@ -1,6 +1,5 @@
 ---
 title: "팬텀탭 / PhantomTab"
-parent: "바이러스 / Viruses"
 nav_order: 9
 classification:
   type: "로직형 / Logic"
@@ -15,7 +14,7 @@ tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attenti
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attenti
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

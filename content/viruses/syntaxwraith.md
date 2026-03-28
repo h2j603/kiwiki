@@ -1,6 +1,5 @@
 ---
 title: "신택스레이스 / SyntaxWraith"
-parent: "바이러스 / Viruses"
 nav_order: 2
 aliases: ["SyntaxWraith", "구문유령", "Syntax Wraith"]
 classification:
@@ -16,7 +15,7 @@ tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access"
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -52,7 +51,7 @@ tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access"
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "크로마드리프트 / ChromaDrift"
-parent: "바이러스 / Viruses"
 nav_order: 21
 code: "WKV-S.DA-005"
 icon: "◉"
@@ -15,7 +14,7 @@ tags: ["감각형", "직접접근", "색각", "시각", "sensory", "direct acces
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["감각형", "직접접근", "색각", "시각", "sensory", "direct acces
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

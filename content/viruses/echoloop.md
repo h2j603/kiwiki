@@ -1,6 +1,5 @@
 ---
 title: "에코루프 / EchoLoop"
-parent: "바이러스 / Viruses"
 nav_order: 5
 aliases: ["EchoLoop", "메아리순환", "Echo Loop"]
 classification:
@@ -16,7 +15,7 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -52,7 +51,7 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

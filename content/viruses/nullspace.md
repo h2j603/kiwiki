@@ -1,6 +1,5 @@
 ---
 title: "널스페이스 / NullSpace"
-parent: "바이러스 / Viruses"
 nav_order: 32
 code: "WKV-E.MS-008"
 icon: "☐"
@@ -15,7 +14,7 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

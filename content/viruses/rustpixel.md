@@ -1,6 +1,5 @@
 ---
 title: "러스트픽셀 / RustPixel"
-parent: "바이러스 / Viruses"
 nav_order: 29
 code: "WKV-E.SE-005"
 icon: "▤"
@@ -15,7 +14,7 @@ tags: ["환경형", "검색엔진", "부식", "금속", "environmental", "search
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["환경형", "검색엔진", "부식", "금속", "environmental", "search
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

@@ -6,7 +6,7 @@ permalink: /glossary/
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 # 용어 사전 / Glossary
 
@@ -21,7 +21,7 @@ Key terms related to Web Kiwi Viruses.
 
 ---
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 ### 웹키위바이러스 / Web Kiwi Virus
 
@@ -36,7 +36,7 @@ A virus that spreads through the web and collapses the boundary between the virt
 
 ---
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 ### 경계 무너짐 / Boundary Collapse
 
@@ -51,7 +51,7 @@ The phenomenon where web-based effects begin to influence the physical world. Th
 
 ---
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 ### 벡터 / Vector
 
@@ -66,7 +66,7 @@ The web pathway through which a virus spreads. Five vectors are currently identi
 
 ---
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 ### 발현 / Manifestation
 
@@ -81,7 +81,7 @@ The specific symptoms through which a virus manifests in reality. → [Full arti
 
 ---
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 ### 동시 감염 / Co-infection
 
@@ -96,7 +96,7 @@ A state of being simultaneously infected by two or more Web Kiwi Viruses. In mos
 
 ---
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 ### 비가역적 변형 / Irreversible Transformation
 

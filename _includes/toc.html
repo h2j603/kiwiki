@@ -1,0 +1,30 @@
+<details class="toc-box" open>
+<summary>
+<span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span>
+</summary>
+<nav class="toc-nav" id="kiwiki-toc"></nav>
+</details>
+<script>
+(function(){
+  var toc=document.getElementById('kiwiki-toc');
+  if(!toc)return;
+  var hs=document.querySelectorAll('.main-content h2, .main-content main h2');
+  if(hs.length<2)return;
+  var ol=document.createElement('ol');
+  var n=0;
+  for(var i=0;i<hs.length;i++){
+    var h=hs[i];
+    if(!h.id)h.id='s-'+(++n);
+    var li=document.createElement('li');
+    var a=document.createElement('a');
+    a.href='#'+h.id;
+    a.textContent=h.textContent.replace('#','').trim();
+    a.style.color='orangered';
+    a.style.textDecoration='none';
+    a.style.fontStyle='normal';
+    li.appendChild(a);
+    ol.appendChild(li);
+  }
+  toc.appendChild(ol);
+})();
+</script>

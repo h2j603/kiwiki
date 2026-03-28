@@ -1,6 +1,5 @@
 ---
 title: "고스트핑 / GhostPing"
-parent: "바이러스 / Viruses"
 nav_order: 17
 code: "WKV-L.SE-005"
 icon: "◌"
@@ -15,7 +14,7 @@ tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine"
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine"
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

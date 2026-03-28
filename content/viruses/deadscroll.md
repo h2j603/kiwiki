@@ -1,6 +1,5 @@
 ---
 title: "데드스크롤 / DeadScroll"
-parent: "바이러스 / Viruses"
 nav_order: 6
 aliases: ["DeadScroll", "사자의두루마리", "Dead Scroll"]
 classification:
@@ -16,7 +15,7 @@ tags: ["인지형", "SNS", "시간", "스크롤", "cognitive", "social media", "
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -52,7 +51,7 @@ tags: ["인지형", "SNS", "시간", "스크롤", "cognitive", "social media", "
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

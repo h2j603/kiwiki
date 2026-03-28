@@ -1,6 +1,5 @@
 ---
 title: "바이트셰이드 / ByteShade"
-parent: "바이러스 / Viruses"
 nav_order: 10
 classification:
   type: "로직형 / Logic"
@@ -15,7 +14,7 @@ tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgm
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgm
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

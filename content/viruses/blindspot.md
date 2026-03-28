@@ -1,6 +1,5 @@
 ---
 title: "블라인드스팟 / BlindSpot"
-parent: "바이러스 / Viruses"
 nav_order: 12
 classification:
   type: "감각형 / Sensory"
@@ -15,7 +14,7 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 <div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>
 <div class="warning-banner ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</div>
@@ -55,7 +54,7 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

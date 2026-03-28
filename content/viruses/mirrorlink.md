@@ -1,6 +1,5 @@
 ---
 title: "미러링크 / MirrorLink"
-parent: "바이러스 / Viruses"
 nav_order: 3
 aliases: ["MirrorLink", "거울링크", "Mirror Link"]
 classification:
@@ -16,7 +15,7 @@ tags: ["감각형", "SNS", "시각", "거울", "sensory", "social media", "visua
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -52,7 +51,7 @@ tags: ["감각형", "SNS", "시각", "거울", "sensory", "social media", "visua
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "스태틱블룸 / StaticBloom"
-parent: "바이러스 / Viruses"
 nav_order: 15
 classification:
   type: "환경형 / Environmental"
@@ -15,7 +14,7 @@ tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", 
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", 
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

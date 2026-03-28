@@ -1,6 +1,5 @@
 ---
 title: "탱글터치 / TangleTouch"
-parent: "바이러스 / Viruses"
 nav_order: 22
 code: "WKV-S.SN-006"
 icon: "⊛"
@@ -15,7 +14,7 @@ tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tacti
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tacti
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

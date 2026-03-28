@@ -6,7 +6,7 @@ permalink: /taxonomy/
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 # 웹키위바이러스 분류 체계 / Taxonomy
 

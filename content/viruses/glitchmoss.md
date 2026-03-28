@@ -1,6 +1,5 @@
 ---
 title: "글리치모스 / GlitchMoss"
-parent: "바이러스 / Viruses"
 nav_order: 7
 aliases: ["GlitchMoss", "오류이끼", "Glitch Moss"]
 classification:
@@ -16,7 +15,7 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 <div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>
 <div class="warning-banner ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</div>
@@ -56,7 +55,7 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

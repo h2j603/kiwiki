@@ -1,6 +1,5 @@
 ---
 title: "클립보드 / ClipBoard"
-parent: "바이러스 / Viruses"
 nav_order: 20
 code: "WKV-L.MS-008"
 icon: "⎘"
@@ -15,7 +14,7 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 
