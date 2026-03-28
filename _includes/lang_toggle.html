@@ -24,13 +24,24 @@ function kiwikiBuildToc(){
     try{if(window.getComputedStyle(h).display==='none')continue;}catch(e){continue;}
     n++;
     if(!h.id)h.id='s'+n;
+    // Set number prefix on heading
     var sn=h.querySelector('.sec-num');
     if(!sn){sn=document.createElement('span');sn.className='sec-num';h.insertBefore(sn,h.firstChild);}
     sn.textContent=n+'. ';
+    // Get heading text WITHOUT the sec-num span
+    var txt='';
+    for(var c=0;c<h.childNodes.length;c++){
+      var node=h.childNodes[c];
+      if(node.className==='sec-num')continue;
+      if(node.className==='anchor-heading')continue;
+      txt+=node.textContent;
+    }
+    txt=txt.replace(/#/g,'').trim();
+    // TOC item — number only in text, no CSS counter
     var li=document.createElement('li');
     var a=document.createElement('a');
     a.href='#'+h.id;
-    a.textContent=n+'. '+h.textContent.replace(/^\d+\.\s*/,'').replace(/#/g,'').trim();
+    a.textContent=n+'. '+txt;
     li.appendChild(a);
     ol.appendChild(li);
   }
