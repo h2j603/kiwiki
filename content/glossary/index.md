@@ -8,7 +8,14 @@ permalink: /glossary/
 
 <a href="/kiwiki/" class="home-link">⌂</a>
 
-# 용어 사전 / Glossary
+# 용어 사전
+{: .ko}
+
+# Glossary
+{: .en}
+
+# 用語辞典
+{: .ja}
 
 웹키위바이러스 관련 주요 용어를 정리합니다.
 {: .ko}
@@ -21,9 +28,14 @@ Key terms related to Web Kiwi Viruses.
 
 ---
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+### 웹키위바이러스
+{: .ko}
 
-### 웹키위바이러스 / Web Kiwi Virus
+### Web Kiwi Virus
+{: .en}
+
+### ウェブキウイウイルス
+{: .ja}
 
 웹을 통해 퍼지며 현실과 가상의 경계를 무너뜨리는 바이러스. 현재까지 [로직형](../concepts/logic.md), [감각형](../concepts/sensory.md), [인지형](../concepts/cognitive.md), [환경형](../concepts/environmental.md)의 4가지 유형이 확인되었다.
 {: .ko}
@@ -36,9 +48,14 @@ A virus that spreads through the web and collapses the boundary between the virt
 
 ---
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+### 경계 무너짐
+{: .ko}
 
-### 경계 무너짐 / Boundary Collapse
+### Boundary Collapse
+{: .en}
+
+### 境界崩壊
+{: .ja}
 
 웹 상의 현상이 현실에 영향을 미치기 시작하는 현상. 모든 웹키위바이러스의 핵심 메커니즘이며, 일반적으로 4~5단계에 걸쳐 진행된다. → [상세 문서](../concepts/boundary-collapse.md)
 {: .ko}
@@ -51,9 +68,14 @@ The phenomenon where web-based effects begin to influence the physical world. Th
 
 ---
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+### 벡터
+{: .ko}
 
-### 벡터 / Vector
+### Vector
+{: .en}
+
+### ベクター
+{: .ja}
 
 바이러스가 전파되는 웹 경로. 현재 확인된 벡터는 [SNS](../concepts/sns.md), [메신저](../concepts/messenger.md), [검색엔진](../concepts/search-engine.md), [이메일](../concepts/email.md), [직접접근](../concepts/direct-access.md)의 5가지.
 {: .ko}
@@ -66,9 +88,14 @@ The web pathway through which a virus spreads. Five vectors are currently identi
 
 ---
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+### 발현
+{: .ko}
 
-### 발현 / Manifestation
+### Manifestation
+{: .en}
+
+### 発現
+{: .ja}
 
 바이러스가 현실에서 나타나는 구체적 증상. → [상세 문서](../concepts/manifestation.md)
 {: .ko}
@@ -81,9 +108,14 @@ The specific symptoms through which a virus manifests in reality. → [Full arti
 
 ---
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+### 동시 감염
+{: .ko}
 
-### 동시 감염 / Co-infection
+### Co-infection
+{: .en}
+
+### 同時感染
+{: .ja}
 
 둘 이상의 웹키위바이러스에 동시에 감염된 상태. 대부분의 경우 증상이 상승 작용을 일으켜 개별 감염보다 위험도가 크게 상승한다. → [상세 문서](../concepts/co-infection.md)
 {: .ko}
@@ -96,9 +128,14 @@ A state of being simultaneously infected by two or more Web Kiwi Viruses. In mos
 
 ---
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+### 비가역적 변형
+{: .ko}
 
-### 비가역적 변형 / Irreversible Transformation
+### Irreversible Transformation
+{: .en}
+
+### 不可逆的変形
+{: .ja}
 
 경계 무너짐이 최종 단계에 도달하여 원래 상태로 복구할 수 없는 변화가 발생한 상태. → [상세 문서](../concepts/irreversible.md)
 {: .ko}

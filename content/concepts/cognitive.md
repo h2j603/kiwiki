@@ -8,16 +8,50 @@ nav_order: 3
 
 <a href="/kiwiki/" class="home-link">⌂</a>
 
+<div class="ko" markdown="1">
+
+| 항목 | 값 |
+|------|-----|
+| 분류 | <span class="pill pill-type">유형</span> |
+| 분류 코드 | <span class="pill pill-code">WKV-C</span> |
+| 영향 영역 | 기억, 인식, 인지, 시간 감각 |
+| 알려진 바이러스 | 8종 |
+| 평균 심각도 | 높음 |
+
+</div>
+
+<div class="en" markdown="1">
 
 | Key | Value |
 |-----|-------|
-| Category | <span class="pill pill-type">유형 / Type</span> |
+| Category | <span class="pill pill-type">Type</span> |
 | Classification Code | <span class="pill pill-code">WKV-C</span> |
 | Affected Domain | Memory, perception, awareness, time sense |
 | Known Viruses | 8 |
 | Avg. Severity | High |
 
+</div>
+
+<div class="ja" markdown="1">
+
+| 項目 | 値 |
+|------|-----|
+| 分類 | <span class="pill pill-type">タイプ</span> |
+| 分類コード | <span class="pill pill-code">WKV-C</span> |
+| 影響領域 | 記憶、認識、認知、時間感覚 |
+| 既知のウイルス | 8種 |
+| 平均重症度 | 高 |
+
+</div>
+
+## 개요
+{: .ko}
+
 ## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 Cognitive-type viruses target the fundamental processes of memory, awareness, temporal perception, and identity recognition. They are frequently confused with [Logic-type](logic.md) viruses, but the distinction is critical: Logic-type viruses corrupt *what you decide*, while Cognitive-type viruses corrupt *what you know*. A Logic-type victim reasons incorrectly from correct information. A Cognitive-type victim reasons correctly from corrupted information -- or from information that no longer exists in their mind. Memory erasure, time distortion, identity fragmentation, and perceptual loops are all hallmarks of this classification. Cognitive-type viruses include some of the most severe infections documented, with three confirmed [Irreversible Transformation](irreversible.md) cases: [ForgetMeNot](../viruses/forgetmenot.md), [ThreadCut](../viruses/threadcut.md), and implicitly [NameEater](../viruses/nameeater.md) in its terminal stage.
 {: .en}
@@ -28,7 +62,14 @@ Cognitive-type viruses target the fundamental processes of memory, awareness, te
 認知型ウイルスは、記憶、認識、時間知覚、アイデンティティ認識の根本過程を標的とする。[ロジック型](logic.md)ウイルスと頻繁に混同されるが、その区別は決定的である：ロジック型は*何を決定するか*を腐敗させ、認知型は*何を知っているか*を腐敗させる。ロジック型の感染者は正しい情報から誤った推論を行う。認知型の感染者は腐敗した情報から――あるいはもはや心に存在しない情報から――正しい推論を行う。記憶消去、時間歪曲、アイデンティティの断片化、知覚ループなどがこの類型の特徴である。認知型ウイルスには最も深刻な感染事例が含まれ、[フォーゲットミーノット](../viruses/forgetmenot.md)、[スレッドカット](../viruses/threadcut.md)、および末期の[ネームイーター](../viruses/nameeater.md)で3件の[不可逆的変容](irreversible.md)が確認されている。
 {: .ja}
 
+## 핵심 구분: 인지형 vs. 로직형
+{: .ko}
+
 ## Key Distinction: Cognitive vs. Logic
+{: .en}
+
+## 核心的区別：認知型 vs. ロジック型
+{: .ja}
 
 This distinction is important enough to warrant its own section. Consider two scenarios:
 
@@ -57,20 +98,68 @@ Both are dangerous. But Cognitive-type infections strike at the foundation of se
 どちらも危険である。しかし認知型感染はロジック型感染が及ばない自己の根本を攻撃する。悪い決定からは回復できる。食べられた記憶からは回復できないかもしれない。
 {: .ja}
 
+## 알려진 인지형 바이러스
+{: .ko}
+
 ## Known Cognitive-type Viruses
+{: .en}
+
+## 既知の認知型ウイルス
+{: .ja}
+
+<div class="en" markdown="1">
 
 | Virus | Vector | Severity | Key Characteristic |
 |-------|--------|----------|--------------------|
-| [EchoLoop](../viruses/echoloop.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-moderate">보통</span> | Traps perception in repeating loops |
-| [DeadScroll](../viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | Scroll paralysis -- inability to stop consuming content |
-| [ForgetMeNot](../viruses/forgetmenot.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-critical">치명적</span> | Selective, progressive memory erasure |
-| [Loophole](../viruses/loophole.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-moderate">보통</span> | Creates perceptual shortcuts that skip awareness |
-| [DreamLeak](../viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | Blurs boundary between dreaming and waking awareness |
-| [NameEater](../viruses/nameeater.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-high">높음</span> | Consumes proper nouns from memory -- names, places, titles |
-| [TimeStamp](../viruses/timestamp.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-high">높음</span> | Distorts temporal perception and sequence of events |
-| [ThreadCut](../viruses/threadcut.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-critical">치명적</span> | Severs connections between related memories |
+| [EchoLoop](../viruses/echoloop.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-moderate">Moderate</span> | Traps perception in repeating loops |
+| [DeadScroll](../viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">High</span> | Scroll paralysis -- inability to stop consuming content |
+| [ForgetMeNot](../viruses/forgetmenot.md) | <span class="pill pill-vector">Email</span> | <span class="pill pill-severity-critical">Critical</span> | Selective, progressive memory erasure |
+| [Loophole](../viruses/loophole.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-moderate">Moderate</span> | Creates perceptual shortcuts that skip awareness |
+| [DreamLeak](../viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">Moderate</span> | Blurs boundary between dreaming and waking awareness |
+| [NameEater](../viruses/nameeater.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-high">High</span> | Consumes proper nouns from memory -- names, places, titles |
+| [TimeStamp](../viruses/timestamp.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-high">High</span> | Distorts temporal perception and sequence of events |
+| [ThreadCut](../viruses/threadcut.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-critical">Critical</span> | Severs connections between related memories |
+
+</div>
+
+<div class="ko" markdown="1">
+
+| 바이러스 | 경로 | 심각도 | 핵심 특성 |
+|----------|------|--------|-----------|
+| [에코루프](../viruses/echoloop.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-moderate">보통</span> | 지각을 반복 루프에 가둠 |
+| [데드스크롤](../viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | 스크롤 마비 -- 콘텐츠 소비를 멈출 수 없음 |
+| [포겟미낫](../viruses/forgetmenot.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-critical">치명적</span> | 선택적, 점진적 기억 소거 |
+| [루프홀](../viruses/loophole.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-moderate">보통</span> | 인식을 건너뛰는 지각적 지름길 생성 |
+| [드림리크](../viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | 꿈과 깨어 있는 인식의 경계를 흐리게 함 |
+| [네임이터](../viruses/nameeater.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-high">높음</span> | 기억에서 고유명사를 먹어치움 -- 이름, 장소, 제목 |
+| [타임스탬프](../viruses/timestamp.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-high">높음</span> | 시간 지각과 사건 순서를 왜곡 |
+| [스레드컷](../viruses/threadcut.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-critical">치명적</span> | 관련 기억 사이의 연결을 절단 |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| ウイルス | 経路 | 重症度 | 主な特徴 |
+|----------|------|--------|----------|
+| [エコループ](../viruses/echoloop.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 知覚を繰り返しループに閉じ込める |
+| [デッドスクロール](../viruses/deadscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | スクロール麻痺 -- コンテンツ消費を止められない |
+| [フォーゲットミーノット](../viruses/forgetmenot.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-critical">致命的</span> | 選択的・漸進的記憶消去 |
+| [ループホール](../viruses/loophole.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-moderate">中</span> | 認識を飛ばす知覚的ショートカットを作成 |
+| [ドリームリーク](../viruses/dreamleak.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 夢と覚醒認識の境界を曖昧にする |
+| [ネームイーター](../viruses/nameeater.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 記憶から固有名詞を食べる -- 名前、場所、肩書 |
+| [タイムスタンプ](../viruses/timestamp.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 時間知覚と出来事の順序を歪曲 |
+| [スレッドカット](../viruses/threadcut.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 関連する記憶間の接続を切断 |
+
+</div>
+
+## 진행 단계
+{: .ko}
 
 ## Progression Stages
+{: .en}
+
+## 進行段階
+{: .ja}
 
 Cognitive-type infections typically progress through four stages:
 
@@ -96,9 +185,29 @@ Cognitive-type infections typically progress through four stages:
 4. **アイデンティティ解体** ── 最終段階。感染者の自己感覚はもはや連続的ではない。スレッドカットの場合、感染者が1つの体を共有する互いに無関係な複数の個人として自分を体験するものとして現れる。
 {: .ja}
 
+## 관련 개념
+{: .ko}
+
 ## Related Concepts
+{: .en}
+
+## 関連概念
+{: .ja}
 
 - [Logic Type](logic.md) -- frequently confused; see distinction section above
 - [Boundary Collapse](boundary-collapse.md) -- Cognitive collapse erases the boundary between known and unknown
 - [Irreversible Transformation](irreversible.md) -- ForgetMeNot and ThreadCut are confirmed irreversible cases
 - [Co-infection](co-infection.md) -- Cognitive + Logic is considered the most dangerous combination
+{: .en}
+
+- [로직형](logic.md) -- 자주 혼동됨; 위의 구분 섹션 참조
+- [경계 무너짐](boundary-collapse.md) -- 인지적 무너짐이 알려진 것과 알려지지 않은 것 사이의 경계를 지운다
+- [비가역적 변형](irreversible.md) -- 포겟미낫과 스레드컷이 확인된 비가역적 사례
+- [동시 감염](co-infection.md) -- 인지형 + 로직형이 가장 위험한 조합으로 간주됨
+{: .ko}
+
+- [ロジック型](logic.md) -- 頻繁に混同される；上記の区別セクション参照
+- [境界崩壊](boundary-collapse.md) -- 認知的崩壊が既知と未知の境界を消す
+- [不可逆的変形](irreversible.md) -- フォーゲットミーノットとスレッドカットが確認された不可逆的症例
+- [同時感染](co-infection.md) -- 認知型 + ロジック型が最も危険な組み合わせとされる
+{: .ja}
