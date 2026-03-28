@@ -20,8 +20,16 @@ try{(function(d){var config={kitId:'fpx8ely',scriptTimeout:3000,async:true},h=d.
   if (!lang) lang = 'en';
   // Apply immediately to <html> to prevent FOUC
   document.documentElement.className += ' lang-' + lang;
-  // Store for later use
   window._kiwikiLang = lang;
+
+  // Infection: also apply to <html> immediately
+  try {
+    var viruses = ['echoloop','mirrorlink','pixelrot','deadscroll','glitchmoss','nullwhisper','blindspot','phantomtab','staticbloom','syntaxwraith','cachevein','forgetmenot'];
+    var vid = sessionStorage.getItem('kiwiki-virus');
+    if (!vid) { vid = viruses[Math.floor(Math.random() * viruses.length)]; sessionStorage.setItem('kiwiki-virus', vid); }
+    document.documentElement.className += ' virus-' + vid;
+    window._kiwikiVirus = vid;
+  } catch(e) {}
 })();
 
 // ====== TOC builder ======
@@ -129,24 +137,24 @@ html.lang-ja .ja, body.lang-ja .ja { display: revert !important; }
 html.lang-ja .ko, body.lang-ja .ko, html.lang-ja .en, body.lang-ja .en { display: none !important; }
 html.lang-en .ko, body.lang-en .ko, html.lang-en .ja, body.lang-en .ja { display: none !important; }
 
-body.virus-echoloop .main-content p:nth-child(5n)::after { content: attr(data-text); display: block; opacity: 0.15; font-style: italic; }
-body.virus-mirrorlink .main-content { transform: scaleX(-1); }
-body.virus-mirrorlink .main-content * { transform: scaleX(-1); }
-body.virus-pixelrot .main-content p { filter: blur(0.3px); }
-body.virus-pixelrot .main-content p:nth-child(n+5) { filter: blur(0.6px); }
-body.virus-pixelrot .main-content p:nth-child(n+10) { filter: blur(1px); }
-body.virus-glitchmoss .main-content hr { background: lawngreen !important; height: 2px; }
-body.virus-nullwhisper .main-content::before { content: "choose wisely..."; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); font-style: italic; font-size: 48px; color: orangered; opacity: 0; pointer-events: none; animation: whisper 15s infinite; }
+html.virus-echoloop .main-content p:nth-child(5n)::after { content: attr(data-text); display: block; opacity: 0.15; font-style: italic; }
+html.virus-mirrorlink .main-content { transform: scaleX(-1); }
+html.virus-mirrorlink .main-content * { transform: scaleX(-1); }
+html.virus-pixelrot .main-content p { filter: blur(0.3px); }
+html.virus-pixelrot .main-content p:nth-child(n+5) { filter: blur(0.6px); }
+html.virus-pixelrot .main-content p:nth-child(n+10) { filter: blur(1px); }
+html.virus-glitchmoss .main-content hr { background: lawngreen !important; height: 2px; }
+html.virus-nullwhisper .main-content::before { content: "choose wisely..."; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); font-style: italic; font-size: 48px; color: orangered; opacity: 0; pointer-events: none; animation: whisper 15s infinite; }
 @keyframes whisper { 0%,90%,100% { opacity: 0; } 95% { opacity: 0.04; } }
-body.virus-blindspot .main-content p:nth-child(3) { color: transparent !important; user-select: none; }
-body.virus-blindspot .main-content p:nth-child(3) a { color: transparent !important; }
-body.virus-staticbloom .main-content::after { content: "\2726"; position: fixed; bottom: 30px; left: 30px; font-size: 32px; color: lawngreen; opacity: 0; animation: bloom 10s infinite; pointer-events: none; }
+html.virus-blindspot .main-content p:nth-child(3) { color: transparent !important; user-select: none; }
+html.virus-blindspot .main-content p:nth-child(3) a { color: transparent !important; }
+html.virus-staticbloom .main-content::after { content: "\2726"; position: fixed; bottom: 30px; left: 30px; font-size: 32px; color: lawngreen; opacity: 0; animation: bloom 10s infinite; pointer-events: none; }
 @keyframes bloom { 0%,80%,100% { opacity: 0; transform: scale(0.5); } 85% { opacity: 0.3; transform: scale(1); } 90% { opacity: 0.15; transform: scale(1.5); } }
-body.virus-syntaxwraith .main-content p { font-family: "t26-carbon", monospace !important; font-style: italic; }
-body.virus-cachevein .main-content { background-image: linear-gradient(90deg, transparent 98%, rgba(255,69,0,0.03) 100%), linear-gradient(0deg, transparent 97%, rgba(255,69,0,0.02) 100%); background-size: 40px 40px; }
-body.virus-forgetmenot .main-content p:nth-child(n+8) { opacity: 0.7; }
-body.virus-forgetmenot .main-content p:nth-child(n+12) { opacity: 0.4; }
-body.virus-forgetmenot .main-content p:nth-child(n+16) { opacity: 0.15; }
+html.virus-syntaxwraith .main-content p { font-family: "t26-carbon", monospace !important; font-style: italic; }
+html.virus-cachevein .main-content { background-image: linear-gradient(90deg, transparent 98%, rgba(255,69,0,0.03) 100%), linear-gradient(0deg, transparent 97%, rgba(255,69,0,0.02) 100%); background-size: 40px 40px; }
+html.virus-forgetmenot .main-content p:nth-child(n+8) { opacity: 0.7; }
+html.virus-forgetmenot .main-content p:nth-child(n+12) { opacity: 0.4; }
+html.virus-forgetmenot .main-content p:nth-child(n+16) { opacity: 0.15; }
 .infection-notice { position: fixed; bottom: 0; left: 0; right: 0; background: #111; color: lawngreen; font-family: "t26-carbon", monospace; font-style: italic; font-size: 11px; padding: 4px 14px; text-align: center; z-index: 9999; opacity: 0; animation: noticeIn 1s 2s forwards; }
 @keyframes noticeIn { to { opacity: 1; } }
 </style>

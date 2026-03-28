@@ -79,7 +79,7 @@ body.lang-ja {
 .site-button,
 .site-header,
 .site-nav,
-.nav-list { display: none; }
+.nav-list { display: none !important; visibility: hidden !important; pointer-events: none !important; }
 
 .main-content-wrap { margin-left: 0; }
 
@@ -206,6 +206,8 @@ body.lang-ja {
   display: inline-flex;
   border: 1px solid orangered;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 100;
 }
 
 .lang-btn {
