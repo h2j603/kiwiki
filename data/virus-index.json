@@ -1,4 +1,32 @@
 {
   "description": "웹키위바이러스 종류 인덱스",
-  "viruses": []
+  "viruses": [
+    {
+      "id": "mirrorlink",
+      "title": "미러링크",
+      "type": "감각형",
+      "vector": "SNS",
+      "severity": "높음",
+      "status": "활성",
+      "file": "content/viruses/mirrorlink.md"
+    },
+    {
+      "id": "echoloop",
+      "title": "에코루프",
+      "type": "인지형",
+      "vector": "검색엔진",
+      "severity": "보통",
+      "status": "활성",
+      "file": "content/viruses/echoloop.md"
+    },
+    {
+      "id": "glitchmoss",
+      "title": "글리치모스",
+      "type": "환경형",
+      "vector": "직접접근",
+      "severity": "치명적",
+      "status": "활성",
+      "file": "content/viruses/glitchmoss.md"
+    }
+  ]
 }
