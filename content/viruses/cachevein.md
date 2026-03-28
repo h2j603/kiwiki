@@ -48,11 +48,20 @@ tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -66,11 +75,20 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus trans
 メッセンジャーで削除されたメッセージのキャッシュデータを介して伝播する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周辺の物理的表面（壁、天井、床）に回路図やデータフローに似た静脈状の模様が現れ、この模様を通じて実際のデータ断片が物理的に「流れる」のが観察される。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -84,11 +102,20 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 メッセンジャーで「全員に対して削除」されたメッセージが実際にはサーバーキャッシュに残留している場合がある。この残留データにウイルスが寄生し、削除されたメッセージがあったチャットルームに留まり続けるユーザーが徐々に感染する。削除されたメッセージを直接見ていなくても感染は可能。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -108,11 +135,20 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - 画面をオフにしてもデバイスが発熱し、データを処理しているような症状
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -135,11 +171,20 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - 末期には静脈が建物の構造を弱体化させ、建物自体が一つの巨大な回路のように動作する
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -165,11 +210,20 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 5. 建物構造が「データネットワーク」に変換（不可逆的）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -192,11 +246,20 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - [グリッチモス](glitchmoss.md)感染空間との近接を必ず避けること
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -210,11 +273,20 @@ Discovered in autumn 2025 when an apartment management office received a report 
 2025年秋、あるマンションの管理事務所に「壁に奇妙な模様が育っている」という通報があった。現場調査の結果、その住人は大規模なグループチャットで繰り返しメッセージが削除される状況に曝されていた。静脈模様を顕微鏡で観察したところ、削除されたメッセージのテキストが微細なサイズで刻まれていた。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -234,11 +306,20 @@ Discovered in autumn 2025 when an apartment management office received a report 
 - [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：キャッシュベインが生み出す静脈パターンがプログラミング言語の構文構造に類似しているという分析があり、シンタックスレイスとの関連性が研究中である。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

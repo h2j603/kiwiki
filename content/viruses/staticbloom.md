@@ -47,11 +47,20 @@ tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", 
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contr
 SNSのライブストリーミングで異常終了した配信の残留信号に曝露されると感染する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周囲の空間に静電気パターンの「花」が咲き、電子機器を妨害しながら徐々に物理的実体を持つようになる。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 ライブストリーミングが配信者の意図なく異常終了した場合、終了直後の0.5〜2秒間「残留フレーム」が残る。この残留フレームには画面ノイズの中にフラクタル構造のパターンが含まれており、その配信のアーカイブやクリップを視聴すると感染する。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 - ストリーミング視聴中に部屋が静電気で充満する感覚
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 - 末期には花が物理的な物体を押しのける力を持ち、部屋全体を占拠する
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 4. 花が物理的実体を持ち空間を占拠（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 - [グリッチモス](glitchmoss.md)感染空間と異なり、早期対応で完全回復が可能
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ Discovered in spring 2025 when a gamer posted a photo on social media with the c
 2025年春、あるゲーマーが「部屋の隅でテレビのノイズみたいなものが咲いている」という写真をSNSに投稿。そのゲーマーは直前に有名ストリーマーの異常終了した配信のクリップを視聴していたことが確認された。その後、同じクリップを見た視聴者数十名の居住空間で類似の現象が報告された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ Discovered in spring 2025 when a gamer posted a photo on social media with the c
 - [キャッシュベイン（CacheVein）](cachevein.md)：スタティックブルームの静電気場とキャッシュベインの静脈が出会うと静脈に電流が流れ、発光現象が最大化される。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

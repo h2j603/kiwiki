@@ -47,11 +47,20 @@ tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgm
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus transmitted th
 メール本文に埋め込まれた不可視のユニコード文字（ゼロ幅文字など）を介して感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者が選択肢を前にするたびに、実際には存在しない「影の選択肢」が見え、常にそれを選んでしまう。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 正常なビジネスメールのように見えるメールに、ゼロ幅接合子（ZWJ）、ゼロ幅非接合子（ZWNJ）などの不可視ユニコード文字が特定のパターンで挿入されている。メールを読む行為自体が脳にそのパターンを処理させ、感染が発生する。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 - テキストエディタでカーソルが不可視文字の位置で止まる現象
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 - 末期にはすべての選択肢が影に置き換わり、一切の決定を下せなくなる
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 4. 実際の選択肢と影が区別不能に（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -185,11 +239,20 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 - 感染初期には、すべての決定を「見える選択肢だけ」を基準に他者に確認してもらう習慣が有効
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -203,11 +266,20 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 2025年春、ある大企業の人事部で面接官たちが存在しない「4番候補」に合格判定を下した事件が発生。社内メールを分析した結果、人事関連メールに体系的に挿入されたゼロ幅文字パターンが発見された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -227,11 +299,20 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 - [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：シンタックスレイス感染者はゼロ幅文字を「コード」として認識するため、バイトシェイドに免疫を示す事例がある。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

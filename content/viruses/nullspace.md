@@ -47,11 +47,20 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ An Environmental-type virus contracted by receiving messenger messages with hidd
 ヌル文字（\0）が隠されて挿入されたメッセンジャーメッセージを受信すると感染する環境型ウイルス。感染者の部屋にある物体が段階的に半透明になり、続いて完全に透明になり、最終的には見えなくなる。物体の物理的存在はそのまま維持され、触ったりぶつかったりできるが、視覚的には完全に消失する。見えないテーブルにぶつかり、見えない椅子に座り、見えない壁に阻まれるという奇妙な状況が日常となる。ヌル文字がデータ内で「見えない空白」を作るように、ウイルスが現実で「見えない物質」を生み出す。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs when null characters (\0) are embedded between text within mess
 メッセンジャーを通じて受信したメッセージ内のテキストの間にヌル文字（\0）が挿入されている場合に感染する。ヌル文字は画面に表示されないためメッセージは正常に見えるが、メッセージをコピー＆ペーストすると異常なスペースが現れたりテキストが切れる現象で確認できる。ヌル文字が含まれたメッセージを3つ以上受信すると感染が始まり、メッセージ内のヌル文字の数が多いほど透明化の進行速度が速くなる。感染者が他の人にメッセージを転送する際、無意識にヌル文字が挿入され伝播が行われる。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection occurs when null characters (\0) are embedded between text within mess
 - ファイルエクスプローラーでファイルアイコンが徐々にぼやけて見えなくなる——ファイルは存在するが視覚的に表示されない
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection occurs when null characters (\0) are embedded between text within mess
 - 末期には部屋の壁、床、天井まで透明になり、感染者の視野には自分だけが虚空に浮いているように見えるが、実際には部屋にすべてが存在しているのに何も見えない状態に至る
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection occurs when null characters (\0) are embedded between text within mess
 4. 感染者自身の身体の一部が透明になり始める——鏡で指先やつま先が見えなくなる（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection occurs when null characters (\0) are embedded between text within mess
 - メッセンジャーアプリにヌル文字フィルタリング機能を提供するセキュリティプラグインの使用が予防に効果的だが、現在すべてのヌル文字を検出する完璧なソリューションは存在しない
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ In winter 2025, a programmer reported that their mouse "disappeared" from their 
 2025年冬、あるプログラマーが匿名のメッセージを受信した後、自分のワークスペースからマウスが「消えた」と報告した。同僚が確認したところマウスは元の場所にあったが、感染者には見えなかった。その後、キーボード、モニタースタンド、デスク上の物が順次透明になった。感染者のメッセンジャー記録を分析した結果、受信したメッセージ内に大量のヌル文字が挿入されていたことが確認された。決定的に、感染者が「見えない椅子」に座ろうとして外れて床に倒れた事件が同僚に目撃されたことで、新種ウイルスの存在が公式に確認された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ In winter 2025, a programmer reported that their mouse "disappeared" from their 
 - [バイトシェード（ByteShade）](byteshade.md)：バイトシェードが影を操作するのに対し、ヌルスペースは物体そのものを視覚から除去する——二つのウイルスが結合すると「見えない物体の影だけが残る」という奇妙な現象が発生する。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

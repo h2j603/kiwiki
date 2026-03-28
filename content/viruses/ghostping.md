@@ -47,11 +47,20 @@ tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine"
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Logic-type virus that causes search engine result pages to emit phantom notifi
 検索エンジンの結果ページから存在しない通知信号を受信させるロジック型ウイルス。感染者は絶え間なくあらゆるものを確認しなければならないという衝動に駆られるが、どんな確認結果も十分とは感じられない。検索結果をクリックするたびに微細なファントム通知が発生し、この通知は次第に検索環境を超えて日常のあらゆる領域に侵入する。現実では、ドアの鍵、ガス栓、電話など全てを繰り返し確認するが決して安心できない「検証麻痺」状態に陥る。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection begins when scrolling through result pages on certain search engines. 
 感染は特定の検索エンジンで結果ページをスクロールする際に始まる。閉鎖されたメタ検索エンジンから流出した通知プロトコルが主要検索エンジンの結果レンダリングコードに寄生しており、ユーザーが検索結果を閲覧する間にブラウザの通知システムに残留信号を注入する。この信号は実際の通知としては表示されないが、脳の報酬回路に「確認していない何かがある」という感覚を植え付ける。1日30回以上検索を行うユーザーほど感染確率が急激に上昇する。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -110,11 +137,20 @@ Infection begins when scrolling through result pages on certain search engines. 
 - 既に訪問済みのリンクが未訪問状態に戻る
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -137,11 +173,20 @@ Infection begins when scrolling through result pages on certain search engines. 
 - 末期には確認行為自体が儀式化され、あらゆる行動の前後に無意味な点検手順を実行するようになる
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -164,11 +209,20 @@ Infection begins when scrolling through result pages on certain search engines. 
 4. 確認行為が日常のあらゆる領域を侵食し、正常な活動が不可能になる（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -191,11 +245,20 @@ Infection begins when scrolling through result pages on certain search engines. 
 - 「一度の確認で十分」というルールを外部の支援者と共に実践する認知再訓練プログラムへの参加を推奨
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -209,11 +272,20 @@ Discovered in winter 2025 when three researchers at a university lab simultaneou
 2025年冬、ある大学研究室で研究員3名が同時に実験機器を数百回も再点検する行動を見せ、研究が完全に中断した事件がきっかけとなった。該当研究員らは全員同じ学術検索エンジンを集中的に使用しており、その検索エンジンの結果ページのソースコードから閉鎖されたメタ検索エンジンの通知プロトコルの残骸が発見された。感染者の1人は「確認しなければ世界が崩壊するような感覚だった」と証言した。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -233,11 +305,20 @@ Discovered in winter 2025 when three researchers at a university lab simultaneou
 - [アフターイメージ（AfterImage）](afterimage.md)：検索エンジンベクターを共有しており、ゴーストピングのファントム通知がアフターイメージの残像と重なる事例が報告されている。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

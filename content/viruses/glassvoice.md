@@ -47,11 +47,20 @@ tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "aud
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Sensory-type virus contracted through emails embedded with corrupted audio cod
 損傷したオーディオコーデックのアーティファクトが埋め込まれたメールによって感染する感覚型ウイルス。感染者は自分の声がガラスが割れる音のように聞こえ始め、話すたびに鋭い亀裂音が自分の耳にだけ聞こえる。初期には特定の音域でのみ歪みが発生するが、感染が進行すると自分が出すすべての音がガラスの破片がぶつかるような苦痛な騒音として認識される。感染者は自分の声を聞くことを避けるため、次第に話すことをやめ、最終的に自発的無言状態に至る。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 感染は損傷したオーディオコーデックが埋め込まれたメールを開く際に始まる。これらのメールは外見上は通常のテキストメールだが、HTMLソースに不可聴周波数帯域のオーディオストリームがインラインで挿入されている。メールクライアントがこのHTMLをレンダリングする際、損傷したコーデックが極超短波のオーディオアーティファクトを再生し、この音は意識的には認知されないが内耳の聴覚処理経路を変調する。変調された聴覚経路は外部の音は正常に処理するが、自分の声帯から発生した音のみをガラスの破砕音に変換する。感染メールを3回以上開くと症状が始まる。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -110,11 +137,20 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 - メールアプリの通知音が断続的にガラスの割れる音に置き換わる
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -137,11 +173,20 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 - 末期には話すことを完全に中止し、筆談やテキストでのみ意思疎通し、自分の声が実際にガラスを割ることができるという妄想が発生する
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -164,11 +209,20 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 4. 完全な自発的無言状態に到達し、自分の声が物理的破壊力を持つという妄想が定着する（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -191,11 +245,20 @@ Infection begins when opening emails with embedded corrupted audio codecs. These
 - 感染が疑われる場合、他人に自分の声が正常か持続的に確認してもらい、確認結果を必ず信じること——グラスボイスは感染者の自己認識のみを歪める
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -209,11 +272,20 @@ Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid
 2025年夏、あるラジオ放送の司会者が突然生放送中に話すことをやめて泣き出した事件がきっかけとなった。司会者は「自分の声がガラスを引っ掻く音のように聞こえてもう話せない」と訴えたが、リスナーや同僚には司会者の声は完全に正常だった。調査の結果、司会者は放送準備中に受信した宣伝メール数十通に同一の損傷したオーディオコーデックが埋め込まれていたことが判明し、同じメールを受信した他の放送局職員からも類似症状が報告されウイルスが特定された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -233,11 +305,20 @@ Discovered in summer 2025 when a radio broadcaster suddenly stopped speaking mid
 - [タングルタッチ（TangleTouch）](tangletouch.md)：タングルタッチが触覚を、グラスボイスが聴覚を歪め、二つのウイルスの同時感染時、外界との感覚的接続が触覚と聴覚の両方で遮断される。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

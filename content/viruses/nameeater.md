@@ -47,11 +47,20 @@ tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct 
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Cognitive-type virus contracted by visiting expired pages of abandoned or defu
 閉鎖または放置されたドメイン登録代行サイトの期限切れページにアクセスすると感染する認知型ウイルス。感染者は固有名詞を記憶する能力が段階的に消失し、人の名前、地名、物の名称を思い出せなくなる。対象が何であるか、どのような機能を持つかは完全に認知できるが、それを「呼ぶ言葉」だけが消える。ドメインが期限切れになりアドレスを失ったウェブサイトのように、感染者の世界のすべてが名前のない存在となる。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs by directly accessing sites whose domain registration has expir
 ドメイン登録が期限切れになったサイト、特にドメイン登録代行サービス自体が閉鎖され管理されていない「パーキングページ」に直接アクセスすると感染する。期限切れドメインのWHOIS情報を照会したり、もはや存在しないドメインの登録履歴を探索する行為が感染確率を高める。ブラウザが「このサイトに接続できません」メッセージの代わりに空の登録ページをレンダリングする瞬間にウイルスが活性化し、一度のアクセスでも感染が成立する可能性がある。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection occurs by directly accessing sites whose domain registration has expir
 - 自動補完機能が固有名詞を提案せず、一般的な記述語のみを提示する
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection occurs by directly accessing sites whose domain registration has expir
 - 末期には自分自身の名前さえ忘れ、書類に署名する際に名前を書けない状態に至る
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection occurs by directly accessing sites whose domain registration has expir
 4. 自分自身の名前とアイデンティティの名称まで消失する——「私」という概念はあるがそれを呼ぶ言葉がない（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection occurs by directly accessing sites whose domain registration has expir
 - 感染者の周囲の人々は感染者が名前を忘れた際に自然に教えるが、決して「忘れたのか」と問い詰めないこと——心理的圧迫が症状を加速させる
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ In summer 2025, an IT security researcher became infected while conducting a pro
 2025年夏、ITセキュリティ研究員が大量の期限切れドメインを調査するプロジェクトを実施中に感染した。研究員はレポートを作成しながら調査対象ドメインの名前を一つも思い出せない自分に気づき、間もなく同僚研究員の名前も思い出せなくなった。調査の結果、該当研究員がアクセスした特定の閉鎖登録代行サイトのパーキングページからウイルスが発生したことが確認され、同じページにアクセスした他の研究員3名にも同一症状が見られた。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ In summer 2025, an IT security researcher became infected while conducting a pro
 - [ブラインドスポット（BlindSpot）](blindspot.md)：ブラインドスポットが視覚的認識を遮断するのに対し、ネームイーターは言語的認識を遮断する——二つのウイルスのメカニズムは相補的関係にある。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

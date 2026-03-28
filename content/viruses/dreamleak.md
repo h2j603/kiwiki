@@ -47,11 +47,20 @@ tags: ["인지형", "SNS", "꿈", "기억", "cognitive", "social media", "dream"
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Cognitive-type virus contracted by repeatedly watching short-form video conten
 SNSプラットフォームでショートフォーム動画（リール、ショートなど）を就寝前に繰り返し視聴すると感染する認知型ウイルス。感染者は夢で経験した記憶と現実で経験した記憶の境界が段階的に崩壊し、二つの領域を区別する能力を完全に喪失する。特に感情的に強烈な映像ほど夢と現実の融合が加速し、感染者の日常的な判断能力が深刻に低下する。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 就寝前30分以内にSNSショートフォーム動画を連続で15本以上視聴すると感染リスクが急激に上昇する。ループ再生される動画の反復パターンが睡眠中のREMサイクルと同期し、脳の記憶分類体系に干渉する。プラットフォームの自動再生アルゴリズムが生成する特定の視聴パターンが感染ベクターとして作用し、ユーザーが意識的に動画を選択せずアルゴリズムに任せるほど感染確率が高まる。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 - コメントを書いたと確信しているが、実際には存在しない
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 - 睡眠を重ねるごとに区別能力が悪化し、末期には覚醒状態すら夢かどうか疑う
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 4. 睡眠と覚醒の主観的境界が完全崩壊——起きていても夢の中にいるか確信できない（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection risk spikes dramatically when viewing 15 or more consecutive short-for
 - 感染初期に就寝前に紙の本を読むなど非デジタル活動に切り替えると進行が止まる事例が報告されている
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ In spring 2025, posts in university student communities exploded with variations
 2025年春、大学生コミュニティで「昨夜の夢で起きたことを友人に確認したら実際には起きていなかった」という投稿が爆発的に増加した。当初は単なるミームとして扱われたが、被害者が共通して就寝前1時間以上リールを視聴していたというパターンが確認され、新種ウイルスとして分類された。感染者の1人が夢の中で退職届を提出した記憶を現実と勘違いして出勤しなかった事件が大衆の注目を集めた。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ In spring 2025, posts in university student communities exploded with variations
 - [タイムスタンプ（TimeStamp）](timestamp.md)：夢の記憶とデジャヴが結合すると、すべての経験が「すでに夢で見た繰り返し」と感じられ、極度の無力感を誘発する。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

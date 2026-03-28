@@ -47,11 +47,20 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus transmitted 
 メッセンジャーの音声メッセージを通じて伝播する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は現実に存在しない音——遠くから聞こえる鳴き声、機械的な囁き、周波数がずれたうなり——を持続的に聞くようになる。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Among voice messages received on messengers, those where recorded duration subtl
 メッセンジャーで受信した音声メッセージのうち、録音時間と実際の再生時間が微妙に異なる（0.3〜0.7秒の差）ものが感染媒体である。この「余分な時間」には人間の可聴範囲の境界（18〜22kHz）の超高周波が含まれており、この周波数をイヤホンやスピーカーで再生すると感染する。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Among voice messages received on messengers, those where recorded duration subtl
 - 通知音が実際より頻繁に鳴っているように感じる
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Among voice messages received on messengers, those where recorded duration subtl
 - 末期には実際の音と幻聴の区別が不可能になる
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Among voice messages received on messengers, those where recorded duration subtl
 4. 実際の音と幻聴の境界が消滅（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Among voice messages received on messengers, those where recorded duration subtl
 - 感染者の付近で音声録音をすると幻聴が実際に録音される事例があり、これを通じた診断が可能
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ Discovered in autumn 2025 when a sound engineer reported "impossible frequencies
 2025年秋、ある音響エンジニアが「録音スタジオで存在しえない周波数が拾われる」と報告。分析の結果、そのエンジニアが受信した音声メッセージから可聴限界付近の一貫した周波数パターンが発見された。この波形は自然界に存在しないものであった。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ Discovered in autumn 2025 when a sound engineer reported "impossible frequencies
 - [ヌルウィスパー（NullWhisper）](nullwhisper.md)：ヌルウィスパーの「囁き」がハウルリンクの幻聴と結合すると、囁きの説得力が最大化される。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

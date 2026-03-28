@@ -48,11 +48,20 @@ tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access"
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -66,11 +75,20 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by 
 放置されたコードリポジトリや古い開発ドキュメントに直接アクセスすると感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の思考過程がプログラミング言語の構文（syntax）のように構造化され始め、自然言語的な思考が徐々に不可能になる。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -84,11 +102,20 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 3年以上更新されていないコードリポジトリで特定パターンのコード（未完成の関数、閉じられていない括弧、無限再帰構造など）を読んだ際に感染する。コード自体にウイルスが寄生しているのではなく、放置されたコードの「不完全な論理構造」が読み手の思考体系に侵入すると推定されている。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -108,11 +135,20 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 - メールやメッセージを書く際に条件文・繰り返し文の構造で文章を書く
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -135,11 +171,20 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 - 末期には思考そのものが特定のプログラミング言語に依存し、その言語で表現できない概念は思考不能になる
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -162,11 +207,20 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 4. 自然言語的思考能力の喪失（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -189,11 +243,20 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 - 感染が進行した場合、プログラミングとは無関係な創造的活動（絵画、音楽など）が治療に有効
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -207,11 +270,20 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 2024年冬、ある開発者コミュニティで「最近日本語が出てこない。頭の中ですべてがPythonに変換される」という投稿が上がった。調査の結果、その開発者を含む複数名が同じ放置されたGitHubリポジトリを閲覧していたことが確認された。そのリポジトリのコードには意図的と思われる「不完全な再帰パターン」が数百個含まれていた。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -234,11 +306,20 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 - [グリッチモス（GlitchMoss）](glitchmoss.md)：直接アクセスという伝播経路を共有。グリッチモスが放棄されたウェブページから、シンタックスレイスは放棄されたコードから発生する。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

@@ -47,11 +47,20 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Cognitive-type virus contracted by repeatedly searching for specific dates, ti
 検索エンジンで特定の日付、時刻、タイムスタンプを繰り返し検索すると感染する認知型ウイルス。感染者はすべての経験が「すでに体験したことがある」と感じる永続的なデジャヴ状態に陥る。新しい経験、初めて会う人、初めて訪れる場所のすべてが過去にすでに起こった出来事の繰り返しのように感じられ、人生から「新しさ」という感覚が完全に消滅する。これは極度の実存的倦怠と恐怖を引き起こし、感染者を深い無力感に陥れる。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs when repeatedly searching for records of specific past time poi
 検索エンジンの日付範囲フィルターを使用して過去の特定時点の記録を繰り返し検索したり、タイムスタンプを含むログデータを集中的に閲覧すると感染する。特に「この日何があったか」式の過去回帰的な検索パターンが危険であり、検索結果に表示される日付・時刻のメタデータを5回以上連続でクリックすると感染ベクターが活性化する。検索エンジンのキャッシュページを通じて過去時点のウェブページにアクセスする行為も感染経路に含まれる。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection occurs when repeatedly searching for records of specific past time poi
 - ブラウザの履歴に訪問したことのないサイトが「過去に訪問済み」と表示される
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection occurs when repeatedly searching for records of specific past time poi
 - 末期には未来への期待感が完全に消滅する——「明日もすでに経験した一日の繰り返しに過ぎない」という確信が定着する
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection occurs when repeatedly searching for records of specific past time poi
 4. 時間感覚が完全崩壊する——過去、現在、未来が区別されない永遠の繰り返しに閉じ込められる（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection occurs when repeatedly searching for records of specific past time poi
 - 他人が「これは初めてのことだよ」と客観的に確認してくれる「現実アンカー」役を配置すること
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ In winter 2025, a digital archiving specialist became infected during a project 
 2025年冬、デジタルアーカイビング専門家が10年間のウェブ記録を日付別に整理するプロジェクト中に感染した。専門家はプロジェクト完了後「すべての日が同じ日のようだ」と訴え、年越しカウントダウンイベントでも「この新年をすでに迎えたことがある」と確信して何の感慨も抱かなかった。その後、類似症状を示す事例が歴史研究者、ジャーナリスト、データアナリストなど過去の記録を頻繁に検索する職種で集中的に発見され、新種ウイルスとして分類された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ In winter 2025, a digital archiving specialist became infected during a project 
 - [デッドスクロール（DeadScroll）](deadscroll.md)：デッドスクロールが無限スクロールによる時間の歪みを引き起こすのに対し、タイムスタンプはすべての時間帯を一つの繰り返しに圧縮する——同時感染時、時間認識が完全に停止する。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

@@ -48,11 +48,20 @@ tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger",
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -66,11 +75,20 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by 
 メッセンジャーアプリで空のメッセージ（内容のないメッセージ）を受信すると感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は決断を下すたびに「囁き」を耳にし、その囁きが提示する選択肢は常に論理的に見えるが、実際には自己破壊的な方向へと誘導する。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -84,11 +102,20 @@ Transmitted when an empty message with no content is sent in a chat room where a
 感染者がいるチャットルームで内容のない空メッセージが送信されると、そのメッセージを読んだ（既読がついた）ユーザーに伝播する。空メッセージには送信者の記録が残らず、チャット履歴からも一定時間が経つと消失する。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -108,11 +135,20 @@ Transmitted when an empty message with no content is sent in a chat room where a
 - 会話中に相手のメッセージの一部が空白に見える
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -135,11 +171,20 @@ Transmitted when an empty message with no content is sent in a chat room where a
 - 末期には囁きがなくても自己破壊的な判断を自然に下すようになる
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -162,11 +207,20 @@ Transmitted when an empty message with no content is sent in a chat room where a
 4. 囁きが感染者自身の内的思考と区別不能に（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -189,11 +243,20 @@ Transmitted when an empty message with no content is sent in a chat room where a
 - メッセンジャーの既読確認機能を無効にすれば感染確率が低下する
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -207,11 +270,20 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 2025年春、あるスタートアップのCTOが相次ぐ「合理的」判断で会社を倒産寸前まで追い込んだ事件が発端。調査の結果、そのチームの業務用メッセンジャーに出所不明の空メッセージが数週間にわたって確認され、CTOを含むチーム全員が感染状態であったことが判明した。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -231,11 +303,20 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 - [キャッシュベイン（CacheVein）](cachevein.md)：メッセンジャーという伝播経路を共有。ヌルウィスパーの空メッセージの痕跡がキャッシュベインの物理的[発現](../glossary/index.md#발현--manifestation)を促進するという仮説がある。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

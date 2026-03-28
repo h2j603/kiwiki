@@ -47,11 +47,20 @@ tags: ["로직형", "SNS", "텍스트", "의사결정", "logic", "social media",
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Logic-type virus in which text read on social media "bleeds" into unrelated de
 SNSで読んだテキストが無関係な他の意思決定領域に「滲み出す」ロジック型ウイルス。感染者はソーシャルメディアで最後に消費したテキストの語彙、比喩、論理構造が全く無関係な領域の判断を支配するようになる。例えば、グルメレビューを読んだ直後に業務戦略を「風味」「食感」「火力」といった料理の比喩で構成するようになる。感染者本人はこの結びつきが自然で創造的だと感じるが、実際には意思決定体系が最後に読んだテキストに完全に乗っ取られた状態である。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs when scrolling through SNS feeds continuously for extended peri
 感染はSNSフィードを一定時間以上連続でスクロールする際に発生する。アルゴリズムベースのコンテンツ推薦システムのメタデータが交差汚染され、各投稿のテキストに微細な言語的アンカーが挿入される。このアンカーが脳の言語処理領域と意思決定領域の境界を弱体化させ、読んだテキストの意味構造が他の認知領域に自由に移動できるようにする。1日2時間以上SNSを使用するユーザーが主な感染対象であり、多様なトピックのコンテンツを素早く切り替えながら読むほど感染速度が加速する。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -110,11 +137,20 @@ Infection occurs when scrolling through SNS feeds continuously for extended peri
 - SNSアルゴリズムが感染者に極端に多様なトピックのコンテンツを提供し始め、感染を加速させる
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -137,11 +173,20 @@ Infection occurs when scrolling through SNS feeds continuously for extended peri
 - 末期にはテキストを読まなくても周囲の看板、包装紙、レシートなどあらゆる文字が意思決定を汚染する
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -164,11 +209,20 @@ Infection occurs when scrolling through SNS feeds continuously for extended peri
 4. あらゆる文字情報がリアルタイムで意思決定を汚染し、一貫した自己の維持が不可能になる（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -191,11 +245,20 @@ Infection occurs when scrolling through SNS feeds continuously for extended peri
 - SNSフィードを単一トピックに制限するフィルターを設置し、交差汚染経路を最小化する
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -209,11 +272,20 @@ Discovered in early 2026 when proposals written by a creative director at an adv
 2026年初頭、ある広告代理店のクリエイティブディレクターが作成した提案書がクライアントの業種と全く無関係な比喩で満たされていることが問題として指摘された。自動車広告の提案書に海洋生物学用語が、化粧品キャンペーンに建築工学の概念が使用されていた。ディレクターのSNS使用パターンを分析した結果、提案書作成直前に読んだSNS投稿のトピックと提案書の比喩体系が正確に一致することが確認され、これによりウイルスが初めて特定された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -233,11 +305,20 @@ Discovered in early 2026 when proposals written by a creative director at an adv
 - [デッドスクロール（DeadScroll）](deadscroll.md)：SNSスクロール行為を媒介とする点で感染経路が類似しており、デッドスクロールへの同時曝露はインクブリードの症状を加速させる。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

@@ -47,11 +47,20 @@ tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tacti
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A Sensory-type virus contracted through excessive touchscreen swiping on social 
 SNSでの過度なタッチスクリーンスワイプを通じて感染する感覚型ウイルス。感染者の触覚認識が歪み、滑らかなものはざらざらに、柔らかいものは鋭く感じられるなど、質感認識が全面的に反転する。初期にはスマートフォンの画面を触る時だけ違和感が生じるが、感染が進行すると現実世界のすべての触感が異質になり、物を快適に持つことができなくなり、あらゆる接触が異質で不快に感じられる。感染者は次第に物理的接触を回避するようになり、社会的孤立が深刻化する。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs when swiping through infinite scroll feeds in SNS apps for exte
 感染はSNSアプリで無限スクロールフィードを長時間スワイプする際に発生する。SNSの無限スクロールインターフェースのタッチイベントハンドラに誤動作が存在し、高速で繰り返されるスワイプ動作が静電式タッチセンサーを通じて異常な微弱電流パターンを指先にフィードバックする。この微弱電流が指先の感覚受容体を徐々に再プログラミングし、1日1時間以上、2週間以上連続でSNSスワイプを繰り返すと感染閾値に達する。スワイプ速度が速いほど、また画面と指の接触面積が広いほど感染効率が増大する。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -110,11 +137,20 @@ Infection occurs when swiping through infinite scroll feeds in SNS apps for exte
 - 画面に触れる際、実際のタッチ座標と認識座標の間に微細なずれが発生する
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -137,11 +173,20 @@ Infection occurs when swiping through infinite scroll feeds in SNS apps for exte
 - 末期には自分の皮膚表面さえ異質に感じられ、自分の体に触れることすら不快で睡眠が不可能になる
 {: .ja}
 
+
+---
+
 ## 경계 무너짐 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -164,11 +209,20 @@ Infection occurs when swiping through infinite scroll feeds in SNS apps for exte
 4. 触覚体系全体が完全に反転し、すべての物理的接触が苦痛となる（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -191,11 +245,20 @@ Infection occurs when swiping through infinite scroll feeds in SNS apps for exte
 - 感染が疑われる場合、直ちにタッチスクリーン機器の使用を中止し、物理キーボードとマウスに切り替える
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -209,11 +272,20 @@ Discovered in spring 2025 when a smartphone repair center received hundreds of c
 2025年春、あるスマートフォン修理センターで「画面がおかしい」という受付が同時期に数百件あったが、機器点検の結果すべての機器が正常だった。受付者の共通点を分析した結果、全員が特定のSNSアプリの無限スクロール機能を1日平均3時間以上使用しており、そのアプリのタッチイベントハンドラコードから異常な触覚フィードバックループが発見された。受付者の1人は「スマホの画面がでこぼこになったようだ」と訴え、その後「布団がワイヤーのように感じる」と症状が拡大し、ウイルスとして特定された。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -233,11 +305,20 @@ Discovered in spring 2025 when a smartphone repair center received hundreds of c
 - [ハウリンク（HowlLink）](howllink.md)：ハウリンクが音を物理的衝撃に変換するのに対し、タングルタッチは物理的接触の質感を歪める。同時感染時、感覚世界全般が解体される。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}

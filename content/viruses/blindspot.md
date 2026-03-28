@@ -47,11 +47,20 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 </div>
 
 
+
+---
+
 ## 개요
 {: .ko}
 
+
+---
+
 ## Overview
 {: .en}
+
+
+---
 
 ## 概要
 {: .ja}
@@ -65,11 +74,20 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted b
 検索エンジンの結果ページで特定のメタタグが含まれたリンクを読むと感染する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の視野から特定の領域が徐々に消え、現実の一部を認知できなくなる。
 {: .ja}
 
+
+---
+
 ## 감염 방식
 {: .ko}
 
+
+---
+
 ## Infection Method
 {: .en}
+
+
+---
 
 ## 感染方式
 {: .ja}
@@ -83,11 +101,20 @@ Infection occurs simply by reading a search result preview snippet that contains
 検索結果のプレビューテキスト（スニペット）に変異メタタグが含まれている場合、そのスニペットを読むだけで感染する。リンクをクリックする必要もない。変異メタタグは通常のテキストとしてレンダリングされ、肉眼で区別することは不可能である。
 {: .ja}
 
+
+---
+
 ## 웹 상 증상
 {: .ko}
 
+
+---
+
 ## Web Symptoms
 {: .en}
+
+
+---
 
 ## ウェブ上の症状
 {: .ja}
@@ -107,11 +134,20 @@ Infection occurs simply by reading a search result preview snippet that contains
 - 画面の同じ位置が繰り返し「空」に見える
 {: .ja}
 
+
+---
+
 ## 발현 양상
 {: .ko}
 
+
+---
+
 ## Manifestation
 {: .en}
+
+
+---
 
 ## 発現様相
 {: .ja}
@@ -134,11 +170,20 @@ Infection occurs simply by reading a search result preview snippet that contains
 - 末期には視野の半分以上が消失し、日常生活が不可能になる
 {: .ja}
 
+
+---
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
+
+---
+
 ## Boundary Collapse Stages
 {: .en}
+
+
+---
 
 ## 境界崩壊段階
 {: .ja}
@@ -161,11 +206,20 @@ Infection occurs simply by reading a search result preview snippet that contains
 4. 視野消失領域が拡大、不可逆的（現実定着）
 {: .ja}
 
+
+---
+
 ## 대응 방법
 {: .ko}
 
+
+---
+
 ## Countermeasures
 {: .en}
+
+
+---
 
 ## 対処法
 {: .ja}
@@ -188,11 +242,20 @@ Infection occurs simply by reading a search result preview snippet that contains
 - [ピクセルロット](pixelrot.md)との同時感染が疑われる場合は直ちにすべての画面使用を中止すること
 {: .ja}
 
+
+---
+
 ## 발견 기록
 {: .ko}
 
+
+---
+
 ## Discovery Log
 {: .en}
+
+
+---
 
 ## 発見記録
 {: .ja}
@@ -206,11 +269,20 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 2025年冬、複数の図書館司書が「検索結果が所々抜けて見える」と同時に報告。彼らが使用した検索エンジンのキャッシュを分析した結果、同一の変異メタタグが数万ページに挿入されており、その出所は一台の損傷したキャッシュサーバーであった。
 {: .ja}
 
+
+---
+
 ## 관련 바이러스
 {: .ko}
 
+
+---
+
 ## Related Viruses
 {: .en}
+
+
+---
 
 ## 関連ウイルス
 {: .ja}
@@ -230,11 +302,20 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 - [グリッチモス（GlitchMoss）](glitchmoss.md)：ブラインドスポットの視野消失とグリッチモスの空間腐食が同じ領域で重なると「認識上も物理的にも存在しない空間」が生まれるという仮説がある。
 {: .ja}
 
+
+---
+
 ## 참고
 {: .ko}
 
+
+---
+
 ## Notes
 {: .en}
+
+
+---
 
 ## 備考
 {: .ja}
