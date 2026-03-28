@@ -1,0 +1,125 @@
+---
+title: "탱글터치 / TangleTouch"
+parent: "바이러스 / Viruses"
+nav_order: 22
+code: "WKV-S.SN-006"
+classification:
+  type: "감각형 / Sensory"
+  vector: "SNS / Social Media"
+  severity: "보통 / Moderate"
+origin: "SNS 무한 스크롤 인터페이스의 터치 이벤트 핸들러 오작동 / Malfunction in the touch event handler of SNS infinite scroll interfaces"
+first_detected: "2025년 봄 / Spring 2025"
+status: "활성 / Active"
+tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tactile", "touch"]
+---
+
+| 항목 | 내용 |
+|------|------|
+| 분류 코드 | <span class="pill pill-code">WKV-S.SN-006</span> |
+| 유형 | <span class="pill pill-type">감각형</span> |
+| 전파 경로 | <span class="pill pill-vector">SNS</span> |
+| 위험도 | <span class="pill pill-severity-moderate">보통</span> |
+| 최초 발견 | 2025년 봄 |
+| 상태 | <span class="pill pill-active">활성</span> |
+
+## 개요 / Overview
+
+SNS에서 과도한 터치스크린 스와이프를 통해 감염되는 감각형 바이러스. 감염자의 촉각 인식이 왜곡되어 매끄러운 것은 거칠게, 부드러운 것은 날카롭게 느껴지는 등 질감 인식이 전면적으로 역전된다. 초기에는 스마트폰 화면을 만질 때만 이상한 느낌이 들지만, 감염이 진행되면 현실 세계의 모든 촉감이 낯설어져 물건을 편안하게 잡을 수 없게 되며, 모든 접촉이 이질적이고 불쾌하게 느껴진다. 감염자는 점차 물리적 접촉을 회피하게 되어 사회적 고립이 심화된다.
+{: .ko}
+
+A Sensory-type virus contracted through excessive touchscreen swiping on social media. The infected person's tactile perception warps — smooth things feel rough, soft things feel sharp — as texture recognition undergoes total inversion. Initially the strange sensation occurs only when touching a smartphone screen, but as infection progresses, all textures in the real world feel alien, making it impossible to hold objects comfortably, with every contact feeling foreign and unpleasant. The infected person gradually avoids all physical contact, leading to deepening social isolation.
+{: .en}
+
+## 감염 방식 / Infection Method
+
+감염은 SNS 앱에서 무한 스크롤 피드를 장시간 스와이프할 때 발생한다. SNS 무한 스크롤 인터페이스의 터치 이벤트 핸들러에 오작동이 존재하며, 빠른 속도로 반복되는 스와이프 동작이 터치스크린의 정전식 센서를 통해 비정상적인 미세 전류 패턴을 손가락에 되돌려 보낸다. 이 미세 전류가 손끝의 감각 수용체를 서서히 재프로그래밍하며, 하루 1시간 이상, 2주 이상 연속으로 SNS 스와이프를 반복하면 감염 임계치에 도달한다. 스와이프 속도가 빠를수록, 그리고 화면과 손가락의 접촉 면적이 넓을수록 감염 효율이 증가한다.
+{: .ko}
+
+Infection occurs when swiping through infinite scroll feeds in SNS apps for extended periods. A malfunction exists in the touch event handler of SNS infinite scroll interfaces, and rapidly repeated swipe motions cause the capacitive touch sensor to feed abnormal micro-current patterns back through the fingertips. These micro-currents gradually reprogram the sensory receptors in the fingertips, and performing SNS swipes for more than 1 hour daily over 2 consecutive weeks reaches the infection threshold. Faster swipe speeds and larger contact areas between finger and screen increase infection efficiency.
+{: .en}
+
+## 웹 상 증상 / Web Symptoms
+
+- 터치스크린 스와이프 시 화면이 미세하게 "걸리는" 느낌이 발생하며, 스크롤이 부자연스러워짐
+- SNS 앱의 햅틱 피드백이 설정과 무관하게 무작위로 발생하거나 사라짐
+- 타이핑 시 키보드 터치감이 매번 다르게 느껴지며, 오타율이 급격히 증가
+- 화면을 만질 때 실제 터치 좌표와 인식 좌표 사이에 미세한 오차 발생
+{: .ko}
+
+- A subtle "snagging" sensation occurs during touchscreen swipes, making scrolling feel unnatural
+- Haptic feedback in SNS apps fires randomly or disappears regardless of settings
+- Keyboard touch feel changes with each press during typing, with typo rates increasing sharply
+- Subtle offset between actual touch coordinates and recognized coordinates when touching the screen
+{: .en}
+
+## 발현 양상 / Manifestation
+
+- 면 소재 옷이 사포처럼, 실크가 가시처럼 느껴져 옷을 입는 행위 자체가 고통스러움
+- 컵이나 식기를 잡을 때 표면이 미끄러우면서 동시에 거친 이중 촉감을 느끼며, 물건을 자주 떨어뜨림
+- 다른 사람과의 신체 접촉(악수, 포옹 등)이 극도로 불쾌하게 느껴져 모든 접촉을 거부
+- 말기에는 자신의 피부 표면마저 이질적으로 느껴져, 자기 몸을 만지는 것조차 불쾌하며 수면이 불가능해짐
+{: .ko}
+
+- Cotton clothing feels like sandpaper, silk feels like thorns, making the act of wearing clothes itself painful
+- When holding cups or dishes, a dual sensation of slippery yet rough is felt simultaneously, frequently causing dropped objects
+- Physical contact with others (handshakes, hugs, etc.) feels intensely unpleasant, leading to rejection of all contact
+- In terminal stages, even one's own skin surface feels alien, making self-touch unpleasant and sleep impossible
+{: .en}
+
+## 경계 무너짐 단계 / Boundary Collapse Stages
+
+1. SNS 스와이프 시 터치스크린의 촉감이 비정상적으로 느껴짐 (웹)
+2. 모든 디지털 기기 화면의 촉감이 왜곡되어 기기 사용에 불편 발생 (웹 확산)
+3. 오프라인 물체의 질감이 역전되기 시작하여 일상적 물건 사용에 지장 (현실 침투)
+4. 전체 촉각 체계가 완전히 역전되어 모든 물리적 접촉이 고통스러움 (현실 정착)
+{: .ko}
+
+1. Touchscreen sensation feels abnormal during SNS swiping (Web)
+2. Touch sensation on all digital device screens becomes distorted, causing discomfort in device usage (Web spread)
+3. Textures of offline objects begin to invert, disrupting use of everyday items (Reality breach)
+4. Entire tactile system is completely inverted, making all physical contact painful (Reality anchor)
+{: .en}
+
+## 대응 방법 / Countermeasures
+
+- SNS 스와이프 시간을 하루 30분 이내로 제한하고, 스타일러스 펜 사용을 권장
+- 감염 초기에 다양한 질감의 물체를 의식적으로 만지며 정상 촉감을 상기하는 "촉각 재보정 훈련" 실시
+- SNS 앱의 무한 스크롤 기능을 비활성화하고, 페이지 단위 탐색으로 전환
+- 감염 의심 시 즉시 터치스크린 기기 사용을 중단하고, 물리 키보드와 마우스로 전환
+{: .ko}
+
+- Limit SNS swiping to no more than 30 minutes per day and use a stylus pen
+- In early stages of infection, practice "tactile recalibration training" by consciously touching objects of various textures and recalling their normal feel
+- Disable the infinite scroll function in SNS apps and switch to page-by-page browsing
+- If infection is suspected, immediately cease touchscreen device use and switch to physical keyboard and mouse
+{: .en}
+
+## 발견 기록 / Discovery Log
+
+2025년 봄, 한 스마트폰 수리 센터에서 "화면이 이상하다"는 접수가 같은 기간에 수백 건 접수되었으나, 기기 점검 결과 모든 기기가 정상이었다. 접수자들의 공통점을 분석한 결과, 전원이 특정 SNS 앱의 무한 스크롤 기능을 하루 평균 3시간 이상 사용하고 있었으며, 해당 앱의 터치 이벤트 핸들러 코드에서 비정상적인 햅틱 피드백 루프가 발견되었다. 접수자 중 한 명은 "폰 화면이 울퉁불퉁해진 것 같다"고 호소했으며, 이후 "이불이 철사처럼 느껴진다"고 증상이 확대되어 바이러스로 식별되었다.
+{: .ko}
+
+Discovered in spring 2025 when a smartphone repair center received hundreds of complaints about "abnormal screens" in the same period, yet device inspections found all devices functioning normally. Analysis of commonalities among complainants revealed that all were using a specific SNS app's infinite scroll feature for an average of more than 3 hours daily, and an abnormal haptic feedback loop was found in the app's touch event handler code. One complainant reported "the phone screen seems to have become bumpy," and symptoms later expanded to "my blanket feels like wire," leading to identification as a virus.
+{: .en}
+
+## 관련 바이러스 / Related Viruses
+
+- [글래스보이스 (GlassVoice)](glassvoice.md): 탱글터치가 촉각을 왜곡한다면, 글래스보이스는 청각을 왜곡한다. 두 감각형 바이러스가 동시에 감염될 경우, 촉각과 청각 모두가 왜곡되어 외부 세계와의 감각적 연결이 극도로 제한된다.
+- [데드스크롤 (DeadScroll)](deadscroll.md): SNS 스크롤 행위를 공유 벡터로 가지며, 데드스크롤의 무한 스크롤 집착이 탱글터치의 감염 기회를 증가시킨다.
+- [하울링크 (HowlLink)](howllink.md): 하울링크가 소리를 물리적 충격으로 전환한다면, 탱글터치는 물리적 접촉의 질감을 왜곡한다. 동시 감염 시 감각 세계 전반이 해체된다.
+{: .ko}
+
+- [GlassVoice](glassvoice.md): While TangleTouch distorts touch, GlassVoice distorts hearing. Co-infection with both Sensory-type viruses restricts sensory connection to the outside world to an extreme degree.
+- [DeadScroll](deadscroll.md): Shares SNS scrolling as an infection vector; DeadScroll's infinite scroll obsession increases opportunities for TangleTouch infection.
+- [HowlLink](howllink.md): While HowlLink converts sound into physical impact, TangleTouch distorts the texture of physical contact. Co-infection dismantles the sensory world entirely.
+{: .en}
+
+## 참고 / Notes
+
+- 탱글터치 감염자는 장갑을 착용하면 증상이 약 40% 완화되는 것으로 보고되었다. 이는 바이러스가 피부와 물체의 직접 접촉에 의존한다는 것을 시사한다.
+- 스타일러스 펜 제조업체들의 매출이 탱글터치 발견 이후 300% 증가했으며, 이는 감염자 수의 간접적 지표로 활용되고 있다.
+{: .ko}
+
+- TangleTouch-infected individuals report approximately 40% symptom relief when wearing gloves, suggesting the virus depends on direct skin-to-object contact.
+- Stylus pen manufacturers have seen a 300% increase in sales since TangleTouch's discovery, which is being used as an indirect indicator of infection numbers.
+{: .en}
