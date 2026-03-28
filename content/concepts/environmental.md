@@ -53,13 +53,13 @@ nav_order: 4
 ## 概要
 {: .ja}
 
-Environmental-type viruses are the most dangerous classification of Web Kiwi Virus. Unlike the other three types -- which affect the individual's mind, senses, or reasoning -- Environmental-type viruses alter the **physical world itself**. Walls grow circuitry. Rooms change dimensions. Objects rust overnight. Moss made of static spreads across concrete. These are not hallucinations and they are not perceptual distortions: Environmental-type effects are measurable, photographable, and permanent. This is [Boundary Collapse](boundary-collapse.md) in its most literal form -- the properties of the web physically manifesting in real space. Environmental-type viruses have the highest concentration of [Irreversible Transformation](irreversible.md) cases, with four confirmed: [GlitchMoss](../viruses/glitchmoss.md), [CacheVein](../viruses/cachevein.md), [VoidMail](../viruses/voidmail.md), and [WireRoot](../viruses/wireroot.md).
+Environmental-type viruses are the most dangerous classification of Web Kiwi Virus. Unlike the other three types -- which affect the individual's mind, senses, or reasoning -- Environmental-type viruses alter the **physical world itself**. Walls grow circuitry. Rooms change dimensions. Objects rust overnight. Moss made of static spreads across concrete. These are not hallucinations and they are not perceptual distortions: Environmental-type effects are measurable, photographable, and permanent. This is [Boundary Collapse](boundary-collapse.md) in its most literal form -- the properties of the web physically manifesting in real space. Environmental-type viruses have the highest concentration of [Irreversible Transformation](irreversible.md) cases, with four confirmed: [GlitchMoss](/kiwiki/viruses/glitchmoss.md), [CacheVein](/kiwiki/viruses/cachevein.md), [VoidMail](/kiwiki/viruses/voidmail.md), and [WireRoot](/kiwiki/viruses/wireroot.md).
 {: .en}
 
-환경형 바이러스는 웹키위바이러스의 가장 위험한 유형이다. 개인의 정신, 감각, 추론에 영향을 미치는 다른 세 유형과 달리, 환경형 바이러스는 **물리적 세계 자체**를 변형한다. 벽에 회로가 자란다. 방의 크기가 변한다. 물체가 하룻밤 사이에 녹슨다. 정적으로 이루어진 이끼가 콘크리트 위에 퍼진다. 이것은 환각이 아니며 지각적 왜곡도 아니다: 환경형 효과는 측정 가능하고, 사진 촬영이 가능하며, 영구적이다. 이것이 가장 문자 그대로의 [경계 무너짐](boundary-collapse.md)이다 -- 웹의 속성이 물리적으로 실제 공간에 발현하는 것이다. 환경형 바이러스는 [비가역적 변형](irreversible.md) 사례가 가장 집중되어 있으며, [글리치모스](../viruses/glitchmoss.md), [캐시베인](../viruses/cachevein.md), [보이드메일](../viruses/voidmail.md), [와이어루트](../viruses/wireroot.md) 네 건이 확인되었다.
+환경형 바이러스는 웹키위바이러스의 가장 위험한 유형이다. 개인의 정신, 감각, 추론에 영향을 미치는 다른 세 유형과 달리, 환경형 바이러스는 **물리적 세계 자체**를 변형한다. 벽에 회로가 자란다. 방의 크기가 변한다. 물체가 하룻밤 사이에 녹슨다. 정적으로 이루어진 이끼가 콘크리트 위에 퍼진다. 이것은 환각이 아니며 지각적 왜곡도 아니다: 환경형 효과는 측정 가능하고, 사진 촬영이 가능하며, 영구적이다. 이것이 가장 문자 그대로의 [경계 무너짐](boundary-collapse.md)이다 -- 웹의 속성이 물리적으로 실제 공간에 발현하는 것이다. 환경형 바이러스는 [비가역적 변형](irreversible.md) 사례가 가장 집중되어 있으며, [글리치모스](/kiwiki/viruses/glitchmoss.md), [캐시베인](/kiwiki/viruses/cachevein.md), [보이드메일](/kiwiki/viruses/voidmail.md), [와이어루트](/kiwiki/viruses/wireroot.md) 네 건이 확인되었다.
 {: .ko}
 
-環境型ウイルスはウェブキウイウイルスの最も危険な類型である。個人の精神、感覚、推論に影響を与える他の3類型とは異なり、環境型ウイルスは**物理的世界そのもの**を変容させる。壁に回路が生える。部屋の寸法が変わる。物体が一晩で錆びる。静電ノイズでできた苔がコンクリートの上に広がる。これらは幻覚ではなく知覚の歪みでもない：環境型の効果は測定可能で、写真撮影可能で、永続的である。これが最も文字通りの[境界崩壊](boundary-collapse.md)である――ウェブの属性が物理的に実空間で発現するのだ。環境型ウイルスは[不可逆的変容](irreversible.md)の症例が最も集中しており、[グリッチモス](../viruses/glitchmoss.md)、[キャッシュベイン](../viruses/cachevein.md)、[ボイドメール](../viruses/voidmail.md)、[ワイヤールート](../viruses/wireroot.md)の4件が確認されている。
+環境型ウイルスはウェブキウイウイルスの最も危険な類型である。個人の精神、感覚、推論に影響を与える他の3類型とは異なり、環境型ウイルスは**物理的世界そのもの**を変容させる。壁に回路が生える。部屋の寸法が変わる。物体が一晩で錆びる。静電ノイズでできた苔がコンクリートの上に広がる。これらは幻覚ではなく知覚の歪みでもない：環境型の効果は測定可能で、写真撮影可能で、永続的である。これが最も文字通りの[境界崩壊](boundary-collapse.md)である――ウェブの属性が物理的に実空間で発現するのだ。環境型ウイルスは[不可逆的変容](irreversible.md)の症例が最も集中しており、[グリッチモス](/kiwiki/viruses/glitchmoss.md)、[キャッシュベイン](/kiwiki/viruses/cachevein.md)、[ボイドメール](/kiwiki/viruses/voidmail.md)、[ワイヤールート](/kiwiki/viruses/wireroot.md)の4件が確認されている。
 {: .ja}
 
 ## 환경형 감염의 작동 원리
@@ -99,14 +99,14 @@ The prevailing theory is that Environmental-type viruses use the infected person
 
 | Virus | Vector | Severity | Physical Effect |
 |-------|--------|----------|----------------|
-| [GlitchMoss](../viruses/glitchmoss.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-critical">Critical</span> | Static-patterned moss growth on surfaces |
-| [CacheVein](../viruses/cachevein.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-critical">Critical</span> | Circuit-like veins spreading through walls |
-| [StaticBloom](../viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">High</span> | Flower-like static formations on screens and surfaces |
-| [VoidMail](../viruses/voidmail.md) | <span class="pill pill-vector">Email</span> | <span class="pill pill-severity-critical">Critical</span> | Spatial voids that consume physical matter |
-| [RustPixel](../viruses/rustpixel.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-high">High</span> | Pixel-patterned rust consuming metal objects |
-| [WireRoot](../viruses/wireroot.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-critical">Critical</span> | Wire-like roots growing from floors and walls |
-| [EchoRoom](../viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">Moderate</span> | Rooms develop acoustic anomalies that echo web sounds |
-| [NullSpace](../viruses/nullspace.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-high">High</span> | Rooms where spatial dimensions become undefined |
+| [GlitchMoss](/kiwiki/viruses/glitchmoss.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-critical">Critical</span> | Static-patterned moss growth on surfaces |
+| [CacheVein](/kiwiki/viruses/cachevein.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-critical">Critical</span> | Circuit-like veins spreading through walls |
+| [StaticBloom](/kiwiki/viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">High</span> | Flower-like static formations on screens and surfaces |
+| [VoidMail](/kiwiki/viruses/voidmail.md) | <span class="pill pill-vector">Email</span> | <span class="pill pill-severity-critical">Critical</span> | Spatial voids that consume physical matter |
+| [RustPixel](/kiwiki/viruses/rustpixel.md) | <span class="pill pill-vector">Search Engine</span> | <span class="pill pill-severity-high">High</span> | Pixel-patterned rust consuming metal objects |
+| [WireRoot](/kiwiki/viruses/wireroot.md) | <span class="pill pill-vector">Direct Access</span> | <span class="pill pill-severity-critical">Critical</span> | Wire-like roots growing from floors and walls |
+| [EchoRoom](/kiwiki/viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">Moderate</span> | Rooms develop acoustic anomalies that echo web sounds |
+| [NullSpace](/kiwiki/viruses/nullspace.md) | <span class="pill pill-vector">Messenger</span> | <span class="pill pill-severity-high">High</span> | Rooms where spatial dimensions become undefined |
 
 </div>
 
@@ -114,14 +114,14 @@ The prevailing theory is that Environmental-type viruses use the infected person
 
 | 바이러스 | 경로 | 심각도 | 물리적 효과 |
 |----------|------|--------|-------------|
-| [글리치모스](../viruses/glitchmoss.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-critical">치명적</span> | 표면에 정적 패턴 이끼 성장 |
-| [캐시베인](../viruses/cachevein.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-critical">치명적</span> | 벽을 통해 퍼지는 회로형 맥관 |
-| [스태틱블룸](../viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | 화면과 표면에 꽃 형태의 정적 형성 |
-| [보이드메일](../viruses/voidmail.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-critical">치명적</span> | 물리적 물질을 소멸시키는 공간적 공허 |
-| [러스트픽셀](../viruses/rustpixel.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-high">높음</span> | 금속 물체를 먹어치우는 픽셀 패턴 녹 |
-| [와이어루트](../viruses/wireroot.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-critical">치명적</span> | 바닥과 벽에서 자라는 전선형 뿌리 |
-| [에코룸](../viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | 웹 소리를 반향하는 음향 이상이 발생하는 방 |
-| [널스페이스](../viruses/nullspace.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-high">높음</span> | 공간 차원이 정의되지 않는 방 |
+| [글리치모스](/kiwiki/viruses/glitchmoss.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-critical">치명적</span> | 표면에 정적 패턴 이끼 성장 |
+| [캐시베인](/kiwiki/viruses/cachevein.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-critical">치명적</span> | 벽을 통해 퍼지는 회로형 맥관 |
+| [스태틱블룸](/kiwiki/viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">높음</span> | 화면과 표면에 꽃 형태의 정적 형성 |
+| [보이드메일](/kiwiki/viruses/voidmail.md) | <span class="pill pill-vector">이메일</span> | <span class="pill pill-severity-critical">치명적</span> | 물리적 물질을 소멸시키는 공간적 공허 |
+| [러스트픽셀](/kiwiki/viruses/rustpixel.md) | <span class="pill pill-vector">검색엔진</span> | <span class="pill pill-severity-high">높음</span> | 금속 물체를 먹어치우는 픽셀 패턴 녹 |
+| [와이어루트](/kiwiki/viruses/wireroot.md) | <span class="pill pill-vector">직접접근</span> | <span class="pill pill-severity-critical">치명적</span> | 바닥과 벽에서 자라는 전선형 뿌리 |
+| [에코룸](/kiwiki/viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">보통</span> | 웹 소리를 반향하는 음향 이상이 발생하는 방 |
+| [널스페이스](/kiwiki/viruses/nullspace.md) | <span class="pill pill-vector">메신저</span> | <span class="pill pill-severity-high">높음</span> | 공간 차원이 정의되지 않는 방 |
 
 </div>
 
@@ -129,14 +129,14 @@ The prevailing theory is that Environmental-type viruses use the infected person
 
 | ウイルス | 経路 | 重症度 | 物理的効果 |
 |----------|------|--------|-----------|
-| [グリッチモス](../viruses/glitchmoss.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 表面に静電パターンの苔の成長 |
-| [キャッシュベイン](../viruses/cachevein.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 壁を通じて広がる回路状の脈管 |
-| [スタティックブルーム](../viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 画面と表面に花状の静電形成 |
-| [ボイドメール](../viruses/voidmail.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-critical">致命的</span> | 物理的物質を消滅させる空間的空虚 |
-| [ラストピクセル](../viruses/rustpixel.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 金属物体を侵食するピクセルパターンの錆 |
-| [ワイヤールート](../viruses/wireroot.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 床と壁から生えるワイヤー状の根 |
-| [エコルーム](../viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | ウェブの音を反響する音響異常が発生する部屋 |
-| [ヌルスペース](../viruses/nullspace.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 空間次元が未定義になる部屋 |
+| [グリッチモス](/kiwiki/viruses/glitchmoss.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 表面に静電パターンの苔の成長 |
+| [キャッシュベイン](/kiwiki/viruses/cachevein.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 壁を通じて広がる回路状の脈管 |
+| [スタティックブルーム](/kiwiki/viruses/staticbloom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 画面と表面に花状の静電形成 |
+| [ボイドメール](/kiwiki/viruses/voidmail.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-critical">致命的</span> | 物理的物質を消滅させる空間的空虚 |
+| [ラストピクセル](/kiwiki/viruses/rustpixel.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 金属物体を侵食するピクセルパターンの錆 |
+| [ワイヤールート](/kiwiki/viruses/wireroot.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-critical">致命的</span> | 床と壁から生えるワイヤー状の根 |
+| [エコルーム](/kiwiki/viruses/echoroom.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | ウェブの音を反響する音響異常が発生する部屋 |
+| [ヌルスペース](/kiwiki/viruses/nullspace.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 空間次元が未定義になる部屋 |
 
 </div>
 

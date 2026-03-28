@@ -41,10 +41,10 @@ Manifestation refers to the way a Web Kiwi Virus expresses its symptoms in the p
 Produced by [Sensory-type](sensory.md) viruses. The victim perceives stimuli that are not physically present, or loses the ability to perceive stimuli that are. Sensory manifestation is the **most detectable** category because it produces immediate, obvious disruptions to the victim's experience. Visual distortions, phantom sounds, phantom tactile sensations -- these are things the victim notices immediately, even if they initially attribute them to fatigue or stress.
 
 Examples:
-- [MirrorLink](../viruses/mirrorlink.md): Reflections move independently of the viewer
-- [HowlLink](../viruses/howllink.md): Persistent distant howling, louder in enclosed spaces
-- [BlindSpot](../viruses/blindspot.md): Expanding regions of the visual field that cannot be seen
-- [TangleTouch](../viruses/tangletouch.md): Phantom threads felt wrapping around fingers and limbs
+- [MirrorLink](/kiwiki/viruses/mirrorlink.md): Reflections move independently of the viewer
+- [HowlLink](/kiwiki/viruses/howllink.md): Persistent distant howling, louder in enclosed spaces
+- [BlindSpot](/kiwiki/viruses/blindspot.md): Expanding regions of the visual field that cannot be seen
+- [TangleTouch](/kiwiki/viruses/tangletouch.md): Phantom threads felt wrapping around fingers and limbs
 {: .en}
 
 [감각형](sensory.md) 바이러스에 의해 생산된다. 감염자가 물리적으로 존재하지 않는 자극을 인지하거나, 존재하는 자극을 인지하는 능력을 잃는다. 감각적 발현은 감염자의 경험에 즉각적이고 명백한 혼란을 일으키기 때문에 **가장 감지 가능한** 범주이다. 시각적 왜곡, 유령 소리, 유령 촉각 -- 이것들은 감염자가 처음에는 피로나 스트레스 탓으로 돌리더라도 즉시 알아차리는 것들이다.
@@ -65,10 +65,10 @@ Examples:
 Produced by [Cognitive-type](cognitive.md) viruses. Memory gaps, temporal distortion, identity confusion, perceptual loops. Cognitive manifestation occupies a middle ground of detectability -- the victim often notices that *something* is wrong, but cannot precisely identify *what*. They forget a name and think nothing of it. They lose track of time and blame their schedule. The subtle, gradual nature of cognitive manifestation means it often progresses significantly before detection.
 
 Examples:
-- [ForgetMeNot](../viruses/forgetmenot.md): Progressive erasure of specific memories
-- [TimeStamp](../viruses/timestamp.md): Distorted perception of durations and event sequences
-- [NameEater](../viruses/nameeater.md): Proper nouns disappear from memory -- names, places, titles
-- [EchoLoop](../viruses/echoloop.md): Perception trapped in repeating cycles
+- [ForgetMeNot](/kiwiki/viruses/forgetmenot.md): Progressive erasure of specific memories
+- [TimeStamp](/kiwiki/viruses/timestamp.md): Distorted perception of durations and event sequences
+- [NameEater](/kiwiki/viruses/nameeater.md): Proper nouns disappear from memory -- names, places, titles
+- [EchoLoop](/kiwiki/viruses/echoloop.md): Perception trapped in repeating cycles
 {: .en}
 
 [인지형](cognitive.md) 바이러스에 의해 생산된다. 기억 공백, 시간적 왜곡, 정체성 혼란, 지각 루프. 인지적 발현은 감지 가능성의 중간 지대를 차지한다 -- 감염자는 종종 *무언가*가 잘못되었음을 알아차리지만, *무엇*이 잘못되었는지 정확히 파악할 수 없다. 이름을 잊고 대수롭지 않게 여긴다. 시간 감각을 잃고 일정 탓을 한다. 인지적 발현의 미묘하고 점진적인 특성은 발견 전에 상당히 진행되는 경우가 많다는 것을 의미한다.
@@ -89,10 +89,10 @@ Examples:
 Produced by [Logic-type](logic.md) viruses. Corrupted reasoning, biased judgment, self-destructive decision-making that appears rational. Logical manifestation is the **least detectable** category -- and paradoxically, this makes it the most dangerous. The victim's behavior changes, but the changes are always justifiable. They can explain every decision. They can defend every choice. The corrupted logic produces perfectly constructed rationalizations for increasingly harmful actions. External observers may notice a pattern of poor decisions, but the victim will argue convincingly that each decision was correct.
 
 Examples:
-- [NullWhisper](../viruses/nullwhisper.md): Whispered suggestions that guide toward self-destructive choices
-- [ParadoxFeed](../viruses/paradoxfeed.md): Contradictory premises that both seem logically valid
-- [ByteShade](../viruses/byteshade.md): Numerical reasoning shaded toward wrong conclusions
-- [InkBleed](../viruses/inkbleed.md): Written words bleed new meaning, altering communicative intent
+- [NullWhisper](/kiwiki/viruses/nullwhisper.md): Whispered suggestions that guide toward self-destructive choices
+- [ParadoxFeed](/kiwiki/viruses/paradoxfeed.md): Contradictory premises that both seem logically valid
+- [ByteShade](/kiwiki/viruses/byteshade.md): Numerical reasoning shaded toward wrong conclusions
+- [InkBleed](/kiwiki/viruses/inkbleed.md): Written words bleed new meaning, altering communicative intent
 {: .en}
 
 [로직형](logic.md) 바이러스에 의해 생산된다. 오염된 추론, 편향된 판단, 합리적으로 보이는 자기 파괴적 의사결정. 논리적 발현은 **가장 감지하기 어려운** 범주이다 -- 그리고 역설적으로 이것이 가장 위험하게 만든다. 감염자의 행동이 변하지만, 변화는 항상 정당화 가능하다. 모든 결정을 설명할 수 있다. 모든 선택을 방어할 수 있다. 오염된 논리가 점점 해로운 행동에 대한 완벽하게 구성된 합리화를 생산한다. 외부 관찰자가 잘못된 결정의 패턴을 알아차릴 수 있지만, 감염자는 각 결정이 옳았다고 설득력 있게 주장할 것이다.
@@ -113,10 +113,10 @@ Examples:
 Produced by [Environmental-type](environmental.md) viruses. Measurable, photographable changes to physical spaces and objects. Physical manifestation is unique because it affects the world rather than the individual. The infected person may feel perfectly fine while their apartment grows circuitry through its walls. Physical manifestation is the most alarming category because it proves that [Boundary Collapse](boundary-collapse.md) is not merely perceptual -- the web really is crossing into physical reality.
 
 Examples:
-- [GlitchMoss](../viruses/glitchmoss.md): Static-patterned moss growing on surfaces
-- [CacheVein](../viruses/cachevein.md): Circuit-like veins spreading through walls and floors
-- [VoidMail](../viruses/voidmail.md): Spatial voids that consume physical matter
-- [WireRoot](../viruses/wireroot.md): Wire-like roots growing from floors and walls
+- [GlitchMoss](/kiwiki/viruses/glitchmoss.md): Static-patterned moss growing on surfaces
+- [CacheVein](/kiwiki/viruses/cachevein.md): Circuit-like veins spreading through walls and floors
+- [VoidMail](/kiwiki/viruses/voidmail.md): Spatial voids that consume physical matter
+- [WireRoot](/kiwiki/viruses/wireroot.md): Wire-like roots growing from floors and walls
 {: .en}
 
 [환경형](environmental.md) 바이러스에 의해 생산된다. 물리적 공간과 물체에 대한 측정 가능하고 사진 촬영 가능한 변화. 물리적 발현은 개인이 아닌 세계에 영향을 미친다는 점에서 독특하다. 감염자는 자신의 아파트 벽에 회로가 자라는 동안 완벽하게 괜찮다고 느낄 수 있다. 물리적 발현은 [경계 무너짐](boundary-collapse.md)이 단순히 지각적이지 않음을 증명하기 때문에 가장 경각심을 주는 범주이다 -- 웹이 실제로 물리적 현실로 넘어오고 있는 것이다.

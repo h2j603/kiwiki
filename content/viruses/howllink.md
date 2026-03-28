@@ -67,13 +67,13 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 ## 概要
 {: .ja}
 
-메신저의 음성 메시지를 통해 전파되는 [감각형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자는 현실에서 존재하지 않는 소리—멀리서 들리는 울음, 기계적 속삭임, 주파수 이탈된 윙윙거림—를 지속적으로 듣게 된다.
+메신저의 음성 메시지를 통해 전파되는 [감각형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자는 현실에서 존재하지 않는 소리—멀리서 들리는 울음, 기계적 속삭임, 주파수 이탈된 윙윙거림—를 지속적으로 듣게 된다.
 {: .ko}
 
-A [Sensory-type](../taxonomy/index.md#classification-by-type) virus transmitted through voice messages on messenger apps. Infected individuals continuously hear non-existent sounds in reality—distant howling, mechanical whispers, frequency-shifted humming.
+A [Sensory-type](/kiwiki/taxonomy/#classification-by-type) virus transmitted through voice messages on messenger apps. Infected individuals continuously hear non-existent sounds in reality—distant howling, mechanical whispers, frequency-shifted humming.
 {: .en}
 
-メッセンジャーの音声メッセージを通じて伝播する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は現実に存在しない音——遠くから聞こえる鳴き声、機械的な囁き、周波数がずれたうなり——を持続的に聞くようになる。
+メッセンジャーの音声メッセージを通じて伝播する[感覚型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者は現実に存在しない音——遠くから聞こえる鳴き声、機械的な囁き、周波数がずれたうなり——を持続的に聞くようになる。
 {: .ja}
 
 
@@ -169,7 +169,7 @@ Among voice messages received on messengers, those where recorded duration subtl
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

@@ -68,13 +68,13 @@ tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual
 ## 概要
 {: .ja}
 
-이메일 첨부 이미지를 열면 감염되는 [감각형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 시야에 서서히 "화소 부패"가 번져, 현실 세계가 점점 저해상도로 보이기 시작한다.
+이메일 첨부 이미지를 열면 감염되는 [감각형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자의 시야에 서서히 "화소 부패"가 번져, 현실 세계가 점점 저해상도로 보이기 시작한다.
 {: .ko}
 
-A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted by opening image attachments in emails. "Pixel decay" gradually spreads across the infected person's visual field, causing the real world to appear in progressively lower resolution.
+A [Sensory-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by opening image attachments in emails. "Pixel decay" gradually spreads across the infected person's visual field, causing the real world to appear in progressively lower resolution.
 {: .en}
 
-メールの添付画像を開くと感染する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の視野に徐々に「画素腐敗」が広がり、現実世界が次第に低解像度に見え始める。
+メールの添付画像を開くと感染する[感覚型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者の視野に徐々に「画素腐敗」が広がり、現実世界が次第に低解像度に見え始める。
 {: .ja}
 
 
@@ -170,7 +170,7 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 

@@ -71,13 +71,13 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 ## 概要
 {: .ja}
 
-검색엔진 결과 페이지에서 특정 메타태그가 포함된 링크를 읽으면 감염되는 [감각형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 시야에서 특정 영역이 점점 사라져, 현실의 일부를 인지하지 못하게 된다.
+검색엔진 결과 페이지에서 특정 메타태그가 포함된 링크를 읽으면 감염되는 [감각형](/kiwiki/taxonomy/#유형별-분류) 바이러스. 감염자의 시야에서 특정 영역이 점점 사라져, 현실의 일부를 인지하지 못하게 된다.
 {: .ko}
 
-A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted by reading links containing specific meta tags on search engine result pages. Specific areas of the infected person's visual field progressively vanish, causing them to lose perception of parts of reality.
+A [Sensory-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by reading links containing specific meta tags on search engine result pages. Specific areas of the infected person's visual field progressively vanish, causing them to lose perception of parts of reality.
 {: .en}
 
-検索エンジンの結果ページで特定のメタタグが含まれたリンクを読むと感染する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の視野から特定の領域が徐々に消え、現実の一部を認知できなくなる。
+検索エンジンの結果ページで特定のメタタグが含まれたリンクを読むと感染する[感覚型](/kiwiki/taxonomy/#유형별-분류)ウイルス。感染者の視野から特定の領域が徐々に消え、現実の一部を認知できなくなる。
 {: .ja}
 
 
@@ -173,7 +173,7 @@ Infection occurs simply by reading a search result preview snippet that contains
 
 ---
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+## [경계 무너짐](/kiwiki/glossary/#경계-무너짐--boundary-collapse) 단계
 {: .ko}
 
 
