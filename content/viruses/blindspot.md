@@ -22,7 +22,14 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 | 위험도 | <span class="pill pill-severity-critical">치명적</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 검색엔진 결과 페이지에서 특정 메타태그가 포함된 링크를 읽으면 감염되는 [감각형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 시야에서 특정 영역이 점점 사라져, 현실의 일부를 인지하지 못하게 된다.
 {: .ko}
@@ -33,7 +40,14 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted b
 検索エンジンの結果ページで特定のメタタグが含まれたリンクを読むと感染する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の視野から特定の領域が徐々に消え、現実の一部を認知できなくなる。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 검색 결과의 미리보기 텍스트(스니펫)에 변형된 메타태그가 포함된 경우, 해당 스니펫을 읽는 것만으로 감염된다. 링크를 클릭할 필요도 없다. 변형 메타태그는 일반 텍스트처럼 렌더링되어 육안으로 구별이 불가능하다.
 {: .ko}
@@ -44,7 +58,14 @@ Infection occurs simply by reading a search result preview snippet that contains
 検索結果のプレビューテキスト（スニペット）に変異メタタグが含まれている場合、そのスニペットを読むだけで感染する。リンクをクリックする必要もない。変異メタタグは通常のテキストとしてレンダリングされ、肉眼で区別することは不可能である。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 검색 결과 중 일부가 안 보임 (해당 영역이 빈 공간으로 보임)
 - 웹페이지의 특정 구역이 로딩되지 않은 것처럼 보임
@@ -61,7 +82,14 @@ Infection occurs simply by reading a search result preview snippet that contains
 - 画面の同じ位置が繰り返し「空」に見える
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 시야의 특정 영역에서 사물이 사라짐—사각지대가 생기나 뇌가 주변으로 채우려고 함
 - 처음에는 주변부에서 시작하여 중심부로 확대
@@ -81,7 +109,14 @@ Infection occurs simply by reading a search result preview snippet that contains
 - 末期には視野の半分以上が消失し、日常生活が不可能になる
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 검색 결과 일부가 안 보임 (웹)
 2. 모든 화면에서 동일 위치 공백 발생 (웹 확산)
@@ -101,7 +136,14 @@ Infection occurs simply by reading a search result preview snippet that contains
 4. 視野消失領域が拡大、不可逆的（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 검색 결과를 읽기 전에 텍스트 전용 브라우저로 HTML 소스를 확인
 - 감염 초기에 시야 소실 부위를 정확히 기록하여 진행 추적
@@ -121,7 +163,14 @@ Infection occurs simply by reading a search result preview snippet that contains
 - [ピクセルロット](pixelrot.md)との同時感染が疑われる場合は直ちにすべての画面使用を中止すること
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 겨울, 여러 도서관 사서들이 "검색 결과가 중간중간 비어 보인다"고 동시에 보고. 이들이 사용한 검색 엔진의 캐시를 분석한 결과, 동일한 변형 메타태그가 수만 개의 페이지에 삽입되어 있었으며, 그 출처는 하나의 손상된 캐시 서버였다.
 {: .ko}
@@ -132,7 +181,14 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 2025年冬、複数の図書館司書が「検索結果が所々抜けて見える」と同時に報告。彼らが使用した検索エンジンのキャッシュを分析した結果、同一の変異メタタグが数万ページに挿入されており、その出所は一台の損傷したキャッシュサーバーであった。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [픽셀롯 (PixelRot)](pixelrot.md): 같은 감각형 시각 바이러스. 픽셀롯이 시야를 "흐리게" 한다면, 블라인드스팟은 시야를 "지운다." 동시 감염은 시각 기능의 완전 상실로 이어질 수 있음.
 - [에코루프 (EchoLoop)](echoloop.md): 검색엔진 전파 경로 공유. 에코루프로 같은 검색을 반복하면 블라인드스팟의 변형 메타태그에 누적 노출되어 감염 확률이 급상승.
@@ -149,7 +205,14 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 - [グリッチモス（GlitchMoss）](glitchmoss.md)：ブラインドスポットの視野消失とグリッチモスの空間腐食が同じ領域で重なると「認識上も物理的にも存在しない空間」が生まれるという仮説がある。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 블라인드스팟은 감각형 바이러스 중 유일하게 "치명적" 등급을 받은 종으로, 시각 소실의 비가역성이 그 이유
 - 감염자가 못 보는 영역에 다른 사람이 메시지를 두면 감염자에게 전달이 불가능하다는 점이 구조 활동에 큰 장애가 됨

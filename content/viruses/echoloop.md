@@ -23,7 +23,14 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 검색엔진에서 특정 키워드 조합을 검색하면 감염되는 [인지형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자는 같은 생각이 반복적으로 되풀이되는 루프에 빠지며, 자신이 같은 검색을 반복했다는 사실을 인지하지 못하게 된다.
 {: .ko}
@@ -34,7 +41,14 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 検索エンジンで特定のキーワードの組み合わせを検索すると感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は同じ思考が繰り返されるループに陥り、自分が同じ検索を繰り返していることを認知できなくなる。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 특정 키워드 3개 이상을 조합하여 검색할 때, 검색 결과의 첫 번째 링크가 자기참조적 페이지(자기 자신을 검색 결과로 포함하는 페이지)로 연결되면 감염된다. 감염 키워드 조합은 개인마다 다르며, 주로 그 사람이 평소에 자주 검색하는 주제와 관련이 있다.
 {: .ko}
@@ -45,7 +59,14 @@ Infection occurs when searching a combination of three or more specific keywords
 特定のキーワード3つ以上を組み合わせて検索した際、検索結果の最初のリンクが自己参照的ページ（自分自身を検索結果として含むページ）に繋がると感染する。感染を引き起こすキーワードの組み合わせは個人ごとに異なり、主にその人が普段よく検索するテーマに関連している。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 검색 기록에 동일한 검색어가 수십 회 반복 기록됨 (본인은 인지 못함)
 - 브라우저 탭이 같은 페이지로 여러 개 열려 있음
@@ -62,7 +83,14 @@ Infection occurs when searching a combination of three or more specific keywords
 - ブックマークに同じURLが重複保存されている
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 같은 말을 무의식적으로 반복하게 됨
 - 방금 한 행동을 다시 하려고 함 (문 잠갔는지 확인하러 다시 가는 등)
@@ -79,7 +107,14 @@ Infection occurs when searching a combination of three or more specific keywords
 - 会話中に同じ話を繰り返すが、本人は初めて話していると認識している
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 같은 검색을 반복 수행 (웹)
 2. 검색 외 웹 활동에서도 반복 패턴 발생 (웹 확산)
@@ -99,7 +134,14 @@ Infection occurs when searching a combination of three or more specific keywords
 4. 繰り返しているという自覚自体が消失（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 검색 기록을 주기적으로 확인하여 비정상적 반복 패턴 감시
 - 감염이 의심되면 타인에게 자신의 행동 패턴 모니터링을 요청
@@ -119,7 +161,14 @@ Infection occurs when searching a combination of three or more specific keywords
 - 初期段階では24時間のインターネット遮断後に症状の緩和が報告されている
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 초, 한 포럼에서 "내가 왜 같은 걸 계속 검색하고 있지?"라는 글이 올라온 것을 계기로 발견됨. 해당 유저의 검색 기록을 분석한 결과, 72시간 동안 동일한 검색을 340회 이상 반복한 것으로 확인되었다.
 {: .ko}
@@ -130,7 +179,14 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 2025年初頭、あるフォーラムに「なぜ同じものを検索し続けているのか？」という投稿が上がったことをきっかけに発見された。そのユーザーの検索履歴を分析した結果、72時間で同一の検索を340回以上繰り返していたことが確認された。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [데드스크롤 (DeadScroll)](deadscroll.md): 같은 인지형 바이러스. 에코루프가 검색 반복이라면, 데드스크롤은 스크롤 반복에서 비롯된다.
 - [신택스레이스 (SyntaxWraith)](syntaxwraith.md): 반복적 사고 패턴이라는 점에서 유사하나, 신택스레이스는 사고의 *구조*를 변형시킨다.
@@ -147,7 +203,14 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 - [ヌルウィスパー（NullWhisper）](nullwhisper.md)：エコループ感染者がメッセンジャーを使用するとヌルウィスパーへの感受性が高まるとの報告がある。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 감염자가 작성한 글도 반복적 구조를 띠는 경향이 있어, 텍스트 분석으로 감염 여부를 추정할 수 있다는 연구가 있음
 {: .ko}

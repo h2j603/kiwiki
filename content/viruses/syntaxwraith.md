@@ -23,7 +23,14 @@ tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access"
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 방치된 코드 저장소나 오래된 개발 문서에 직접 접근하면 감염되는 [로직형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 사고 과정이 프로그래밍 언어의 구문(syntax)처럼 구조화되기 시작하며, 자연어적 사고가 점차 불가능해진다.
 {: .ko}
@@ -34,7 +41,14 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by 
 放置されたコードリポジトリや古い開発ドキュメントに直接アクセスすると感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の思考過程がプログラミング言語の構文（syntax）のように構造化され始め、自然言語的な思考が徐々に不可能になる。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 3년 이상 업데이트되지 않은 코드 저장소에서 특정 패턴의 코드(미완성 함수, 닫히지 않은 괄호, 무한 재귀 구조 등)를 읽을 때 감염된다. 코드 자체에 바이러스가 기생하는 것이 아니라, 방치된 코드의 "불완전한 논리 구조"가 읽는 사람의 사고 체계에 침투하는 것으로 추정된다.
 {: .ko}
@@ -45,7 +59,14 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 3年以上更新されていないコードリポジトリで特定パターンのコード（未完成の関数、閉じられていない括弧、無限再帰構造など）を読んだ際に感染する。コード自体にウイルスが寄生しているのではなく、放置されたコードの「不完全な論理構造」が読み手の思考体系に侵入すると推定されている。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 코드가 아닌 일반 텍스트에서도 "구문 오류"가 보이기 시작함
 - 웹 검색 시 쿼리를 프로그래밍 언어 형식으로 입력하게 됨
@@ -62,7 +83,14 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 - メールやメッセージを書く際に条件文・繰り返し文の構造で文章を書く
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 일상 대화에서 자연어 대신 논리적 구문으로 말하기 시작 ("만약 날씨가 좋다면 { 외출; } else { 집에 있기; }")
 - 감정 표현이 변수나 상수처럼 정형화됨
@@ -82,7 +110,14 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 - 末期には思考そのものが特定のプログラミング言語に依存し、その言語で表現できない概念は思考不能になる
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 방치된 코드 저장소 열람 (웹)
 2. 모든 텍스트를 코드처럼 인식 (웹 확산)
@@ -102,7 +137,14 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 4. 自然言語的思考能力の喪失（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 오래 방치된 코드 저장소를 탐색할 때는 반드시 코드를 소리 내어 읽지 말 것 (묵독도 위험하나 음독이 감염률을 높임)
 - 감염 초기에는 시, 소설, 에세이 등 비구조적 텍스트를 집중적으로 읽으면 자연어 사고가 회복됨
@@ -122,7 +164,14 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 - 感染が進行した場合、プログラミングとは無関係な創造的活動（絵画、音楽など）が治療に有効
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2024년 겨울, 한 개발자 커뮤니티에서 "요즘 한국어가 안 돼요. 머릿속에서 모든 게 파이썬으로 변환됩니다"라는 글이 올라옴. 조사 결과 해당 개발자를 포함한 여러 명이 같은 방치된 GitHub 저장소를 열람한 것이 확인됨. 해당 저장소의 코드에는 의도적인 것으로 보이는 "불완전한 재귀 패턴"이 수백 개 포함되어 있었다.
 {: .ko}
@@ -133,7 +182,14 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 2024年冬、ある開発者コミュニティで「最近日本語が出てこない。頭の中ですべてがPythonに変換される」という投稿が上がった。調査の結果、その開発者を含む複数名が同じ放置されたGitHubリポジトリを閲覧していたことが確認された。そのリポジトリのコードには意図的と思われる「不完全な再帰パターン」が数百個含まれていた。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [널위스퍼 (NullWhisper)](nullwhisper.md): 같은 로직형 바이러스. 널위스퍼가 판단의 결과를 왜곡한다면, 신택스레이스는 사고의 과정 자체를 코드로 치환한다. 동시 감염 시, 코드화된 사고가 자기 파괴적 결론만을 출력하게 된다.
 - [에코루프 (EchoLoop)](echoloop.md): 신택스레이스 감염자는 사고가 무한 재귀에 빠지기 쉬워, 에코루프의 반복 증상과 공명하여 증상이 가속화될 수 있다.
@@ -153,7 +209,14 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 - [グリッチモス（GlitchMoss）](glitchmoss.md)：直接アクセスという伝播経路を共有。グリッチモスが放棄されたウェブページから、シンタックスレイスは放棄されたコードから発生する。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 흥미롭게도, 프로그래밍 경험이 없는 사람도 감염될 수 있으며, 이 경우 감염자가 실제로 존재하지 않는 프로그래밍 언어의 구문을 "발명"하는 현상이 관찰됨
 - 신택스레이스는 위험도가 "보통"으로 분류되지만, 이는 물리적 위험이 낮기 때문이며, 사회적·의사소통적 피해는 상당히 크다

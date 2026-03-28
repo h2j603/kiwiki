@@ -23,7 +23,14 @@ tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual
 | 위험도 | <span class="pill pill-severity-moderate">보통</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 이메일 첨부 이미지를 열면 감염되는 [감각형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자의 시야에 서서히 "화소 부패"가 번져, 현실 세계가 점점 저해상도로 보이기 시작한다.
 {: .ko}
@@ -34,7 +41,14 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted b
 メールの添付画像を開くと感染する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の視野に徐々に「画素腐敗」が広がり、現実世界が次第に低解像度に見え始める。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 "계정 확인 필요", "배송 사진 첨부" 등 일상적 제목의 이메일에 첨부된 .png 이미지를 열 때 감염된다. 이미지 자체는 평범한 사진처럼 보이나, 확대하면 특정 영역의 픽셀이 불규칙하게 배열되어 있다. 이 배열 패턴을 뇌가 처리하는 순간 감염이 시작된다.
 {: .ko}
@@ -45,7 +59,14 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 「アカウント確認のお願い」「配送写真添付」など日常的な件名のメールに添付された.png画像を開く際に感染する。画像自体は普通の写真に見えるが、拡大すると特定領域のピクセルが不規則に配列されている。この配列パターンを脳が処理した瞬間に感染が始まる。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 웹 브라우저에서 이미지가 점진적으로 모자이크 처리된 것처럼 보임
 - 텍스트의 안티앨리어싱이 사라져 글자가 거칠게 보임
@@ -62,7 +83,14 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 - 動画視聴時に解像度が自動で低下する感覚
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 시야 주변부에서 시작해 사물이 픽셀화되어 보임
 - 먼 거리의 사물이 먼저 영향받고, 점차 가까운 사물도 저해상도로 보임
@@ -82,7 +110,14 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 - 末期には人の顔がぼやけて見え、個人の識別が困難になる
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 이메일 이미지 열람 (웹)
 2. 모든 화면 콘텐츠의 해상도 저하 (웹 확산)
@@ -102,7 +137,14 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 4. 視野全体が低解像度に変換（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 출처 불명의 이메일 첨부 이미지를 열지 않을 것
 - 이미지를 열기 전 메타데이터를 확인하여 비정상적 픽셀 배열 패턴 검사
@@ -122,7 +164,14 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 - 画面の明るさとコントラストを最大にすると症状の進行が一時的に鈍化する
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 여름, 한 디자이너가 "모니터가 고장난 줄 알았는데 모니터를 바꿔도 똑같다"는 게시글을 올림. 이후 같은 증상을 호소하는 사람들이 모두 동일한 발신자로부터 이메일을 받았음이 확인됨. 해당 이메일의 발신 서버는 추적 결과 존재하지 않는 IP 대역이었다.
 {: .ko}
@@ -133,7 +182,14 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 2025年夏、あるデザイナーが「モニターが壊れたと思ったが、交換しても同じだ」という投稿を行った。その後、同じ症状を訴える人々が全員同一の送信者からメールを受信していたことが確認された。そのメールの送信サーバーは追跡の結果、存在しないIP帯域であった。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [미러링크 (MirrorLink)](mirrorlink.md): 같은 감각형 바이러스. 미러링크가 반사 이미지만을 왜곡한다면, 픽셀롯은 시야 전체를 침식한다. 두 바이러스에 동시 감염되면 시각 기능이 급격히 저하된다.
 - [글리치모스 (GlitchMoss)](glitchmoss.md): 글리치모스의 환경 부식이 픽셀롯 감염자에게는 더 일찍 인지된다—이미 시야가 픽셀화되어 있어 부식 패턴이 더 두드러져 보이기 때문.
@@ -150,7 +206,14 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 - [デッドスクロール（DeadScroll）](deadscroll.md)：ピクセルロット感染者がSNSを無限スクロールすると、低解像度の視野によりデッドスクロールの「時間の隙間」を認知できず、同時感染しやすくなる。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 픽셀롯은 감각형 바이러스 중 유일하게 감염 경로가 이메일인 종으로, 표적 감염이 가능하다는 점에서 다른 감각형과 구별됨
 - 감염자가 촬영한 사진에도 픽셀 열화가 나타난다는 보고가 있으나, 이것이 바이러스의 직접 효과인지 감염자의 인지 왜곡인지는 논쟁 중

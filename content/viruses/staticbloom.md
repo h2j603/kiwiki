@@ -22,7 +22,14 @@ tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", 
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 SNS의 라이브 스트리밍에서 비정상적으로 종료된 방송의 잔류 신호에 노출되면 감염되는 [환경형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자 주변 공간에 정전기 패턴의 "꽃"이 피어나며, 이 꽃은 전자기기를 교란하고 점차 물리적 실체를 갖게 된다.
 {: .ko}
@@ -33,7 +40,14 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contr
 SNSのライブストリーミングで異常終了した配信の残留信号に曝露されると感染する[環境型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の周囲の空間に静電気パターンの「花」が咲き、電子機器を妨害しながら徐々に物理的実体を持つようになる。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 라이브 스트리밍이 송출자의 의도 없이 비정상 종료된 경우, 종료 직후 0.5~2초간 "잔류 프레임"이 남는다. 이 잔류 프레임에는 화면 노이즈 속에 프랙탈 구조의 패턴이 포함되어 있으며, 해당 방송의 아카이브나 클립을 시청하면 감염된다.
 {: .ko}
@@ -44,7 +58,14 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 ライブストリーミングが配信者の意図なく異常終了した場合、終了直後の0.5〜2秒間「残留フレーム」が残る。この残留フレームには画面ノイズの中にフラクタル構造のパターンが含まれており、その配信のアーカイブやクリップを視聴すると感染する。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 동영상 재생 시 화면 노이즈에서 꽃 모양의 패턴이 보임
 - 화면이 간헐적으로 정전기를 일으키는 것처럼 깜빡임
@@ -61,7 +82,14 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 - ストリーミング視聴中に部屋が静電気で充満する感覚
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 감염자가 머무는 공간의 모서리, 천장 구석 등에 정전기 노이즈 패턴의 희미한 "꽃봉오리"가 출현
 - 꽃 주변에서 전자기기가 오작동 (Wi-Fi 끊김, 충전 불가 등)
@@ -81,7 +109,14 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 - 末期には花が物理的な物体を押しのける力を持ち、部屋全体を占拠する
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 스트리밍 잔류 프레임에서 패턴 노출 (웹)
 2. 사용 중인 기기에서 정전기 이상 현상 (기기 침투)
@@ -101,7 +136,14 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 4. 花が物理的実体を持ち空間を占拠（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 비정상 종료된 라이브 방송의 아카이브·클립 시청 자제
 - 감염 초기에 공간의 습도를 80% 이상으로 올리면 정전기 꽃의 성장이 억제됨
@@ -121,7 +163,14 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 - [グリッチモス](glitchmoss.md)感染空間と異なり、早期対応で完全回復が可能
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 봄, 한 게이머가 "방 구석에서 TV 노이즈 같은 게 피어나고 있다"는 사진을 SNS에 올림. 해당 게이머는 직전에 비정상 종료된 유명 스트리머의 방송 클립을 시청한 것으로 확인됨. 이후 같은 클립을 본 시청자 수십 명의 거주 공간에서 유사한 현상이 보고됨.
 {: .ko}
@@ -132,7 +181,14 @@ Discovered in spring 2025 when a gamer posted a photo on social media with the c
 2025年春、あるゲーマーが「部屋の隅でテレビのノイズみたいなものが咲いている」という写真をSNSに投稿。そのゲーマーは直前に有名ストリーマーの異常終了した配信のクリップを視聴していたことが確認された。その後、同じクリップを見た視聴者数十名の居住空間で類似の現象が報告された。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [글리치모스 (GlitchMoss)](glitchmoss.md): 같은 환경형이나, 글리치모스가 부식이라면 스태틱블룸은 성장. 글리치모스 공간에 스태틱블룸이 유입되면 꽃이 부식된 표면을 양분으로 삼아 폭발적으로 증식.
 - [미러링크 (MirrorLink)](mirrorlink.md): SNS 전파 경로 공유. 스태틱블룸의 꽃이 반사면에 핀 경우, 미러링크 감염자에게만 꽃이 "움직이는" 것으로 보임.
@@ -149,7 +205,14 @@ Discovered in spring 2025 when a gamer posted a photo on social media with the c
 - [キャッシュベイン（CacheVein）](cachevein.md)：スタティックブルームの静電気場とキャッシュベインの静脈が出会うと静脈に電流が流れ、発光現象が最大化される。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 스태틱블룸은 유일하게 "아름답다"는 평가를 받는 웹키위바이러스. 일부 감염자가 의도적으로 꽃을 기르려 시도하다 말기에 이른 사례가 있음
 {: .ko}

@@ -1,7 +1,8 @@
 // ============================================
-// Kiwiki — Brutalist Wiki (ref: h2j603/hyuk)
+// Kiwiki — h2j603/hyuk 디자인 포팅
 // ============================================
 
+// ---- Fonts (hyuk 동일) ----
 @font-face {
   font-family: "HakgyoansimBareondotumB";
   src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HakgyoansimBareondotumB.woff2") format("woff2");
@@ -9,78 +10,70 @@
   font-display: swap;
 }
 
-$bg:        #ffffff;
-$bg-alt:    #f5f5f5;
-$text:      #111111;
-$text-2:    #555555;
-$text-3:    #999999;
-$border:    #111111;
-$border-lt: #dddddd;
-$neon:      #39ff14;
-$neon-dim:  #2bd610;
-$neon-bg:   rgba(57, 255, 20, 0.06);
-$link:      #111111;
-$mono:      "SF Mono", "JetBrains Mono", "Fira Code", monospace;
-
 // ---- Kill shadows ----
 * { box-shadow: none !important; text-shadow: none !important; }
 
-// ---- Base ----
+// ---- Base (hyuk: orangered text, neue-haas-unica) ----
 body {
-  background: $bg !important;
-  color: $text;
+  background: #ffffff !important;
+  color: orangered;
   font-size: 15px;
-  font-family: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, "Noto Sans KR", sans-serif;
+  font-family: "neue-haas-unica", "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
 // ---- Content ----
 .main-content {
-  max-width: 860px;
-  font-size: 14.5px;
-  line-height: 1.8;
-  color: $text;
+  max-width: 100%;
+  font-size: 15px;
+  line-height: 1.7;
+  color: orangered;
 
+  // h2: t26-carbon mono italic (hyuk 동일)
   h1 {
-    font-family: $mono;
+    font-family: "t26-carbon", monospace;
+    font-weight: 100;
+    font-style: italic;
     font-size: 1.4em;
-    font-weight: 700;
-    letter-spacing: -0.03em;
-    border-bottom: 2px solid $text;
-    padding-bottom: 8px;
+    text-align: center;
+    color: orangered;
+    border-bottom: none;
     margin: 0 0 20px;
+    padding: 0;
   }
 
   h2 {
-    font-family: $mono;
-    font-size: 1.05em;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    border-bottom: 1px solid $border-lt;
-    padding-bottom: 4px;
-    margin: 2em 0 0.5em;
-    color: $text;
+    font-family: "t26-carbon", monospace;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.1em;
+    color: orangered;
+    border-bottom: none;
+    margin: 1.5em 0 0.5em;
+    padding: 0;
   }
 
   h3 {
-    font-size: 0.95em;
-    font-weight: 700;
-    margin: 1.5em 0 0.4em;
-    color: $text;
+    font-family: "t26-carbon", monospace;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1em;
+    color: orangered;
+    margin: 1.2em 0 0.4em;
   }
 
-  p { margin: 0 0 0.8em; }
+  p {
+    margin: 0 0 0.8em;
+    padding-top: 0;
+  }
 
-  // Links — italic, underline (hyuk style)
+  // Links (hyuk: underline, italic)
   a {
-    color: $link;
+    color: orangered;
     text-decoration: underline;
     font-style: italic;
-    transition: color 0.1s;
-    &:hover {
-      color: $neon-dim;
-      text-decoration: underline;
-    }
+    &:hover { color: lawngreen; }
   }
 
   ul, ol {
@@ -90,98 +83,102 @@ body {
   }
 }
 
-// ---- Sidebar ----
+// ---- Sidebar (hyuk: white bg, orangered border) ----
 .side-bar {
-  background: $bg !important;
-  border-right: 1px solid $border;
+  background: #ffffff !important;
+  border-right: 1px solid orangered;
 }
 
 .site-title {
-  font-family: $mono !important;
-  font-weight: 700 !important;
-  font-size: 1em !important;
-  letter-spacing: -0.03em;
+  font-family: "t26-carbon", monospace !important;
+  font-weight: 100 !important;
+  font-style: italic;
+  font-size: 1.1em !important;
+  color: orangered !important;
 }
 
 .nav-list .nav-list-item .nav-list-link {
-  color: $text-2;
+  color: orangered;
   font-size: 13px;
   font-weight: 400;
   padding: 4px 12px;
   border-radius: 0;
-
-  a { font-style: normal; text-decoration: none; }
+  text-decoration: none;
+  font-style: normal;
 
   &:hover {
-    background: $neon-bg;
-    color: $text;
+    background: linear-gradient(90deg, lawngreen, #ffffff);
+    color: orangered;
   }
 
   &.active {
-    font-weight: 700;
-    color: $text;
-    background: transparent;
-    border-left: 3px solid $neon;
+    font-weight: 400;
     font-style: italic;
+    color: orangered;
+    background: transparent;
+    border-left: 2px solid orangered;
+    text-decoration: underline;
   }
 }
 
-// ---- Tables (hyuk style: 1px border, hover gradient) ----
+// ---- Tables (hyuk 동일: 1px solid orangered, collapse, hover gradient) ----
 .main-content table {
-  border-collapse: collapse;
-  border: 1px solid $border;
   width: 100%;
-  margin: 1em 0;
-  font-size: 13px;
+  border-collapse: collapse;
+  border: 1px solid orangered;
+  margin: 20px 0 50px;
   text-align: left;
+  font-size: 14px;
 
   th, td {
-    border: 1px solid $border;
-    padding: 8px 12px;
+    border: 1px solid orangered;
+    padding: 10px;
   }
 
   th {
-    background: $bg-alt;
     font-weight: 700;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: $text-2;
+    font-size: 13px;
+    color: orangered;
+    background: transparent;
+    text-transform: none;
+    letter-spacing: 0;
   }
 
-  td { vertical-align: top; }
+  td {
+    vertical-align: top;
+    color: orangered;
+  }
 
+  // Hover gradient (hyuk 동일: lawngreen → white)
   tr:hover td {
-    background: linear-gradient(90deg, $neon-bg, $bg);
+    background: linear-gradient(90deg, lawngreen, #ffffff);
   }
 
-  // Links in table — no italic
+  // Table links: no italic, no underline (hyuk 동일)
   a {
-    font-style: normal;
     text-decoration: none;
-    border-bottom: 1px solid $border-lt;
-    &:hover { color: $neon-dim; border-bottom-color: $neon; }
+    font-style: normal;
+    color: orangered;
+    &:hover { color: lawngreen; text-decoration: underline; }
   }
 }
 
-// ---- Infobox ----
+// ---- Infobox (first table) ----
 .main-content > table:first-of-type {
   float: right;
-  width: 240px;
-  margin: 0 0 1.5em 2em;
-  border: 2px solid $text;
-  font-size: 12px;
+  width: 260px;
+  margin: 0 0 20px 20px;
+  border: 1px solid orangered;
 
   th {
-    background: $text;
-    color: $bg;
-    font-size: 11px;
+    background: orangered;
+    color: #ffffff;
     text-align: center;
+    font-size: 12px;
   }
 
   td:first-child {
     font-weight: 700;
-    background: $bg-alt;
     width: 30%;
     white-space: nowrap;
   }
@@ -189,7 +186,7 @@ body {
   @media (max-width: 600px) {
     float: none;
     width: 100%;
-    margin: 0 0 1em;
+    margin: 0 0 20px;
   }
 }
 
@@ -201,93 +198,96 @@ body {
   font-size: 11px;
   font-weight: 600;
   line-height: 1.6;
-  border: 1px solid $border-lt;
+  border: 1px solid orangered;
   white-space: nowrap;
+  color: orangered;
+  background: transparent;
 }
 
 .pill-code {
-  background: $text;
-  color: $neon;
-  border-color: $text;
-  font-family: $mono;
+  background: orangered;
+  color: #ffffff;
+  border-color: orangered;
+  font-family: "t26-carbon", monospace;
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 100;
   letter-spacing: 0.5px;
 }
 
-.pill-type { background: $bg-alt; color: $text-2; }
-.pill-vector { background: #f0fdf4; color: #16a34a; border-color: #bbf7d0; }
-.pill-active { background: $neon-bg; color: $neon-dim; border-color: rgba($neon, 0.3); }
+.pill-type { background: transparent; color: orangered; border-color: orangered; }
+.pill-vector { background: transparent; color: orangered; border-color: orangered; }
+.pill-active { background: lawngreen; color: #111111; border-color: lawngreen; }
 
-.pill-severity-moderate { background: #fefce8; color: #a16207; border-color: #fde68a; }
-.pill-severity-high { background: #fff7ed; color: #c2410c; border-color: #fed7aa; }
-.pill-severity-critical { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
+.pill-severity-moderate { background: transparent; color: orangered; border-color: orangered; }
+.pill-severity-high { background: orangered; color: #ffffff; border-color: orangered; }
+.pill-severity-critical { background: #111111; color: lawngreen; border-color: #111111; }
 
-// ---- Language toggle ----
+// ---- Language toggle (hyuk style) ----
 .lang-toggle {
   display: inline-flex;
-  border: 1px solid $border;
-  margin-bottom: 1.5em;
-  font-family: $mono;
+  border: 1px solid orangered;
+  margin-bottom: 20px;
 }
 
 .lang-btn {
-  padding: 3px 12px;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "t26-carbon", monospace;
+  font-style: italic;
   border: none;
-  background: $bg;
-  color: $text-3;
+  background: #ffffff;
+  color: orangered;
   cursor: pointer;
 
-  &:not(:last-child) { border-right: 1px solid $border; }
-  &:hover { color: $text; background: $bg-alt; }
-  &.active { background: $text; color: $neon; }
+  &:not(:last-child) { border-right: 1px solid orangered; }
+  &:hover { background: linear-gradient(90deg, lawngreen, #ffffff); }
+  &.active { background: orangered; color: #ffffff; font-style: italic; }
 }
 
 // ---- Language hide (EN default) ----
 .ko { display: none; }
 .ja { display: none; }
 
-// ---- Blockquote ----
-.main-content blockquote {
-  border-left: 3px solid $neon;
-  padding: 0.4em 1em;
-  color: $text-2;
-  background: $bg-alt;
-  margin: 1em 0;
-  font-size: 13.5px;
-}
-
-// ---- HR (hyuk style) ----
+// ---- HR (hyuk 동일) ----
 .main-content hr {
   height: 1px;
-  background: $border;
+  background: orangered;
   border: none;
   margin: 1.5em 0;
 }
 
+// ---- Blockquote ----
+.main-content blockquote {
+  border-left: 3px solid orangered;
+  padding: 0.4em 1em;
+  color: orangered;
+  background: transparent;
+  margin: 1em 0;
+  font-style: italic;
+}
+
 // ---- Search ----
 .search-input {
-  border: 1px solid $border;
+  border: 1px solid orangered;
   border-radius: 0;
-  font-size: 13px;
-  font-family: $mono;
-  &:focus { border-color: $neon; outline: none; }
+  font-size: 14px;
+  color: orangered;
+  background: #ffffff;
+  &::placeholder { color: rgba(255, 69, 0, 0.4); }
+  &:focus { border-color: lawngreen; outline: none; }
 }
 
 // ---- Footer ----
 .site-footer {
-  font-size: 11px;
-  color: $text-3;
-  font-family: $mono;
-  border-top: 1px solid $border;
+  font-size: 12px;
+  color: orangered;
+  border-top: 1px solid orangered;
 }
 
 // ---- Anchor ----
 .main-content .anchor-heading {
-  color: $neon;
+  color: lawngreen;
   opacity: 0;
   transition: opacity 0.1s;
 }
@@ -295,22 +295,37 @@ body {
 
 // ---- Code ----
 .main-content code {
-  font-family: $mono;
-  background: $bg-alt;
-  border: 1px solid $border-lt;
+  font-family: "t26-carbon", monospace;
+  background: transparent;
+  border: 1px solid orangered;
   padding: 1px 4px;
-  font-size: 0.85em;
+  font-size: 0.9em;
+  color: orangered;
 }
 
 // ---- Float clear ----
 .main-content h2 { clear: both; }
 
-// ---- Selection ----
-::selection { background: rgba($neon, 0.25); color: $text; }
+// ---- Selection (lawngreen) ----
+::selection { background: lawngreen; color: orangered; }
 
-// ---- Embedded iframe (hyuk style) ----
-.embedded-iframe {
-  width: 100%;
-  height: 400px;
-  border: 1px solid $border;
+// ---- Scrollbar hide (hyuk 동일) ----
+.side-bar,
+.main-content-wrap {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+// ---- Breadcrumbs ----
+.breadcrumb-nav {
+  font-size: 12px;
+  color: orangered;
+  a { color: orangered; }
+}
+
+// ---- Back to top ----
+.back-to-top {
+  color: orangered;
+  &:hover { color: lawngreen; }
 }

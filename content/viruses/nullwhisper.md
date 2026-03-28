@@ -23,7 +23,14 @@ tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger",
 | 위험도 | <span class="pill pill-severity-high">높음</span> |
 | 상태 | <span class="pill pill-active">활성</span> |
 
-## 개요 / Overview
+## 개요
+{: .ko}
+
+## Overview
+{: .en}
+
+## 概要
+{: .ja}
 
 메신저 앱에서 빈 메시지(내용이 없는 메시지)를 수신하면 감염되는 [로직형](../taxonomy/index.md#유형별-분류) 바이러스. 감염자는 결정을 내려야 할 순간마다 "속삭임"을 듣게 되며, 그 속삭임이 제시하는 선택지는 항상 논리적으로 보이지만 실제로는 자기 파괴적인 방향으로 유도한다.
 {: .ko}
@@ -34,7 +41,14 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by 
 メッセンジャーアプリで空のメッセージ（内容のないメッセージ）を受信すると感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は決断を下すたびに「囁き」を耳にし、その囁きが提示する選択肢は常に論理的に見えるが、実際には自己破壊的な方向へと誘導する。
 {: .ja}
 
-## 감염 방식 / Infection Method
+## 감염 방식
+{: .ko}
+
+## Infection Method
+{: .en}
+
+## 感染方式
+{: .ja}
 
 감염자가 존재하는 채팅방에서 아무 내용 없는 빈 메시지가 전송되면, 해당 메시지를 읽은(혹은 읽음 표시가 뜬) 사용자에게 전파된다. 빈 메시지는 발신자 기록이 남지 않으며, 채팅 기록에서도 일정 시간이 지나면 사라진다.
 {: .ko}
@@ -45,7 +59,14 @@ Transmitted when an empty message with no content is sent in a chat room where a
 感染者がいるチャットルームで内容のない空メッセージが送信されると、そのメッセージを読んだ（既読がついた）ユーザーに伝播する。空メッセージには送信者の記録が残らず、チャット履歴からも一定時間が経つと消失する。
 {: .ja}
 
-## 웹 상 증상 / Web Symptoms
+## 웹 상 증상
+{: .ko}
+
+## Web Symptoms
+{: .en}
+
+## ウェブ上の症状
+{: .ja}
 
 - 메신저 앱에서 읽지 않은 메시지 알림이 뜨지만 열면 아무것도 없음
 - 자동완성 추천어가 의미 없는 문장을 제안하기 시작
@@ -62,7 +83,14 @@ Transmitted when an empty message with no content is sent in a chat room where a
 - 会話中に相手のメッセージの一部が空白に見える
 {: .ja}
 
-## 발현 양상 / Manifestation
+## 발현 양상
+{: .ko}
+
+## Manifestation
+{: .en}
+
+## 発現様相
+{: .ja}
 
 - 결정의 순간마다 "합리적인 속삭임"이 들리며, 그 조언을 따르면 결과가 좋지 않음
 - 감염자 본인은 자신의 판단이 완벽히 논리적이라고 확신함
@@ -82,7 +110,14 @@ Transmitted when an empty message with no content is sent in a chat room where a
 - 末期には囁きがなくても自己破壊的な判断を自然に下すようになる
 {: .ja}
 
-## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계
+{: .ko}
+
+## Boundary Collapse Stages
+{: .en}
+
+## 境界崩壊段階
+{: .ja}
 
 1. 메신저에서 빈 메시지 수신 (웹)
 2. 앱 내 자동완성·추천이 왜곡됨 (웹 확산)
@@ -102,7 +137,14 @@ Transmitted when an empty message with no content is sent in a chat room where a
 4. 囁きが感染者自身の内的思考と区別不能に（現実定着）
 {: .ja}
 
-## 대응 방법 / Countermeasures
+## 대응 방법
+{: .ko}
+
+## Countermeasures
+{: .en}
+
+## 対処法
+{: .ja}
 
 - 빈 메시지를 수신하면 읽지 말고 즉시 삭제할 것
 - 감염 의심 시, 중요한 결정을 48시간 유예하고 타인의 의견을 반드시 구할 것
@@ -122,7 +164,14 @@ Transmitted when an empty message with no content is sent in a chat room where a
 - メッセンジャーの既読確認機能を無効にすれば感染確率が低下する
 {: .ja}
 
-## 발견 기록 / Discovery Log
+## 발견 기록
+{: .ko}
+
+## Discovery Log
+{: .en}
+
+## 発見記録
+{: .ja}
 
 2025년 봄, 한 스타트업 팀에서 CTO가 연이은 "합리적" 결정으로 회사를 파산 직전까지 몰고 간 사건이 발단. 조사 결과 해당 팀의 업무용 메신저에서 출처 불명의 빈 메시지가 수주간 발견되었으며, CTO를 포함한 팀원 전원이 감염 상태였음이 밝혀졌다.
 {: .ko}
@@ -133,7 +182,14 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 2025年春、あるスタートアップのCTOが相次ぐ「合理的」判断で会社を倒産寸前まで追い込んだ事件が発端。調査の結果、そのチームの業務用メッセンジャーに出所不明の空メッセージが数週間にわたって確認され、CTOを含むチーム全員が感染状態であったことが判明した。
 {: .ja}
 
-## 관련 바이러스 / Related Viruses
+## 관련 바이러스
+{: .ko}
+
+## Related Viruses
+{: .en}
+
+## 関連ウイルス
+{: .ja}
 
 - [신택스레이스 (SyntaxWraith)](syntaxwraith.md): 같은 로직형 바이러스. 널위스퍼가 판단의 *결과*를 왜곡한다면, 신택스레이스는 사고의 *과정*을 변형한다.
 - [에코루프 (EchoLoop)](echoloop.md): 에코루프 감염자가 메신저를 사용할 경우 널위스퍼에 대한 감수성이 높아진다. 반복적 사고와 왜곡된 판단이 결합되면 증상이 가속화된다.
@@ -150,7 +206,14 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 - [キャッシュベイン（CacheVein）](cachevein.md)：メッセンジャーという伝播経路を共有。ヌルウィスパーの空メッセージの痕跡がキャッシュベインの物理的[発現](../glossary/index.md#발현--manifestation)を促進するという仮説がある。
 {: .ja}
 
-## 참고 / Notes
+## 참고
+{: .ko}
+
+## Notes
+{: .en}
+
+## 備考
+{: .ja}
 
 - 감염자가 보낸 메시지에도 미세한 논리적 오류가 포함되어 있어, 수신자의 판단력에 약한 영향을 미칠 수 있음 (간접 전파 가능성)
 - 현재까지 발견된 로직형 바이러스 중 가장 높은 사회적 피해를 기록
