@@ -122,7 +122,7 @@ body.lang-ja {
   tr:nth-child(even) td { background: transparent !important; }
 
   tr:hover {
-    background: rgba(0,0,0,0.08) !important;
+    background: transparent !important; outline: 1px solid #111;
   }
 
   a {
@@ -223,7 +223,7 @@ body.lang-ja {
   color: #111;
   cursor: pointer;
   &:not(:last-child) { border-right: 1px solid #111; }
-  &:hover { background: rgba(0,0,0,0.15); text-decoration: none; }
+  &:hover { background: transparent; text-decoration: none; }
   &.active { background: #111; color: lawngreen; }
 }
 
