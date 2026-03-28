@@ -1,5 +1,7 @@
 ---
 title: "신택스레이스 / SyntaxWraith"
+parent: "바이러스 / Viruses"
+nav_order: 2
 aliases: ["SyntaxWraith", "구문유령", "Syntax Wraith"]
 classification:
   type: "로직형 / Logic"
@@ -72,10 +74,10 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 
 ## 관련 바이러스 / Related Viruses
 
-- [[nullwhisper|널위스퍼 (NullWhisper)]]: 같은 로직형 바이러스. 널위스퍼가 판단의 결과를 왜곡한다면, 신택스레이스는 사고의 과정 자체를 코드로 치환한다. 동시 감염 시, 코드화된 사고가 자기 파괴적 결론만을 출력하게 된다. / A fellow Logic-type virus. While NullWhisper distorts judgment outcomes, SyntaxWraith replaces the thinking process itself with code. Co-infection causes coded thoughts to output only self-destructive conclusions.
-- [[echoloop|에코루프 (EchoLoop)]]: 신택스레이스 감염자는 사고가 무한 재귀에 빠지기 쉬워, 에코루프의 반복 증상과 공명하여 증상이 가속화될 수 있다. / SyntaxWraith-infected individuals are prone to infinite recursion in thought, which can resonate with EchoLoop's repetition symptoms and accelerate both.
-- [[cachevein|캐시베인 (CacheVein)]]: 캐시베인이 만들어내는 정맥 패턴과 신택스레이스 감염자가 "보는" 구문 구조가 형태적으로 일치한다는 연구 결과가 있다. / Research shows morphological matches between CacheVein's vein patterns and the syntax structures "seen" by SyntaxWraith-infected individuals.
-- [[glitchmoss|글리치모스 (GlitchMoss)]]: 직접접근이라는 전파 경로를 공유. 글리치모스가 버려진 웹페이지에서, 신택스레이스는 버려진 코드에서 온다. / Shares the Direct Access transmission vector. GlitchMoss comes from abandoned web pages; SyntaxWraith comes from abandoned code.
+- [널위스퍼 (NullWhisper)](nullwhisper.md): 같은 로직형 바이러스. 널위스퍼가 판단의 결과를 왜곡한다면, 신택스레이스는 사고의 과정 자체를 코드로 치환한다. 동시 감염 시, 코드화된 사고가 자기 파괴적 결론만을 출력하게 된다. / A fellow Logic-type virus. While NullWhisper distorts judgment outcomes, SyntaxWraith replaces the thinking process itself with code. Co-infection causes coded thoughts to output only self-destructive conclusions.
+- [에코루프 (EchoLoop)](echoloop.md): 신택스레이스 감염자는 사고가 무한 재귀에 빠지기 쉬워, 에코루프의 반복 증상과 공명하여 증상이 가속화될 수 있다. / SyntaxWraith-infected individuals are prone to infinite recursion in thought, which can resonate with EchoLoop's repetition symptoms and accelerate both.
+- [캐시베인 (CacheVein)](cachevein.md): 캐시베인이 만들어내는 정맥 패턴과 신택스레이스 감염자가 "보는" 구문 구조가 형태적으로 일치한다는 연구 결과가 있다. / Research shows morphological matches between CacheVein's vein patterns and the syntax structures "seen" by SyntaxWraith-infected individuals.
+- [글리치모스 (GlitchMoss)](glitchmoss.md): 직접접근이라는 전파 경로를 공유. 글리치모스가 버려진 웹페이지에서, 신택스레이스는 버려진 코드에서 온다. / Shares the Direct Access transmission vector. GlitchMoss comes from abandoned web pages; SyntaxWraith comes from abandoned code.
 
 ## 참고 / Notes
 

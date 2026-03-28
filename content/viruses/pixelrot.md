@@ -1,5 +1,7 @@
 ---
 title: "픽셀롯 / PixelRot"
+parent: "바이러스 / Viruses"
+nav_order: 4
 aliases: ["PixelRot", "화소부패", "Pixel Rot"]
 classification:
   type: "감각형 / Sensory"
@@ -72,9 +74,9 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 
 ## 관련 바이러스 / Related Viruses
 
-- [[mirrorlink|미러링크 (MirrorLink)]]: 같은 감각형 바이러스. 미러링크가 반사 이미지만을 왜곡한다면, 픽셀롯은 시야 전체를 침식한다. 두 바이러스에 동시 감염되면 시각 기능이 급격히 저하된다. / A fellow Sensory-type virus. While MirrorLink distorts only reflections, PixelRot erodes the entire visual field. Co-infection drastically degrades visual function.
-- [[glitchmoss|글리치모스 (GlitchMoss)]]: 글리치모스의 환경 부식이 픽셀롯 감염자에게는 더 일찍 인지된다—이미 시야가 픽셀화되어 있어 부식 패턴이 더 두드러져 보이기 때문. / GlitchMoss environmental corrosion is perceived earlier by PixelRot-infected individuals—because their already-pixelated vision makes corrosion patterns more conspicuous.
-- [[deadscroll|데드스크롤 (DeadScroll)]]: 픽셀롯 감염자가 SNS를 무한 스크롤하면, 저해상도 시야로 인해 데드스크롤의 "시간 빈틈"을 인지하지 못해 더 쉽게 동시 감염된다. / PixelRot-infected individuals scrolling endlessly on social media fail to perceive DeadScroll's "time gaps" due to low-resolution vision, making co-infection easier.
+- [미러링크 (MirrorLink)](mirrorlink.md): 같은 감각형 바이러스. 미러링크가 반사 이미지만을 왜곡한다면, 픽셀롯은 시야 전체를 침식한다. 두 바이러스에 동시 감염되면 시각 기능이 급격히 저하된다. / A fellow Sensory-type virus. While MirrorLink distorts only reflections, PixelRot erodes the entire visual field. Co-infection drastically degrades visual function.
+- [글리치모스 (GlitchMoss)](glitchmoss.md): 글리치모스의 환경 부식이 픽셀롯 감염자에게는 더 일찍 인지된다—이미 시야가 픽셀화되어 있어 부식 패턴이 더 두드러져 보이기 때문. / GlitchMoss environmental corrosion is perceived earlier by PixelRot-infected individuals—because their already-pixelated vision makes corrosion patterns more conspicuous.
+- [데드스크롤 (DeadScroll)](deadscroll.md): 픽셀롯 감염자가 SNS를 무한 스크롤하면, 저해상도 시야로 인해 데드스크롤의 "시간 빈틈"을 인지하지 못해 더 쉽게 동시 감염된다. / PixelRot-infected individuals scrolling endlessly on social media fail to perceive DeadScroll's "time gaps" due to low-resolution vision, making co-infection easier.
 
 ## 참고 / Notes
 

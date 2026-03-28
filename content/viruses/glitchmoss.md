@@ -1,5 +1,7 @@
 ---
 title: "글리치모스 / GlitchMoss"
+parent: "바이러스 / Viruses"
+nav_order: 7
 aliases: ["GlitchMoss", "오류이끼", "Glitch Moss"]
 classification:
   type: "환경형 / Environmental"
@@ -75,9 +77,9 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 
 ## 관련 바이러스 / Related Viruses
 
-- [[cachevein|캐시베인 (CacheVein)]]: 같은 환경형 바이러스. 글리치모스가 공간을 부식시킨다면, 캐시베인은 공간에 데이터의 물리적 흔적을 새긴다. 두 바이러스가 동시에 존재하는 공간은 극도로 위험하다. / A fellow Environmental-type virus. While GlitchMoss corrodes spaces, CacheVein inscribes physical traces of data. Spaces where both viruses coexist are extremely dangerous.
-- [[syntaxwraith|신택스레이스 (SyntaxWraith)]]: 직접접근이라는 전파 경로를 공유. 글리치모스가 버려진 페이지에서 온다면, 신택스레이스는 방치된 코드 저장소에서 온다. / Shares the Direct Access transmission vector. While GlitchMoss comes from abandoned pages, SyntaxWraith originates from neglected code repositories.
-- [[mirrorlink|미러링크 (MirrorLink)]]: 미러링크 말기 환자 주변의 반사면에서 글리치모스와 유사한 부식이 관찰된 사례가 있다. / Corrosion similar to GlitchMoss has been observed on reflective surfaces near late-stage MirrorLink patients.
+- [캐시베인 (CacheVein)](cachevein.md): 같은 환경형 바이러스. 글리치모스가 공간을 부식시킨다면, 캐시베인은 공간에 데이터의 물리적 흔적을 새긴다. 두 바이러스가 동시에 존재하는 공간은 극도로 위험하다. / A fellow Environmental-type virus. While GlitchMoss corrodes spaces, CacheVein inscribes physical traces of data. Spaces where both viruses coexist are extremely dangerous.
+- [신택스레이스 (SyntaxWraith)](syntaxwraith.md): 직접접근이라는 전파 경로를 공유. 글리치모스가 버려진 페이지에서 온다면, 신택스레이스는 방치된 코드 저장소에서 온다. / Shares the Direct Access transmission vector. While GlitchMoss comes from abandoned pages, SyntaxWraith originates from neglected code repositories.
+- [미러링크 (MirrorLink)](mirrorlink.md): 미러링크 말기 환자 주변의 반사면에서 글리치모스와 유사한 부식이 관찰된 사례가 있다. / Corrosion similar to GlitchMoss has been observed on reflective surfaces near late-stage MirrorLink patients.
 
 ## 참고 / Notes
 

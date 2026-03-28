@@ -1,5 +1,7 @@
 ---
 title: "널위스퍼 / NullWhisper"
+parent: "바이러스 / Viruses"
+nav_order: 1
 aliases: ["NullWhisper", "공속삭임", "Null Whisper"]
 classification:
   type: "로직형 / Logic"
@@ -72,9 +74,9 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 
 ## 관련 바이러스 / Related Viruses
 
-- [[syntaxwraith|신택스레이스 (SyntaxWraith)]]: 같은 로직형 바이러스. 널위스퍼가 판단의 *결과*를 왜곡한다면, 신택스레이스는 사고의 *과정*을 변형한다. / A fellow Logic-type virus. While NullWhisper distorts the *outcomes* of judgment, SyntaxWraith alters the *process* of thinking.
-- [[echoloop|에코루프 (EchoLoop)]]: 에코루프 감염자가 메신저를 사용할 경우 널위스퍼에 대한 감수성이 높아진다. 반복적 사고와 왜곡된 판단이 결합되면 증상이 가속화된다. / EchoLoop-infected individuals show increased susceptibility to NullWhisper when using messengers. The combination of repetitive thinking and distorted judgment accelerates symptoms.
-- [[cachevein|캐시베인 (CacheVein)]]: 메신저를 통해 전파된다는 공통점. 널위스퍼의 빈 메시지 흔적이 캐시베인의 물리적 [발현](../glossary/index.md#발현--manifestation)을 촉진한다는 가설이 있다. / Shares the messenger transmission vector. There is a hypothesis that traces of NullWhisper's empty messages catalyze CacheVein's physical manifestation.
+- [신택스레이스 (SyntaxWraith)](syntaxwraith.md): 같은 로직형 바이러스. 널위스퍼가 판단의 *결과*를 왜곡한다면, 신택스레이스는 사고의 *과정*을 변형한다. / A fellow Logic-type virus. While NullWhisper distorts the *outcomes* of judgment, SyntaxWraith alters the *process* of thinking.
+- [에코루프 (EchoLoop)](echoloop.md): 에코루프 감염자가 메신저를 사용할 경우 널위스퍼에 대한 감수성이 높아진다. 반복적 사고와 왜곡된 판단이 결합되면 증상이 가속화된다. / EchoLoop-infected individuals show increased susceptibility to NullWhisper when using messengers. The combination of repetitive thinking and distorted judgment accelerates symptoms.
+- [캐시베인 (CacheVein)](cachevein.md): 메신저를 통해 전파된다는 공통점. 널위스퍼의 빈 메시지 흔적이 캐시베인의 물리적 [발현](../glossary/index.md#발현--manifestation)을 촉진한다는 가설이 있다. / Shares the messenger transmission vector. There is a hypothesis that traces of NullWhisper's empty messages catalyze CacheVein's physical manifestation.
 
 ## 참고 / Notes
 

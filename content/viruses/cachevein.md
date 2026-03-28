@@ -1,5 +1,7 @@
 ---
 title: "캐시베인 / CacheVein"
+parent: "바이러스 / Viruses"
+nav_order: 8
 aliases: ["CacheVein", "캐시정맥", "Cache Vein"]
 classification:
   type: "환경형 / Environmental"
@@ -73,9 +75,9 @@ Discovered in autumn 2025 when an apartment management office received a report 
 
 ## 관련 바이러스 / Related Viruses
 
-- [[glitchmoss|글리치모스 (GlitchMoss)]]: 같은 환경형 바이러스. 글리치모스가 공간을 "부식"시킨다면, 캐시베인은 공간을 "배선"한다. 두 바이러스가 같은 공간에 존재하면 건물 붕괴 위험이 급격히 상승한다. / A fellow Environmental-type virus. If GlitchMoss "corrodes" spaces, CacheVein "wires" them. Both viruses in the same space drastically increases building collapse risk.
-- [[nullwhisper|널위스퍼 (NullWhisper)]]: 메신저를 통해 전파된다는 공통점. 널위스퍼의 빈 메시지가 삭제되면서 캐시베인의 먹이가 된다는 가설이 있다. / Shares the messenger transmission vector. There is a hypothesis that NullWhisper's empty messages become fuel for CacheVein when deleted.
-- [[syntaxwraith|신택스레이스 (SyntaxWraith)]]: 캐시베인이 만들어내는 정맥 패턴이 프로그래밍 언어의 구문 구조와 유사하다는 분석이 있으며, 신택스레이스와의 연관성이 연구 중이다. / Analysis suggests CacheVein's vein patterns resemble programming language syntax structures, and its connection to SyntaxWraith is under investigation.
+- [글리치모스 (GlitchMoss)](glitchmoss.md): 같은 환경형 바이러스. 글리치모스가 공간을 "부식"시킨다면, 캐시베인은 공간을 "배선"한다. 두 바이러스가 같은 공간에 존재하면 건물 붕괴 위험이 급격히 상승한다. / A fellow Environmental-type virus. If GlitchMoss "corrodes" spaces, CacheVein "wires" them. Both viruses in the same space drastically increases building collapse risk.
+- [널위스퍼 (NullWhisper)](nullwhisper.md): 메신저를 통해 전파된다는 공통점. 널위스퍼의 빈 메시지가 삭제되면서 캐시베인의 먹이가 된다는 가설이 있다. / Shares the messenger transmission vector. There is a hypothesis that NullWhisper's empty messages become fuel for CacheVein when deleted.
+- [신택스레이스 (SyntaxWraith)](syntaxwraith.md): 캐시베인이 만들어내는 정맥 패턴이 프로그래밍 언어의 구문 구조와 유사하다는 분석이 있으며, 신택스레이스와의 연관성이 연구 중이다. / Analysis suggests CacheVein's vein patterns resemble programming language syntax structures, and its connection to SyntaxWraith is under investigation.
 
 ## 참고 / Notes
 

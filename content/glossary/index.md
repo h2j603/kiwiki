@@ -1,10 +1,12 @@
 ---
 title: "용어 사전 / Glossary"
+nav_order: 4
+permalink: /glossary/
 ---
 
 # 용어 사전 / Glossary
 
-[웹키위바이러스](../glossary/index.md#웹키위바이러스--web-kiwi-virus) 관련 주요 용어를 정리합니다. / Key terms related to [Web Kiwi Viruses](../glossary/index.md#웹키위바이러스--web-kiwi-virus).
+[웹키위바이러스](#웹키위바이러스--web-kiwi-virus) 관련 주요 용어를 정리합니다. / Key terms related to [Web Kiwi Viruses](#웹키위바이러스--web-kiwi-virus).
 
 ---
 
