@@ -50,7 +50,13 @@ tags: ["로직형", "SNS", "텍스트", "의사결정", "logic", "social media",
 
 </div>
 
-{% include toc.html %}
+<details class="toc-box" open>
+<summary><span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span></summary>
+<div class="toc-nav" markdown="1">
+* TOC
+{:toc}
+</div>
+</details>
 
 ---
 

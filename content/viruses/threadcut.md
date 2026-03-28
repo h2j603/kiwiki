@@ -54,7 +54,13 @@ tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger"
 
 </div>
 
-{% include toc.html %}
+<details class="toc-box" open>
+<summary><span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span></summary>
+<div class="toc-nav" markdown="1">
+* TOC
+{:toc}
+</div>
+</details>
 
 ---
 

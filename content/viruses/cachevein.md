@@ -55,7 +55,13 @@ tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental
 
 </div>
 
-{% include toc.html %}
+<details class="toc-box" open>
+<summary><span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span></summary>
+<div class="toc-nav" markdown="1">
+* TOC
+{:toc}
+</div>
+</details>
 
 ---
 

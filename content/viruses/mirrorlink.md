@@ -51,7 +51,13 @@ tags: ["감각형", "SNS", "시각", "거울", "sensory", "social media", "visua
 
 </div>
 
-{% include toc.html %}
+<details class="toc-box" open>
+<summary><span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span></summary>
+<div class="toc-nav" markdown="1">
+* TOC
+{:toc}
+</div>
+</details>
 
 ---
 

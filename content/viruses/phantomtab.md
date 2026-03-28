@@ -50,7 +50,13 @@ tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attenti
 
 </div>
 
-{% include toc.html %}
+<details class="toc-box" open>
+<summary><span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span></summary>
+<div class="toc-nav" markdown="1">
+* TOC
+{:toc}
+</div>
+</details>
 
 ---
 
