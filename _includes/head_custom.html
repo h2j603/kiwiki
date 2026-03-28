@@ -7,13 +7,19 @@
 })(document);
 </script>
 
+<!-- Set default language class on body ASAP to prevent flash -->
+<script>
+(function() {
+  var lang = localStorage.getItem('kiwiki-lang') || 'en';
+  document.documentElement.className += ' lang-' + lang;
+})();
+</script>
+
 <!-- Language toggle -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var ko = document.querySelectorAll('.ko');
-  var en = document.querySelectorAll('.en');
-  var ja = document.querySelectorAll('.ja');
-  if (ko.length === 0 && en.length === 0 && ja.length === 0) return;
+  var hasLang = document.querySelector('.ko, .en, .ja');
+  if (!hasLang) return;
 
   var t = document.createElement('div');
   t.className = 'lang-toggle';
@@ -26,19 +32,20 @@ document.addEventListener('DOMContentLoaded', function() {
   mc.insertBefore(t, mc.firstChild);
 
   var lang = localStorage.getItem('kiwiki-lang') || 'en';
-  set(lang);
+  setLang(lang);
 
   t.addEventListener('click', function(e) {
-    if (e.target.classList.contains('lang-btn')) set(e.target.dataset.lang);
+    if (e.target.classList.contains('lang-btn')) setLang(e.target.dataset.lang);
   });
 
-  function set(l) {
+  function setLang(l) {
     localStorage.setItem('kiwiki-lang', l);
-    [ko, en, ja].forEach(function(els) {
-      els.forEach(function(el) { el.style.display = 'none'; });
-    });
-    var show = l === 'ko' ? ko : l === 'ja' ? ja : en;
-    show.forEach(function(el) { el.style.display = ''; });
+    // Toggle body class
+    document.body.className = document.body.className.replace(/\blang-\w+\b/g, '');
+    document.body.classList.add('lang-' + l);
+    document.documentElement.className = document.documentElement.className.replace(/\blang-\w+\b/g, '');
+    document.documentElement.classList.add('lang-' + l);
+    // Update button state
     t.querySelectorAll('.lang-btn').forEach(function(b) {
       b.classList.toggle('active', b.dataset.lang === l);
     });
