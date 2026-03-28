@@ -8,6 +8,9 @@
   else { try { lang = localStorage.getItem('kiwiki-lang'); } catch(e){} }
   if (!lang) lang = 'en';
   document.documentElement.className += ' lang-' + lang;
+  // Set html lang attribute for proper glyph rendering (Han Unification)
+  var langMap = {en:'en',ko:'ko',ja:'ja'};
+  document.documentElement.setAttribute('lang', langMap[lang] || 'en');
   window._kLang = lang;
 })();
 
