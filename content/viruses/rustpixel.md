@@ -57,13 +57,11 @@ tags: ["환경형", "검색엔진", "부식", "금속", "environmental", "search
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ An Environmental-type virus contracted by repeatedly searching for images on sea
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +138,11 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +172,11 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +206,11 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +240,11 @@ Infection risk arises when viewing 50 or more images consecutively on image sear
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +265,11 @@ In autumn 2025, a photographer searching thousands of reference images discovere
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +296,11 @@ In autumn 2025, a photographer searching thousands of reference images discovere
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -334,3 +316,9 @@ In autumn 2025, a photographer searching thousands of reference images discovere
 - ラストピクセルによって腐食した金属を顕微鏡で観察すると、腐食パターンの最小単位が正確に1ピクセルサイズ（約0.26mm）に対応することが確認されている——デジタルと物理の正確な1：1対応。
 - 一部のアーティストがラストピクセルを意図的に利用して金属板に画像を「印刷」する試みをしたが、腐食が制御不能に拡散し、スタジオ全体の金属物体が破壊された事例が報告されている。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-09-09 by Unit_13 (Revised boundary collapse stages)<br>Previous: 2025-05-11 by Dr.NULL (Severity reassessment)</div>
+<div class="ko">최종 편집: 2025-09-09 by Unit_13 (경계 무너짐 단계 수정)<br>이전: 2025-05-11 by Dr.NULL (위험도 재평가)</div>
+<div class="ja">最終編集: 2025-09-09 by Unit_13<br>前回: 2025-05-11 by Dr.NULL</div>
+</div>

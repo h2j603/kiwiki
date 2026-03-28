@@ -57,13 +57,11 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A Logic-type virus contracted through the act of copying others' text in messeng
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -147,13 +141,11 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -183,13 +175,11 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -219,13 +209,11 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -255,13 +243,11 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -282,13 +268,11 @@ Discovered in autumn 2025 when all members of a university debate club were repo
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -315,13 +299,11 @@ Discovered in autumn 2025 when all members of a university debate club were repo
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -337,3 +319,9 @@ Discovered in autumn 2025 when all members of a university debate club were repo
 - クリップボード感染者が作成したテキストは「意味指紋」分析を通じて原文の出典を追跡でき、感染診断の客観的ツールとして活用される。
 - 皮肉なことに、クリップボード感染者は盗作検出ソフトウェアで高い類似度を記録するが、正確に一致する原文は発見されない。複数の出典の文章が微妙に再構成されているためである。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-07-01 by Researcher_7 (Discovery log expanded)<br>Previous: 2025-02-12 by Field_Op_22 (Updated countermeasures)</div>
+<div class="ko">최종 편집: 2025-07-01 by Researcher_7 (발견 기록 확장)<br>이전: 2025-02-12 by Field_Op_22 (대응 방법 업데이트)</div>
+<div class="ja">最終編集: 2025-07-01 by Researcher_7<br>前回: 2025-02-12 by Field_Op_22</div>
+</div>

@@ -57,13 +57,11 @@ tags: ["감각형", "직접접근", "색각", "시각", "sensory", "direct acces
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A Sensory-type virus contracted through accessing specific color palettes on aba
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection begins when directly accessing web design portfolio sites created in t
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -147,13 +141,11 @@ Infection begins when directly accessing web design portfolio sites created in t
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -183,13 +175,11 @@ Infection begins when directly accessing web design portfolio sites created in t
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -219,13 +209,11 @@ Infection begins when directly accessing web design portfolio sites created in t
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -255,13 +243,11 @@ Infection begins when directly accessing web design portfolio sites created in t
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -282,13 +268,11 @@ Discovered in winter 2024 when all work delivered by a graphic designer to clien
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -315,13 +299,11 @@ Discovered in winter 2024 when all work delivered by a graphic designer to clien
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -337,3 +319,9 @@ Discovered in winter 2024 when all work delivered by a graphic designer to clien
 - クロマドリフトは現在まで発見された感覚型ウイルスの中で最も古いもので、最初の感染事例は2024年冬だが、ウイルス自体は2000年代初頭から潜伏していたと推定される。
 - 一部のアーティストがクロマドリフトによる反転色覚状態で制作した作品が美術界で「反転美学」という新ジャンルとして評価されているが、研究者たちはこれをウイルスの文化的定着と見て警戒している。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-12-20 by Researcher_7 (Updated countermeasures)<br>Previous: 2025-10-18 by Dr.NULL (Revised boundary collapse stages)</div>
+<div class="ko">최종 편집: 2025-12-20 by Researcher_7 (대응 방법 업데이트)<br>이전: 2025-10-18 by Dr.NULL (경계 무너짐 단계 수정)</div>
+<div class="ja">最終編集: 2025-12-20 by Researcher_7<br>前回: 2025-10-18 by Dr.NULL</div>
+</div>

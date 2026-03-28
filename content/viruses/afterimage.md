@@ -57,13 +57,11 @@ tags: ["감각형", "검색엔진", "잔상", "시각", "sensory", "search engin
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A Sensory-type virus in which search engine image results leave permanent afteri
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection begins when using search engine image search functions. When a corrupt
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -147,13 +141,11 @@ Infection begins when using search engine image search functions. When a corrupt
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -183,13 +175,11 @@ Infection begins when using search engine image search functions. When a corrupt
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -219,13 +209,11 @@ Infection begins when using search engine image search functions. When a corrupt
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -255,13 +243,11 @@ Infection begins when using search engine image search functions. When a corrupt
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -282,13 +268,11 @@ Discovered in autumn 2025 when a photo editor visited an ophthalmologist complai
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -315,13 +299,11 @@ Discovered in autumn 2025 when a photo editor visited an ophthalmologist complai
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -337,3 +319,9 @@ Discovered in autumn 2025 when a photo editor visited an ophthalmologist complai
 - アフターイメージ感染者が蓄積した残像の数は一種の「視覚的記録」として、感染者の検索履歴を逆追跡するのに活用できる。一部の研究者はこれを「網膜考古学」と呼んでいる。
 - 先天的に残像認知が弱い人（人口の約2%）はアフターイメージに対する自然耐性を持つことが観察されており、彼らの視覚処理メカニズムが治療法開発の手がかりとなる可能性がある。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-07-20 by Dr.NULL (Revised boundary collapse stages)<br>Previous: 2025-03-23 by Dr.Kang (Severity reassessment)</div>
+<div class="ko">최종 편집: 2025-07-20 by Dr.NULL (경계 무너짐 단계 수정)<br>이전: 2025-03-23 by Dr.Kang (위험도 재평가)</div>
+<div class="ja">最終編集: 2025-07-20 by Dr.NULL<br>前回: 2025-03-23 by Dr.Kang</div>
+</div>

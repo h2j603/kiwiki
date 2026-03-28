@@ -58,13 +58,11 @@ tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access"
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -85,13 +83,11 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by 
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -112,13 +108,11 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -145,13 +139,11 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -181,13 +173,11 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -217,13 +207,11 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -253,13 +241,11 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -280,13 +266,11 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -316,13 +300,11 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -338,3 +320,9 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 - 興味深いことに、プログラミング経験のない人も感染する可能性があり、その場合、実在しないプログラミング言語の構文を「発明」する現象が観察されている
 - シンタックスレイスの危険度は「中程度」に分類されるが、これは物理的危険性が低いためであり、社会的・コミュニケーション上の被害はかなり大きい
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-09-19 by Unit_13 (Updated countermeasures)<br>Previous: 2025-07-25 by Archivist_M (New field observation added)</div>
+<div class="ko">최종 편집: 2025-09-19 by Unit_13 (대응 방법 업데이트)<br>이전: 2025-07-25 by Archivist_M (현장 관찰 기록 추가)</div>
+<div class="ja">最終編集: 2025-09-19 by Unit_13<br>前回: 2025-07-25 by Archivist_M</div>
+</div>

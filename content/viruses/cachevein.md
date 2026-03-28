@@ -16,6 +16,10 @@ tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental
 
 <a href="../index.md" class="home-link">Kiwiki</a>
 
+<div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>
+<div class="warning-banner ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</div>
+<div class="warning-banner ja">危険度: 致命的 — このウイルスは不可逆的変形を引き起こします</div>
+
 
 <div class="ko" markdown="1">
 
@@ -58,13 +62,11 @@ tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -85,13 +87,11 @@ An [Environmental-type](../taxonomy/index.md#classification-by-type) virus trans
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -112,13 +112,11 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -145,13 +143,11 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -181,13 +177,11 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -220,13 +214,11 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -256,13 +248,11 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -283,13 +273,11 @@ Discovered in autumn 2025 when an apartment management office received a report 
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -316,13 +304,11 @@ Discovered in autumn 2025 when an apartment management office received a report 
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -338,3 +324,19 @@ Discovered in autumn 2025 when an apartment management office received a report 
 - キャッシュベインは現在まで発見された環境型ウイルスの中で最も最近発見されたが、伝播速度は最も速い
 - 静脈を通じて流れるデータには感染者だけでなく周囲の人々の削除メッセージの内容も含まれており、プライバシー侵害の問題も提起されている
 {: .ja}
+
+
+- <span class="redacted">Data removed per Protocol 7 clearance requirement</span>
+{: .en}
+
+- <span class="redacted">보안 등급 B 이상에서만 열람 가능한 정보가 삭제되었습니다</span>
+{: .ko}
+
+- <span class="redacted">セキュリティレベルB以上でのみ閲覧可能な情報が削除されました</span>
+{: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-08-20 by Dr.Kang (Revised boundary collapse stages)<br>Previous: 2025-07-05 by Observer_X (Added co-infection data)</div>
+<div class="ko">최종 편집: 2025-08-20 by Dr.Kang (경계 무너짐 단계 수정)<br>이전: 2025-07-05 by Observer_X (동시 감염 데이터 추가)</div>
+<div class="ja">最終編集: 2025-08-20 by Dr.Kang<br>前回: 2025-07-05 by Observer_X</div>
+</div>

@@ -57,13 +57,11 @@ tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct 
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A Cognitive-type virus contracted by visiting expired pages of abandoned or defu
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Infection occurs by directly accessing sites whose domain registration has expir
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +138,11 @@ Infection occurs by directly accessing sites whose domain registration has expir
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +172,11 @@ Infection occurs by directly accessing sites whose domain registration has expir
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +206,11 @@ Infection occurs by directly accessing sites whose domain registration has expir
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +240,11 @@ Infection occurs by directly accessing sites whose domain registration has expir
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +265,11 @@ In summer 2025, an IT security researcher became infected while conducting a pro
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +296,11 @@ In summer 2025, an IT security researcher became infected while conducting a pro
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -334,3 +316,9 @@ In summer 2025, an IT security researcher became infected while conducting a pro
 - ネームイーター感染者はしばしば新しい即興的な命名体系を発明するが、この体系が他の感染者の間で共有されると一種の「名前なき者たちの言語」が形成されるという報告がある。
 - 興味深いことに、感染者は数字、色、感覚的形容詞は正常に記憶しており、固有名詞と一般名詞の「名前」機能のみが損傷される。
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-06-26 by Dr.NULL (Revised boundary collapse stages)<br>Previous: 2025-05-02 by Dr.Kang (Discovery log expanded)</div>
+<div class="ko">최종 편집: 2025-06-26 by Dr.NULL (경계 무너짐 단계 수정)<br>이전: 2025-05-02 by Dr.Kang (발견 기록 확장)</div>
+<div class="ja">最終編集: 2025-06-26 by Dr.NULL<br>前回: 2025-05-02 by Dr.Kang</div>
+</div>

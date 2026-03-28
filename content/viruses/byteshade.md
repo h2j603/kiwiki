@@ -57,13 +57,11 @@ tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgm
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +82,11 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus transmitted th
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +107,11 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +138,11 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +172,11 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +206,11 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -249,13 +237,11 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -276,13 +262,11 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -309,13 +293,11 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -328,3 +310,9 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 
 - バイトシェイドは標的攻撃に利用可能であり、現在発見されているロジック型の中で唯一「兵器化の可能性」が議論されている種である
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-12-05 by Dr.NULL (Severity reassessment)<br>Previous: 2025-06-26 by Unit_13 (New field observation added)</div>
+<div class="ko">최종 편집: 2025-12-05 by Dr.NULL (위험도 재평가)<br>이전: 2025-06-26 by Unit_13 (현장 관찰 기록 추가)</div>
+<div class="ja">最終編集: 2025-12-05 by Dr.NULL<br>前回: 2025-06-26 by Unit_13</div>
+</div>

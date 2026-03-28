@@ -15,6 +15,10 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 
 <a href="../index.md" class="home-link">Kiwiki</a>
 
+<div class="warning-banner en">SEVERITY: CRITICAL — This virus causes irreversible transformation</div>
+<div class="warning-banner ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</div>
+<div class="warning-banner ja">危険度: 致命的 — このウイルスは不可逆的変形を引き起こします</div>
+
 
 <div class="ko" markdown="1">
 
@@ -57,13 +61,11 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 {: .ko}
 
 
----
 
 ## Overview
 {: .en}
 
 
----
 
 ## 概要
 {: .ja}
@@ -84,13 +86,11 @@ A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted
 {: .ko}
 
 
----
 
 ## Infection Method
 {: .en}
 
 
----
 
 ## 感染方式
 {: .ja}
@@ -111,13 +111,11 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 {: .ko}
 
 
----
 
 ## Web Symptoms
 {: .en}
 
 
----
 
 ## ウェブ上の症状
 {: .ja}
@@ -144,13 +142,11 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 {: .ko}
 
 
----
 
 ## Manifestation
 {: .en}
 
 
----
 
 ## 発現様相
 {: .ja}
@@ -180,13 +176,11 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 {: .ko}
 
 
----
 
 ## Boundary Collapse Stages
 {: .en}
 
 
----
 
 ## 境界崩壊段階
 {: .ja}
@@ -216,13 +210,11 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 {: .ko}
 
 
----
 
 ## Countermeasures
 {: .en}
 
 
----
 
 ## 対処法
 {: .ja}
@@ -252,13 +244,11 @@ Infection occurs when scrolling to the bottom of a newsletter-format email whose
 {: .ko}
 
 
----
 
 ## Discovery Log
 {: .en}
 
 
----
 
 ## 発見記録
 {: .ja}
@@ -279,13 +269,11 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 {: .ko}
 
 
----
 
 ## Related Viruses
 {: .en}
 
 
----
 
 ## 関連ウイルス
 {: .ja}
@@ -312,13 +300,11 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 {: .ko}
 
 
----
 
 ## Notes
 {: .en}
 
 
----
 
 ## 備考
 {: .ja}
@@ -334,3 +320,9 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 - 「私を忘れないで（Forget Me Not）」という名前は、感染者が記憶を失いながらも繰り返す最後の言葉に由来する。この言葉すら忘れると末期と判定される
 - 記憶が削除された空白を脳がどのように「埋める」かについて研究が進行中であり、一部の感染者は他の感染者の記憶で空白を埋めるという未確認の報告がある
 {: .ja}
+
+<div class="edit-history">
+<div class="en">Last edit: 2025-11-28 by Unit_13 (New field observation added)<br>Previous: 2025-01-19 by Field_Op_22 (Revised boundary collapse stages)</div>
+<div class="ko">최종 편집: 2025-11-28 by Unit_13 (현장 관찰 기록 추가)<br>이전: 2025-01-19 by Field_Op_22 (경계 무너짐 단계 수정)</div>
+<div class="ja">最終編集: 2025-11-28 by Unit_13<br>前回: 2025-01-19 by Field_Op_22</div>
+</div>
