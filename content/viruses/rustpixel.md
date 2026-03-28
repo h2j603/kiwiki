@@ -13,14 +13,42 @@ status: "활성 / Active"
 tags: ["환경형", "검색엔진", "부식", "금속", "environmental", "search engine", "corrosion", "metal"]
 ---
 
+<div class="ko" markdown="1">
+
 | 항목 | 내용 |
 |------|------|
-| 아이콘 | ▤ |
 | 분류 코드 | <span class="pill pill-code">WKV-E.SE-005</span> |
 | 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
 | 전파 경로 | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
 | 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
 | 상태 | <span class="pill pill-active">활성 / Active</span> |
+
+</div>
+
+<div class="en" markdown="1">
+
+| Field | Details |
+|------|------|
+| Code | <span class="pill pill-code">WKV-E.SE-005</span> |
+| Type | <span class="pill pill-type">환경형 / Environmental</span> |
+| Vector | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
+| Severity | <span class="pill pill-severity-high">높음 / High</span> |
+| Status | <span class="pill pill-active">활성 / Active</span> |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| 項目 | 内容 |
+|------|------|
+| 分類コード | <span class="pill pill-code">WKV-E.SE-005</span> |
+| タイプ | <span class="pill pill-type">환경형 / Environmental</span> |
+| 経路 | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
+| 危険度 | <span class="pill pill-severity-high">높음 / High</span> |
+| 状態 | <span class="pill pill-active">활성 / Active</span> |
+
+</div>
+
 
 ## 개요
 {: .ko}

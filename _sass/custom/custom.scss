@@ -155,9 +155,10 @@ body {
     color: orangered;
   }
 
-  // Hover gradient (hyuk 동일: lawngreen → white)
-  tr:hover td {
+  // Hover gradient — 줄 기준 (table-layout fixed로 gradient가 행 전체에 걸림)
+  tr:hover {
     background: linear-gradient(90deg, lawngreen, #ffffff);
+    td { background: transparent; }
   }
 
   // Table links: no italic, no underline (hyuk 동일)

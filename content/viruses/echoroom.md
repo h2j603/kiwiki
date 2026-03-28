@@ -13,14 +13,42 @@ status: "활성 / Active"
 tags: ["환경형", "SNS", "음향", "반향", "environmental", "social media", "acoustics", "echo"]
 ---
 
+<div class="ko" markdown="1">
+
 | 항목 | 내용 |
 |------|------|
-| 아이콘 | ⌂ |
 | 분류 코드 | <span class="pill pill-code">WKV-E.SN-007</span> |
 | 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
 | 전파 경로 | <span class="pill pill-vector">SNS / Social Media</span> |
 | 위험도 | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
 | 상태 | <span class="pill pill-active">활성 / Active</span> |
+
+</div>
+
+<div class="en" markdown="1">
+
+| Field | Details |
+|------|------|
+| Code | <span class="pill pill-code">WKV-E.SN-007</span> |
+| Type | <span class="pill pill-type">환경형 / Environmental</span> |
+| Vector | <span class="pill pill-vector">SNS / Social Media</span> |
+| Severity | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
+| Status | <span class="pill pill-active">활성 / Active</span> |
+
+</div>
+
+<div class="ja" markdown="1">
+
+| 項目 | 内容 |
+|------|------|
+| 分類コード | <span class="pill pill-code">WKV-E.SN-007</span> |
+| タイプ | <span class="pill pill-type">환경형 / Environmental</span> |
+| 経路 | <span class="pill pill-vector">SNS / Social Media</span> |
+| 危険度 | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
+| 状態 | <span class="pill pill-active">활성 / Active</span> |
+
+</div>
+
 
 ## 개요
 {: .ko}
