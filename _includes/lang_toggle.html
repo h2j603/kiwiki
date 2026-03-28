@@ -1,122 +1,128 @@
 <div class="lang-toggle" id="kiwiki-lang-toggle">
-  <button class="lang-btn active" data-lang="en" onclick="kiwikiLang('en')">EN</button>
-  <button class="lang-btn" data-lang="ko" onclick="kiwikiLang('ko')">한국어</button>
-  <button class="lang-btn" data-lang="ja" onclick="kiwikiLang('ja')">日本語</button>
+  <button class="lang-btn active" data-lang="en" onclick="kiwikiSetLang('en')">EN</button>
+  <button class="lang-btn" data-lang="ko" onclick="kiwikiSetLang('ko')">한국어</button>
+  <button class="lang-btn" data-lang="ja" onclick="kiwikiSetLang('ja')">日本語</button>
 </div>
+
 <script>
-// === 1. Language (runs immediately) ===
-function kiwikiLang(l){
-  document.body.className=document.body.className.replace(/lang-\w+/g,'')+' lang-'+l;
-  var b=document.getElementById('kiwiki-lang-toggle').getElementsByTagName('button');
-  for(var i=0;i<b.length;i++) b[i].className='lang-btn'+(b[i].getAttribute('data-lang')===l?' active':'');
-  try{localStorage.setItem('kiwiki-lang',l);}catch(e){}
-  setTimeout(kiwikiBuildToc,100);
-}
-// Apply saved language NOW
-(function(){
-  var s='en';
-  try{s=localStorage.getItem('kiwiki-lang')||'en';}catch(e){}
-  document.body.className+=' lang-'+s;
-  if(s!=='en'){
-    var b=document.getElementById('kiwiki-lang-toggle').getElementsByTagName('button');
-    for(var i=0;i<b.length;i++) b[i].className='lang-btn'+(b[i].getAttribute('data-lang')===s?' active':'');
-  }
-})();
-
-// === 2. TOC builder ===
-function kiwikiBuildToc(){
-  var toc=document.getElementById('kiwiki-toc');
-  if(!toc)return;
-  toc.innerHTML='';
-  var hs=document.getElementsByTagName('h2');
-  var ol=document.createElement('ol');
-  ol.style.cssText='list-style:none;padding:0;margin:0;';
-  var n=0;
-  for(var i=0;i<hs.length;i++){
-    var h=hs[i];
-    try{if(window.getComputedStyle(h).display==='none')continue;}catch(e){continue;}
-    n++;
-    if(!h.id)h.id='s'+n;
-    var sn=h.querySelector('.sec-num');
-    if(!sn){sn=document.createElement('span');sn.className='sec-num';h.insertBefore(sn,h.firstChild);}
-    sn.textContent=n+'. ';
-    var txt='';
-    for(var c=0;c<h.childNodes.length;c++){
-      var nd=h.childNodes[c];
-      if(nd.className==='sec-num'||nd.className==='anchor-heading')continue;
-      txt+=nd.textContent;
-    }
-    var li=document.createElement('li');
-    var a=document.createElement('a');
-    a.href='#'+h.id;
-    a.textContent=n+'. '+txt.replace(/#/g,'').trim();
-    li.appendChild(a);
-    ol.appendChild(li);
-  }
-  if(n>0)toc.appendChild(ol);
-}
-
-// === 3. Infection + TOC (after full DOM load) ===
-function kiwikiOnReady(fn){
-  if(document.readyState!=='loading')fn();
-  else document.addEventListener('DOMContentLoaded',fn);
-}
-kiwikiOnReady(function(){
-  // TOC
-  setTimeout(kiwikiBuildToc,300);
-
-  // Random virus infection
-  var viruses=[
-    'echoloop','mirrorlink','pixelrot','deadscroll','glitchmoss',
-    'nullwhisper','blindspot','phantomtab','staticbloom',
-    'syntaxwraith','cachevein','forgetmenot'
-  ];
-  var names={
-    echoloop:'EchoLoop',mirrorlink:'MirrorLink',pixelrot:'PixelRot',
-    deadscroll:'DeadScroll',glitchmoss:'GlitchMoss',nullwhisper:'NullWhisper',
-    blindspot:'BlindSpot',phantomtab:'PhantomTab',staticbloom:'StaticBloom',
-    syntaxwraith:'SyntaxWraith',cachevein:'CacheVein',forgetmenot:'ForgetMeNot'
-  };
-  var codes={
-    echoloop:'WKV-C.SE-001',mirrorlink:'WKV-S.SN-001',pixelrot:'WKV-S.EM-002',
-    deadscroll:'WKV-C.SN-002',glitchmoss:'WKV-E.DA-001',nullwhisper:'WKV-L.MS-001',
-    blindspot:'WKV-S.SE-004',phantomtab:'WKV-L.SN-003',staticbloom:'WKV-E.SN-003',
-    syntaxwraith:'WKV-L.DA-002',cachevein:'WKV-E.MS-002',forgetmenot:'WKV-C.EM-003'
-  };
-
-  var vid;
-  try{vid=sessionStorage.getItem('kiwiki-virus');}catch(e){}
-  if(!vid||viruses.indexOf(vid)<0){
-    vid=viruses[Math.floor(Math.random()*viruses.length)];
-    try{sessionStorage.setItem('kiwiki-virus',vid);}catch(e){}
-  }
-
-  // Add virus class to body (preserve existing classes)
-  document.body.classList.add('virus-'+vid);
-
-  // JS-based effects
-  if(vid==='echoloop'){
-    setTimeout(function(){
-      var ps=document.querySelectorAll('main p, .main-content p');
-      if(ps.length>3){
-        var p=ps[Math.floor(Math.random()*ps.length)];
-        var c=p.cloneNode(true);c.style.opacity='0.12';c.style.fontStyle='italic';
-        p.parentNode.insertBefore(c,p.nextSibling);
+// ====== LANGUAGE (independent, no dependencies) ======
+function kiwikiSetLang(l) {
+  try {
+    document.body.className = document.body.className.replace(/lang-\w+/g, '') + ' lang-' + l;
+    var btns = document.getElementById('kiwiki-lang-toggle');
+    if (btns) {
+      var bs = btns.getElementsByTagName('button');
+      for (var i = 0; i < bs.length; i++) {
+        if (bs[i].getAttribute('data-lang') === l) { bs[i].className = 'lang-btn active'; }
+        else { bs[i].className = 'lang-btn'; }
       }
-    },20000);
-  }
-  if(vid==='deadscroll'){
-    var sc=0;
-    window.addEventListener('scroll',function(){
-      if(++sc%60===0)window.scrollBy(0,Math.random()*150-75);
-    });
-  }
+    }
+    localStorage.setItem('kiwiki-lang', l);
+  } catch(e) {}
+  // rebuild TOC after lang change
+  try { kiwikiToc(); } catch(e) {}
+}
+// restore saved language
+try {
+  var _sl = localStorage.getItem('kiwiki-lang');
+  if (_sl && _sl !== 'en') { kiwikiSetLang(_sl); }
+  else { document.body.className += ' lang-en'; }
+} catch(e) {
+  document.body.className += ' lang-en';
+}
+</script>
 
-  // Infection notice bar
-  var bar=document.createElement('div');
-  bar.className='infection-notice';
-  bar.innerHTML='⚠ infected: <b>'+names[vid]+'</b> ('+codes[vid]+')';
-  document.body.appendChild(bar);
-  setTimeout(function(){bar.style.transition='opacity 1s';bar.style.opacity='0';},8000);
-});
+<script>
+// ====== TOC (independent) ======
+function kiwikiToc() {
+  try {
+    var toc = document.getElementById('kiwiki-toc');
+    if (!toc) return;
+    toc.innerHTML = '';
+    var all = document.getElementsByTagName('h2');
+    var items = [];
+    for (var i = 0; i < all.length; i++) {
+      try {
+        if (window.getComputedStyle(all[i]).display === 'none') continue;
+      } catch(e) { continue; }
+      items.push(all[i]);
+    }
+    if (items.length < 2) return;
+    var ol = document.createElement('ol');
+    ol.style.cssText = 'list-style:none;padding:0;margin:0;';
+    for (var j = 0; j < items.length; j++) {
+      var h = items[j];
+      var num = j + 1;
+      if (!h.id) h.id = 'sec-' + num;
+      // number prefix on heading
+      var sn = h.querySelector('.sec-num');
+      if (!sn) { sn = document.createElement('span'); sn.className = 'sec-num'; h.insertBefore(sn, h.firstChild); }
+      sn.textContent = num + '. ';
+      // toc link text (exclude .sec-num and .anchor-heading)
+      var txt = '';
+      for (var c = 0; c < h.childNodes.length; c++) {
+        var cn = h.childNodes[c];
+        if (cn.nodeType === 1 && (cn.className === 'sec-num' || cn.className === 'anchor-heading')) continue;
+        txt += cn.textContent || '';
+      }
+      txt = txt.replace(/#/g, '').trim();
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = num + '. ' + txt;
+      li.appendChild(a);
+      ol.appendChild(li);
+    }
+    toc.appendChild(ol);
+  } catch(e) {}
+}
+</script>
+
+<script>
+// ====== INFECTION (independent) ======
+try {
+  var _viruses = ['echoloop','mirrorlink','pixelrot','deadscroll','glitchmoss','nullwhisper','blindspot','phantomtab','staticbloom','syntaxwraith','cachevein','forgetmenot'];
+  var _vnames = {echoloop:'EchoLoop',mirrorlink:'MirrorLink',pixelrot:'PixelRot',deadscroll:'DeadScroll',glitchmoss:'GlitchMoss',nullwhisper:'NullWhisper',blindspot:'BlindSpot',phantomtab:'PhantomTab',staticbloom:'StaticBloom',syntaxwraith:'SyntaxWraith',cachevein:'CacheVein',forgetmenot:'ForgetMeNot'};
+  var _vcodes = {echoloop:'WKV-C.SE-001',mirrorlink:'WKV-S.SN-001',pixelrot:'WKV-S.EM-002',deadscroll:'WKV-C.SN-002',glitchmoss:'WKV-E.DA-001',nullwhisper:'WKV-L.MS-001',blindspot:'WKV-S.SE-004',phantomtab:'WKV-L.SN-003',staticbloom:'WKV-E.SN-003',syntaxwraith:'WKV-L.DA-002',cachevein:'WKV-E.MS-002',forgetmenot:'WKV-C.EM-003'};
+  var _vid = sessionStorage.getItem('kiwiki-virus');
+  if (!_vid) { _vid = _viruses[Math.floor(Math.random() * _viruses.length)]; sessionStorage.setItem('kiwiki-virus', _vid); }
+  document.body.classList.add('virus-' + _vid);
+  // infection notice (after DOM ready)
+  function _showInfection() {
+    var bar = document.createElement('div');
+    bar.className = 'infection-notice';
+    bar.innerHTML = '⚠ infected: <b>' + (_vnames[_vid]||_vid) + '</b> (' + (_vcodes[_vid]||'') + ')';
+    document.body.appendChild(bar);
+    setTimeout(function(){ bar.style.transition='opacity 1s'; bar.style.opacity='0'; }, 8000);
+  }
+} catch(e) {}
+</script>
+
+<script>
+// ====== ON DOM READY: TOC + infection notice ======
+function _kiwikiReady() {
+  try { kiwikiToc(); } catch(e) {}
+  try { _showInfection(); } catch(e) {}
+  // DeadScroll effect
+  try {
+    if (sessionStorage.getItem('kiwiki-virus') === 'deadscroll') {
+      var _sc = 0;
+      window.addEventListener('scroll', function() { if (++_sc % 60 === 0) window.scrollBy(0, Math.random()*150-75); });
+    }
+  } catch(e) {}
+  // EchoLoop effect
+  try {
+    if (sessionStorage.getItem('kiwiki-virus') === 'echoloop') {
+      setTimeout(function(){
+        var ps = document.querySelectorAll('main p, .main-content p');
+        if (ps.length > 3) { var p = ps[Math.floor(Math.random()*ps.length)]; var cl = p.cloneNode(true); cl.style.opacity='0.12'; cl.style.fontStyle='italic'; p.parentNode.insertBefore(cl, p.nextSibling); }
+      }, 20000);
+    }
+  } catch(e) {}
+}
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', function(){ setTimeout(_kiwikiReady, 300); });
+} else {
+  setTimeout(_kiwikiReady, 300);
+}
 </script>
