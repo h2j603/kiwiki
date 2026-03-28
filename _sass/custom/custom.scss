@@ -282,15 +282,69 @@ body.lang-ja {
   a { color: orangered; }
 }
 
-// ---- Home link (virus pages) ----
+// ---- TOC (나무위키 style) ----
+.toc-box {
+  border: 1px solid orangered;
+  padding: 0;
+  margin: 20px 0;
+  font-size: 14px;
+
+  summary {
+    padding: 10px 14px;
+    font-family: "t26-carbon", monospace;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.1em;
+    color: orangered;
+    cursor: pointer;
+    border-bottom: 1px solid orangered;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &::after { content: "▾"; font-style: normal; }
+    &::-webkit-details-marker { display: none; }
+  }
+
+  &[open] summary::after { content: "▴"; }
+
+  .toc-nav {
+    padding: 10px 14px;
+
+    ol {
+      margin: 0;
+      padding-left: 0;
+      counter-reset: toc;
+      list-style: none;
+
+      li {
+        counter-increment: toc;
+        margin: 4px 0;
+        &::before {
+          content: counter(toc) ". ";
+          color: orangered;
+          font-weight: 700;
+          font-size: 13px;
+        }
+        a {
+          color: orangered;
+          text-decoration: none;
+          font-style: normal;
+          font-size: 14px;
+          &:hover { color: lawngreen; text-decoration: underline; }
+        }
+      }
+    }
+  }
+}
+
+// ---- Home link ----
 .home-link {
-  font-family: "t26-carbon", monospace;
-  font-style: italic;
-  font-size: 13px;
-  color: orangered;
+  font-style: normal;
+  font-size: 18px;
   text-decoration: none;
+  color: orangered;
   &:hover { color: lawngreen; }
-  &::before { content: "← "; }
 }
 
 // ---- Warning banner (Critical viruses) ----

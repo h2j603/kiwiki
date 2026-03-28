@@ -1,6 +1,5 @@
 ---
 title: "네임이터 / NameEater"
-parent: "바이러스 / Viruses"
 nav_order: 26
 code: "WKV-C.DA-006"
 icon: "▮"
@@ -15,7 +14,7 @@ tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct 
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct 
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

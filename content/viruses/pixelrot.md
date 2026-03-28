@@ -1,6 +1,5 @@
 ---
 title: "픽셀롯 / PixelRot"
-parent: "바이러스 / Viruses"
 nav_order: 4
 aliases: ["PixelRot", "화소부패", "Pixel Rot"]
 classification:
@@ -16,7 +15,7 @@ tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -52,7 +51,7 @@ tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

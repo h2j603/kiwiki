@@ -1,6 +1,5 @@
 ---
 title: "타임스탬프 / TimeStamp"
-parent: "바이러스 / Viruses"
 nav_order: 27
 code: "WKV-C.SE-007"
 icon: "◷"
@@ -15,7 +14,7 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

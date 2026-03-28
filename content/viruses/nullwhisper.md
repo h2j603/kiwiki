@@ -1,6 +1,5 @@
 ---
 title: "널위스퍼 / NullWhisper"
-parent: "바이러스 / Viruses"
 nav_order: 1
 aliases: ["NullWhisper", "공속삭임", "Null Whisper"]
 classification:
@@ -16,7 +15,7 @@ tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger",
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -52,7 +51,7 @@ tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger",
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

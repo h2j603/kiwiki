@@ -1,6 +1,5 @@
 ---
 title: "하울링크 / HowlLink"
-parent: "바이러스 / Viruses"
 nav_order: 11
 classification:
   type: "감각형 / Sensory"
@@ -15,7 +14,7 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

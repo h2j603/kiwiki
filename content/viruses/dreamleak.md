@@ -1,6 +1,5 @@
 ---
 title: "드림리크 / DreamLeak"
-parent: "바이러스 / Viruses"
 nav_order: 25
 code: "WKV-C.SN-005"
 icon: "☁"
@@ -15,7 +14,7 @@ tags: ["인지형", "SNS", "꿈", "기억", "cognitive", "social media", "dream"
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["인지형", "SNS", "꿈", "기억", "cognitive", "social media", "dream"
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "글래스보이스 / GlassVoice"
-parent: "바이러스 / Viruses"
 nav_order: 23
 code: "WKV-S.EM-007"
 icon: "♯"
@@ -15,7 +14,7 @@ tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "aud
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "aud
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "잉크블리드 / InkBleed"
-parent: "바이러스 / Viruses"
 nav_order: 19
 code: "WKV-L.SN-007"
 icon: "◼"
@@ -15,7 +14,7 @@ tags: ["로직형", "SNS", "텍스트", "의사결정", "logic", "social media",
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["로직형", "SNS", "텍스트", "의사결정", "logic", "social media",
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

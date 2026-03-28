@@ -1,6 +1,5 @@
 ---
 title: "루프홀 / Loophole"
-parent: "바이러스 / Viruses"
 nav_order: 14
 classification:
   type: "인지형 / Cognitive"
@@ -15,7 +14,7 @@ tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

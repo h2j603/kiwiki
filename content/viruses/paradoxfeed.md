@@ -1,6 +1,5 @@
 ---
 title: "패러독스피드 / ParadoxFeed"
-parent: "바이러스 / Viruses"
 nav_order: 18
 code: "WKV-L.DA-006"
 icon: "⊕"
@@ -15,7 +14,7 @@ tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access"
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access"
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 

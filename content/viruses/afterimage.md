@@ -1,6 +1,5 @@
 ---
 title: "애프터이미지 / AfterImage"
-parent: "바이러스 / Viruses"
 nav_order: 24
 code: "WKV-S.SE-008"
 icon: "◫"
@@ -15,7 +14,7 @@ tags: ["감각형", "검색엔진", "잔상", "시각", "sensory", "search engin
 
 {% include lang_toggle.html %}
 
-<a href="../index.md" class="home-link">Kiwiki</a>
+<a href="/kiwiki/" class="home-link">⌂</a>
 
 
 <div class="ko" markdown="1">
@@ -51,7 +50,7 @@ tags: ["감각형", "검색엔진", "잔상", "시각", "sensory", "search engin
 
 </div>
 
-
+{% include toc.html %}
 
 ---
 
