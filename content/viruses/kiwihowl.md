@@ -285,9 +285,9 @@ Discovered in autumn 2025 when a sound engineer reported "impossible frequencies
 - [KiWhisper](kiwhisper.md): When KiWhisper's "whisper" combines with KiwiHowl's hallucinations, the whisper's persuasiveness is maximized.
 {: .en}
 
-- [ミラーリンク（KiwiMirror）](kiwimirror.md)：同じ感覚型だが、ミラーリンクは視覚を、ハウルリンクは聴覚を歪める。同時感染すると「見えないものが音を出す」共感覚的現象が報告されている。
-- [キャッシュベイン（KiwiVein）](kiwivein.md)：メッセンジャーという伝播経路を共有。キャッシュベインの静脈パターンから微弱な電磁波が放出され、ハウルリンク感染者だけがこれを「音」として感知する。
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：ヌルウィスパーの「囁き」がハウルリンクの幻聴と結合すると、囁きの説得力が最大化される。
+- [キウイミラー（KiwiMirror）](kiwimirror.md)：同じ感覚型だが、キウイミラーは視覚を、キウイハウルは聴覚を歪める。同時感染すると「見えないものが音を出す」共感覚的現象が報告されている。
+- [キウイベイン（KiwiVein）](kiwivein.md)：メッセンジャーという伝播経路を共有。キウイベインの静脈パターンから微弱な電磁波が放出され、キウイハウル感染者だけがこれを「音」として感知する。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：キウィスパーの「囁き」がキウイハウルの幻聴と結合すると、囁きの説得力が最大化される。
 {: .ja}
 
 

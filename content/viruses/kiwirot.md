@@ -286,9 +286,9 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 - [KiwiScroll](kiwiscroll.md): KiwiRot-infected individuals scrolling endlessly on social media fail to perceive KiwiScroll's "time gaps" due to low-resolution vision, making co-infection easier.
 {: .en}
 
-- [ミラーリンク（KiwiMirror）](kiwimirror.md)：同じ感覚型ウイルス。ミラーリンクが反射像のみを歪めるのに対し、ピクセルロットは視野全体を侵食する。同時感染すると視覚機能が急激に低下する。
-- [グリッチモス（KiwiMoss）](kiwimoss.md)：グリッチモスの環境腐食はピクセルロット感染者にはより早く認知される——既に視野がピクセル化しているため、腐食パターンがより目立つためである。
-- [デッドスクロール（KiwiScroll）](kiwiscroll.md)：ピクセルロット感染者がSNSを無限スクロールすると、低解像度の視野によりデッドスクロールの「時間の隙間」を認知できず、同時感染しやすくなる。
+- [キウイミラー（KiwiMirror）](kiwimirror.md)：同じ感覚型ウイルス。キウイミラーが反射像のみを歪めるのに対し、キウイロットは視野全体を侵食する。同時感染すると視覚機能が急激に低下する。
+- [キウイモス（KiwiMoss）](kiwimoss.md)：キウイモスの環境腐食はキウイロット感染者にはより早く認知される——既に視野がピクセル化しているため、腐食パターンがより目立つためである。
+- [キウイスクロール（KiwiScroll）](kiwiscroll.md)：キウイロット感染者がSNSを無限スクロールすると、低解像度の視野によりキウイスクロールの「時間の隙間」を認知できず、同時感染しやすくなる。
 {: .ja}
 
 
@@ -315,7 +315,7 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 - Reports indicate pixel degradation in photos taken by infected individuals, but whether this is a direct viral effect or perceptual distortion remains debated.
 {: .en}
 
-- ピクセルロットは感覚型ウイルスの中で唯一感染経路がメールである種で、標的感染が可能という点で他の感覚型と区別される
+- キウイロットは感覚型ウイルスの中で唯一感染経路がメールである種で、標的感染が可能という点で他の感覚型と区別される
 - 感染者が撮影した写真にもピクセルの劣化が現れるという報告があるが、これがウイルスの直接的効果なのか感染者の認知の歪みなのかは議論中である
 {: .ja}
 

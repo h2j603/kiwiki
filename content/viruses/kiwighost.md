@@ -288,9 +288,9 @@ Discovered in winter 2025 when three researchers at a university lab simultaneou
 - [KiwiAfter](kiwiafter.md): Shares the search engine vector; cases have been reported where KiwiGhost's phantom notifications overlap with KiwiAfter's persistent afterimages.
 {: .en}
 
-- [エコループ（KiwiEcho）](kiwiecho.md)：エコループの反復的思考パターンがゴーストピングの確認強迫と結合すると、症状が指数関数的に悪化する。
-- [ファントムタブ（KiwiTab）](kiwitab.md)：ファントムタブが生成するゴーストタブがゴーストピング感染者に追加の通知源として作用する可能性がある。
-- [アフターイメージ（KiwiAfter）](kiwiafter.md)：検索エンジンベクターを共有しており、ゴーストピングのファントム通知がアフターイメージの残像と重なる事例が報告されている。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：キウイエコーの反復的思考パターンがキウイゴーストの確認強迫と結合すると、症状が指数関数的に悪化する。
+- [キウイタブ（KiwiTab）](kiwitab.md)：キウイタブが生成するゴーストタブがキウイゴースト感染者に追加の通知源として作用する可能性がある。
+- [キウイアフター（KiwiAfter）](kiwiafter.md)：検索エンジンベクターを共有しており、キウイゴーストのファントム通知がキウイアフターの残像と重なる事例が報告されている。
 {: .ja}
 
 
@@ -317,7 +317,7 @@ Discovered in winter 2025 when three researchers at a university lab simultaneou
 - Search engine operators officially deny the existence of the notification protocol remnants.
 {: .en}
 
-- ゴーストピング感染者は他のロジック型ウイルスに対する感受性が平均の2.3倍高いことが観察されている。絶え間ない確認行為がウェブ露出時間を増加させるためと推定される。
+- キウイゴースト感染者は他のロジック型ウイルスに対する感受性が平均の2.3倍高いことが観察されている。絶え間ない確認行為がウェブ露出時間を増加させるためと推定される。
 - 検索エンジン運営会社は該当通知プロトコルの残骸の存在を公式に否定している。
 {: .ja}
 

@@ -285,9 +285,9 @@ Discovered in summer 2025 when chat log analysis revealed that an online study g
 - [KiwiSyntax](kiwisyntax.md): Interestingly, KiwiSyntax-infected individuals show high resistance to KiwiLoop due to their thought being constrained to strict syntax structures.
 {: .en}
 
-- [エコループ（KiwiEcho）](kiwiecho.md)：エコループは行動の反復、ループホールは論理の反復。症状は類似するがメカニズムは異なり、同時感染すると「繰り返しながら矛盾も認知できない」状態になる。
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：メッセンジャーという伝播経路を共有。ループホール感染者は論理的矛盾を検知できないため、ヌルウィスパーの「合理的な囁き」が矛盾していることに気づけない。
-- [シンタックスレイス（KiwiSyntax）](kiwisyntax.md)：興味深いことに、シンタックスレイス感染者は思考が厳格な構文構造に制限されるため、ループホールへの抵抗力が高い。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：キウイエコーは行動の反復、キウイループは論理の反復。症状は類似するがメカニズムは異なり、同時感染すると「繰り返しながら矛盾も認知できない」状態になる。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：メッセンジャーという伝播経路を共有。キウイループ感染者は論理的矛盾を検知できないため、キウィスパーの「合理的な囁き」が矛盾していることに気づけない。
+- [キウイシンタックス（KiwiSyntax）](kiwisyntax.md)：興味深いことに、キウイシンタックス感染者は思考が厳格な構文構造に制限されるため、キウイループへの抵抗力が高い。
 {: .ja}
 
 
@@ -312,7 +312,7 @@ Discovered in summer 2025 when chat log analysis revealed that an online study g
 - KiwiLoop is called "the most social virus," always infecting multiple people simultaneously. No single-person infection case has been reported.
 {: .en}
 
-- ループホールは「最も社会的なウイルス」と呼ばれ、必ず複数人が同時に感染する。単独感染の事例は報告されていない
+- キウイループは「最も社会的なウイルス」と呼ばれ、必ず複数人が同時に感染する。単独感染の事例は報告されていない
 {: .ja}
 
 <div class="edit-history">

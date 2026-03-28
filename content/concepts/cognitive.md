@@ -59,7 +59,7 @@ Cognitive-type viruses target the fundamental processes of memory, awareness, te
 인지형 바이러스는 기억, 인식, 시간 지각, 정체성 인식의 근본 과정을 표적으로 삼는다. [로직형](logic.md) 바이러스와 자주 혼동되지만, 그 구별은 결정적이다: 로직형 바이러스는 *무엇을 결정하는지*를 부패시키고, 인지형 바이러스는 *무엇을 알고 있는지*를 부패시킨다. 로직형 감염자는 올바른 정보로부터 잘못된 추론을 한다. 인지형 감염자는 부패된 정보로부터 -- 또는 더 이상 마음에 존재하지 않는 정보로부터 -- 올바른 추론을 한다. 기억 소거, 시간 왜곡, 정체성 파편화, 지각 루프 등이 이 유형의 특징이다. 인지형 바이러스에는 가장 심각한 감염 사례가 포함되며, [키위포갓](/kiwiki/viruses/kiwiforgot.md), [키위컷](/kiwiki/viruses/kiwicut.md), 그리고 말기 단계의 [키위이터](/kiwiki/viruses/kiwieater.md)에서 세 건의 [비가역적 변형](irreversible.md)이 확인되었다.
 {: .ko}
 
-認知型ウイルスは、記憶、認識、時間知覚、アイデンティティ認識の根本過程を標的とする。[ロジック型](logic.md)ウイルスと頻繁に混同されるが、その区別は決定的である：ロジック型は*何を決定するか*を腐敗させ、認知型は*何を知っているか*を腐敗させる。ロジック型の感染者は正しい情報から誤った推論を行う。認知型の感染者は腐敗した情報から――あるいはもはや心に存在しない情報から――正しい推論を行う。記憶消去、時間歪曲、アイデンティティの断片化、知覚ループなどがこの類型の特徴である。認知型ウイルスには最も深刻な感染事例が含まれ、[フォーゲットミーノット](/kiwiki/viruses/kiwiforgot.md)、[スレッドカット](/kiwiki/viruses/kiwicut.md)、および末期の[ネームイーター](/kiwiki/viruses/kiwieater.md)で3件の[不可逆的変容](irreversible.md)が確認されている。
+認知型ウイルスは、記憶、認識、時間知覚、アイデンティティ認識の根本過程を標的とする。[ロジック型](logic.md)ウイルスと頻繁に混同されるが、その区別は決定的である：ロジック型は*何を決定するか*を腐敗させ、認知型は*何を知っているか*を腐敗させる。ロジック型の感染者は正しい情報から誤った推論を行う。認知型の感染者は腐敗した情報から――あるいはもはや心に存在しない情報から――正しい推論を行う。記憶消去、時間歪曲、アイデンティティの断片化、知覚ループなどがこの類型の特徴である。認知型ウイルスには最も深刻な感染事例が含まれ、[フォーゲットミーノット](/kiwiki/viruses/kiwiforgot.md)、[キウイカット](/kiwiki/viruses/kiwicut.md)、および末期の[キウイイーター](/kiwiki/viruses/kiwieater.md)で3件の[不可逆的変容](irreversible.md)が確認されている。
 {: .ja}
 
 ## 핵심 구분: 인지형 vs. 로직형
@@ -141,14 +141,14 @@ Both are dangerous. But Cognitive-type infections strike at the foundation of se
 
 | ウイルス | 経路 | 重症度 | 主な特徴 |
 |----------|------|--------|----------|
-| [エコループ](/kiwiki/viruses/kiwiecho.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 知覚を繰り返しループに閉じ込める |
-| [デッドスクロール](/kiwiki/viruses/kiwiscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | スクロール麻痺 -- コンテンツ消費を止められない |
+| [キウイエコー](/kiwiki/viruses/kiwiecho.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 知覚を繰り返しループに閉じ込める |
+| [キウイスクロール](/kiwiki/viruses/kiwiscroll.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | スクロール麻痺 -- コンテンツ消費を止められない |
 | [フォーゲットミーノット](/kiwiki/viruses/kiwiforgot.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-critical">致命的</span> | 選択的・漸進的記憶消去 |
-| [ループホール](/kiwiki/viruses/kiwiloop.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-moderate">中</span> | 認識を飛ばす知覚的ショートカットを作成 |
-| [ドリームリーク](/kiwiki/viruses/kiwidream.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 夢と覚醒認識の境界を曖昧にする |
-| [ネームイーター](/kiwiki/viruses/kiwieater.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 記憶から固有名詞を食べる -- 名前、場所、肩書 |
-| [タイムスタンプ](/kiwiki/viruses/kiwitime.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 時間知覚と出来事の順序を歪曲 |
-| [スレッドカット](/kiwiki/viruses/kiwicut.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 関連する記憶間の接続を切断 |
+| [キウイループ](/kiwiki/viruses/kiwiloop.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-moderate">中</span> | 認識を飛ばす知覚的ショートカットを作成 |
+| [キウイドリーム](/kiwiki/viruses/kiwidream.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 夢と覚醒認識の境界を曖昧にする |
+| [キウイイーター](/kiwiki/viruses/kiwieater.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 記憶から固有名詞を食べる -- 名前、場所、肩書 |
+| [キウイタイム](/kiwiki/viruses/kiwitime.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-high">高</span> | 時間知覚と出来事の順序を歪曲 |
+| [キウイカット](/kiwiki/viruses/kiwicut.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-critical">致命的</span> | 関連する記憶間の接続を切断 |
 
 </div>
 
@@ -180,9 +180,9 @@ Cognitive-type infections typically progress through four stages:
 認知型感染は通常、4段階を経て進行する：
 
 1. **微小空白** ── 短く、ほぼ感知できない欠落。文の途中で単語を忘れる。数秒間時間感覚を失う。ほとんどの人はこれを疲労のせいにする。
-2. **パターン侵食** ── 特定カテゴリにおける反復的な空白。タイムスタンプ感染者は常に時間の長さを誤って判断する。ネームイーター感染者は特定の人物の名前を忘れ続ける。
+2. **パターン侵食** ── 特定カテゴリにおける反復的な空白。キウイタイム感染者は常に時間の長さを誤って判断する。キウイイーター感染者は特定の人物の名前を忘れ続ける。
 3. **構造的崩壊** ── 認知フレームワーク全体が機能不全に陥り始める。記憶が互いに矛盾する。感染者はもはや自分の人生の一貫したタイムラインを維持できない。
-4. **アイデンティティ解体** ── 最終段階。感染者の自己感覚はもはや連続的ではない。スレッドカットの場合、感染者が1つの体を共有する互いに無関係な複数の個人として自分を体験するものとして現れる。
+4. **アイデンティティ解体** ── 最終段階。感染者の自己感覚はもはや連続的ではない。キウイカットの場合、感染者が1つの体を共有する互いに無関係な複数の個人として自分を体験するものとして現れる。
 {: .ja}
 
 ## 관련 개념
@@ -208,6 +208,6 @@ Cognitive-type infections typically progress through four stages:
 
 - [ロジック型](logic.md) -- 頻繁に混同される；上記の区別セクション参照
 - [境界崩壊](boundary-collapse.md) -- 認知的崩壊が既知と未知の境界を消す
-- [不可逆的変形](irreversible.md) -- フォーゲットミーノットとスレッドカットが確認された不可逆的症例
+- [不可逆的変形](irreversible.md) -- フォーゲットミーノットとキウイカットが確認された不可逆的症例
 - [同時感染](co-infection.md) -- 認知型 + ロジック型が最も危険な組み合わせとされる
 {: .ja}

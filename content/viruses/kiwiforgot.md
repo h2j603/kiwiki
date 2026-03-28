@@ -77,7 +77,7 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 A [Cognitive-type](/kiwiki/taxonomy/#classification-by-type) virus contracted by opening emails in a specific newsletter format. Contrary to its name, it deletes the infected person's memories in reverse chronological order, starting from the most recent. The name "Forget Me Not" originates from the phrase infected individuals repeat until the very end.
 {: .en}
 
-特定のニュースレター形式のメールを開くと感染する[認知型](/kiwiki/taxonomy/#유형별-분류)ウイルス。名前に反して、感染者の記憶を最も新しいものから逆順に削除していく。「フォゲットミーノット（私を忘れないで）」という名前は、感染者が最後まで繰り返す言葉に由来する。
+特定のニュースレター形式のメールを開くと感染する[認知型](/kiwiki/taxonomy/#유형별-분류)ウイルス。名前に反して、感染者の記憶を最も新しいものから逆順に削除していく。「キウイフォーガット（私を忘れないで）」という名前は、感染者が最後まで繰り返す言葉に由来する。
 {: .ja}
 
 
@@ -289,9 +289,9 @@ Discovered in autumn 2025 when a researcher posted on social media: "I don't kno
 - [KiwiShade](kiwishade.md): Shares email vector. Cases of both viruses coexisting in the same email have been reported.
 {: .en}
 
-- [エコループ（KiwiEcho）](kiwiecho.md)：エコループは同じことを繰り返し、フォゲットミーノットはしたことを忘れる。同時感染すると「記憶がないのに繰り返す」極端な状態になる。
-- [デッドスクロール（KiwiScroll）](kiwiscroll.md)：デッドスクロールが時間の「隙間」を作るなら、フォゲットミーノットは時間の「削除」を行う。症状が類似するため初期診断で混同されやすい。
-- [バイトシェイド（KiwiShade）](kiwishade.md)：メールという伝播経路を共有。同一のメールに両ウイルスが同時に存在する事例が報告されている。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：キウイエコーは同じことを繰り返し、キウイフォーガットはしたことを忘れる。同時感染すると「記憶がないのに繰り返す」極端な状態になる。
+- [キウイスクロール（KiwiScroll）](kiwiscroll.md)：キウイスクロールが時間の「隙間」を作るなら、キウイフォーガットは時間の「削除」を行う。症状が類似するため初期診断で混同されやすい。
+- [キウイシェイド（KiwiShade）](kiwishade.md)：メールという伝播経路を共有。同一のメールに両ウイルスが同時に存在する事例が報告されている。
 {: .ja}
 
 

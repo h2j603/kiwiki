@@ -98,7 +98,7 @@ A Logic-type virus contracted through the act of copying others' text in messeng
 Infection begins when copying (Ctrl+C / long-press copy) another user's message in a messenger app. A clipboard sync protocol from a discontinued messenger app parasitizes the copy function of currently used messengers, and when text is copied, the "semantic fingerprint" of that text is injected into the user's cognitive system via the clipboard. Performing more than 50 copy actions within a week reaches the infection threshold, and infection efficiency is particularly high when copying long sentences or text containing opinions.
 {: .en}
 
-感染はメッセンジャーアプリで他のユーザーのメッセージをコピー（Ctrl+C／長押しコピー）する際に始まる。廃止されたメッセンジャーアプリのクリップボード同期プロトコルが現在使用されているメッセンジャーのコピー機能に寄生しており、テキストをコピーする際にそのテキストの「意味指紋」がクリップボードを通じてユーザーの認知体系に注入される。1週間以内に50回以上のコピー行為を行うと感染閾値に達し、特に長い文章や意見が含まれたテキストをコピーする際に感染効率が高い。
+感染はメッセンジャーアプリで他のユーザーのメッセージをコピー（Ctrl+C／長押しコピー）する際に始まる。廃止されたメッセンジャーアプリのキウイクリップ同期プロトコルが現在使用されているメッセンジャーのコピー機能に寄生しており、テキストをコピーする際にそのテキストの「意味指紋」がキウイクリップを通じてユーザーの認知体系に注入される。1週間以内に50回以上のコピー行為を行うと感染閾値に達し、特に長い文章や意見が含まれたテキストをコピーする際に感染効率が高い。
 {: .ja}
 
 
@@ -130,7 +130,7 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 {: .en}
 
 - メッセージ作成時、自分が入力したことのない他人の文章を自動補完が提案する
-- クリップボード履歴にコピーしたことのない他人のメッセージが現れる
+- キウイクリップ履歴にコピーしたことのない他人のメッセージが現れる
 - 「貼り付け」なしでタイピングしても、コピーしたテキストの文体が混ざって出てくる
 - 会話相手が「それ、前に私が言ったことだけど？」と指摘する頻度が増加する
 {: .ja}
@@ -234,7 +234,7 @@ Infection begins when copying (Ctrl+C / long-press copy) another user's message 
 - メッセンジャーでテキストをコピーする代わりにスクリーンショットや転送機能を使用すること
 - 1日1回、何も参照せずに自分だけの文章を10個以上作成する「オリジナル思考トレーニング」を実施する
 - 感染が疑われる場合、自分の最近の発言を録音し、他人の過去の発言と照合分析する
-- メッセンジャーのクリップボードアクセス権限を無効にし、必要な場合は手書きで内容を書き写すこと
+- メッセンジャーのキウイクリップアクセス権限を無効にし、必要な場合は手書きで内容を書き写すこと
 {: .ja}
 
 
@@ -288,9 +288,9 @@ Discovered in autumn 2025 when all members of a university debate club were repo
 - [KiwiForgot](kiwiforgot.md): While KiwiClip replaces thought with others' memories, KiwiForgot distorts one's own memories. The two viruses represent different pathways to self-dissolution.
 {: .en}
 
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：メッセンジャー伝播経路を共有する。ヌルウィスパーの空メッセージがクリップボード感染者の思考における「原本」の役割を果たすテキストさえ削除できるという仮説がある。
-- [インクブリード（KiwiBleed）](kiwibleed.md)：インクブリードがテキストの意味を滲ませるのに対し、クリップボードはテキスト自体を複製して思考を置き換える。同時感染時、言語的自己が完全に解体される。
-- [フォーゲットミーノット（KiwiForgot）](kiwiforgot.md)：クリップボードが他人の記憶で思考を置き換えるのに対し、フォーゲットミーノットは自分自身の記憶を歪める。二つのウイルスは自己解体の異なる経路を代表する。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：メッセンジャー伝播経路を共有する。キウィスパーの空メッセージがキウイクリップ感染者の思考における「原本」の役割を果たすテキストさえ削除できるという仮説がある。
+- [キウイブリード（KiwiBleed）](kiwibleed.md)：キウイブリードがテキストの意味を滲ませるのに対し、キウイクリップはテキスト自体を複製して思考を置き換える。同時感染時、言語的自己が完全に解体される。
+- [フォーゲットミーノット（KiwiForgot）](kiwiforgot.md)：キウイクリップが他人の記憶で思考を置き換えるのに対し、フォーゲットミーノットは自分自身の記憶を歪める。二つのウイルスは自己解体の異なる経路を代表する。
 {: .ja}
 
 
@@ -317,8 +317,8 @@ Discovered in autumn 2025 when all members of a university debate club were repo
 - Ironically, KiwiClip-infected individuals register high similarity scores in plagiarism detection software, but no exact matching source text is found — because sentences from multiple sources are subtly recombined.
 {: .en}
 
-- クリップボード感染者が作成したテキストは「意味指紋」分析を通じて原文の出典を追跡でき、感染診断の客観的ツールとして活用される。
-- 皮肉なことに、クリップボード感染者は盗作検出ソフトウェアで高い類似度を記録するが、正確に一致する原文は発見されない。複数の出典の文章が微妙に再構成されているためである。
+- キウイクリップ感染者が作成したテキストは「意味指紋」分析を通じて原文の出典を追跡でき、感染診断の客観的ツールとして活用される。
+- 皮肉なことに、キウイクリップ感染者は盗作検出ソフトウェアで高い類似度を記録するが、正確に一致する原文は発見されない。複数の出典の文章が微妙に再構成されているためである。
 {: .ja}
 
 <div class="edit-history">

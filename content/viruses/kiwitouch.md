@@ -288,9 +288,9 @@ Discovered in spring 2025 when a smartphone repair center received hundreds of c
 - [KiwiHowl](kiwihowl.md): While KiwiHowl converts sound into physical impact, KiwiTouch distorts the texture of physical contact. Co-infection dismantles the sensory world entirely.
 {: .en}
 
-- [グラスボイス（KiwiVoice）](kiwivoice.md)：タングルタッチが触覚を歪めるのに対し、グラスボイスは聴覚を歪める。二つの感覚型ウイルスが同時に感染した場合、触覚と聴覚の両方が歪み、外界との感覚的接続が極度に制限される。
-- [デッドスクロール（KiwiScroll）](kiwiscroll.md)：SNSスクロール行為を共有ベクターとして持ち、デッドスクロールの無限スクロールへの執着がタングルタッチの感染機会を増加させる。
-- [ハウリンク（KiwiHowl）](kiwihowl.md)：ハウリンクが音を物理的衝撃に変換するのに対し、タングルタッチは物理的接触の質感を歪める。同時感染時、感覚世界全般が解体される。
+- [キウイボイス（KiwiVoice）](kiwivoice.md)：キウイタッチが触覚を歪めるのに対し、キウイボイスは聴覚を歪める。二つの感覚型ウイルスが同時に感染した場合、触覚と聴覚の両方が歪み、外界との感覚的接続が極度に制限される。
+- [キウイスクロール（KiwiScroll）](kiwiscroll.md)：SNSスクロール行為を共有ベクターとして持ち、キウイスクロールの無限スクロールへの執着がキウイタッチの感染機会を増加させる。
+- [ハウリンク（KiwiHowl）](kiwihowl.md)：ハウリンクが音を物理的衝撃に変換するのに対し、キウイタッチは物理的接触の質感を歪める。同時感染時、感覚世界全般が解体される。
 {: .ja}
 
 
@@ -317,8 +317,8 @@ Discovered in spring 2025 when a smartphone repair center received hundreds of c
 - Stylus pen manufacturers have seen a 300% increase in sales since KiwiTouch's discovery, which is being used as an indirect indicator of infection numbers.
 {: .en}
 
-- タングルタッチ感染者は手袋を着用すると症状が約40%軽減されることが報告されている。これはウイルスが皮膚と物体の直接接触に依存していることを示唆する。
-- スタイラスペンメーカーの売上がタングルタッチ発見以降300%増加しており、これは感染者数の間接的指標として活用されている。
+- キウイタッチ感染者は手袋を着用すると症状が約40%軽減されることが報告されている。これはウイルスが皮膚と物体の直接接触に依存していることを示唆する。
+- スタイラスペンメーカーの売上がキウイタッチ発見以降300%増加しており、これは感染者数の間接的指標として活用されている。
 {: .ja}
 
 <div class="edit-history">

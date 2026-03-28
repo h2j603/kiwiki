@@ -285,9 +285,9 @@ In summer 2025, an IT security researcher became infected while conducting a pro
 - [KiwiSpot](kiwispot.md): If KiwiSpot blocks visual recognition, KiwiEater blocks linguistic recognition—the mechanisms of the two viruses are complementary.
 {: .en}
 
-- [フォーゲットミーノット（KiwiForgot）](kiwiforgot.md)：記憶消失関連の認知型ウイルス。フォーゲットミーノットが経験記憶全体を消すのに対し、ネームイーターは名称記憶のみを選択的に破壊する——同時感染時、存在そのものが認識から完全に脱落する。
-- [ドリームリーク（KiwiDream）](kiwidream.md)：ドリームリーク感染者がネームイーターに同時感染すると、夢で会った人の名前も現実で会った人の名前もすべて消失し、人間関係の区別が完全に崩壊する。
-- [ブラインドスポット（KiwiSpot）](kiwispot.md)：ブラインドスポットが視覚的認識を遮断するのに対し、ネームイーターは言語的認識を遮断する——二つのウイルスのメカニズムは相補的関係にある。
+- [フォーゲットミーノット（KiwiForgot）](kiwiforgot.md)：記憶消失関連の認知型ウイルス。フォーゲットミーノットが経験記憶全体を消すのに対し、キウイイーターは名称記憶のみを選択的に破壊する——同時感染時、存在そのものが認識から完全に脱落する。
+- [キウイドリーム（KiwiDream）](kiwidream.md)：キウイドリーム感染者がキウイイーターに同時感染すると、夢で会った人の名前も現実で会った人の名前もすべて消失し、人間関係の区別が完全に崩壊する。
+- [キウイスポット（KiwiSpot）](kiwispot.md)：キウイスポットが視覚的認識を遮断するのに対し、キウイイーターは言語的認識を遮断する——二つのウイルスのメカニズムは相補的関係にある。
 {: .ja}
 
 
@@ -314,7 +314,7 @@ In summer 2025, an IT security researcher became infected while conducting a pro
 - Interestingly, infected individuals retain normal recall of numbers, colors, and sensory adjectives—only the "naming" function of proper and common nouns is damaged.
 {: .en}
 
-- ネームイーター感染者はしばしば新しい即興的な命名体系を発明するが、この体系が他の感染者の間で共有されると一種の「名前なき者たちの言語」が形成されるという報告がある。
+- キウイイーター感染者はしばしば新しい即興的な命名体系を発明するが、この体系が他の感染者の間で共有されると一種の「名前なき者たちの言語」が形成されるという報告がある。
 - 興味深いことに、感染者は数字、色、感覚的形容詞は正常に記憶しており、固有名詞と一般名詞の「名前」機能のみが損傷される。
 {: .ja}
 

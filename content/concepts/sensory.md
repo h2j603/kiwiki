@@ -86,7 +86,7 @@ The most prevalent domain. Visual Sensory-type viruses produce effects ranging f
 가장 빈도 높은 영역이다. 시각 감각형 바이러스는 미세한 색상 변화와 잔상부터 시야 전체의 완전한 대체까지 다양한 효과를 생산한다. [키위미러](/kiwiki/viruses/kiwimirror.md)는 감염자가 자신의 반영이 독립적으로 움직이는 것을 보게 한다. [키위드리프트](/kiwiki/viruses/kiwidrift.md)는 감염자의 색 인지를 점진적으로 이동시켜 가시 스펙트럼이 완전히 재배치되게 한다. [키위스팟](/kiwiki/viruses/kiwispot.md)은 가장 심각한 유형 중 하나로, 감염자가 전혀 볼 수 없는 시야 영역을 점진적으로 확장시키며, 뇌가 조작된 데이터로 이를 채운다.
 {: .ko}
 
-最も頻度の高い領域である。視覚感覚型ウイルスは、微細な色彩変化や残像から視野全体の完全な置換まで多様な効果を生み出す。[ミラーリンク](/kiwiki/viruses/kiwimirror.md)は感染者の鏡像が独立して動くのを見せる。[クロマドリフト](/kiwiki/viruses/kiwidrift.md)は感染者の色知覚を漸進的にずらし、可視スペクトルが完全に再配置される。[ブラインドスポット](/kiwiki/viruses/kiwispot.md)は最も深刻な類型の1つで、感染者が全く見えない視野領域を漸進的に拡大し、脳が捏造データでそれを埋める。
+最も頻度の高い領域である。視覚感覚型ウイルスは、微細な色彩変化や残像から視野全体の完全な置換まで多様な効果を生み出す。[キウイミラー](/kiwiki/viruses/kiwimirror.md)は感染者の鏡像が独立して動くのを見せる。[キウイドリフト](/kiwiki/viruses/kiwidrift.md)は感染者の色知覚を漸進的にずらし、可視スペクトルが完全に再配置される。[キウイスポット](/kiwiki/viruses/kiwispot.md)は最も深刻な類型の1つで、感染者が全く見えない視野領域を漸進的に拡大し、脳が捏造データでそれを埋める。
 {: .ja}
 
 ### 청각
@@ -104,7 +104,7 @@ Auditory variants introduce phantom sounds or distort existing ones. [KiwiHowl](
 청각 변종은 유령 소리를 도입하거나 기존 소리를 왜곡한다. [키위하울](/kiwiki/viruses/kiwihowl.md)는 음성 메시지를 통해 전파되며, 감염자가 밀폐된 공간에서 더 커지는 지속적이고 먼 울음소리를 듣게 만든다. [키위보이스](/kiwiki/viruses/kiwivoice.md)는 모든 사람의 목소리가 유리를 통해 공명하는 것처럼 들리게 하여, 음성 이해력을 점진적으로 파편화시킨다.
 {: .ko}
 
-聴覚変種は幻聴を導入するか既存の音を歪める。[ハウルリンク](/kiwiki/viruses/kiwihowl.md)はボイスメッセージを通じて伝播し、密閉空間で大きくなる持続的で遠い遠吠えを感染者に聞かせる。[グラスボイス](/kiwiki/viruses/kiwivoice.md)はすべての人間の声がガラスを通して共鳴しているように聞こえさせ、音声理解力を漸進的に断片化させる。
+聴覚変種は幻聴を導入するか既存の音を歪める。[キウイハウル](/kiwiki/viruses/kiwihowl.md)はボイスメッセージを通じて伝播し、密閉空間で大きくなる持続的で遠い遠吠えを感染者に聞かせる。[キウイボイス](/kiwiki/viruses/kiwivoice.md)はすべての人間の声がガラスを通して共鳴しているように聞こえさせ、音声理解力を漸進的に断片化させる。
 {: .ja}
 
 ### 촉각
@@ -122,7 +122,7 @@ The rarest sensory domain, but among the most distressing. [KiwiTouch](/kiwiki/v
 가장 드문 감각 영역이지만 가장 고통스러운 유형 중 하나다. [키위터치](/kiwiki/viruses/kiwitouch.md)는 감염자가 피부 위에 유령 실이나 섬유를 느끼게 하며, 점차 손가락과 팔다리를 감싸는 것처럼 느끼게 한다. 촉각 변종은 신체의 고유 감각 체계가 거짓 감각을 강화하기 때문에 치료에 특히 저항적이다.
 {: .ko}
 
-最も稀な感覚領域だが、最も苦痛な類型の1つである。[タングルタッチ](/kiwiki/viruses/kiwitouch.md)は感染者の皮膚に幻の糸や繊維を感じさせ、徐々に指や四肢に絡みつくように感じさせる。触覚変種は、身体の固有感覚システムが偽の感覚を強化するため、治療に特に抵抗性がある。
+最も稀な感覚領域だが、最も苦痛な類型の1つである。[キウイタッチ](/kiwiki/viruses/kiwitouch.md)は感染者の皮膚に幻の糸や繊維を感じさせ、徐々に指や四肢に絡みつくように感じさせる。触覚変種は、身体の固有感覚システムが偽の感覚を強化するため、治療に特に抵抗性がある。
 {: .ja}
 
 ## 알려진 감각형 바이러스
@@ -168,14 +168,14 @@ The rarest sensory domain, but among the most distressing. [KiwiTouch](/kiwiki/v
 
 | ウイルス | 経路 | 重症度 | 感覚領域 |
 |----------|------|--------|----------|
-| [ミラーリンク](/kiwiki/viruses/kiwimirror.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 視覚 |
-| [ピクセルロット](/kiwiki/viruses/kiwirot.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-moderate">中</span> | 視覚 |
-| [ハウルリンク](/kiwiki/viruses/kiwihowl.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 聴覚 |
-| [ブラインドスポット](/kiwiki/viruses/kiwispot.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-critical">致命的</span> | 視覚 |
-| [クロマドリフト](/kiwiki/viruses/kiwidrift.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 視覚 |
-| [タングルタッチ](/kiwiki/viruses/kiwitouch.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 触覚 |
-| [グラスボイス](/kiwiki/viruses/kiwivoice.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-high">高</span> | 聴覚 |
-| [アフターイメージ](/kiwiki/viruses/kiwiafter.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 視覚 |
+| [キウイミラー](/kiwiki/viruses/kiwimirror.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-high">高</span> | 視覚 |
+| [キウイロット](/kiwiki/viruses/kiwirot.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-moderate">中</span> | 視覚 |
+| [キウイハウル](/kiwiki/viruses/kiwihowl.md) | <span class="pill pill-vector">メッセンジャー</span> | <span class="pill pill-severity-high">高</span> | 聴覚 |
+| [キウイスポット](/kiwiki/viruses/kiwispot.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-critical">致命的</span> | 視覚 |
+| [キウイドリフト](/kiwiki/viruses/kiwidrift.md) | <span class="pill pill-vector">直接アクセス</span> | <span class="pill pill-severity-high">高</span> | 視覚 |
+| [キウイタッチ](/kiwiki/viruses/kiwitouch.md) | <span class="pill pill-vector">SNS</span> | <span class="pill pill-severity-moderate">中</span> | 触覚 |
+| [キウイボイス](/kiwiki/viruses/kiwivoice.md) | <span class="pill pill-vector">メール</span> | <span class="pill pill-severity-high">高</span> | 聴覚 |
+| [キウイアフター](/kiwiki/viruses/kiwiafter.md) | <span class="pill pill-vector">検索エンジン</span> | <span class="pill pill-severity-moderate">中</span> | 視覚 |
 
 </div>
 
@@ -194,7 +194,7 @@ The rarest sensory domain, but among the most distressing. [KiwiTouch](/kiwiki/v
 감각형 바이러스에서의 [경계 무너짐](boundary-collapse.md)은 특징적인 패턴을 따른다. 초기에는 감염자가 감염 경로를 능동적으로 사용할 때만(예: 핸드폰 화면을 볼 때) 왜곡이 나타난다. 2단계에서는 기기를 내려놓은 후에도 왜곡이 잠시 지속된다. 3단계에서는 왜곡이 상시적이며 기기 독립적이 된다. 최종 단계는 -- [키위스팟](/kiwiki/viruses/kiwispot.md)과 같은 중증 사례에서 기록된 -- [비가역적 변형](irreversible.md)을 수반하며, 감각 기관 자체가 영구적으로 변형된다. 말기 키위스팟 감염자의 눈에는 물리적 손상이 없으나, fMRI 스캔에서는 시각 피질이 시신경이 아닌 출처의 입력을 처리하고 있음이 밝혀진다.
 {: .ko}
 
-感覚型ウイルスにおける[境界崩壊](boundary-collapse.md)は特徴的なパターンに従う。初期には、感染者が感染経路を能動的に使用している時のみ（例：スマートフォンの画面を見ている時）歪みが現れる。第2段階では、デバイスを置いた後も歪みが短時間持続する。第3段階では、歪みが常時かつデバイス非依存となる。最終段階は――[ブラインドスポット](/kiwiki/viruses/kiwispot.md)のような重症例で記録された――[不可逆的変容](irreversible.md)を伴い、感覚器官自体が恒久的に変容する。末期ブラインドスポット感染者の目には物理的損傷がないが、fMRIスキャンでは視覚皮質が視神経ではない入力源を処理していることが判明する。
+感覚型ウイルスにおける[境界崩壊](boundary-collapse.md)は特徴的なパターンに従う。初期には、感染者が感染経路を能動的に使用している時のみ（例：スマートフォンの画面を見ている時）歪みが現れる。第2段階では、デバイスを置いた後も歪みが短時間持続する。第3段階では、歪みが常時かつデバイス非依存となる。最終段階は――[キウイスポット](/kiwiki/viruses/kiwispot.md)のような重症例で記録された――[不可逆的変容](irreversible.md)を伴い、感覚器官自体が恒久的に変容する。末期キウイスポット感染者の目には物理的損傷がないが、fMRIスキャンでは視覚皮質が視神経ではない入力源を処理していることが判明する。
 {: .ja}
 
 ## 관련 개념
@@ -220,6 +220,6 @@ The rarest sensory domain, but among the most distressing. [KiwiTouch](/kiwiki/v
 
 - [ロジック型](logic.md) -- しばしば対比される；ロジック型は決定を、感覚型は知覚を汚染
 - [境界崩壊](boundary-collapse.md) -- 感覚型崩壊はデバイス依存からデバイス非依存への進行に従う
-- [不可逆的変形](irreversible.md) -- ブラインドスポットが不可逆的感覚変化の確認された症例
+- [不可逆的変形](irreversible.md) -- キウイスポットが不可逆的感覚変化の確認された症例
 - [発現](manifestation.md) -- 感覚的発現が外部から最も可視的なカテゴリ
 {: .ja}

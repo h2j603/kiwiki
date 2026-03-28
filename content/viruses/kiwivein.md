@@ -239,7 +239,7 @@ Messages "deleted for everyone" on messengers sometimes persist as residual data
 - メッセンジャーで削除されたメッセージがあるチャットルームから退室すること
 - デバイスのキャッシュを定期的に完全削除する
 - 静脈が発見されたら該当の表面を物理的に除去（壁紙の張り替え、塗り直し）する——初期段階でのみ有効
-- [グリッチモス](kiwimoss.md)感染空間との近接を必ず避けること
+- [キウイモス](kiwimoss.md)感染空間との近接を必ず避けること
 {: .ja}
 
 
@@ -293,9 +293,9 @@ Discovered in autumn 2025 when an apartment management office received a report 
 - [KiwiSyntax](kiwisyntax.md): Analysis suggests KiwiVein's vein patterns resemble programming language syntax structures, and its connection to KiwiSyntax is under investigation.
 {: .en}
 
-- [グリッチモス（KiwiMoss）](kiwimoss.md)：同じ環境型ウイルス。グリッチモスが空間を「腐食」させるなら、キャッシュベインは空間を「配線」する。両ウイルスが同じ空間に存在すると建物崩壊のリスクが急激に上昇する。
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：メッセンジャーという伝播経路を共有。ヌルウィスパーの空メッセージが削除されることでキャッシュベインの養分になるという仮説がある。
-- [シンタックスレイス（KiwiSyntax）](kiwisyntax.md)：キャッシュベインが生み出す静脈パターンがプログラミング言語の構文構造に類似しているという分析があり、シンタックスレイスとの関連性が研究中である。
+- [キウイモス（KiwiMoss）](kiwimoss.md)：同じ環境型ウイルス。キウイモスが空間を「腐食」させるなら、キウイベインは空間を「配線」する。両ウイルスが同じ空間に存在すると建物崩壊のリスクが急激に上昇する。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：メッセンジャーという伝播経路を共有。キウィスパーの空メッセージが削除されることでキウイベインの養分になるという仮説がある。
+- [キウイシンタックス（KiwiSyntax）](kiwisyntax.md)：キウイベインが生み出す静脈パターンがプログラミング言語の構文構造に類似しているという分析があり、キウイシンタックスとの関連性が研究中である。
 {: .ja}
 
 
@@ -322,7 +322,7 @@ Discovered in autumn 2025 when an apartment management office received a report 
 - Data flowing through veins includes deleted messages from not only the infected person but also those around them, raising privacy concerns.
 {: .en}
 
-- キャッシュベインは現在まで発見された環境型ウイルスの中で最も最近発見されたが、伝播速度は最も速い
+- キウイベインは現在まで発見された環境型ウイルスの中で最も最近発見されたが、伝播速度は最も速い
 - 静脈を通じて流れるデータには感染者だけでなく周囲の人々の削除メッセージの内容も含まれており、プライバシー侵害の問題も提起されている
 {: .ja}
 

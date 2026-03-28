@@ -77,7 +77,7 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 An Environmental-type virus contracted by accessing forgotten server infrastructure management pages. Cables, wires, and cords in the infected person's space begin growing like plant roots—extending, branching, and burrowing into walls and floors, moving autonomously to seek power sources. They connect devices that should never be connected, resulting in unpredictable electronic and physical phenomena. KiwiRoot is one of the oldest Environmental-type viruses and is recorded as the first case of digital infrastructure mutating into physical living organisms.
 {: .en}
 
-忘れ去られたサーバーインフラ管理ページにアクセスすると感染する環境型ウイルス。感染者の空間にあるケーブル、電線、コード類が植物の根のように成長し始める。延長し、分岐し、壁や床の中に潜り込み、電源を求めて自ら移動する。接続されるべきでない機器同士を接続し、その結果予測不可能な電子的・物理的現象を引き起こす。ワイヤールートは最も古い環境型ウイルスの一つであり、デジタルインフラが物理的生命体に変異する最初の事例として記録されている。
+忘れ去られたサーバーインフラ管理ページにアクセスすると感染する環境型ウイルス。感染者の空間にあるケーブル、電線、コード類が植物の根のように成長し始める。延長し、分岐し、壁や床の中に潜り込み、電源を求めて自ら移動する。接続されるべきでない機器同士を接続し、その結果予測不可能な電子的・物理的現象を引き起こす。キウイルートは最も古い環境型ウイルスの一つであり、デジタルインフラが物理的生命体に変異する最初の事例として記録されている。
 {: .ja}
 
 
@@ -289,9 +289,9 @@ The first recorded infection occurred in autumn 2024, when a former employee of 
 - [KiwiSpace](kiwispace.md): Cables rendered invisible by KiwiSpace become impossible to remove, effectively making KiwiRoot's spread unstoppable.
 {: .en}
 
-- [キャッシュベイン（KiwiVein）](kiwivein.md)：キャッシュベインのデータ血管とワイヤールートのケーブル根は物理的形態が類似しており、同時感染時、血管とケーブルが融合して「データを輸送する生きたインフラ」が形成される。
-- [スタティックブルーム（KiwiBloom）](kiwibloom.md)：ワイヤールートのケーブルネットワークが形成された空間でスタティックブルームが発現すると、静電気放電がケーブルを伝って接続されたすべての機器に影響を与える。
-- [ヌルスペース（KiwiSpace）](kiwispace.md)：ヌルスペースによって見えなくなったケーブルは除去が不可能となり、ワイヤールートの拡散を事実上阻止できなくなる。
+- [キウイベイン（KiwiVein）](kiwivein.md)：キウイベインのデータ血管とキウイルートのケーブル根は物理的形態が類似しており、同時感染時、血管とケーブルが融合して「データを輸送する生きたインフラ」が形成される。
+- [キウイブルーム（KiwiBloom）](kiwibloom.md)：キウイルートのケーブルネットワークが形成された空間でキウイブルームが発現すると、静電気放電がケーブルを伝って接続されたすべての機器に影響を与える。
+- [キウイスペース（KiwiSpace）](kiwispace.md)：キウイスペースによって見えなくなったケーブルは除去が不可能となり、キウイルートの拡散を事実上阻止できなくなる。
 {: .ja}
 
 
@@ -318,7 +318,7 @@ The first recorded infection occurred in autumn 2024, when a former employee of 
 - In the oldest infection case, cable roots reached the building's basement and connected directly to the city power grid, causing severe instability in the entire building's electrical system.
 {: .en}
 
-- ワイヤールートによって成長したケーブルは実際にデータを伝送でき、伝送されるデータは感染者がアクセスした閉鎖サーバーの残存データであることが確認されている——死んだサーバーのデータが物理的ケーブルを通じて「復活」するのである。
+- キウイルートによって成長したケーブルは実際にデータを伝送でき、伝送されるデータは感染者がアクセスした閉鎖サーバーの残存データであることが確認されている——死んだサーバーのデータが物理的ケーブルを通じて「復活」するのである。
 - 最も古い感染事例では、ケーブルの根が建物の地下まで到達して都市の電力網に直接接続した場合が報告されており、これは該当建物全体の電気システムに深刻な不安定をもたらした。
 {: .ja}
 

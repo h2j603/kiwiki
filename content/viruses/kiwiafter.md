@@ -288,9 +288,9 @@ Discovered in autumn 2025 when a photo editor visited an ophthalmologist complai
 - [KiwiRot](kiwirot.md): When KiwiAfter accumulates afterimages while KiwiRot corrodes visual forms, afterimages of corroded images persist and the visual field becomes like "digital ruins."
 {: .en}
 
-- [ゴーストピング（KiwiGhost）](kiwighost.md)：検索エンジンベクターを共有しており、ゴーストピングのファントム通知がアフターイメージの残像と視覚的に重なる事例が報告されている。ゴーストピングの確認強迫が画像検索頻度を増加させ、アフターイメージの感染を加速させる可能性がある。
-- [クロマドリフト（KiwiDrift）](kiwidrift.md)：クロマドリフトによって色が反転した状態でアフターイメージが形成されると、反転された色の残像が永続的に蓄積され二重の歪みが発生する。
-- [ピクセルロット（KiwiRot）](kiwirot.md)：ピクセルロットが視覚的形態を腐食させている間にアフターイメージが残像を蓄積すると、腐食した画像の残像が残り視野が「デジタル廃墟」のようになる。
+- [キウイゴースト（KiwiGhost）](kiwighost.md)：検索エンジンベクターを共有しており、キウイゴーストのファントム通知がキウイアフターの残像と視覚的に重なる事例が報告されている。キウイゴーストの確認強迫が画像検索頻度を増加させ、キウイアフターの感染を加速させる可能性がある。
+- [キウイドリフト（KiwiDrift）](kiwidrift.md)：キウイドリフトによって色が反転した状態でキウイアフターが形成されると、反転された色の残像が永続的に蓄積され二重の歪みが発生する。
+- [キウイロット（KiwiRot）](kiwirot.md)：キウイロットが視覚的形態を腐食させている間にキウイアフターが残像を蓄積すると、腐食した画像の残像が残り視野が「デジタル廃墟」のようになる。
 {: .ja}
 
 
@@ -317,8 +317,8 @@ Discovered in autumn 2025 when a photo editor visited an ophthalmologist complai
 - People with inherently weak afterimage perception (approximately 2% of the population) have been observed to possess natural resistance to KiwiAfter, and their visual processing mechanisms may hold clues for developing treatments.
 {: .en}
 
-- アフターイメージ感染者が蓄積した残像の数は一種の「視覚的記録」として、感染者の検索履歴を逆追跡するのに活用できる。一部の研究者はこれを「網膜考古学」と呼んでいる。
-- 先天的に残像認知が弱い人（人口の約2%）はアフターイメージに対する自然耐性を持つことが観察されており、彼らの視覚処理メカニズムが治療法開発の手がかりとなる可能性がある。
+- キウイアフター感染者が蓄積した残像の数は一種の「視覚的記録」として、感染者の検索履歴を逆追跡するのに活用できる。一部の研究者はこれを「網膜考古学」と呼んでいる。
+- 先天的に残像認知が弱い人（人口の約2%）はキウイアフターに対する自然耐性を持つことが観察されており、彼らの視覚処理メカニズムが治療法開発の手がかりとなる可能性がある。
 {: .ja}
 
 <div class="edit-history">

@@ -283,9 +283,9 @@ Discovered in early 2025 when a forum post titled "Why do I keep searching the s
 - [KiWhisper](kiwhisper.md): Reports suggest KiwiEcho-infected individuals show increased susceptibility to KiWhisper when using messengers.
 {: .en}
 
-- [デッドスクロール（KiwiScroll）](kiwiscroll.md)：同じ認知型ウイルス。エコループが検索の反復なら、デッドスクロールはスクロールの反復に由来する。
-- [シンタックスレイス（KiwiSyntax）](kiwisyntax.md)：反復的思考パターンという点では類似するが、シンタックスレイスは思考の*構造*を変形させる。
-- [ヌルウィスパー（KiWhisper）](kiwhisper.md)：エコループ感染者がメッセンジャーを使用するとヌルウィスパーへの感受性が高まるとの報告がある。
+- [キウイスクロール（KiwiScroll）](kiwiscroll.md)：同じ認知型ウイルス。キウイエコーが検索の反復なら、キウイスクロールはスクロールの反復に由来する。
+- [キウイシンタックス（KiwiSyntax）](kiwisyntax.md)：反復的思考パターンという点では類似するが、キウイシンタックスは思考の*構造*を変形させる。
+- [キウィスパー（KiWhisper）](kiwhisper.md)：キウイエコー感染者がメッセンジャーを使用するとキウィスパーへの感受性が高まるとの報告がある。
 {: .ja}
 
 

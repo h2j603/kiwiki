@@ -231,7 +231,7 @@ When a live stream terminates abnormally without the broadcaster's intent, "resi
 - 異常終了したライブ配信のアーカイブ・クリップの視聴を控えること
 - 感染初期に空間の湿度を80%以上に上げると静電気の花の成長が抑制される
 - 花が出現した空間からすべての電子機器を撤去すると花のエネルギー源が遮断され、24時間以内に消滅する
-- [グリッチモス](kiwimoss.md)感染空間と異なり、早期対応で完全回復が可能
+- [キウイモス](kiwimoss.md)感染空間と異なり、早期対応で完全回復が可能
 {: .ja}
 
 
@@ -285,9 +285,9 @@ Discovered in spring 2025 when a gamer posted a photo on social media with the c
 - [KiwiVein](kiwivein.md): When KiwiBloom's static field meets KiwiVein's veins, current flows through the veins and luminescence is maximized.
 {: .en}
 
-- [グリッチモス（KiwiMoss）](kiwimoss.md)：同じ環境型だが、グリッチモスが腐食ならスタティックブルームは成長。グリッチモスの空間にスタティックブルームが流入すると、花が腐食した表面を養分にして爆発的に増殖する。
-- [ミラーリンク（KiwiMirror）](kiwimirror.md)：SNS伝播経路を共有。スタティックブルームの花が反射面に咲いた場合、ミラーリンク感染者にだけ花が「動いている」ように見える。
-- [キャッシュベイン（KiwiVein）](kiwivein.md)：スタティックブルームの静電気場とキャッシュベインの静脈が出会うと静脈に電流が流れ、発光現象が最大化される。
+- [キウイモス（KiwiMoss）](kiwimoss.md)：同じ環境型だが、キウイモスが腐食ならキウイブルームは成長。キウイモスの空間にキウイブルームが流入すると、花が腐食した表面を養分にして爆発的に増殖する。
+- [キウイミラー（KiwiMirror）](kiwimirror.md)：SNS伝播経路を共有。キウイブルームの花が反射面に咲いた場合、キウイミラー感染者にだけ花が「動いている」ように見える。
+- [キウイベイン（KiwiVein）](kiwivein.md)：キウイブルームの静電気場とキウイベインの静脈が出会うと静脈に電流が流れ、発光現象が最大化される。
 {: .ja}
 
 
@@ -312,7 +312,7 @@ Discovered in spring 2025 when a gamer posted a photo on social media with the c
 - KiwiBloom is the only Web Kiwi Virus described as "beautiful." Some infected individuals have intentionally tried to cultivate the flowers, reaching terminal stages.
 {: .en}
 
-- スタティックブルームは唯一「美しい」と評されるウェブキウイウイルスである。一部の感染者が意図的に花を育てようとして末期に至った事例がある
+- キウイブルームは唯一「美しい」と評されるウェブキウイウイルスである。一部の感染者が意図的に花を育てようとして末期に至った事例がある
 {: .ja}
 
 <div class="edit-history">

@@ -288,9 +288,9 @@ Discovered in winter 2024 when all work delivered by a graphic designer to clien
 - [KiwiSpot](kiwispot.md): When KiwiSpot blocks certain visual areas while KiwiDrift inverts colors, "inverted colors" and "invisible zones" coexist in the infected person's visual world.
 {: .en}
 
-- [ピクセルロット（KiwiRot）](kiwirot.md)：ピクセルロットが視覚的形態を腐食させるのに対し、クロマドリフトは色彩そのものを反転させる。同時感染時、視覚情報全体が解体され、事実上視覚的な現実認識が不可能になる。
-- [アフターイメージ（KiwiAfter）](kiwiafter.md)：クロマドリフトによって反転された色でアフターイメージの残像が残る場合、二重に歪んだ視覚情報が永続的に蓄積される。
-- [ブラインドスポット（KiwiSpot）](kiwispot.md)：クロマドリフトが色を反転させている間にブラインドスポットが特定の視覚領域を遮断すると、感染者の視覚世界に「反転された色」と「見えない領域」が共存することになる。
+- [キウイロット（KiwiRot）](kiwirot.md)：キウイロットが視覚的形態を腐食させるのに対し、キウイドリフトは色彩そのものを反転させる。同時感染時、視覚情報全体が解体され、事実上視覚的な現実認識が不可能になる。
+- [キウイアフター（KiwiAfter）](kiwiafter.md)：キウイドリフトによって反転された色でキウイアフターの残像が残る場合、二重に歪んだ視覚情報が永続的に蓄積される。
+- [キウイスポット（KiwiSpot）](kiwispot.md)：キウイドリフトが色を反転させている間にキウイスポットが特定の視覚領域を遮断すると、感染者の視覚世界に「反転された色」と「見えない領域」が共存することになる。
 {: .ja}
 
 
@@ -317,8 +317,8 @@ Discovered in winter 2024 when all work delivered by a graphic designer to clien
 - Some artists have produced works under KiwiDrift-inverted color perception that are being evaluated as a new genre called "inversion aesthetics" in the art world, but researchers view this as cultural entrenchment of the virus and urge caution.
 {: .en}
 
-- クロマドリフトは現在まで発見された感覚型ウイルスの中で最も古いもので、最初の感染事例は2024年冬だが、ウイルス自体は2000年代初頭から潜伏していたと推定される。
-- 一部のアーティストがクロマドリフトによる反転色覚状態で制作した作品が美術界で「反転美学」という新ジャンルとして評価されているが、研究者たちはこれをウイルスの文化的定着と見て警戒している。
+- キウイドリフトは現在まで発見された感覚型ウイルスの中で最も古いもので、最初の感染事例は2024年冬だが、ウイルス自体は2000年代初頭から潜伏していたと推定される。
+- 一部のアーティストがキウイドリフトによる反転色覚状態で制作した作品が美術界で「反転美学」という新ジャンルとして評価されているが、研究者たちはこれをウイルスの文化的定着と見て警戒している。
 {: .ja}
 
 <div class="edit-history">

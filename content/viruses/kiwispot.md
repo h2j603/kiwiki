@@ -235,7 +235,7 @@ Infection occurs simply by reading a search result preview snippet that contains
 - 検索結果を読む前にテキスト専用ブラウザでHTMLソースを確認する
 - 感染初期に視野消失部位を正確に記録し、進行を追跡する
 - 消失領域が中心部に達する前に「視覚再訓練」（消失領域を意識的に直視する）を行うと進行が止まる事例が報告されている
-- [ピクセルロット](kiwirot.md)との同時感染が疑われる場合は直ちにすべての画面使用を中止すること
+- [キウイロット](kiwirot.md)との同時感染が疑われる場合は直ちにすべての画面使用を中止すること
 {: .ja}
 
 
@@ -289,9 +289,9 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 - [KiwiMoss](kiwimoss.md): A hypothesis exists that when KiwiSpot's vision loss and KiwiMoss's spatial corrosion overlap in the same area, "spaces that exist neither in perception nor physically" are created.
 {: .en}
 
-- [ピクセルロット（KiwiRot）](kiwirot.md)：同じ感覚型の視覚ウイルス。ピクセルロットが視覚を「ぼかす」なら、ブラインドスポットは視覚を「消す」。同時感染は視覚機能の完全喪失につながりうる。
-- [エコループ（KiwiEcho）](kiwiecho.md)：検索エンジンという伝播経路を共有。エコループで同じ検索を繰り返すとブラインドスポットの変異メタタグへの累積曝露が生じ、感染確率が急上昇する。
-- [グリッチモス（KiwiMoss）](kiwimoss.md)：ブラインドスポットの視野消失とグリッチモスの空間腐食が同じ領域で重なると「認識上も物理的にも存在しない空間」が生まれるという仮説がある。
+- [キウイロット（KiwiRot）](kiwirot.md)：同じ感覚型の視覚ウイルス。キウイロットが視覚を「ぼかす」なら、キウイスポットは視覚を「消す」。同時感染は視覚機能の完全喪失につながりうる。
+- [キウイエコー（KiwiEcho）](kiwiecho.md)：検索エンジンという伝播経路を共有。キウイエコーで同じ検索を繰り返すとキウイスポットの変異メタタグへの累積曝露が生じ、感染確率が急上昇する。
+- [キウイモス（KiwiMoss）](kiwimoss.md)：キウイスポットの視野消失とキウイモスの空間腐食が同じ領域で重なると「認識上も物理的にも存在しない空間」が生まれるという仮説がある。
 {: .ja}
 
 
@@ -318,7 +318,7 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 - The inability to relay messages placed in areas invisible to the infected person poses a major obstacle to rescue operations.
 {: .en}
 
-- ブラインドスポットは感覚型ウイルスの中で唯一「致命的」等級を受けた種であり、視覚消失の不可逆性がその理由である
+- キウイスポットは感覚型ウイルスの中で唯一「致命的」等級を受けた種であり、視覚消失の不可逆性がその理由である
 - 感染者に見えない領域にメッセージを置いても伝達不可能という点が、救護活動の大きな障害となっている
 {: .ja}
 

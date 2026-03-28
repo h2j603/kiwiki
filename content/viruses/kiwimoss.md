@@ -299,9 +299,9 @@ Discovered in summer 2024 when an urban exploration community reported strange p
 - [KiwiMirror](kiwimirror.md): Corrosion similar to KiwiMoss has been observed on reflective surfaces near late-stage KiwiMirror patients.
 {: .en}
 
-- [キャッシュベイン（KiwiVein）](kiwivein.md)：同じ環境型ウイルス。グリッチモスが空間を腐食させるなら、キャッシュベインは空間にデータの物理的痕跡を刻む。両ウイルスが同時に存在する空間は極めて危険である。
-- [シンタックスレイス（KiwiSyntax）](kiwisyntax.md)：直接アクセスという伝播経路を共有。グリッチモスが放棄されたページから、シンタックスレイスは放置されたコードリポジトリから発生する。
-- [ミラーリンク（KiwiMirror）](kiwimirror.md)：ミラーリンク末期患者周辺の反射面でグリッチモスに類似した腐食が観察された事例がある。
+- [キウイベイン（KiwiVein）](kiwivein.md)：同じ環境型ウイルス。キウイモスが空間を腐食させるなら、キウイベインは空間にデータの物理的痕跡を刻む。両ウイルスが同時に存在する空間は極めて危険である。
+- [キウイシンタックス（KiwiSyntax）](kiwisyntax.md)：直接アクセスという伝播経路を共有。キウイモスが放棄されたページから、キウイシンタックスは放置されたコードリポジトリから発生する。
+- [キウイミラー（KiwiMirror）](kiwimirror.md)：キウイミラー末期患者周辺の反射面でキウイモスに類似した腐食が観察された事例がある。
 {: .ja}
 
 

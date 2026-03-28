@@ -285,9 +285,9 @@ In autumn 2025, a photographer searching thousands of reference images discovere
 - [KiwiVein](kiwivein.md): KiwiVein's physical data veins have been reported to spread along KiwiRust's corrosion patterns when formed on metal surfaces.
 {: .en}
 
-- [ピクセルロット（KiwiRot）](kiwirot.md)：同じピクセル関連の環境型ウイルス。ピクセルロットが有機物をデジタルパターンに分解するのに対し、ラストピクセルは金属をデジタルパターンに腐食させる——二つのウイルスが同時に発現すると周囲環境全体がビットマップ化される。
-- [グリッチモス（KiwiMoss）](kiwimoss.md)：グリッチモスのデジタル苔とラストピクセルのデジタル錆は物理的発現メカニズムが類似しており、同時感染時、金属表面の錆の上に苔が生える「デジタル風化」現象が観察される。
-- [キャッシュベイン（KiwiVein）](kiwivein.md)：キャッシュベインの物理的データ血管が金属表面に形成されるとラストピクセルの腐食パターンに沿って拡散する傾向が報告されている。
+- [キウイロット（KiwiRot）](kiwirot.md)：同じピクセル関連の環境型ウイルス。キウイロットが有機物をデジタルパターンに分解するのに対し、キウイラストは金属をデジタルパターンに腐食させる——二つのウイルスが同時に発現すると周囲環境全体がビットマップ化される。
+- [キウイモス（KiwiMoss）](kiwimoss.md)：キウイモスのデジタル苔とキウイラストのデジタル錆は物理的発現メカニズムが類似しており、同時感染時、金属表面の錆の上に苔が生える「デジタル風化」現象が観察される。
+- [キウイベイン（KiwiVein）](kiwivein.md)：キウイベインの物理的データ血管が金属表面に形成されるとキウイラストの腐食パターンに沿って拡散する傾向が報告されている。
 {: .ja}
 
 
@@ -314,8 +314,8 @@ In autumn 2025, a photographer searching thousands of reference images discovere
 - Some artists attempted to intentionally use KiwiRust to "print" images onto metal plates, but cases have been reported where corrosion spread uncontrollably, destroying all metal objects in the entire studio.
 {: .en}
 
-- ラストピクセルによって腐食した金属を顕微鏡で観察すると、腐食パターンの最小単位が正確に1ピクセルサイズ（約0.26mm）に対応することが確認されている——デジタルと物理の正確な1：1対応。
-- 一部のアーティストがラストピクセルを意図的に利用して金属板に画像を「印刷」する試みをしたが、腐食が制御不能に拡散し、スタジオ全体の金属物体が破壊された事例が報告されている。
+- キウイラストによって腐食した金属を顕微鏡で観察すると、腐食パターンの最小単位が正確に1ピクセルサイズ（約0.26mm）に対応することが確認されている——デジタルと物理の正確な1：1対応。
+- 一部のアーティストがキウイラストを意図的に利用して金属板に画像を「印刷」する試みをしたが、腐食が制御不能に拡散し、スタジオ全体の金属物体が破壊された事例が報告されている。
 {: .ja}
 
 <div class="edit-history">

@@ -49,7 +49,7 @@ jobs:
           echo "=== script src in index.html ==="
           grep -o 'src="[^"]*kiwiki[^"]*"' _site/index.html || echo "NOT FOUND"
           echo "=== virus interactions count ==="
-          grep -c "echoloop\|deadscroll\|mirrorlink" _site/assets/js/kiwiki.js || echo "0"
+          grep -c "kiwiecho\|kiwiscroll\|kiwimirror" _site/assets/js/kiwiki.js || echo "0"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
