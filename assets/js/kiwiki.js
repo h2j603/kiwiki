@@ -17,7 +17,7 @@
 // --- INFECTION (runs immediately) ---
 (function(){
   try {
-    var vs = ['kiwiecho','kiwimirror','kiwirot','kiwiscroll','kiwimoss','kiwhisper','kiwispot','kiwitab','kiwibloom','kiwisyntax','kiwivein','kiwiforgot','kiwighost','kiwiparadox','kiwibleed','kiwiclip','kiwidrift','kiwitouch','kiwivoice','kiwiafter','kiwidream','kiwieater','kiwitime','kiwicut','kiwirust','kiwiroot','kiwiroom','kiwispace','kiwiloop','kiwishade','kiwihowl','kiwivoid'];
+    var vs = ['kiwiecho','kiwimirror','kiwirot','kiwiscroll','kiwimoss','kiwhisper','kiwispot','kiwitab','kiwibloom','kiwisyntax','kiwivein','kiwiforgot','kiwighost','kiwiparadox','kiwibleed','kiwiclip','kiwidrift','kiwitouch','kiwivoice','kiwiafter','kiwidream','kiwieater','kiwitime','kiwicut','kiwirust','kiwiroot','kiwiroom','kiwispace','kiwiloop','kiwishade','kiwihowl','kiwivoid','kiwizero'];
     var v = sessionStorage.getItem('kiwiki-virus');
     if (!v) { v = vs[Math.floor(Math.random()*vs.length)]; sessionStorage.setItem('kiwiki-virus', v); }
     document.documentElement.className += ' virus-' + v;
@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', function(){
   try {
     var v = window._kVirus;
     if (v) {
-      var names = {kiwiecho:'KiwiEcho',kiwimirror:'KiwiMirror',kiwirot:'KiwiRot',kiwiscroll:'KiwiScroll',kiwimoss:'KiwiMoss',kiwhisper:'KiWhisper',kiwispot:'KiwiSpot',kiwitab:'KiwiTab',kiwibloom:'KiwiBloom',kiwisyntax:'KiwiSyntax',kiwivein:'KiwiVein',kiwiforgot:'KiwiForgot',kiwighost:'KiwiGhost',kiwiparadox:'KiwiParadox',kiwibleed:'KiwiBleed',kiwiclip:'KiwiClip',kiwidrift:'KiwiDrift',kiwitouch:'KiwiTouch',kiwivoice:'KiwiVoice',kiwiafter:'KiwiAfter',kiwidream:'KiwiDream',kiwieater:'KiwiEater',kiwitime:'KiwiTime',kiwicut:'KiwiCut',kiwirust:'KiwiRust',kiwiroot:'KiwiRoot',kiwiroom:'KiwiRoom',kiwispace:'KiwiSpace',kiwiloop:'KiwiLoop',kiwishade:'KiwiShade',kiwihowl:'KiwiHowl',kiwivoid:'KiwiVoid'};
-      var codes = {kiwiecho:'WKV-C.SE-001',kiwimirror:'WKV-S.SN-001',kiwirot:'WKV-S.EM-002',kiwiscroll:'WKV-C.SN-002',kiwimoss:'WKV-E.DA-001',kiwhisper:'WKV-L.MS-001',kiwispot:'WKV-S.SE-004',kiwitab:'WKV-L.SN-003',kiwibloom:'WKV-E.SN-003',kiwisyntax:'WKV-L.DA-002',kiwivein:'WKV-E.MS-002',kiwiforgot:'WKV-C.EM-003',kiwighost:'WKV-L.SE-005',kiwiparadox:'WKV-L.DA-006',kiwibleed:'WKV-L.SN-007',kiwiclip:'WKV-L.MS-008',kiwidrift:'WKV-S.DA-005',kiwitouch:'WKV-S.SN-006',kiwivoice:'WKV-S.EM-007',kiwiafter:'WKV-S.SE-008',kiwidream:'WKV-C.SN-005',kiwieater:'WKV-C.DA-006',kiwitime:'WKV-C.SE-007',kiwicut:'WKV-C.MS-008',kiwirust:'WKV-E.SE-005',kiwiroot:'WKV-E.DA-006',kiwiroom:'WKV-E.SN-007',kiwispace:'WKV-E.MS-008',kiwiloop:'WKV-C.MS-004',kiwishade:'WKV-L.EM-004',kiwihowl:'WKV-S.MS-003',kiwivoid:'WKV-E.EM-004'};
+      var names = {kiwiecho:'KiwiEcho',kiwimirror:'KiwiMirror',kiwirot:'KiwiRot',kiwiscroll:'KiwiScroll',kiwimoss:'KiwiMoss',kiwhisper:'KiWhisper',kiwispot:'KiwiSpot',kiwitab:'KiwiTab',kiwibloom:'KiwiBloom',kiwisyntax:'KiwiSyntax',kiwivein:'KiwiVein',kiwiforgot:'KiwiForgot',kiwighost:'KiwiGhost',kiwiparadox:'KiwiParadox',kiwibleed:'KiwiBleed',kiwiclip:'KiwiClip',kiwidrift:'KiwiDrift',kiwitouch:'KiwiTouch',kiwivoice:'KiwiVoice',kiwiafter:'KiwiAfter',kiwidream:'KiwiDream',kiwieater:'KiwiEater',kiwitime:'KiwiTime',kiwicut:'KiwiCut',kiwirust:'KiwiRust',kiwiroot:'KiwiRoot',kiwiroom:'KiwiRoom',kiwispace:'KiwiSpace',kiwiloop:'KiwiLoop',kiwishade:'KiwiShade',kiwihowl:'KiwiHowl',kiwivoid:'KiwiVoid',kiwizero:'KiwiZero'};
+      var codes = {kiwiecho:'WKV-C.SE-001',kiwimirror:'WKV-S.SN-001',kiwirot:'WKV-S.EM-002',kiwiscroll:'WKV-C.SN-002',kiwimoss:'WKV-E.DA-001',kiwhisper:'WKV-L.MS-001',kiwispot:'WKV-S.SE-004',kiwitab:'WKV-L.SN-003',kiwibloom:'WKV-E.SN-003',kiwisyntax:'WKV-L.DA-002',kiwivein:'WKV-E.MS-002',kiwiforgot:'WKV-C.EM-003',kiwighost:'WKV-L.SE-005',kiwiparadox:'WKV-L.DA-006',kiwibleed:'WKV-L.SN-007',kiwiclip:'WKV-L.MS-008',kiwidrift:'WKV-S.DA-005',kiwitouch:'WKV-S.SN-006',kiwivoice:'WKV-S.EM-007',kiwiafter:'WKV-S.SE-008',kiwidream:'WKV-C.SN-005',kiwieater:'WKV-C.DA-006',kiwitime:'WKV-C.SE-007',kiwicut:'WKV-C.MS-008',kiwirust:'WKV-E.SE-005',kiwiroot:'WKV-E.DA-006',kiwiroom:'WKV-E.SN-007',kiwispace:'WKV-E.MS-008',kiwiloop:'WKV-C.MS-004',kiwishade:'WKV-L.EM-004',kiwihowl:'WKV-S.MS-003',kiwivoid:'WKV-E.EM-004',kiwizero:'WKV-0.ALL-000'};
 
       // Stage 1: Center splash
       var splash = document.createElement('div');
@@ -231,16 +231,38 @@ document.addEventListener('DOMContentLoaded', function(){
     setInterval(function(){document.title=document.title===origTitle?'\u25a0 '+origTitle:origTitle;},5000);
   } catch(e){} }
 
-  // KiwiBloom: something is growing in the page
+  // KiwiBloom: aggressive organic growth — page is being overtaken
   if (v === 'kiwibloom') { try {
+    // Phase 1: dark spots appear and grow (every 1s, multiple)
     setInterval(function(){
-      var bloom=document.createElement('div');
-      bloom.textContent='\u2022';
-      bloom.style.cssText='position:fixed;color:rgba(139,154,70,0.15);font-size:'+(4+Math.random()*20)+'px;pointer-events:none;z-index:9997;left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;transition:all 10s;';
-      document.body.appendChild(bloom);
-      setTimeout(function(){bloom.style.fontSize=(20+Math.random()*40)+'px';bloom.style.opacity='0';},100);
-      setTimeout(function(){bloom.remove();},10000);
-    },2000);
+      for (var bi = 0; bi < 3; bi++) {
+        var bloom = document.createElement('div');
+        bloom.style.cssText = 'position:fixed;border-radius:50%;background:radial-gradient(circle,rgba(58,90,28,0.08),rgba(139,154,70,0.03),transparent 70%);pointer-events:none;z-index:9997;width:10px;height:10px;left:' + Math.random()*100 + '%;top:' + Math.random()*100 + '%;transition:all 8s;';
+        document.body.appendChild(bloom);
+        setTimeout(function(b){ return function(){
+          var size = 60 + Math.random() * 150;
+          b.style.width = size + 'px'; b.style.height = size + 'px';
+          b.style.marginLeft = (-size/2) + 'px'; b.style.marginTop = (-size/2) + 'px';
+        };}(bloom), 100);
+      }
+    }, 1200);
+    // Phase 2: text develops organic texture
+    setInterval(function(){
+      var ps = document.querySelectorAll('.main-content p');
+      var p = ps[Math.floor(Math.random() * ps.length)];
+      if (p) {
+        p.style.background = 'linear-gradient(90deg, transparent, rgba(139,154,70,0.03) ' + Math.random()*50 + '%, transparent)';
+      }
+    }, 2000);
+    // Phase 3: hr lines thicken and turn green
+    setInterval(function(){
+      var hrs = document.querySelectorAll('.main-content hr');
+      for (var hi = 0; hi < hrs.length; hi++) {
+        hrs[hi].style.transition = 'all 3s';
+        hrs[hi].style.height = (2 + Math.random() * 4) + 'px';
+        hrs[hi].style.background = 'rgba(58,90,28,0.3)';
+      }
+    }, 5000);
   } catch(e){} }
 
   // KiwiSyntax: your language is being recompiled
@@ -591,6 +613,81 @@ document.addEventListener('DOMContentLoaded', function(){
         setTimeout(function(){p.style.height='0';p.style.margin='0';p.style.padding='0';p.style.overflow='hidden';},3000);
       }
     },6000);
+  } catch(e){} }
+
+  // KiwiZero: the primordial strain — everything becomes kiwi
+  if (v === 'kiwizero') { try {
+    // Phase 1: ㅋ/k/き words → 키위/kiwi/キウイ
+    var lang = window._kLang || 'en';
+    setInterval(function(){
+      var ps = document.querySelectorAll('.main-content p, .main-content li, .main-content td, .main-content a, .main-content h2');
+      var p = ps[Math.floor(Math.random() * ps.length)];
+      if (!p || !p.childNodes) return;
+      for (var ci = 0; ci < p.childNodes.length; ci++) {
+        var node = p.childNodes[ci];
+        if (node.nodeType !== 3) continue; // text nodes only
+        var t = node.textContent;
+        if (lang === 'ko') {
+          t = t.replace(/[ㅋ키코쿠크케카큐][가-힣]*/g, '키위');
+        } else if (lang === 'ja') {
+          t = t.replace(/[きキクケコカ][ぁ-ヿ]*/g, 'キウイ');
+        } else {
+          t = t.replace(/\b[kK]\w*/g, 'kiwi');
+        }
+        if (t !== node.textContent) node.textContent = t;
+      }
+    }, 1500);
+
+    // Phase 2: random text replaced with kiwi creature placeholder
+    var creatureImgs = [];
+    // Try loading creature images from folder
+    var imgFolder = '/kiwiki/assets/images/kiwi-creature/';
+    setInterval(function(){
+      var ps = document.querySelectorAll('.main-content p');
+      if (ps.length < 3) return;
+      var p = ps[Math.floor(Math.random() * ps.length)];
+      if (p.getAttribute('data-kiwified')) return;
+      if (Math.random() > 0.3) return; // 30% chance per tick
+      p.setAttribute('data-kiwified', '1');
+      // Try image replacement
+      var img = document.createElement('img');
+      img.src = imgFolder + 'creature-' + (Math.floor(Math.random() * 5) + 1) + '.png';
+      img.alt = 'kiwi creature';
+      img.style.cssText = 'max-width:120px;height:auto;display:inline-block;vertical-align:middle;margin:0 4px;opacity:0.8;';
+      img.onerror = function() {
+        // If image doesn't exist, use text placeholder
+        this.replaceWith(document.createTextNode(' [k\u0336i\u0336w\u0336i\u0336] '));
+      };
+      // Replace a random word with the creature
+      var words = p.innerHTML.split(' ');
+      if (words.length > 3) {
+        var idx = Math.floor(Math.random() * words.length);
+        var span = document.createElement('span');
+        span.appendChild(img);
+        words[idx] = span.outerHTML;
+        p.innerHTML = words.join(' ');
+      }
+    }, 4000);
+
+    // Phase 3: zalgo-kiwi text corruption
+    setInterval(function(){
+      var ps = document.querySelectorAll('.main-content p');
+      var p = ps[Math.floor(Math.random() * ps.length)];
+      if (!p || p.textContent.length < 5) return;
+      var t = p.textContent;
+      var pos = Math.floor(Math.random() * (t.length - 4));
+      p.textContent = t.substring(0, pos) + zalgo('kiwi', 2) + t.substring(pos + 4);
+    }, 5000);
+
+    // Phase 4: page title mutation
+    var titleTick = 0;
+    setInterval(function(){
+      titleTick++;
+      var t = document.title;
+      if (titleTick % 3 === 0) document.title = t.replace(/\b[kK]\w*/g, 'kiwi');
+      if (titleTick > 10) document.title = 'kiwi';
+    }, 3000);
+
   } catch(e){} }
 
 });

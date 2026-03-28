@@ -15,9 +15,9 @@ Web Kiwi Virus Wiki
 ウェブキウイウイルス ウィキ
 {: .ja}
 
-<div class="stats-bar en"><span>32 documented</span> <span>7 critical</span> <span>4 types</span> <span>5 vectors</span></div>
+<div class="stats-bar en"><span>33 documented</span> <span>1 primordial</span> <span>4 types</span> <span>5 vectors</span></div>
 
-<div class="stats-bar ko"><span>32종 문서화</span> <span>7종 치명적</span> <span>4개 유형</span> <span>5개 경로</span></div>
+<div class="stats-bar ko"><span>33종 문서화</span> <span>1종 원형</span> <span>4개 유형</span> <span>5개 경로</span></div>
 
 <div class="stats-bar ja"><span>32種 文書化</span> <span>7種 致命的</span> <span>4タイプ</span> <span>5経路</span></div>
 
@@ -26,6 +26,7 @@ Web Kiwi Virus Wiki
 
 | Code | Name | Type | Vector | Severity |
 |------|------|------|--------|----------|
+| <span class="pill pill-code">WKV-0.ALL-000</span> | [KiwiZero](viruses/kiwizero.md) | Primordial | All | <span class="pill pill-severity-critical">Unknown</span> |
 | <span class="pill pill-code">WKV-L.MS-001</span> | [KiWhisper](viruses/kiwhisper.md) | Logic | Messenger | <span class="pill pill-severity-high">High</span> |
 | <span class="pill pill-code">WKV-L.DA-002</span> | [KiwiSyntax](viruses/kiwisyntax.md) | Logic | Direct Access | <span class="pill pill-severity-moderate">Moderate</span> |
 | <span class="pill pill-code">WKV-L.SN-003</span> | [KiwiTab](viruses/kiwitab.md) | Logic | SNS | <span class="pill pill-severity-moderate">Moderate</span> |
@@ -72,6 +73,7 @@ Web Kiwi Virus Wiki
 
 | 코드 | 이름 | 유형 | 경로 | 위험도 |
 |------|------|------|------|--------|
+| <span class="pill pill-code">WKV-0.ALL-000</span> | [키위제로 / KiwiZero](viruses/kiwizero.md) | 원형 | 전 경로 | <span class="pill pill-severity-critical">불명</span> |
 | <span class="pill pill-code">WKV-L.MS-001</span> | [키위스퍼 / KiWhisper](viruses/kiwhisper.md) | 로직형 | 메신저 | <span class="pill pill-severity-high">높음</span> |
 | <span class="pill pill-code">WKV-L.DA-002</span> | [키위신택스 / KiwiSyntax](viruses/kiwisyntax.md) | 로직형 | 직접접근 | <span class="pill pill-severity-moderate">보통</span> |
 | <span class="pill pill-code">WKV-L.SN-003</span> | [키위탭 / KiwiTab](viruses/kiwitab.md) | 로직형 | SNS | <span class="pill pill-severity-moderate">보통</span> |
@@ -118,6 +120,7 @@ Web Kiwi Virus Wiki
 
 | コード | 名前 | タイプ | 経路 | 危険度 |
 |--------|------|--------|------|--------|
+| <span class="pill pill-code">WKV-0.ALL-000</span> | [キウイゼロ / KiwiZero](viruses/kiwizero.md) | 原型 | 全経路 | <span class="pill pill-severity-critical">不明</span> |
 | <span class="pill pill-code">WKV-L.MS-001</span> | [ヌルウィスパー / KiWhisper](viruses/kiwhisper.md) | ロジック型 | メッセンジャー | <span class="pill pill-severity-high">高</span> |
 | <span class="pill pill-code">WKV-L.DA-002</span> | [シンタックスレイス / KiwiSyntax](viruses/kiwisyntax.md) | ロジック型 | 直接アクセス | <span class="pill pill-severity-moderate">中</span> |
 | <span class="pill pill-code">WKV-L.SN-003</span> | [ファントムタブ / KiwiTab](viruses/kiwitab.md) | ロジック型 | SNS | <span class="pill pill-severity-moderate">中</span> |
