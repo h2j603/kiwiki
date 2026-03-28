@@ -1,4 +1,5 @@
 ---
+doc_id: "WKV-CG-001"
 title: "에코루프"
 aliases: ["EchoLoop", "메아리순환"]
 classification:
@@ -12,6 +13,8 @@ tags: ["인지형", "검색엔진", "기억", "반복"]
 ---
 
 # 에코루프 (EchoLoop)
+
+> 문서번호: `WKV-CG-001`
 
 ## 개요
 

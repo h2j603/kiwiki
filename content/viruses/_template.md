@@ -1,4 +1,5 @@
 ---
+doc_id: "WKV-XX-000"
 title: "바이러스 이름"
 aliases: []
 classification:
@@ -12,6 +13,8 @@ tags: []
 ---
 
 # 바이러스 이름
+
+> 문서번호: `WKV-XX-000`
 
 ## 개요
 

@@ -1,7 +1,15 @@
 {
   "description": "웹키위바이러스 종류 인덱스",
+  "doc_id_format": "WKV-[TYPE]-[SEQ]",
+  "type_codes": {
+    "SN": "감각형",
+    "CG": "인지형",
+    "EV": "환경형",
+    "LG": "로직형"
+  },
   "viruses": [
     {
+      "doc_id": "WKV-SN-001",
       "id": "mirrorlink",
       "title": "미러링크",
       "type": "감각형",
@@ -11,6 +19,7 @@
       "file": "content/viruses/mirrorlink.md"
     },
     {
+      "doc_id": "WKV-CG-001",
       "id": "echoloop",
       "title": "에코루프",
       "type": "인지형",
@@ -20,6 +29,7 @@
       "file": "content/viruses/echoloop.md"
     },
     {
+      "doc_id": "WKV-EV-001",
       "id": "glitchmoss",
       "title": "글리치모스",
       "type": "환경형",

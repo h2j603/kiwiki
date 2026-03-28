@@ -1,4 +1,5 @@
 ---
+doc_id: "WKV-SN-001"
 title: "미러링크"
 aliases: ["MirrorLink", "거울링크"]
 classification:
@@ -12,6 +13,8 @@ tags: ["감각형", "SNS", "시각", "거울"]
 ---
 
 # 미러링크 (MirrorLink)
+
+> 문서번호: `WKV-SN-001`
 
 ## 개요
 
