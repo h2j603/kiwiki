@@ -4,6 +4,7 @@
   <button class="lang-btn" data-lang="ja" onclick="kiwikiLang('ja')">日本語</button>
 </div>
 <script>
+// === 1. Language (runs immediately) ===
 function kiwikiLang(l){
   document.body.className=document.body.className.replace(/lang-\w+/g,'')+' lang-'+l;
   var b=document.getElementById('kiwiki-lang-toggle').getElementsByTagName('button');
@@ -11,6 +12,18 @@ function kiwikiLang(l){
   try{localStorage.setItem('kiwiki-lang',l);}catch(e){}
   setTimeout(kiwikiBuildToc,100);
 }
+// Apply saved language NOW
+(function(){
+  var s='en';
+  try{s=localStorage.getItem('kiwiki-lang')||'en';}catch(e){}
+  document.body.className+=' lang-'+s;
+  if(s!=='en'){
+    var b=document.getElementById('kiwiki-lang-toggle').getElementsByTagName('button');
+    for(var i=0;i<b.length;i++) b[i].className='lang-btn'+(b[i].getAttribute('data-lang')===s?' active':'');
+  }
+})();
+
+// === 2. TOC builder ===
 function kiwikiBuildToc(){
   var toc=document.getElementById('kiwiki-toc');
   if(!toc)return;
@@ -29,85 +42,81 @@ function kiwikiBuildToc(){
     sn.textContent=n+'. ';
     var txt='';
     for(var c=0;c<h.childNodes.length;c++){
-      var node=h.childNodes[c];
-      if(node.className==='sec-num'||node.className==='anchor-heading')continue;
-      txt+=node.textContent;
+      var nd=h.childNodes[c];
+      if(nd.className==='sec-num'||nd.className==='anchor-heading')continue;
+      txt+=nd.textContent;
     }
-    txt=txt.replace(/#/g,'').trim();
     var li=document.createElement('li');
     var a=document.createElement('a');
     a.href='#'+h.id;
-    a.textContent=n+'. '+txt;
+    a.textContent=n+'. '+txt.replace(/#/g,'').trim();
     li.appendChild(a);
     ol.appendChild(li);
   }
   if(n>0)toc.appendChild(ol);
 }
 
-// === RANDOM VIRUS INFECTION ===
-(function(){
+// === 3. Infection + TOC (after full DOM load) ===
+function kiwikiOnReady(fn){
+  if(document.readyState!=='loading')fn();
+  else document.addEventListener('DOMContentLoaded',fn);
+}
+kiwikiOnReady(function(){
+  // TOC
+  setTimeout(kiwikiBuildToc,300);
+
+  // Random virus infection
   var viruses=[
-    {id:'echoloop',name:'EchoLoop',code:'WKV-C.SE-001',effect:function(){
-      // Duplicate a random paragraph after 30s
-      setTimeout(function(){
-        var ps=document.querySelectorAll('.main-content p');
-        if(ps.length>3){var p=ps[Math.floor(Math.random()*ps.length)];var c=p.cloneNode(true);c.style.opacity='0.12';c.style.fontStyle='italic';p.parentNode.insertBefore(c,p.nextSibling);}
-      },30000);
-    }},
-    {id:'mirrorlink',name:'MirrorLink',code:'WKV-S.SN-001',effect:function(){}},
-    {id:'pixelrot',name:'PixelRot',code:'WKV-S.EM-002',effect:function(){}},
-    {id:'deadscroll',name:'DeadScroll',code:'WKV-C.SN-002',effect:function(){
-      // Random scroll jumps
-      var count=0;
-      window.addEventListener('scroll',function(){
-        count++;
-        if(count%80===0){window.scrollBy(0,Math.random()*200-100);}
-      });
-    }},
-    {id:'glitchmoss',name:'GlitchMoss',code:'WKV-E.DA-001',effect:function(){}},
-    {id:'nullwhisper',name:'NullWhisper',code:'WKV-L.MS-001',effect:function(){}},
-    {id:'blindspot',name:'BlindSpot',code:'WKV-S.SE-004',effect:function(){}},
-    {id:'phantomtab',name:'PhantomTab',code:'WKV-L.SN-003',effect:function(){}},
-    {id:'staticbloom',name:'StaticBloom',code:'WKV-E.SN-003',effect:function(){}},
-    {id:'syntaxwraith',name:'SyntaxWraith',code:'WKV-L.DA-002',effect:function(){}},
-    {id:'cachevein',name:'CacheVein',code:'WKV-E.MS-002',effect:function(){}},
-    {id:'forgetmenot',name:'ForgetMeNot',code:'WKV-C.EM-003',effect:function(){}}
+    'echoloop','mirrorlink','pixelrot','deadscroll','glitchmoss',
+    'nullwhisper','blindspot','phantomtab','staticbloom',
+    'syntaxwraith','cachevein','forgetmenot'
   ];
+  var names={
+    echoloop:'EchoLoop',mirrorlink:'MirrorLink',pixelrot:'PixelRot',
+    deadscroll:'DeadScroll',glitchmoss:'GlitchMoss',nullwhisper:'NullWhisper',
+    blindspot:'BlindSpot',phantomtab:'PhantomTab',staticbloom:'StaticBloom',
+    syntaxwraith:'SyntaxWraith',cachevein:'CacheVein',forgetmenot:'ForgetMeNot'
+  };
+  var codes={
+    echoloop:'WKV-C.SE-001',mirrorlink:'WKV-S.SN-001',pixelrot:'WKV-S.EM-002',
+    deadscroll:'WKV-C.SN-002',glitchmoss:'WKV-E.DA-001',nullwhisper:'WKV-L.MS-001',
+    blindspot:'WKV-S.SE-004',phantomtab:'WKV-L.SN-003',staticbloom:'WKV-E.SN-003',
+    syntaxwraith:'WKV-L.DA-002',cachevein:'WKV-E.MS-002',forgetmenot:'WKV-C.EM-003'
+  };
 
-  // Pick one per session (stored in sessionStorage so it changes per tab)
-  var stored=null;
-  try{stored=sessionStorage.getItem('kiwiki-virus');}catch(e){}
-  var v;
-  if(stored){
-    v=viruses.filter(function(x){return x.id===stored;})[0]||viruses[Math.floor(Math.random()*viruses.length)];
-  }else{
-    v=viruses[Math.floor(Math.random()*viruses.length)];
-    try{sessionStorage.setItem('kiwiki-virus',v.id);}catch(e){}
+  var vid;
+  try{vid=sessionStorage.getItem('kiwiki-virus');}catch(e){}
+  if(!vid||viruses.indexOf(vid)<0){
+    vid=viruses[Math.floor(Math.random()*viruses.length)];
+    try{sessionStorage.setItem('kiwiki-virus',vid);}catch(e){}
   }
 
-  // Apply CSS class
-  document.body.className+=' virus-'+v.id;
+  // Add virus class to body (preserve existing classes)
+  document.body.classList.add('virus-'+vid);
 
-  // Run JS effect
-  if(v.effect)v.effect();
-
-  // Show infection notice
-  var notice=document.createElement('div');
-  notice.className='infection-notice';
-  notice.innerHTML='⚠ you have been infected with <b>'+v.name+'</b> ('+v.code+')';
-  document.body.appendChild(notice);
-
-  // Auto-hide after 8s
-  setTimeout(function(){notice.style.transition='opacity 1s';notice.style.opacity='0';},8000);
-})();
-
-// === Language restore + TOC build ===
-(function(){
-  try{var s=localStorage.getItem('kiwiki-lang');if(s&&s!=='en'){kiwikiLang(s);}}catch(e){}
-  if(document.readyState==='loading'){
-    document.addEventListener('DOMContentLoaded',function(){setTimeout(kiwikiBuildToc,200);});
-  }else{
-    setTimeout(kiwikiBuildToc,200);
+  // JS-based effects
+  if(vid==='echoloop'){
+    setTimeout(function(){
+      var ps=document.querySelectorAll('main p, .main-content p');
+      if(ps.length>3){
+        var p=ps[Math.floor(Math.random()*ps.length)];
+        var c=p.cloneNode(true);c.style.opacity='0.12';c.style.fontStyle='italic';
+        p.parentNode.insertBefore(c,p.nextSibling);
+      }
+    },20000);
   }
-})();
+  if(vid==='deadscroll'){
+    var sc=0;
+    window.addEventListener('scroll',function(){
+      if(++sc%60===0)window.scrollBy(0,Math.random()*150-75);
+    });
+  }
+
+  // Infection notice bar
+  var bar=document.createElement('div');
+  bar.className='infection-notice';
+  bar.innerHTML='⚠ infected: <b>'+names[vid]+'</b> ('+codes[vid]+')';
+  document.body.appendChild(bar);
+  setTimeout(function(){bar.style.transition='opacity 1s';bar.style.opacity='0';},8000);
+});
 </script>
