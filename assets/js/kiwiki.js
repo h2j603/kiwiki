@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function(){
       // Stage 1: Center splash
       var splash = document.createElement('div');
       splash.className = 'infection-splash';
-      splash.innerHTML = '<div class="infection-splash-icon">\u26a0</div><div class="infection-splash-text">INFECTED</div><div class="infection-splash-name">' + (names[v]||v) + '</div><div class="infection-splash-code">' + (codes[v]||'') + '</div>';
+      splash.innerHTML = '<div class="infection-splash-text">EXPOSURE CONFIRMED</div><div class="infection-splash-name">' + (names[v]||v) + '</div><div class="infection-splash-code">' + (codes[v]||'') + '</div><div class="infection-splash-sub">boundary collapse in progress</div>';
       document.body.appendChild(splash);
 
       // Stage 2: After 3s, shrink to bottom bar
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function(){
         splash.style.borderRadius = '0';
         splash.style.border = 'none';
         splash.style.width = '100%';
-        splash.innerHTML = '\u26a0 infected: <b>' + (names[v]||v) + '</b> (' + (codes[v]||'') + ')';
+        splash.innerHTML = '\u25a0 ' + (codes[v]||'') + ' \u2014 ' + (names[v]||v);
       }, 3000);
 
       // Stage 3: Fade out after 8s
@@ -113,502 +113,411 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   } catch(e){}
 
-  // === VIRUS INTERACTIONS (적극적) ===
+  // === VIRUS INTERACTIONS (uncanny) ===
   var v = window._kVirus;
   if (!v) return;
 
-  // KiwiEcho: 10초마다 문단 복제 + 텍스트가 서서히 반복어투로
+  // Zalgo text generator
+  function zalgo(t,intensity){
+    var z=['̷','̸','̵','̶','̴','̨','̛','̀','́','̂','̃','̄','̅','̆','̇','̈','̉','̊','̋','̌','̍','̎','̏','̐','̑'];
+    var r='';for(var i=0;i<t.length;i++){r+=t[i];for(var j=0;j<(intensity||1);j++)r+=z[Math.floor(Math.random()*z.length)];}return r;
+  }
+
+  // KiwiEcho: text echoes itself wrongly — same sentence appears but subtly different
   if (v === 'kiwiecho') { try {
     setInterval(function(){
-      var ps = document.querySelectorAll('.main-content p');
-      if (ps.length > 2) {
-        var p = ps[Math.floor(Math.random()*ps.length)];
-        var c = p.cloneNode(true);
-        c.style.cssText = 'opacity:0.2;font-style:italic;border-left:2px solid orangered;padding-left:8px;margin:4px 0;';
-        p.parentNode.insertBefore(c, p.nextSibling);
-      }
-    }, 10000);
+      var ps=document.querySelectorAll('.main-content p');
+      if(ps.length<3)return;
+      var p=ps[Math.floor(Math.random()*ps.length)];
+      if(p.getAttribute('data-echoed'))return;
+      p.setAttribute('data-echoed','1');
+      var echo=document.createElement('p');
+      var words=p.textContent.split(' ');
+      // Swap 2 random words
+      if(words.length>4){var a=Math.floor(Math.random()*words.length),b=Math.floor(Math.random()*words.length);var tmp=words[a];words[a]=words[b];words[b]=tmp;}
+      echo.textContent=words.join(' ');
+      echo.style.cssText='opacity:0.12;color:orangered;margin:2px 0;';
+      p.parentNode.insertBefore(echo,p.nextSibling);
+    },8000);
   } catch(e){} }
 
-  // KiwiScroll: 스크롤 점프 + 타이머 왜곡
+  // KiwiScroll: time stops working
   if (v === 'kiwiscroll') { try {
     var sc=0;
-    window.addEventListener('scroll',function(){
-      if(++sc%30===0) window.scrollBy(0,Math.random()*300-150);
-    });
-    // 화면 구석에 왜곡된 시간 표시
+    window.addEventListener('scroll',function(){if(++sc%40===0)window.scrollBy(0,Math.random()*200-100);});
     var clock=document.createElement('div');
-    clock.style.cssText='position:fixed;bottom:40px;right:10px;color:orangered;font-family:"t26-carbon",monospace;font-style:italic;font-size:11px;opacity:0.4;pointer-events:none;z-index:9999;';
+    clock.style.cssText='position:fixed;bottom:40px;right:10px;color:orangered;font-family:"t26-carbon",monospace;font-style:italic;font-size:10px;opacity:0.3;pointer-events:none;z-index:9999;';
     document.body.appendChild(clock);
-    setInterval(function(){
-      var h=Math.floor(Math.random()*24),m=Math.floor(Math.random()*60);
-      clock.textContent=(h<10?'0':'')+h+':'+(m<10?'0':'')+m;
-    },3000);
+    var fakeH=12,fakeM=0;
+    setInterval(function(){fakeM+=Math.floor(Math.random()*47);if(fakeM>=60){fakeH=(fakeH+Math.floor(fakeM/60))%24;fakeM%=60;}clock.textContent=(fakeH<10?'0':'')+fakeH+':'+(fakeM<10?'0':'')+fakeM;},2000);
   } catch(e){} }
 
-  // KiwiMirror: 3초마다 여러 요소 반전 + 페이지 미세 기울임
+  // KiwiMirror: something is slightly wrong with every reflection
   if (v === 'kiwimirror') { try {
-    document.querySelector('.main-content').style.transform='perspective(1000px) rotateY(0.5deg)';
+    document.querySelector('.main-content').style.transform='perspective(2000px) rotateY(0.3deg)';
     setInterval(function(){
-      var els=document.querySelectorAll('.main-content p,.main-content li,.main-content td');
-      for(var i=0;i<3;i++){
-        var el=els[Math.floor(Math.random()*els.length)];
-        if(el) el.style.transform=el.style.transform?'':'scaleX(-1)';
-      }
-    },3000);
+      var ps=document.querySelectorAll('.main-content p');
+      var p=ps[Math.floor(Math.random()*ps.length)];
+      if(p) p.style.letterSpacing=p.style.letterSpacing?'':'-0.03em';
+    },4000);
   } catch(e){} }
 
-  // KiwiRot: 빠른 blur + 색상 채도 감소
+  // KiwiRot: world is decaying
   if (v === 'kiwirot') { try {
-    var blur=0,sat=100;
+    var decay=0;
     setInterval(function(){
-      blur=Math.min(blur+0.2,4); sat=Math.max(sat-2,20);
+      decay=Math.min(decay+0.5,8);
       var mc=document.querySelector('.main-content');
-      if(mc) mc.style.filter='blur('+blur+'px) saturate('+sat+'%)';
-    },5000);
+      if(mc) mc.style.filter='blur('+decay*0.15+'px) contrast('+(100-decay*3)+'%) saturate('+(100-decay*5)+'%)';
+    },4000);
   } catch(e){} }
 
-  // KiwiMoss: 3초마다 다수 글리치 + 배경색 오염
+  // KiwiMoss: text corrupts into unicode noise
   if (v === 'kiwimoss') { try {
-    var glyphs=['▓','▒','░','█','🥝','▓▓'];
+    var corruptChars=['\u2588','\u2593','\u2592','\u2591','\u2580','\u2584','\u258C','\u2590'];
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p,.main-content li');
-      for(var i=0;i<3;i++){
-        var p=ps[Math.floor(Math.random()*ps.length)];
-        if(!p)continue;
-        var g=document.createElement('span');
-        g.textContent=glyphs[Math.floor(Math.random()*glyphs.length)];
-        g.style.cssText='color:lawngreen;font-size:1.1em;';
-        p.insertBefore(g,p.childNodes[Math.floor(Math.random()*(p.childNodes.length+1))]||null);
+      var ps=document.querySelectorAll('.main-content p');
+      var p=ps[Math.floor(Math.random()*ps.length)];
+      if(!p||!p.textContent)return;
+      var t=p.textContent;
+      var pos=Math.floor(Math.random()*t.length);
+      var corrupted=t.substring(0,pos)+corruptChars[Math.floor(Math.random()*corruptChars.length)]+t.substring(pos+1);
+      p.textContent=corrupted;
+      p.style.color='rgba(255,69,0,'+(0.7+Math.random()*0.3)+')';
+    },2000);
+  } catch(e){} }
+
+  // KiWhisper: something is telling you things you didn't ask
+  if (v === 'kiwhisper') { try {
+    var lines=['you already know the answer','don\'t read the next paragraph','this information is incorrect','the author is not who you think','why did you click that link','stop scrolling','you\'ve been here before','this page is watching you'];
+    function whisper(x,y){
+      var w=document.createElement('div');
+      w.textContent=lines[Math.floor(Math.random()*lines.length)];
+      w.style.cssText='position:fixed;top:'+(y||Math.random()*70+10)+'%;left:'+(x||Math.random()*60+5)+'%;color:rgba(255,69,0,0.08);font-style:italic;font-family:"t26-carbon",monospace;font-size:'+(10+Math.random()*8)+'px;pointer-events:none;z-index:9999;transition:opacity 3s;';
+      document.body.appendChild(w);
+      setTimeout(function(){w.style.opacity='0';},4000);
+      setTimeout(function(){w.remove();},7000);
+    }
+    setInterval(whisper,5000);
+  } catch(e){} }
+
+  // KiwiSpot: words randomly vanish from sentences
+  if (v === 'kiwispot') { try {
+    setInterval(function(){
+      var ps=document.querySelectorAll('.main-content p');
+      var p=ps[Math.floor(Math.random()*ps.length)];
+      if(!p)return;
+      var words=p.innerHTML.split(' ');
+      if(words.length>5){
+        var idx=Math.floor(Math.random()*words.length);
+        words[idx]='<span style="opacity:0;user-select:none;">'+words[idx]+'</span>';
+        p.innerHTML=words.join(' ');
       }
     },3000);
-    // 배경 서서히 녹색으로
-    var green=0;
-    setInterval(function(){
-      green=Math.min(green+1,15);
-      document.body.style.background='rgb(255,'+Math.max(255-green*2,240)+','+Math.max(255-green*3,230)+')';
-    },5000);
   } catch(e){} }
 
-  // KiWhisper: 매우 적극적 속삭임 + 커서 근처에 출현
-  if (v === 'kiwhisper') { try {
-    var whispers=['choose this...','trust me...','the other way is wrong...','logical choice...','ignore them...','you know better...','don\'t hesitate...','pick this one...','they\'re lying...'];
-    function showW(x,y){
-      var w=document.createElement('div');
-      w.textContent=whispers[Math.floor(Math.random()*whispers.length)];
-      w.style.cssText='position:fixed;top:'+(y||Math.random()*70+15)+'%;left:'+(x||Math.random()*60+10)+'%;color:orangered;font-style:italic;font-family:"t26-carbon",monospace;font-size:'+(16+Math.random()*20)+'px;opacity:0;pointer-events:none;z-index:9999;transition:all 1.5s;';
-      document.body.appendChild(w);
-      setTimeout(function(){w.style.opacity=''+(0.2+Math.random()*0.3);},50);
-      setTimeout(function(){w.style.opacity='0';w.style.transform='translateY(-20px)';},2000);
-      setTimeout(function(){w.remove();},4000);
-    }
-    setInterval(showW,3000);
-    document.addEventListener('click',function(e){
-      showW((e.clientX/window.innerWidth*100),(e.clientY/window.innerHeight*100));
-    });
-  } catch(e){} }
-
-  // KiwiSpot: 여러 개의 떠다니는 사각지대
-  if (v === 'kiwispot') { try {
-    for(var si=0;si<3;si++){
-      var spot=document.createElement('div');
-      spot.style.cssText='position:fixed;width:'+(80+Math.random()*80)+'px;height:'+(80+Math.random()*80)+'px;border-radius:50%;background:rgba(255,255,255,0.9);pointer-events:none;z-index:9998;left:'+Math.random()*80+'%;top:'+Math.random()*80+'%;transition:all 8s;';
-      document.body.appendChild(spot);
-      (function(s){
-        setInterval(function(){s.style.left=Math.random()*80+'%';s.style.top=Math.random()*80+'%';},8000);
-      })(spot);
-    }
-  } catch(e){} }
-
-  // KiwiTab: 5초마다 유령 알림 + 탭 깜빡임
+  // KiwiTab: phantom processes
   if (v === 'kiwitab') { try {
-    var msgs=['🥝 New tab opened...','📑 Loading...','⚠ Tab not responding','🔄 Redirecting...','📋 Copied to clipboard'];
+    var msgs=['[process not found]','connection terminated unexpectedly','ERR_BOUNDARY_COLLAPSE','request timed out: kiwi-srv','segfault at 0x00000000'];
     setInterval(function(){
       var n=document.createElement('div');
       n.textContent=msgs[Math.floor(Math.random()*msgs.length)];
-      var positions=['top:10px;right:10px;','top:10px;left:10px;','bottom:40px;right:10px;','bottom:40px;left:10px;'];
-      n.style.cssText='position:fixed;'+positions[Math.floor(Math.random()*positions.length)]+'background:#111;color:lawngreen;padding:8px 16px;font-family:"t26-carbon",monospace;font-style:italic;font-size:12px;z-index:9999;opacity:0;transition:opacity 0.5s;border:1px solid lawngreen;';
+      n.style.cssText='position:fixed;bottom:40px;left:10px;background:transparent;color:rgba(255,69,0,0.15);padding:0;font-family:"t26-carbon",monospace;font-style:italic;font-size:9px;z-index:9999;transition:opacity 3s;pointer-events:none;';
       document.body.appendChild(n);
-      setTimeout(function(){n.style.opacity='0.9';},50);
-      setTimeout(function(){n.style.opacity='0';},2000);
-      setTimeout(function(){n.remove();},3000);
-    },5000);
-    // 타이틀 깜빡임
+      setTimeout(function(){n.style.opacity='0';},3000);
+      setTimeout(function(){n.remove();},6000);
+    },6000);
     var origTitle=document.title;
-    setInterval(function(){document.title=document.title===origTitle?'⚠ (1) New Tab':origTitle;},4000);
+    setInterval(function(){document.title=document.title===origTitle?'\u25a0 '+origTitle:origTitle;},5000);
   } catch(e){} }
 
-  // KiwiBloom: 적극적 꽃 폭발
+  // KiwiBloom: something is growing in the page
   if (v === 'kiwibloom') { try {
-    var syms=['✦','✧','✶','✷','❋','✸','🥝','⚡'];
     setInterval(function(){
-      for(var fi=0;fi<4;fi++){
-        var f=document.createElement('div');
-        f.textContent=syms[Math.floor(Math.random()*syms.length)];
-        f.style.cssText='position:fixed;color:lawngreen;font-size:'+(24+Math.random()*40)+'px;opacity:'+(0.3+Math.random()*0.5)+';pointer-events:none;z-index:9998;left:'+Math.random()*95+'%;top:'+Math.random()*95+'%;transition:all 3s;';
-        document.body.appendChild(f);
-        setTimeout(function(el){return function(){el.style.opacity='0';el.style.transform='scale(3) rotate(90deg)';}}(f),1500);
-        setTimeout(function(el){return function(){el.remove();}}(f),4500);
-      }
-    },1500);
+      var bloom=document.createElement('div');
+      bloom.textContent='\u2022';
+      bloom.style.cssText='position:fixed;color:rgba(139,154,70,0.15);font-size:'+(4+Math.random()*20)+'px;pointer-events:none;z-index:9997;left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;transition:all 10s;';
+      document.body.appendChild(bloom);
+      setTimeout(function(){bloom.style.fontSize=(20+Math.random()*40)+'px';bloom.style.opacity='0';},100);
+      setTimeout(function(){bloom.remove();},10000);
+    },2000);
   } catch(e){} }
 
-  // KiwiSyntax: 즉시 + 점진적으로 모든 텍스트를 코드로
+  // KiwiSyntax: your language is being recompiled
   if (v === 'kiwisyntax') { try {
     var idx=0;
     setInterval(function(){
       var ps=document.querySelectorAll('.main-content p');
-      if(idx<ps.length){
+      if(idx<ps.length&&ps[idx].textContent.length>10){
         var t=ps[idx].textContent;
-        if(t.length>10) ps[idx].innerHTML='<code style="font-size:0.85em;color:lawngreen;background:#111;padding:4px 8px;display:block;border:1px solid orangered;font-family:t26-carbon,monospace;">function kiwi_'+idx+'() { /* '+t.substring(0,40)+' */ return null; }</code>';
-        idx++;
+        ps[idx].innerHTML='<span style="font-family:t26-carbon,monospace;font-size:0.85em;color:rgba(255,69,0,0.6);">if ('+t.substring(0,25)+') { return undefined; }</span>';
       }
-    },3000);
+      idx++;
+    },4000);
   } catch(e){} }
 
-  // KiwiVein: 빠른 정맥 + 키위 그린
+  // KiwiVein: lines are appearing where they shouldn't
   if (v === 'kiwivein') { try {
+    var veinCount=0;
     setInterval(function(){
-      for(var vi=0;vi<3;vi++){
-        var vn=document.createElement('div');
-        var h=Math.random()>0.5;
-        vn.style.cssText='position:fixed;background:'+(Math.random()>0.5?'#8B9A46':'orangered')+';opacity:'+(0.03+Math.random()*0.05)+';z-index:9997;pointer-events:none;'+(h?'height:1px;width:'+Math.random()*50+'%;left:'+Math.random()*80+'%;top:'+Math.random()*100+'%':'width:1px;height:'+Math.random()*40+'%;left:'+Math.random()*100+'%;top:'+Math.random()*80+'%')+';';
-        document.body.appendChild(vn);
-      }
-    },1500);
+      if(veinCount>40)return;veinCount++;
+      var vn=document.createElement('div');
+      var h=Math.random()>0.5;
+      vn.style.cssText='position:fixed;background:rgba(139,154,70,'+(0.02+Math.random()*0.04)+');z-index:9997;pointer-events:none;'+(h?'height:1px;width:'+Math.random()*40+'%;left:'+Math.random()*80+'%;top:'+Math.random()*100+'%':'width:1px;height:'+Math.random()*30+'%;left:'+Math.random()*100+'%;top:'+Math.random()*80+'%')+';';
+      document.body.appendChild(vn);
+    },2000);
   } catch(e){} }
 
-  // KiwiForgot: 적극적 기억 삭제 — 읽은 곳이 사라짐
+  // KiwiForgot: content replaces itself with redaction notices
   if (v === 'kiwiforgot') { try {
-    var forgotten=0;
+    var notices=['[content removed]','[data expunged]','[memory corrupted]','[section unavailable]','[REDACTED]'];
+    var fi=0;
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p,.main-content li');
-      if(forgotten<ps.length){
-        ps[forgotten].style.transition='opacity 2s';
-        ps[forgotten].style.opacity='0';
-        ps[forgotten].style.height='0';
-        ps[forgotten].style.overflow='hidden';
-        ps[forgotten].style.margin='0';
-        ps[forgotten].style.padding='0';
-        forgotten++;
+      var ps=document.querySelectorAll('.main-content p');
+      if(fi<ps.length&&ps[fi].textContent.length>10){
+        ps[fi].innerHTML='<span style="color:#555;font-family:t26-carbon,monospace;font-size:0.85em;font-style:italic;">'+notices[fi%notices.length]+'</span>';
+        ps[fi].style.opacity='0.5';
+      }
+      fi++;
+    },10000);
+  } catch(e){} }
+
+  // === 나머지 16종 (uncanny) ===
+
+  // KiwiGhost: notifications from nowhere
+  if (v === 'kiwighost') { try {
+    setInterval(function(){
+      var ps=document.querySelectorAll('.main-content p');
+      var p=ps[Math.floor(Math.random()*ps.length)];
+      if(p){p.style.transition='opacity 0.1s';p.style.opacity='0';setTimeout(function(){p.style.opacity='1';},150);}
+    },4000);
+  } catch(e){} }
+
+  // KiwiParadox: contradictions appear in text
+  if (v === 'kiwiparadox') { try {
+    var negations={'is':'is not','can':'cannot','will':'will not','true':'false','yes':'no','safe':'unsafe','known':'unknown'};
+    setInterval(function(){
+      var ps=document.querySelectorAll('.main-content p');
+      var p=ps[Math.floor(Math.random()*ps.length)];
+      if(!p)return;
+      var t=p.textContent;
+      for(var word in negations){if(t.indexOf(word)>-1){p.textContent=t.replace(word,negations[word]);break;}}
+    },6000);
+  } catch(e){} }
+
+  // KiwiBleed: text bleeds into adjacent elements
+  if (v === 'kiwibleed') { try {
+    setInterval(function(){
+      var ps=document.querySelectorAll('.main-content p');
+      var p=ps[Math.floor(Math.random()*ps.length)];
+      if(p) p.style.textShadow='3px 0 8px rgba(255,69,0,0.15), -2px 0 6px rgba(139,154,70,0.1)';
+    },2000);
+  } catch(e){} }
+
+  // KiwiClip: fragments of other sections appear
+  if (v === 'kiwiclip') { try {
+    setInterval(function(){
+      var ps=document.querySelectorAll('.main-content p');
+      if(ps.length<3)return;
+      var src=ps[Math.floor(Math.random()*ps.length)];
+      var dst=ps[Math.floor(Math.random()*ps.length)];
+      if(src!==dst&&src.textContent.length>10){
+        var frag=document.createElement('span');
+        frag.textContent=' ['+src.textContent.substring(0,20)+'...]';
+        frag.style.cssText='opacity:0.15;font-family:t26-carbon,monospace;font-size:0.8em;';
+        dst.appendChild(frag);
       }
     },8000);
   } catch(e){} }
 
-  // === 나머지 16종 (수정됨) ===
-
-  // KiwiGhost: 유령 알림 + 랜덤 텍스트 깜빡임
-  if (v === 'kiwighost') { try {
-    setInterval(function(){
-      var icons=['🔔','👻','🥝','❓','⚠'];
-      var bell=document.createElement('div');
-      bell.textContent=icons[Math.floor(Math.random()*icons.length)];
-      bell.style.cssText='position:fixed;font-size:28px;opacity:0;pointer-events:none;z-index:9999;transition:all 1.5s;left:'+Math.random()*80+'%;top:'+Math.random()*80+'%;';
-      document.body.appendChild(bell);
-      setTimeout(function(){bell.style.opacity='0.7';bell.style.transform='scale(1.3)';},50);
-      setTimeout(function(){bell.style.opacity='0';bell.style.transform='scale(0.5) translateY(-40px)';},1200);
-      setTimeout(function(){bell.remove();},3000);
-    },3000);
-    // 텍스트 깜빡임
-    setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
-      var p=ps[Math.floor(Math.random()*ps.length)];
-      if(p){p.style.opacity='0.1';setTimeout(function(){p.style.opacity='1';},300);}
-    },5000);
-  } catch(e){} }
-
-  // KiwiParadox: 문단 방향 반전 + 랜덤 단어 뒤집기
-  if (v === 'kiwiparadox') { try {
-    setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
-      var p=ps[Math.floor(Math.random()*ps.length)];
-      if(p&&p.textContent.length>20){
-        p.style.direction=p.style.direction==='rtl'?'ltr':'rtl';
-        p.style.transition='all 0.5s';
-      }
-    },3000);
-    // "반대로" 표시
-    setInterval(function(){
-      var tag=document.createElement('span');
-      tag.textContent=' [¿] ';
-      tag.style.cssText='color:orangered;font-weight:bold;';
-      var ps=document.querySelectorAll('.main-content p');
-      var p=ps[Math.floor(Math.random()*ps.length)];
-      if(p) p.appendChild(tag);
-    },6000);
-  } catch(e){} }
-
-  // KiwiBleed: 텍스트 색상 키위그린 + 글자 번짐
-  if (v === 'kiwibleed') { try {
-    setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p,.main-content li');
-      var p=ps[Math.floor(Math.random()*ps.length)];
-      if(p){
-        p.style.color='#8B9A46';
-        p.style.textShadow='2px 0 4px rgba(139,154,70,0.3)';
-      }
-    },1500);
-  } catch(e){} }
-
-  // KiwiClip: 다른 문단 텍스트가 복사됨 + 클립보드 느낌 박스
-  if (v === 'kiwiclip') { try {
-    setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
-      if(ps.length<2)return;
-      var src=ps[Math.floor(Math.random()*ps.length)];
-      var clip=document.createElement('div');
-      clip.textContent='📋 '+src.textContent.substring(0,25)+'...';
-      clip.style.cssText='position:fixed;top:10px;left:50%;transform:translateX(-50%);background:#111;color:lawngreen;padding:6px 14px;font-family:"t26-carbon",monospace;font-style:italic;font-size:11px;z-index:9999;opacity:0;transition:opacity 0.5s;border:1px solid lawngreen;';
-      document.body.appendChild(clip);
-      setTimeout(function(){clip.style.opacity='0.9';},50);
-      setTimeout(function(){clip.style.opacity='0';},2500);
-      setTimeout(function(){clip.remove();},3500);
-    },5000);
-  } catch(e){} }
-
-  // KiwiDrift: hue 회전 + 채도 변동
+  // KiwiDrift: colors slowly shift wrong
   if (v === 'kiwidrift') { try {
     var hue=0;
     setInterval(function(){
-      hue=(hue+8)%360;
+      hue=(hue+3)%360;
       var mc=document.querySelector('.main-content');
-      if(mc) mc.style.filter='hue-rotate('+hue+'deg) saturate('+(80+Math.sin(hue*0.05)*40)+'%)';
-    },1500);
-  } catch(e){} }
-
-  // KiwiTouch: 터치+클릭 모두 반응 (모바일+PC)
-  if (v === 'kiwitouch') { try {
-    function touchRipple(x,y){
-      var r=document.createElement('div');
-      r.style.cssText='position:fixed;width:40px;height:40px;border-radius:50%;background:rgba(139,154,70,0.4);pointer-events:none;z-index:9998;left:'+(x-20)+'px;top:'+(y-20)+'px;transition:all 1s;';
-      document.body.appendChild(r);
-      setTimeout(function(){r.style.transform='scale(4)';r.style.opacity='0';},50);
-      setTimeout(function(){r.remove();},1200);
-    }
-    document.addEventListener('touchstart',function(e){touchRipple(e.touches[0].clientX,e.touches[0].clientY);});
-    document.addEventListener('click',function(e){touchRipple(e.clientX,e.clientY);});
-    // 자동 리플도
-    setInterval(function(){touchRipple(Math.random()*window.innerWidth,Math.random()*window.innerHeight);},4000);
-  } catch(e){} }
-
-  // KiwiVoice: 유리 깨지는 소리 이모지 + 텍스트 자체에 줄 긋기
-  if (v === 'kiwivoice') { try {
-    var cracks=['💔','🔇','🥝💥','✗','🔕'];
-    setInterval(function(){
-      var c=document.createElement('div');
-      c.textContent=cracks[Math.floor(Math.random()*cracks.length)];
-      c.style.cssText='position:fixed;font-size:28px;left:'+Math.random()*80+'%;top:'+Math.random()*80+'%;opacity:0;pointer-events:none;z-index:9999;transition:all 1.5s;';
-      document.body.appendChild(c);
-      setTimeout(function(){c.style.opacity='0.5';c.style.transform='rotate('+(Math.random()*30-15)+'deg)';},50);
-      setTimeout(function(){c.style.opacity='0';},2000);
-      setTimeout(function(){c.remove();},3500);
+      if(mc) mc.style.filter='hue-rotate('+hue+'deg)';
     },3000);
-    // 텍스트 줄긋기
+  } catch(e){} }
+
+  // KiwiTouch: something responds to your touch
+  if (v === 'kiwitouch') { try {
+    function ripple(x,y){
+      var r=document.createElement('div');
+      r.style.cssText='position:fixed;width:4px;height:4px;border-radius:50%;border:1px solid rgba(255,69,0,0.2);pointer-events:none;z-index:9998;left:'+x+'px;top:'+y+'px;transition:all 2s;';
+      document.body.appendChild(r);
+      setTimeout(function(){r.style.width='80px';r.style.height='80px';r.style.left=(x-40)+'px';r.style.top=(y-40)+'px';r.style.opacity='0';},50);
+      setTimeout(function(){r.remove();},2500);
+    }
+    document.addEventListener('touchstart',function(e){ripple(e.touches[0].clientX,e.touches[0].clientY);});
+    document.addEventListener('click',function(e){ripple(e.clientX,e.clientY);});
+  } catch(e){} }
+
+  // KiwiVoice: text gets struck through as if silenced
+  if (v === 'kiwivoice') { try {
     setInterval(function(){
       var ps=document.querySelectorAll('.main-content p');
       var p=ps[Math.floor(Math.random()*ps.length)];
-      if(p) p.style.textDecoration='line-through';
-    },6000);
+      if(p&&!p.getAttribute('data-silenced')){
+        p.setAttribute('data-silenced','1');
+        p.style.textDecoration='line-through';
+        p.style.opacity='0.5';
+      }
+    },5000);
   } catch(e){} }
 
-  // KiwiAfter: 잔상 (스크롤 제한, max 5개)
+  // KiwiAfter: residual afterimages
   if (v === 'kiwiafter') { try {
-    var afterCount=0;
-    var lastScroll=0;
+    var ac=0;
     window.addEventListener('scroll',function(){
-      var now=Date.now();
-      if(now-lastScroll<500||afterCount>20)return;
-      lastScroll=now;afterCount++;
+      if(Date.now()-ac<800)return;ac=Date.now();
       var a=document.createElement('div');
-      a.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(139,154,70,0.04);pointer-events:none;z-index:9997;transition:opacity 2s;';
+      a.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(139,154,70,0.015);pointer-events:none;z-index:9997;transition:opacity 3s;';
       document.body.appendChild(a);
-      setTimeout(function(){a.style.opacity='0';},300);
-      setTimeout(function(){a.remove();afterCount--;},2500);
+      setTimeout(function(){a.style.opacity='0';},500);
+      setTimeout(function(){a.remove();},3500);
     });
   } catch(e){} }
 
-  // KiwiDream: 주기적 blur + 키위 그린 오버레이
+  // KiwiDream: boundary between here and elsewhere
   if (v === 'kiwidream') { try {
     setInterval(function(){
       var mc=document.querySelector('.main-content');
-      if(mc){
-        mc.style.transition='filter 1s';
-        mc.style.filter='blur(2px) brightness(0.95)';
-        setTimeout(function(){mc.style.filter='';},1500);
-      }
-    },6000);
-    // 꿈 텍스트
-    setInterval(function(){
-      var d=document.createElement('div');
-      d.textContent='💤 ...🥝...';
-      d.style.cssText='position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-size:32px;opacity:0;pointer-events:none;z-index:9999;transition:opacity 1s;';
-      document.body.appendChild(d);
-      setTimeout(function(){d.style.opacity='0.2';},50);
-      setTimeout(function(){d.style.opacity='0';},2000);
-      setTimeout(function(){d.remove();},3000);
-    },10000);
+      if(mc){mc.style.transition='filter 2s';mc.style.filter='blur(1.5px) brightness(0.92)';setTimeout(function(){mc.style.filter='';},2500);}
+    },8000);
   } catch(e){} }
 
-  // KiwiEater: 링크+텍스트 먹기
+  // KiwiEater: words get consumed
   if (v === 'kiwieater') { try {
     setInterval(function(){
-      var targets=document.querySelectorAll('.main-content a,.main-content strong,.main-content b');
+      var targets=document.querySelectorAll('.main-content a,.main-content strong');
       var t=targets[Math.floor(Math.random()*targets.length)];
-      if(t&&t.textContent!=='🥝'){
-        t.setAttribute('data-original',t.textContent);
-        t.textContent='🥝';
+      if(t&&t.textContent.length>1&&t.textContent!=='\u2588\u2588\u2588'){
+        t.setAttribute('data-was',t.textContent);
+        t.textContent='\u2588\u2588\u2588';
         t.style.textDecoration='none';
+        t.style.color='#333';
       }
-    },3000);
+    },4000);
   } catch(e){} }
 
-  // KiwiTime: déjà vu + 시간 역행
+  // KiwiTime: you were already here
   if (v === 'kiwitime') { try {
-    var msgs=['déjà vu...','이건 전에도...','wait, again?','...見たことある...','🥝⏰'];
     setInterval(function(){
       var o=document.createElement('div');
-      o.textContent=msgs[Math.floor(Math.random()*msgs.length)];
-      o.style.cssText='position:fixed;top:'+Math.random()*70+'%;left:'+Math.random()*60+'%;font-family:"t26-carbon",monospace;font-style:italic;font-size:'+(18+Math.random()*16)+'px;color:orangered;opacity:0;pointer-events:none;z-index:9999;transition:all 1.5s;';
+      o.textContent='you have read this before';
+      o.style.cssText='position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-family:"t26-carbon",monospace;font-style:italic;font-size:11px;color:rgba(255,69,0,0.06);pointer-events:none;z-index:9999;letter-spacing:3px;transition:opacity 4s;';
       document.body.appendChild(o);
-      setTimeout(function(){o.style.opacity='0.25';},50);
-      setTimeout(function(){o.style.opacity='0';o.style.transform='translateY(-30px)';},2000);
-      setTimeout(function(){o.remove();},3500);
-    },6000);
+      setTimeout(function(){o.style.opacity='0';},5000);
+      setTimeout(function(){o.remove();},9000);
+    },15000);
   } catch(e){} }
 
-  // KiwiCut: 문맥 절단 + 줄긋기
+  // KiwiCut: sentences sever mid-thought
   if (v === 'kiwicut') { try {
     setInterval(function(){
       var ps=document.querySelectorAll('.main-content p');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(p&&p.textContent.length>20&&!p.getAttribute('data-cut')){
         p.setAttribute('data-cut','1');
-        var cut=Math.floor(p.textContent.length*0.3);
-        p.innerHTML=p.textContent.substring(0,cut)+'<span style="color:orangered;font-weight:bold;">✂ ...</span>';
+        var cut=Math.floor(p.textContent.length*0.3+Math.random()*p.textContent.length*0.2);
+        p.textContent=p.textContent.substring(0,cut);
+        p.style.opacity='0.7';
       }
-    },5000);
+    },7000);
   } catch(e){} }
 
-  // KiwiRust: 텍스트+보더 갈변 (테이블 없어도 작동)
+  // KiwiRust: oxidation
   if (v === 'kiwirust') { try {
     setInterval(function(){
-      var els=document.querySelectorAll('.main-content p,.main-content h2,.main-content li,.main-content td,.main-content th');
-      for(var ri=0;ri<2;ri++){
-        var el=els[Math.floor(Math.random()*els.length)];
-        if(el) el.style.color='#8B6914';
-      }
-    },2000);
-    // hr도 갈변
-    setInterval(function(){
-      var hrs=document.querySelectorAll('.main-content hr');
-      var hr=hrs[Math.floor(Math.random()*hrs.length)];
-      if(hr) hr.style.background='#8B6914';
-    },4000);
-  } catch(e){} }
-
-  // KiwiRoot: 뿌리 성장 (max 30개 제한)
-  if (v === 'kiwiroot') { try {
-    var rootCount=0;
-    setInterval(function(){
-      if(rootCount>30)return;
-      rootCount++;
-      var line=document.createElement('div');
-      line.style.cssText='position:fixed;background:#8B6914;opacity:0.1;z-index:9997;pointer-events:none;width:2px;height:'+Math.random()*15+'%;left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;transform:rotate('+(Math.random()*60-30)+'deg);transition:all 5s;';
-      document.body.appendChild(line);
-      setTimeout(function(){line.style.height=Math.random()*35+'%';line.style.opacity='0.15';},100);
-    },2500);
-  } catch(e){} }
-
-  // KiwiRoom: 에코 텍스트 (크게, 여러 개)
-  if (v === 'kiwiroom') { try {
-    var echoes=['...echo...','...echo...echo...','🔊 ...','...🥝...','...반복...','...repeat...'];
-    setInterval(function(){
-      for(var ei=0;ei<2;ei++){
-        var s=document.createElement('div');
-        s.textContent=echoes[Math.floor(Math.random()*echoes.length)];
-        s.style.cssText='position:fixed;font-family:"t26-carbon",monospace;font-style:italic;color:orangered;opacity:0;font-size:'+(16+Math.random()*14)+'px;pointer-events:none;z-index:9999;left:'+Math.random()*80+'%;top:'+Math.random()*80+'%;transition:all 2s;';
-        document.body.appendChild(s);
-        setTimeout(function(el){return function(){el.style.opacity='0.25';el.style.transform='scale(1.3)';}}(s),50);
-        setTimeout(function(el){return function(){el.style.opacity='0';}}(s),2000);
-        setTimeout(function(el){return function(){el.remove();}}(s),4000);
-      }
+      var els=document.querySelectorAll('.main-content p,.main-content h2,.main-content li');
+      var el=els[Math.floor(Math.random()*els.length)];
+      if(el) el.style.color='#8B6914';
     },3000);
   } catch(e){} }
 
-  // KiwiSpace: 요소 투명화 (빠르게)
-  if (v === 'kiwispace') { try {
+  // KiwiRoot: tendrils
+  if (v === 'kiwiroot') { try {
+    var rc=0;
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p,.main-content li,.main-content td');
-      for(var si=0;si<2;si++){
-        var p=ps[Math.floor(Math.random()*ps.length)];
-        if(p){p.style.transition='opacity 2s';p.style.opacity=Math.max(parseFloat(p.style.opacity||1)-0.2,0);}
-      }
-    },2000);
+      if(rc>25)return;rc++;
+      var l=document.createElement('div');
+      l.style.cssText='position:fixed;background:rgba(139,101,20,0.06);z-index:9997;pointer-events:none;width:1px;height:'+Math.random()*20+'%;left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;transform:rotate('+(Math.random()*60-30)+'deg);transition:height 8s;';
+      document.body.appendChild(l);
+      setTimeout(function(){l.style.height=Math.random()*40+'%';},100);
+    },3000);
   } catch(e){} }
 
-  // KiwiLoop: 문단 교환 (빠르게) + 순서 표시
+  // KiwiRoom: echoes of what you just read
+  if (v === 'kiwiroom') { try {
+    setInterval(function(){
+      var ps=document.querySelectorAll('.main-content p');
+      var p=ps[Math.floor(Math.random()*ps.length)];
+      if(!p||!p.textContent)return;
+      var fragment=p.textContent.substring(0,Math.min(30,p.textContent.length));
+      var echo=document.createElement('div');
+      echo.textContent='...'+fragment+'...';
+      echo.style.cssText='position:fixed;font-family:"t26-carbon",monospace;font-style:italic;color:rgba(255,69,0,0.06);font-size:10px;pointer-events:none;z-index:9999;left:'+Math.random()*80+'%;top:'+Math.random()*80+'%;transition:opacity 4s;';
+      document.body.appendChild(echo);
+      setTimeout(function(){echo.style.opacity='0';},3000);
+      setTimeout(function(){echo.remove();},7000);
+    },5000);
+  } catch(e){} }
+
+  // KiwiSpace: things cease to exist
+  if (v === 'kiwispace') { try {
+    setInterval(function(){
+      var ps=document.querySelectorAll('.main-content p,.main-content li');
+      var p=ps[Math.floor(Math.random()*ps.length)];
+      if(p) p.style.opacity=Math.max((parseFloat(p.style.opacity)||1)-0.15,0);
+    },3000);
+  } catch(e){} }
+
+  // KiwiLoop: causality breaks
   if (v === 'kiwiloop') { try {
     setInterval(function(){
       var ps=document.querySelectorAll('.main-content p');
       if(ps.length>4){
-        var a=Math.floor(Math.random()*ps.length);
-        var b=Math.floor(Math.random()*ps.length);
-        if(a!==b){
-          var tmp=ps[a].innerHTML;ps[a].innerHTML=ps[b].innerHTML;ps[b].innerHTML=tmp;
-          ps[a].style.borderLeft='2px solid lawngreen';ps[a].style.paddingLeft='6px';
-          ps[b].style.borderLeft='2px solid lawngreen';ps[b].style.paddingLeft='6px';
-        }
+        var a=Math.floor(Math.random()*ps.length),b=Math.floor(Math.random()*ps.length);
+        if(a!==b){var tmp=ps[a].textContent;ps[a].textContent=ps[b].textContent;ps[b].textContent=tmp;}
       }
-    },6000);
+    },8000);
   } catch(e){} }
 
-  // KiwiShade: 클릭+자동 그림자 선택지
+  // KiwiShade: an extra option that shouldn't be there
   if (v === 'kiwishade') { try {
-    function shade(x,y){
-      var ghost=document.createElement('div');
-      ghost.textContent=['👻','◐','🥝','?'][Math.floor(Math.random()*4)];
-      ghost.style.cssText='position:fixed;font-size:24px;opacity:0;pointer-events:none;z-index:9999;left:'+x+'px;top:'+y+'px;transition:all 1.5s;';
-      document.body.appendChild(ghost);
-      setTimeout(function(){ghost.style.opacity='0.4';ghost.style.transform='translateY(-40px) scale(1.5)';},50);
-      setTimeout(function(){ghost.style.opacity='0';},1500);
-      setTimeout(function(){ghost.remove();},3000);
-    }
-    document.addEventListener('click',function(e){shade(e.clientX,e.clientY);});
-    setInterval(function(){shade(Math.random()*window.innerWidth,Math.random()*window.innerHeight);},4000);
+    document.addEventListener('click',function(e){
+      var g=document.createElement('div');
+      g.textContent='\u25a0';
+      g.style.cssText='position:fixed;font-size:12px;color:rgba(255,69,0,0.08);pointer-events:none;z-index:9999;left:'+e.clientX+'px;top:'+e.clientY+'px;transition:all 2s;';
+      document.body.appendChild(g);
+      setTimeout(function(){g.style.opacity='0';g.style.transform='translateY(-20px)';},100);
+      setTimeout(function(){g.remove();},2500);
+    });
   } catch(e){} }
 
-  // KiwiHowl: 울음 이모지 + 텍스트 떨림
+  // KiwiHowl: something is calling
   if (v === 'kiwihowl') { try {
-    setInterval(function(){
-      var howl=document.createElement('div');
-      howl.textContent=['~🥝~','🐦‍⬛','Ki-Wi!','...'][Math.floor(Math.random()*4)];
-      howl.style.cssText='position:fixed;font-size:22px;color:orangered;opacity:0;pointer-events:none;z-index:9999;left:'+Math.random()*80+'%;top:'+Math.random()*80+'%;transition:all 2s;font-family:"t26-carbon",monospace;font-style:italic;';
-      document.body.appendChild(howl);
-      setTimeout(function(){howl.style.opacity='0.4';howl.style.transform='scale(1.5) rotate('+(Math.random()*20-10)+'deg)';},50);
-      setTimeout(function(){howl.style.opacity='0';},2500);
-      setTimeout(function(){howl.remove();},4500);
-    },3000);
-    // 텍스트 떨림
     setInterval(function(){
       var ps=document.querySelectorAll('.main-content p');
       var p=ps[Math.floor(Math.random()*ps.length)];
-      if(p){p.style.animation='shake 0.3s';setTimeout(function(){p.style.animation='';},300);}
-    },5000);
+      if(p){p.style.animation='shake 0.2s';setTimeout(function(){p.style.animation='';},200);}
+    },6000);
   } catch(e){} }
 
-  // KiwiVoid: 요소 빨려들어가듯 소멸
+  // KiwiVoid: things are being unmade
   if (v === 'kiwivoid') { try {
     setInterval(function(){
       var ps=document.querySelectorAll('.main-content p,.main-content li');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(p&&!p.getAttribute('data-void')){
         p.setAttribute('data-void','1');
-        p.style.transition='all 2s';
-        p.style.transform='scale(0.8) perspective(200px) rotateX(10deg)';
+        p.style.transition='all 3s';
         p.style.opacity='0';
-        setTimeout(function(){p.style.height='0';p.style.margin='0';p.style.padding='0';p.style.overflow='hidden';},2000);
+        p.style.transform='scale(0.95)';
+        setTimeout(function(){p.style.height='0';p.style.margin='0';p.style.padding='0';p.style.overflow='hidden';},3000);
       }
-    },5000);
+    },6000);
   } catch(e){} }
 
 });
