@@ -209,17 +209,18 @@ body.lang-ja {
 }
 
 .lang-btn {
+  display: inline-block;
   padding: 4px 14px;
   font-size: 12px;
   font-weight: 400;
   font-family: "t26-carbon", monospace;
   font-style: italic;
-  border: none;
+  text-decoration: none;
   background: #ffffff;
   color: orangered;
   cursor: pointer;
   &:not(:last-child) { border-right: 1px solid orangered; }
-  &:hover { background: linear-gradient(90deg, lawngreen, #ffffff); }
+  &:hover { background: linear-gradient(90deg, lawngreen, #ffffff); color: orangered; text-decoration: none; }
   &.active { background: orangered; color: #ffffff; }
 }
 
