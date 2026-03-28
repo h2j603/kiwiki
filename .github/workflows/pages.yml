@@ -34,9 +34,22 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+
+      - name: Debug - check kiwiki.js
+        run: |
+          echo "=== kiwiki.js exists? ==="
+          ls -la _site/assets/js/kiwiki.js || echo "NOT FOUND"
+          echo "=== kiwiki.js size ==="
+          wc -c _site/assets/js/kiwiki.js || echo "N/A"
+          echo "=== kiwiki.js first 5 lines ==="
+          head -5 _site/assets/js/kiwiki.js || echo "N/A"
+          echo "=== script src in index.html ==="
+          grep -o 'src="[^"]*kiwiki[^"]*"' _site/index.html || echo "NOT FOUND"
+          echo "=== virus interactions count ==="
+          grep -c "echoloop\|deadscroll\|mirrorlink" _site/assets/js/kiwiki.js || echo "0"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
