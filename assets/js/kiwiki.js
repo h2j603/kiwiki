@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function(){
     function whisper(x,y){
       var w=document.createElement('div');
       w.textContent=lines[Math.floor(Math.random()*lines.length)];
-      w.style.cssText='position:fixed;top:'+(y||Math.random()*70+10)+'%;left:'+(x||Math.random()*60+5)+'%;color:rgba(0,0,0,0.08);font-style:italic;font-family:"t26-carbon",monospace;font-size:'+(10+Math.random()*8)+'px;pointer-events:none;z-index:9999;transition:opacity 3s;';
+      w.style.cssText='position:fixed;top:'+(y||Math.random()*70+10)+'%;left:'+(x||Math.random()*60+5)+'%;color:#111;font-style:italic;font-family:"t26-carbon",monospace;font-size:'+(10+Math.random()*8)+'px;pointer-events:none;z-index:9999;transition:opacity 3s;';
       document.body.appendChild(w);
       setTimeout(function(){w.style.opacity='0';},4000);
       setTimeout(function(){w.remove();},7000);
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function(){
     setInterval(function(){
       var n=document.createElement('div');
       n.textContent=msgs[Math.floor(Math.random()*msgs.length)];
-      n.style.cssText='position:fixed;bottom:40px;left:10px;background:transparent;color:rgba(0,0,0,0.15);padding:0;font-family:"t26-carbon",monospace;font-style:italic;font-size:9px;z-index:9999;transition:opacity 3s;pointer-events:none;';
+      n.style.cssText='position:fixed;bottom:40px;left:10px;background:transparent;color:#111;padding:0;font-family:"t26-carbon",monospace;font-style:italic;font-size:9px;z-index:9999;transition:opacity 3s;pointer-events:none;';
       document.body.appendChild(n);
       setTimeout(function(){n.style.opacity='0';},3000);
       setTimeout(function(){n.remove();},6000);
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function(){
     setInterval(function(){
       for (var bi = 0; bi < 3; bi++) {
         var bloom = document.createElement('div');
-        bloom.style.cssText = 'position:fixed;border-radius:50%;background:radial-gradient(circle,rgba(58,90,28,0.08),rgba(0,0,0,0.03),transparent 70%);pointer-events:none;z-index:9997;width:10px;height:10px;left:' + Math.random()*100 + '%;top:' + Math.random()*100 + '%;transition:all 8s;';
+        bloom.style.cssText = 'position:fixed;border-radius:50%;background:radial-gradient(circle,rgba(58,90,28,0.08),rgba(0,0,0,0.1),transparent 70%);pointer-events:none;z-index:9997;width:10px;height:10px;left:' + Math.random()*100 + '%;top:' + Math.random()*100 + '%;transition:all 8s;';
         document.body.appendChild(bloom);
         setTimeout(function(b){ return function(){
           var size = 60 + Math.random() * 150;
@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var ps = document.querySelectorAll('.main-content p');
       var p = ps[Math.floor(Math.random() * ps.length)];
       if (p) {
-        p.style.background = 'linear-gradient(90deg, transparent, rgba(0,0,0,0.03) ' + Math.random()*50 + '%, transparent)';
+        p.style.background = 'linear-gradient(90deg, transparent, rgba(0,0,0,0.1) ' + Math.random()*50 + '%, transparent)';
       }
     }, 2000);
     // Phase 3: hr lines thicken and turn green
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var ps=document.querySelectorAll('.main-content p');
       if(idx<ps.length&&ps[idx].textContent.length>10){
         var t=ps[idx].textContent;
-        ps[idx].innerHTML='<span style="font-family:t26-carbon,monospace;font-size:0.85em;color:rgba(0,0,0,0.6);">if ('+t.substring(0,25)+') { return undefined; }</span>';
+        ps[idx].innerHTML='<span style="font-family:t26-carbon,monospace;font-size:0.85em;color:rgba(0,0,0,0.8);">if ('+t.substring(0,25)+') { return undefined; }</span>';
       }
       idx++;
     },4000);
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function(){
     setInterval(function(){
       var ps=document.querySelectorAll('.main-content p');
       if(fi<ps.length&&ps[fi].textContent.length>10){
-        ps[fi].innerHTML='<span style="color:#555;font-family:t26-carbon,monospace;font-size:0.85em;font-style:italic;">'+notices[fi%notices.length]+'</span>';
+        ps[fi].innerHTML='<span style="color:#111;font-family:t26-carbon,monospace;font-size:0.85em;font-style:italic;">'+notices[fi%notices.length]+'</span>';
         ps[fi].style.opacity='0.5';
       }
       fi++;
@@ -379,7 +379,7 @@ document.addEventListener('DOMContentLoaded', function(){
           var spread = bleedIntensity * 2;
           p.style.textShadow = spread + 'px 0 ' + (spread*2) + 'px rgba(0,0,0,0.3), ' +
             (-spread) + 'px 0 ' + (spread*2) + 'px rgba(0,0,0,0.2), ' +
-            '0 ' + spread + 'px ' + spread + 'px rgba(0,0,0,0.15)';
+            '0 ' + spread + 'px ' + spread + 'px #111';
           p.style.color = 'rgba(0,0,0,' + (1 - bleedIntensity * 0.03) + ')';
         }
       }
@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var leakText = '';
       for (var j = 0; j < 3; j++) leakText += chars[Math.floor(Math.random() * chars.length)];
       leak.textContent = leakText;
-      leak.style.cssText = 'position:absolute;color:rgba(0,0,0,0.25);font-size:' + (10 + Math.random() * 14) + 'px;transform:rotate(' + (Math.random() * 30 - 15) + 'deg);pointer-events:none;margin-left:' + (Math.random() * 40 - 20) + 'px;margin-top:' + (Math.random() * 20 - 10) + 'px;';
+      leak.style.cssText = 'position:absolute;color:rgba(0,0,0,0.8);font-size:' + (10 + Math.random() * 14) + 'px;transform:rotate(' + (Math.random() * 30 - 15) + 'deg);pointer-events:none;margin-left:' + (Math.random() * 40 - 20) + 'px;margin-top:' + (Math.random() * 20 - 10) + 'px;';
       p.style.position = 'relative';
       p.appendChild(leak);
     }, 2000);
@@ -502,7 +502,7 @@ document.addEventListener('DOMContentLoaded', function(){
     setInterval(function(){
       var o=document.createElement('div');
       o.textContent='you have read this before';
-      o.style.cssText='position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-family:"t26-carbon",monospace;font-style:italic;font-size:11px;color:rgba(0,0,0,0.06);pointer-events:none;z-index:9999;letter-spacing:3px;transition:opacity 4s;';
+      o.style.cssText='position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-family:"t26-carbon",monospace;font-style:italic;font-size:11px;color:#111;pointer-events:none;z-index:9999;letter-spacing:3px;transition:opacity 4s;';
       document.body.appendChild(o);
       setTimeout(function(){o.style.opacity='0';},5000);
       setTimeout(function(){o.remove();},9000);
@@ -590,7 +590,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var fragment=p.textContent.substring(0,Math.min(30,p.textContent.length));
       var echo=document.createElement('div');
       echo.textContent='...'+fragment+'...';
-      echo.style.cssText='position:fixed;font-family:"t26-carbon",monospace;font-style:italic;color:rgba(0,0,0,0.06);font-size:10px;pointer-events:none;z-index:9999;left:'+Math.random()*80+'%;top:'+Math.random()*80+'%;transition:opacity 4s;';
+      echo.style.cssText='position:fixed;font-family:"t26-carbon",monospace;font-style:italic;color:#111;font-size:10px;pointer-events:none;z-index:9999;left:'+Math.random()*80+'%;top:'+Math.random()*80+'%;transition:opacity 4s;';
       document.body.appendChild(echo);
       setTimeout(function(){echo.style.opacity='0';},3000);
       setTimeout(function(){echo.remove();},7000);
@@ -622,7 +622,7 @@ document.addEventListener('DOMContentLoaded', function(){
     document.addEventListener('click',function(e){
       var g=document.createElement('div');
       g.textContent='\u25a0';
-      g.style.cssText='position:fixed;font-size:12px;color:rgba(0,0,0,0.08);pointer-events:none;z-index:9999;left:'+e.clientX+'px;top:'+e.clientY+'px;transition:all 2s;';
+      g.style.cssText='position:fixed;font-size:12px;color:#111;pointer-events:none;z-index:9999;left:'+e.clientX+'px;top:'+e.clientY+'px;transition:all 2s;';
       document.body.appendChild(g);
       setTimeout(function(){g.style.opacity='0';g.style.transform='translateY(-20px)';},100);
       setTimeout(function(){g.remove();},2500);
@@ -676,35 +676,26 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     }, 1500);
 
-    // Phase 2: random text replaced with kiwi creature placeholder
-    var creatureImgs = [];
-    // Try loading creature images from folder
+    // Phase 2: inject kiwi creature images directly into DOM
     var imgFolder = '/kiwiki/assets/images/kiwi-creature/';
+    var creatureFiles = ['IMG_6034.jpeg','IMG_6035.jpeg','IMG_6039.jpeg','IMG_6041.jpeg','IMG_6042.jpeg','IMG_6046.jpeg'];
     setInterval(function(){
       var ps = document.querySelectorAll('.main-content p');
       if (ps.length < 3) return;
       var p = ps[Math.floor(Math.random() * ps.length)];
       if (p.getAttribute('data-kiwified')) return;
-      if (Math.random() > 0.3) return; // 30% chance per tick
       p.setAttribute('data-kiwified', '1');
-      // Try image replacement
       var img = document.createElement('img');
-      var creatureFiles = ['IMG_6034.jpeg','IMG_6035.jpeg','IMG_6039.jpeg','IMG_6041.jpeg','IMG_6042.jpeg','IMG_6046.jpeg'];
       img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
-      img.alt = 'kiwi creature';
-      img.style.cssText = 'max-width:120px;height:auto;display:inline-block;vertical-align:middle;margin:0 4px;opacity:0.8;';
-      img.onerror = function() {
-        // If image doesn't exist, use text placeholder
-        this.replaceWith(document.createTextNode(' [k\u0336i\u0336w\u0336i\u0336] '));
-      };
-      // Replace a random word with the creature
-      var words = p.innerHTML.split(' ');
-      if (words.length > 3) {
-        var idx = Math.floor(Math.random() * words.length);
-        var span = document.createElement('span');
-        span.appendChild(img);
-        words[idx] = span.outerHTML;
-        p.innerHTML = words.join(' ');
+      img.alt = '';
+      img.style.cssText = 'max-width:100px;height:auto;display:inline-block;vertical-align:middle;margin:0 6px;';
+      img.onerror = function() { this.style.display='none'; };
+      // Insert image before a random child node
+      if (p.childNodes.length > 0) {
+        var pos = Math.floor(Math.random() * p.childNodes.length);
+        p.insertBefore(img, p.childNodes[pos]);
+      } else {
+        p.appendChild(img);
       }
     }, 4000);
 
