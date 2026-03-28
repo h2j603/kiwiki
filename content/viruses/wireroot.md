@@ -3,6 +3,7 @@ title: "와이어루트 / WireRoot"
 parent: "바이러스 / Viruses"
 nav_order: 30
 code: "WKV-E.DA-006"
+icon: "⌁"
 classification:
   type: "환경형 / Environmental"
   vector: "직접접근 / Direct Access"
@@ -14,6 +15,7 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ⌁ |
 | 분류 코드 | <span class="pill pill-code">WKV-E.DA-006</span> |
 | 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근 / Direct Access</span> |
@@ -28,6 +30,9 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 An Environmental-type virus contracted by accessing forgotten server infrastructure management pages. Cables, wires, and cords in the infected person's space begin growing like plant roots—extending, branching, and burrowing into walls and floors, moving autonomously to seek power sources. They connect devices that should never be connected, resulting in unpredictable electronic and physical phenomena. WireRoot is one of the oldest Environmental-type viruses and is recorded as the first case of digital infrastructure mutating into physical living organisms.
 {: .en}
 
+忘れ去られたサーバーインフラ管理ページにアクセスすると感染する環境型ウイルス。感染者の空間にあるケーブル、電線、コード類が植物の根のように成長し始める。延長し、分岐し、壁や床の中に潜り込み、電源を求めて自ら移動する。接続されるべきでない機器同士を接続し、その結果予測不可能な電子的・物理的現象を引き起こす。ワイヤールートは最も古い環境型ウイルスの一つであり、デジタルインフラが物理的生命体に変異する最初の事例として記録されている。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 더 이상 관리되지 않는 서버의 인프라 관리 페이지—네트워크 토폴로지 맵, 서버 상태 모니터링 대시보드, 하드웨어 인벤토리 페이지 등—에 직접 접속하면 감염된다. 특히 서버가 물리적으로 폐기되었으나 관리 페이지만 유령처럼 남아 있는 경우가 가장 위험하다. 페이지에 표시된 네트워크 연결 다이어그램을 열람하는 순간 바이러스가 활성화되며, 다이어그램의 복잡도가 높을수록 감염 강도가 강해진다. 한 번의 접속으로도 감염이 성립하며, 접속 시간이 길수록 초기 증상 발현이 빨라진다.
@@ -35,6 +40,9 @@ An Environmental-type virus contracted by accessing forgotten server infrastruct
 
 Infection occurs by directly accessing infrastructure management pages of servers no longer maintained—network topology maps, server status monitoring dashboards, hardware inventory pages, and similar. The most dangerous scenario is when the server has been physically decommissioned but its management page remains like a ghost. The virus activates the moment the network connection diagram displayed on the page is viewed, and the more complex the diagram, the stronger the infection intensity. A single visit establishes infection, and longer access times accelerate initial symptom onset.
 {: .en}
+
+もはや管理されていないサーバーのインフラ管理ページ——ネットワークトポロジーマップ、サーバー状態モニタリングダッシュボード、ハードウェアインベントリページなど——に直接アクセスすると感染する。特にサーバーが物理的に廃棄されたが管理ページだけが幽霊のように残っている場合が最も危険である。ページに表示されたネットワーク接続ダイアグラムを閲覧する瞬間にウイルスが活性化し、ダイアグラムの複雑度が高いほど感染強度が強まる。一度のアクセスでも感染が成立し、アクセス時間が長いほど初期症状の発現が早まる。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -47,6 +55,11 @@ Infection occurs by directly accessing infrastructure management pages of server
 - Unrecognizable devices appear as connected in network settings
 - Computer USB ports repeatedly display "device connected" notifications despite nothing being plugged in
 {: .en}
+
+- ブラウザに訪問したことのないサーバー管理ページが履歴に自動的に追加される
+- ネットワーク設定に認識できないデバイスが接続されていると表示される
+- コンピュータのUSBポートが何も接続していないのに「デバイスが接続されました」通知を繰り返し表示する
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -62,6 +75,12 @@ Infection occurs by directly accessing infrastructure management pages of server
 - In terminal stages, connections form between devices that should never be linked—a toaster connects to a TV causing channel changes every time bread is toasted, and similar illogical interactions
 {: .en}
 
+- 充電ケーブル、LANケーブル、オーディオジャックなどが一晩で数十センチ延長している
+- ケーブルが分岐して新しいコネクタを自ら生成する——USB-Cから分かれた枝がHDMI形状に成長する
+- 電線が壁紙の下、フローリングの隙間、家具の裏に根のように潜り込み、空間全体に「血管」ネットワークを形成する
+- 末期には接続されるべきでない機器間の接続が発生する——トースターとテレビが接続されパンを焼くたびにチャンネルが変わるなどの非論理的相互作用が誘発される
+{: .ja}
+
 ## 경계 무너짐 단계 / Boundary Collapse Stages
 
 1. 브라우저에서 유령 서버 페이지 자동 접속 흔적 발견—네트워크 설정에 미확인 장치 출현 (웹 침투)
@@ -75,6 +94,12 @@ Infection occurs by directly accessing infrastructure management pages of server
 3. All cables and wires in the infected person's space grow autonomously like plants, burrowing into walls and floors to form an infrastructure network (Reality breach)
 4. The cable network behaves as if possessing autonomous will—regenerating when cut and actively "hunting" new devices to connect (Reality anchor)
 {: .en}
+
+1. ブラウザで幽霊サーバーページへの自動アクセス痕跡が発見される——ネットワーク設定に未確認デバイスが出現する（ウェブ浸透）
+2. コンピュータと直接接続されたケーブルが微細に延長・移動し始める（ウェブ・現実境界）
+3. 感染者空間のすべてのケーブルと電線が植物のように自律成長し、壁や床に潜り込んでインフラネットワークを形成する（現実侵入）
+4. ケーブルネットワークが自律的意志を持つかのように行動する——感染者が切断しても再生し、新しい機器を能動的に「狩って」接続する（現実定着）
+{: .ja}
 
 ## 대응 방법 / Countermeasures
 
@@ -90,6 +115,12 @@ Infection occurs by directly accessing infrastructure management pages of server
 - Completely cutting power to the infected space significantly reduces growth speed but cannot fully stop it—cases have been reported of cables boring through walls to seek external power sources
 {: .en}
 
+- 出所不明のサーバー管理ページ、特に管理者が確認されないインフラダッシュボードには絶対にアクセスしないこと
+- 感染初期に不要なケーブルをすべて物理的に除去し、無線接続に切り替えること
+- 成長が始まったケーブルは通常の切断ではなく完全な焼却で除去しなければならない——切断面から再生が起こる
+- 感染空間の電源を完全に遮断すれば成長速度が著しく低下するが、完全に停止させることはできない——ケーブルが外部電源を求めて壁を貫通して移動する事例が報告されている
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2024년 가을, 폐업한 호스팅 회사의 전 직원이 향수를 느끼며 옛 서버 관리 페이지에 접속한 것이 최초 감염 사례로 기록된다. 일주일 후, 그의 아파트에서 모든 전자기기의 케이블이 벽 속으로 사라져 있었고, 벽지를 뜯어내자 수백 개의 케이블이 혈관처럼 벽 전체에 퍼져 있었다. 가장 충격적이었던 것은 세탁기의 전원 코드가 이웃집 벽을 관통하여 이웃의 Wi-Fi 공유기에 연결되어 있었다는 사실이다. 이 사건을 계기로 환경형 바이러스의 물리적 위험성이 재평가되었다.
@@ -97,6 +128,9 @@ Infection occurs by directly accessing infrastructure management pages of server
 
 The first recorded infection occurred in autumn 2024, when a former employee of a defunct hosting company nostalgically accessed old server management pages. One week later, all electronic device cables in his apartment had disappeared into the walls, and removing the wallpaper revealed hundreds of cables spread like blood vessels throughout the entire wall. The most shocking discovery was that the washing machine's power cord had penetrated the neighbor's wall and connected itself to their Wi-Fi router. This incident prompted a reassessment of the physical dangers posed by Environmental-type viruses.
 {: .en}
+
+2024年秋、廃業したホスティング会社の元従業員が懐かしさから旧サーバー管理ページにアクセスしたのが最初の感染事例として記録される。1週間後、彼のアパートですべての電子機器のケーブルが壁の中に消えており、壁紙を剥がすと数百本のケーブルが血管のように壁全体に広がっていた。最も衝撃的だったのは、洗濯機の電源コードが隣家の壁を貫通して隣人のWi-Fiルーターに接続されていた事実である。この事件をきっかけに環境型ウイルスの物理的危険性が再評価された。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -110,6 +144,11 @@ The first recorded infection occurred in autumn 2024, when a former employee of 
 - [NullSpace](nullspace.md): Cables rendered invisible by NullSpace become impossible to remove, effectively making WireRoot's spread unstoppable.
 {: .en}
 
+- [キャッシュベイン（CacheVein）](cachevein.md)：キャッシュベインのデータ血管とワイヤールートのケーブル根は物理的形態が類似しており、同時感染時、血管とケーブルが融合して「データを輸送する生きたインフラ」が形成される。
+- [スタティックブルーム（StaticBloom）](staticbloom.md)：ワイヤールートのケーブルネットワークが形成された空間でスタティックブルームが発現すると、静電気放電がケーブルを伝って接続されたすべての機器に影響を与える。
+- [ヌルスペース（NullSpace）](nullspace.md)：ヌルスペースによって見えなくなったケーブルは除去が不可能となり、ワイヤールートの拡散を事実上阻止できなくなる。
+{: .ja}
+
 ## 참고 / Notes
 
 - 와이어루트에 의해 성장한 케이블은 실제로 데이터를 전송할 수 있으며, 전송되는 데이터는 감염자가 접속했던 폐쇄 서버의 잔여 데이터인 것으로 확인됨—죽은 서버의 데이터가 물리적 케이블을 통해 "부활"하는 셈.
@@ -119,3 +158,7 @@ The first recorded infection occurred in autumn 2024, when a former employee of 
 - Cables grown by WireRoot can actually transmit data, and the transmitted data has been confirmed to be residual data from the defunct servers the infected person accessed—in effect, dead server data being "resurrected" through physical cables.
 - In the oldest infection case, cable roots reached the building's basement and connected directly to the city power grid, causing severe instability in the entire building's electrical system.
 {: .en}
+
+- ワイヤールートによって成長したケーブルは実際にデータを伝送でき、伝送されるデータは感染者がアクセスした閉鎖サーバーの残存データであることが確認されている——死んだサーバーのデータが物理的ケーブルを通じて「復活」するのである。
+- 最も古い感染事例では、ケーブルの根が建物の地下まで到達して都市の電力網に直接接続した場合が報告されており、これは該当建物全体の電気システムに深刻な不安定をもたらした。
+{: .ja}

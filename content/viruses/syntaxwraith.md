@@ -10,11 +10,13 @@ classification:
 origin: "방치된 오픈소스 코드 저장소 / Neglected open-source code repository"
 status: "활성 / Active"
 code: "WKV-L.DA-002"
+icon: "⌥"
 tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access", "thought", "code"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ⌥ |
 | 분류 코드 | <span class="pill pill-code">WKV-L.DA-002</span> |
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근</span> |
@@ -29,6 +31,9 @@ tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access"
 A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by directly accessing neglected code repositories or outdated development documentation. The infected person's thought process begins to structure itself like programming language syntax, and natural-language thinking gradually becomes impossible.
 {: .en}
 
+放置されたコードリポジトリや古い開発ドキュメントに直接アクセスすると感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の思考過程がプログラミング言語の構文（syntax）のように構造化され始め、自然言語的な思考が徐々に不可能になる。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 3년 이상 업데이트되지 않은 코드 저장소에서 특정 패턴의 코드(미완성 함수, 닫히지 않은 괄호, 무한 재귀 구조 등)를 읽을 때 감염된다. 코드 자체에 바이러스가 기생하는 것이 아니라, 방치된 코드의 "불완전한 논리 구조"가 읽는 사람의 사고 체계에 침투하는 것으로 추정된다.
@@ -36,6 +41,9 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by 
 
 Infection occurs when reading code with specific patterns (incomplete functions, unclosed brackets, infinite recursion structures, etc.) in repositories that haven't been updated for 3+ years. The virus doesn't parasitize the code itself; rather, the "incomplete logical structure" of neglected code is hypothesized to infiltrate the reader's thought system.
 {: .en}
+
+3年以上更新されていないコードリポジトリで特定パターンのコード（未完成の関数、閉じられていない括弧、無限再帰構造など）を読んだ際に感染する。コード自体にウイルスが寄生しているのではなく、放置されたコードの「不完全な論理構造」が読み手の思考体系に侵入すると推定されている。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -48,6 +56,11 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 - Web searches are typed in programming language format
 - Emails and messages are written with conditional/loop structures
 {: .en}
+
+- コード以外の一般テキストにも「構文エラー」が見え始める
+- ウェブ検索時にクエリをプログラミング言語の形式で入力するようになる
+- メールやメッセージを書く際に条件文・繰り返し文の構造で文章を書く
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -63,6 +76,12 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 - In terminal stages, thought itself becomes dependent on a specific programming language; concepts inexpressible in that language become unthinkable
 {: .en}
 
+- 日常会話で自然言語の代わりに論理構文で話し始める（「もし天気が良いなら { 外出; } else { 家にいる; }」）
+- 感情表現が変数や定数のように定型化される
+- 曖昧さやニュアンスを処理できなくなり、すべてが真/偽に分類される
+- 末期には思考そのものが特定のプログラミング言語に依存し、その言語で表現できない概念は思考不能になる
+{: .ja}
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 방치된 코드 저장소 열람 (웹)
@@ -76,6 +95,12 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 3. Daily language replaced by syntax structures (Reality breach)
 4. Loss of natural-language thinking ability (Reality anchor)
 {: .en}
+
+1. 放置されたコードリポジトリの閲覧（ウェブ）
+2. すべてのテキストをコードとして認識（ウェブ拡散）
+3. 日常言語が構文構造に置き換わる（現実侵入）
+4. 自然言語的思考能力の喪失（現実定着）
+{: .ja}
 
 ## 대응 방법 / Countermeasures
 
@@ -91,6 +116,12 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 - For progressed infections, creative activities unrelated to programming (drawing, music) aid recovery
 {: .en}
 
+- 放置されたリポジトリを探索する際は、コードを絶対に声に出して読まないこと（黙読も危険だが音読は感染率を高める）
+- 感染初期には詩、小説、エッセイなど非構造的テキストを集中的に読むことで自然言語的思考が回復する
+- コードレビューは必ず他の人と一緒に行うこと——一人でコードを読むのが最も危険
+- 感染が進行した場合、プログラミングとは無関係な創造的活動（絵画、音楽など）が治療に有効
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2024년 겨울, 한 개발자 커뮤니티에서 "요즘 한국어가 안 돼요. 머릿속에서 모든 게 파이썬으로 변환됩니다"라는 글이 올라옴. 조사 결과 해당 개발자를 포함한 여러 명이 같은 방치된 GitHub 저장소를 열람한 것이 확인됨. 해당 저장소의 코드에는 의도적인 것으로 보이는 "불완전한 재귀 패턴"이 수백 개 포함되어 있었다.
@@ -98,6 +129,9 @@ Infection occurs when reading code with specific patterns (incomplete functions,
 
 Discovered in winter 2024 when a developer community post read "I can't speak Korean anymore. Everything in my head converts to Python." Investigation confirmed that the developer and several others had all viewed the same neglected GitHub repository. The repository's code contained hundreds of seemingly intentional "incomplete recursion patterns."
 {: .en}
+
+2024年冬、ある開発者コミュニティで「最近日本語が出てこない。頭の中ですべてがPythonに変換される」という投稿が上がった。調査の結果、その開発者を含む複数名が同じ放置されたGitHubリポジトリを閲覧していたことが確認された。そのリポジトリのコードには意図的と思われる「不完全な再帰パターン」が数百個含まれていた。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -113,6 +147,12 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 - [GlitchMoss](glitchmoss.md): Shares the Direct Access transmission vector. GlitchMoss comes from abandoned web pages; SyntaxWraith comes from abandoned code.
 {: .en}
 
+- [ヌルウィスパー（NullWhisper）](nullwhisper.md)：同じロジック型ウイルス。ヌルウィスパーが判断の結果を歪めるのに対し、シンタックスレイスは思考過程そのものをコードに置換する。同時感染すると、コード化された思考が自己破壊的な結論のみを出力するようになる。
+- [エコループ（EchoLoop）](echoloop.md)：シンタックスレイス感染者は思考が無限再帰に陥りやすく、エコループの反復症状と共鳴して双方の症状が加速する可能性がある。
+- [キャッシュベイン（CacheVein）](cachevein.md)：キャッシュベインが生み出す静脈パターンとシンタックスレイス感染者が「見る」構文構造が形態的に一致するという研究結果がある。
+- [グリッチモス（GlitchMoss）](glitchmoss.md)：直接アクセスという伝播経路を共有。グリッチモスが放棄されたウェブページから、シンタックスレイスは放棄されたコードから発生する。
+{: .ja}
+
 ## 참고 / Notes
 
 - 흥미롭게도, 프로그래밍 경험이 없는 사람도 감염될 수 있으며, 이 경우 감염자가 실제로 존재하지 않는 프로그래밍 언어의 구문을 "발명"하는 현상이 관찰됨
@@ -122,3 +162,7 @@ Discovered in winter 2024 when a developer community post read "I can't speak Ko
 - Interestingly, people with no programming experience can also be infected; in such cases, infected individuals have been observed "inventing" syntax from programming languages that don't actually exist.
 - SyntaxWraith is classified as "Moderate" severity due to low physical danger, but social and communicative damage is considerable.
 {: .en}
+
+- 興味深いことに、プログラミング経験のない人も感染する可能性があり、その場合、実在しないプログラミング言語の構文を「発明」する現象が観察されている
+- シンタックスレイスの危険度は「中程度」に分類されるが、これは物理的危険性が低いためであり、社会的・コミュニケーション上の被害はかなり大きい
+{: .ja}

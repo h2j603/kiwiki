@@ -9,11 +9,13 @@ classification:
 origin: "반송된 이메일의 SMTP 오류 데이터 / SMTP error data from bounced emails"
 status: "활성 / Active"
 code: "WKV-E.EM-004"
+icon: "⬚"
 tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "space", "void"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ⬚ |
 | 분류 코드 | <span class="pill pill-code">WKV-E.EM-004</span> |
 | 유형 | <span class="pill pill-type">환경형</span> |
 | 전파 경로 | <span class="pill pill-vector">이메일</span> |

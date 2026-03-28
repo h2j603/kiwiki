@@ -9,11 +9,13 @@ classification:
 origin: "기업 내부 메일 서버의 손상된 인코딩 테이블 / Corrupted encoding table in a corporate mail server"
 status: "활성 / Active"
 code: "WKV-L.EM-004"
+icon: "◐"
 tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgment", "shadow"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ◐ |
 | 분류 코드 | <span class="pill pill-code">WKV-L.EM-004</span> |
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">이메일</span> |
@@ -28,6 +30,9 @@ tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgm
 A [Logic-type](../taxonomy/index.md#classification-by-type) virus transmitted through invisible Unicode characters (zero-width characters, etc.) embedded in email body text. Whenever the infected person faces a choice, a non-existent "shadow option" appears, and they invariably select it.
 {: .en}
 
+メール本文に埋め込まれた不可視のユニコード文字（ゼロ幅文字など）を介して感染する[ロジック型](../taxonomy/index.md#유형별-분류)ウイルス。感染者が選択肢を前にするたびに、実際には存在しない「影の選択肢」が見え、常にそれを選んでしまう。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 정상적인 비즈니스 이메일처럼 보이는 메일에 제로폭 접합자(ZWJ), 제로폭 비접합자(ZWNJ) 등 보이지 않는 유니코드 문자가 특정 패턴으로 삽입되어 있다. 이메일을 읽는 행위 자체가 해당 패턴을 뇌가 처리하게 만들어 감염이 발생한다.
@@ -35,6 +40,9 @@ A [Logic-type](../taxonomy/index.md#classification-by-type) virus transmitted th
 
 Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-joiners (ZWNJ), and other invisible Unicode characters arranged in specific patterns. The act of reading the email causes the brain to process the pattern, triggering infection.
 {: .en}
+
+正常なビジネスメールのように見えるメールに、ゼロ幅接合子（ZWJ）、ゼロ幅非接合子（ZWNJ）などの不可視ユニコード文字が特定のパターンで挿入されている。メールを読む行為自体が脳にそのパターンを処理させ、感染が発生する。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -47,6 +55,11 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 - Hallucinated extra option appears in online forms
 - Cursor pauses at invisible character positions in text editors
 {: .en}
+
+- メールをコピー＆ペーストすると不可視文字が意図せず拡散される
+- オンラインフォームで選択肢が一つ多く見える幻覚が発生
+- テキストエディタでカーソルが不可視文字の位置で止まる現象
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -62,6 +75,12 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 - In terminal stages, all choices are replaced by shadows, rendering all decision-making impossible
 {: .en}
 
+- レストランのメニューにない品を注文しようとする
+- 選択の場面で常に「第三の選択肢」が見える（実際には二つしかない場合でも）
+- 影の選択肢を選ぶと現実では何も行動していないことになり、決定自体が無効化される
+- 末期にはすべての選択肢が影に置き換わり、一切の決定を下せなくなる
+{: .ja}
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 이메일에서 보이지 않는 문자 패턴 처리 (웹)
@@ -76,6 +95,12 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 4. Unable to distinguish real options from shadows (Reality anchor)
 {: .en}
 
+1. メールで不可視文字パターンを処理（ウェブ）
+2. オンラインフォーム・投票等で幻覚の選択肢が出現（ウェブ拡散）
+3. オフラインの日常で影の選択肢が発現（現実侵入）
+4. 実際の選択肢と影が区別不能に（現実定着）
+{: .ja}
+
 ## 대응 방법 / Countermeasures
 
 - 이메일 클라이언트에서 비가시 유니코드 문자를 표시하는 기능을 활성화할 것
@@ -88,6 +113,11 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 - In early stages, having others verify that only visible options are considered is effective
 {: .en}
 
+- メールクライアントで不可視ユニコード文字を表示する機能を有効にすること
+- 疑わしいメールはプレーンテキストモードで開いて確認する
+- 感染初期には、すべての決定を「見える選択肢だけ」を基準に他者に確認してもらう習慣が有効
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 봄, 한 대기업 인사팀에서 면접관들이 존재하지 않는 "4번 후보"에게 합격 판정을 내린 사건이 발생. 내부 이메일을 분석한 결과, 인사 관련 메일에 체계적으로 삽입된 제로폭 문자 패턴이 발견됨.
@@ -95,6 +125,9 @@ Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-
 
 Discovered in spring 2025 when interviewers at a major corporation gave passing evaluations to a non-existent "Candidate No. 4." Analysis of internal emails revealed systematically embedded zero-width character patterns in HR-related messages.
 {: .en}
+
+2025年春、ある大企業の人事部で面接官たちが存在しない「4番候補」に合格判定を下した事件が発生。社内メールを分析した結果、人事関連メールに体系的に挿入されたゼロ幅文字パターンが発見された。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -108,6 +141,11 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 - [SyntaxWraith](syntaxwraith.md): SyntaxWraith-infected individuals sometimes show immunity to ByteShade, perceiving zero-width characters as "code."
 {: .en}
 
+- [ヌルウィスパー（NullWhisper）](nullwhisper.md)：どちらもロジック型だが、ヌルウィスパーは誤った選択へ、バイトシェイドは存在しない選択へ誘導するという違いがある。
+- [ピクセルロット（PixelRot）](pixelrot.md)：メールという伝播経路を共有。バイトシェイドが不可視の文字なら、ピクセルロットは可視だが異常なピクセル。
+- [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：シンタックスレイス感染者はゼロ幅文字を「コード」として認識するため、バイトシェイドに免疫を示す事例がある。
+{: .ja}
+
 ## 참고 / Notes
 
 - 바이트셰이드는 표적 공격에 사용될 수 있어, 현재까지 발견된 로직형 중 유일하게 "무기화 가능성"이 논의되는 종
@@ -115,3 +153,6 @@ Discovered in spring 2025 when interviewers at a major corporation gave passing 
 
 - ByteShade can be used in targeted attacks, making it the only Logic-type virus where "weaponization potential" is discussed.
 {: .en}
+
+- バイトシェイドは標的攻撃に利用可能であり、現在発見されているロジック型の中で唯一「兵器化の可能性」が議論されている種である
+{: .ja}

@@ -3,6 +3,7 @@ title: "널스페이스 / NullSpace"
 parent: "바이러스 / Viruses"
 nav_order: 32
 code: "WKV-E.MS-008"
+icon: "☐"
 classification:
   type: "환경형 / Environmental"
   vector: "메신저 / Messenger"
@@ -14,6 +15,7 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ☐ |
 | 분류 코드 | <span class="pill pill-code">WKV-E.MS-008</span> |
 | 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저 / Messenger</span> |
@@ -28,6 +30,9 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 An Environmental-type virus contracted by receiving messenger messages with hidden null characters (\0) embedded within them. Objects in the infected person's room gradually become translucent, then fully transparent, and ultimately invisible. The physical existence of objects is fully preserved—they can be touched and bumped into—but they are completely lost visually. The bizarre reality of colliding with invisible tables, sitting in invisible chairs, and being blocked by invisible walls becomes everyday life. Just as null characters create "invisible blanks" in data, the virus creates "invisible matter" in reality.
 {: .en}
 
+ヌル文字（\0）が隠されて挿入されたメッセンジャーメッセージを受信すると感染する環境型ウイルス。感染者の部屋にある物体が段階的に半透明になり、続いて完全に透明になり、最終的には見えなくなる。物体の物理的存在はそのまま維持され、触ったりぶつかったりできるが、視覚的には完全に消失する。見えないテーブルにぶつかり、見えない椅子に座り、見えない壁に阻まれるという奇妙な状況が日常となる。ヌル文字がデータ内で「見えない空白」を作るように、ウイルスが現実で「見えない物質」を生み出す。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 메신저를 통해 수신한 메시지 내에 텍스트 사이에 널 문자(\0)가 삽입되어 있을 때 감염된다. 널 문자는 화면에 표시되지 않으므로 메시지는 정상적으로 보이지만, 메시지를 복사·붙여넣기하면 비정상적인 공백이 나타나거나 텍스트가 잘리는 현상으로 확인할 수 있다. 널 문자가 포함된 메시지를 3개 이상 수신하면 감염이 시작되며, 메시지 내 널 문자의 수가 많을수록 투명화 진행 속도가 빨라진다. 감염자가 다른 사람에게 메시지를 전달할 때 무의식적으로 널 문자가 삽입되어 전파가 이루어진다.
@@ -35,6 +40,9 @@ An Environmental-type virus contracted by receiving messenger messages with hidd
 
 Infection occurs when null characters (\0) are embedded between text within messages received via messenger. Since null characters are not displayed on screen, messages appear normal, but copying and pasting the message reveals abnormal spacing or text truncation. Infection begins after receiving three or more messages containing null characters, and the more null characters within messages, the faster the transparency progression. When the infected person forwards messages to others, null characters are unconsciously inserted, enabling propagation.
 {: .en}
+
+メッセンジャーを通じて受信したメッセージ内のテキストの間にヌル文字（\0）が挿入されている場合に感染する。ヌル文字は画面に表示されないためメッセージは正常に見えるが、メッセージをコピー＆ペーストすると異常なスペースが現れたりテキストが切れる現象で確認できる。ヌル文字が含まれたメッセージを3つ以上受信すると感染が始まり、メッセージ内のヌル文字の数が多いほど透明化の進行速度が速くなる。感染者が他の人にメッセージを転送する際、無意識にヌル文字が挿入され伝播が行われる。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -47,6 +55,11 @@ Infection occurs when null characters (\0) are embedded between text within mess
 - Images and UI elements on web pages are intermittently rendered as transparent
 - File icons in the file explorer gradually fade and become invisible—files exist but are not visually displayed
 {: .en}
+
+- メッセンジャーの会話で特定の単語や文が見えたり消えたりする「ちらつき」現象が発生する
+- ウェブページの画像やUI要素が断続的に透明にレンダリングされる
+- ファイルエクスプローラーでファイルアイコンが徐々にぼやけて見えなくなる——ファイルは存在するが視覚的に表示されない
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -62,6 +75,12 @@ Infection occurs when null characters (\0) are embedded between text within mess
 - In terminal stages, the room's walls, floor, and ceiling also become transparent, making the infected person appear to be floating in empty air, when in reality everything in the room still exists but nothing is visible
 {: .en}
 
+- 感染者の部屋の小さな物（ペン、リモコン、鍵など）から半透明になり始め、ガラスのように透明に変わる
+- 透明化は小さな物から大きな物へ進行する——デスク、椅子、ベッド、家電の順で視覚的に消失する
+- 物体の物理的特性（質量、硬度、温度）は完全に維持されるため、見えない物体にぶつかって怪我をする事例が多発する
+- 末期には部屋の壁、床、天井まで透明になり、感染者の視野には自分だけが虚空に浮いているように見えるが、実際には部屋にすべてが存在しているのに何も見えない状態に至る
+{: .ja}
+
 ## 경계 무너짐 단계 / Boundary Collapse Stages
 
 1. 메신저 UI 요소와 디지털 파일이 간헐적으로 투명화—디지털 환경에서만 "보이지 않음" 발생 (웹 침투)
@@ -75,6 +94,12 @@ Infection occurs when null characters (\0) are embedded between text within mess
 3. Physical objects in the infected person's space gradually become transparent and are visually lost (Reality breach)
 4. Parts of the infected person's own body begin turning transparent—fingertips and toes become invisible in mirrors (Reality anchor)
 {: .en}
+
+1. メッセンジャーのUI要素とデジタルファイルが断続的に透明化する——デジタル環境でのみ「見えない」が発生する（ウェブ浸透）
+2. モニター画面の一部領域が透明に表示される——画面越しにデスクが透けて見えるような錯覚（ウェブ・現実境界）
+3. 感染者空間の物理的物体が段階的に透明になり視覚的に消失する（現実侵入）
+4. 感染者自身の身体の一部が透明になり始める——鏡で指先やつま先が見えなくなる（現実定着）
+{: .ja}
 
 ## 대응 방법 / Countermeasures
 
@@ -90,6 +115,12 @@ Infection occurs when null characters (\0) are embedded between text within mess
 - Security plugins that provide null character filtering for messenger apps are effective for prevention, but no perfect solution currently exists that detects all null characters
 {: .en}
 
+- 出所が不明確または疑わしいメッセージを受信した場合、テキストをコピーしてテキストエディタに貼り付け、ヌル文字の有無を確認すること
+- 感染初期に重要な物に蛍光ペイントや触覚マーカー（凸シールなど）を貼付すれば、透明化後も位置を把握できる
+- 感染空間に赤外線検知システムを設置すれば見えない物体の位置を追跡できる——物体の熱的特性は保存されるため
+- メッセンジャーアプリにヌル文字フィルタリング機能を提供するセキュリティプラグインの使用が予防に効果的だが、現在すべてのヌル文字を検出する完璧なソリューションは存在しない
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 겨울, 한 프로그래머가 익명의 메시지를 수신한 후 자신의 작업 공간에서 마우스가 "사라졌다"고 보고했다. 동료가 확인해보니 마우스는 제자리에 있었으나, 감염자에게는 보이지 않았다. 이후 키보드, 모니터 스탠드, 책상 위의 물건들이 순차적으로 투명해졌다. 감염자의 메신저 기록을 분석한 결과, 수신한 메시지 내에 대량의 널 문자가 삽입되어 있었음이 확인되었다. 결정적으로, 감염자가 "보이지 않는 의자"에 앉으려다 빗나가 바닥에 넘어진 사건이 동료에 의해 목격되면서 신종 바이러스의 존재가 공식 확인되었다.
@@ -97,6 +128,9 @@ Infection occurs when null characters (\0) are embedded between text within mess
 
 In winter 2025, a programmer reported that their mouse "disappeared" from their workspace after receiving anonymous messages. A colleague confirmed the mouse was in its place, but it was invisible to the infected person. Subsequently, the keyboard, monitor stand, and objects on the desk became transparent in sequence. Analysis of the infected person's messenger records confirmed that received messages contained massive amounts of embedded null characters. The existence of the new virus was officially confirmed when a colleague witnessed the infected person missing an "invisible chair" while trying to sit and falling to the floor.
 {: .en}
+
+2025年冬、あるプログラマーが匿名のメッセージを受信した後、自分のワークスペースからマウスが「消えた」と報告した。同僚が確認したところマウスは元の場所にあったが、感染者には見えなかった。その後、キーボード、モニタースタンド、デスク上の物が順次透明になった。感染者のメッセンジャー記録を分析した結果、受信したメッセージ内に大量のヌル文字が挿入されていたことが確認された。決定的に、感染者が「見えない椅子」に座ろうとして外れて床に倒れた事件が同僚に目撃されたことで、新種ウイルスの存在が公式に確認された。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -110,6 +144,11 @@ In winter 2025, a programmer reported that their mouse "disappeared" from their 
 - [ByteShade](byteshade.md): If ByteShade manipulates shadows, NullSpace removes objects themselves from sight—when the two viruses combine, the bizarre phenomenon of "only the shadows of invisible objects remaining" occurs.
 {: .en}
 
+- [ワイヤールート（WireRoot）](wireroot.md)：ヌルスペースによって透明になったケーブルはワイヤールートの成長を視覚的に追跡できなくなり、対処を事実上不可能にする。
+- [ヌルウィスパー（NullWhisper）](nullwhisper.md)：同じ「ヌル（null）」系列のウイルス。ヌルウィスパーが認知の空白を作るのに対し、ヌルスペースは物理的視野の空白を作る——同時感染時、判断と視覚の両方が「空白」に侵食される。
+- [バイトシェード（ByteShade）](byteshade.md)：バイトシェードが影を操作するのに対し、ヌルスペースは物体そのものを視覚から除去する——二つのウイルスが結合すると「見えない物体の影だけが残る」という奇妙な現象が発生する。
+{: .ja}
+
 ## 참고 / Notes
 
 - 널스페이스의 투명화는 감염자의 시각에만 영향을 미치는 것이 아니라 카메라, CCTV 등 광학 장비에도 동일하게 적용됨—감염 공간을 촬영하면 실제로 물체가 찍히지 않음. 이는 단순한 인지 왜곡이 아닌 물리적 광학 현상임이 입증됨.
@@ -119,3 +158,7 @@ In winter 2025, a programmer reported that their mouse "disappeared" from their 
 - NullSpace's transparency affects not only the infected person's vision but applies equally to optical equipment such as cameras and CCTV—photographing the infected space actually fails to capture objects. This proves it is a physical optical phenomenon, not mere cognitive distortion.
 - Some infected individuals report feeling a "texture of data" when touching transparent objects—smooth metal feels like fine grid-patterned bumps, leading to the hypothesis that the binary structure of null characters is being transcribed into tactile sensation.
 {: .en}
+
+- ヌルスペースの透明化は感染者の視覚にのみ影響するのではなく、カメラやCCTVなどの光学機器にも同様に適用される——感染空間を撮影すると実際に物体が映らない。これは単なる認知の歪みではなく物理的な光学現象であることが証明されている。
+- 一部の感染者は透明化された物体を触る際に「データの質感」を感じると報告している——滑らかな金属が微細な格子パターンの凹凸として感じられ、これはヌル文字のバイナリ構造が触覚に転写されたものだという仮説が提起されている。
+{: .ja}

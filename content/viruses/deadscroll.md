@@ -10,11 +10,13 @@ classification:
 origin: "알 수 없는 SNS 알고리즘 변이 / Unknown social media algorithm mutation"
 status: "활성 / Active"
 code: "WKV-C.SN-002"
+icon: "⧗"
 tags: ["인지형", "SNS", "시간", "스크롤", "cognitive", "social media", "time", "scroll"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ⧗ |
 | 분류 코드 | <span class="pill pill-code">WKV-C.SN-002</span> |
 | 유형 | <span class="pill pill-type">인지형</span> |
 | 전파 경로 | <span class="pill pill-vector">SNS</span> |
@@ -29,6 +31,9 @@ SNS의 무한 스크롤 피드에서 특정 콘텐츠 패턴에 노출되면 감
 A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by exposure to specific content patterns in social media infinite scroll feeds. The infected person loses their sense of time and begins experiencing "time gaps" in reality—as if time skips forward like scrolling through a feed.
 {: .en}
 
+SNSの無限スクロールフィードで特定のコンテンツパターンに曝露されると感染する[認知型](../taxonomy/index.md#유형별-분류)ウイルス。感染者は時間感覚を喪失し、現実でも「スクロールするように」時間が飛ぶ隙間（タイムギャップ）を経験するようになる。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 SNS 무한 스크롤 피드에서 정확히 같은 콘텐츠가 정확히 13개 간격으로 반복 배치될 때, 이를 인지하지 못한 채 스크롤을 계속하면 감염된다. 이 패턴은 알고리즘 추천 시스템의 변이로 자연 발생하며, 인위적 생성이 불가능한 것으로 알려져 있다.
@@ -36,6 +41,9 @@ SNS 무한 스크롤 피드에서 정확히 같은 콘텐츠가 정확히 13개 
 
 Infection occurs when exactly identical content is placed at intervals of exactly 13 posts in an infinite scroll feed, and the user continues scrolling without noticing the repetition. This pattern occurs naturally through mutations in recommendation algorithms and is reportedly impossible to generate artificially.
 {: .en}
+
+SNSの無限スクロールフィードで、まったく同じコンテンツが正確に13個間隔で繰り返し配置された際、その反復に気づかずスクロールを続けると感染する。このパターンはアルゴリズム推薦システムの変異として自然発生し、人為的に生成することは不可能とされている。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -48,6 +56,11 @@ Infection occurs when exactly identical content is placed at intervals of exactl
 - Complete inability to recall content seen in the feed
 - Extreme discrepancy between app usage statistics and perceived time spent
 {: .en}
+
+- スクロール中に時間が異常に速く過ぎる（30分が5分に感じられる）
+- フィードで見たコンテンツをまったく覚えていない
+- アプリの使用時間統計と体感時間の間に極端な乖離がある
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -63,6 +76,12 @@ Infection occurs when exactly identical content is placed at intervals of exactl
 - In terminal stages, most of the day consists of gaps, collapsing continuity of self
 {: .en}
 
+- 現実でも時間が「飛ぶ」瞬間が発生する（突然2時間が経過している）
+- 飛んだ時間中の行動をまったく覚えていない
+- 周囲の人はその間、感染者が「ぼうっと何もしていなかった」と証言する
+- 末期には一日の大半が隙間で構成され、自我の連続性が崩壊する
+{: .ja}
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. SNS 무한 스크롤 중 시간 감각 상실 (웹)
@@ -76,6 +95,12 @@ Infection occurs when exactly identical content is placed at intervals of exactl
 3. Time gaps occur offline (Reality breach)
 4. Gaps dominate most of daily life (Reality anchor)
 {: .en}
+
+1. SNS無限スクロール中に時間感覚を喪失（ウェブ）
+2. すべての画面使用時に時間の歪みが発生（ウェブ拡散）
+3. オフラインでタイムギャップが発生（現実侵入）
+4. 隙間が日常の大半を占める（現実定着）
+{: .ja}
 
 ## 대응 방법 / Countermeasures
 
@@ -91,6 +116,12 @@ Infection occurs when exactly identical content is placed at intervals of exactl
 - In early stages, deleting all social media for 3 days and living by a strict schedule restores time sense
 {: .en}
 
+- SNSアプリに一日の使用時間制限を設定すること
+- 無限スクロール機能を無効にするか、ページネーション方式のクライアントを使用する
+- 感染が疑われる場合、アナログ時計を常に視界に置いて時間感覚を補正する
+- 初期段階では3日間すべてのSNSを削除し、決められた時間割通りに生活すると時間感覚が回復する
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 초, 한 대학생이 "일요일 오전에 폰을 열었는데 월요일 아침이었다"는 글을 올린 것을 계기로 조사가 시작됨. 해당 학생의 SNS 피드를 분석한 결과, 13개 간격의 반복 패턴이 확인되었으며, 같은 시기 동일 플랫폼에서 유사 증상을 보고한 사용자가 200명 이상 발견되었다.
@@ -98,6 +129,9 @@ Infection occurs when exactly identical content is placed at intervals of exactl
 
 Investigation began in early 2025 when a college student posted "I opened my phone on Sunday morning and it was Monday morning." Analysis of the student's social media feed confirmed the 13-interval repetition pattern, and over 200 users on the same platform reported similar symptoms during the same period.
 {: .en}
+
+2025年初頭、ある大学生が「日曜の朝にスマホを開いたら月曜の朝だった」と投稿したことをきっかけに調査が開始された。その学生のSNSフィードを分析した結果、13個間隔の反復パターンが確認され、同時期に同一プラットフォームで類似の症状を報告したユーザーが200名以上見つかった。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -111,6 +145,11 @@ Investigation began in early 2025 when a college student posted "I opened my pho
 - [PixelRot](pixelrot.md): PixelRot-infected individuals cannot visually distinguish DeadScroll's 13-interval pattern due to low-resolution vision, increasing infection risk.
 {: .en}
 
+- [エコループ（EchoLoop）](echoloop.md)：同じ認知型ウイルス。エコループが行動の反復なら、デッドスクロールは時間の消滅である。同時感染すると、繰り返していることも知らず時間も失う二重の認知障害が発生する。
+- [ミラーリンク（MirrorLink）](mirrorlink.md)：SNSという伝播経路を共有。ミラーリンク感染者がデッドスクロールに同時感染すると、タイムギャップ中に鏡の中の自分が「独立して動く」現象が報告されている。
+- [ピクセルロット（PixelRot）](pixelrot.md)：ピクセルロット感染者は低解像度の視野によりデッドスクロールの13個間隔パターンを視覚的に区別できず、感染リスクが増大する。
+{: .ja}
+
 ## 참고 / Notes
 
 - 시간 빈틈 동안 감염자의 뇌파는 수면 상태와 유사하나, 눈은 열려 있고 호흡과 심박은 정상
@@ -120,3 +159,7 @@ Investigation began in early 2025 when a college student posted "I opened my pho
 - During time gaps, the infected person's brainwaves resemble sleep, yet their eyes remain open with normal breathing and heart rate.
 - DeadScroll has the fastest-growing infection count among all Web Kiwi Viruses, attributed to the universality of social media algorithms.
 {: .en}
+
+- タイムギャップ中の感染者の脳波は睡眠状態に類似しているが、目は開いており呼吸と心拍は正常である
+- デッドスクロールは全[ウェブキウイウイルス](../glossary/index.md#웹키위바이러스--web-kiwi-virus)の中で最も急速に感染者数が増加しており、SNSアルゴリズムの普遍性がその原因とされている
+{: .ja}

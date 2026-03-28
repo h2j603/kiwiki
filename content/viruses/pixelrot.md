@@ -10,11 +10,13 @@ classification:
 origin: "대량 발송된 스팸 메일의 첨부 이미지 / Attached image from mass-distributed spam email"
 status: "활성 / Active"
 code: "WKV-S.EM-002"
+icon: "▦"
 tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual", "decay"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ▦ |
 | 분류 코드 | <span class="pill pill-code">WKV-S.EM-002</span> |
 | 유형 | <span class="pill pill-type">감각형</span> |
 | 전파 경로 | <span class="pill pill-vector">이메일</span> |
@@ -29,6 +31,9 @@ tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual
 A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted by opening image attachments in emails. "Pixel decay" gradually spreads across the infected person's visual field, causing the real world to appear in progressively lower resolution.
 {: .en}
 
+メールの添付画像を開くと感染する[感覚型](../taxonomy/index.md#유형별-분류)ウイルス。感染者の視野に徐々に「画素腐敗」が広がり、現実世界が次第に低解像度に見え始める。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 "계정 확인 필요", "배송 사진 첨부" 등 일상적 제목의 이메일에 첨부된 .png 이미지를 열 때 감염된다. 이미지 자체는 평범한 사진처럼 보이나, 확대하면 특정 영역의 픽셀이 불규칙하게 배열되어 있다. 이 배열 패턴을 뇌가 처리하는 순간 감염이 시작된다.
@@ -36,6 +41,9 @@ A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted b
 
 Infection occurs when opening .png images attached to emails with mundane subjects like "Account verification required" or "Delivery photo attached." The image looks like an ordinary photo, but zooming in reveals irregularly arranged pixels in specific areas. Infection begins the moment the brain processes this arrangement pattern.
 {: .en}
+
+「アカウント確認のお願い」「配送写真添付」など日常的な件名のメールに添付された.png画像を開く際に感染する。画像自体は普通の写真に見えるが、拡大すると特定領域のピクセルが不規則に配列されている。この配列パターンを脳が処理した瞬間に感染が始まる。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -48,6 +56,11 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 - Text anti-aliasing disappears, making characters look jagged
 - Videos feel like their resolution is automatically degrading
 {: .en}
+
+- ウェブブラウザで画像が徐々にモザイク処理されたように見える
+- テキストのアンチエイリアシングが消え、文字がギザギザに見える
+- 動画視聴時に解像度が自動で低下する感覚
+{: .ja}
 
 ## 발현 양상 / Manifestation
 
@@ -63,6 +76,12 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 - In terminal stages, faces appear blurred, making individual identification difficult
 {: .en}
 
+- 視野周辺部から始まり、物体がピクセル化して見える
+- 遠距離の物体が先に影響を受け、徐々に近くの物体も低解像度に見える
+- 細かいテクスチャ（木の葉、織物の模様など）が区別できなくなる
+- 末期には人の顔がぼやけて見え、個人の識別が困難になる
+{: .ja}
+
 ## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 이메일 이미지 열람 (웹)
@@ -76,6 +95,12 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 3. Pixelation begins in peripheral real-world vision (Reality breach)
 4. Entire visual field converts to low resolution (Reality anchor)
 {: .en}
+
+1. メールの画像を閲覧（ウェブ）
+2. すべての画面コンテンツの解像度低下（ウェブ拡散）
+3. 現実の視野周辺部でピクセル化が開始（現実侵入）
+4. 視野全体が低解像度に変換（現実定着）
+{: .ja}
 
 ## 대응 방법 / Countermeasures
 
@@ -91,6 +116,12 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 - Maximizing screen brightness and contrast temporarily slows symptom progression
 {: .en}
 
+- 出所不明のメール添付画像を開かないこと
+- 画像を開く前にメタデータを確認し、異常なピクセル配列パターンを検査する
+- 感染初期に高解像度の自然環境（森林、海辺など）に72時間以上身を置くと視野の解像度が回復する事例がある
+- 画面の明るさとコントラストを最大にすると症状の進行が一時的に鈍化する
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2025년 여름, 한 디자이너가 "모니터가 고장난 줄 알았는데 모니터를 바꿔도 똑같다"는 게시글을 올림. 이후 같은 증상을 호소하는 사람들이 모두 동일한 발신자로부터 이메일을 받았음이 확인됨. 해당 이메일의 발신 서버는 추적 결과 존재하지 않는 IP 대역이었다.
@@ -98,6 +129,9 @@ Infection occurs when opening .png images attached to emails with mundane subjec
 
 Discovered in summer 2025 when a designer posted "I thought my monitor was broken, but it's the same after replacing it." All people reporting the same symptoms were confirmed to have received emails from the same sender. The sending server was traced to a non-existent IP range.
 {: .en}
+
+2025年夏、あるデザイナーが「モニターが壊れたと思ったが、交換しても同じだ」という投稿を行った。その後、同じ症状を訴える人々が全員同一の送信者からメールを受信していたことが確認された。そのメールの送信サーバーは追跡の結果、存在しないIP帯域であった。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -111,6 +145,11 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 - [DeadScroll](deadscroll.md): PixelRot-infected individuals scrolling endlessly on social media fail to perceive DeadScroll's "time gaps" due to low-resolution vision, making co-infection easier.
 {: .en}
 
+- [ミラーリンク（MirrorLink）](mirrorlink.md)：同じ感覚型ウイルス。ミラーリンクが反射像のみを歪めるのに対し、ピクセルロットは視野全体を侵食する。同時感染すると視覚機能が急激に低下する。
+- [グリッチモス（GlitchMoss）](glitchmoss.md)：グリッチモスの環境腐食はピクセルロット感染者にはより早く認知される——既に視野がピクセル化しているため、腐食パターンがより目立つためである。
+- [デッドスクロール（DeadScroll）](deadscroll.md)：ピクセルロット感染者がSNSを無限スクロールすると、低解像度の視野によりデッドスクロールの「時間の隙間」を認知できず、同時感染しやすくなる。
+{: .ja}
+
 ## 참고 / Notes
 
 - 픽셀롯은 감각형 바이러스 중 유일하게 감염 경로가 이메일인 종으로, 표적 감염이 가능하다는 점에서 다른 감각형과 구별됨
@@ -120,3 +159,7 @@ Discovered in summer 2025 when a designer posted "I thought my monitor was broke
 - PixelRot is the only Sensory-type virus transmitted via email, distinguishing it from others by enabling targeted infection.
 - Reports indicate pixel degradation in photos taken by infected individuals, but whether this is a direct viral effect or perceptual distortion remains debated.
 {: .en}
+
+- ピクセルロットは感覚型ウイルスの中で唯一感染経路がメールである種で、標的感染が可能という点で他の感覚型と区別される
+- 感染者が撮影した写真にもピクセルの劣化が現れるという報告があるが、これがウイルスの直接的効果なのか感染者の認知の歪みなのかは議論中である
+{: .ja}

@@ -10,11 +10,13 @@ classification:
 origin: "삭제된 단체 채팅방의 잔여 데이터 / Residual data from a deleted group chat"
 status: "활성 / Active"
 code: "WKV-L.MS-001"
+icon: "∅"
 tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger", "judgment", "whisper"]
 ---
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ∅ |
 | 분류 코드 | <span class="pill pill-code">WKV-L.MS-001</span> |
 | 유형 | <span class="pill pill-type">로직형</span> |
 | 전파 경로 | <span class="pill pill-vector">메신저</span> |
@@ -143,6 +145,11 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 - [CacheVein](cachevein.md): Shares the messenger transmission vector. There is a hypothesis that traces of NullWhisper's empty messages catalyze CacheVein's physical manifestation.
 {: .en}
 
+- [シンタックスレイス（SyntaxWraith）](syntaxwraith.md)：同じロジック型ウイルス。ヌルウィスパーが判断の*結果*を歪めるのに対し、シンタックスレイスは思考の*過程*を変容させる。
+- [エコループ（EchoLoop）](echoloop.md)：エコループ感染者がメッセンジャーを使用するとヌルウィスパーへの感受性が高まる。反復的思考と歪んだ判断が組み合わさると症状が加速する。
+- [キャッシュベイン（CacheVein）](cachevein.md)：メッセンジャーという伝播経路を共有。ヌルウィスパーの空メッセージの痕跡がキャッシュベインの物理的[発現](../glossary/index.md#발현--manifestation)を促進するという仮説がある。
+{: .ja}
+
 ## 참고 / Notes
 
 - 감염자가 보낸 메시지에도 미세한 논리적 오류가 포함되어 있어, 수신자의 판단력에 약한 영향을 미칠 수 있음 (간접 전파 가능성)
@@ -152,3 +159,7 @@ Discovered in spring 2025 when a startup's CTO drove the company to the brink of
 - Messages sent by infected individuals contain subtle logical errors that may weakly affect recipients' judgment (potential indirect transmission).
 - Records the highest social damage among all discovered Logic-type viruses.
 {: .en}
+
+- 感染者が送ったメッセージにも微細な論理的誤りが含まれており、受信者の判断力に弱い影響を及ぼす可能性がある（間接伝播の可能性）
+- 現在までに発見されたロジック型ウイルスの中で最も高い社会的被害を記録している
+{: .ja}

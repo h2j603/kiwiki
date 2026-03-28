@@ -3,6 +3,7 @@ title: "크로마드리프트 / ChromaDrift"
 parent: "바이러스 / Viruses"
 nav_order: 21
 code: "WKV-S.DA-005"
+icon: "◉"
 classification:
   type: "감각형 / Sensory"
   vector: "직접접근 / Direct Access"
@@ -14,6 +15,7 @@ tags: ["감각형", "직접접근", "색각", "시각", "sensory", "direct acces
 
 | 항목 | 내용 |
 |------|------|
+| 아이콘 | ◉ |
 | 분류 코드 | <span class="pill pill-code">WKV-S.DA-005</span> |
 | 유형 | <span class="pill pill-type">감각형</span> |
 | 전파 경로 | <span class="pill pill-vector">직접접근</span> |
@@ -28,6 +30,9 @@ tags: ["감각형", "직접접근", "색각", "시각", "sensory", "direct acces
 A Sensory-type virus contracted through accessing specific color palettes on abandoned web design portfolio sites. The infected person's color perception gradually mutates — reds appear blue, greens appear orange — as color recognition progressively inverts. Initially only screen colors appear different, but as infection advances, color perception in the real world completely inverts, making it impossible to read traffic lights, match clothing colors, or judge food freshness by color. The infected person is unaware of the color shift and is convinced "the world has always been these colors."
 {: .en}
 
+放置されたウェブデザインポートフォリオサイトの特定のカラーパレットにアクセスした際に感染する感覚型ウイルス。感染者の色覚が徐々に変異し、赤が青に、緑がオレンジに見えるなど、色彩認識が段階的に反転する。初期には画面の色だけが異なって見えるが、感染が進行すると現実世界の色彩認識まで完全に反転し、信号機を読めず、服の色を合わせられず、食品の鮮度を色で判断できなくなる。感染者本人は色の変化を認知できず、「世界はもともとこんな色だった」と確信する。
+{: .ja}
+
 ## 감염 방식 / Infection Method
 
 감염은 2000년대 초반에 제작된 후 방치된 웹 디자인 포트폴리오 사이트에 직접 접근할 때 시작된다. 이 사이트들은 당시의 웹 표준으로는 표현 불가능했던 비표준 색상 코드를 사용하고 있으며, 현대 브라우저가 이 코드를 렌더링할 때 디스플레이의 색상 출력에 미세한 왜곡이 발생한다. 이 왜곡된 색상 신호가 시신경을 통해 뇌의 색각 처리 영역에 "재보정 명령"을 주입하며, 약 10초 이상 해당 팔레트를 응시하면 감염이 개시된다. 감염은 비가역적이며, 색상 역전의 정도는 노출 시간에 비례하여 증가한다.
@@ -35,6 +40,9 @@ A Sensory-type virus contracted through accessing specific color palettes on aba
 
 Infection begins when directly accessing web design portfolio sites created in the early 2000s and since abandoned. These sites use non-standard color codes that were inexpressible under the web standards of that era, and when modern browsers render these codes, subtle distortions occur in the display's color output. These distorted color signals inject a "recalibration command" into the brain's color processing region via the optic nerve, and infection initiates after approximately 10 seconds of gazing at the palette. Infection is irreversible, and the degree of color inversion increases proportionally with exposure time.
 {: .en}
+
+感染は2000年代初頭に制作された後に放置されたウェブデザインポートフォリオサイトに直接アクセスした際に始まる。これらのサイトは当時のウェブ標準では表現不可能だった非標準カラーコードを使用しており、現代のブラウザがこのコードをレンダリングする際にディスプレイの色出力に微細な歪みが発生する。この歪んだ色信号が視神経を通じて脳の色覚処理領域に「再校正命令」を注入し、約10秒以上そのパレットを凝視すると感染が開始される。感染は不可逆的であり、色反転の程度は露出時間に比例して増大する。
+{: .ja}
 
 ## 웹 상 증상 / Web Symptoms
 
@@ -50,6 +58,12 @@ Infection begins when directly accessing web design portfolio sites created in t
 - Color blindness test websites show normal results, but when showing the screen to others, the infected points to completely different colors
 {: .en}
 
+- ウェブサイトのカラーテーマが元と異なって見え始め、特に赤と青の区別が曖昧になる
+- 画像編集ソフトウェアでカラーピッカーの値と実際に見える色が一致しない
+- ダークモードとライトモードの差が徐々に縮まり、すべての画面が同じに見える
+- 色覚検査サイトで正常な結果が出るが、周囲の人に画面を見せると全く異なる色を指し示す
+{: .ja}
+
 ## 발현 양상 / Manifestation
 
 - 빨간 신호등을 파란색(또는 안전 색상)으로 인식하여 교통사고 위험이 급격히 증가
@@ -63,6 +77,12 @@ Infection begins when directly accessing web design portfolio sites created in t
 - Fails to detect mold or discoloration in food, consuming spoiled items
 - In terminal stages, color inversion is fully established and the world appears like a photographic negative — skin tones, sky color, and plant colors are all inverted
 {: .en}
+
+- 赤信号を青色（または安全色）として認識し、交通事故のリスクが急激に増大する
+- 服を着る際、本人には調和して見えるが他人の目には極端に不調和な色の組み合わせとなる
+- 食品のカビや変色を認知できず、傷んだ食品を摂取する
+- 末期には色の反転が完全に定着し、世界がネガフィルムのように見え、人々の肌の色、空の色、植物の色すべてが反転する
+{: .ja}
 
 ## 경계 무너짐 단계 / Boundary Collapse Stages
 
@@ -78,6 +98,12 @@ Infection begins when directly accessing web design portfolio sites created in t
 4. Complete color perception inversion makes the real world appear like a photographic negative (Reality anchor)
 {: .en}
 
+1. 放置されたポートフォリオサイトのカラーパレット露出後、画面の色が微細に変質する（ウェブ）
+2. すべてのデジタル画面で色彩認識が段階的に反転する（ウェブ拡散）
+3. オフライン環境で色の歪みが始まり、日常的な色彩判断に支障をきたす（現実侵入）
+4. 全色覚が完全に反転し、現実世界がネガフィルムのように見える（現実定着）
+{: .ja}
+
 ## 대응 방법 / Countermeasures
 
 - 2010년 이전에 제작되어 업데이트되지 않은 웹 디자인 포트폴리오 사이트 접근을 피할 것
@@ -92,6 +118,12 @@ Infection begins when directly accessing web design portfolio sites created in t
 - Practice supplementing color-dependent judgments (traffic lights, food condition, etc.) with non-visual senses
 {: .en}
 
+- 2010年以前に制作されアップデートされていないウェブデザインポートフォリオサイトへのアクセスを避けること
+- ブラウザに非標準カラーコードを自動正規化する拡張機能をインストールする
+- 感染が疑われる場合、定期的に石原式色覚検査を実施するが、必ず非感染者立ち会いのもとで結果を確認すること
+- 日常生活で色に依存する判断（信号機、食品の状態など）を色以外の感覚で補完する訓練を実施する
+{: .ja}
+
 ## 발견 기록 / Discovery Log
 
 2024년 겨울, 한 그래픽 디자이너가 클라이언트에게 납품한 모든 작업물의 색상이 의도와 정반대로 되어 있는 것이 발견되었다. 디자이너 본인은 작업물이 완벽하다고 주장했으며, 모니터 캘리브레이션을 반복해도 차이를 인지하지 못했다. 조사 결과, 해당 디자이너가 "2000년대 웹 디자인 역사" 리서치를 위해 수십 개의 방치된 포트폴리오 사이트를 장시간 열람한 것이 확인되었고, 해당 사이트들의 CSS 코드에서 현대 브라우저의 색상 처리 엔진과 충돌하는 비표준 색상 코드가 발견되었다.
@@ -99,6 +131,9 @@ Infection begins when directly accessing web design portfolio sites created in t
 
 Discovered in winter 2024 when all work delivered by a graphic designer to clients was found to have colors completely opposite to the intended design. The designer insisted the work was perfect and could not perceive any difference even after repeated monitor calibrations. Investigation revealed the designer had spent extended periods browsing dozens of abandoned portfolio sites for "early-2000s web design history" research, and non-standard color codes that conflict with modern browsers' color processing engines were found in those sites' CSS code.
 {: .en}
+
+2024年冬、あるグラフィックデザイナーがクライアントに納品したすべての作品の色が意図と正反対になっていることが発見された。デザイナー本人は作品が完璧だと主張し、モニターのキャリブレーションを繰り返しても差異を認知できなかった。調査の結果、該当デザイナーが「2000年代ウェブデザインの歴史」リサーチのために数十の放置されたポートフォリオサイトを長時間閲覧していたことが確認され、それらのサイトのCSSコードから現代ブラウザの色処理エンジンと衝突する非標準カラーコードが発見された。
+{: .ja}
 
 ## 관련 바이러스 / Related Viruses
 
@@ -112,6 +147,11 @@ Discovered in winter 2024 when all work delivered by a graphic designer to clien
 - [BlindSpot](blindspot.md): When BlindSpot blocks certain visual areas while ChromaDrift inverts colors, "inverted colors" and "invisible zones" coexist in the infected person's visual world.
 {: .en}
 
+- [ピクセルロット（PixelRot）](pixelrot.md)：ピクセルロットが視覚的形態を腐食させるのに対し、クロマドリフトは色彩そのものを反転させる。同時感染時、視覚情報全体が解体され、事実上視覚的な現実認識が不可能になる。
+- [アフターイメージ（AfterImage）](afterimage.md)：クロマドリフトによって反転された色でアフターイメージの残像が残る場合、二重に歪んだ視覚情報が永続的に蓄積される。
+- [ブラインドスポット（BlindSpot）](blindspot.md)：クロマドリフトが色を反転させている間にブラインドスポットが特定の視覚領域を遮断すると、感染者の視覚世界に「反転された色」と「見えない領域」が共存することになる。
+{: .ja}
+
 ## 참고 / Notes
 
 - 크로마드리프트는 현재까지 발견된 감각형 바이러스 중 가장 오래된 것으로, 최초 감염 사례는 2024년 겨울이지만 바이러스 자체는 2000년대 초반부터 잠복해 있었던 것으로 추정된다.
@@ -121,3 +161,7 @@ Discovered in winter 2024 when all work delivered by a graphic designer to clien
 - ChromaDrift is the oldest Sensory-type virus discovered to date; while the first infection case was in winter 2024, the virus itself is estimated to have lain dormant since the early 2000s.
 - Some artists have produced works under ChromaDrift-inverted color perception that are being evaluated as a new genre called "inversion aesthetics" in the art world, but researchers view this as cultural entrenchment of the virus and urge caution.
 {: .en}
+
+- クロマドリフトは現在まで発見された感覚型ウイルスの中で最も古いもので、最初の感染事例は2024年冬だが、ウイルス自体は2000年代初頭から潜伏していたと推定される。
+- 一部のアーティストがクロマドリフトによる反転色覚状態で制作した作品が美術界で「反転美学」という新ジャンルとして評価されているが、研究者たちはこれをウイルスの文化的定着と見て警戒している。
+{: .ja}
