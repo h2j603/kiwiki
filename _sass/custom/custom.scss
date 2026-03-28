@@ -301,13 +301,19 @@ body.lang-ja {
   .toc-nav {
     padding: 10px 14px;
 
-    ol {
-      margin: 0;
-      padding: 0;
-      list-style: none;
+    ol, ul {
+      margin: 0 !important;
+      padding: 0 !important;
+      list-style: none !important;
+      list-style-type: none !important;
+      counter-reset: none !important;
+    }
 
-      li {
-        margin: 4px 0;
+    li {
+      margin: 4px 0;
+      list-style: none !important;
+      &::before { content: none !important; }
+      &::marker { content: none !important; display: none !important; }
         a {
           color: orangered;
           text-decoration: none;
