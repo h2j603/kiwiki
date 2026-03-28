@@ -9,17 +9,17 @@ body {
   background: lawngreen;
   color: #111;
   font-size: 15px;
-  font-family: "IBM Plex Mono", "Pretendard", -apple-system, BlinkMacSystemFont, monospace;
+  font-family: "neue-haas-unica", "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
 body.lang-ko {
-  font-family: "Pretendard", "IBM Plex Mono", -apple-system, sans-serif;
+  font-family: "Pretendard", "neue-haas-unica", -apple-system, sans-serif;
 }
 
 body.lang-ja {
-  font-family: "Pretendard", "Noto Sans JP", "IBM Plex Mono", sans-serif;
+  font-family: "Pretendard", "Noto Sans JP", "neue-haas-unica", sans-serif;
   .main-content h1, .main-content h2, .main-content h3 {
     font-family: "Pretendard", "Noto Sans JP", monospace;
   }
