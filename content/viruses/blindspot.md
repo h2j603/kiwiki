@@ -12,7 +12,11 @@ status: "활성 / Active"
 tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engine", "visual", "vanishing"]
 ---
 
-# 블라인드스팟 (BlindSpot)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [감각형 / Sensory](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [검색엔진 / Search Engine](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 치명적 / Critical |
 
 ## 개요 / Overview
 
@@ -20,38 +24,26 @@ tags: ["감각형", "검색엔진", "시각", "소실", "sensory", "search engin
 
 A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted by reading links containing specific meta tags on search engine result pages. Specific areas of the infected person's visual field progressively vanish, causing them to lose perception of parts of reality.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [감각형 / Sensory](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [검색엔진 / Search Engine](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 치명적 / Critical |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 검색 결과의 미리보기 텍스트(스니펫)에 변형된 메타태그가 포함된 경우, 해당 스니펫을 읽는 것만으로 감염된다. 링크를 클릭할 필요도 없다. 변형 메타태그는 일반 텍스트처럼 렌더링되어 육안으로 구별이 불가능하다.
 
 Infection occurs simply by reading a search result preview snippet that contains mutated meta tags. Clicking the link is not necessary. The mutated meta tags render as normal text and are visually indistinguishable.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 검색 결과 중 일부가 안 보임 (해당 영역이 빈 공간으로 보임) / Some search results become invisible (the area appears as empty space)
 - 웹페이지의 특정 구역이 로딩되지 않은 것처럼 보임 / Certain sections of web pages appear as if they failed to load
 - 화면의 같은 위치가 반복적으로 "비어" 보임 / The same screen position repeatedly appears "empty"
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 시야의 특정 영역에서 사물이 사라짐—사각지대가 생기나 뇌가 주변으로 채우려고 함 / Objects vanish from specific visual field areas—blind spots form but the brain attempts to fill them with surroundings
 - 처음에는 주변부에서 시작하여 중심부로 확대 / Begins at periphery and expands toward center
 - 사라진 영역에 있는 물체, 사람, 텍스트를 완전히 인지하지 못함 / Complete inability to perceive objects, people, or text in vanished areas
 - 말기에는 시야의 절반 이상이 소실되어 일상생활 불가 / In terminal stages, more than half the visual field is lost, making daily life impossible
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 검색 결과 일부가 안 보임 (웹) / Some search results become invisible (Web)
 2. 모든 화면에서 동일 위치 공백 발생 (웹 확산) / Same-position blanks across all screens (Web spread)

@@ -13,7 +13,11 @@ status: "활성 / Active"
 tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access", "thought", "code"]
 ---
 
-# 신택스레이스 (SyntaxWraith)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [로직형 / Logic](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [직접접근 / Direct Access](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 보통 / Moderate |
 
 ## 개요 / Overview
 
@@ -21,38 +25,26 @@ tags: ["로직형", "직접접근", "사고", "코드", "logic", "direct access"
 
 A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted by directly accessing neglected code repositories or outdated development documentation. The infected person's thought process begins to structure itself like programming language syntax, and natural-language thinking gradually becomes impossible.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [로직형 / Logic](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [직접접근 / Direct Access](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 보통 / Moderate |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 3년 이상 업데이트되지 않은 코드 저장소에서 특정 패턴의 코드(미완성 함수, 닫히지 않은 괄호, 무한 재귀 구조 등)를 읽을 때 감염된다. 코드 자체에 바이러스가 기생하는 것이 아니라, 방치된 코드의 "불완전한 논리 구조"가 읽는 사람의 사고 체계에 침투하는 것으로 추정된다.
 
 Infection occurs when reading code with specific patterns (incomplete functions, unclosed brackets, infinite recursion structures, etc.) in repositories that haven't been updated for 3+ years. The virus doesn't parasitize the code itself; rather, the "incomplete logical structure" of neglected code is hypothesized to infiltrate the reader's thought system.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 코드가 아닌 일반 텍스트에서도 "구문 오류"가 보이기 시작함 / "Syntax errors" begin appearing even in non-code text
 - 웹 검색 시 쿼리를 프로그래밍 언어 형식으로 입력하게 됨 / Web searches are typed in programming language format
 - 이메일이나 메시지를 작성할 때 조건문/반복문 구조로 글을 씀 / Emails and messages are written with conditional/loop structures
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 일상 대화에서 자연어 대신 논리적 구문으로 말하기 시작 ("만약 날씨가 좋다면 { 외출; } else { 집에 있기; }") / Begins speaking in logical syntax instead of natural language ("if (weather == good) { go_out(); } else { stay_home(); }")
 - 감정 표현이 변수나 상수처럼 정형화됨 / Emotional expression becomes formalized like variables or constants
 - 모호함이나 뉘앙스를 처리하지 못하게 됨—모든 것이 참/거짓으로 분류됨 / Unable to process ambiguity or nuance—everything is classified as true/false
 - 말기에는 사고 자체가 특정 프로그래밍 언어에 종속되어, 해당 언어로 표현할 수 없는 개념은 사고할 수 없게 됨 / In terminal stages, thought itself becomes dependent on a specific programming language; concepts inexpressible in that language become unthinkable
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 방치된 코드 저장소 열람 (웹) / Viewing neglected code repositories (Web)
 2. 모든 텍스트를 코드처럼 인식 (웹 확산) / Perceiving all text as code (Web spread)

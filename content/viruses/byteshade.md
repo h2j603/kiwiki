@@ -12,7 +12,11 @@ status: "활성 / Active"
 tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgment", "shadow"]
 ---
 
-# 바이트셰이드 (ByteShade)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [로직형 / Logic](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [이메일 / Email](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 높음 / High |
 
 ## 개요 / Overview
 
@@ -20,38 +24,26 @@ tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgm
 
 A [Logic-type](../taxonomy/index.md#classification-by-type) virus transmitted through invisible Unicode characters (zero-width characters, etc.) embedded in email body text. Whenever the infected person faces a choice, a non-existent "shadow option" appears, and they invariably select it.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [로직형 / Logic](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [이메일 / Email](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 높음 / High |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 정상적인 비즈니스 이메일처럼 보이는 메일에 제로폭 접합자(ZWJ), 제로폭 비접합자(ZWNJ) 등 보이지 않는 유니코드 문자가 특정 패턴으로 삽입되어 있다. 이메일을 읽는 행위 자체가 해당 패턴을 뇌가 처리하게 만들어 감염이 발생한다.
 
 Normal-looking business emails contain zero-width joiners (ZWJ), zero-width non-joiners (ZWNJ), and other invisible Unicode characters arranged in specific patterns. The act of reading the email causes the brain to process the pattern, triggering infection.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 이메일을 복사·붙여넣기하면 보이지 않는 문자가 의도치 않게 전파됨 / Invisible characters unintentionally propagate when copying and pasting emails
 - 온라인 양식에서 선택지가 하나 더 보이는 환각 발생 / Hallucinated extra option appears in online forms
 - 텍스트 에디터에서 커서가 보이지 않는 문자 위치에서 멈추는 현상 / Cursor pauses at invisible character positions in text editors
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 식당 메뉴에서 없는 메뉴를 주문하려고 시도 / Attempts to order non-existent items from restaurant menus
 - 선택해야 할 상황에서 "세 번째 선택지"가 항상 보임 (실제로는 두 개뿐인 경우에도) / A "third option" always appears in choice situations (even when only two exist)
 - 그림자 선택지를 고르면 현실에서 아무 행동도 하지 않은 것이 됨—결정 자체가 무효화됨 / Choosing the shadow option results in no action taken in reality—the decision itself is nullified
 - 말기에는 모든 선택이 그림자로 대체되어 일체의 결정을 내리지 못함 / In terminal stages, all choices are replaced by shadows, rendering all decision-making impossible
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 이메일에서 보이지 않는 문자 패턴 처리 (웹) / Processing invisible character patterns in email (Web)
 2. 온라인 양식·투표 등에서 환각 선택지 출현 (웹 확산) / Hallucinated options appear in online forms and polls (Web spread)

@@ -13,7 +13,11 @@ status: "활성 / Active"
 tags: ["인지형", "SNS", "시간", "스크롤", "cognitive", "social media", "time", "scroll"]
 ---
 
-# 데드스크롤 (DeadScroll)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [인지형 / Cognitive](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [SNS / Social Media](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 높음 / High |
 
 ## 개요 / Overview
 
@@ -21,38 +25,26 @@ SNS의 무한 스크롤 피드에서 특정 콘텐츠 패턴에 노출되면 감
 
 A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by exposure to specific content patterns in social media infinite scroll feeds. The infected person loses their sense of time and begins experiencing "time gaps" in reality—as if time skips forward like scrolling through a feed.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [인지형 / Cognitive](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [SNS / Social Media](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 높음 / High |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 SNS 무한 스크롤 피드에서 정확히 같은 콘텐츠가 정확히 13개 간격으로 반복 배치될 때, 이를 인지하지 못한 채 스크롤을 계속하면 감염된다. 이 패턴은 알고리즘 추천 시스템의 변이로 자연 발생하며, 인위적 생성이 불가능한 것으로 알려져 있다.
 
 Infection occurs when exactly identical content is placed at intervals of exactly 13 posts in an infinite scroll feed, and the user continues scrolling without noticing the repetition. This pattern occurs naturally through mutations in recommendation algorithms and is reportedly impossible to generate artificially.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 스크롤 중 시간이 비정상적으로 빠르게 지나감 (30분이 5분처럼 느껴짐) / Time passes abnormally fast while scrolling (30 minutes feels like 5)
 - 피드에서 본 콘텐츠를 전혀 기억하지 못함 / Complete inability to recall content seen in the feed
 - 앱 사용 시간 통계와 체감 시간 사이에 극단적 괴리 / Extreme discrepancy between app usage statistics and perceived time spent
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 현실에서도 시간이 "건너뛰어지는" 순간이 발생 (갑자기 2시간이 지나있음) / Moments of "skipped time" occur in reality (suddenly 2 hours have passed)
 - 건너뛴 시간 동안의 행동을 전혀 기억하지 못함 / No memory of actions during skipped time
 - 주변 사람들은 해당 시간 동안 감염자가 "멍하니 아무것도 안 하고 있었다"고 증언 / Others report the infected person "just sat there doing nothing" during gaps
 - 말기에는 하루의 대부분이 빈틈으로 구성되어 자아 연속성이 붕괴 / In terminal stages, most of the day consists of gaps, collapsing continuity of self
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. SNS 무한 스크롤 중 시간 감각 상실 (웹) / Loss of time sense during infinite scrolling (Web)
 2. 모든 화면 사용 시 시간 왜곡 발생 (웹 확산) / Time distortion during all screen use (Web spread)

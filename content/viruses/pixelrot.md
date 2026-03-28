@@ -13,7 +13,11 @@ status: "활성 / Active"
 tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual", "decay"]
 ---
 
-# 픽셀롯 (PixelRot)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [감각형 / Sensory](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [이메일 / Email](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 보통 / Moderate |
 
 ## 개요 / Overview
 
@@ -21,38 +25,26 @@ tags: ["감각형", "이메일", "시각", "부패", "sensory", "email", "visual
 
 A [Sensory-type](../taxonomy/index.md#classification-by-type) virus contracted by opening image attachments in emails. "Pixel decay" gradually spreads across the infected person's visual field, causing the real world to appear in progressively lower resolution.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [감각형 / Sensory](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [이메일 / Email](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 보통 / Moderate |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 "계정 확인 필요", "배송 사진 첨부" 등 일상적 제목의 이메일에 첨부된 .png 이미지를 열 때 감염된다. 이미지 자체는 평범한 사진처럼 보이나, 확대하면 특정 영역의 픽셀이 불규칙하게 배열되어 있다. 이 배열 패턴을 뇌가 처리하는 순간 감염이 시작된다.
 
 Infection occurs when opening .png images attached to emails with mundane subjects like "Account verification required" or "Delivery photo attached." The image looks like an ordinary photo, but zooming in reveals irregularly arranged pixels in specific areas. Infection begins the moment the brain processes this arrangement pattern.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 웹 브라우저에서 이미지가 점진적으로 모자이크 처리된 것처럼 보임 / Images in web browsers gradually appear mosaic-filtered
 - 텍스트의 안티앨리어싱이 사라져 글자가 거칠게 보임 / Text anti-aliasing disappears, making characters look jagged
 - 동영상 시청 시 해상도가 자동으로 낮아지는 느낌 / Videos feel like their resolution is automatically degrading
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 시야 주변부에서 시작해 사물이 픽셀화되어 보임 / Objects begin to appear pixelated, starting from the peripheral vision
 - 먼 거리의 사물이 먼저 영향받고, 점차 가까운 사물도 저해상도로 보임 / Distant objects are affected first, gradually extending to nearby objects
 - 세밀한 텍스처(나뭇잎, 직물 패턴 등)를 구별하지 못하게 됨 / Inability to distinguish fine textures (leaves, fabric patterns, etc.)
 - 말기에는 사람 얼굴이 흐릿하게 보여 개인 식별이 어려워짐 / In terminal stages, faces appear blurred, making individual identification difficult
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 이메일 이미지 열람 (웹) / Email image viewed (Web)
 2. 모든 화면 콘텐츠의 해상도 저하 (웹 확산) / Resolution degradation across all screen content (Web spread)

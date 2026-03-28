@@ -13,7 +13,11 @@ status: "활성 / Active"
 tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search engine", "memory", "loop"]
 ---
 
-# 에코루프 (EchoLoop)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [인지형 / Cognitive](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [검색엔진 / Search Engine](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 보통 / Moderate |
 
 ## 개요 / Overview
 
@@ -21,37 +25,25 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 
 A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by searching specific keyword combinations on search engines. The infected person falls into a loop of repetitive thoughts and becomes unable to recognize that they have been repeating the same searches.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [인지형 / Cognitive](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [검색엔진 / Search Engine](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 보통 / Moderate |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 특정 키워드 3개 이상을 조합하여 검색할 때, 검색 결과의 첫 번째 링크가 자기참조적 페이지(자기 자신을 검색 결과로 포함하는 페이지)로 연결되면 감염된다. 감염 키워드 조합은 개인마다 다르며, 주로 그 사람이 평소에 자주 검색하는 주제와 관련이 있다.
 
 Infection occurs when searching a combination of three or more specific keywords, and the first search result links to a self-referential page (a page that includes itself as a search result). The triggering keyword combination varies per individual and is usually related to topics the person frequently searches.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 검색 기록에 동일한 검색어가 수십 회 반복 기록됨 (본인은 인지 못함) / Identical searches recorded dozens of times in history (unnoticed by the user)
 - 브라우저 탭이 같은 페이지로 여러 개 열려 있음 / Multiple browser tabs open to the same page
 - 북마크에 같은 URL이 중복 저장됨 / Same URL bookmarked multiple times
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 같은 말을 무의식적으로 반복하게 됨 / Unconsciously repeating the same words
 - 방금 한 행동을 다시 하려고 함 (문 잠갔는지 확인하러 다시 가는 등) / Attempting to redo actions just completed (e.g., re-checking locked doors)
 - 대화 중 같은 이야기를 반복하나 본인은 처음 말하는 것으로 인식 / Repeating the same story in conversation while believing it's the first time
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 같은 검색을 반복 수행 (웹) / Repeated identical searches (Web)
 2. 검색 외 웹 활동에서도 반복 패턴 발생 (웹 확산) / Repetitive patterns in other web activities (Web spread)

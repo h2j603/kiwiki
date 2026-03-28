@@ -12,7 +12,11 @@ status: "활성 / Active"
 tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "auditory", "howl"]
 ---
 
-# 하울링크 (HowlLink)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [감각형 / Sensory](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [메신저 / Messenger](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 높음 / High |
 
 ## 개요 / Overview
 
@@ -20,38 +24,26 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 
 A [Sensory-type](../taxonomy/index.md#classification-by-type) virus transmitted through voice messages on messenger apps. Infected individuals continuously hear non-existent sounds in reality—distant howling, mechanical whispers, frequency-shifted humming.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [감각형 / Sensory](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [메신저 / Messenger](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 높음 / High |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 메신저에서 수신한 음성 메시지 중, 녹음 시간과 실제 재생 시간이 미세하게 다른(0.3~0.7초 차이) 것이 감염 매체이다. 이 "여분의 시간"에는 인간 가청 범위 경계(18~22kHz)의 초고주파가 포함되어 있으며, 이 주파수를 이어폰이나 스피커로 재생하면 감염된다.
 
 Among voice messages received on messengers, those where recorded duration subtly differs from actual playback duration (0.3-0.7 second discrepancy) are the infection medium. This "extra time" contains ultrahigh frequencies at the boundary of human hearing (18-22kHz), and playing these frequencies through earphones or speakers triggers infection.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 음성 메시지 재생 중 들리지 않았던 배경 소리가 나중에 기억남 / Background sounds not heard during playback are remembered afterward
 - 음악이나 팟캐스트에서 존재하지 않는 레이어의 소리가 들림 / Non-existent layers of sound are heard in music and podcasts
 - 알림 소리가 실제보다 자주 들리는 것 같은 느낌 / Notification sounds seem to ring more frequently than they actually do
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 조용한 공간에서 먼 곳의 울음소리나 기계음이 들림 / Distant howling or mechanical sounds heard in quiet spaces
 - 다른 사람은 듣지 못하는 저주파 진동을 감지 / Detecting low-frequency vibrations others cannot hear
 - 감염이 진행되면 실제 대화에 "없는 목소리"가 섞여 들림 / As infection progresses, "non-existent voices" blend into real conversations
 - 말기에는 실제 소리와 환청의 구별이 불가능해짐 / In terminal stages, distinguishing real sounds from hallucinated ones becomes impossible
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 메신저 음성 메시지에서 이상 주파수 노출 (웹) / Exposure to abnormal frequencies in messenger voice messages (Web)
 2. 모든 디지털 오디오에서 없는 소리 감지 (웹 확산) / Detecting non-existent sounds in all digital audio (Web spread)
