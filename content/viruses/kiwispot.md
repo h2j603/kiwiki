@@ -323,13 +323,13 @@ Discovered in winter 2025 when multiple librarians simultaneously reported "sear
 {: .ja}
 
 
-- <span class="redacted">Data removed per Protocol 7 clearance requirement</span>
+- <span class="redacted">[DATA EXPUNGED 2014 recovery not possible]</span>
 {: .en}
 
-- <span class="redacted">보안 등급 B 이상에서만 열람 가능한 정보가 삭제되었습니다</span>
+- <span class="redacted">[데이터 말소 2014 복구 불가]</span>
 {: .ko}
 
-- <span class="redacted">セキュリティレベルB以上でのみ閲覧可能な情報が削除されました</span>
+- <span class="redacted">[30C730FC30BF62B96D88 2014 5FA951434E0D53EF]</span>
 {: .ja}
 
 <div class="edit-history">
