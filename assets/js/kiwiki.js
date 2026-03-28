@@ -75,17 +75,38 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   } catch(e){}
 
-  // === Infection notice ===
+  // === Infection notice (2-stage: center splash → bottom bar) ===
   try {
     var v = window._kVirus;
     if (v) {
       var names = {echoloop:'EchoLoop',mirrorlink:'MirrorLink',pixelrot:'PixelRot',deadscroll:'DeadScroll',glitchmoss:'GlitchMoss',nullwhisper:'NullWhisper',blindspot:'BlindSpot',phantomtab:'PhantomTab',staticbloom:'StaticBloom',syntaxwraith:'SyntaxWraith',cachevein:'CacheVein',forgetmenot:'ForgetMeNot'};
       var codes = {echoloop:'WKV-C.SE-001',mirrorlink:'WKV-S.SN-001',pixelrot:'WKV-S.EM-002',deadscroll:'WKV-C.SN-002',glitchmoss:'WKV-E.DA-001',nullwhisper:'WKV-L.MS-001',blindspot:'WKV-S.SE-004',phantomtab:'WKV-L.SN-003',staticbloom:'WKV-E.SN-003',syntaxwraith:'WKV-L.DA-002',cachevein:'WKV-E.MS-002',forgetmenot:'WKV-C.EM-003'};
-      var bar = document.createElement('div');
-      bar.className = 'infection-notice';
-      bar.innerHTML = '\u26a0 infected: <b>' + (names[v]||v) + '</b> (' + (codes[v]||'') + ')';
-      document.body.appendChild(bar);
-      setTimeout(function(){ bar.style.transition='opacity 1s'; bar.style.opacity='0'; }, 8000);
+
+      // Stage 1: Center splash
+      var splash = document.createElement('div');
+      splash.className = 'infection-splash';
+      splash.innerHTML = '<div class="infection-splash-icon">\u26a0</div><div class="infection-splash-text">INFECTED</div><div class="infection-splash-name">' + (names[v]||v) + '</div><div class="infection-splash-code">' + (codes[v]||'') + '</div>';
+      document.body.appendChild(splash);
+
+      // Stage 2: After 3s, shrink to bottom bar
+      setTimeout(function(){
+        splash.style.transition = 'all 0.8s ease';
+        splash.style.top = 'auto';
+        splash.style.bottom = '0';
+        splash.style.left = '0';
+        splash.style.right = '0';
+        splash.style.transform = 'none';
+        splash.style.padding = '4px 14px';
+        splash.style.fontSize = '11px';
+        splash.style.borderRadius = '0';
+        splash.style.border = 'none';
+        splash.style.width = '100%';
+        splash.innerHTML = '\u26a0 infected: <b>' + (names[v]||v) + '</b> (' + (codes[v]||'') + ')';
+      }, 3000);
+
+      // Stage 3: Fade out after 8s
+      setTimeout(function(){ splash.style.transition='opacity 1s'; splash.style.opacity='0'; }, 8000);
+      setTimeout(function(){ splash.remove(); }, 9500);
     }
   } catch(e){}
 
@@ -153,19 +174,20 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 8000);
   } catch(e){} }
 
-  // NullWhisper: 클릭할 때마다 랜덤 "속삭임" 표시
+  // NullWhisper: 주기적으로 + 클릭 시 "속삭임" 표시
   if (v === 'nullwhisper') { try {
-    var whispers = ['choose this one...','trust yourself...','the other option is wrong...','this is the logical choice...','ignore their advice...'];
-    document.addEventListener('click', function(e){
-      if (Math.random() > 0.7) {
-        var w = document.createElement('div');
-        w.textContent = whispers[Math.floor(Math.random()*whispers.length)];
-        w.style.cssText = 'position:fixed;top:' + (Math.random()*60+20) + '%;left:' + (Math.random()*60+20) + '%;color:orangered;font-style:italic;font-size:14px;opacity:0.3;pointer-events:none;z-index:9999;transition:opacity 2s;';
-        document.body.appendChild(w);
-        setTimeout(function(){ w.style.opacity='0'; }, 100);
-        setTimeout(function(){ w.remove(); }, 2500);
-      }
-    });
+    var whispers = ['choose this one...','trust yourself...','the other option is wrong...','this is the logical choice...','ignore their advice...','you know the answer...','don\'t listen to them...'];
+    function showWhisper() {
+      var w = document.createElement('div');
+      w.textContent = whispers[Math.floor(Math.random()*whispers.length)];
+      w.style.cssText = 'position:fixed;top:' + (Math.random()*60+20) + '%;left:' + (Math.random()*50+10) + '%;color:orangered;font-style:italic;font-family:"t26-carbon",monospace;font-size:' + (14+Math.random()*14) + 'px;opacity:0;pointer-events:none;z-index:9999;transition:opacity 1s;';
+      document.body.appendChild(w);
+      setTimeout(function(){ w.style.opacity = '' + (0.15+Math.random()*0.2); }, 50);
+      setTimeout(function(){ w.style.opacity='0'; }, 2000);
+      setTimeout(function(){ w.remove(); }, 3500);
+    }
+    setInterval(showWhisper, 6000);
+    document.addEventListener('click', function(){ if(Math.random()>0.5) showWhisper(); });
   } catch(e){} }
 
   // BlindSpot: 마우스/터치 위치 근처에 검은 원 (사각지대)
@@ -190,16 +212,19 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 15000);
   } catch(e){} }
 
-  // StaticBloom: 랜덤 위치에 ✦ 꽃 생성
+  // StaticBloom: 랜덤 위치에 ✦ 꽃 생성 (강화)
   if (v === 'staticbloom') { try {
+    var symbols = ['✦','✧','✶','✷','❋','✸'];
     setInterval(function(){
-      var flower = document.createElement('div');
-      flower.textContent = '✦';
-      flower.style.cssText = 'position:fixed;color:lawngreen;font-size:' + (16+Math.random()*24) + 'px;opacity:0.3;pointer-events:none;z-index:9998;left:' + Math.random()*90 + '%;top:' + Math.random()*90 + '%;transition:opacity 3s;';
-      document.body.appendChild(flower);
-      setTimeout(function(){ flower.style.opacity='0'; }, 3000);
-      setTimeout(function(){ flower.remove(); }, 6000);
-    }, 4000);
+      for (var fi = 0; fi < 2; fi++) {
+        var flower = document.createElement('div');
+        flower.textContent = symbols[Math.floor(Math.random()*symbols.length)];
+        flower.style.cssText = 'position:fixed;color:lawngreen;font-size:' + (20+Math.random()*36) + 'px;opacity:' + (0.2+Math.random()*0.4) + ';pointer-events:none;z-index:9998;left:' + Math.random()*90 + '%;top:' + Math.random()*90 + '%;transition:all 4s;';
+        document.body.appendChild(flower);
+        setTimeout(function(f){ return function(){ f.style.opacity='0'; f.style.transform='scale(2) rotate(45deg)'; }; }(flower), 2000);
+        setTimeout(function(f){ return function(){ f.remove(); }; }(flower), 6000);
+      }
+    }, 2000);
   } catch(e){} }
 
   // SyntaxWraith: 랜덤 텍스트를 코드 구문으로 변환
