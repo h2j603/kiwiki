@@ -30,10 +30,10 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-L.MS-008</span> |
-| Type | <span class="pill pill-type">로직형</span> |
-| Vector | <span class="pill pill-vector">메신저</span> |
-| Severity | <span class="pill pill-severity-moderate">보통</span> |
-| Status | <span class="pill pill-active">활성</span> |
+| Type | <span class="pill pill-type">Logic</span> |
+| Vector | <span class="pill pill-vector">Messenger</span> |
+| Severity | <span class="pill pill-severity-moderate">Moderate</span> |
+| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -42,10 +42,10 @@ tags: ["로직형", "메신저", "클립보드", "사고", "logic", "messenger",
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-L.MS-008</span> |
-| タイプ | <span class="pill pill-type">로직형</span> |
-| 経路 | <span class="pill pill-vector">메신저</span> |
-| 危険度 | <span class="pill pill-severity-moderate">보통</span> |
-| 状態 | <span class="pill pill-active">활성</span> |
+| タイプ | <span class="pill pill-type">ロジック型</span> |
+| 経路 | <span class="pill pill-vector">メッセンジャー</span> |
+| 危険度 | <span class="pill pill-severity-moderate">中</span> |
+| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 

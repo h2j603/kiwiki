@@ -30,10 +30,10 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-S.MS-003</span> |
-| Type | <span class="pill pill-type">감각형</span> |
-| Vector | <span class="pill pill-vector">메신저</span> |
-| Severity | <span class="pill pill-severity-high">높음</span> |
-| Status | <span class="pill pill-active">활성</span> |
+| Type | <span class="pill pill-type">Sensory</span> |
+| Vector | <span class="pill pill-vector">Messenger</span> |
+| Severity | <span class="pill pill-severity-high">High</span> |
+| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -42,10 +42,10 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-S.MS-003</span> |
-| タイプ | <span class="pill pill-type">감각형</span> |
-| 経路 | <span class="pill pill-vector">메신저</span> |
-| 危険度 | <span class="pill pill-severity-high">높음</span> |
-| 状態 | <span class="pill pill-active">활성</span> |
+| タイプ | <span class="pill pill-type">感覚型</span> |
+| 経路 | <span class="pill pill-vector">メッセンジャー</span> |
+| 危険度 | <span class="pill pill-severity-high">高</span> |
+| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 

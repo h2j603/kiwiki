@@ -30,10 +30,10 @@ tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attenti
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-L.SN-003</span> |
-| Type | <span class="pill pill-type">로직형</span> |
+| Type | <span class="pill pill-type">Logic</span> |
 | Vector | <span class="pill pill-vector">SNS</span> |
-| Severity | <span class="pill pill-severity-moderate">보통</span> |
-| Status | <span class="pill pill-active">활성</span> |
+| Severity | <span class="pill pill-severity-moderate">Moderate</span> |
+| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -42,10 +42,10 @@ tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attenti
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-L.SN-003</span> |
-| タイプ | <span class="pill pill-type">로직형</span> |
+| タイプ | <span class="pill pill-type">ロジック型</span> |
 | 経路 | <span class="pill pill-vector">SNS</span> |
-| 危険度 | <span class="pill pill-severity-moderate">보통</span> |
-| 状態 | <span class="pill pill-active">활성</span> |
+| 危険度 | <span class="pill pill-severity-moderate">中</span> |
+| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 

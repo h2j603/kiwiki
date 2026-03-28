@@ -30,10 +30,10 @@ tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tacti
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-S.SN-006</span> |
-| Type | <span class="pill pill-type">감각형</span> |
+| Type | <span class="pill pill-type">Sensory</span> |
 | Vector | <span class="pill pill-vector">SNS</span> |
-| Severity | <span class="pill pill-severity-moderate">보통</span> |
-| Status | <span class="pill pill-active">활성</span> |
+| Severity | <span class="pill pill-severity-moderate">Moderate</span> |
+| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -42,10 +42,10 @@ tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tacti
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-S.SN-006</span> |
-| タイプ | <span class="pill pill-type">감각형</span> |
+| タイプ | <span class="pill pill-type">感覚型</span> |
 | 経路 | <span class="pill pill-vector">SNS</span> |
-| 危険度 | <span class="pill pill-severity-moderate">보통</span> |
-| 状態 | <span class="pill pill-active">활성</span> |
+| 危険度 | <span class="pill pill-severity-moderate">中</span> |
+| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 

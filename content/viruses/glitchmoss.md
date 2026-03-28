@@ -31,10 +31,10 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-E.DA-001</span> |
-| Type | <span class="pill pill-type">환경형</span> |
-| Vector | <span class="pill pill-vector">직접접근</span> |
-| Severity | <span class="pill pill-severity-critical">치명적</span> |
-| Status | <span class="pill pill-active">활성</span> |
+| Type | <span class="pill pill-type">Environmental</span> |
+| Vector | <span class="pill pill-vector">Direct Access</span> |
+| Severity | <span class="pill pill-severity-critical">Critical</span> |
+| Status | <span class="pill pill-active">Active</span> |
 
 </div>
 
@@ -43,10 +43,10 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-E.DA-001</span> |
-| タイプ | <span class="pill pill-type">환경형</span> |
-| 経路 | <span class="pill pill-vector">직접접근</span> |
-| 危険度 | <span class="pill pill-severity-critical">치명적</span> |
-| 状態 | <span class="pill pill-active">활성</span> |
+| タイプ | <span class="pill pill-type">環境型</span> |
+| 経路 | <span class="pill pill-vector">直接アクセス</span> |
+| 危険度 | <span class="pill pill-severity-critical">致命的</span> |
+| 状態 | <span class="pill pill-active">活性</span> |
 
 </div>
 
