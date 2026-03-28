@@ -306,12 +306,48 @@ document.addEventListener('DOMContentLoaded', function(){
   } catch(e){} }
 
   // KiwiBleed: text bleeds into adjacent elements
+  // KiwiBleed: text hemorrhages — characters spill out, colors spread aggressively
   if (v === 'kiwibleed') { try {
+    // Phase 1: spreading text-shadow (every 1.5s, increasingly violent)
+    var bleedIntensity = 0;
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
-      var p=ps[Math.floor(Math.random()*ps.length)];
-      if(p) p.style.textShadow='3px 0 8px rgba(255,69,0,0.15), -2px 0 6px rgba(139,154,70,0.1)';
-    },2000);
+      bleedIntensity = Math.min(bleedIntensity + 1, 20);
+      var ps = document.querySelectorAll('.main-content p, .main-content li, .main-content h2');
+      for (var i = 0; i < Math.min(bleedIntensity, ps.length); i++) {
+        var p = ps[Math.floor(Math.random() * ps.length)];
+        if (p) {
+          var spread = bleedIntensity * 2;
+          p.style.textShadow = spread + 'px 0 ' + (spread*2) + 'px rgba(139,154,70,0.3), ' +
+            (-spread) + 'px 0 ' + (spread*2) + 'px rgba(255,69,0,0.2), ' +
+            '0 ' + spread + 'px ' + spread + 'px rgba(139,154,70,0.15)';
+          p.style.color = 'rgba(255,69,0,' + (1 - bleedIntensity * 0.03) + ')';
+        }
+      }
+    }, 1500);
+    // Phase 2: characters start leaking out of their containers
+    setInterval(function(){
+      var ps = document.querySelectorAll('.main-content p');
+      var p = ps[Math.floor(Math.random() * ps.length)];
+      if (!p || !p.textContent || p.textContent.length < 10) return;
+      // Extract random characters and scatter them
+      var chars = p.textContent;
+      var leak = document.createElement('span');
+      var leakText = '';
+      for (var j = 0; j < 3; j++) leakText += chars[Math.floor(Math.random() * chars.length)];
+      leak.textContent = leakText;
+      leak.style.cssText = 'position:absolute;color:rgba(139,154,70,0.25);font-size:' + (10 + Math.random() * 14) + 'px;transform:rotate(' + (Math.random() * 30 - 15) + 'deg);pointer-events:none;margin-left:' + (Math.random() * 40 - 20) + 'px;margin-top:' + (Math.random() * 20 - 10) + 'px;';
+      p.style.position = 'relative';
+      p.appendChild(leak);
+    }, 2000);
+    // Phase 3: page background starts showing stains
+    var stainCount = 0;
+    setInterval(function(){
+      if (stainCount > 15) return;
+      stainCount++;
+      var stain = document.createElement('div');
+      stain.style.cssText = 'position:fixed;width:' + (30 + Math.random() * 80) + 'px;height:' + (30 + Math.random() * 80) + 'px;border-radius:50%;background:radial-gradient(ellipse,rgba(139,154,70,0.04),transparent 70%);pointer-events:none;z-index:9996;left:' + Math.random() * 100 + '%;top:' + Math.random() * 100 + '%;';
+      document.body.appendChild(stain);
+    }, 3000);
   } catch(e){} }
 
   // KiwiClip: fragments of other sections appear
@@ -428,12 +464,49 @@ document.addEventListener('DOMContentLoaded', function(){
   } catch(e){} }
 
   // KiwiRust: oxidation
+  // KiwiRust: aggressive oxidation — text decays, borders crumble, surface corrodes
   if (v === 'kiwirust') { try {
+    var rustColors = ['#8B6914','#6B4F12','#5C3D0E','#A07818','#4A3510'];
+    var rustChars = ['\u2591','\u2592','\u2593','\u00B7','\u2022'];
+    // Phase 1: color corrosion spreads fast
     setInterval(function(){
-      var els=document.querySelectorAll('.main-content p,.main-content h2,.main-content li');
-      var el=els[Math.floor(Math.random()*els.length)];
-      if(el) el.style.color='#8B6914';
-    },3000);
+      var els = document.querySelectorAll('.main-content p, .main-content h2, .main-content li, .main-content td, .main-content a, .main-content strong');
+      for (var i = 0; i < 3; i++) {
+        var el = els[Math.floor(Math.random() * els.length)];
+        if (el) {
+          el.style.color = rustColors[Math.floor(Math.random() * rustColors.length)];
+          el.style.transition = 'color 2s';
+        }
+      }
+    }, 1500);
+    // Phase 2: text characters corrode into noise
+    setInterval(function(){
+      var ps = document.querySelectorAll('.main-content p');
+      var p = ps[Math.floor(Math.random() * ps.length)];
+      if (!p || !p.textContent || p.textContent.length < 5) return;
+      var t = p.textContent;
+      var pos = Math.floor(Math.random() * t.length);
+      p.textContent = t.substring(0, pos) + rustChars[Math.floor(Math.random() * rustChars.length)] + t.substring(pos + 1);
+    }, 2000);
+    // Phase 3: hr lines crumble
+    setInterval(function(){
+      var hrs = document.querySelectorAll('.main-content hr');
+      var hr = hrs[Math.floor(Math.random() * hrs.length)];
+      if (hr) {
+        hr.style.background = rustColors[Math.floor(Math.random() * rustColors.length)];
+        hr.style.height = (1 + Math.random() * 3) + 'px';
+        hr.style.width = (50 + Math.random() * 50) + '%';
+        hr.style.marginLeft = Math.random() * 25 + '%';
+        hr.style.transition = 'all 2s';
+      }
+    }, 3000);
+    // Phase 4: page border/edges oxidize
+    var oxidation = 0;
+    setInterval(function(){
+      oxidation = Math.min(oxidation + 2, 30);
+      var mc = document.querySelector('.main-content');
+      if (mc) mc.style.borderRight = oxidation + 'px solid rgba(139,101,20,0.05)';
+    }, 4000);
   } catch(e){} }
 
   // KiwiRoot: tendrils
