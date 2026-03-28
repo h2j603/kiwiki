@@ -651,7 +651,8 @@ document.addEventListener('DOMContentLoaded', function(){
       p.setAttribute('data-kiwified', '1');
       // Try image replacement
       var img = document.createElement('img');
-      img.src = imgFolder + 'creature-' + (Math.floor(Math.random() * 5) + 1) + '.png';
+      var creatureFiles = ['IMG_6034.jpeg','IMG_6035.jpeg','IMG_6039.jpeg','IMG_6041.jpeg','IMG_6042.jpeg','IMG_6046.jpeg'];
+      img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
       img.alt = 'kiwi creature';
       img.style.cssText = 'max-width:120px;height:auto;display:inline-block;vertical-align:middle;margin:0 4px;opacity:0.8;';
       img.onerror = function() {
