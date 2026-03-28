@@ -4,6 +4,9 @@ parent: "개념 / Concepts"
 nav_order: 2
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 | Key | Value |
 |-----|-------|
 | Category | <span class="pill pill-type">유형 / Type</span> |

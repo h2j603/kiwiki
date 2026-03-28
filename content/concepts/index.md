@@ -5,6 +5,8 @@ has_children: true
 permalink: /concepts/
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
 # 개념 목록 / Concept Index
 
 웹키위바이러스를 이해하기 위한 핵심 개념 정리입니다.

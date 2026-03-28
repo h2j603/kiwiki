@@ -4,6 +4,8 @@ nav_order: 2
 permalink: /taxonomy/
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
 # 웹키위바이러스 분류 체계 / Taxonomy
 
 웹키위바이러스는 웹을 통해 퍼지며, 현실과 가상의 경계를 무너뜨리는 바이러스입니다.

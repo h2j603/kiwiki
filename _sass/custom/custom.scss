@@ -1,21 +1,13 @@
 // ============================================
-// Kiwiki — h2j603/hyuk 디자인 포팅
+// Kiwiki — h2j603/hyuk design
 // ============================================
-
-// ---- Fonts (hyuk 동일) ----
-@font-face {
-  font-family: "HakgyoansimBareondotumB";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HakgyoansimBareondotumB.woff2") format("woff2");
-  font-weight: 700;
-  font-display: swap;
-}
 
 // ---- Kill shadows ----
 * { box-shadow: none !important; text-shadow: none !important; }
 
-// ---- Base (hyuk: orangered text, neue-haas-unica) ----
+// ---- Base ----
 body {
-  background: #ffffff !important;
+  background: #ffffff;
   color: orangered;
   font-size: 15px;
   font-family: "neue-haas-unica", "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
@@ -23,13 +15,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-// Japanese: Pretendard for CJK fallback (t26-carbon doesn't cover JP)
+// Japanese font fallback
 body.lang-ja {
-  font-family: "Pretendard", "Noto Sans JP", "neue-haas-unica", -apple-system, BlinkMacSystemFont, sans-serif;
-
-  .main-content h1,
-  .main-content h2,
-  .main-content h3 {
+  font-family: "Pretendard", "Noto Sans JP", "neue-haas-unica", sans-serif;
+  .main-content h1, .main-content h2, .main-content h3 {
     font-family: "Pretendard", "Noto Sans JP", "t26-carbon", monospace;
   }
 }
@@ -41,7 +30,6 @@ body.lang-ja {
   line-height: 1.7;
   color: orangered;
 
-  // h2: t26-carbon mono italic (hyuk 동일)
   h1 {
     font-family: "t26-carbon", monospace;
     font-weight: 100;
@@ -51,7 +39,6 @@ body.lang-ja {
     color: orangered;
     border-bottom: none;
     margin: 0 0 20px;
-    padding: 0;
   }
 
   h2 {
@@ -62,7 +49,6 @@ body.lang-ja {
     color: orangered;
     border-bottom: none;
     margin: 1.5em 0 0.5em;
-    padding: 0;
   }
 
   h3 {
@@ -74,12 +60,8 @@ body.lang-ja {
     margin: 1.2em 0 0.4em;
   }
 
-  p {
-    margin: 0 0 0.8em;
-    padding-top: 0;
-  }
+  p { margin: 0 0 0.8em; }
 
-  // Links (hyuk: underline, italic)
   a {
     color: orangered;
     text-decoration: underline;
@@ -94,18 +76,20 @@ body.lang-ja {
   }
 }
 
-// ---- Sidebar: hidden ----
-.side-bar { display: none !important; }
+// ---- Layout: no sidebar, no header, no footer ----
+.side-bar,
+.site-footer,
+.site-button,
+.site-header,
+.site-nav,
+.nav-list { display: none; }
 
-// ---- Full width content (no sidebar) ----
-.main-content-wrap { margin-left: 0 !important; }
+.main-content-wrap { margin-left: 0; }
 
-// ---- Footer: hidden ----
-.site-footer { display: none !important; }
+// ---- Hide auto-generated h1 ----
+.main-content h1:first-child { display: none; }
 
-// (sidebar hidden — no nav styles needed)
-
-// ---- Tables (hyuk style + no vertical borders on main index) ----
+// ---- Tables ----
 .main-content table {
   width: 100%;
   border-collapse: collapse;
@@ -130,8 +114,6 @@ body.lang-ja {
     font-size: 13px;
     color: orangered;
     background: transparent;
-    text-transform: none;
-    letter-spacing: 0;
   }
 
   td {
@@ -139,13 +121,11 @@ body.lang-ja {
     color: orangered;
   }
 
-  // Hover gradient — 줄 기준 (table-layout fixed로 gradient가 행 전체에 걸림)
   tr:hover {
     background: linear-gradient(90deg, lawngreen, #ffffff);
     td { background: transparent; }
   }
 
-  // Table links: no italic, no underline (hyuk 동일)
   a {
     text-decoration: none;
     font-style: normal;
@@ -154,21 +134,22 @@ body.lang-ja {
   }
 }
 
-// ---- Hide page title h1 (generated from frontmatter) ----
-.main-content h1:first-child { display: none; }
+// ---- Mobile: scrollable tables ----
+.main-content .table-wrapper,
+.main-content > div > table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
-// ---- Hide hamburger / nav toggle ----
-.site-button,
-.site-header,
-.site-nav,
-.nav-list { display: none !important; }
-
-// ---- Infobox (first table) ----
+// ---- Infobox (first table in virus pages) ----
+.main-content > div:first-child table,
 .main-content > table:first-of-type {
   float: right;
   width: 260px;
   margin: 0 0 20px 20px;
   border: 1px solid orangered;
+  overflow: visible;
 
   th {
     background: orangered;
@@ -184,11 +165,9 @@ body.lang-ja {
     white-space: nowrap;
   }
 
-  td {
-    font-weight: 400;
-  }
+  td { font-weight: 400; }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     float: none;
     width: 100%;
     margin: 0 0 20px;
@@ -219,15 +198,13 @@ body.lang-ja {
   letter-spacing: 0.5px;
 }
 
-.pill-type { background: transparent; color: orangered; border-color: orangered; }
-.pill-vector { background: transparent; color: orangered; border-color: orangered; }
-.pill-active { background: lawngreen; color: #111111; border-color: lawngreen; }
+.pill-type, .pill-vector { background: transparent; color: orangered; }
+.pill-active { background: lawngreen; color: #111; border-color: lawngreen; }
+.pill-severity-moderate { background: transparent; color: orangered; }
+.pill-severity-high { background: orangered; color: #fff; border-color: orangered; }
+.pill-severity-critical { background: #111; color: lawngreen; border-color: #111; }
 
-.pill-severity-moderate { background: transparent; color: orangered; border-color: orangered; }
-.pill-severity-high { background: orangered; color: #ffffff; border-color: orangered; }
-.pill-severity-critical { background: #111111; color: lawngreen; border-color: #111111; }
-
-// ---- Language toggle (hyuk style) ----
+// ---- Language toggle ----
 .lang-toggle {
   display: inline-flex;
   border: 1px solid orangered;
@@ -244,16 +221,12 @@ body.lang-ja {
   background: #ffffff;
   color: orangered;
   cursor: pointer;
-
   &:not(:last-child) { border-right: 1px solid orangered; }
   &:hover { background: linear-gradient(90deg, lawngreen, #ffffff); }
-  &.active { background: orangered; color: #ffffff; font-style: italic; }
+  &.active { background: orangered; color: #ffffff; }
 }
 
-// ---- Language hide: handled by inline <style> in head_custom.html ----
-// (placed there for FOUC prevention — CSS loads before SCSS)
-
-// ---- HR (hyuk 동일) ----
+// ---- HR ----
 .main-content hr {
   height: 1px;
   background: orangered;
@@ -271,32 +244,6 @@ body.lang-ja {
   font-style: italic;
 }
 
-// ---- Search ----
-.search-input {
-  border: 1px solid orangered;
-  border-radius: 0;
-  font-size: 14px;
-  color: orangered;
-  background: #ffffff;
-  &::placeholder { color: rgba(255, 69, 0, 0.4); }
-  &:focus { border-color: lawngreen; outline: none; }
-}
-
-// ---- Footer ----
-.site-footer {
-  font-size: 12px;
-  color: orangered;
-  border-top: 1px solid orangered;
-}
-
-// ---- Anchor ----
-.main-content .anchor-heading {
-  color: lawngreen;
-  opacity: 0;
-  transition: opacity 0.1s;
-}
-.main-content h2:hover .anchor-heading { opacity: 1; }
-
 // ---- Code ----
 .main-content code {
   font-family: "t26-carbon", monospace;
@@ -307,14 +254,21 @@ body.lang-ja {
   color: orangered;
 }
 
+// ---- Anchor ----
+.main-content .anchor-heading {
+  color: lawngreen;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.main-content h2:hover .anchor-heading { opacity: 1; }
+
 // ---- Float clear ----
 .main-content h2 { clear: both; }
 
-// ---- Selection (lawngreen) ----
+// ---- Selection ----
 ::selection { background: lawngreen; color: orangered; }
 
-// ---- Scrollbar hide (hyuk 동일) ----
-.side-bar,
+// ---- Scrollbar hide ----
 .main-content-wrap {
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -328,8 +282,29 @@ body.lang-ja {
   a { color: orangered; }
 }
 
-// ---- Back to top ----
-.back-to-top {
+// ---- Home link (virus pages) ----
+.home-link {
+  font-family: "t26-carbon", monospace;
+  font-style: italic;
+  font-size: 13px;
   color: orangered;
+  text-decoration: none;
   &:hover { color: lawngreen; }
+  &::before { content: "← "; }
+}
+
+// ---- Mobile ----
+@media (max-width: 768px) {
+  .main-content {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .main-content table {
+    font-size: 12px;
+    th, td { padding: 6px 8px; }
+  }
+
+  .pill { font-size: 10px; padding: 1px 6px; }
+  .pill-code { font-size: 9px; }
 }

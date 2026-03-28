@@ -14,6 +14,9 @@ icon: "▓"
 tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental", "direct access", "physical", "corrosion", "moss"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

@@ -13,6 +13,9 @@ status: "활성 / Active"
 tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct access", "names", "aphasia"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

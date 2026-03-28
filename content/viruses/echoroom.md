@@ -13,6 +13,9 @@ status: "활성 / Active"
 tags: ["환경형", "SNS", "음향", "반향", "environmental", "social media", "acoustics", "echo"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

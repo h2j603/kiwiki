@@ -13,6 +13,9 @@ icon: "⬚"
 tags: ["환경형", "이메일", "공간", "소멸", "environmental", "email", "space", "void"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

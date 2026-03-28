@@ -13,6 +13,9 @@ icon: "⌫"
 tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memory", "deletion"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

@@ -13,6 +13,9 @@ icon: "⧉"
 tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attention", "tab"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

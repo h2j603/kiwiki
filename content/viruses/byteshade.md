@@ -13,6 +13,9 @@ icon: "◐"
 tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgment", "shadow"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |

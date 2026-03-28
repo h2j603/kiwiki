@@ -13,6 +13,9 @@ status: "활성 / Active"
 tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger", "transparency", "disappearance"]
 ---
 
+<a href="../index.md" class="home-link">Kiwiki</a>
+
+
 <div class="ko" markdown="1">
 
 | 항목 | 내용 |
