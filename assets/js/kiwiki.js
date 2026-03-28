@@ -14,14 +14,30 @@
   window._kLang = lang;
 })();
 
-// --- INFECTION (runs immediately) ---
+// --- INFECTION: 1~3 simultaneous strains ---
 (function(){
   try {
     var vs = ['kiwiecho','kiwimirror','kiwirot','kiwiscroll','kiwimoss','kiwhisper','kiwispot','kiwitab','kiwibloom','kiwisyntax','kiwivein','kiwiforgot','kiwighost','kiwiparadox','kiwibleed','kiwiclip','kiwidrift','kiwitouch','kiwivoice','kiwiafter','kiwidream','kiwieater','kiwitime','kiwicut','kiwirust','kiwiroot','kiwiroom','kiwispace','kiwiloop','kiwishade','kiwihowl','kiwivoid','kiwizero'];
-    var v = sessionStorage.getItem('kiwiki-virus');
-    if (!v) { v = vs[Math.floor(Math.random()*vs.length)]; sessionStorage.setItem('kiwiki-virus', v); }
-    document.documentElement.className += ' virus-' + v;
-    window._kVirus = v;
+    var stored = sessionStorage.getItem('kiwiki-viruses');
+    var infected;
+    if (stored) {
+      infected = stored.split(',');
+    } else {
+      // 1~3 random strains
+      var count = 1 + Math.floor(Math.random() * 3);
+      var pool = vs.slice();
+      infected = [];
+      for (var i = 0; i < count && pool.length > 0; i++) {
+        var idx = Math.floor(Math.random() * pool.length);
+        infected.push(pool.splice(idx, 1)[0]);
+      }
+      sessionStorage.setItem('kiwiki-viruses', infected.join(','));
+    }
+    for (var j = 0; j < infected.length; j++) {
+      document.documentElement.className += ' virus-' + infected[j];
+    }
+    window._kViruses = infected;
+    window._kVirus = infected[0]; // primary (for legacy compat)
   } catch(e){}
 })();
 
@@ -78,17 +94,32 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   } catch(e){}
 
-  // === Infection notice (2-stage: center splash → bottom bar) ===
+  // === Infection notice (multi-strain) ===
   try {
-    var v = window._kVirus;
-    if (v) {
+    var infected = window._kViruses || [window._kVirus];
+    if (infected && infected.length > 0) {
       var names = {kiwiecho:'KiwiEcho',kiwimirror:'KiwiMirror',kiwirot:'KiwiRot',kiwiscroll:'KiwiScroll',kiwimoss:'KiwiMoss',kiwhisper:'KiWhisper',kiwispot:'KiwiSpot',kiwitab:'KiwiTab',kiwibloom:'KiwiBloom',kiwisyntax:'KiwiSyntax',kiwivein:'KiwiVein',kiwiforgot:'KiwiForgot',kiwighost:'KiwiGhost',kiwiparadox:'KiwiParadox',kiwibleed:'KiwiBleed',kiwiclip:'KiwiClip',kiwidrift:'KiwiDrift',kiwitouch:'KiwiTouch',kiwivoice:'KiwiVoice',kiwiafter:'KiwiAfter',kiwidream:'KiwiDream',kiwieater:'KiwiEater',kiwitime:'KiwiTime',kiwicut:'KiwiCut',kiwirust:'KiwiRust',kiwiroot:'KiwiRoot',kiwiroom:'KiwiRoom',kiwispace:'KiwiSpace',kiwiloop:'KiwiLoop',kiwishade:'KiwiShade',kiwihowl:'KiwiHowl',kiwivoid:'KiwiVoid',kiwizero:'KiwiZero'};
       var codes = {kiwiecho:'WKV-C.SE-001',kiwimirror:'WKV-S.SN-001',kiwirot:'WKV-S.EM-002',kiwiscroll:'WKV-C.SN-002',kiwimoss:'WKV-E.DA-001',kiwhisper:'WKV-L.MS-001',kiwispot:'WKV-S.SE-004',kiwitab:'WKV-L.SN-003',kiwibloom:'WKV-E.SN-003',kiwisyntax:'WKV-L.DA-002',kiwivein:'WKV-E.MS-002',kiwiforgot:'WKV-C.EM-003',kiwighost:'WKV-L.SE-005',kiwiparadox:'WKV-L.DA-006',kiwibleed:'WKV-L.SN-007',kiwiclip:'WKV-L.MS-008',kiwidrift:'WKV-S.DA-005',kiwitouch:'WKV-S.SN-006',kiwivoice:'WKV-S.EM-007',kiwiafter:'WKV-S.SE-008',kiwidream:'WKV-C.SN-005',kiwieater:'WKV-C.DA-006',kiwitime:'WKV-C.SE-007',kiwicut:'WKV-C.MS-008',kiwirust:'WKV-E.SE-005',kiwiroot:'WKV-E.DA-006',kiwiroom:'WKV-E.SN-007',kiwispace:'WKV-E.MS-008',kiwiloop:'WKV-C.MS-004',kiwishade:'WKV-L.EM-004',kiwihowl:'WKV-S.MS-003',kiwivoid:'WKV-E.EM-004',kiwizero:'WKV-0.ALL-000'};
+
+      // Build strain list for splash
+      var strainNames = [];
+      var strainCodes = [];
+      for (var si = 0; si < infected.length; si++) {
+        strainNames.push(names[infected[si]] || infected[si]);
+        strainCodes.push(codes[infected[si]] || '');
+      }
+
+      var coInfected = infected.length > 1;
+      var splashTitle = coInfected ? 'CO-INFECTION DETECTED' : 'EXPOSURE CONFIRMED';
+      var splashSub = coInfected ? infected.length + ' simultaneous strains' : 'boundary collapse in progress';
 
       // Stage 1: Center splash
       var splash = document.createElement('div');
       splash.className = 'infection-splash';
-      splash.innerHTML = '<div class="infection-splash-text">EXPOSURE CONFIRMED</div><div class="infection-splash-name">' + (names[v]||v) + '</div><div class="infection-splash-code">' + (codes[v]||'') + '</div><div class="infection-splash-sub">boundary collapse in progress</div>';
+      // Random position within viewport
+      splash.style.top = (10 + Math.random() * 50) + '%';
+      splash.style.left = (5 + Math.random() * 60) + '%';
+      splash.innerHTML = '<div class="infection-splash-text">' + splashTitle + '</div><div class="infection-splash-name">' + strainNames.join(' + ') + '</div><div class="infection-splash-code">' + strainCodes.join(' \u00b7 ') + '</div><div class="infection-splash-sub">' + splashSub + '</div>';
       document.body.appendChild(splash);
 
       // Stage 2: After 3s, shrink to bottom bar
@@ -104,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function(){
         splash.style.borderRadius = '0';
         splash.style.border = 'none';
         splash.style.width = '100%';
-        splash.innerHTML = '\u25a0 ' + (codes[v]||'') + ' \u2014 ' + (names[v]||v);
+        splash.innerHTML = '\u25a0 ' + strainCodes.join(' \u00b7 ') + ' \u2014 ' + strainNames.join(' + ');
       }, 3000);
 
       // Stage 3: Fade out after 8s
@@ -113,9 +144,12 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   } catch(e){}
 
-  // === VIRUS INTERACTIONS (uncanny) ===
-  var v = window._kVirus;
-  if (!v) return;
+  // === VIRUS INTERACTIONS (uncanny) — run for ALL infected strains ===
+  var allInfected = window._kViruses || [window._kVirus];
+  if (!allInfected || allInfected.length === 0) return;
+  for (var vi = 0; vi < allInfected.length; vi++) {
+  var v = allInfected[vi];
+  if (!v) continue;
 
   // Zalgo text generator
   function zalgo(t,intensity){
@@ -690,5 +724,7 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 3000);
 
   } catch(e){} }
+
+  } // end for each virus
 
 });
