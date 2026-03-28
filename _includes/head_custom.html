@@ -1,6 +1,5 @@
-<!-- Typekit fonts (hyuk: neue-haas-unica + t26-carbon) -->
+<!-- Typekit fonts -->
 <link rel="stylesheet" href="https://use.typekit.net/rhy6are.css">
-<!-- Pretendard + Noto Sans JP for KO/JA -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap">
 
@@ -8,7 +7,7 @@
 try{(function(d){var config={kitId:'fpx8ely',scriptTimeout:3000,async:true},h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)})(document);}catch(e){}
 </script>
 
-<!-- Language: default EN -->
+<!-- Language default + infection CSS -->
 <style>
 .ko, .ja { display: none; }
 body.lang-ko .ko { display: revert !important; }
@@ -16,114 +15,22 @@ body.lang-ko .en, body.lang-ko .ja { display: none !important; }
 body.lang-ja .ja { display: revert !important; }
 body.lang-ja .ko, body.lang-ja .en { display: none !important; }
 body.lang-en .ko, body.lang-en .ja { display: none !important; }
-</style>
 
-<!-- Language toggle + Infection effects -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  try {
-    // --- Language toggle ---
-    var saved = localStorage.getItem('kiwiki-lang') || 'en';
-    document.body.classList.add('lang-' + saved);
-
-    if (document.querySelector('.ko') || document.querySelector('.en') || document.querySelector('.ja')) {
-      var t = document.createElement('div');
-      t.className = 'lang-toggle';
-      ['en', '한국어', '日本語'].forEach(function(label, i) {
-        var lang = ['en', 'ko', 'ja'][i];
-        var btn = document.createElement('button');
-        btn.className = 'lang-btn' + (saved === lang ? ' active' : '');
-        btn.setAttribute('data-lang', lang);
-        btn.textContent = label;
-        t.appendChild(btn);
-      });
-      var mc = document.querySelector('.main-content') || document.querySelector('#main-content') || document.querySelector('main') || document.querySelector('article') || document.body;
-      mc.insertBefore(t, mc.firstChild);
-      t.addEventListener('click', function(e) {
-        var lang = e.target.getAttribute('data-lang');
-        if (!lang) return;
-        document.body.classList.remove('lang-en', 'lang-ko', 'lang-ja');
-        document.body.classList.add('lang-' + lang);
-        for (var i = 0; i < t.children.length; i++) {
-          t.children[i].classList.toggle('active', t.children[i].getAttribute('data-lang') === lang);
-        }
-        localStorage.setItem('kiwiki-lang', lang);
-      });
-    }
-
-    // --- Infection effect (#1) ---
-    var pageCount = parseInt(localStorage.getItem('kiwiki-pages') || '0') + 1;
-    localStorage.setItem('kiwiki-pages', pageCount);
-
-    // After 8+ pages: subtle glitch
-    if (pageCount >= 8) {
-      document.body.classList.add('infected-1');
-    }
-    // After 16+ pages: stronger
-    if (pageCount >= 16) {
-      document.body.classList.add('infected-2');
-    }
-
-    // EchoLoop effect: if on page > 60s, repeat last paragraph
-    if (window.location.pathname.indexOf('echoloop') !== -1) {
-      setTimeout(function() {
-        var ps = document.querySelectorAll('.main-content p');
-        if (ps.length > 2) {
-          var clone = ps[ps.length - 1].cloneNode(true);
-          clone.style.opacity = '0.6';
-          ps[ps.length - 1].parentNode.insertBefore(clone, ps[ps.length - 1].nextSibling);
-        }
-      }, 60000);
-    }
-
-    // DeadScroll effect: if scrolling a lot, time display warps
-    var scrollCount = 0;
-    window.addEventListener('scroll', function() {
-      scrollCount++;
-      if (scrollCount > 200 && !document.body.classList.contains('timewarp')) {
-        document.body.classList.add('timewarp');
-      }
-    });
-
-  } catch(e) { console.error('Kiwiki error:', e); }
-});
-</script>
-
-<!-- Infection CSS effects -->
-<style>
-/* Subtle glitch after 8+ pages */
-body.infected-1 .main-content p:nth-child(7n) {
-  animation: microglitch 8s infinite;
-}
+body.infected-1 .main-content p:nth-child(7n) { animation: microglitch 8s infinite; }
 @keyframes microglitch {
-  0%, 97%, 100% { transform: none; opacity: 1; }
-  98% { transform: translateX(-1px); opacity: 0.95; }
-  99% { transform: translateX(1px); }
+  0%,97%,100% { transform:none; opacity:1; }
+  98% { transform:translateX(-1px); opacity:0.95; }
+  99% { transform:translateX(1px); }
 }
-
-/* Stronger after 16+ pages */
-body.infected-2 .main-content hr {
-  animation: hrglitch 12s infinite;
-}
+body.infected-2 .main-content hr { animation: hrglitch 12s infinite; }
 @keyframes hrglitch {
-  0%, 95%, 100% { background: orangered; }
-  96% { background: lawngreen; width: 80%; }
-  97% { background: orangered; width: 105%; margin-left: -2%; }
+  0%,95%,100% { background:orangered; }
+  96% { background:lawngreen; width:80%; }
+  97% { background:orangered; width:105%; margin-left:-2%; }
 }
-
-/* Time warp on excessive scroll */
 body.timewarp .main-content::after {
-  content: "⧗";
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 24px;
-  color: lawngreen;
-  opacity: 0.3;
-  animation: pulse 2s infinite;
+  content:"⧗"; position:fixed; bottom:20px; right:20px;
+  font-size:24px; color:lawngreen; opacity:0.3; animation:pulse 2s infinite;
 }
-@keyframes pulse {
-  0%, 100% { opacity: 0.2; }
-  50% { opacity: 0.5; }
-}
+@keyframes pulse { 0%,100%{opacity:0.2;} 50%{opacity:0.5;} }
 </style>
