@@ -17,8 +17,7 @@
 .lang-en .ko, .lang-en .ja { display: none !important; }
 
 .virus-echoloop .main-content p:nth-child(5n)::after { content: attr(data-text); display: block; opacity: 0.15; font-style: italic; }
-.virus-mirrorlink .main-content { transform: scaleX(-1); }
-.virus-mirrorlink .main-content * { transform: scaleX(-1); }
+.virus-mirrorlink .main-content p:nth-child(4n) { transform: scaleX(-1); display: inline-block; }
 .virus-pixelrot .main-content p { filter: blur(0.3px); }
 .virus-pixelrot .main-content p:nth-child(n+5) { filter: blur(0.6px); }
 .virus-pixelrot .main-content p:nth-child(n+10) { filter: blur(1px); }
