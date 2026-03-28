@@ -44,8 +44,59 @@ layout: table_wrappers
     {% include components/mermaid.html %}
   {% endif %}
 
-  <!-- Infection effects only -->
   <script>
+  // === TOC: visible h2 only, numbered, clickable ===
+  function buildToc(){
+    var toc=document.getElementById('kiwiki-toc');
+    if(!toc)return;
+    toc.innerHTML='';
+    var main=document.querySelector('main')||document.querySelector('.main-content');
+    if(!main)return;
+    var hs=main.querySelectorAll('h2');
+    var ol=document.createElement('ol');
+    var n=0;
+    for(var i=0;i<hs.length;i++){
+      var h=hs[i];
+      // Skip hidden (other language) headings
+      var style=window.getComputedStyle(h);
+      if(style.display==='none')continue;
+      n++;
+      if(!h.id)h.id='section-'+n;
+      // Add number prefix to heading text in the page itself
+      var numSpan=h.querySelector('.sec-num');
+      if(!numSpan){
+        numSpan=document.createElement('span');
+        numSpan.className='sec-num';
+        numSpan.style.cssText='color:orangered;margin-right:6px;';
+        h.insertBefore(numSpan,h.firstChild);
+      }
+      numSpan.textContent=n+'.';
+      // TOC item
+      var li=document.createElement('li');
+      li.setAttribute('value',n);
+      var a=document.createElement('a');
+      a.href='#'+h.id;
+      // Get text without the anchor SVG and number prefix
+      var txt=h.textContent.replace(/^\d+\.\s*/,'').replace(/#/g,'').trim();
+      a.textContent=n+'. '+txt;
+      li.appendChild(a);
+      ol.appendChild(li);
+    }
+    ol.style.listStyle='none';
+    ol.style.padding='0';
+    ol.style.margin='0';
+    toc.appendChild(ol);
+  }
+  buildToc();
+
+  // Rebuild on language change — hook into kiwikiLang
+  var _origKiwikiLang=window.kiwikiLang;
+  window.kiwikiLang=function(l){
+    if(_origKiwikiLang)_origKiwikiLang(l);
+    setTimeout(buildToc,50);
+  };
+
+  // === Infection effects ===
   (function(){try{
     var n=parseInt(localStorage.getItem('kiwiki-pages')||'0')+1;
     localStorage.setItem('kiwiki-pages',n);

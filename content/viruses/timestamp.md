@@ -50,13 +50,7 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 
 </div>
 
-<details class="toc-box" open>
-<summary><span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span></summary>
-<div class="toc-nav" markdown="1">
-* TOC
-{:toc}
-</div>
-</details>
+{% include toc.html %}
 
 ---
 

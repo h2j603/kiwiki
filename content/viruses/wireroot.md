@@ -54,13 +54,7 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 
 </div>
 
-<details class="toc-box" open>
-<summary><span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span></summary>
-<div class="toc-nav" markdown="1">
-* TOC
-{:toc}
-</div>
-</details>
+{% include toc.html %}
 
 ---
 

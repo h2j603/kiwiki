@@ -50,13 +50,7 @@ tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "
 
 </div>
 
-<details class="toc-box" open>
-<summary><span class="ko">목차</span><span class="en">Contents</span><span class="ja">目次</span></summary>
-<div class="toc-nav" markdown="1">
-* TOC
-{:toc}
-</div>
-</details>
+{% include toc.html %}
 
 ---
 
