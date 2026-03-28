@@ -101,46 +101,50 @@ document.addEventListener('DOMContentLoaded', function(){
       var names = {kiwiecho:'KiwiEcho',kiwimirror:'KiwiMirror',kiwirot:'KiwiRot',kiwiscroll:'KiwiScroll',kiwimoss:'KiwiMoss',kiwhisper:'KiWhisper',kiwispot:'KiwiSpot',kiwitab:'KiwiTab',kiwibloom:'KiwiBloom',kiwisyntax:'KiwiSyntax',kiwivein:'KiwiVein',kiwiforgot:'KiwiForgot',kiwighost:'KiwiGhost',kiwiparadox:'KiwiParadox',kiwibleed:'KiwiBleed',kiwiclip:'KiwiClip',kiwidrift:'KiwiDrift',kiwitouch:'KiwiTouch',kiwivoice:'KiwiVoice',kiwiafter:'KiwiAfter',kiwidream:'KiwiDream',kiwieater:'KiwiEater',kiwitime:'KiwiTime',kiwicut:'KiwiCut',kiwirust:'KiwiRust',kiwiroot:'KiwiRoot',kiwiroom:'KiwiRoom',kiwispace:'KiwiSpace',kiwiloop:'KiwiLoop',kiwishade:'KiwiShade',kiwihowl:'KiwiHowl',kiwivoid:'KiwiVoid',kiwizero:'KiwiZero'};
       var codes = {kiwiecho:'WKV-C.SE-001',kiwimirror:'WKV-S.SN-001',kiwirot:'WKV-S.EM-002',kiwiscroll:'WKV-C.SN-002',kiwimoss:'WKV-E.DA-001',kiwhisper:'WKV-L.MS-001',kiwispot:'WKV-S.SE-004',kiwitab:'WKV-L.SN-003',kiwibloom:'WKV-E.SN-003',kiwisyntax:'WKV-L.DA-002',kiwivein:'WKV-E.MS-002',kiwiforgot:'WKV-C.EM-003',kiwighost:'WKV-L.SE-005',kiwiparadox:'WKV-L.DA-006',kiwibleed:'WKV-L.SN-007',kiwiclip:'WKV-L.MS-008',kiwidrift:'WKV-S.DA-005',kiwitouch:'WKV-S.SN-006',kiwivoice:'WKV-S.EM-007',kiwiafter:'WKV-S.SE-008',kiwidream:'WKV-C.SN-005',kiwieater:'WKV-C.DA-006',kiwitime:'WKV-C.SE-007',kiwicut:'WKV-C.MS-008',kiwirust:'WKV-E.SE-005',kiwiroot:'WKV-E.DA-006',kiwiroom:'WKV-E.SN-007',kiwispace:'WKV-E.MS-008',kiwiloop:'WKV-C.MS-004',kiwishade:'WKV-L.EM-004',kiwihowl:'WKV-S.MS-003',kiwivoid:'WKV-E.EM-004',kiwizero:'WKV-0.ALL-000'};
 
-      // Build strain list for splash
-      var strainNames = [];
-      var strainCodes = [];
+      // Individual splash per strain
+      var splashes = [];
       for (var si = 0; si < infected.length; si++) {
-        strainNames.push(names[infected[si]] || infected[si]);
-        strainCodes.push(codes[infected[si]] || '');
+        var vid = infected[si];
+        var splash = document.createElement('div');
+        splash.className = 'infection-splash';
+        splash.style.top = (8 + Math.random() * 55) + '%';
+        splash.style.left = (3 + Math.random() * 65) + '%';
+        var title = infected.length > 1 ? 'CO-INFECTION ' + (si+1) + '/' + infected.length : 'EXPOSURE CONFIRMED';
+        splash.innerHTML = '<div class="infection-splash-text">' + title + '</div><div class="infection-splash-name">' + (names[vid]||vid) + '</div><div class="infection-splash-code">' + (codes[vid]||'') + '</div>';
+        // Stagger appearance
+        splash.style.animationDelay = (0.3 + si * 0.5) + 's';
+        document.body.appendChild(splash);
+        splashes.push(splash);
       }
 
-      var coInfected = infected.length > 1;
-      var splashTitle = coInfected ? 'CO-INFECTION DETECTED' : 'EXPOSURE CONFIRMED';
-      var splashSub = coInfected ? infected.length + ' simultaneous strains' : 'boundary collapse in progress';
-
-      // Stage 1: Center splash
-      var splash = document.createElement('div');
-      splash.className = 'infection-splash';
-      // Random position within viewport
-      splash.style.top = (10 + Math.random() * 50) + '%';
-      splash.style.left = (5 + Math.random() * 60) + '%';
-      splash.innerHTML = '<div class="infection-splash-text">' + splashTitle + '</div><div class="infection-splash-name">' + strainNames.join(' + ') + '</div><div class="infection-splash-code">' + strainCodes.join(' \u00b7 ') + '</div><div class="infection-splash-sub">' + splashSub + '</div>';
-      document.body.appendChild(splash);
-
-      // Stage 2: After 3s, shrink to bottom bar
+      // Stage 2: After 4s, shrink to bottom bar (stack them)
       setTimeout(function(){
-        splash.style.transition = 'all 0.8s ease';
-        splash.style.top = 'auto';
-        splash.style.bottom = '0';
-        splash.style.left = '0';
-        splash.style.right = '0';
-        splash.style.transform = 'none';
-        splash.style.padding = '4px 14px';
-        splash.style.fontSize = '11px';
-        splash.style.borderRadius = '0';
-        splash.style.border = 'none';
-        splash.style.width = '100%';
-        splash.innerHTML = '\u25a0 ' + strainCodes.join(' \u00b7 ') + ' \u2014 ' + strainNames.join(' + ');
-      }, 3000);
+        for (var si2 = 0; si2 < splashes.length; si2++) {
+          var sp = splashes[si2];
+          sp.style.transition = 'all 0.8s ease';
+          sp.style.position = 'fixed';
+          sp.style.top = 'auto';
+          sp.style.bottom = (si2 * 22) + 'px';
+          sp.style.left = '0';
+          sp.style.right = '0';
+          sp.style.padding = '3px 14px';
+          sp.style.fontSize = '10px';
+          sp.style.width = '100%';
+          var vid2 = infected[si2];
+          sp.innerHTML = '\u25a0 ' + (codes[vid2]||'') + ' \u2014 ' + (names[vid2]||vid2);
+        }
+      }, 4000);
 
-      // Stage 3: Fade out after 8s
-      setTimeout(function(){ splash.style.transition='opacity 1s'; splash.style.opacity='0'; }, 8000);
-      setTimeout(function(){ splash.remove(); }, 9500);
+      // Stage 3: Fade out
+      setTimeout(function(){
+        for (var si3 = 0; si3 < splashes.length; si3++) {
+          splashes[si3].style.transition = 'opacity 1s';
+          splashes[si3].style.opacity = '0';
+        }
+      }, 9000);
+      setTimeout(function(){
+        for (var si4 = 0; si4 < splashes.length; si4++) splashes[si4].remove();
+      }, 10500);
     }
   } catch(e){}
 
