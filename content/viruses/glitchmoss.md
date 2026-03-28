@@ -13,7 +13,11 @@ status: "활성 / Active"
 tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental", "direct access", "physical", "corrosion", "moss"]
 ---
 
-# 글리치모스 (GlitchMoss)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [환경형 / Environmental](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [직접접근 / Direct Access](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 치명적 / Critical |
 
 ## 개요 / Overview
 
@@ -21,39 +25,27 @@ tags: ["환경형", "직접접근", "물리", "부식", "이끼", "environmental
 
 An [Environmental-type](../taxonomy/index.md#classification-by-type) virus contracted by directly accessing abandoned or defunct web pages. Digital glitch-like corrosion and deformation appear in the infected person's physical surroundings, spreading like moss across real-world spaces.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [환경형 / Environmental](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [직접접근 / Direct Access](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 치명적 / Critical |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 더 이상 관리되지 않는 웹사이트의 404 페이지나 만료된 도메인에 직접 URL을 입력하여 접속할 때 감염된다. 특히 해당 페이지가 오래전에 마지막으로 업데이트된 상태에서 서버가 완전히 다운되지 않고 반쯤 살아있는 경우에 감염률이 높다.
 
 Infection occurs when directly entering the URL of an unmanaged website's 404 page or an expired domain. Infection rates are especially high when the page was last updated long ago and the server remains in a half-alive state—not fully down but no longer maintained.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 방문한 웹페이지의 레이아웃이 서서히 깨져 보임 / Visited web page layouts gradually appear broken
 - 텍스트에 의미 없는 유니코드 문자가 끼어들기 시작 / Meaningless Unicode characters begin intruding into text
 - 이미지가 일부분씩 노이즈로 대체됨 / Images are partially replaced with noise
 - 브라우저 자체가 간헐적으로 프리징됨 / The browser itself intermittently freezes
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 감염자가 오래 머무는 공간(방, 사무실)의 벽면에 회녹색 얼룩이 서서히 나타남 / Gray-green stains gradually appear on walls of spaces where the infected person stays (rooms, offices)
 - 전자기기 화면에 물리적 번인(burn-in)과 유사한 자국 발생 / Marks resembling physical burn-in appear on electronic device screens
 - 가구, 문틀 등에 픽셀이 깨진 것 같은 패턴의 부식이 진행됨 / Pixel-corruption-like corrosion patterns develop on furniture and door frames
 - 말기에는 공간 자체가 "로딩되지 않는" 것처럼 일부 영역이 인지에서 사라짐 / In terminal stages, parts of the space "fail to load," disappearing from perception entirely
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 브라우저에서 글리치 현상 발생 (웹) / Glitch phenomena appear in the browser (Web)
 2. 사용 중인 기기 화면에 물리적 손상 발생 (기기 침투) / Physical damage appears on device screens (Device breach)

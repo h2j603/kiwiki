@@ -12,7 +12,11 @@ status: "활성 / Active"
 tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attention", "tab"]
 ---
 
-# 팬텀탭 (PhantomTab)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [로직형 / Logic](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [SNS / Social Media](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 보통 / Moderate |
 
 ## 개요 / Overview
 
@@ -20,38 +24,26 @@ SNS 피드에서 여러 링크를 동시에 열 때 감염되는 [로직형](../
 
 A [Logic-type](../taxonomy/index.md#classification-by-type) virus contracted when opening multiple links simultaneously from social media feeds. "Invisible tabs" become permanently open in the infected person's mind, preventing full concentration on any task and causing constant thought fragmentation.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [로직형 / Logic](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [SNS / Social Media](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 보통 / Moderate |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 SNS에서 5개 이상의 링크를 60초 이내에 새 탭으로 열 때, 그 중 하나가 "유령 페이지"(로딩은 되지만 콘텐츠가 끝없이 변하는 페이지)에 해당하면 감염된다. 유령 페이지는 정상 페이지와 외관상 구별이 불가능하다.
 
 Infection occurs when opening 5 or more links in new tabs within 60 seconds from social media, if one of them is a "ghost page" (a page that loads but whose content endlessly shifts). Ghost pages are visually indistinguishable from normal pages.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 닫은 탭이 다시 열려 있음 / Closed tabs reopen on their own
 - 브라우저 탭 수가 자신이 인지하는 것보다 항상 많음 / Browser tab count always exceeds what the user perceives
 - 탭 전환 시 방금 보던 내용이 기억나지 않음 / Content just viewed is forgotten when switching tabs
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 한 가지 일을 하다가 무의식적으로 다른 일로 전환하는 빈도가 극단적으로 증가 / Frequency of unconsciously switching tasks increases drastically
 - "방금 뭘 하려고 했지?"라는 생각이 분당 수십 회 반복 / "What was I about to do?" occurs dozens of times per minute
 - 동시에 여러 대화를 하면서도 어느 것에도 의미 있는 참여를 못 함 / Engages in multiple conversations simultaneously but contributes meaningfully to none
 - 말기에는 하나의 문장을 완성하지 못하고 중간에 다른 문장을 시작 / In terminal stages, unable to complete a single sentence before starting another
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 브라우저에서 탭 관리 불능 (웹) / Unable to manage browser tabs (Web)
 2. 디지털 작업 전반에서 집중력 붕괴 (웹 확산) / Concentration collapse across all digital tasks (Web spread)

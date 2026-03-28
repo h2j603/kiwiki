@@ -12,7 +12,11 @@ status: "활성 / Active"
 tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "logic", "hole"]
 ---
 
-# 루프홀 (Loophole)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [인지형 / Cognitive](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [메신저 / Messenger](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 보통 / Moderate |
 
 ## 개요 / Overview
 
@@ -20,38 +24,26 @@ tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "
 
 A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by exposure to conversation flows containing logical contradictions in messenger chats. "Holes" form in the infected person's perception of reality, rendering them unable to notice situations where causality or chronological order is inconsistent.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [인지형 / Cognitive](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [메신저 / Messenger](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 보통 / Moderate |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 단체 채팅에서 대화가 순환 구조(A→B→C→A)를 형성하면서도 참여자 누구도 이를 인지하지 못하는 상태가 20분 이상 지속될 때, 해당 채팅방의 모든 참여자가 감염된다. 이 순환은 자연 발생하며, 인위적으로 유도할 수 없다.
 
 Infection occurs when a group chat conversation forms a circular structure (A→B→C→A) that persists for 20+ minutes without any participant noticing. All participants in that chat room become infected. This circulation occurs naturally and cannot be artificially induced.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 대화 내용의 모순을 인지하지 못함 / Unable to perceive contradictions in conversations
 - 시간 순서가 뒤바뀐 메시지를 정상으로 인식 / Messages in reversed chronological order perceived as normal
 - 같은 대화가 반복되어도 "계속 새로운 대화"로 느낌 / Repeated conversations feel like "entirely new discussions"
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - "아까 그거 했잖아" → "안 했는데?" 같은 인식 불일치가 빈번해짐 / "You already did that" → "No I didn't" perception mismatches become frequent
 - 원인과 결과가 뒤바뀐 상황을 자연스럽게 받아들임 (비 오기 전에 우산을 접는 등) / Accepts reversed cause-and-effect naturally (folding umbrella before rain, etc.)
 - 논리적 모순이 포함된 주장을 비판 없이 수용 / Accepts logically contradictory arguments without criticism
 - 말기에는 현실의 인과 체계를 완전히 잃어 합리적 판단 불가 / In terminal stages, complete loss of causal understanding makes rational judgment impossible
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 채팅 대화의 논리적 모순 감지 불가 (웹) / Unable to detect logical contradictions in chat conversations (Web)
 2. 모든 온라인 텍스트에서 모순 인지 불능 (웹 확산) / Inability to perceive contradictions in all online text (Web spread)

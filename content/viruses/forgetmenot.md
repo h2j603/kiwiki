@@ -12,7 +12,11 @@ status: "활성 / Active"
 tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memory", "deletion"]
 ---
 
-# 포겟미낫 (ForgetMeNot)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [인지형 / Cognitive](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [이메일 / Email](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 치명적 / Critical |
 
 ## 개요 / Overview
 
@@ -20,38 +24,26 @@ tags: ["인지형", "이메일", "기억", "삭제", "cognitive", "email", "memo
 
 A [Cognitive-type](../taxonomy/index.md#classification-by-type) virus contracted by opening emails in a specific newsletter format. Contrary to its name, it deletes the infected person's memories in reverse chronological order, starting from the most recent. The name "Forget Me Not" originates from the phrase infected individuals repeat until the very end.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [인지형 / Cognitive](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [이메일 / Email](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 치명적 / Critical |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 뉴스레터 형태의 이메일에서 "구독 해지" 링크의 URL 구조가 특정 해시 패턴을 포함할 때, 해당 이메일을 끝까지 스크롤하는 행위로 감염된다. 이메일 내용 자체는 무해하며, URL의 해시 패턴이 브라우저의 프리페치 기능을 통해 처리될 때 감염이 발생한다.
 
 Infection occurs when scrolling to the bottom of a newsletter-format email whose "unsubscribe" link URL contains a specific hash pattern. The email content itself is harmless; infection occurs when the URL's hash pattern is processed through the browser's prefetch function.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 최근 읽은 이메일의 내용이 기억나지 않음 / Unable to recall contents of recently read emails
 - 브라우저 히스토리에 있는 사이트를 방문한 기억이 없음 / No memory of visiting sites in browser history
 - 비밀번호를 자꾸 틀리게 됨 (최근에 변경한 기억이 소실) / Repeatedly entering wrong passwords (memory of recent changes is lost)
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 오늘 한 일을 저녁에 기억하지 못함 / Unable to remember what was done today by evening
 - 며칠 전 대화 내용 소실 → 주 단위 기억 소실 → 월 단위 기억 소실로 진행 / Days-old conversation memories lost → weekly memories lost → monthly memories lost
 - 기억이 삭제되는 순간을 인지하지 못하며, 빈 공간을 오래된 기억으로 자동 채움 / Unaware of the moment memories are deleted; gaps are automatically filled with older memories
 - 말기에는 수년치 기억이 소실되어 자아 정체성이 과거의 자신으로 퇴행 / In terminal stages, years of memory are lost and self-identity regresses to a past version
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 최근 이메일·웹 활동 기억 소실 (웹) / Recent email and web activity memories lost (Web)
 2. 디지털 활동 전반의 기억 소실 (웹 확산) / Memory loss across all digital activities (Web spread)

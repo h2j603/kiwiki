@@ -1,0 +1,235 @@
+// ============================================
+// Kiwiki — Wikipedia/Namuwiki-style overrides
+// ============================================
+
+// ---- Color palette ----
+$wiki-bg:         #ffffff;
+$wiki-bg-alt:     #f6f6f6;
+$wiki-border:     #a2a9b1;
+$wiki-border-lt:  #c8ccd1;
+$wiki-text:       #202122;
+$wiki-text-dim:   #54595d;
+$wiki-link:       #0645ad;
+$wiki-link-hover: #0b0080;
+$wiki-accent:     #eaecf0;
+$wiki-header-border: #a2a9b1;
+
+// ---- Global ----
+body {
+  background: $wiki-bg !important;
+  color: $wiki-text;
+}
+
+// ---- Typography ----
+.main-content {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: $wiki-text;
+  max-width: 960px;
+
+  h1 {
+    font-size: 1.9em;
+    font-weight: 700;
+    border-bottom: 1px solid $wiki-header-border;
+    padding-bottom: 0.25em;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+    font-weight: 700;
+    border-bottom: 1px solid $wiki-border-lt;
+    padding-bottom: 0.2em;
+    margin-top: 1.6em;
+    margin-bottom: 0.5em;
+  }
+
+  h3 {
+    font-size: 1.15em;
+    font-weight: 600;
+    margin-top: 1.3em;
+    margin-bottom: 0.4em;
+  }
+
+  h4 {
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+  }
+
+  p {
+    margin-bottom: 0.6em;
+  }
+
+  // ---- Links ----
+  a {
+    color: $wiki-link;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $wiki-link-hover;
+    }
+  }
+}
+
+// ---- Side navigation (cleaner) ----
+.side-bar {
+  background: $wiki-bg-alt;
+  border-right: 1px solid $wiki-border-lt;
+
+  .site-title {
+    font-weight: 700;
+    font-size: 1.1em;
+  }
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  color: $wiki-text;
+  font-size: 14px;
+
+  &:hover {
+    background: $wiki-accent;
+    color: $wiki-link;
+  }
+
+  &.active {
+    font-weight: 700;
+    color: $wiki-text;
+    background: darken($wiki-accent, 3%);
+    border-left: 3px solid $wiki-text-dim;
+  }
+}
+
+// ---- Tables — wiki infobox style ----
+.main-content table {
+  border-collapse: collapse;
+  border: 1px solid $wiki-border-lt;
+  width: 100%;
+  margin: 0.8em 0;
+  font-size: 14px;
+
+  th {
+    background: $wiki-accent;
+    font-weight: 600;
+    text-align: left;
+    padding: 8px 12px;
+    border: 1px solid $wiki-border-lt;
+    color: $wiki-text;
+  }
+
+  td {
+    padding: 6px 12px;
+    border: 1px solid $wiki-border-lt;
+    vertical-align: top;
+  }
+
+  tr:nth-child(even) {
+    background: rgba($wiki-accent, 0.3);
+  }
+}
+
+// ---- Infobox (classification table at top) ----
+// Applied to the first table in virus pages
+.main-content > table:first-of-type {
+  float: right;
+  width: 320px;
+  margin: 0 0 1em 1.5em;
+  border: 1px solid $wiki-border;
+  font-size: 13.5px;
+
+  th {
+    background: $wiki-accent;
+    text-align: center;
+  }
+
+  td:first-child {
+    font-weight: 600;
+    white-space: nowrap;
+    background: rgba($wiki-accent, 0.5);
+    width: 40%;
+  }
+
+  @media (max-width: 600px) {
+    float: none;
+    width: 100%;
+    margin: 0.5em 0;
+  }
+}
+
+// ---- Lists ----
+.main-content {
+  ul, ol {
+    margin-bottom: 0.6em;
+    padding-left: 1.8em;
+
+    li {
+      margin-bottom: 0.3em;
+    }
+  }
+}
+
+// ---- Blockquote ----
+.main-content blockquote {
+  border-left: 3px solid $wiki-border;
+  padding: 0.3em 1em;
+  color: $wiki-text-dim;
+  background: $wiki-bg-alt;
+  margin: 0.8em 0;
+}
+
+// ---- Horizontal rule ----
+.main-content hr {
+  border: none;
+  border-top: 1px solid $wiki-border-lt;
+  margin: 1.5em 0;
+}
+
+// ---- Search ----
+.search-input {
+  border: 1px solid $wiki-border;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+// ---- Footer ----
+.site-footer {
+  font-size: 12px;
+  color: $wiki-text-dim;
+  border-top: 1px solid $wiki-border-lt;
+}
+
+// ---- Page header breadcrumbs ----
+.breadcrumb-nav .breadcrumb-nav-list-item {
+  font-size: 13px;
+  color: $wiki-text-dim;
+}
+
+// ---- TOC area heading anchors ----
+.main-content .anchor-heading {
+  color: $wiki-text-dim;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.main-content h2:hover .anchor-heading,
+.main-content h3:hover .anchor-heading {
+  opacity: 1;
+}
+
+// ---- Code / monospace ----
+.main-content code {
+  background: $wiki-bg-alt;
+  border: 1px solid $wiki-border-lt;
+  border-radius: 2px;
+  padding: 1px 4px;
+  font-size: 0.9em;
+}
+
+// ---- Clear floats after infobox ----
+.main-content h2 {
+  clear: both;
+}

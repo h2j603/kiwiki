@@ -3,6 +3,8 @@ description: "웹키위바이러스 위키 / Web Kiwi Virus Wiki"
 theme: just-the-docs
 baseurl: "/kiwiki"
 
+color_scheme: light
+
 plugins:
   - jekyll-relative-links
 
@@ -23,13 +25,14 @@ search_enabled: true
 search.heading_level: 3
 
 heading_anchor: true
+heading_anchor_style: github
 
 nav_sort: case_insensitive
 
 back_to_top: true
 back_to_top_text: "맨 위로"
 
-footer_content: "Kiwiki &mdash; 웹키위바이러스 위키 / Web Kiwi Virus Wiki"
+footer_content: "Kiwiki &mdash; 웹키위바이러스 위키"
 
 defaults:
   - scope:

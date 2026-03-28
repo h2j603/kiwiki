@@ -13,7 +13,11 @@ status: "활성 / Active"
 tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental", "messenger", "physical", "vein", "data"]
 ---
 
-# 캐시베인 (CacheVein)
+| 항목 / Field | 내용 / Details |
+|------|------|
+| 유형 / Type | [환경형 / Environmental](../taxonomy/index.md#유형별-분류) |
+| 전파 경로 / Vector | [메신저 / Messenger](../taxonomy/index.md#전파-경로별-분류) |
+| 위험도 / Severity | 치명적 / Critical |
 
 ## 개요 / Overview
 
@@ -21,38 +25,26 @@ tags: ["환경형", "메신저", "물리", "정맥", "데이터", "environmental
 
 An [Environmental-type](../taxonomy/index.md#classification-by-type) virus transmitted through cached data of deleted messages in messenger apps. Vein-like patterns resembling circuit diagrams or data flows appear on physical surfaces (walls, ceilings, floors) near the infected person, and actual data fragments have been observed physically "flowing" through these patterns.
 
-## 분류 / Classification
-
-| 항목 / Field | 내용 / Details |
-|------|------|
-| 유형 / Type | [환경형 / Environmental](../taxonomy/index.md#유형별-분류) |
-| 전파 경로 / Vector | [메신저 / Messenger](../taxonomy/index.md#전파-경로별-분류) |
-| 위험도 / Severity | 치명적 / Critical |
-
-## 웹 상 특성 / Web Characteristics
-
-### 감염 방식 / Infection Method
+## 감염 방식 / Infection Method
 
 메신저에서 "모두에게 삭제"된 메시지가 실제로는 서버 캐시에 잔류하는 경우가 있다. 이 잔류 데이터에 바이러스가 기생하며, 삭제된 메시지가 있던 채팅방에 계속 참여하는 사용자가 점진적으로 감염된다. 삭제된 메시지를 직접 보지 않아도 감염 가능.
 
 Messages "deleted for everyone" on messengers sometimes persist as residual data in server caches. The virus parasitizes this residual data, gradually infecting users who remain in chat rooms where deleted messages once existed. Direct viewing of the deleted message is not required for infection.
 
-### 웹 상 증상 / Web Symptoms
+## 웹 상 증상 / Web Symptoms
 
 - 삭제된 메시지의 내용이 다른 앱(메모, 캘린더 등)에 무작위로 나타남 / Contents of deleted messages randomly appear in other apps (notes, calendar, etc.)
 - 디바이스 저장 공간이 알 수 없는 캐시 파일로 가득 참 / Device storage fills with unidentifiable cache files
 - 화면을 꺼도 디바이스가 열을 발생시키며 데이터를 처리하는 듯한 증상 / Device generates heat and appears to process data even with screen off
 
-## 현실 영향 / Real-World Effects
-
-### 발현 양상 / Manifestation
+## 발현 양상 / Manifestation
 
 - 감염자 거주 공간의 벽면에 가는 검은 선이 정맥처럼 뻗어나감 / Thin black lines extend like veins across walls of the infected person's living space
 - 선을 따라가면 회로 기판의 배선도와 유사한 패턴 / Following the lines reveals patterns similar to circuit board wiring diagrams
 - 일부 정맥에서는 빛나는 점이 이동하는 것이 관찰됨—이는 실제 데이터(텍스트 조각, 숫자열)가 물리적으로 표현된 것 / Luminous dots are observed moving along some veins—these are physical manifestations of actual data (text fragments, number sequences)
 - 말기에는 정맥이 건물 구조를 약화시키며, 건물 자체가 하나의 거대한 회로처럼 작동 / In terminal stages, veins weaken building structures, and the building itself operates like one massive circuit
 
-### [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
+## [경계 무너짐](../glossary/index.md#경계-무너짐--boundary-collapse) 단계 / Boundary Collapse Stages
 
 1. 메신저에서 삭제된 메시지 잔류 데이터 노출 (웹) / Exposure to residual data of deleted messages (Web)
 2. 디바이스 전반에 캐시 이상 발생 (웹 확산) / Cache anomalies across all devices (Web spread)
