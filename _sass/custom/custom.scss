@@ -94,43 +94,16 @@ body.lang-ja {
   }
 }
 
-// ---- Sidebar (hyuk: white bg, orangered border) ----
-.side-bar {
-  background: #ffffff !important;
-  border-right: 1px solid orangered;
-}
+// ---- Sidebar: hidden ----
+.side-bar { display: none !important; }
 
-.site-title {
-  font-family: "t26-carbon", monospace !important;
-  font-weight: 100 !important;
-  font-style: italic;
-  font-size: 1.1em !important;
-  color: orangered !important;
-}
+// ---- Full width content (no sidebar) ----
+.main-content-wrap { margin-left: 0 !important; }
 
-.nav-list .nav-list-item .nav-list-link {
-  color: orangered;
-  font-size: 13px;
-  font-weight: 400;
-  padding: 4px 12px;
-  border-radius: 0;
-  text-decoration: none;
-  font-style: normal;
+// ---- Footer: hidden ----
+.site-footer { display: none !important; }
 
-  &:hover {
-    background: linear-gradient(90deg, lawngreen, #ffffff);
-    color: orangered;
-  }
-
-  &.active {
-    font-weight: 400;
-    font-style: italic;
-    color: orangered;
-    background: transparent;
-    border-left: 2px solid orangered;
-    text-decoration: underline;
-  }
-}
+// (sidebar hidden — no nav styles needed)
 
 // ---- Tables (hyuk style + no vertical borders on main index) ----
 .main-content table {
@@ -181,11 +154,14 @@ body.lang-ja {
   }
 }
 
-// ---- Hide page title h1 on homepage ----
+// ---- Hide page title h1 (generated from frontmatter) ----
 .main-content h1:first-child { display: none; }
 
-// ---- Hide hamburger menu ----
-.site-button { display: none !important; }
+// ---- Hide hamburger / nav toggle ----
+.site-button,
+.site-header,
+.site-nav,
+.nav-list { display: none !important; }
 
 // ---- Infobox (first table) ----
 .main-content > table:first-of-type {

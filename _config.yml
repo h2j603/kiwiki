@@ -1,5 +1,5 @@
 title: Kiwiki
-description: "웹키위바이러스 위키 / Web Kiwi Virus Wiki"
+description: "Web Kiwi Virus Wiki"
 theme: just-the-docs
 baseurl: "/kiwiki"
 
@@ -21,18 +21,19 @@ exclude:
   - LICENSE
   - content/viruses/_template.md
 
-search_enabled: true
-search.heading_level: 3
-
+search_enabled: false
 heading_anchor: true
 heading_anchor_style: github
-
 nav_sort: case_insensitive
 
-back_to_top: true
-back_to_top_text: "맨 위로"
+# No footer
+footer_content: ""
 
-footer_content: "Kiwiki &mdash; 웹키위바이러스 위키"
+# No back to top
+back_to_top: false
+
+# Disable nav sidebar
+nav_enabled: false
 
 defaults:
   - scope:
