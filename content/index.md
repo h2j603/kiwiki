@@ -12,6 +12,9 @@ permalink: /
 Web Kiwi Virus Wiki
 {: .en}
 
+ウェブキウイウイルス（Web Kiwi Virus）ウィキ
+{: .ja}
+
 ## 문서 목록 / Documents
 
 | 분류 코드 | 이름 | 유형 | 전파 경로 | 위험도 |

@@ -293,8 +293,9 @@ body { background: $bg !important; color: $text; }
   }
 }
 
-// ---- Language hide ----
-.en { display: none; }
+// ---- Language hide (EN default) ----
+.ko { display: none; }
+.ja { display: none; }
 
 // ---- Blockquote ----
 .main-content blockquote {
