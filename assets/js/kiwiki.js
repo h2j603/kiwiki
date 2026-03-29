@@ -789,14 +789,16 @@ document.addEventListener('DOMContentLoaded', function(){
     if (mc) {
       mc.style.position = 'relative';
       var overlayTexts = [
-        {text:'kiwi', size:'8em', top:'5%', left:'-5%', rotate:'-3deg'},
-        {text:'WKV-0.ALL-000', size:'2.5em', top:'18%', left:'30%', rotate:'1deg'},
-        {text:'키위', size:'6em', top:'35%', left:'60%', rotate:'-1deg'},
-        {text:'KIWI', size:'10em', top:'55%', left:'-8%', rotate:'2deg'},
-        {text:'キウイ', size:'5em', top:'70%', left:'40%', rotate:'-2deg'},
-        {text:'contaminated', size:'2em', top:'85%', left:'10%', rotate:'0.5deg'},
-        {text:'오염', size:'4em', top:'45%', left:'5%', rotate:'-1.5deg'},
-        {text:'kiwi kiwi kiwi', size:'1.8em', top:'25%', left:'50%', rotate:'3deg'},
+        {text:'ki위ウイ', size:'9em', top:'3%', left:'-5%', rotate:'-3deg'},
+        {text:'WKV-0.汚染-000', size:'2.5em', top:'15%', left:'25%', rotate:'1deg'},
+        {text:'오染kiwi확散', size:'5em', top:'32%', left:'55%', rotate:'-1.5deg'},
+        {text:'キ위KI위', size:'11em', top:'50%', left:'-10%', rotate:'2deg'},
+        {text:'감染ウイルス', size:'4em', top:'68%', left:'35%', rotate:'-2deg'},
+        {text:'con汚min오ated', size:'2.2em', top:'82%', left:'8%', rotate:'0.5deg'},
+        {text:'古代ki위ゼロ', size:'3.5em', top:'42%', left:'2%', rotate:'-1deg'},
+        {text:'kiwi키위キウイkiwi', size:'1.8em', top:'22%', left:'45%', rotate:'3deg'},
+        {text:'侵食침식erosion', size:'3em', top:'90%', left:'50%', rotate:'-0.5deg'},
+        {text:'데이터dat夕整合', size:'2em', top:'60%', left:'65%', rotate:'1.5deg'},
       ];
       for (var oi = 0; oi < overlayTexts.length; oi++) {
         var o = overlayTexts[oi];
