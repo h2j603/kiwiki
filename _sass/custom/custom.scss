@@ -39,7 +39,7 @@ body {
   background: lawngreen;
   color: #111;
   font-size: 16px;
-  font-family: "EB Garamond", "Pretendard", Georgia, serif;
+  font-family: "EB Garamond", "Noto Serif KR", Georgia, serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
@@ -49,9 +49,9 @@ body.lang-ko {
 }
 
 body.lang-ja {
-  font-family: "Pretendard", "Noto Sans JP", "EB Garamond", sans-serif;
+  font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
   .main-content h1, .main-content h2, .main-content h3 {
-    font-family: "Pretendard", "Noto Sans JP", monospace;
+    font-family: "Noto Serif KR", "Noto Sans JP", serif;
   }
 }
 
@@ -139,7 +139,7 @@ body.lang-ja {
   margin: 20px 0 50px;
   text-align: left;
   font-size: 13px;
-  font-family: "neue-haas-unica", "Pretendard", sans-serif;
+  font-family: "neue-haas-unica", "Noto Serif KR", sans-serif;
 
   th, td {
     border-top: 1px solid #111;
