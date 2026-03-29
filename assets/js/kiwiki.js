@@ -783,33 +783,6 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   } catch(e){}
 
-  // Text overlap — ghostly kiwi text layers over content
-  try {
-    var mc = document.querySelector('.main-content');
-    if (mc) {
-      mc.style.position = 'relative';
-      var overlayTexts = [
-        {text:'ki위ウイ', size:'9em', top:'3%', left:'-5%', rotate:'-3deg'},
-        {text:'WKV-0.汚染-000', size:'2.5em', top:'15%', left:'25%', rotate:'1deg'},
-        {text:'오染kiwi확散', size:'5em', top:'32%', left:'55%', rotate:'-1.5deg'},
-        {text:'キ위KI위', size:'11em', top:'50%', left:'-10%', rotate:'2deg'},
-        {text:'감染ウイルス', size:'4em', top:'68%', left:'35%', rotate:'-2deg'},
-        {text:'con汚min오ated', size:'2.2em', top:'82%', left:'8%', rotate:'0.5deg'},
-        {text:'古代ki위ゼロ', size:'3.5em', top:'42%', left:'2%', rotate:'-1deg'},
-        {text:'kiwi키위キウイkiwi', size:'1.8em', top:'22%', left:'45%', rotate:'3deg'},
-        {text:'侵食침식erosion', size:'3em', top:'90%', left:'50%', rotate:'-0.5deg'},
-        {text:'데이터dat夕整合', size:'2em', top:'60%', left:'65%', rotate:'1.5deg'},
-      ];
-      for (var oi = 0; oi < overlayTexts.length; oi++) {
-        var o = overlayTexts[oi];
-        var el = document.createElement('div');
-        el.textContent = o.text;
-        el.style.cssText = 'position:absolute;top:'+o.top+';left:'+o.left+';font-size:'+o.size+';font-family:"Dokdo",cursive;font-weight:400;color:#111;opacity:0.04;pointer-events:none;z-index:1;white-space:nowrap;letter-spacing:2px;transform:rotate('+o.rotate+');user-select:none;';
-        mc.appendChild(el);
-      }
-    }
-  } catch(e){}
-
   // 10. Linger darkness — after 60s the page edges slowly darken
   try {
     setTimeout(function(){
