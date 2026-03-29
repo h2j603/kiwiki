@@ -128,39 +128,12 @@ body.lang-ja {
 }
 
 // ---- Layout ----
+.side-bar,
 .site-footer,
 .site-button,
 .site-header,
 .site-nav,
-.nav-list,
-.site-title { display: none !important; visibility: hidden !important; pointer-events: none !important; }
-
-// Sidebar: collapse to search bar only
-.side-bar {
-  display: block !important;
-  visibility: visible !important;
-  position: static !important;
-  width: 100% !important;
-  min-width: 0 !important;
-  max-width: none !important;
-  height: auto !important;
-  background: transparent !important;
-  border: none !important;
-  padding: 10px 20px 0 !important;
-  margin: 0 !important;
-  overflow: visible !important;
-  pointer-events: auto !important;
-  z-index: 200;
-
-  // Only show the search form
-  > *:not(.site-search) { display: none !important; }
-  .site-search {
-    display: block !important;
-    visibility: visible !important;
-    pointer-events: auto !important;
-    max-width: 400px;
-  }
-}
+.nav-list { display: none !important; visibility: hidden !important; pointer-events: none !important; }
 
 .main-content-wrap { margin-left: 0; }
 .main-content h1:first-child { display: none; }
@@ -522,34 +495,45 @@ html { scroll-behavior: smooth; }
 }
 
 // ---- Search ----
-.search {
+.kiwiki-search {
   position: relative;
-  z-index: 200;
-}
-.search-input-wrap {
-  border: 1px solid #111 !important;
-  background: lawngreen !important;
+  margin-bottom: 20px;
+  max-width: 400px;
 }
 .search-input {
-  background: lawngreen !important;
-  color: #111 !important;
+  width: 100%;
+  padding: 8px 12px;
+  background: lawngreen;
+  color: #111;
+  border: 1px solid #111;
   font-family: "IBM Plex Mono", monospace;
-  &::placeholder { color: #111 !important; opacity: 0.4; }
+  font-size: 13px;
+  outline: none;
+  &::placeholder { color: #111; opacity: 0.4; }
+  &:focus { border-width: 2px; }
 }
-.search-results {
-  background: lawngreen !important;
-  border: 1px solid #111 !important;
-}
-.search-results-wrap {
-  background: lawngreen !important;
-}
-.search-result {
-  border-bottom: 1px solid #111 !important;
+#search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 300;
+  background: lawngreen;
+  border: 1px solid #111;
+  border-top: none;
+  max-height: 400px;
+  overflow-y: auto;
+  &:empty { display: none; }
 }
 .search-result-title { color: #111 !important; }
 .search-result-doc-title { color: #111 !important; }
 .search-result-preview { color: #111 !important; }
 .search-result-rel-url { color: #111 !important; }
+.search-results-list-item {
+  padding: 8px 12px;
+  border-bottom: 1px solid #111;
+  a { color: #111; text-decoration: none; &:hover { text-decoration: underline; } }
+}
 .search-overlay { background: rgba(0, 0, 0, 0.3) !important; }
 
 // ---- Kill remaining theme grays ----
