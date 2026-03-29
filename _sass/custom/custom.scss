@@ -4,6 +4,10 @@
 
 // === NUCLEAR: force lawngreen + #111 everywhere ===
 * { box-shadow: none !important; text-shadow: none !important; border-color: #111 !important; }
+html, body, .main, .main-content-wrap, .side-bar, #main-header, .site-header {
+  background: lawngreen !important;
+  background-color: lawngreen !important;
+}
 
 // Kill ALL theme gray backgrounds
 .main-content table tr,
