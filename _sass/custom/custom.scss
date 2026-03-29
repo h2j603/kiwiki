@@ -34,22 +34,22 @@ main { background-color: lawngreen !important; background: lawngreen !important;
 // Lang toggle active
 .lang-btn.active { color: lawngreen !important; background: #111 !important; }
 
-// ---- Base ----
+// ---- Base: serif body (EB Garamond) + sans headings (t26-carbon) ----
 body {
   background: lawngreen;
   color: #111;
-  font-size: 15px;
-  font-family: "neue-haas-unica", "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-family: "EB Garamond", "Pretendard", Georgia, serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
 body.lang-ko {
-  font-family: "Pretendard", "neue-haas-unica", -apple-system, sans-serif;
+  font-family: "Pretendard", "EB Garamond", -apple-system, sans-serif;
 }
 
 body.lang-ja {
-  font-family: "Pretendard", "Noto Sans JP", "neue-haas-unica", sans-serif;
+  font-family: "Pretendard", "Noto Sans JP", "EB Garamond", sans-serif;
   .main-content h1, .main-content h2, .main-content h3 {
     font-family: "Pretendard", "Noto Sans JP", monospace;
   }
@@ -58,9 +58,9 @@ body.lang-ja {
 // ---- Content ----
 .main-content {
   max-width: 100%;
-  font-size: 15px;
-  line-height: 1.7;
-  letter-spacing: -0.02em;
+  font-size: 16px;
+  line-height: 1.65;
+  letter-spacing: -0.01em;
   color: #111;
 
   h1 {
@@ -132,7 +132,8 @@ body.lang-ja {
   border-right: none;
   margin: 20px 0 50px;
   text-align: left;
-  font-size: 14px;
+  font-size: 13px;
+  font-family: "neue-haas-unica", "Pretendard", sans-serif;
 
   th, td {
     border-top: 1px solid #111;
