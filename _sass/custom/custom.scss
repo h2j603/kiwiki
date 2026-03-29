@@ -278,7 +278,7 @@ body.lang-ja {
     width: 100%;
     height: auto;
     filter: grayscale(1) contrast(3) brightness(0.8);
-    opacity: 0.7;
+    mix-blend-mode: multiply;
   }
   td[colspan] {
     padding: 0;
