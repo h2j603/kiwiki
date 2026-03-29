@@ -26,9 +26,9 @@ tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger"
 | 항목 | 내용 |
 |------|------|
 | 분류 코드 | <span class="pill pill-code">WKV-C.MS-008</span> |
-| 유형 | <span class="pill pill-type">인지형 / Cognitive</span> |
-| 전파 경로 | <span class="pill pill-vector">메신저 / Messenger</span> |
-| 위험도 | <span class="pill pill-severity-critical">치명적 / Critical</span> |
+| 유형 | <span class="pill pill-type">인지형</span> |
+| 전파 경로 | <span class="pill pill-vector">메신저</span> |
+| 위험도 | <span class="pill pill-severity-critical">치명적</span> |
 
 </div>
 
@@ -37,9 +37,9 @@ tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger"
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-C.MS-008</span> |
-| Type | <span class="pill pill-type">인지형 / Cognitive</span> |
-| Vector | <span class="pill pill-vector">메신저 / Messenger</span> |
-| Severity | <span class="pill pill-severity-critical">치명적 / Critical</span> |
+| Type | <span class="pill pill-type">Cognitive</span> |
+| Vector | <span class="pill pill-vector">Messenger</span> |
+| Severity | <span class="pill pill-severity-critical">Critical</span> |
 
 </div>
 
@@ -48,9 +48,9 @@ tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger"
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-C.MS-008</span> |
-| タイプ | <span class="pill pill-type">인지형 / Cognitive</span> |
-| 経路 | <span class="pill pill-vector">메신저 / Messenger</span> |
-| 危険度 | <span class="pill pill-severity-critical">치명적 / Critical</span> |
+| タイプ | <span class="pill pill-type">認知型</span> |
+| 経路 | <span class="pill pill-vector">メッセンジャー</span> |
+| 危険度 | <span class="pill pill-severity-critical">致命的</span> |
 
 </div>
 

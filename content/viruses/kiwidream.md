@@ -5,7 +5,7 @@ code: "WKV-C.SN-005"
 icon: "☁"
 classification:
   type: "인지형 / Cognitive"
-  vector: "SNS / Social Media"
+  vector: "SNS"
   severity: "보통 / Moderate"
 origin: "SNS 숏폼 플랫폼의 무한 루프 알고리즘 / Infinite loop algorithms in SNS short-form platforms"
 status: "활성 / Active"
@@ -22,9 +22,9 @@ tags: ["인지형", "SNS", "꿈", "기억", "cognitive", "social media", "dream"
 | 항목 | 내용 |
 |------|------|
 | 분류 코드 | <span class="pill pill-code">WKV-C.SN-005</span> |
-| 유형 | <span class="pill pill-type">인지형 / Cognitive</span> |
-| 전파 경로 | <span class="pill pill-vector">SNS / Social Media</span> |
-| 위험도 | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
+| 유형 | <span class="pill pill-type">인지형</span> |
+| 전파 경로 | <span class="pill pill-vector">SNS</span> |
+| 위험도 | <span class="pill pill-severity-moderate">보통</span> |
 
 </div>
 
@@ -33,9 +33,9 @@ tags: ["인지형", "SNS", "꿈", "기억", "cognitive", "social media", "dream"
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-C.SN-005</span> |
-| Type | <span class="pill pill-type">인지형 / Cognitive</span> |
-| Vector | <span class="pill pill-vector">SNS / Social Media</span> |
-| Severity | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
+| Type | <span class="pill pill-type">Cognitive</span> |
+| Vector | <span class="pill pill-vector">SNS</span> |
+| Severity | <span class="pill pill-severity-moderate">Moderate</span> |
 
 </div>
 
@@ -44,9 +44,9 @@ tags: ["인지형", "SNS", "꿈", "기억", "cognitive", "social media", "dream"
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-C.SN-005</span> |
-| タイプ | <span class="pill pill-type">인지형 / Cognitive</span> |
-| 経路 | <span class="pill pill-vector">SNS / Social Media</span> |
-| 危険度 | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
+| タイプ | <span class="pill pill-type">認知型</span> |
+| 経路 | <span class="pill pill-vector">SNS</span> |
+| 危険度 | <span class="pill pill-severity-moderate">中</span> |
 
 </div>
 

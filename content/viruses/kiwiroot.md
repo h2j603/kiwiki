@@ -26,9 +26,9 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 | 항목 | 내용 |
 |------|------|
 | 분류 코드 | <span class="pill pill-code">WKV-E.DA-006</span> |
-| 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
-| 전파 경로 | <span class="pill pill-vector">직접접근 / Direct Access</span> |
-| 위험도 | <span class="pill pill-severity-critical">치명적 / Critical</span> |
+| 유형 | <span class="pill pill-type">환경형</span> |
+| 전파 경로 | <span class="pill pill-vector">직접접근</span> |
+| 위험도 | <span class="pill pill-severity-critical">치명적</span> |
 
 </div>
 
@@ -37,9 +37,9 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-E.DA-006</span> |
-| Type | <span class="pill pill-type">환경형 / Environmental</span> |
-| Vector | <span class="pill pill-vector">직접접근 / Direct Access</span> |
-| Severity | <span class="pill pill-severity-critical">치명적 / Critical</span> |
+| Type | <span class="pill pill-type">Environmental</span> |
+| Vector | <span class="pill pill-vector">Direct Access</span> |
+| Severity | <span class="pill pill-severity-critical">Critical</span> |
 
 </div>
 
@@ -48,9 +48,9 @@ tags: ["환경형", "직접접근", "케이블", "성장", "environmental", "dir
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-E.DA-006</span> |
-| タイプ | <span class="pill pill-type">환경형 / Environmental</span> |
-| 経路 | <span class="pill pill-vector">직접접근 / Direct Access</span> |
-| 危険度 | <span class="pill pill-severity-critical">치명적 / Critical</span> |
+| タイプ | <span class="pill pill-type">環境型</span> |
+| 経路 | <span class="pill pill-vector">直接アクセス</span> |
+| 危険度 | <span class="pill pill-severity-critical">致命的</span> |
 
 </div>
 
