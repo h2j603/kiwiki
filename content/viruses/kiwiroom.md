@@ -5,7 +5,7 @@ code: "WKV-E.SN-007"
 icon: "⌂"
 classification:
   type: "환경형 / Environmental"
-  vector: "SNS / Social Media"
+  vector: "SNS"
   severity: "보통 / Moderate"
 origin: "SNS 플랫폼의 대규모 댓글 섹션에서 발생하는 의견 반향 구조 / Opinion echo structures generated in large-scale comment sections of SNS platforms"
 status: "활성 / Active"
@@ -22,9 +22,9 @@ tags: ["환경형", "SNS", "음향", "반향", "environmental", "social media", 
 | 항목 | 내용 |
 |------|------|
 | 분류 코드 | <span class="pill pill-code">WKV-E.SN-007</span> |
-| 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
-| 전파 경로 | <span class="pill pill-vector">SNS / Social Media</span> |
-| 위험도 | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
+| 유형 | <span class="pill pill-type">환경형</span> |
+| 전파 경로 | <span class="pill pill-vector">SNS</span> |
+| 위험도 | <span class="pill pill-severity-moderate">보통</span> |
 
 </div>
 
@@ -33,9 +33,9 @@ tags: ["환경형", "SNS", "음향", "반향", "environmental", "social media", 
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-E.SN-007</span> |
-| Type | <span class="pill pill-type">환경형 / Environmental</span> |
-| Vector | <span class="pill pill-vector">SNS / Social Media</span> |
-| Severity | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
+| Type | <span class="pill pill-type">Environmental</span> |
+| Vector | <span class="pill pill-vector">SNS</span> |
+| Severity | <span class="pill pill-severity-moderate">Moderate</span> |
 
 </div>
 
@@ -44,9 +44,9 @@ tags: ["환경형", "SNS", "음향", "반향", "environmental", "social media", 
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-E.SN-007</span> |
-| タイプ | <span class="pill pill-type">환경형 / Environmental</span> |
-| 経路 | <span class="pill pill-vector">SNS / Social Media</span> |
-| 危険度 | <span class="pill pill-severity-moderate">보통 / Moderate</span> |
+| タイプ | <span class="pill pill-type">環境型</span> |
+| 経路 | <span class="pill pill-vector">SNS</span> |
+| 危険度 | <span class="pill pill-severity-moderate">中</span> |
 
 </div>
 

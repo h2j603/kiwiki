@@ -22,9 +22,9 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 | 항목 | 내용 |
 |------|------|
 | 분류 코드 | <span class="pill pill-code">WKV-C.SE-007</span> |
-| 유형 | <span class="pill pill-type">인지형 / Cognitive</span> |
-| 전파 경로 | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
-| 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
+| 유형 | <span class="pill pill-type">인지형</span> |
+| 전파 경로 | <span class="pill pill-vector">검색엔진</span> |
+| 위험도 | <span class="pill pill-severity-high">높음</span> |
 
 </div>
 
@@ -33,9 +33,9 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-C.SE-007</span> |
-| Type | <span class="pill pill-type">인지형 / Cognitive</span> |
-| Vector | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
-| Severity | <span class="pill pill-severity-high">높음 / High</span> |
+| Type | <span class="pill pill-type">Cognitive</span> |
+| Vector | <span class="pill pill-vector">Search Engine</span> |
+| Severity | <span class="pill pill-severity-high">High</span> |
 
 </div>
 
@@ -44,9 +44,9 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-C.SE-007</span> |
-| タイプ | <span class="pill pill-type">인지형 / Cognitive</span> |
-| 経路 | <span class="pill pill-vector">검색엔진 / Search Engine</span> |
-| 危険度 | <span class="pill pill-severity-high">높음 / High</span> |
+| タイプ | <span class="pill pill-type">認知型</span> |
+| 経路 | <span class="pill pill-vector">検索エンジン</span> |
+| 危険度 | <span class="pill pill-severity-high">高</span> |
 
 </div>
 

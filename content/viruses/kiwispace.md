@@ -22,9 +22,9 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 | 항목 | 내용 |
 |------|------|
 | 분류 코드 | <span class="pill pill-code">WKV-E.MS-008</span> |
-| 유형 | <span class="pill pill-type">환경형 / Environmental</span> |
-| 전파 경로 | <span class="pill pill-vector">메신저 / Messenger</span> |
-| 위험도 | <span class="pill pill-severity-high">높음 / High</span> |
+| 유형 | <span class="pill pill-type">환경형</span> |
+| 전파 경로 | <span class="pill pill-vector">메신저</span> |
+| 위험도 | <span class="pill pill-severity-high">높음</span> |
 
 </div>
 
@@ -33,9 +33,9 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 | Field | Details |
 |------|------|
 | Code | <span class="pill pill-code">WKV-E.MS-008</span> |
-| Type | <span class="pill pill-type">환경형 / Environmental</span> |
-| Vector | <span class="pill pill-vector">메신저 / Messenger</span> |
-| Severity | <span class="pill pill-severity-high">높음 / High</span> |
+| Type | <span class="pill pill-type">Environmental</span> |
+| Vector | <span class="pill pill-vector">Messenger</span> |
+| Severity | <span class="pill pill-severity-high">High</span> |
 
 </div>
 
@@ -44,9 +44,9 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 | 項目 | 内容 |
 |------|------|
 | 分類コード | <span class="pill pill-code">WKV-E.MS-008</span> |
-| タイプ | <span class="pill pill-type">환경형 / Environmental</span> |
-| 経路 | <span class="pill pill-vector">메신저 / Messenger</span> |
-| 危険度 | <span class="pill pill-severity-high">높음 / High</span> |
+| タイプ | <span class="pill pill-type">環境型</span> |
+| 経路 | <span class="pill pill-vector">メッセンジャー</span> |
+| 危険度 | <span class="pill pill-severity-high">高</span> |
 
 </div>
 

@@ -2,25 +2,6 @@
 // Kiwiki — lawngreen bg + black text
 // ============================================
 
-// ---- CRT Scanline overlay ----
-body::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 9999;
-  background: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 0, 0, 0.03) 2px,
-    rgba(0, 0, 0, 0.03) 4px
-  );
-}
-
 // === NUCLEAR: force lawngreen + #111 everywhere ===
 * { box-shadow: none !important; text-shadow: none !important; border-color: #111 !important; }
 
@@ -148,27 +129,33 @@ body.lang-ja {
 .site-button,
 .site-header,
 .site-nav,
-.nav-list { display: none !important; visibility: hidden !important; pointer-events: none !important; }
+.nav-list,
+.site-title { display: none !important; visibility: hidden !important; pointer-events: none !important; }
 
-// Sidebar: hide all except search
+// Sidebar: collapse to search bar only
 .side-bar {
-  width: auto !important;
-  min-width: 0 !important;
-  max-width: none !important;
-  position: static !important;
-  background: transparent !important;
-  border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  height: auto !important;
-  overflow: visible !important;
   display: block !important;
   visibility: visible !important;
+  position: static !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: auto !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 10px 20px 0 !important;
+  margin: 0 !important;
+  overflow: visible !important;
   pointer-events: auto !important;
+  z-index: 200;
+
+  // Only show the search form
+  > *:not(.site-search) { display: none !important; }
   .site-search {
     display: block !important;
     visibility: visible !important;
-    margin: 0 0 10px;
+    pointer-events: auto !important;
+    max-width: 400px;
   }
 }
 
