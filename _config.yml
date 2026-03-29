@@ -3,7 +3,7 @@ description: "Web Kiwi Virus Wiki"
 theme: just-the-docs
 baseurl: "/kiwiki"
 
-color_scheme: light
+color_scheme: kiwiki
 
 plugins:
   - jekyll-relative-links
