@@ -498,6 +498,64 @@ html { scroll-behavior: smooth; }
   .pill-code { font-size: 9px; }
 }
 
+// ---- AKU document classification ----
+.aku-classification {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #111;
+  display: inline-block;
+}
+.aku-restricted {
+  background: #111;
+  color: lawngreen;
+  border-color: #111;
+  font-weight: 700;
+}
+.aku-classified {
+  background: transparent;
+  color: #111;
+  border: 2px solid #111;
+}
+.aku-public {
+  background: transparent;
+  color: #111;
+  border: 1px dashed #111;
+}
+
+// ---- Title glitch (KiwiZero erosion) ----
+@keyframes glitch {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(-1px, 1px); }
+  40% { transform: translate(1px, -1px); }
+  60% { transform: translate(-1px, 0); }
+  80% { transform: translate(1px, 1px); }
+}
+@keyframes glitchClip {
+  0%, 100% { clip-path: inset(0 0 0 0); }
+  25% { clip-path: inset(8% 0 85% 0); }
+  50% { clip-path: inset(50% 0 30% 0); }
+  75% { clip-path: inset(75% 0 5% 0); }
+}
+
+.main-content h2:first-of-type {
+  position: relative;
+  animation: glitch 8s infinite;
+  &::after {
+    content: attr(id);
+    position: absolute;
+    left: 2px;
+    top: 0;
+    color: #111;
+    overflow: hidden;
+    animation: glitchClip 6s infinite linear;
+    opacity: 0.15;
+  }
+}
+
 // ---- AKU erosion notice ----
 @keyframes erosionBlink {
   0%, 100% { opacity: 1; }
