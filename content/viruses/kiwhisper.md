@@ -15,7 +15,7 @@ tags: ["로직형", "메신저", "판단력", "속삭임", "logic", "messenger",
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

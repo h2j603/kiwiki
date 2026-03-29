@@ -15,7 +15,7 @@ tags: ["감각형", "SNS", "시각", "거울", "sensory", "social media", "visua
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

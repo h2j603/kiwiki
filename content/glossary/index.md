@@ -6,7 +6,7 @@ permalink: /glossary/
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 # 용어 사전
 {: .ko}

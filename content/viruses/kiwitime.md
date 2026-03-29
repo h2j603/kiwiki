@@ -14,7 +14,7 @@ tags: ["인지형", "검색엔진", "데자뷔", "시간", "cognitive", "search 
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

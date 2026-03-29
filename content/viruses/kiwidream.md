@@ -14,7 +14,7 @@ tags: ["인지형", "SNS", "꿈", "기억", "cognitive", "social media", "dream"
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

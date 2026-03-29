@@ -14,7 +14,7 @@ tags: ["감각형", "이메일", "청각", "목소리", "sensory", "email", "aud
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

@@ -14,7 +14,7 @@ tags: ["환경형", "메신저", "투명", "소실", "environmental", "messenger
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

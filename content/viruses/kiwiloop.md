@@ -14,7 +14,7 @@ tags: ["인지형", "메신저", "논리", "구멍", "cognitive", "messenger", "
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

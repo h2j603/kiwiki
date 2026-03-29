@@ -14,7 +14,7 @@ tags: ["로직형", "SNS", "주의력", "탭", "logic", "social media", "attenti
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

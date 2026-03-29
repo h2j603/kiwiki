@@ -6,7 +6,7 @@ nav_order: 11
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 <div class="ko" markdown="1">
 

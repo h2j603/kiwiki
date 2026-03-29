@@ -14,7 +14,7 @@ tags: ["감각형", "메신저", "청각", "울음", "sensory", "messenger", "au
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

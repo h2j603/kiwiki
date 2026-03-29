@@ -15,7 +15,7 @@ tags: ["인지형", "SNS", "시간", "스크롤", "cognitive", "social media", "
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

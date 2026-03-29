@@ -14,7 +14,7 @@ tags: ["로직형", "직접접근", "모순", "논리", "logic", "direct access"
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">
