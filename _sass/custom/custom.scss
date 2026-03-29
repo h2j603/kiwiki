@@ -23,14 +23,14 @@ main { background-color: lawngreen !important; background: lawngreen !important;
 
 // Pill exceptions (black bg + lawngreen text)
 .pill-code, .pill-active { color: lawngreen !important; background: #111 !important; }
-.pill-severity-high, .pill-severity-critical { color: lawngreen !important; background: #e60012 !important; }
+.pill-severity-high, .pill-severity-critical { color: lawngreen !important; background: #111 !important; }
 
 // Infobox header
 .main-content > div:first-child table th,
 .main-content > table:first-of-type th { color: lawngreen !important; background: #111 !important; }
 
 // Warning banner
-.warning-banner { color: lawngreen !important; background: #e60012 !important; }
+.warning-banner { color: lawngreen !important; background: #111 !important; }
 
 // Lang toggle active
 .lang-btn.active { color: lawngreen !important; background: #111 !important; }
@@ -65,7 +65,7 @@ body.lang-ja {
   color: #111;
 
   h1 {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "EB Garamond", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.8em;
@@ -77,7 +77,7 @@ body.lang-ja {
   }
 
   h2 {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "EB Garamond", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.4em;
@@ -89,7 +89,7 @@ body.lang-ja {
   }
 
   h3 {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "EB Garamond", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.2em;
@@ -205,7 +205,7 @@ body.lang-ja {
     background: #111;
     color: lawngreen;
     text-align: center;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "EB Garamond", serif;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -245,7 +245,7 @@ body.lang-ja {
   background: #111;
   color: lawngreen;
   border-color: #111;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "EB Garamond", serif;
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -255,8 +255,8 @@ body.lang-ja {
 .pill-type, .pill-vector { background: transparent; color: #111; }
 .pill-active { background: #111; color: lawngreen; border-color: #111; }
 .pill-severity-moderate { background: transparent; color: #111; border-color: #111; }
-.pill-severity-high { background: #e60012; color: lawngreen; border-color: #e60012; }
-.pill-severity-critical { background: #e60012; color: lawngreen; border-color: #e60012; font-weight: 700; }
+.pill-severity-high { background: #111; color: lawngreen; border-color: #111; }
+.pill-severity-critical { background: #111; color: lawngreen; border-color: #111; font-weight: 700; }
 
 // ---- Language toggle ----
 .lang-toggle {
@@ -272,7 +272,7 @@ body.lang-ja {
   padding: 4px 14px;
   font-size: 12px;
   font-weight: 400;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "EB Garamond", serif;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -310,7 +310,7 @@ body.lang-ja {
 
 // ---- Code ----
 .main-content code {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "EB Garamond", serif;
   background: transparent;
   border: 1px solid #111;
   padding: 1px 4px;
@@ -354,7 +354,7 @@ body.lang-ja {
 
   .toc-title {
     padding: 10px 14px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "EB Garamond", serif;
     font-weight: 400;
     font-size: 1.2em;
     color: #111;
@@ -414,11 +414,11 @@ html { scroll-behavior: smooth; }
 }
 
 .warning-banner {
-  background: #e60012;
+  background: #111;
   color: lawngreen;
   border: none;
   padding: 10px 14px;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "EB Garamond", serif;
   font-size: 14px;
   margin-bottom: 20px;
   letter-spacing: 3px;
@@ -444,14 +444,14 @@ html { scroll-behavior: smooth; }
   padding-top: 12px;
   font-size: 10px;
   color: #111;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "EB Garamond", serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 // ---- Stats bar ----
 .stats-bar {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "EB Garamond", serif;
   font-size: 14px;
   letter-spacing: 1px;
   color: #111;
