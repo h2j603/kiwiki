@@ -16,6 +16,8 @@ tags: ["인지형", "메신저", "맥락", "연속성", "cognitive", "messenger"
 
 <a href="/kiwiki/" class="home-link"><span class="en">Web Kiwi Virus Wiki</span><span class="ko">웹키위바이러스 위키</span><span class="ja">ウェブキウイウイルス ウィキ</span></a>
 
+<div class="warning-banner"><span class="en">SEVERITY: CRITICAL — This virus causes irreversible transformation</span><span class="ko">위험도: 치명적 — 이 바이러스는 비가역적 변형을 유발합니다</span><span class="ja">危険度: 致命的 — このウイルスは不可逆的変形を引き起こします</span></div>
+
 
 
 <div class="ko" markdown="1">
