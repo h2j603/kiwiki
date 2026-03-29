@@ -14,7 +14,7 @@ tags: ["로직형", "이메일", "판단", "그림자", "logic", "email", "judgm
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

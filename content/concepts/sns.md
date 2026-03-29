@@ -6,7 +6,7 @@ nav_order: 5
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 | Key | Value |

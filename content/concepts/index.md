@@ -7,7 +7,7 @@ permalink: /concepts/
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 # 개념 목록
 {: .ko}

@@ -2,7 +2,7 @@
 title: "키위룸 / KiwiRoom"
 nav_order: 31
 code: "WKV-E.SN-007"
-icon: "⌂"
+icon: "✳"
 classification:
   type: "환경형 / Environmental"
   vector: "SNS"
@@ -14,7 +14,7 @@ tags: ["환경형", "SNS", "음향", "반향", "environmental", "social media", 
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

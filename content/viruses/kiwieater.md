@@ -14,7 +14,7 @@ tags: ["인지형", "직접접근", "이름", "실어증", "cognitive", "direct 
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

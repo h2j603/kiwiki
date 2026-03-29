@@ -14,7 +14,7 @@ tags: ["로직형", "메신저", "키위클립", "사고", "logic", "messenger",
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

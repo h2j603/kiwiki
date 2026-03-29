@@ -14,7 +14,7 @@ tags: ["감각형", "직접접근", "색각", "시각", "sensory", "direct acces
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

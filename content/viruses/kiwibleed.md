@@ -14,7 +14,7 @@ tags: ["로직형", "SNS", "텍스트", "의사결정", "logic", "social media",
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

@@ -14,7 +14,7 @@ tags: ["감각형", "SNS", "촉각", "터치", "sensory", "social media", "tacti
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

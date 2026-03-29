@@ -14,7 +14,7 @@ tags: ["로직형", "검색엔진", "알림", "강박", "logic", "search engine"
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

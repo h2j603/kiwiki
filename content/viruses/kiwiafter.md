@@ -14,7 +14,7 @@ tags: ["감각형", "검색엔진", "잔상", "시각", "sensory", "search engin
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

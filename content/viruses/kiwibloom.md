@@ -14,7 +14,7 @@ tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", 
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">

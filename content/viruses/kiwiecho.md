@@ -15,7 +15,7 @@ tags: ["인지형", "검색엔진", "기억", "반복", "cognitive", "search eng
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">⌂</a>
+<a href="/kiwiki/" class="home-link">✳</a>
 
 
 <div class="ko" markdown="1">
