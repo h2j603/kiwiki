@@ -580,24 +580,6 @@ html { scroll-behavior: smooth; }
   }
 }
 
-// ---- AKU erosion notice ----
-@keyframes erosionBlink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
-}
-
-.aku-erosion-notice {
-  background: #111;
-  color: lawngreen;
-  padding: 8px 14px;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 10px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  animation: erosionBlink 2.5s ease-in-out infinite;
-}
-
 // ---- AKU footer ----
 .aku-footer {
   border-top: 1px solid #111;
