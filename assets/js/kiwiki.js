@@ -88,14 +88,8 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   } catch(e){}
 
-  // === Infection notice (multi-strain) ===
-  try {
-    var infected = window._kViruses || [window._kVirus];
-    if (infected && infected.length > 0) {
-      var names = {kiwiecho:'KiwiEcho',kiwimirror:'KiwiMirror',kiwirot:'KiwiRot',kiwiscroll:'KiwiScroll',kiwimoss:'KiwiMoss',kiwhisper:'KiWhisper',kiwispot:'KiwiSpot',kiwitab:'KiwiTab',kiwibloom:'KiwiBloom',kiwisyntax:'KiwiSyntax',kiwivein:'KiwiVein',kiwiforgot:'KiwiForgot',kiwighost:'KiwiGhost',kiwiparadox:'KiwiParadox',kiwibleed:'KiwiBleed',kiwiclip:'KiwiClip',kiwidrift:'KiwiDrift',kiwitouch:'KiwiTouch',kiwivoice:'KiwiVoice',kiwiafter:'KiwiAfter',kiwidream:'KiwiDream',kiwieater:'KiwiEater',kiwitime:'KiwiTime',kiwicut:'KiwiCut',kiwirust:'KiwiRust',kiwiroot:'KiwiRoot',kiwiroom:'KiwiRoom',kiwispace:'KiwiSpace',kiwiloop:'KiwiLoop',kiwishade:'KiwiShade',kiwihowl:'KiwiHowl',kiwivoid:'KiwiVoid',kiwizero:'KiwiZero'};
-      var codes = {kiwiecho:'WKV-C.SE-001',kiwimirror:'WKV-S.SN-001',kiwirot:'WKV-S.EM-002',kiwiscroll:'WKV-C.SN-002',kiwimoss:'WKV-E.DA-001',kiwhisper:'WKV-L.MS-001',kiwispot:'WKV-S.SE-004',kiwitab:'WKV-L.SN-003',kiwibloom:'WKV-E.SN-003',kiwisyntax:'WKV-L.DA-002',kiwivein:'WKV-E.MS-002',kiwiforgot:'WKV-C.EM-003',kiwighost:'WKV-L.SE-005',kiwiparadox:'WKV-L.DA-006',kiwibleed:'WKV-L.SN-007',kiwiclip:'WKV-L.MS-008',kiwidrift:'WKV-S.DA-005',kiwitouch:'WKV-S.SN-006',kiwivoice:'WKV-S.EM-007',kiwiafter:'WKV-S.SE-008',kiwidream:'WKV-C.SN-005',kiwieater:'WKV-C.DA-006',kiwitime:'WKV-C.SE-007',kiwicut:'WKV-C.MS-008',kiwirust:'WKV-E.SE-005',kiwiroot:'WKV-E.DA-006',kiwiroom:'WKV-E.SN-007',kiwispace:'WKV-E.MS-008',kiwiloop:'WKV-C.MS-004',kiwishade:'WKV-L.EM-004',kiwihowl:'WKV-S.MS-003',kiwivoid:'WKV-E.EM-004',kiwizero:'WKV-0.ALL-000'};
-
-      // === GLITCH TRANSITION INFECTION NOTICE ===
+  // === Infection notice: DISABLED (to be redesigned) ===
+  /*
       // Phase 1: Full-screen glitch overlay (0.8s)
       var overlay = document.createElement('div');
       overlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:#111;z-index:99999;opacity:0;transition:opacity 0.15s;pointer-events:none;';
@@ -156,6 +150,7 @@ document.addEventListener('DOMContentLoaded', function(){
       }, 80);
     }
   } catch(e){}
+  */
 
   // === VIRUS INTERACTIONS (uncanny) — run for ALL infected strains ===
   var allInfected = window._kViruses || [window._kVirus];
@@ -685,28 +680,40 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     }, 1500);
 
-    // Phase 2: inject kiwi creature images directly into DOM
+    // Phase 2: aggressively inject kiwi creature images everywhere
     var imgFolder = '/kiwiki/assets/images/kiwi-creature/';
     var creatureFiles = ['IMG_6034.jpeg','IMG_6035.jpeg','IMG_6039.jpeg','IMG_6041.jpeg','IMG_6042.jpeg','IMG_6046.jpeg'];
+    // Insert multiple images per tick into random elements
     setInterval(function(){
-      var ps = document.querySelectorAll('.main-content p');
-      if (ps.length < 3) return;
-      var p = ps[Math.floor(Math.random() * ps.length)];
-      if (p.getAttribute('data-kiwified')) return;
-      p.setAttribute('data-kiwified', '1');
+      var targets = document.querySelectorAll('.main-content p, .main-content li, .main-content td, .main-content h2');
+      for (var ii = 0; ii < 3; ii++) {
+        var el = targets[Math.floor(Math.random() * targets.length)];
+        if (!el) continue;
+        var img = document.createElement('img');
+        img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
+        img.alt = '';
+        var size = 40 + Math.floor(Math.random() * 80);
+        img.style.cssText = 'max-width:'+size+'px;height:auto;display:inline-block;vertical-align:middle;margin:0 4px;';
+        img.onerror = function() { this.style.display='none'; };
+        if (el.childNodes.length > 0) {
+          el.insertBefore(img, el.childNodes[Math.floor(Math.random() * el.childNodes.length)]);
+        } else {
+          el.appendChild(img);
+        }
+      }
+    }, 2000);
+    // Also scatter fixed-position images across the page
+    setInterval(function(){
       var img = document.createElement('img');
       img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
       img.alt = '';
-      img.style.cssText = 'max-width:100px;height:auto;display:inline-block;vertical-align:middle;margin:0 6px;';
-      img.onerror = function() { this.style.display='none'; };
-      // Insert image before a random child node
-      if (p.childNodes.length > 0) {
-        var pos = Math.floor(Math.random() * p.childNodes.length);
-        p.insertBefore(img, p.childNodes[pos]);
-      } else {
-        p.appendChild(img);
-      }
-    }, 4000);
+      var size = 50 + Math.floor(Math.random() * 100);
+      img.style.cssText = 'position:fixed;max-width:'+size+'px;height:auto;pointer-events:none;z-index:9996;left:'+Math.random()*90+'%;top:'+Math.random()*90+'%;opacity:0.7;transition:opacity 5s;';
+      img.onerror = function() { this.remove(); };
+      document.body.appendChild(img);
+      setTimeout(function(){ img.style.opacity='0'; }, 4000);
+      setTimeout(function(){ img.remove(); }, 9000);
+    }, 3000);
 
     // Phase 3: zalgo-kiwi text corruption
     setInterval(function(){

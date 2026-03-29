@@ -2,7 +2,37 @@
 // Kiwiki — lawngreen bg + black text
 // ============================================
 
-* { box-shadow: none !important; text-shadow: none !important; }
+// === NUCLEAR: force lawngreen + #111 everywhere ===
+* { box-shadow: none !important; text-shadow: none !important; border-color: #111 !important; }
+
+// Kill ALL theme gray backgrounds
+.main-content table tr,
+.main-content table td,
+.main-content table th,
+.main-content table tr:nth-child(even),
+.main-content table tr:nth-child(odd),
+.main-content table tbody tr:nth-child(even) td,
+.main-content table tbody tr:nth-child(odd) td,
+.main-content-wrap,
+.main,
+#main-content,
+main { background-color: lawngreen !important; background: lawngreen !important; }
+
+// Force text #111 everywhere (with exceptions below)
+.main-content *, .breadcrumb-nav * { color: #111; }
+
+// Pill exceptions (black bg + lawngreen text)
+.pill-code, .pill-active, .pill-severity-high, .pill-severity-critical { color: lawngreen !important; background: #111 !important; }
+
+// Infobox header
+.main-content > div:first-child table th,
+.main-content > table:first-of-type th { color: lawngreen !important; background: #111 !important; }
+
+// Warning banner
+.warning-banner { color: lawngreen !important; background: #111 !important; }
+
+// Lang toggle active
+.lang-btn.active { color: lawngreen !important; background: #111 !important; }
 
 // ---- Base ----
 body {
