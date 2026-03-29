@@ -16,7 +16,6 @@ tags: ["원형", "최초", "키위", "변환", "primordial", "first", "kiwi", "m
 
 <a href="/kiwiki/" class="home-link"><span class="en">Web Kiwi Virus Wiki</span><span class="ko">웹키위바이러스 위키</span><span class="ja">ウェブキウイウイルス ウィキ</span></a>
 
-<div class="warning-banner"><span class="en">PRIMORDIAL STRAIN — This is the first Web Kiwi Virus ever documented</span><span class="ko">원형 변이주 — 최초로 기록된 웹키위바이러스</span><span class="ja">原型変異株 — 最初に記録されたウェブキウイウイルス</span></div>
 
 <div class="ko" markdown="1">
 

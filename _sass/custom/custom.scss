@@ -60,8 +60,7 @@ main { background-color: lawngreen !important; background: lawngreen !important;
 .main-content > div:first-child table th,
 .main-content > table:first-of-type th { color: lawngreen !important; background: #111 !important; }
 
-// Warning banner
-.warning-banner { color: lawngreen !important; background: #111 !important; }
+
 
 // Lang toggle active
 .lang-btn.active { color: lawngreen !important; background: #111 !important; }
@@ -472,25 +471,6 @@ html { scroll-behavior: smooth; }
   &:hover { opacity: 1; }
 }
 
-// ---- Warning banner (NERV style) ----
-@keyframes nervBlink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
-}
-
-.warning-banner {
-  background: #111;
-  color: lawngreen;
-  border: none;
-  padding: 10px 14px;
-  font-family: inherit;
-  font-size: 14px;
-  margin-bottom: 20px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  animation: nervBlink 1.5s ease-in-out infinite;
-  &::before { content: "\25B6 WARNING — "; }
-}
 
 // ---- Redacted text ----
 .redacted {
