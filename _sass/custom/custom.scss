@@ -39,11 +39,11 @@ main { background-color: lawngreen !important; background: lawngreen !important;
 // Lang toggle active
 .lang-btn.active { color: lawngreen !important; background: #111 !important; }
 
-// ---- Base: serif body (EB Garamond) + serif headings (EB Garamond) ----
+// ---- Base: serif body (EB Garamond) ----
 body {
   background: lawngreen;
   color: #111;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "EB Garamond", "Noto Serif KR", Georgia, serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -60,8 +60,8 @@ body.lang-ja {
 // ---- Content ----
 .main-content {
   max-width: 100%;
-  font-size: 16px;
-  line-height: 1.65;
+  font-size: 18px;
+  line-height: 1.75;
   letter-spacing: -0.01em;
   color: #111;
 
@@ -69,39 +69,39 @@ body.lang-ja {
     font-family: inherit;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.8em;
+    font-size: 2.2em;
     color: #111;
     border-bottom: none;
-    margin: 0 0 20px;
+    margin: 0 0 24px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
   }
 
   h2 {
     font-family: inherit;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: #111;
     border-bottom: none;
-    margin: 1.5em 0 0.5em;
+    margin: 2em 0 0.6em;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
 
   h3 {
     font-family: inherit;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #111;
-    margin: 1.2em 0 0.4em;
+    margin: 1.5em 0 0.4em;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
   }
 
   p {
-    margin: 0 0 0.8em;
+    margin: 0 0 1em;
     text-align: justify;
   }
 
@@ -114,10 +114,10 @@ body.lang-ja {
   }
 
   ul, ol {
-    margin: 0 0 0.8em;
+    margin: 0 0 1em;
     padding-left: 1.5em;
     li {
-      margin-bottom: 0.3em;
+      margin-bottom: 0.4em;
       &::before { color: #111 !important; }
     }
   }
@@ -501,8 +501,9 @@ html { scroll-behavior: smooth; }
 // ---- Mobile ----
 @media (max-width: 768px) {
   .main-content {
-    font-size: 14px;
-    padding: 10px;
+    font-size: 16px;
+    line-height: 1.65;
+    padding: 12px;
   }
 
   .main-content table {
