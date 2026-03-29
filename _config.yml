@@ -21,7 +21,7 @@ exclude:
   - LICENSE
   - content/viruses/_template.md
 
-search_enabled: true
+search_enabled: false
 heading_anchor: true
 heading_anchor_style: github
 nav_sort: case_insensitive
