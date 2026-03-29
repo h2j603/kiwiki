@@ -47,16 +47,10 @@ body {
 
 body.lang-ko {
   font-family: "Noto Serif KR", "EB Garamond", Georgia, serif;
-  .main-content h1, .main-content h2, .main-content h3 {
-    font-family: "Noto Serif KR", "EB Garamond", serif;
-  }
 }
 
 body.lang-ja {
   font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
-  .main-content h1, .main-content h2, .main-content h3 {
-    font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
-  }
 }
 
 // ---- Content ----
@@ -68,7 +62,7 @@ body.lang-ja {
   color: #111;
 
   h1 {
-    font-family: "EB Garamond", serif;
+    font-family: inherit;
     font-weight: 400;
     font-style: normal;
     font-size: 1.8em;
@@ -80,7 +74,7 @@ body.lang-ja {
   }
 
   h2 {
-    font-family: "EB Garamond", serif;
+    font-family: inherit;
     font-weight: 400;
     font-style: normal;
     font-size: 1.4em;
@@ -92,7 +86,7 @@ body.lang-ja {
   }
 
   h3 {
-    font-family: "EB Garamond", serif;
+    font-family: inherit;
     font-weight: 400;
     font-style: normal;
     font-size: 1.2em;
