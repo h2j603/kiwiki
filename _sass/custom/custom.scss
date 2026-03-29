@@ -47,12 +47,15 @@ body {
 
 body.lang-ko {
   font-family: "Noto Serif KR", "EB Garamond", Georgia, serif;
+  .main-content h1, .main-content h2, .main-content h3 {
+    font-family: "Noto Serif KR", "EB Garamond", serif;
+  }
 }
 
 body.lang-ja {
   font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
   .main-content h1, .main-content h2, .main-content h3 {
-    font-family: "Bebas Neue", "Noto Sans JP", sans-serif;
+    font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
   }
 }
 
