@@ -470,6 +470,9 @@ html { scroll-behavior: smooth; }
   .main-content table {
     font-size: 12px;
     th, td { padding: 6px 8px; }
+    // Hide Type + Vector columns on mobile
+    th:nth-child(3), td:nth-child(3),
+    th:nth-child(4), td:nth-child(4) { display: none; }
   }
 
   .pill { font-size: 10px; padding: 1px 6px; }
