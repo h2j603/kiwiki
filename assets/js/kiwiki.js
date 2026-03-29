@@ -783,23 +783,6 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   } catch(e){}
 
-  // 6. Scroll blur — fast scrolling briefly blurs content
-  try {
-    var scrollTimer = null;
-    var mc = document.querySelector('.main-content');
-    if (mc) {
-      window.addEventListener('scroll', function(){
-        mc.style.transition = 'filter 0.1s';
-        mc.style.filter = 'blur(1.5px)';
-        clearTimeout(scrollTimer);
-        scrollTimer = setTimeout(function(){
-          mc.style.transition = 'filter 0.4s';
-          mc.style.filter = '';
-        }, 100);
-      });
-    }
-  } catch(e){}
-
   // 10. Linger darkness — after 60s the page edges slowly darken
   try {
     setTimeout(function(){
