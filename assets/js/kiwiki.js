@@ -783,6 +783,31 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   } catch(e){}
 
+  // Text overlap — ghostly kiwi text layers over content
+  try {
+    var mc = document.querySelector('.main-content');
+    if (mc) {
+      mc.style.position = 'relative';
+      var overlayTexts = [
+        {text:'kiwi', size:'8em', top:'5%', left:'-5%', rotate:'-3deg'},
+        {text:'WKV-0.ALL-000', size:'2.5em', top:'18%', left:'30%', rotate:'1deg'},
+        {text:'키위', size:'6em', top:'35%', left:'60%', rotate:'-1deg'},
+        {text:'KIWI', size:'10em', top:'55%', left:'-8%', rotate:'2deg'},
+        {text:'キウイ', size:'5em', top:'70%', left:'40%', rotate:'-2deg'},
+        {text:'contaminated', size:'2em', top:'85%', left:'10%', rotate:'0.5deg'},
+        {text:'오염', size:'4em', top:'45%', left:'5%', rotate:'-1.5deg'},
+        {text:'kiwi kiwi kiwi', size:'1.8em', top:'25%', left:'50%', rotate:'3deg'},
+      ];
+      for (var oi = 0; oi < overlayTexts.length; oi++) {
+        var o = overlayTexts[oi];
+        var el = document.createElement('div');
+        el.textContent = o.text;
+        el.style.cssText = 'position:absolute;top:'+o.top+';left:'+o.left+';font-size:'+o.size+';font-weight:700;color:#111;opacity:0.04;pointer-events:none;z-index:1;white-space:nowrap;text-transform:uppercase;letter-spacing:2px;transform:rotate('+o.rotate+');user-select:none;';
+        mc.appendChild(el);
+      }
+    }
+  } catch(e){}
+
   // 10. Linger darkness — after 60s the page edges slowly darken
   try {
     setTimeout(function(){
