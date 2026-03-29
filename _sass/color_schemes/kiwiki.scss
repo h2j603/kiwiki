@@ -1,0 +1,27 @@
+// Kiwiki color scheme — override all theme grays with pure black (#111)
+
+// Kill all gray palette variables
+$grey-dk-000: #111 !default;
+$grey-dk-100: #111 !default;
+$grey-dk-200: #111 !default;
+$grey-dk-250: #111 !default;
+$grey-dk-300: #111 !default;
+$grey-lt-000: lawngreen !default;
+$grey-lt-100: lawngreen !default;
+$grey-lt-200: lawngreen !default;
+$grey-lt-300: lawngreen !default;
+
+// Override all theme color assignments that use grays
+$body-background-color: lawngreen;
+$body-heading-color: #111;
+$body-text-color: #111;
+$link-color: #111;
+$nav-child-link-color: #111;
+$sidebar-color: lawngreen;
+$base-button-color: lawngreen;
+$btn-primary-color: #111;
+$code-background-color: lawngreen;
+$feedback-color: lawngreen;
+$table-background-color: lawngreen;
+$search-background-color: lawngreen;
+$search-result-preview-color: #111;
