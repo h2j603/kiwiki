@@ -693,7 +693,7 @@ document.addEventListener('DOMContentLoaded', function(){
         img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
         img.alt = '';
         var size = 40 + Math.floor(Math.random() * 80);
-        img.style.cssText = 'max-width:'+size+'px;height:auto;display:inline-block;vertical-align:middle;margin:0 4px;';
+        img.style.cssText = 'max-width:'+size+'px;height:auto;display:inline-block;vertical-align:middle;margin:0 4px;filter:grayscale(1) contrast(3) brightness(0.8);mix-blend-mode:multiply;';
         img.onerror = function() { this.style.display='none'; };
         if (el.childNodes.length > 0) {
           el.insertBefore(img, el.childNodes[Math.floor(Math.random() * el.childNodes.length)]);
@@ -708,7 +708,7 @@ document.addEventListener('DOMContentLoaded', function(){
       img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
       img.alt = '';
       var size = 50 + Math.floor(Math.random() * 100);
-      img.style.cssText = 'position:fixed;max-width:'+size+'px;height:auto;pointer-events:none;z-index:9996;left:'+Math.random()*90+'%;top:'+Math.random()*90+'%;opacity:0.7;transition:opacity 5s;';
+      img.style.cssText = 'position:fixed;max-width:'+size+'px;height:auto;pointer-events:none;z-index:9996;left:'+Math.random()*90+'%;top:'+Math.random()*90+'%;opacity:0.7;transition:opacity 5s;filter:grayscale(1) contrast(3) brightness(0.8);mix-blend-mode:multiply;';
       img.onerror = function() { this.remove(); };
       document.body.appendChild(img);
       setTimeout(function(){ img.style.opacity='0'; }, 4000);
