@@ -804,7 +804,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var o = overlayTexts[oi];
         var el = document.createElement('div');
         el.textContent = o.text;
-        el.style.cssText = 'position:absolute;top:'+o.top+';left:'+o.left+';font-size:'+o.size+';font-weight:700;color:#111;opacity:0.04;pointer-events:none;z-index:1;white-space:nowrap;text-transform:uppercase;letter-spacing:2px;transform:rotate('+o.rotate+');user-select:none;';
+        el.style.cssText = 'position:absolute;top:'+o.top+';left:'+o.left+';font-size:'+o.size+';font-family:"Dokdo",cursive;font-weight:400;color:#111;opacity:0.04;pointer-events:none;z-index:1;white-space:nowrap;letter-spacing:2px;transform:rotate('+o.rotate+');user-select:none;';
         mc.appendChild(el);
       }
     }
