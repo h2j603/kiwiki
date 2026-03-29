@@ -38,30 +38,6 @@
 // --- DOM READY ---
 document.addEventListener('DOMContentLoaded', function(){
 
-  // === AKU Document Classification Label ===
-  try {
-    var lang = window._kLang || 'en';
-    var pill = document.querySelector('.pill-severity-critical, .pill-severity-high, .pill-severity-moderate');
-    if (pill) {
-      var level, labelText;
-      if (document.querySelector('.pill-severity-critical')) {
-        level = 'restricted';
-        labelText = {en:'AKU CLASSIFICATION: RESTRICTED', ko:'AKU 문서등급: 제한', ja:'AKU 文書等級: 制限'};
-      } else if (document.querySelector('.pill-severity-high')) {
-        level = 'classified';
-        labelText = {en:'AKU CLASSIFICATION: CLASSIFIED', ko:'AKU 문서등급: 기밀', ja:'AKU 文書等級: 機密'};
-      } else {
-        level = 'public';
-        labelText = {en:'AKU CLASSIFICATION: PUBLIC', ko:'AKU 문서등급: 공개', ja:'AKU 文書等級: 公開'};
-      }
-      var label = document.createElement('div');
-      label.className = 'aku-classification aku-' + level;
-      label.textContent = labelText[lang] || labelText.en;
-      var mc = document.querySelector('.main-content');
-      if (mc) mc.insertBefore(label, mc.firstChild);
-    }
-  } catch(e){}
-
   // === Active lang button ===
   try {
     var lang = window._kLang || 'en';
