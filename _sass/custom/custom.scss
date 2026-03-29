@@ -127,7 +127,20 @@ body.lang-ja {
 .site-button,
 .site-header,
 .site-nav,
-.nav-list { display: none !important; visibility: hidden !important; pointer-events: none !important; }
+.nav-list {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+#main-header {
+  display: none !important;
+}
 
 .main-content-wrap {
   margin-left: 0 !important;
