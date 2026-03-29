@@ -22,14 +22,15 @@ main { background-color: lawngreen !important; background: lawngreen !important;
 .main-content *, .breadcrumb-nav * { color: #111; }
 
 // Pill exceptions (black bg + lawngreen text)
-.pill-code, .pill-active, .pill-severity-high, .pill-severity-critical { color: lawngreen !important; background: #111 !important; }
+.pill-code, .pill-active { color: lawngreen !important; background: #111 !important; }
+.pill-severity-high, .pill-severity-critical { color: lawngreen !important; background: #e60012 !important; }
 
 // Infobox header
 .main-content > div:first-child table th,
 .main-content > table:first-of-type th { color: lawngreen !important; background: #111 !important; }
 
 // Warning banner
-.warning-banner { color: lawngreen !important; background: #111 !important; }
+.warning-banner { color: lawngreen !important; background: #e60012 !important; }
 
 // Lang toggle active
 .lang-btn.active { color: lawngreen !important; background: #111 !important; }
@@ -51,7 +52,7 @@ body.lang-ko {
 body.lang-ja {
   font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
   .main-content h1, .main-content h2, .main-content h3 {
-    font-family: "Noto Serif KR", "Noto Sans JP", serif;
+    font-family: "Bebas Neue", "Noto Sans JP", sans-serif;
   }
 }
 
@@ -64,32 +65,38 @@ body.lang-ja {
   color: #111;
 
   h1 {
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8em;
+    color: #111;
+    border-bottom: none;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 1.4em;
     color: #111;
     border-bottom: none;
-    margin: 0 0 20px;
-  }
-
-  h2 {
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.1em;
-    color: #111;
-    border-bottom: none;
     margin: 1.5em 0 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 
   h3 {
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #111;
     margin: 1.2em 0 0.4em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
   }
 
   p {
@@ -198,8 +205,11 @@ body.lang-ja {
     background: #111;
     color: lawngreen;
     text-align: center;
-    font-size: 12px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
   }
 
   td:first-child {
@@ -235,17 +245,18 @@ body.lang-ja {
   background: #111;
   color: lawngreen;
   border-color: #111;
-  font-family: "EB Garamond", serif;
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .pill-type, .pill-vector { background: transparent; color: #111; }
 .pill-active { background: #111; color: lawngreen; border-color: #111; }
-.pill-severity-moderate { background: transparent; color: #111; }
-.pill-severity-high { background: #111; color: lawngreen; border-color: #111; }
-.pill-severity-critical { background: #111; color: lawngreen; border-color: #111; font-weight: 700; }
+.pill-severity-moderate { background: transparent; color: #111; border-color: #111; }
+.pill-severity-high { background: #e60012; color: lawngreen; border-color: #e60012; }
+.pill-severity-critical { background: #e60012; color: lawngreen; border-color: #e60012; font-weight: 700; }
 
 // ---- Language toggle ----
 .lang-toggle {
@@ -261,8 +272,10 @@ body.lang-ja {
   padding: 4px 14px;
   font-size: 12px;
   font-weight: 400;
-  font-family: "EB Garamond", serif;
+  font-family: "Bebas Neue", sans-serif;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   background: transparent;
   color: #111;
   cursor: pointer;
@@ -271,13 +284,18 @@ body.lang-ja {
   &.active { background: #111; color: lawngreen; }
 }
 
-// ---- HR ----
+// ---- HR (hazard stripe) ----
 .main-content hr {
-  height: 1px;
-  background: #111 !important;
+  height: 6px;
   border: none !important;
   margin: 1.5em 0;
-  color: #111;
+  background: repeating-linear-gradient(
+    -45deg,
+    #111,
+    #111 4px,
+    lawngreen 4px,
+    lawngreen 8px
+  ) !important;
 }
 
 // ---- Blockquote ----
@@ -292,7 +310,7 @@ body.lang-ja {
 
 // ---- Code ----
 .main-content code {
-  font-family: "EB Garamond", serif;
+  font-family: "Bebas Neue", sans-serif;
   background: transparent;
   border: 1px solid #111;
   padding: 1px 4px;
@@ -336,11 +354,13 @@ body.lang-ja {
 
   .toc-title {
     padding: 10px 14px;
-    font-family: "EB Garamond", serif;
-    font-weight: 600;
-    font-size: 1.1em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
     color: #111;
     border-bottom: 1px solid #111;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 
   .toc-nav {
@@ -387,17 +407,24 @@ html { scroll-behavior: smooth; }
   &:hover { opacity: 1; }
 }
 
-// ---- Warning banner ----
+// ---- Warning banner (NERV style) ----
+@keyframes nervBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
 .warning-banner {
-  background: #111;
+  background: #e60012;
   color: lawngreen;
   border: none;
-  padding: 8px 14px;
-  font-family: "EB Garamond", serif;
-  font-size: 11px;
+  padding: 10px 14px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 14px;
   margin-bottom: 20px;
-  letter-spacing: 1px;
-  &::before { content: "\25a0 "; }
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  animation: nervBlink 1.5s ease-in-out infinite;
+  &::before { content: "\25B6 WARNING — "; }
 }
 
 // ---- Redacted text ----
@@ -417,14 +444,16 @@ html { scroll-behavior: smooth; }
   padding-top: 12px;
   font-size: 10px;
   color: #111;
-  font-family: "EB Garamond", serif;
-  letter-spacing: 0.5px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 // ---- Stats bar ----
 .stats-bar {
-  font-family: "EB Garamond", serif;
-  font-size: 13px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
   color: #111;
   margin-bottom: 20px;
   opacity: 1;
