@@ -23,14 +23,8 @@
     if (stored) {
       infected = stored.split(',');
     } else {
-      // 1~3 random strains
-      var count = 1 + Math.floor(Math.random() * 3);
-      var pool = vs.slice();
-      infected = [];
-      for (var i = 0; i < count && pool.length > 0; i++) {
-        var idx = Math.floor(Math.random() * pool.length);
-        infected.push(pool.splice(idx, 1)[0]);
-      }
+      // TEST: kiwizero 100%
+      infected = ['kiwizero'];
       sessionStorage.setItem('kiwiki-viruses', infected.join(','));
     }
     for (var j = 0; j < infected.length; j++) {
@@ -101,50 +95,65 @@ document.addEventListener('DOMContentLoaded', function(){
       var names = {kiwiecho:'KiwiEcho',kiwimirror:'KiwiMirror',kiwirot:'KiwiRot',kiwiscroll:'KiwiScroll',kiwimoss:'KiwiMoss',kiwhisper:'KiWhisper',kiwispot:'KiwiSpot',kiwitab:'KiwiTab',kiwibloom:'KiwiBloom',kiwisyntax:'KiwiSyntax',kiwivein:'KiwiVein',kiwiforgot:'KiwiForgot',kiwighost:'KiwiGhost',kiwiparadox:'KiwiParadox',kiwibleed:'KiwiBleed',kiwiclip:'KiwiClip',kiwidrift:'KiwiDrift',kiwitouch:'KiwiTouch',kiwivoice:'KiwiVoice',kiwiafter:'KiwiAfter',kiwidream:'KiwiDream',kiwieater:'KiwiEater',kiwitime:'KiwiTime',kiwicut:'KiwiCut',kiwirust:'KiwiRust',kiwiroot:'KiwiRoot',kiwiroom:'KiwiRoom',kiwispace:'KiwiSpace',kiwiloop:'KiwiLoop',kiwishade:'KiwiShade',kiwihowl:'KiwiHowl',kiwivoid:'KiwiVoid',kiwizero:'KiwiZero'};
       var codes = {kiwiecho:'WKV-C.SE-001',kiwimirror:'WKV-S.SN-001',kiwirot:'WKV-S.EM-002',kiwiscroll:'WKV-C.SN-002',kiwimoss:'WKV-E.DA-001',kiwhisper:'WKV-L.MS-001',kiwispot:'WKV-S.SE-004',kiwitab:'WKV-L.SN-003',kiwibloom:'WKV-E.SN-003',kiwisyntax:'WKV-L.DA-002',kiwivein:'WKV-E.MS-002',kiwiforgot:'WKV-C.EM-003',kiwighost:'WKV-L.SE-005',kiwiparadox:'WKV-L.DA-006',kiwibleed:'WKV-L.SN-007',kiwiclip:'WKV-L.MS-008',kiwidrift:'WKV-S.DA-005',kiwitouch:'WKV-S.SN-006',kiwivoice:'WKV-S.EM-007',kiwiafter:'WKV-S.SE-008',kiwidream:'WKV-C.SN-005',kiwieater:'WKV-C.DA-006',kiwitime:'WKV-C.SE-007',kiwicut:'WKV-C.MS-008',kiwirust:'WKV-E.SE-005',kiwiroot:'WKV-E.DA-006',kiwiroom:'WKV-E.SN-007',kiwispace:'WKV-E.MS-008',kiwiloop:'WKV-C.MS-004',kiwishade:'WKV-L.EM-004',kiwihowl:'WKV-S.MS-003',kiwivoid:'WKV-E.EM-004',kiwizero:'WKV-0.ALL-000'};
 
-      // Individual splash per strain
-      var splashes = [];
-      for (var si = 0; si < infected.length; si++) {
-        var vid = infected[si];
-        var splash = document.createElement('div');
-        splash.className = 'infection-splash';
-        splash.style.top = (8 + Math.random() * 55) + '%';
-        splash.style.left = (3 + Math.random() * 65) + '%';
-        var title = infected.length > 1 ? 'CO-INFECTION ' + (si+1) + '/' + infected.length : 'EXPOSURE CONFIRMED';
-        splash.innerHTML = '<div class="infection-splash-text">' + title + '</div><div class="infection-splash-name">' + (names[vid]||vid) + '</div><div class="infection-splash-code">' + (codes[vid]||'') + '</div>';
-        // Stagger appearance
-        splash.style.animationDelay = (0.3 + si * 0.5) + 's';
-        document.body.appendChild(splash);
-        splashes.push(splash);
-      }
+      // === GLITCH TRANSITION INFECTION NOTICE ===
+      // Phase 1: Full-screen glitch overlay (0.8s)
+      var overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:#111;z-index:99999;opacity:0;transition:opacity 0.15s;pointer-events:none;';
+      document.body.appendChild(overlay);
 
-      // Stage 2: After 4s, shrink to bottom bar (stack them)
-      setTimeout(function(){
-        for (var si2 = 0; si2 < splashes.length; si2++) {
-          var sp = splashes[si2];
-          sp.style.transition = 'all 0.8s ease';
-          sp.style.position = 'fixed';
-          sp.style.top = 'auto';
-          sp.style.bottom = (si2 * 22) + 'px';
-          sp.style.left = '0';
-          sp.style.right = '0';
-          sp.style.padding = '3px 14px';
-          sp.style.fontSize = '10px';
-          sp.style.width = '100%';
-          var vid2 = infected[si2];
-          sp.innerHTML = '\u25a0 ' + (codes[vid2]||'') + ' \u2014 ' + (names[vid2]||vid2);
-        }
-      }, 4000);
+      // Rapid flicker sequence
+      var flickerCount = 0;
+      var flickerInterval = setInterval(function(){
+        flickerCount++;
+        overlay.style.opacity = flickerCount % 2 === 0 ? '0' : '0.95';
+        if (flickerCount > 6) {
+          clearInterval(flickerInterval);
+          overlay.style.opacity = '1';
 
-      // Stage 3: Fade out
-      setTimeout(function(){
-        for (var si3 = 0; si3 < splashes.length; si3++) {
-          splashes[si3].style.transition = 'opacity 1s';
-          splashes[si3].style.opacity = '0';
+          // Phase 2: Show virus names on black screen (per strain)
+          overlay.innerHTML = '';
+          for (var si = 0; si < infected.length; si++) {
+            var vid = infected[si];
+            var line = document.createElement('div');
+            line.style.cssText = 'color:lawngreen;font-family:"t26-carbon",monospace;font-style:italic;text-align:center;margin:4px 0;opacity:0;transition:opacity 0.3s;';
+            line.style.transitionDelay = (si * 0.3) + 's';
+            if (infected.length > 1) {
+              line.innerHTML = '<span style="font-size:8px;letter-spacing:4px;display:block;color:rgba(124,252,0,0.4);">STRAIN ' + (si+1) + '/' + infected.length + '</span><span style="font-size:20px;">' + (names[vid]||vid) + '</span><span style="font-size:9px;display:block;color:rgba(124,252,0,0.3);letter-spacing:2px;">' + (codes[vid]||'') + '</span>';
+            } else {
+              line.innerHTML = '<span style="font-size:20px;">' + (names[vid]||vid) + '</span><span style="font-size:9px;display:block;color:rgba(124,252,0,0.3);letter-spacing:2px;margin-top:4px;">' + (codes[vid]||'') + '</span>';
+            }
+            overlay.appendChild(line);
+          }
+          // Center content
+          overlay.style.display = 'flex';
+          overlay.style.flexDirection = 'column';
+          overlay.style.alignItems = 'center';
+          overlay.style.justifyContent = 'center';
+          overlay.style.gap = '16px';
+
+          // Fade in strain names
+          setTimeout(function(){
+            var lines = overlay.children;
+            for (var li = 0; li < lines.length; li++) lines[li].style.opacity = '1';
+          }, 100);
+
+          // Phase 3: Glitch out (after 2s)
+          setTimeout(function(){
+            // Rapid flicker removal
+            var exitFlicker = 0;
+            var exitInterval = setInterval(function(){
+              exitFlicker++;
+              overlay.style.opacity = exitFlicker % 2 === 0 ? '1' : '0';
+              if (exitFlicker > 4) {
+                clearInterval(exitInterval);
+                overlay.style.transition = 'opacity 0.5s';
+                overlay.style.opacity = '0';
+                setTimeout(function(){ overlay.remove(); }, 600);
+              }
+            }, 80);
+          }, 2000);
         }
-      }, 9000);
-      setTimeout(function(){
-        for (var si4 = 0; si4 < splashes.length; si4++) splashes[si4].remove();
-      }, 10500);
+      }, 80);
     }
   } catch(e){}
 
@@ -221,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var pos=Math.floor(Math.random()*t.length);
       var corrupted=t.substring(0,pos)+corruptChars[Math.floor(Math.random()*corruptChars.length)]+t.substring(pos+1);
       p.textContent=corrupted;
-      p.style.color='rgba(0,0,0,'+(0.7+Math.random()*0.3)+')';
+      p.style.color='#111';
     },2000);
   } catch(e){} }
 
@@ -275,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function(){
     setInterval(function(){
       for (var bi = 0; bi < 3; bi++) {
         var bloom = document.createElement('div');
-        bloom.style.cssText = 'position:fixed;border-radius:50%;background:radial-gradient(circle,rgba(58,90,28,0.08),rgba(0,0,0,0.1),transparent 70%);pointer-events:none;z-index:9997;width:10px;height:10px;left:' + Math.random()*100 + '%;top:' + Math.random()*100 + '%;transition:all 8s;';
+        bloom.style.cssText = 'position:fixed;border-radius:50%;background:radial-gradient(circle,#111,#111,transparent 70%);pointer-events:none;z-index:9997;width:10px;height:10px;left:' + Math.random()*100 + '%;top:' + Math.random()*100 + '%;transition:all 8s;';
         document.body.appendChild(bloom);
         setTimeout(function(b){ return function(){
           var size = 60 + Math.random() * 150;
@@ -289,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var ps = document.querySelectorAll('.main-content p');
       var p = ps[Math.floor(Math.random() * ps.length)];
       if (p) {
-        p.style.background = 'linear-gradient(90deg, transparent, rgba(0,0,0,0.1) ' + Math.random()*50 + '%, transparent)';
+        p.style.background = 'linear-gradient(90deg, transparent, #111 ' + Math.random()*50 + '%, transparent)';
       }
     }, 2000);
     // Phase 3: hr lines thicken and turn green
@@ -298,7 +307,7 @@ document.addEventListener('DOMContentLoaded', function(){
       for (var hi = 0; hi < hrs.length; hi++) {
         hrs[hi].style.transition = 'all 3s';
         hrs[hi].style.height = (2 + Math.random() * 4) + 'px';
-        hrs[hi].style.background = 'rgba(58,90,28,0.3)';
+        hrs[hi].style.background = '#111';
       }
     }, 5000);
   } catch(e){} }
@@ -310,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var ps=document.querySelectorAll('.main-content p');
       if(idx<ps.length&&ps[idx].textContent.length>10){
         var t=ps[idx].textContent;
-        ps[idx].innerHTML='<span style="font-family:t26-carbon,monospace;font-size:0.85em;color:rgba(0,0,0,0.8);">if ('+t.substring(0,25)+') { return undefined; }</span>';
+        ps[idx].innerHTML='<span style="font-family:t26-carbon,monospace;font-size:0.85em;color:#111;">if ('+t.substring(0,25)+') { return undefined; }</span>';
       }
       idx++;
     },4000);
@@ -323,7 +332,7 @@ document.addEventListener('DOMContentLoaded', function(){
       if(veinCount>40)return;veinCount++;
       var vn=document.createElement('div');
       var h=Math.random()>0.5;
-      vn.style.cssText='position:fixed;background:rgba(0,0,0,'+(0.02+Math.random()*0.04)+');z-index:9997;pointer-events:none;'+(h?'height:1px;width:'+Math.random()*40+'%;left:'+Math.random()*80+'%;top:'+Math.random()*100+'%':'width:1px;height:'+Math.random()*30+'%;left:'+Math.random()*100+'%;top:'+Math.random()*80+'%')+';';
+      vn.style.cssText='position:fixed;background:#111;opacity:'+(0.02+Math.random()*0.04)+');z-index:9997;pointer-events:none;'+(h?'height:1px;width:'+Math.random()*40+'%;left:'+Math.random()*80+'%;top:'+Math.random()*100+'%':'width:1px;height:'+Math.random()*30+'%;left:'+Math.random()*100+'%;top:'+Math.random()*80+'%')+';';
       document.body.appendChild(vn);
     },2000);
   } catch(e){} }
@@ -377,10 +386,10 @@ document.addEventListener('DOMContentLoaded', function(){
         var p = ps[Math.floor(Math.random() * ps.length)];
         if (p) {
           var spread = bleedIntensity * 2;
-          p.style.textShadow = spread + 'px 0 ' + (spread*2) + 'px rgba(0,0,0,0.3), ' +
-            (-spread) + 'px 0 ' + (spread*2) + 'px rgba(0,0,0,0.2), ' +
+          p.style.textShadow = spread + 'px 0 ' + (spread*2) + 'px #111, ' +
+            (-spread) + 'px 0 ' + (spread*2) + 'px #111, ' +
             '0 ' + spread + 'px ' + spread + 'px #111';
-          p.style.color = 'rgba(0,0,0,' + (1 - bleedIntensity * 0.03) + ')';
+          p.style.color = '#111';
         }
       }
     }, 1500);
@@ -395,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function(){
       var leakText = '';
       for (var j = 0; j < 3; j++) leakText += chars[Math.floor(Math.random() * chars.length)];
       leak.textContent = leakText;
-      leak.style.cssText = 'position:absolute;color:rgba(0,0,0,0.8);font-size:' + (10 + Math.random() * 14) + 'px;transform:rotate(' + (Math.random() * 30 - 15) + 'deg);pointer-events:none;margin-left:' + (Math.random() * 40 - 20) + 'px;margin-top:' + (Math.random() * 20 - 10) + 'px;';
+      leak.style.cssText = 'position:absolute;color:#111;font-size:' + (10 + Math.random() * 14) + 'px;transform:rotate(' + (Math.random() * 30 - 15) + 'deg);pointer-events:none;margin-left:' + (Math.random() * 40 - 20) + 'px;margin-top:' + (Math.random() * 20 - 10) + 'px;';
       p.style.position = 'relative';
       p.appendChild(leak);
     }, 2000);
@@ -405,7 +414,7 @@ document.addEventListener('DOMContentLoaded', function(){
       if (stainCount > 15) return;
       stainCount++;
       var stain = document.createElement('div');
-      stain.style.cssText = 'position:fixed;width:' + (30 + Math.random() * 80) + 'px;height:' + (30 + Math.random() * 80) + 'px;border-radius:50%;background:radial-gradient(ellipse,rgba(0,0,0,0.04),transparent 70%);pointer-events:none;z-index:9996;left:' + Math.random() * 100 + '%;top:' + Math.random() * 100 + '%;';
+      stain.style.cssText = 'position:fixed;width:' + (30 + Math.random() * 80) + 'px;height:' + (30 + Math.random() * 80) + 'px;border-radius:50%;background:radial-gradient(ellipse,#111,transparent 70%);pointer-events:none;z-index:9996;left:' + Math.random() * 100 + '%;top:' + Math.random() * 100 + '%;';
       document.body.appendChild(stain);
     }, 3000);
   } catch(e){} }
@@ -440,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function(){
   if (v === 'kiwitouch') { try {
     function ripple(x,y){
       var r=document.createElement('div');
-      r.style.cssText='position:fixed;width:4px;height:4px;border-radius:50%;border:1px solid rgba(0,0,0,0.2);pointer-events:none;z-index:9998;left:'+x+'px;top:'+y+'px;transition:all 2s;';
+      r.style.cssText='position:fixed;width:4px;height:4px;border-radius:50%;border:1px solid #111;pointer-events:none;z-index:9998;left:'+x+'px;top:'+y+'px;transition:all 2s;';
       document.body.appendChild(r);
       setTimeout(function(){r.style.width='80px';r.style.height='80px';r.style.left=(x-40)+'px';r.style.top=(y-40)+'px';r.style.opacity='0';},50);
       setTimeout(function(){r.remove();},2500);
@@ -468,7 +477,7 @@ document.addEventListener('DOMContentLoaded', function(){
     window.addEventListener('scroll',function(){
       if(Date.now()-ac<800)return;ac=Date.now();
       var a=document.createElement('div');
-      a.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.015);pointer-events:none;z-index:9997;transition:opacity 3s;';
+      a.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:#111;pointer-events:none;z-index:9997;transition:opacity 3s;';
       document.body.appendChild(a);
       setTimeout(function(){a.style.opacity='0';},500);
       setTimeout(function(){a.remove();},3500);
@@ -492,7 +501,7 @@ document.addEventListener('DOMContentLoaded', function(){
         t.setAttribute('data-was',t.textContent);
         t.textContent='\u2588\u2588\u2588';
         t.style.textDecoration='none';
-        t.style.color='#333';
+        t.style.color='#111';
       }
     },4000);
   } catch(e){} }
@@ -565,7 +574,7 @@ document.addEventListener('DOMContentLoaded', function(){
     setInterval(function(){
       oxidation = Math.min(oxidation + 2, 30);
       var mc = document.querySelector('.main-content');
-      if (mc) mc.style.borderRight = oxidation + 'px solid rgba(139,101,20,0.05)';
+      if (mc) mc.style.borderRight = oxidation + 'px solid #111';
     }, 4000);
   } catch(e){} }
 
@@ -575,7 +584,7 @@ document.addEventListener('DOMContentLoaded', function(){
     setInterval(function(){
       if(rc>25)return;rc++;
       var l=document.createElement('div');
-      l.style.cssText='position:fixed;background:rgba(139,101,20,0.06);z-index:9997;pointer-events:none;width:1px;height:'+Math.random()*20+'%;left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;transform:rotate('+(Math.random()*60-30)+'deg);transition:height 8s;';
+      l.style.cssText='position:fixed;background:#111;z-index:9997;pointer-events:none;width:1px;height:'+Math.random()*20+'%;left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;transform:rotate('+(Math.random()*60-30)+'deg);transition:height 8s;';
       document.body.appendChild(l);
       setTimeout(function(){l.style.height=Math.random()*40+'%';},100);
     },3000);
