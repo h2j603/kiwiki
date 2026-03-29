@@ -15,7 +15,7 @@ tags: ["감각형", "SNS", "시각", "거울", "sensory", "social media", "visua
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">✳</a>
+<a href="/kiwiki/" class="home-link"><span class="en">Web Kiwi Virus Wiki</span><span class="ko">웹키위바이러스 위키</span><span class="ja">ウェブキウイウイルス ウィキ</span></a>
 
 
 <div class="ko" markdown="1">
