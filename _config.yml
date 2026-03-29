@@ -22,8 +22,7 @@ exclude:
   - content/viruses/_template.md
 
 search_enabled: false
-heading_anchor: true
-heading_anchor_style: github
+heading_anchor: false
 nav_sort: case_insensitive
 
 # No footer

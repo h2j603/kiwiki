@@ -382,13 +382,10 @@ body.lang-ja {
   color: #111;
 }
 
-// ---- Anchor ----
+// ---- Anchor (hidden) ----
 .main-content .anchor-heading {
-  color: #111;
-  opacity: 0;
-  transition: opacity 0.1s;
+  display: none !important;
 }
-.main-content h2:hover .anchor-heading { opacity: 1; }
 
 // ---- Float clear ----
 .main-content h2 { clear: both; }
