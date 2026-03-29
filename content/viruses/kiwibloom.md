@@ -14,7 +14,7 @@ tags: ["환경형", "SNS", "정전기", "꽃", "environmental", "social media", 
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">✳</a>
+<a href="/kiwiki/" class="home-link"><span class="en">Web Kiwi Virus Wiki</span><span class="ko">웹키위바이러스 위키</span><span class="ja">ウェブキウイウイルス ウィキ</span></a>
 
 
 <div class="ko" markdown="1">

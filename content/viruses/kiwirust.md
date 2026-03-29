@@ -14,7 +14,7 @@ tags: ["환경형", "검색엔진", "부식", "금속", "environmental", "search
 
 {% include lang_toggle.html %}
 
-<a href="/kiwiki/" class="home-link">✳</a>
+<a href="/kiwiki/" class="home-link"><span class="en">Web Kiwi Virus Wiki</span><span class="ko">웹키위바이러스 위키</span><span class="ja">ウェブキウイウイルス ウィキ</span></a>
 
 
 <div class="ko" markdown="1">
