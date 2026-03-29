@@ -762,4 +762,55 @@ document.addEventListener('DOMContentLoaded', function(){
 
   } // end for each virus
 
+  // === DARK EFFECTS (non-virus, always active) ===
+
+  // 4. Deleted section traces — insert redacted placeholder between random sections
+  try {
+    var lang = window._kLang || 'en';
+    var hrs = document.querySelectorAll('.main-content hr');
+    if (hrs.length > 3) {
+      var idx = 1 + Math.floor(Math.random() * (hrs.length - 2));
+      var hr = hrs[idx];
+      var msgs = {
+        en: '[This section has been removed upon request — Requester: UNKNOWN]',
+        ko: '[이 섹션은 요청에 의해 삭제되었습니다 — 요청자: 불명]',
+        ja: '[このセクションは要請により削除されました — 要請者: 不明]'
+      };
+      var del = document.createElement('div');
+      del.className = 'aku-deleted-section';
+      del.textContent = msgs[lang] || msgs.en;
+      hr.parentNode.insertBefore(del, hr.nextSibling);
+    }
+  } catch(e){}
+
+  // 6. Scroll blur — fast scrolling briefly blurs content
+  try {
+    var scrollTimer = null;
+    var mc = document.querySelector('.main-content');
+    if (mc) {
+      window.addEventListener('scroll', function(){
+        mc.style.transition = 'filter 0.1s';
+        mc.style.filter = 'blur(1.5px)';
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(function(){
+          mc.style.transition = 'filter 0.4s';
+          mc.style.filter = '';
+        }, 100);
+      });
+    }
+  } catch(e){}
+
+  // 10. Linger darkness — after 60s the page edges slowly darken
+  try {
+    setTimeout(function(){
+      var vignette = document.createElement('div');
+      vignette.className = 'aku-vignette';
+      document.body.appendChild(vignette);
+      // Fade in over 10s
+      requestAnimationFrame(function(){
+        vignette.style.opacity = '1';
+      });
+    }, 60000);
+  } catch(e){}
+
 });
