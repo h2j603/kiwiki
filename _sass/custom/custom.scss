@@ -231,7 +231,7 @@ body.lang-ja {
     background: #111;
     color: lawngreen;
     text-align: center;
-    font-family: "EB Garamond", serif;
+    font-family: inherit;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -348,7 +348,7 @@ body.lang-ja {
 
 // ---- Code ----
 .main-content code {
-  font-family: "EB Garamond", serif;
+  font-family: inherit;
   background: transparent;
   border: 1px solid #111;
   padding: 1px 4px;
@@ -392,7 +392,7 @@ body.lang-ja {
 
   .toc-title {
     padding: 10px 14px;
-    font-family: "EB Garamond", serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 1.2em;
     color: #111;
@@ -456,7 +456,7 @@ html { scroll-behavior: smooth; }
   color: lawngreen;
   border: none;
   padding: 10px 14px;
-  font-family: "EB Garamond", serif;
+  font-family: inherit;
   font-size: 14px;
   margin-bottom: 20px;
   letter-spacing: 3px;
@@ -482,14 +482,14 @@ html { scroll-behavior: smooth; }
   padding-top: 12px;
   font-size: 10px;
   color: #111;
-  font-family: "EB Garamond", serif;
+  font-family: inherit;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 // ---- Stats bar ----
 .stats-bar {
-  font-family: "EB Garamond", serif;
+  font-family: inherit;
   font-size: 14px;
   letter-spacing: 1px;
   color: #111;
