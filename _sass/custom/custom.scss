@@ -4,9 +4,25 @@
 
 // === NUCLEAR: force lawngreen + #111 everywhere ===
 * { box-shadow: none !important; text-shadow: none !important; border-color: #111 !important; }
-html, body, .main, .main-content-wrap, .side-bar, #main-header, .site-header {
+
+// Force lawngreen bg on EVERY possible container
+html, body,
+.main, .main-content, .main-content-wrap,
+.side-bar, .site-nav, .nav-list,
+.main-header, #main-header, .site-header,
+.search, .search-overlay, .search-results-wrap,
+.breadcrumb-nav, .children-nav,
+#top, [class*="nav"], [class*="header"] {
   background: lawngreen !important;
   background-color: lawngreen !important;
+  background-image: none !important;
+}
+
+// Prevent any element from being a full-screen dark overlay
+div[style*="background:#111"][style*="position:fixed"],
+div[style*="background: #111"][style*="position:fixed"],
+div[style*="background:black"][style*="position:fixed"] {
+  background: transparent !important;
 }
 
 // Kill ALL theme gray backgrounds

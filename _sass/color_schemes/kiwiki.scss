@@ -1,5 +1,7 @@
 // Kiwiki color scheme — override all theme grays with pure black (#111)
 
+$color-scheme: light;
+
 // Kill all gray palette variables
 $grey-dk-000: #111 !default;
 $grey-dk-100: #111 !default;
