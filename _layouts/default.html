@@ -20,6 +20,11 @@ layout: table_wrappers
     {% include components/header.html %}
     <div class="main-content-wrap">
       {% include components/breadcrumbs.html %}
+      <div class="aku-erosion-notice">
+        <span class="en">&#9888; THIS WIKI IS UNDER ACTIVE EROSION BY KIWIZERO (WKV-0.ALL-000). DATA INTEGRITY CANNOT BE GUARANTEED.</span>
+        <span class="ko">&#9888; 이 위키는 현재 키위제로(WKV-0.ALL-000)에 의해 침식 중입니다. 데이터 무결성을 보장할 수 없습니다.</span>
+        <span class="ja">&#9888; このウィキは現在キウイゼロ（WKV-0.ALL-000）による侵食を受けています。データの整合性は保証できません。</span>
+      </div>
       <div id="main-content" class="main-content">
         <main>
           {% if site.heading_anchors != false %}
@@ -38,6 +43,12 @@ layout: table_wrappers
     {% if site.search_enabled != false %}
       {% include components/search_footer.html %}
     {% endif %}
+  </div>
+
+  <div class="aku-footer">
+    <span class="en">Maintained by Anti Kiwi Union (AKU) &mdash; Documenting, identifying, and containing web kiwi virus strains.</span>
+    <span class="ko">Anti Kiwi Union (AKU) 운영 &mdash; 웹키위바이러스의 문서화, 식별, 확산 억제를 위한 기록.</span>
+    <span class="ja">Anti Kiwi Union (AKU) 管理 &mdash; ウェブキウイウイルスの文書化・識別・封じ込めのための記録。</span>
   </div>
 
   {% if site.mermaid %}
