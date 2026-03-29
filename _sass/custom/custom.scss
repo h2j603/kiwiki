@@ -469,6 +469,18 @@ html { scroll-behavior: smooth; }
 }
 
 
+// ---- Warning banner ----
+.warning-banner {
+  background: #111;
+  color: lawngreen;
+  padding: 8px 14px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 // ---- Redacted text ----
 .redacted {
   background: #111;
