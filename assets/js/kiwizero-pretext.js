@@ -2,6 +2,9 @@
 // Enhances existing KiwiZero Phase 2 (multiply image injection)
 // by making paragraph text organically flow around the creature images
 // using Pretext's DOM-free text layout at 60fps.
+//
+// Image = DOM <img> with original CSS filter + mix-blend-mode:multiply
+// Text  = transparent <canvas> rendered by Pretext
 
 import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/npm/@chenglou/pretext/+esm';
 
@@ -40,14 +43,12 @@ import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/np
     function infectWithReflow() {
       if (count >= MAX) return;
 
-      // Wait until at least one creature image is loaded
       var ready = creatures.filter(function(i) { return i.complete && i.naturalWidth > 0; });
       if (!ready.length) return;
 
       var ps = document.querySelectorAll('.main-content p');
       if (ps.length < 3) return;
 
-      // Find an uninfected paragraph with enough text
       var p = null;
       for (var i = 0; i < 20; i++) {
         var c = ps[Math.floor(Math.random() * ps.length)];
@@ -64,19 +65,18 @@ import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/np
       var W = p.offsetWidth;
       if (W < 150) return;
 
-      // Pretext: prepare text for layout (~0.04ms)
       var prepared = prepareWithSegments(text, font);
 
-      // Pick a creature and placement side
+      // Pick creature and placement
       var creature = ready[Math.floor(Math.random() * ready.length)];
       var side = Math.random() > 0.5 ? 'right' : 'left';
-      var imgMaxW = 55 + Math.floor(Math.random() * 55); // 55–110px
+      var imgMaxW = 55 + Math.floor(Math.random() * 55);
       var imgAspect = creature.naturalHeight / creature.naturalWidth;
       var imgMaxH = imgMaxW * imgAspect;
-      var imgPad = 10; // gap between image and text
-      var imgY = 0; // start from top of paragraph
+      var imgPad = 10;
+      var imgY = 0;
 
-      // Compute base unobstructed height
+      // Compute base height
       var cur = { segmentIndex: 0, graphemeIndex: 0 };
       var baseH = 0;
       while (true) {
@@ -87,35 +87,57 @@ import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/np
       }
       baseH = Math.max(baseH, lh * 2);
 
-      // Create canvas to replace paragraph
+      // --- Build DOM structure ---
+      // Wrapper div (position:relative) holds both canvas and image
+      var wrapper = document.createElement('div');
+      wrapper.style.cssText = 'position:relative;width:' + W + 'px;margin:1em 0;';
+
+      // Canvas for text only (transparent)
       var canvas = document.createElement('canvas');
       canvas.width = W * dpr;
       canvas.height = (baseH + lh) * dpr;
-      canvas.style.cssText = 'display:block;width:' + W + 'px;height:' + (baseH + lh) + 'px;margin:1em 0;';
+      canvas.style.cssText = 'display:block;width:' + W + 'px;height:' + (baseH + lh) + 'px;';
       var ctx = canvas.getContext('2d');
+      wrapper.appendChild(canvas);
 
+      // DOM <img> — exact same style as existing Phase 2 in kiwiki.js
+      var domImg = document.createElement('img');
+      domImg.src = creature.src;
+      domImg.alt = '';
+      domImg.style.cssText = 'position:absolute;top:0;'
+        + (side === 'left' ? 'left:0;' : 'right:0;')
+        + 'width:0;height:auto;'
+        + 'filter:grayscale(1) contrast(3) brightness(0.8);'
+        + 'mix-blend-mode:multiply;'
+        + 'pointer-events:none;'
+        + 'transition:none;';
+      domImg.onerror = function() { this.style.display = 'none'; };
+      wrapper.appendChild(domImg);
+
+      // Replace paragraph
       p.style.display = 'none';
-      p.parentNode.insertBefore(canvas, p.nextSibling);
+      p.parentNode.insertBefore(wrapper, p.nextSibling);
 
-      var imgCurW = 0; // current image width, grows over time
+      var imgCurW = 0;
       var frame = 0;
       var growing = true;
 
       function render() {
         frame++;
 
-        // Grow image size smoothly
+        // Grow image
         if (growing) {
           imgCurW = Math.min(imgCurW + 0.6, imgMaxW);
           if (imgCurW >= imgMaxW) growing = false;
         }
 
         var imgCurH = imgCurW * imgAspect;
-        var imgX = side === 'left' ? 0 : W - imgCurW;
         var imgBottom = imgY + imgCurH;
 
-        // --- Pretext layout: variable-width lines flowing around image ---
-        // layoutNextLine runs in ~0.09ms — safe for every frame
+        // Update DOM image size
+        domImg.style.width = imgCurW + 'px';
+
+        // --- Pretext: reflow text around image ---
         cur = { segmentIndex: 0, graphemeIndex: 0 };
         var lines = [];
         var y = 0;
@@ -124,7 +146,6 @@ import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/np
           var maxW = W;
           var xOff = 0;
 
-          // Narrow the line if it overlaps with the creature image
           if (imgCurW > 3 && y + lh > imgY && y < imgBottom) {
             if (side === 'left') {
               xOff = imgCurW + imgPad;
@@ -142,29 +163,16 @@ import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/np
           y += lh;
         }
 
-        // Resize canvas if text reflow changed total height
+        // Resize canvas
         var totalH = Math.max(y + 4, baseH);
         if (Math.abs(canvas.height / dpr - totalH) > 4) {
           canvas.height = totalH * dpr;
           canvas.style.height = totalH + 'px';
         }
 
-        // --- Draw frame ---
+        // Draw text only — no image on canvas
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         ctx.clearRect(0, 0, W, totalH);
-
-        // Draw creature image — grayscale + high contrast
-        // (same filter style as existing Phase 2: grayscale(1) contrast(3) brightness(0.8))
-        // Canvas stays transparent so page background shows through
-        if (imgCurW > 3 && creature.complete) {
-          ctx.save();
-          ctx.filter = 'grayscale(1) contrast(3) brightness(0.8)';
-          ctx.globalAlpha = 0.85;
-          ctx.drawImage(creature, imgX, imgY, imgCurW, imgCurH);
-          ctx.restore();
-        }
-
-        // Draw text lines
         ctx.fillStyle = '#111';
         ctx.font = font;
         ctx.textAlign = 'left';
@@ -174,7 +182,6 @@ import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/np
           ctx.fillText(l.text, l.x, l.y + fontSize + (lh - fontSize) / 2);
         }
 
-        // Continue animating while image is growing, then idle
         if (growing) {
           requestAnimationFrame(render);
         }
@@ -183,7 +190,6 @@ import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/np
       requestAnimationFrame(render);
     }
 
-    // Stagger: first infection after 6s, then every 15s
     setTimeout(infectWithReflow, 6000);
     setInterval(infectWithReflow, 15000);
   }
