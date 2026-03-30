@@ -42,7 +42,6 @@
 /* Infection: no splash box needed — glitch overlay is pure JS */
 @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-2px)} 75%{transform:translateX(2px)} }
 
-/* Pretext infection canvas */
-.virus-kiwizero canvas[data-pretext-canvas] { image-rendering: auto; }
-.main-content p[data-pretext] + canvas { border-left: 2px solid rgba(17,17,17,0.08); }
+/* Pretext reflow canvas — blends into page */
+.main-content p[data-pretext] + canvas { image-rendering: auto; }
 </style>
