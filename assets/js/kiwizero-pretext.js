@@ -151,20 +151,16 @@ import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/np
 
         // --- Draw frame ---
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.clearRect(0, 0, W, totalH);
 
-        // Fill with page background color so multiply compositing works
-        ctx.fillStyle = '#32CD32'; // lawngreen
-        ctx.fillRect(0, 0, W, totalH);
-
-        // Draw creature image — grayscale + high contrast + multiply
+        // Draw creature image — grayscale + high contrast
         // (same filter style as existing Phase 2: grayscale(1) contrast(3) brightness(0.8))
+        // Canvas stays transparent so page background shows through
         if (imgCurW > 3 && creature.complete) {
           ctx.save();
-          ctx.globalCompositeOperation = 'multiply';
           ctx.filter = 'grayscale(1) contrast(3) brightness(0.8)';
+          ctx.globalAlpha = 0.85;
           ctx.drawImage(creature, imgX, imgY, imgCurW, imgCurH);
-          ctx.filter = 'none';
-          ctx.globalCompositeOperation = 'source-over';
           ctx.restore();
         }
 

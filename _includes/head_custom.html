@@ -42,6 +42,6 @@
 /* Infection: no splash box needed — glitch overlay is pure JS */
 @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-2px)} 75%{transform:translateX(2px)} }
 
-/* Pretext reflow canvas — blends into page */
-.main-content p[data-pretext] + canvas { image-rendering: auto; }
+/* Pretext reflow canvas — transparent bg, creature images blend via CSS */
+.main-content p[data-pretext] + canvas { mix-blend-mode: multiply; }
 </style>
