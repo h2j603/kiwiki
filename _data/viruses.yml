@@ -1,0 +1,320 @@
+# Virus index data — consumed by content/index.md to render the phylogeny tree.
+#
+# Fields:
+#   id         — file basename (matches content/viruses/<id>.md)
+#   code       — classification code, format WKV-<type>.<vector>-<num>
+#   file       — url path used by the index links (paired with the
+#                permalink default in _config.yml that serves virus pages
+#                at /viruses/:basename.html)
+#   type       — single-letter type key: "0"=primordial, "L"=Logic,
+#                "S"=Sensory, "C"=Cognitive, "E"=Environmental
+#   severity   — moderate | high | critical | unknown (drives the
+#                typographic treatment on the index, not a pill)
+#   primordial — true only for KiwiZero (the origin strain)
+#   en / ko / ja — per-language display name (goes inside ✢ ✢ glyphs)
+
+- id: kiwizero
+  code: WKV-0.ALL-000
+  file: viruses/kiwizero.html
+  type: "0"
+  severity: unknown
+  primordial: true
+  en: KiwiZero
+  ko: 키위제로
+  ja: キウイゼロ
+
+# ----- Logic-type strains (WKV-L.**) -----
+
+- id: kiwhisper
+  code: WKV-L.MS-001
+  file: viruses/kiwhisper.html
+  type: "L"
+  severity: high
+  en: KiWhisper
+  ko: 키위스퍼
+  ja: ヌルウィスパー
+
+- id: kiwisyntax
+  code: WKV-L.DA-002
+  file: viruses/kiwisyntax.html
+  type: "L"
+  severity: moderate
+  en: KiwiSyntax
+  ko: 키위신택스
+  ja: シンタックスレイス
+
+- id: kiwitab
+  code: WKV-L.SN-003
+  file: viruses/kiwitab.html
+  type: "L"
+  severity: moderate
+  en: KiwiTab
+  ko: 키위탭
+  ja: ファントムタブ
+
+- id: kiwishade
+  code: WKV-L.EM-004
+  file: viruses/kiwishade.html
+  type: "L"
+  severity: high
+  en: KiwiShade
+  ko: 키위셰이드
+  ja: バイトシェイド
+
+- id: kiwighost
+  code: WKV-L.SE-005
+  file: viruses/kiwighost.html
+  type: "L"
+  severity: moderate
+  en: KiwiGhost
+  ko: 키위고스트
+  ja: ゴーストピング
+
+- id: kiwiparadox
+  code: WKV-L.DA-006
+  file: viruses/kiwiparadox.html
+  type: "L"
+  severity: high
+  en: KiwiParadox
+  ko: 키위패러독스
+  ja: パラドックスフィード
+
+- id: kiwibleed
+  code: WKV-L.SN-007
+  file: viruses/kiwibleed.html
+  type: "L"
+  severity: high
+  en: KiwiBleed
+  ko: 키위블리드
+  ja: インクブリード
+
+- id: kiwiclip
+  code: WKV-L.MS-008
+  file: viruses/kiwiclip.html
+  type: "L"
+  severity: moderate
+  en: KiwiClip
+  ko: 키위클립
+  ja: クリップボード
+
+# ----- Sensory-type strains (WKV-S.**) -----
+
+- id: kiwimirror
+  code: WKV-S.SN-001
+  file: viruses/kiwimirror.html
+  type: "S"
+  severity: high
+  en: KiwiMirror
+  ko: 키위미러
+  ja: ミラーリンク
+
+- id: kiwirot
+  code: WKV-S.EM-002
+  file: viruses/kiwirot.html
+  type: "S"
+  severity: moderate
+  en: KiwiRot
+  ko: 키위롯
+  ja: ピクセルロット
+
+- id: kiwihowl
+  code: WKV-S.MS-003
+  file: viruses/kiwihowl.html
+  type: "S"
+  severity: high
+  en: KiwiHowl
+  ko: 키위하울
+  ja: ハウルリンク
+
+- id: kiwispot
+  code: WKV-S.SE-004
+  file: viruses/kiwispot.html
+  type: "S"
+  severity: critical
+  en: KiwiSpot
+  ko: 키위스팟
+  ja: ブラインドスポット
+
+- id: kiwidrift
+  code: WKV-S.DA-005
+  file: viruses/kiwidrift.html
+  type: "S"
+  severity: high
+  en: KiwiDrift
+  ko: 키위드리프트
+  ja: クロマドリフト
+
+- id: kiwitouch
+  code: WKV-S.SN-006
+  file: viruses/kiwitouch.html
+  type: "S"
+  severity: moderate
+  en: KiwiTouch
+  ko: 키위터치
+  ja: タングルタッチ
+
+- id: kiwivoice
+  code: WKV-S.EM-007
+  file: viruses/kiwivoice.html
+  type: "S"
+  severity: high
+  en: KiwiVoice
+  ko: 키위보이스
+  ja: グラスボイス
+
+- id: kiwiafter
+  code: WKV-S.SE-008
+  file: viruses/kiwiafter.html
+  type: "S"
+  severity: moderate
+  en: KiwiAfter
+  ko: 키위애프터
+  ja: アフターイメージ
+
+# ----- Cognitive-type strains (WKV-C.**) -----
+
+- id: kiwiecho
+  code: WKV-C.SE-001
+  file: viruses/kiwiecho.html
+  type: "C"
+  severity: moderate
+  en: KiwiEcho
+  ko: 키위에코
+  ja: エコループ
+
+- id: kiwiscroll
+  code: WKV-C.SN-002
+  file: viruses/kiwiscroll.html
+  type: "C"
+  severity: high
+  en: KiwiScroll
+  ko: 키위스크롤
+  ja: デッドスクロール
+
+- id: kiwiforgot
+  code: WKV-C.EM-003
+  file: viruses/kiwiforgot.html
+  type: "C"
+  severity: critical
+  en: KiwiForgot
+  ko: 키위포갓
+  ja: フォゲットミーノット
+
+- id: kiwiloop
+  code: WKV-C.MS-004
+  file: viruses/kiwiloop.html
+  type: "C"
+  severity: moderate
+  en: KiwiLoop
+  ko: 키위루프
+  ja: ループホール
+
+- id: kiwidream
+  code: WKV-C.SN-005
+  file: viruses/kiwidream.html
+  type: "C"
+  severity: moderate
+  en: KiwiDream
+  ko: 키위드림
+  ja: ドリームリーク
+
+- id: kiwieater
+  code: WKV-C.DA-006
+  file: viruses/kiwieater.html
+  type: "C"
+  severity: high
+  en: KiwiEater
+  ko: 키위이터
+  ja: ネームイーター
+
+- id: kiwitime
+  code: WKV-C.SE-007
+  file: viruses/kiwitime.html
+  type: "C"
+  severity: high
+  en: KiwiTime
+  ko: 키위타임
+  ja: タイムスタンプ
+
+- id: kiwicut
+  code: WKV-C.MS-008
+  file: viruses/kiwicut.html
+  type: "C"
+  severity: critical
+  en: KiwiCut
+  ko: 키위컷
+  ja: スレッドカット
+
+# ----- Environmental-type strains (WKV-E.**) -----
+
+- id: kiwimoss
+  code: WKV-E.DA-001
+  file: viruses/kiwimoss.html
+  type: "E"
+  severity: critical
+  en: KiwiMoss
+  ko: 키위모스
+  ja: グリッチモス
+
+- id: kiwivein
+  code: WKV-E.MS-002
+  file: viruses/kiwivein.html
+  type: "E"
+  severity: critical
+  en: KiwiVein
+  ko: 키위베인
+  ja: キャッシュベイン
+
+- id: kiwibloom
+  code: WKV-E.SN-003
+  file: viruses/kiwibloom.html
+  type: "E"
+  severity: high
+  en: KiwiBloom
+  ko: 키위블룸
+  ja: スタティックブルーム
+
+- id: kiwivoid
+  code: WKV-E.EM-004
+  file: viruses/kiwivoid.html
+  type: "E"
+  severity: critical
+  en: KiwiVoid
+  ko: 키위보이드
+  ja: ボイドメール
+
+- id: kiwirust
+  code: WKV-E.SE-005
+  file: viruses/kiwirust.html
+  type: "E"
+  severity: high
+  en: KiwiRust
+  ko: 키위러스트
+  ja: ラストピクセル
+
+- id: kiwiroot
+  code: WKV-E.DA-006
+  file: viruses/kiwiroot.html
+  type: "E"
+  severity: critical
+  en: KiwiRoot
+  ko: 키위루트
+  ja: ワイヤールート
+
+- id: kiwiroom
+  code: WKV-E.SN-007
+  file: viruses/kiwiroom.html
+  type: "E"
+  severity: moderate
+  en: KiwiRoom
+  ko: 키위룸
+  ja: エコルーム
+
+- id: kiwispace
+  code: WKV-E.MS-008
+  file: viruses/kiwispace.html
+  type: "E"
+  severity: high
+  en: KiwiSpace
+  ko: 키위스페이스
+  ja: ヌルスペース

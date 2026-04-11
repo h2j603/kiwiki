@@ -1,0 +1,25 @@
+# Virus type definitions — consumed by content/index.md to render the
+# 4 branch heads of the phylogeny tree. Order here defines the column
+# order (left → right) on the desktop tree and the section order on
+# mobile. Each branch shows its English/Korean/Japanese label plus the
+# shared WKV-<key>.** classification prefix.
+
+- key: "L"
+  en: LOGIC-TYPE
+  ko: 로직형
+  ja: ロジック型
+
+- key: "S"
+  en: SENSORY-TYPE
+  ko: 감각형
+  ja: 感覚型
+
+- key: "C"
+  en: COGNITIVE-TYPE
+  ko: 인지형
+  ja: 認知型
+
+- key: "E"
+  en: ENVIRONMENTAL-TYPE
+  ko: 환경형
+  ja: 環境型

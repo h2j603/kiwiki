@@ -38,3 +38,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "content/viruses"
+    values:
+      permalink: /viruses/:basename:output_ext
