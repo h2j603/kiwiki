@@ -188,23 +188,21 @@ body.lang-ja {
 .main-content h1:first-child { display: none; }
 
 // ---- Tables ----
+// Borderless: no top/bottom rule on the table, no horizontal rules
+// between rows. Cell padding + hover outline provide enough structure
+// on their own. Infobox still has its own 2px outer border further
+// down in this file, so that rule remains unaffected.
 .main-content table {
   width: 100%;
   border-collapse: collapse;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
-  border-left: none;
-  border-right: none;
+  border: none;
   margin: 20px 0 50px;
   text-align: left;
   font-size: 13px;
   font-family: "neue-haas-unica", "Noto Serif KR", sans-serif;
 
   th, td {
-    border-top: 1px solid #111;
-    border-bottom: 1px solid #111;
-    border-left: none;
-    border-right: none;
+    border: none;
     padding: 10px;
   }
 
@@ -615,7 +613,7 @@ html { scroll-behavior: smooth; }
 // Table shadow & cell borders
 .main-content table { box-shadow: none !important; }
 .main-content table td,
-.main-content table th { border-bottom-color: #111 !important; }
+.main-content table th { border: none !important; }
 
 // Links: kill rgba hover underline
 a { text-decoration-color: #111 !important; }
