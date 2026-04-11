@@ -1,31 +1,33 @@
-// Kiwiki color scheme — override all theme grays with pure black (#111)
+// Kiwiki color scheme — gradient background + pure black foreground
+// Background gradient (top→bottom): #54fe12 → #febc12 → #bc13fe
+// All elements on top of the gradient are black (#111).
 
 $color-scheme: light;
 
-// Kill all gray palette variables
+// Neutralize theme gray palette (every gray collapses to black)
 $grey-dk-000: #111 !default;
 $grey-dk-100: #111 !default;
 $grey-dk-200: #111 !default;
 $grey-dk-250: #111 !default;
 $grey-dk-300: #111 !default;
-$grey-lt-000: lawngreen !default;
+$grey-lt-000: transparent !default;
 $grey-lt-100: #111 !default;
-$grey-lt-200: lawngreen !default;
-$grey-lt-300: lawngreen !default;
+$grey-lt-200: transparent !default;
+$grey-lt-300: transparent !default;
 
-// Override all theme color assignments that use grays
-$body-background-color: lawngreen;
+// Theme color assignments — transparent containers so body gradient shows through
+$body-background-color: transparent;
 $body-heading-color: #111;
 $body-text-color: #111;
 $link-color: #111;
 $nav-child-link-color: #111;
-$sidebar-color: lawngreen;
-$base-button-color: lawngreen;
+$sidebar-color: transparent;
+$base-button-color: transparent;
 $btn-primary-color: #111;
-$code-background-color: lawngreen;
-$feedback-color: lawngreen;
-$table-background-color: lawngreen;
-$search-background-color: lawngreen;
+$code-background-color: transparent;
+$feedback-color: transparent;
+$table-background-color: transparent;
+$search-background-color: transparent;
 $search-result-preview-color: #111;
 $border-color: #111;
-$white: lawngreen;
+$white: transparent;
