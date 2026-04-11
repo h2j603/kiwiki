@@ -1,22 +1,37 @@
 // ============================================
-// Kiwiki — gradient bg (#54fe12 → #febc12 → #bc13fe) + black foreground
+// Kiwiki — #bebebe bg + gradient-clipped text + compact random virus field
+// Texts inherit the gradient (#54fe12 → #febc12 → #bc13fe) via
+// background-clip:text with a viewport-fixed background, so each text
+// shows the slice of gradient at its on-screen y position.
 // ============================================
 
-// === Global reset: kill shadows, force black borders ===
+// ---- Shared gradient mixin (applied to anything that should show
+// the kiwi-gradient "through" the text) ----------------------------
+@mixin kiwi-gradient-text {
+  background-image: linear-gradient(to bottom, #54fe12 0%, #febc12 50%, #bc13fe 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  background-position: left top;
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+// === Global reset ===
 * { box-shadow: none !important; text-shadow: none !important; border-color: #111 !important; }
 
-// === Gradient background (viewport-fixed so all pages share the full gradient) ===
+// === Solid gray canvas ===
 html {
-  background: #54fe12;
-  background: linear-gradient(to bottom, #54fe12 0%, #febc12 50%, #bc13fe 100%) fixed;
-  background-attachment: fixed;
+  background: #bebebe !important;
+  background-color: #bebebe !important;
   min-height: 100%;
 }
 
 body {
   background: transparent !important;
   background-color: transparent !important;
-  color: #111;
   font-size: 18px;
   font-family: "EB Garamond", "Noto Serif KR", Georgia, serif;
   font-weight: 400;
@@ -24,15 +39,10 @@ body {
   min-height: 100vh;
 }
 
-body.lang-ko {
-  font-family: "Noto Serif KR", "EB Garamond", Georgia, serif;
-}
+body.lang-ko { font-family: "Noto Serif KR", "EB Garamond", Georgia, serif; }
+body.lang-ja { font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif; }
 
-body.lang-ja {
-  font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
-}
-
-// Force every container transparent so the body gradient shows through
+// Force every container transparent so the #bebebe canvas shows through
 html, body,
 .main, .main-content, .main-content-wrap,
 .side-bar, .site-nav, .nav-list,
@@ -45,10 +55,11 @@ html, body,
   background-image: none !important;
 }
 
-// Re-apply the gradient to html only (override the blanket rule above)
+// Re-apply solid gray canvas to html (override the blanket rule above)
 html {
-  background: linear-gradient(to bottom, #54fe12 0%, #febc12 50%, #bc13fe 100%) fixed !important;
-  background-attachment: fixed !important;
+  background: #bebebe !important;
+  background-color: #bebebe !important;
+  background-image: none !important;
 }
 
 // Kill search overlay (root cause of black container)
@@ -81,34 +92,103 @@ div[style*="background:black"][style*="position:fixed"] {
 #main-content,
 main { background-color: transparent !important; background: transparent !important; }
 
-// Force text #111 everywhere (with exceptions below)
-.main-content *, .breadcrumb-nav * { color: #111; }
+// =====================================================
+// Gradient text — applied broadly, then overridden for
+// inverted chips / pills that need solid contrast.
+// =====================================================
+.main-content,
+.main-content p,
+.main-content li,
+.main-content a,
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6,
+.main-content strong,
+.main-content em,
+.main-content blockquote,
+.main-content code,
+.main-content table th,
+.main-content table td,
+.stats-bar,
+.stats-bar span,
+.aku-footer,
+.aku-footer span,
+.aku-deleted-section,
+.breadcrumb-nav,
+.breadcrumb-nav a,
+.lang-btn,
+.home-link,
+.warning-banner,
+.warning-banner span,
+.edit-history,
+.sec-num,
+.virus-name,
+.virus-code,
+.ref-link,
+.pill,
+.pill-type,
+.pill-vector,
+.pill-severity-moderate {
+  @include kiwi-gradient-text;
+}
 
-// Pill exceptions (black bg + white accent text so they read on any gradient band)
-.pill-code, .pill-active { color: #fff !important; background: #111 !important; }
-.pill-severity-high, .pill-severity-critical { color: #fff !important; background: #111 !important; }
+// Theme link fills
+a { color: transparent !important; -webkit-text-fill-color: transparent !important; }
 
-// Infobox header
+// =====================================================
+// Solid-color overrides for inverted/high-contrast chips
+// =====================================================
+.pill-code,
+.pill-active,
+.pill-severity-high,
+.pill-severity-critical,
+.lang-btn.active {
+  background: #111 !important;
+  background-image: none !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+// Warning banner — always dark, solid white text
+.warning-banner,
+.warning-banner span {
+  background: #111 !important;
+  background-image: none !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+// Ref link hover → solid dark chip
+.ref-link:hover {
+  background: #111 !important;
+  background-image: none !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+// Infobox header — solid dark with white text
 .main-content > div:first-child table th,
-.main-content > table:first-of-type th { color: #fff !important; background: #111 !important; }
+.main-content > table:first-of-type th {
+  background: #111 !important;
+  background-image: none !important;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+}
 
-// Lang toggle active
-.lang-btn.active { color: #fff !important; background: #111 !important; }
-
-// ---- Content ----
+// ---- Content typography ----
 .main-content {
   max-width: 100%;
   font-size: 18px;
   line-height: 1.75;
   letter-spacing: -0.01em;
-  color: #111;
 
   h1 {
     font-family: inherit;
     font-weight: 400;
-    font-style: normal;
     font-size: 2.2em;
-    color: #111;
     border-bottom: none;
     margin: 0 0 24px;
     text-transform: uppercase;
@@ -118,9 +198,7 @@ main { background-color: transparent !important; background: transparent !import
   h2 {
     font-family: inherit;
     font-weight: 700;
-    font-style: normal;
     font-size: 1.3em;
-    color: #111;
     border-bottom: none;
     margin: 2em 0 0.6em;
     text-transform: uppercase;
@@ -130,25 +208,19 @@ main { background-color: transparent !important; background: transparent !import
   h3 {
     font-family: inherit;
     font-weight: 700;
-    font-style: normal;
     font-size: 1.1em;
-    color: #111;
     margin: 1.5em 0 0.4em;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
 
-  p {
-    margin: 0 0 1em;
-    text-align: justify;
-  }
+  p { margin: 0 0 1em; text-align: justify; }
 
   a {
-    color: #111;
     text-decoration: underline;
-    text-decoration-color: #111;
+    text-decoration-color: #111 !important;
     font-style: normal;
-    &:hover { text-decoration-thickness: 2px; text-decoration-color: #111; }
+    &:hover { text-decoration-thickness: 2px; text-decoration-color: #111 !important; }
   }
 
   ul, ol {
@@ -180,9 +252,7 @@ main { background-color: transparent !important; background: transparent !import
   top: -9999px !important;
   left: -9999px !important;
 }
-#main-header {
-  display: none !important;
-}
+#main-header { display: none !important; }
 
 .main-content-wrap {
   max-width: 900px;
@@ -190,16 +260,14 @@ main { background-color: transparent !important; background: transparent !import
   padding: 20px;
 }
 .main {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
 }
 .main-content h1:first-child { display: none; }
 
-// ---- Tables (still used on sub-pages / reference list) ----
+// ---- Tables (used on sub-pages) ----
 .main-content table {
   width: 100%;
   border-collapse: collapse;
@@ -223,27 +291,18 @@ main { background-color: transparent !important; background: transparent !import
   th {
     font-weight: 500;
     font-size: 13px;
-    color: #111;
     background: transparent;
   }
 
-  td {
-    vertical-align: top;
-    color: #111;
-    background: transparent !important;
-  }
+  td { vertical-align: top; background: transparent !important; }
 
   tr { background: transparent !important; }
   tr:nth-child(even) td { background: transparent !important; }
-
-  tr:hover {
-    background: transparent !important; outline: 1px solid #111;
-  }
+  tr:hover { background: transparent !important; outline: 1px solid #111; }
 
   a {
     text-decoration: none;
     font-style: normal;
-    color: #111;
     &:hover { text-decoration: underline; }
   }
 }
@@ -264,11 +323,9 @@ main { background-color: transparent !important; background: transparent !import
   margin: 0 0 20px 20px;
   border: 2px solid #111;
   overflow: visible;
-  background: rgba(255,255,255,0.18);
+  background: rgba(255, 255, 255, 0.18);
 
   th {
-    background: #111;
-    color: #fff;
     text-align: center;
     font-family: inherit;
     font-size: 14px;
@@ -292,10 +349,7 @@ main { background-color: transparent !important; background: transparent !import
     filter: grayscale(1) contrast(3) brightness(0.8);
     mix-blend-mode: multiply;
   }
-  td[colspan] {
-    padding: 0;
-    text-align: center;
-  }
+  td[colspan] { padding: 0; text-align: center; }
 
   @media (max-width: 768px) {
     float: none;
@@ -314,13 +368,10 @@ main { background-color: transparent !important; background: transparent !import
   line-height: 1.6;
   border: 1px solid #111;
   white-space: nowrap;
-  color: #111;
   background: transparent;
 }
 
 .pill-code {
-  background: #111;
-  color: #fff;
   border-color: #111;
   font-family: "IBM Plex Mono", "SF Mono", "Consolas", monospace;
   font-size: 10px;
@@ -328,11 +379,9 @@ main { background-color: transparent !important; background: transparent !import
   letter-spacing: 0.5px;
 }
 
-.pill-type, .pill-vector { background: transparent; color: #111; }
-.pill-active { background: #111; color: #fff; border-color: #111; }
-.pill-severity-moderate { background: transparent; color: #111; border: 1px dashed #111; }
-.pill-severity-high { background: #111; color: #fff; border: 2px solid #111; }
-.pill-severity-critical { background: #111; color: #fff; border: 3px solid #111; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.pill-severity-moderate { background: transparent; border: 1px dashed #111; }
+.pill-severity-high { border: 2px solid #111; }
+.pill-severity-critical { border: 3px solid #111; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
 
 // ---- Language toggle ----
 .lang-toggle {
@@ -341,7 +390,7 @@ main { background-color: transparent !important; background: transparent !import
   margin-bottom: 20px;
   position: relative;
   z-index: 100;
-  background: rgba(255,255,255,0.15);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .lang-btn {
@@ -354,11 +403,9 @@ main { background-color: transparent !important; background: transparent !import
   text-transform: uppercase;
   letter-spacing: 1px;
   background: transparent;
-  color: #111;
   cursor: pointer;
   &:not(:last-child) { border-right: 1px solid #111; }
   &:hover { background: transparent; text-decoration: none; }
-  &.active { background: #111; color: #fff; }
 }
 
 // ---- HR (hazard stripe) ----
@@ -379,7 +426,6 @@ main { background-color: transparent !important; background: transparent !import
 .main-content blockquote {
   border-left: 3px solid #111;
   padding: 0.4em 1em;
-  color: #111;
   background: transparent;
   margin: 1em 0;
   font-style: italic;
@@ -392,19 +438,16 @@ main { background-color: transparent !important; background: transparent !import
   border: 1px solid #111;
   padding: 1px 4px;
   font-size: 0.9em;
-  color: #111;
 }
 
 // ---- Anchor (hidden) ----
-.main-content .anchor-heading {
-  display: none !important;
-}
+.main-content .anchor-heading { display: none !important; }
 
 // ---- Float clear ----
 .main-content h2 { clear: both; }
 
 // ---- Selection ----
-::selection { background: #111; color: #fff; }
+::selection { background: #111; color: #fff !important; -webkit-text-fill-color: #fff !important; }
 
 // ---- Scrollbar hide ----
 .main-content-wrap {
@@ -416,8 +459,6 @@ main { background-color: transparent !important; background: transparent !import
 // ---- Breadcrumbs ----
 .breadcrumb-nav {
   font-size: 12px;
-  color: #111;
-  a { color: #111; }
   li::before { color: #111 !important; }
 }
 
@@ -431,7 +472,6 @@ main { background-color: transparent !important; background: transparent !import
     font-family: inherit;
     font-weight: 400;
     font-size: 1.2em;
-    color: #111;
     border-bottom: 1px solid #111;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -454,7 +494,6 @@ main { background-color: transparent !important; background: transparent !import
       &::before { content: none !important; }
       &::marker { content: none !important; display: none !important; }
       a {
-        color: #111;
         text-decoration: none;
         font-style: normal;
         font-size: 14px;
@@ -466,44 +505,37 @@ main { background-color: transparent !important; background: transparent !import
 
 html { scroll-behavior: smooth; }
 
-.sec-num {
-  color: #111;
-  margin-right: 4px;
-  font-weight: 400;
-}
+.sec-num { margin-right: 4px; font-weight: 400; }
 
 // ---- Home link ----
 .home-link {
   font-style: normal;
   font-size: 18px;
   text-decoration: none;
-  color: #111;
   &:hover { opacity: 1; }
 }
 
-
 // ---- Warning banner ----
 .warning-banner {
-  background: #111;
-  color: #fff;
   padding: 8px 14px;
   font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  span { color: #fff !important; }
 }
 
 // ---- Redacted text ----
 .redacted {
   background: #111;
-  color: #111;
+  color: #111 !important;
+  -webkit-text-fill-color: #111 !important;
   padding: 0 3px;
   cursor: default;
   user-select: none;
   position: relative;
   display: inline-block;
+  background-image: none !important;
 }
 
 // ---- Edit history ----
@@ -512,7 +544,6 @@ html { scroll-behavior: smooth; }
   margin-top: 40px;
   padding-top: 12px;
   font-size: 10px;
-  color: #111;
   font-family: inherit;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -523,96 +554,93 @@ html { scroll-behavior: smooth; }
   font-family: inherit;
   font-size: 14px;
   letter-spacing: 1px;
-  color: #111;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   opacity: 1;
   text-align: center;
   span { margin-right: 16px; }
 }
 
-// ============================================
+// =====================================================
 // ---- Floating virus field (index page) ----
-// ============================================
+// Compact, nearly-viewport-contained, pseudo-random
+// absolute placement driven by inline --x / --y / --r.
+// =====================================================
 .virus-field {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 34px 56px;
-  padding: 40px 10px 60px;
-  min-height: 520px;
-  perspective: 800px;
+  width: 100%;
+  height: clamp(440px, 68vh, 640px);
+  margin: 14px 0 28px;
+  overflow: visible;
 }
 
 .virus-node {
+  position: absolute;
+  left: var(--x, 50%);
+  top: var(--y, 50%);
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   text-decoration: none !important;
-  color: #111 !important;
-  padding: 6px 10px;
-  line-height: 1.2;
+  padding: 2px 5px;
+  line-height: 1.15;
+  white-space: nowrap;
+  user-select: none;
+  transform: translate(-50%, -50%) rotate(var(--r, 0deg));
   transform-origin: center center;
-  animation: virusDrift 12s ease-in-out infinite;
+  animation: virusDrift 11s ease-in-out infinite;
   will-change: transform;
 
   .virus-code {
     font-family: "IBM Plex Mono", "SF Mono", Consolas, monospace;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 400;
-    letter-spacing: 1.2px;
-    color: #111;
-    margin-bottom: 2px;
-    white-space: nowrap;
+    letter-spacing: 0.8px;
+    margin-bottom: 1px;
   }
 
   .virus-name {
     font-family: inherit;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 500;
-    color: #111;
-    white-space: nowrap;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
   }
 
   &:hover {
     animation-play-state: paused;
-    .virus-name { text-decoration: underline; text-decoration-thickness: 2px; }
+    z-index: 20;
+    .virus-name {
+      text-decoration: underline;
+      text-decoration-color: #111 !important;
+      text-decoration-thickness: 1.5px;
+    }
   }
 }
 
-// Drift variations — different cycles per node so the field breathes unevenly
-.virus-node:nth-child(6n+1) { animation-duration: 11s; animation-delay: -0.3s; }
-.virus-node:nth-child(6n+2) { animation-duration: 13s; animation-delay: -1.7s; animation-direction: reverse; }
-.virus-node:nth-child(6n+3) { animation-duration: 14s; animation-delay: -3.1s; }
-.virus-node:nth-child(6n+4) { animation-duration: 10s; animation-delay: -4.5s; animation-direction: reverse; }
-.virus-node:nth-child(6n+5) { animation-duration: 15s; animation-delay: -2.2s; }
-.virus-node:nth-child(6n)   { animation-duration: 12s; animation-delay: -5.8s; animation-direction: reverse; }
-
-// Slight horizontal stagger so rows aren't ruler-straight
-.virus-node:nth-child(4n)   { margin-top: 18px; }
-.virus-node:nth-child(4n+1) { margin-top: -12px; }
-.virus-node:nth-child(4n+2) { margin-top: 8px; }
-.virus-node:nth-child(4n+3) { margin-top: -6px; }
-
-@keyframes virusDrift {
-  0%   { transform: translate(0, 0) rotate(-1.2deg); }
-  20%  { transform: translate(4px, -6px) rotate(0.6deg); }
-  40%  { transform: translate(-5px, -3px) rotate(1.1deg); }
-  60%  { transform: translate(3px, 5px) rotate(-0.5deg); }
-  80%  { transform: translate(-3px, 2px) rotate(0.4deg); }
-  100% { transform: translate(0, 0) rotate(-1.2deg); }
-}
-
-// Primordial virus (KiwiZero) pulses slightly larger and slower
+// Primordial (KiwiZero) — a shade larger + always on top
 .virus-node.is-primordial {
-  .virus-code { font-size: 11px; letter-spacing: 1.5px; }
-  .virus-name { font-size: 22px; font-weight: 600; }
-  animation-duration: 18s;
+  z-index: 6;
+  .virus-code { font-size: 9px; letter-spacing: 1.2px; }
+  .virus-name { font-size: 17px; font-weight: 600; letter-spacing: 0.6px; }
 }
+
+// Drift keyframes — keep the base rotation, add a small translate offset.
+// The transform must always re-declare translate(-50%,-50%) so the
+// anchor-from-top-left positioning stays centered on --x/--y.
+@keyframes virusDrift {
+  0%, 100% { transform: translate(-50%, -50%) rotate(var(--r, 0deg)) translate(0, 0); }
+  25%      { transform: translate(-50%, -50%) rotate(var(--r, 0deg)) translate(2px, -3px); }
+  50%      { transform: translate(-50%, -50%) rotate(var(--r, 0deg)) translate(-3px, 2px); }
+  75%      { transform: translate(-50%, -50%) rotate(var(--r, 0deg)) translate(3px, 1px); }
+}
+
+// Stagger animation timing so neighbors drift out of sync
+.virus-node:nth-child(5n+1) { animation-duration:  9s; animation-delay: -0.4s; }
+.virus-node:nth-child(5n+2) { animation-duration: 12s; animation-delay: -2.1s; animation-direction: reverse; }
+.virus-node:nth-child(5n+3) { animation-duration: 14s; animation-delay: -3.7s; }
+.virus-node:nth-child(5n+4) { animation-duration: 10s; animation-delay: -5.2s; animation-direction: reverse; }
+.virus-node:nth-child(5n)   { animation-duration: 13s; animation-delay: -1.3s; }
 
 // ---- Reference grid (replaces the bottom reference table) ----
 .ref-grid {
@@ -620,8 +648,8 @@ html { scroll-behavior: smooth; }
   flex-wrap: wrap;
   gap: 14px;
   justify-content: center;
-  margin: 40px 0 20px;
-  padding-top: 30px;
+  margin: 28px 0 20px;
+  padding-top: 22px;
   border-top: 1px dashed #111;
 }
 
@@ -629,23 +657,14 @@ html { scroll-behavior: smooth; }
   display: inline-block;
   padding: 6px 14px;
   border: 1px solid #111;
-  color: #111 !important;
   text-decoration: none !important;
   font-size: 12px;
   font-family: "IBM Plex Mono", "SF Mono", Consolas, monospace;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.15);
   transition: background 0.2s ease;
-
-  &:hover {
-    background: #111;
-    color: #fff !important;
-  }
 }
-
-// Hide the index-page heading/stats "spacing" conflict with floating field
-.virus-field + p:empty { display: none; }
 
 // ---- Mobile ----
 @media (max-width: 768px) {
@@ -666,17 +685,17 @@ html { scroll-behavior: smooth; }
   .pill-code { font-size: 9px; }
 
   .virus-field {
-    gap: 22px 28px;
-    padding: 20px 4px 40px;
-    min-height: unset;
+    height: clamp(400px, 76vh, 580px);
+    margin: 8px 0 20px;
   }
   .virus-node {
-    .virus-code { font-size: 9px; }
-    .virus-name { font-size: 15px; }
+    padding: 1px 3px;
+    .virus-code { font-size: 7px; letter-spacing: 0.6px; }
+    .virus-name { font-size: 11px; letter-spacing: 0.2px; }
   }
   .virus-node.is-primordial {
-    .virus-code { font-size: 10px; }
-    .virus-name { font-size: 18px; }
+    .virus-code { font-size: 8px; }
+    .virus-name { font-size: 14px; }
   }
 }
 
@@ -717,7 +736,6 @@ html { scroll-behavior: smooth; }
   padding: 20px;
   margin-top: 40px;
   font-size: 11px;
-  color: #111;
   letter-spacing: 0.5px;
   text-align: center;
 }
@@ -726,7 +744,6 @@ html { scroll-behavior: smooth; }
 .aku-deleted-section {
   font-family: "IBM Plex Mono", monospace;
   font-size: 11px;
-  color: #111;
   opacity: 0.4;
   padding: 20px 0;
   text-align: center;

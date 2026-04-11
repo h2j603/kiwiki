@@ -680,40 +680,10 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     }, 1500);
 
-    // Phase 2: aggressively inject kiwi creature images everywhere
-    var imgFolder = '/kiwiki/assets/images/kiwi-creature/';
-    var creatureFiles = ['IMG_6034.jpeg','IMG_6035.jpeg','IMG_6039.jpeg','IMG_6041.jpeg','IMG_6042.jpeg','IMG_6046.jpeg'];
-    // Insert multiple images per tick into random elements
-    setInterval(function(){
-      var targets = document.querySelectorAll('.main-content p, .main-content li, .main-content h2');
-      for (var ii = 0; ii < 3; ii++) {
-        var el = targets[Math.floor(Math.random() * targets.length)];
-        if (!el) continue;
-        var img = document.createElement('img');
-        img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
-        img.alt = '';
-        var size = 40 + Math.floor(Math.random() * 80);
-        img.style.cssText = 'max-width:'+size+'px;height:auto;display:inline-block;vertical-align:middle;margin:0 4px;filter:grayscale(1) contrast(3) brightness(0.8);mix-blend-mode:multiply;';
-        img.onerror = function() { this.style.display='none'; };
-        if (el.childNodes.length > 0) {
-          el.insertBefore(img, el.childNodes[Math.floor(Math.random() * el.childNodes.length)]);
-        } else {
-          el.appendChild(img);
-        }
-      }
-    }, 2000);
-    // Also scatter fixed-position images across the page
-    setInterval(function(){
-      var img = document.createElement('img');
-      img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
-      img.alt = '';
-      var size = 50 + Math.floor(Math.random() * 100);
-      img.style.cssText = 'position:fixed;max-width:'+size+'px;height:auto;pointer-events:none;z-index:9996;left:'+Math.random()*90+'%;top:'+Math.random()*90+'%;opacity:0.7;transition:opacity 5s;filter:grayscale(1) contrast(3) brightness(0.8);mix-blend-mode:multiply;';
-      img.onerror = function() { this.remove(); };
-      document.body.appendChild(img);
-      setTimeout(function(){ img.style.opacity='0'; }, 4000);
-      setTimeout(function(){ img.remove(); }, 9000);
-    }, 3000);
+    // Phase 2: kiwi creature image injection — REMOVED (2026-04)
+    // Previously injected mix-blend-mode:multiply creature images inline
+    // and scattered them fixed-position across the viewport. Kept only the
+    // text-based infection phases below.
 
     // Phase 3: zalgo-kiwi text corruption
     setInterval(function(){
