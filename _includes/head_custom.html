@@ -10,7 +10,7 @@
 <!-- Pretext-powered KiwiZero enhancement (ES module — loads from CDN) -->
 <script type="module" src="{{ '/assets/js/kiwizero-pretext.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
-<!-- CSS: language + infection (gradient bg + black foreground palette) -->
+<!-- CSS: language + infection (lawngreen bg + black text palette) -->
 <style>
 .ko, .ja { display: none; }
 .lang-ko .ko { display: revert !important; }
@@ -19,7 +19,7 @@
 .lang-ja .ko, .lang-ja .en { display: none !important; }
 .lang-en .ko, .lang-en .ja { display: none !important; }
 
-/* Virus CSS (black on gradient) */
+/* Virus CSS (black on lawngreen) */
 .virus-kiwiecho .main-content p:nth-child(3n) { text-shadow: 1px 1px 0 #111, 2px 2px 0 #111; }
 .virus-kiwimirror .main-content { transform: perspective(2000px) rotateY(0.3deg); }
 .virus-kiwimirror .main-content p:nth-child(4n) { letter-spacing: -0.03em; }
