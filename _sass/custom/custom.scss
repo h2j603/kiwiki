@@ -243,16 +243,53 @@ body.lang-ja {
 }
 
 // ---- Vlist (index page tables) ----
-// The index wrapper divs (.en/.ko/.ja) also carry the .vlist class so
-// we can strip the markdown table <thead> column headers AND normalize
-// the vertical margins so consecutive tables sit on an even rhythm.
+// The index wrapper divs (.en/.ko/.ja) also carry the .vlist class.
+// Inside a .vlist:
+//   1. The markdown <thead> column headers are hidden.
+//   2. Every <table>/<tbody>/<tr> switches from tabular layout to a
+//      vertical stack of flex rows so each row's cells size to their
+//      own content (not to the widest cell in the column). Cells are
+//      separated by a fixed column-gap, so the spacing follows the
+//      natural text width rather than being forced to a uniform grid.
+//   3. Vertical margins normalize so consecutive tables sit on the
+//      same rhythm as the surrounding blocks.
 // Scoped to .vlist so virus sub-page infoboxes remain unaffected.
 .vlist table {
   margin: 20px 0 !important;
+  display: block;
 }
 
 .vlist table thead {
   display: none !important;
+}
+
+.vlist table tbody {
+  display: block;
+}
+
+.vlist table tr {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 16px;
+  row-gap: 4px;
+  margin: 0 0 10px;
+  padding: 2px 2px;
+}
+
+.vlist table tr:last-child {
+  margin-bottom: 0;
+}
+
+.vlist table td {
+  padding: 0 !important;
+  display: inline-block;
+}
+
+.vlist table tr:hover {
+  outline: 1px solid #111;
+  outline-offset: 4px;
+  background: transparent !important;
 }
 
 .vlist table + table {
