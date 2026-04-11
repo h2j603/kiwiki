@@ -21,13 +21,41 @@ Web Kiwi Virus Wiki
 
 <div class="stats-bar ja"><span>33種 文書化</span> <span>1種 原型</span> <span>4タイプ</span> <span>5経路</span></div>
 
+{%- comment -%}
+  Pseudo-random layout for the floating virus field.
+  Each node gets --x / --y (percent within the field) and --r (deg rotation)
+  computed from its zero-based index via prime-modular arithmetic.
+  - 7-col x 5-row jittered grid (7*5 = 35 cells, 33 used)
+  - Jitter: ±5% horizontal, ±7% vertical so cells break ruler-straight lines
+  - Rotation: ±8° for organic drift orientation
+{%- endcomment -%}
+
 <div class="en">
   <div class="virus-field">
     {%- for v in site.data.viruses -%}
-    <a class="virus-node{% if v.primordial %} is-primordial{% endif %}" href="{{ v.file | relative_url }}">
-      <span class="virus-code">{{ v.code }}</span>
-      <span class="virus-name">✢{{ v.en }}✢</span>
-    </a>
+      {%- assign idx = forloop.index0 -%}
+      {%- if v.primordial -%}
+        {%- assign x = 50 -%}
+        {%- assign y = 5 -%}
+        {%- assign rot = 0 -%}
+      {%- else -%}
+        {%- assign col = idx | modulo: 7 -%}
+        {%- assign row = idx | divided_by: 7 -%}
+        {%- assign x_base = col | times: 13 | plus: 10 -%}
+        {%- assign y_base = row | times: 16 | plus: 18 -%}
+        {%- assign jxm = idx | times: 37 | modulo: 11 -%}
+        {%- assign jx = jxm | minus: 5 -%}
+        {%- assign jym = idx | times: 53 | modulo: 15 -%}
+        {%- assign jy = jym | minus: 7 -%}
+        {%- assign rm = idx | times: 29 | modulo: 17 -%}
+        {%- assign rot = rm | minus: 8 -%}
+        {%- assign x = x_base | plus: jx -%}
+        {%- assign y = y_base | plus: jy -%}
+      {%- endif -%}
+      <a class="virus-node{% if v.primordial %} is-primordial{% endif %}" href="{{ v.file | relative_url }}" style="--x:{{ x }}%;--y:{{ y }}%;--r:{{ rot }}deg;">
+        <span class="virus-code">{{ v.code }}</span>
+        <span class="virus-name">✢{{ v.en }}✢</span>
+      </a>
     {%- endfor -%}
   </div>
 
@@ -41,10 +69,29 @@ Web Kiwi Virus Wiki
 <div class="ko">
   <div class="virus-field">
     {%- for v in site.data.viruses -%}
-    <a class="virus-node{% if v.primordial %} is-primordial{% endif %}" href="{{ v.file | relative_url }}">
-      <span class="virus-code">{{ v.code }}</span>
-      <span class="virus-name">✢{{ v.ko }}✢</span>
-    </a>
+      {%- assign idx = forloop.index0 -%}
+      {%- if v.primordial -%}
+        {%- assign x = 50 -%}
+        {%- assign y = 5 -%}
+        {%- assign rot = 0 -%}
+      {%- else -%}
+        {%- assign col = idx | modulo: 7 -%}
+        {%- assign row = idx | divided_by: 7 -%}
+        {%- assign x_base = col | times: 13 | plus: 10 -%}
+        {%- assign y_base = row | times: 16 | plus: 18 -%}
+        {%- assign jxm = idx | times: 37 | modulo: 11 -%}
+        {%- assign jx = jxm | minus: 5 -%}
+        {%- assign jym = idx | times: 53 | modulo: 15 -%}
+        {%- assign jy = jym | minus: 7 -%}
+        {%- assign rm = idx | times: 29 | modulo: 17 -%}
+        {%- assign rot = rm | minus: 8 -%}
+        {%- assign x = x_base | plus: jx -%}
+        {%- assign y = y_base | plus: jy -%}
+      {%- endif -%}
+      <a class="virus-node{% if v.primordial %} is-primordial{% endif %}" href="{{ v.file | relative_url }}" style="--x:{{ x }}%;--y:{{ y }}%;--r:{{ rot }}deg;">
+        <span class="virus-code">{{ v.code }}</span>
+        <span class="virus-name">✢{{ v.ko }}✢</span>
+      </a>
     {%- endfor -%}
   </div>
 
@@ -58,10 +105,29 @@ Web Kiwi Virus Wiki
 <div class="ja">
   <div class="virus-field">
     {%- for v in site.data.viruses -%}
-    <a class="virus-node{% if v.primordial %} is-primordial{% endif %}" href="{{ v.file | relative_url }}">
-      <span class="virus-code">{{ v.code }}</span>
-      <span class="virus-name">✢{{ v.ja }}✢</span>
-    </a>
+      {%- assign idx = forloop.index0 -%}
+      {%- if v.primordial -%}
+        {%- assign x = 50 -%}
+        {%- assign y = 5 -%}
+        {%- assign rot = 0 -%}
+      {%- else -%}
+        {%- assign col = idx | modulo: 7 -%}
+        {%- assign row = idx | divided_by: 7 -%}
+        {%- assign x_base = col | times: 13 | plus: 10 -%}
+        {%- assign y_base = row | times: 16 | plus: 18 -%}
+        {%- assign jxm = idx | times: 37 | modulo: 11 -%}
+        {%- assign jx = jxm | minus: 5 -%}
+        {%- assign jym = idx | times: 53 | modulo: 15 -%}
+        {%- assign jy = jym | minus: 7 -%}
+        {%- assign rm = idx | times: 29 | modulo: 17 -%}
+        {%- assign rot = rm | minus: 8 -%}
+        {%- assign x = x_base | plus: jx -%}
+        {%- assign y = y_base | plus: jy -%}
+      {%- endif -%}
+      <a class="virus-node{% if v.primordial %} is-primordial{% endif %}" href="{{ v.file | relative_url }}" style="--x:{{ x }}%;--y:{{ y }}%;--r:{{ rot }}deg;">
+        <span class="virus-code">{{ v.code }}</span>
+        <span class="virus-name">✢{{ v.ja }}✢</span>
+      </a>
     {%- endfor -%}
   </div>
 

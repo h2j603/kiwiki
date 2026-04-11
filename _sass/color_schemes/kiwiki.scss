@@ -1,6 +1,8 @@
-// Kiwiki color scheme — gradient background + pure black foreground
-// Background gradient (top→bottom): #54fe12 → #febc12 → #bc13fe
-// All elements on top of the gradient are black (#111).
+// Kiwiki color scheme — #bebebe canvas + gradient-clipped text.
+// The gradient (#54fe12 → #febc12 → #bc13fe) is now applied to the text
+// via background-clip: text (see custom.scss). The body/canvas itself is
+// a flat #bebebe gray. Structural elements (borders, dividers, inverted
+// chips) stay solid #111 for contrast.
 
 $color-scheme: light;
 
@@ -15,7 +17,8 @@ $grey-lt-100: #111 !default;
 $grey-lt-200: transparent !default;
 $grey-lt-300: transparent !default;
 
-// Theme color assignments — transparent containers so body gradient shows through
+// Theme color assignments — transparent containers so the #bebebe canvas
+// shows through and text picks up the clipped gradient in custom.scss.
 $body-background-color: transparent;
 $body-heading-color: #111;
 $body-text-color: #111;
