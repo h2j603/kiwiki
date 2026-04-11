@@ -4,24 +4,6 @@ nav_order: 1
 permalink: /
 ---
 
-{% include lang_toggle.html %}
-
-Web Kiwi Virus Wiki
-{: .en}
-
-웹키위바이러스 위키
-{: .ko}
-
-ウェブキウイウイルス ウィキ
-{: .ja}
-
-<div class="stats-bar en"><span>33 documented</span> <span>1 primordial</span> <span>4 types</span> <span>5 vectors</span></div>
-
-<div class="stats-bar ko"><span>33종 문서화</span> <span>1종 원형</span> <span>4개 유형</span> <span>5개 경로</span></div>
-
-<div class="stats-bar ja"><span>32種 文書化</span> <span>7種 致命的</span> <span>4タイプ</span> <span>5経路</span></div>
-
-
 <div class="en vlist" markdown="1">
 
 | Code | Name | Type | Vector | Severity |
@@ -162,3 +144,20 @@ Web Kiwi Virus Wiki
 | [概念](/kiwiki/concepts/) | タイプ、ベクター、メカニズム |
 
 </div>
+
+{% include lang_toggle.html %}
+
+Web Kiwi Virus Wiki
+{: .en}
+
+웹키위바이러스 위키
+{: .ko}
+
+ウェブキウイウイルス ウィキ
+{: .ja}
+
+<div class="stats-bar en"><span>33 documented</span> <span>1 primordial</span> <span>4 types</span> <span>5 vectors</span></div>
+
+<div class="stats-bar ko"><span>33종 문서화</span> <span>1종 원형</span> <span>4개 유형</span> <span>5개 경로</span></div>
+
+<div class="stats-bar ja"><span>32種 文書化</span> <span>7種 致命的</span> <span>4タイプ</span> <span>5経路</span></div>
