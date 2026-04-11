@@ -1,48 +1,11 @@
 // ============================================
-// Kiwiki — #bebebe bg + gradient-clipped text + compact random virus field
-// Texts inherit the gradient (#54fe12 → #febc12 → #bc13fe) via
-// background-clip:text with a viewport-fixed background, so each text
-// shows the slice of gradient at its on-screen y position.
+// Kiwiki — lawngreen bg + black text
 // ============================================
 
-// ---- Shared gradient mixin (applied to anything that should show
-// the kiwi-gradient "through" the text) ----------------------------
-@mixin kiwi-gradient-text {
-  background-image: linear-gradient(to bottom, #54fe12 0%, #febc12 50%, #bc13fe 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100vw 100vh;
-  background-position: left top;
-  -webkit-background-clip: text;
-          background-clip: text;
-  color: transparent !important;
-  -webkit-text-fill-color: transparent !important;
-}
-
-// === Global reset ===
+// === NUCLEAR: force lawngreen + #111 everywhere ===
 * { box-shadow: none !important; text-shadow: none !important; border-color: #111 !important; }
 
-// === Solid gray canvas ===
-html {
-  background: #bebebe !important;
-  background-color: #bebebe !important;
-  min-height: 100%;
-}
-
-body {
-  background: transparent !important;
-  background-color: transparent !important;
-  font-size: 18px;
-  font-family: "EB Garamond", "Noto Serif KR", Georgia, serif;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  min-height: 100vh;
-}
-
-body.lang-ko { font-family: "Noto Serif KR", "EB Garamond", Georgia, serif; }
-body.lang-ja { font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif; }
-
-// Force every container transparent so the #bebebe canvas shows through
+// Force lawngreen bg on EVERY possible container
 html, body,
 .main, .main-content, .main-content-wrap,
 .side-bar, .site-nav, .nav-list,
@@ -50,15 +13,8 @@ html, body,
 .search, .search-overlay, .search-results-wrap,
 .breadcrumb-nav, .children-nav,
 #top, [class*="nav"], [class*="header"] {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-}
-
-// Re-apply solid gray canvas to html (override the blanket rule above)
-html {
-  background: #bebebe !important;
-  background-color: #bebebe !important;
+  background: lawngreen !important;
+  background-color: lawngreen !important;
   background-image: none !important;
 }
 
@@ -69,6 +25,7 @@ html {
   width: 0 !important;
   height: 0 !important;
 }
+// Prevent search-active from locking the page
 .search-active .main { position: static !important; }
 .search-active .search { position: relative !important; width: auto !important; height: auto !important; }
 
@@ -79,7 +36,7 @@ div[style*="background:black"][style*="position:fixed"] {
   background: transparent !important;
 }
 
-// Kill theme table gray backgrounds
+// Kill ALL theme gray backgrounds
 .main-content table tr,
 .main-content table td,
 .main-content table th,
@@ -90,105 +47,56 @@ div[style*="background:black"][style*="position:fixed"] {
 .main-content-wrap,
 .main,
 #main-content,
-main { background-color: transparent !important; background: transparent !important; }
+main { background-color: lawngreen !important; background: lawngreen !important; }
 
-// =====================================================
-// Gradient text — applied broadly, then overridden for
-// inverted chips / pills that need solid contrast.
-// =====================================================
-.main-content,
-.main-content p,
-.main-content li,
-.main-content a,
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6,
-.main-content strong,
-.main-content em,
-.main-content blockquote,
-.main-content code,
-.main-content table th,
-.main-content table td,
-.stats-bar,
-.stats-bar span,
-.aku-footer,
-.aku-footer span,
-.aku-deleted-section,
-.breadcrumb-nav,
-.breadcrumb-nav a,
-.lang-btn,
-.home-link,
-.warning-banner,
-.warning-banner span,
-.edit-history,
-.sec-num,
-.virus-name,
-.virus-code,
-.ref-link,
-.pill,
-.pill-type,
-.pill-vector,
-.pill-severity-moderate {
-  @include kiwi-gradient-text;
-}
+// Force text #111 everywhere (with exceptions below)
+.main-content *, .breadcrumb-nav * { color: #111; }
 
-// Theme link fills
-a { color: transparent !important; -webkit-text-fill-color: transparent !important; }
+// Pill exceptions (black bg + lawngreen text)
+.pill-code, .pill-active { color: lawngreen !important; background: #111 !important; }
+.pill-severity-high, .pill-severity-critical { color: lawngreen !important; background: #111 !important; }
 
-// =====================================================
-// Solid-color overrides for inverted/high-contrast chips
-// =====================================================
-.pill-code,
-.pill-active,
-.pill-severity-high,
-.pill-severity-critical,
-.lang-btn.active {
-  background: #111 !important;
-  background-image: none !important;
-  color: #fff !important;
-  -webkit-text-fill-color: #fff !important;
-}
-
-// Warning banner — always dark, solid white text
-.warning-banner,
-.warning-banner span {
-  background: #111 !important;
-  background-image: none !important;
-  color: #fff !important;
-  -webkit-text-fill-color: #fff !important;
-}
-
-// Ref link hover → solid dark chip
-.ref-link:hover {
-  background: #111 !important;
-  background-image: none !important;
-  color: #fff !important;
-  -webkit-text-fill-color: #fff !important;
-}
-
-// Infobox header — solid dark with white text
+// Infobox header
 .main-content > div:first-child table th,
-.main-content > table:first-of-type th {
-  background: #111 !important;
-  background-image: none !important;
-  color: #fff !important;
-  -webkit-text-fill-color: #fff !important;
+.main-content > table:first-of-type th { color: lawngreen !important; background: #111 !important; }
+
+
+
+// Lang toggle active
+.lang-btn.active { color: lawngreen !important; background: #111 !important; }
+
+// ---- Base: serif body (EB Garamond) ----
+body {
+  background: lawngreen;
+  color: #111;
+  font-size: 18px;
+  font-family: "EB Garamond", "Noto Serif KR", Georgia, serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
-// ---- Content typography ----
+body.lang-ko {
+  font-family: "Noto Serif KR", "EB Garamond", Georgia, serif;
+}
+
+body.lang-ja {
+  font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
+}
+
+// ---- Content ----
 .main-content {
   max-width: 100%;
   font-size: 18px;
   line-height: 1.75;
   letter-spacing: -0.01em;
+  color: #111;
 
   h1 {
     font-family: inherit;
     font-weight: 400;
+    font-style: normal;
     font-size: 2.2em;
+    color: #111;
     border-bottom: none;
     margin: 0 0 24px;
     text-transform: uppercase;
@@ -198,7 +106,9 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   h2 {
     font-family: inherit;
     font-weight: 700;
+    font-style: normal;
     font-size: 1.3em;
+    color: #111;
     border-bottom: none;
     margin: 2em 0 0.6em;
     text-transform: uppercase;
@@ -208,19 +118,25 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   h3 {
     font-family: inherit;
     font-weight: 700;
+    font-style: normal;
     font-size: 1.1em;
+    color: #111;
     margin: 1.5em 0 0.4em;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
 
-  p { margin: 0 0 1em; text-align: justify; }
+  p {
+    margin: 0 0 1em;
+    text-align: justify;
+  }
 
   a {
+    color: #111;
     text-decoration: underline;
-    text-decoration-color: #111 !important;
+    text-decoration-color: #111;
     font-style: normal;
-    &:hover { text-decoration-thickness: 2px; text-decoration-color: #111 !important; }
+    &:hover { text-decoration-thickness: 2px; text-decoration-color: #111; }
   }
 
   ul, ol {
@@ -252,7 +168,9 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   top: -9999px !important;
   left: -9999px !important;
 }
-#main-header { display: none !important; }
+#main-header {
+  display: none !important;
+}
 
 .main-content-wrap {
   max-width: 900px;
@@ -260,14 +178,16 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   padding: 20px;
 }
 .main {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
 }
 .main-content h1:first-child { display: none; }
 
-// ---- Tables (used on sub-pages) ----
+// ---- Tables ----
 .main-content table {
   width: 100%;
   border-collapse: collapse;
@@ -291,18 +211,27 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   th {
     font-weight: 500;
     font-size: 13px;
+    color: #111;
     background: transparent;
   }
 
-  td { vertical-align: top; background: transparent !important; }
+  td {
+    vertical-align: top;
+    color: #111;
+    background: transparent !important;
+  }
 
   tr { background: transparent !important; }
   tr:nth-child(even) td { background: transparent !important; }
-  tr:hover { background: transparent !important; outline: 1px solid #111; }
+
+  tr:hover {
+    background: transparent !important; outline: 1px solid #111;
+  }
 
   a {
     text-decoration: none;
     font-style: normal;
+    color: #111;
     &:hover { text-decoration: underline; }
   }
 }
@@ -323,9 +252,10 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   margin: 0 0 20px 20px;
   border: 2px solid #111;
   overflow: visible;
-  background: rgba(255, 255, 255, 0.18);
 
   th {
+    background: #111;
+    color: lawngreen;
     text-align: center;
     font-family: inherit;
     font-size: 14px;
@@ -342,6 +272,7 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
 
   td { font-weight: 400; }
 
+  // Infobox image slot: full-width cell with colspan
   td img {
     display: block;
     width: 100%;
@@ -349,7 +280,10 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
     filter: grayscale(1) contrast(3) brightness(0.8);
     mix-blend-mode: multiply;
   }
-  td[colspan] { padding: 0; text-align: center; }
+  td[colspan] {
+    padding: 0;
+    text-align: center;
+  }
 
   @media (max-width: 768px) {
     float: none;
@@ -368,10 +302,13 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   line-height: 1.6;
   border: 1px solid #111;
   white-space: nowrap;
+  color: #111;
   background: transparent;
 }
 
 .pill-code {
+  background: #111;
+  color: lawngreen;
   border-color: #111;
   font-family: "IBM Plex Mono", "SF Mono", "Consolas", monospace;
   font-size: 10px;
@@ -379,9 +316,11 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   letter-spacing: 0.5px;
 }
 
-.pill-severity-moderate { background: transparent; border: 1px dashed #111; }
-.pill-severity-high { border: 2px solid #111; }
-.pill-severity-critical { border: 3px solid #111; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.pill-type, .pill-vector { background: transparent; color: #111; }
+.pill-active { background: #111; color: lawngreen; border-color: #111; }
+.pill-severity-moderate { background: transparent; color: #111; border: 1px dashed #111; }
+.pill-severity-high { background: #111; color: lawngreen; border: 2px solid #111; }
+.pill-severity-critical { background: #111; color: lawngreen; border: 3px solid #111; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
 
 // ---- Language toggle ----
 .lang-toggle {
@@ -390,7 +329,6 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   margin-bottom: 20px;
   position: relative;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.2);
 }
 
 .lang-btn {
@@ -403,9 +341,11 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   text-transform: uppercase;
   letter-spacing: 1px;
   background: transparent;
+  color: #111;
   cursor: pointer;
   &:not(:last-child) { border-right: 1px solid #111; }
   &:hover { background: transparent; text-decoration: none; }
+  &.active { background: #111; color: lawngreen; }
 }
 
 // ---- HR (hazard stripe) ----
@@ -417,8 +357,8 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
     -45deg,
     #111,
     #111 4px,
-    transparent 4px,
-    transparent 8px
+    lawngreen 4px,
+    lawngreen 8px
   ) !important;
 }
 
@@ -426,6 +366,7 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
 .main-content blockquote {
   border-left: 3px solid #111;
   padding: 0.4em 1em;
+  color: #111;
   background: transparent;
   margin: 1em 0;
   font-style: italic;
@@ -438,16 +379,19 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
   border: 1px solid #111;
   padding: 1px 4px;
   font-size: 0.9em;
+  color: #111;
 }
 
 // ---- Anchor (hidden) ----
-.main-content .anchor-heading { display: none !important; }
+.main-content .anchor-heading {
+  display: none !important;
+}
 
 // ---- Float clear ----
 .main-content h2 { clear: both; }
 
 // ---- Selection ----
-::selection { background: #111; color: #fff !important; -webkit-text-fill-color: #fff !important; }
+::selection { background: #111; color: lawngreen; }
 
 // ---- Scrollbar hide ----
 .main-content-wrap {
@@ -459,6 +403,8 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
 // ---- Breadcrumbs ----
 .breadcrumb-nav {
   font-size: 12px;
+  color: #111;
+  a { color: #111; }
   li::before { color: #111 !important; }
 }
 
@@ -472,6 +418,7 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
     font-family: inherit;
     font-weight: 400;
     font-size: 1.2em;
+    color: #111;
     border-bottom: 1px solid #111;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -494,6 +441,7 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
       &::before { content: none !important; }
       &::marker { content: none !important; display: none !important; }
       a {
+        color: #111;
         text-decoration: none;
         font-style: normal;
         font-size: 14px;
@@ -505,37 +453,44 @@ a { color: transparent !important; -webkit-text-fill-color: transparent !importa
 
 html { scroll-behavior: smooth; }
 
-.sec-num { margin-right: 4px; font-weight: 400; }
+.sec-num {
+  color: #111;
+  margin-right: 4px;
+  font-weight: 400;
+}
 
 // ---- Home link ----
 .home-link {
   font-style: normal;
   font-size: 18px;
   text-decoration: none;
+  color: #111;
   &:hover { opacity: 1; }
 }
 
+
 // ---- Warning banner ----
 .warning-banner {
+  background: #111;
+  color: lawngreen;
   padding: 8px 14px;
   font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  span { color: lawngreen !important; }
 }
 
 // ---- Redacted text ----
 .redacted {
   background: #111;
-  color: #111 !important;
-  -webkit-text-fill-color: #111 !important;
+  color: #111;
   padding: 0 3px;
   cursor: default;
   user-select: none;
   position: relative;
   display: inline-block;
-  background-image: none !important;
 }
 
 // ---- Edit history ----
@@ -544,6 +499,7 @@ html { scroll-behavior: smooth; }
   margin-top: 40px;
   padding-top: 12px;
   font-size: 10px;
+  color: #111;
   font-family: inherit;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -554,116 +510,10 @@ html { scroll-behavior: smooth; }
   font-family: inherit;
   font-size: 14px;
   letter-spacing: 1px;
-  margin-bottom: 12px;
+  color: #111;
+  margin-bottom: 20px;
   opacity: 1;
-  text-align: center;
   span { margin-right: 16px; }
-}
-
-// =====================================================
-// ---- Floating virus field (index page) ----
-// Compact, nearly-viewport-contained, pseudo-random
-// absolute placement driven by inline --x / --y / --r.
-// =====================================================
-.virus-field {
-  position: relative;
-  width: 100%;
-  height: clamp(440px, 68vh, 640px);
-  margin: 14px 0 28px;
-  overflow: visible;
-}
-
-.virus-node {
-  position: absolute;
-  left: var(--x, 50%);
-  top: var(--y, 50%);
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  text-decoration: none !important;
-  padding: 2px 5px;
-  line-height: 1.15;
-  white-space: nowrap;
-  user-select: none;
-  transform: translate(-50%, -50%) rotate(var(--r, 0deg));
-  transform-origin: center center;
-  animation: virusDrift 11s ease-in-out infinite;
-  will-change: transform;
-
-  .virus-code {
-    font-family: "IBM Plex Mono", "SF Mono", Consolas, monospace;
-    font-size: 8px;
-    font-weight: 400;
-    letter-spacing: 0.8px;
-    margin-bottom: 1px;
-  }
-
-  .virus-name {
-    font-family: inherit;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-  }
-
-  &:hover {
-    animation-play-state: paused;
-    z-index: 20;
-    .virus-name {
-      text-decoration: underline;
-      text-decoration-color: #111 !important;
-      text-decoration-thickness: 1.5px;
-    }
-  }
-}
-
-// Primordial (KiwiZero) — a shade larger + always on top
-.virus-node.is-primordial {
-  z-index: 6;
-  .virus-code { font-size: 9px; letter-spacing: 1.2px; }
-  .virus-name { font-size: 17px; font-weight: 600; letter-spacing: 0.6px; }
-}
-
-// Drift keyframes — keep the base rotation, add a small translate offset.
-// The transform must always re-declare translate(-50%,-50%) so the
-// anchor-from-top-left positioning stays centered on --x/--y.
-@keyframes virusDrift {
-  0%, 100% { transform: translate(-50%, -50%) rotate(var(--r, 0deg)) translate(0, 0); }
-  25%      { transform: translate(-50%, -50%) rotate(var(--r, 0deg)) translate(2px, -3px); }
-  50%      { transform: translate(-50%, -50%) rotate(var(--r, 0deg)) translate(-3px, 2px); }
-  75%      { transform: translate(-50%, -50%) rotate(var(--r, 0deg)) translate(3px, 1px); }
-}
-
-// Stagger animation timing so neighbors drift out of sync
-.virus-node:nth-child(5n+1) { animation-duration:  9s; animation-delay: -0.4s; }
-.virus-node:nth-child(5n+2) { animation-duration: 12s; animation-delay: -2.1s; animation-direction: reverse; }
-.virus-node:nth-child(5n+3) { animation-duration: 14s; animation-delay: -3.7s; }
-.virus-node:nth-child(5n+4) { animation-duration: 10s; animation-delay: -5.2s; animation-direction: reverse; }
-.virus-node:nth-child(5n)   { animation-duration: 13s; animation-delay: -1.3s; }
-
-// ---- Reference grid (replaces the bottom reference table) ----
-.ref-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  justify-content: center;
-  margin: 28px 0 20px;
-  padding-top: 22px;
-  border-top: 1px dashed #111;
-}
-
-.ref-link {
-  display: inline-block;
-  padding: 6px 14px;
-  border: 1px solid #111;
-  text-decoration: none !important;
-  font-size: 12px;
-  font-family: "IBM Plex Mono", "SF Mono", Consolas, monospace;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  background: rgba(255, 255, 255, 0.15);
-  transition: background 0.2s ease;
 }
 
 // ---- Mobile ----
@@ -677,26 +527,13 @@ html { scroll-behavior: smooth; }
   .main-content table {
     font-size: 12px;
     th, td { padding: 6px 8px; }
+    // Hide Type + Vector columns on mobile
     th:nth-child(3), td:nth-child(3),
     th:nth-child(4), td:nth-child(4) { display: none; }
   }
 
   .pill { font-size: 10px; padding: 1px 6px; }
   .pill-code { font-size: 9px; }
-
-  .virus-field {
-    height: clamp(400px, 76vh, 580px);
-    margin: 8px 0 20px;
-  }
-  .virus-node {
-    padding: 1px 3px;
-    .virus-code { font-size: 7px; letter-spacing: 0.6px; }
-    .virus-name { font-size: 11px; letter-spacing: 0.2px; }
-  }
-  .virus-node.is-primordial {
-    .virus-code { font-size: 8px; }
-    .virus-name { font-size: 14px; }
-  }
 }
 
 
@@ -736,6 +573,7 @@ html { scroll-behavior: smooth; }
   padding: 20px;
   margin-top: 40px;
   font-size: 11px;
+  color: #111;
   letter-spacing: 0.5px;
   text-align: center;
 }
@@ -744,6 +582,7 @@ html { scroll-behavior: smooth; }
 .aku-deleted-section {
   font-family: "IBM Plex Mono", monospace;
   font-size: 11px;
+  color: #111;
   opacity: 0.4;
   padding: 20px 0;
   text-align: center;
@@ -765,6 +604,7 @@ html { scroll-behavior: smooth; }
 }
 
 // ---- Kill remaining theme grays ----
+// Disabled buttons (hardcoded rgba grays in theme)
 .btn:disabled, .btn[disabled] {
   color: #111 !important;
   background-color: transparent !important;
@@ -772,18 +612,14 @@ html { scroll-behavior: smooth; }
 .btn-outline { box-shadow: inset 0 0 0 2px #111 !important; }
 .btn-outline:focus { box-shadow: inset 0 0 0 2px #111 !important; }
 
+// Table shadow & cell borders
 .main-content table { box-shadow: none !important; }
 .main-content table td,
 .main-content table th { border-bottom-color: #111 !important; }
 
+// Links: kill rgba hover underline
 a { text-decoration-color: #111 !important; }
 a:hover { text-decoration-color: #111 !important; }
 
+// Label text on colored backgrounds
 .label-yellow:not(g) { color: #111 !important; }
-
-// Respect reduced motion
-@media (prefers-reduced-motion: reduce) {
-  .virus-node { animation: none !important; }
-  .main-content h2:first-of-type { animation: none !important; }
-  .main-content h2:first-of-type::after { animation: none !important; }
-}
