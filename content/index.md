@@ -27,7 +27,7 @@ Web Kiwi Virus Wiki
   <div class="lineage" role="tree" aria-label="Web Kiwi Virus phylogeny">
     <div class="lineage-root">
       <a class="strain-node strain-root is-{{ primordial.severity }}" href="{{ primordial.file | relative_url }}">
-        <span class="strain-code">{{ primordial.code }}</span>
+        <span class="strain-code pill pill-code">{{ primordial.code }}</span>
         <span class="strain-name">✢{{ primordial.en }}✢</span>
       </a>
       <div class="primordial-label">PRIMORDIAL STRAIN</div>
@@ -47,7 +47,7 @@ Web Kiwi Virus Wiki
             {%- for s in strains -%}
               <li>
                 <a class="strain-node is-{{ s.severity }}" href="{{ s.file | relative_url }}">
-                  <span class="strain-code">{{ s.code | remove_first: "WKV-" }}</span>
+                  <span class="strain-code pill pill-code">{{ s.code | remove_first: "WKV-" }}</span>
                   <span class="strain-name">✢{{ s.en }}✢</span>
                 </a>
               </li>
@@ -69,7 +69,7 @@ Web Kiwi Virus Wiki
   <div class="lineage" role="tree" aria-label="웹키위바이러스 계통수">
     <div class="lineage-root">
       <a class="strain-node strain-root is-{{ primordial.severity }}" href="{{ primordial.file | relative_url }}">
-        <span class="strain-code">{{ primordial.code }}</span>
+        <span class="strain-code pill pill-code">{{ primordial.code }}</span>
         <span class="strain-name">✢{{ primordial.ko }}✢</span>
       </a>
       <div class="primordial-label">원형 변이주 / PRIMORDIAL STRAIN</div>
@@ -89,7 +89,7 @@ Web Kiwi Virus Wiki
             {%- for s in strains -%}
               <li>
                 <a class="strain-node is-{{ s.severity }}" href="{{ s.file | relative_url }}">
-                  <span class="strain-code">{{ s.code | remove_first: "WKV-" }}</span>
+                  <span class="strain-code pill pill-code">{{ s.code | remove_first: "WKV-" }}</span>
                   <span class="strain-name">✢{{ s.ko }}✢</span>
                 </a>
               </li>
@@ -111,7 +111,7 @@ Web Kiwi Virus Wiki
   <div class="lineage" role="tree" aria-label="ウェブキウイウイルス系統樹">
     <div class="lineage-root">
       <a class="strain-node strain-root is-{{ primordial.severity }}" href="{{ primordial.file | relative_url }}">
-        <span class="strain-code">{{ primordial.code }}</span>
+        <span class="strain-code pill pill-code">{{ primordial.code }}</span>
         <span class="strain-name">✢{{ primordial.ja }}✢</span>
       </a>
       <div class="primordial-label">原型変異株 / PRIMORDIAL STRAIN</div>
@@ -131,7 +131,7 @@ Web Kiwi Virus Wiki
             {%- for s in strains -%}
               <li>
                 <a class="strain-node is-{{ s.severity }}" href="{{ s.file | relative_url }}">
-                  <span class="strain-code">{{ s.code | remove_first: "WKV-" }}</span>
+                  <span class="strain-code pill pill-code">{{ s.code | remove_first: "WKV-" }}</span>
                   <span class="strain-name">✢{{ s.ja }}✢</span>
                 </a>
               </li>
