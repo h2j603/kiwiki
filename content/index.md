@@ -22,7 +22,7 @@ Web Kiwi Virus Wiki
 <div class="stats-bar ja"><span>32種 文書化</span> <span>7種 致命的</span> <span>4タイプ</span> <span>5経路</span></div>
 
 
-<div class="en" markdown="1">
+<div class="en vlist" markdown="1">
 
 | Code | Name | Type | Vector | Severity |
 |------|------|------|--------|----------|
@@ -69,7 +69,7 @@ Web Kiwi Virus Wiki
 
 </div>
 
-<div class="ko" markdown="1">
+<div class="ko vlist" markdown="1">
 
 | 코드 | 이름 | 유형 | 경로 | 위험도 |
 |------|------|------|------|--------|
@@ -116,7 +116,7 @@ Web Kiwi Virus Wiki
 
 </div>
 
-<div class="ja" markdown="1">
+<div class="ja vlist" markdown="1">
 
 | コード | 名前 | タイプ | 経路 | 危険度 |
 |--------|------|--------|------|--------|
