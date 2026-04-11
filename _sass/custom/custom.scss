@@ -1,11 +1,38 @@
 // ============================================
-// Kiwiki — lawngreen bg + black text
+// Kiwiki — gradient bg (#54fe12 → #febc12 → #bc13fe) + black foreground
 // ============================================
 
-// === NUCLEAR: force lawngreen + #111 everywhere ===
+// === Global reset: kill shadows, force black borders ===
 * { box-shadow: none !important; text-shadow: none !important; border-color: #111 !important; }
 
-// Force lawngreen bg on EVERY possible container
+// === Gradient background (viewport-fixed so all pages share the full gradient) ===
+html {
+  background: #54fe12;
+  background: linear-gradient(to bottom, #54fe12 0%, #febc12 50%, #bc13fe 100%) fixed;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+body {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #111;
+  font-size: 18px;
+  font-family: "EB Garamond", "Noto Serif KR", Georgia, serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+body.lang-ko {
+  font-family: "Noto Serif KR", "EB Garamond", Georgia, serif;
+}
+
+body.lang-ja {
+  font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
+}
+
+// Force every container transparent so the body gradient shows through
 html, body,
 .main, .main-content, .main-content-wrap,
 .side-bar, .site-nav, .nav-list,
@@ -13,9 +40,15 @@ html, body,
 .search, .search-overlay, .search-results-wrap,
 .breadcrumb-nav, .children-nav,
 #top, [class*="nav"], [class*="header"] {
-  background: lawngreen !important;
-  background-color: lawngreen !important;
+  background: transparent !important;
+  background-color: transparent !important;
   background-image: none !important;
+}
+
+// Re-apply the gradient to html only (override the blanket rule above)
+html {
+  background: linear-gradient(to bottom, #54fe12 0%, #febc12 50%, #bc13fe 100%) fixed !important;
+  background-attachment: fixed !important;
 }
 
 // Kill search overlay (root cause of black container)
@@ -25,7 +58,6 @@ html, body,
   width: 0 !important;
   height: 0 !important;
 }
-// Prevent search-active from locking the page
 .search-active .main { position: static !important; }
 .search-active .search { position: relative !important; width: auto !important; height: auto !important; }
 
@@ -36,7 +68,7 @@ div[style*="background:black"][style*="position:fixed"] {
   background: transparent !important;
 }
 
-// Kill ALL theme gray backgrounds
+// Kill theme table gray backgrounds
 .main-content table tr,
 .main-content table td,
 .main-content table th,
@@ -47,41 +79,21 @@ div[style*="background:black"][style*="position:fixed"] {
 .main-content-wrap,
 .main,
 #main-content,
-main { background-color: lawngreen !important; background: lawngreen !important; }
+main { background-color: transparent !important; background: transparent !important; }
 
 // Force text #111 everywhere (with exceptions below)
 .main-content *, .breadcrumb-nav * { color: #111; }
 
-// Pill exceptions (black bg + lawngreen text)
-.pill-code, .pill-active { color: lawngreen !important; background: #111 !important; }
-.pill-severity-high, .pill-severity-critical { color: lawngreen !important; background: #111 !important; }
+// Pill exceptions (black bg + white accent text so they read on any gradient band)
+.pill-code, .pill-active { color: #fff !important; background: #111 !important; }
+.pill-severity-high, .pill-severity-critical { color: #fff !important; background: #111 !important; }
 
 // Infobox header
 .main-content > div:first-child table th,
-.main-content > table:first-of-type th { color: lawngreen !important; background: #111 !important; }
-
-
+.main-content > table:first-of-type th { color: #fff !important; background: #111 !important; }
 
 // Lang toggle active
-.lang-btn.active { color: lawngreen !important; background: #111 !important; }
-
-// ---- Base: serif body (EB Garamond) ----
-body {
-  background: lawngreen;
-  color: #111;
-  font-size: 18px;
-  font-family: "EB Garamond", "Noto Serif KR", Georgia, serif;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-}
-
-body.lang-ko {
-  font-family: "Noto Serif KR", "EB Garamond", Georgia, serif;
-}
-
-body.lang-ja {
-  font-family: "Noto Serif KR", "Noto Sans JP", "EB Garamond", serif;
-}
+.lang-btn.active { color: #fff !important; background: #111 !important; }
 
 // ---- Content ----
 .main-content {
@@ -187,7 +199,7 @@ body.lang-ja {
 }
 .main-content h1:first-child { display: none; }
 
-// ---- Tables ----
+// ---- Tables (still used on sub-pages / reference list) ----
 .main-content table {
   width: 100%;
   border-collapse: collapse;
@@ -252,10 +264,11 @@ body.lang-ja {
   margin: 0 0 20px 20px;
   border: 2px solid #111;
   overflow: visible;
+  background: rgba(255,255,255,0.18);
 
   th {
     background: #111;
-    color: lawngreen;
+    color: #fff;
     text-align: center;
     font-family: inherit;
     font-size: 14px;
@@ -272,7 +285,6 @@ body.lang-ja {
 
   td { font-weight: 400; }
 
-  // Infobox image slot: full-width cell with colspan
   td img {
     display: block;
     width: 100%;
@@ -308,7 +320,7 @@ body.lang-ja {
 
 .pill-code {
   background: #111;
-  color: lawngreen;
+  color: #fff;
   border-color: #111;
   font-family: "IBM Plex Mono", "SF Mono", "Consolas", monospace;
   font-size: 10px;
@@ -317,10 +329,10 @@ body.lang-ja {
 }
 
 .pill-type, .pill-vector { background: transparent; color: #111; }
-.pill-active { background: #111; color: lawngreen; border-color: #111; }
+.pill-active { background: #111; color: #fff; border-color: #111; }
 .pill-severity-moderate { background: transparent; color: #111; border: 1px dashed #111; }
-.pill-severity-high { background: #111; color: lawngreen; border: 2px solid #111; }
-.pill-severity-critical { background: #111; color: lawngreen; border: 3px solid #111; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.pill-severity-high { background: #111; color: #fff; border: 2px solid #111; }
+.pill-severity-critical { background: #111; color: #fff; border: 3px solid #111; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
 
 // ---- Language toggle ----
 .lang-toggle {
@@ -329,6 +341,7 @@ body.lang-ja {
   margin-bottom: 20px;
   position: relative;
   z-index: 100;
+  background: rgba(255,255,255,0.15);
 }
 
 .lang-btn {
@@ -345,7 +358,7 @@ body.lang-ja {
   cursor: pointer;
   &:not(:last-child) { border-right: 1px solid #111; }
   &:hover { background: transparent; text-decoration: none; }
-  &.active { background: #111; color: lawngreen; }
+  &.active { background: #111; color: #fff; }
 }
 
 // ---- HR (hazard stripe) ----
@@ -357,8 +370,8 @@ body.lang-ja {
     -45deg,
     #111,
     #111 4px,
-    lawngreen 4px,
-    lawngreen 8px
+    transparent 4px,
+    transparent 8px
   ) !important;
 }
 
@@ -391,7 +404,7 @@ body.lang-ja {
 .main-content h2 { clear: both; }
 
 // ---- Selection ----
-::selection { background: #111; color: lawngreen; }
+::selection { background: #111; color: #fff; }
 
 // ---- Scrollbar hide ----
 .main-content-wrap {
@@ -472,14 +485,14 @@ html { scroll-behavior: smooth; }
 // ---- Warning banner ----
 .warning-banner {
   background: #111;
-  color: lawngreen;
+  color: #fff;
   padding: 8px 14px;
   font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  span { color: lawngreen !important; }
+  span { color: #fff !important; }
 }
 
 // ---- Redacted text ----
@@ -513,8 +526,126 @@ html { scroll-behavior: smooth; }
   color: #111;
   margin-bottom: 20px;
   opacity: 1;
+  text-align: center;
   span { margin-right: 16px; }
 }
+
+// ============================================
+// ---- Floating virus field (index page) ----
+// ============================================
+.virus-field {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 34px 56px;
+  padding: 40px 10px 60px;
+  min-height: 520px;
+  perspective: 800px;
+}
+
+.virus-node {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none !important;
+  color: #111 !important;
+  padding: 6px 10px;
+  line-height: 1.2;
+  transform-origin: center center;
+  animation: virusDrift 12s ease-in-out infinite;
+  will-change: transform;
+
+  .virus-code {
+    font-family: "IBM Plex Mono", "SF Mono", Consolas, monospace;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    color: #111;
+    margin-bottom: 2px;
+    white-space: nowrap;
+  }
+
+  .virus-name {
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+  }
+
+  &:hover {
+    animation-play-state: paused;
+    .virus-name { text-decoration: underline; text-decoration-thickness: 2px; }
+  }
+}
+
+// Drift variations — different cycles per node so the field breathes unevenly
+.virus-node:nth-child(6n+1) { animation-duration: 11s; animation-delay: -0.3s; }
+.virus-node:nth-child(6n+2) { animation-duration: 13s; animation-delay: -1.7s; animation-direction: reverse; }
+.virus-node:nth-child(6n+3) { animation-duration: 14s; animation-delay: -3.1s; }
+.virus-node:nth-child(6n+4) { animation-duration: 10s; animation-delay: -4.5s; animation-direction: reverse; }
+.virus-node:nth-child(6n+5) { animation-duration: 15s; animation-delay: -2.2s; }
+.virus-node:nth-child(6n)   { animation-duration: 12s; animation-delay: -5.8s; animation-direction: reverse; }
+
+// Slight horizontal stagger so rows aren't ruler-straight
+.virus-node:nth-child(4n)   { margin-top: 18px; }
+.virus-node:nth-child(4n+1) { margin-top: -12px; }
+.virus-node:nth-child(4n+2) { margin-top: 8px; }
+.virus-node:nth-child(4n+3) { margin-top: -6px; }
+
+@keyframes virusDrift {
+  0%   { transform: translate(0, 0) rotate(-1.2deg); }
+  20%  { transform: translate(4px, -6px) rotate(0.6deg); }
+  40%  { transform: translate(-5px, -3px) rotate(1.1deg); }
+  60%  { transform: translate(3px, 5px) rotate(-0.5deg); }
+  80%  { transform: translate(-3px, 2px) rotate(0.4deg); }
+  100% { transform: translate(0, 0) rotate(-1.2deg); }
+}
+
+// Primordial virus (KiwiZero) pulses slightly larger and slower
+.virus-node.is-primordial {
+  .virus-code { font-size: 11px; letter-spacing: 1.5px; }
+  .virus-name { font-size: 22px; font-weight: 600; }
+  animation-duration: 18s;
+}
+
+// ---- Reference grid (replaces the bottom reference table) ----
+.ref-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  margin: 40px 0 20px;
+  padding-top: 30px;
+  border-top: 1px dashed #111;
+}
+
+.ref-link {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid #111;
+  color: #111 !important;
+  text-decoration: none !important;
+  font-size: 12px;
+  font-family: "IBM Plex Mono", "SF Mono", Consolas, monospace;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: rgba(255, 255, 255, 0.12);
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: #111;
+    color: #fff !important;
+  }
+}
+
+// Hide the index-page heading/stats "spacing" conflict with floating field
+.virus-field + p:empty { display: none; }
 
 // ---- Mobile ----
 @media (max-width: 768px) {
@@ -527,13 +658,26 @@ html { scroll-behavior: smooth; }
   .main-content table {
     font-size: 12px;
     th, td { padding: 6px 8px; }
-    // Hide Type + Vector columns on mobile
     th:nth-child(3), td:nth-child(3),
     th:nth-child(4), td:nth-child(4) { display: none; }
   }
 
   .pill { font-size: 10px; padding: 1px 6px; }
   .pill-code { font-size: 9px; }
+
+  .virus-field {
+    gap: 22px 28px;
+    padding: 20px 4px 40px;
+    min-height: unset;
+  }
+  .virus-node {
+    .virus-code { font-size: 9px; }
+    .virus-name { font-size: 15px; }
+  }
+  .virus-node.is-primordial {
+    .virus-code { font-size: 10px; }
+    .virus-name { font-size: 18px; }
+  }
 }
 
 
@@ -604,7 +748,6 @@ html { scroll-behavior: smooth; }
 }
 
 // ---- Kill remaining theme grays ----
-// Disabled buttons (hardcoded rgba grays in theme)
 .btn:disabled, .btn[disabled] {
   color: #111 !important;
   background-color: transparent !important;
@@ -612,14 +755,18 @@ html { scroll-behavior: smooth; }
 .btn-outline { box-shadow: inset 0 0 0 2px #111 !important; }
 .btn-outline:focus { box-shadow: inset 0 0 0 2px #111 !important; }
 
-// Table shadow & cell borders
 .main-content table { box-shadow: none !important; }
 .main-content table td,
 .main-content table th { border-bottom-color: #111 !important; }
 
-// Links: kill rgba hover underline
 a { text-decoration-color: #111 !important; }
 a:hover { text-decoration-color: #111 !important; }
 
-// Label text on colored backgrounds
 .label-yellow:not(g) { color: #111 !important; }
+
+// Respect reduced motion
+@media (prefers-reduced-motion: reduce) {
+  .virus-node { animation: none !important; }
+  .main-content h2:first-of-type { animation: none !important; }
+  .main-content h2:first-of-type::after { animation: none !important; }
+}
