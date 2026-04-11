@@ -674,14 +674,15 @@ a:hover { text-decoration-color: #111 !important; }
   margin: 0;
 }
 
+// Root node code pill sits on its own line above the name and is a
+// hair larger than branch pills so it reads as the anchor. Everything
+// else (bg / color / font / radius) comes from .pill.pill-code below.
 .lineage-root .strain-node .strain-code {
-  display: block;
-  font-family: "IBM Plex Mono", "SF Mono", Consolas, monospace;
+  display: inline-block;
   font-size: 11px;
-  font-weight: 400;
   letter-spacing: 1.2px;
-  color: #111;
-  margin-bottom: 3px;
+  padding: 2px 10px;
+  margin: 0 0 8px;
 }
 
 .lineage-root .strain-node .strain-name {
@@ -808,14 +809,11 @@ a:hover { text-decoration-color: #111 !important; }
   color: #111 !important;
   transition: outline 0.12s ease;
 
+  // Code pill: reuses the global .pill.pill-code styling (black bg +
+  // lawngreen mono text). Only layout (margin below so the name drops
+  // to the next line) is asserted here.
   .strain-code {
-    display: block;
-    font-family: "IBM Plex Mono", "SF Mono", Consolas, monospace;
-    font-size: 9px;
-    font-weight: 400;
-    letter-spacing: 0.8px;
-    color: #111;
-    margin-bottom: 1px;
+    margin: 0 0 3px;
   }
 
   .strain-name {
@@ -900,7 +898,11 @@ a:hover { text-decoration-color: #111 !important; }
 
   .lineage-root {
     padding: 14px 20px 10px;
-    .strain-node .strain-code { font-size: 10px; }
+    .strain-node .strain-code {
+      font-size: 10px;
+      padding: 1px 8px;
+      margin-bottom: 6px;
+    }
     .strain-node .strain-name { font-size: 18px; }
     .primordial-label { font-size: 8px; letter-spacing: 1.8px; }
   }
@@ -927,6 +929,7 @@ a:hover { text-decoration-color: #111 !important; }
     padding: 18px 0 0 18px;
     margin-top: 18px;
     border-left: 1px solid #111;
+    text-align: left;
 
     // Turn the drop-line into a small horizontal tick protruding left
     &::before {
@@ -953,7 +956,10 @@ a:hover { text-decoration-color: #111 !important; }
   .branch-strains li { margin: 0 0 10px !important; }
 
   .strain-node {
-    .strain-code { font-size: 8px; }
+    .strain-code {
+      font-size: 8px;
+      padding: 0 6px;
+    }
     .strain-name { font-size: 13px; }
   }
 }
