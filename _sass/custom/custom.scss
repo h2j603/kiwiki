@@ -242,6 +242,23 @@ body.lang-ja {
   -webkit-overflow-scrolling: touch;
 }
 
+// ---- Vlist (index page tables) ----
+// The index wrapper divs (.en/.ko/.ja) also carry the .vlist class so
+// we can strip the markdown table <thead> column headers AND normalize
+// the vertical margins so consecutive tables sit on an even rhythm.
+// Scoped to .vlist so virus sub-page infoboxes remain unaffected.
+.vlist table {
+  margin: 20px 0 !important;
+}
+
+.vlist table thead {
+  display: none !important;
+}
+
+.vlist table + table {
+  margin-top: 20px !important;
+}
+
 // ---- Infobox ----
 .main-content > div:first-child table,
 .main-content > table:first-of-type {
