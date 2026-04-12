@@ -4,7 +4,7 @@ nav_order: 1
 permalink: /
 ---
 
-<div class="aku-logo-wrap"><img src="{{ '/assets/images/aku-logo.svg' | relative_url }}" alt="AKU" class="aku-logo"></div>
+<div class="aku-logo-wrap"><img src="{{ '/assets/images/aku-logo.svg' | relative_url }}" alt="AKU" class="aku-logo"><div class="aku-tagline">Maintained by Anti Kiwi Union (AKU) &mdash; Documenting, identifying, and containing web kiwi virus strains.</div></div>
 
 <div class="en vlist" markdown="1">
 
