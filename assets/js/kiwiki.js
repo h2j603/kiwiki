@@ -110,10 +110,10 @@ document.addEventListener('DOMContentLoaded', function(){
           // Initial scramble: randomize every row at once
           for (var r = 0; r < enRows.length; r++) shuffleRow(r);
 
-          // Continuous: switch one random name every 800ms
+          // Continuous: switch one random name every 200ms
           setInterval(function(){
             shuffleRow(Math.floor(Math.random() * enRows.length));
-          }, 800);
+          }, 200);
         }
       }
     }
@@ -793,17 +793,11 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 1500);
 
     // Phase 2: aggressively inject kiwi creature images everywhere
-    // Dark areas of the image become one of 3 kiwi colours via
-    // invert(1) (flips black→white) + sepia + hue-rotate + saturate.
-    // Images pixelate in via canvas rendering at increasing resolution.
+    // Black treatment: grayscale + high contrast + slight dim.
     var imgFolder = '/kiwiki/assets/images/kiwi-creature/';
     var creatureFiles = ['IMG_6034.jpeg','IMG_6035.jpeg','IMG_6039.jpeg','IMG_6041.jpeg','IMG_6042.jpeg','IMG_6046.jpeg'];
-    var colorTints = [
-      'grayscale(1) invert(1) sepia(1) hue-rotate(70deg) saturate(5) brightness(1)',   // #54fe12 green
-      'grayscale(1) invert(1) sepia(1) hue-rotate(0deg) saturate(3) brightness(1.2)',  // #febc12 yellow
-      'grayscale(1) invert(1) sepia(1) hue-rotate(240deg) saturate(5) brightness(0.8)' // #bc13fe purple
-    ];
-    function randomTint() { return colorTints[Math.floor(Math.random() * colorTints.length)]; }
+    var creatureFilter = 'grayscale(1) contrast(3) brightness(0.8)';
+    function randomTint() { return creatureFilter; }
 
     // Canvas pixelation: draw img at tiny res then scale up in steps
     function pixelateIn(canvas, img, targetW, targetH, onDone) {
