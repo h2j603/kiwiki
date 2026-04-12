@@ -5,6 +5,11 @@
 // === NUCLEAR: force #54fe12 + #111 everywhere ===
 * { box-shadow: none !important; text-shadow: none !important; border-color: #111 !important; }
 
+// 장평 축소: scaleX on body with width compensation so the entire
+// page condenses uniformly. html overflow-x: hidden clips the
+// oversized layout box (117.647% = 1/0.85) that exists only in flow.
+html { overflow-x: hidden !important; }
+
 // Force #54fe12 bg on EVERY possible container
 html, body,
 .main, .main-content, .main-content-wrap,
@@ -68,7 +73,7 @@ main { background-color: #54fe12 !important; background: #54fe12 !important; }
 // ---- Base: serif body (EB Garamond) ----
 // All Garamond text: uppercase, tracking 200 (0.2em), condensed (scaleX).
 // EB Garamond lacks a variable width axis so condensing is achieved via
-// transform: scaleX(0.85) on the content containers further down.
+// transform: scaleX(0.85) on body (with width: 117.647% compensation).
 body {
   background: #54fe12;
   color: #111;
@@ -78,6 +83,9 @@ body {
   -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  transform: scaleX(0.85);
+  transform-origin: left top;
+  width: 117.647%; // 1/0.85 — compensates scaleX so visual width = viewport
 }
 
 body.lang-ko {
@@ -170,16 +178,10 @@ body.lang-ja {
   display: none !important;
 }
 
-// 장평 축소: EB Garamond has no variable width axis so we condense
-// the content container with scaleX. All children (text, pills,
-// borders) scale uniformly. transform-origin: center keeps it
-// centred in the parent.
 .main-content-wrap {
   max-width: 900px;
   margin: 0 auto !important;
   padding: 20px;
-  transform: scaleX(0.85);
-  transform-origin: center top;
 }
 .main {
   margin-left: 0 !important;
@@ -564,8 +566,6 @@ html { scroll-behavior: smooth; }
   height: 60px;
   display: inline-block;
   object-fit: contain;
-  // Undo parent's scaleX(0.85) so the logo stays a perfect circle
-  transform: scaleX(1.17647);
 }
 
 .aku-tagline {
@@ -599,7 +599,6 @@ html { scroll-behavior: smooth; }
 
 // ---- Mobile ----
 @media (max-width: 768px) {
-  // Keep scaleX but tighten padding
   .main-content-wrap {
     padding: 6px;
   }
@@ -684,8 +683,6 @@ html { scroll-behavior: smooth; }
   font-size: 11px;
   color: #111;
   text-align: center;
-  transform: scaleX(0.85);
-  transform-origin: center top;
 }
 
 // ---- Deleted section trace ----
