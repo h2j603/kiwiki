@@ -853,7 +853,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var h = Math.round(size * (img.naturalHeight / img.naturalWidth));
         var canvas = document.createElement('canvas');
         canvas.className = 'kiwi-creature-canvas';
-        canvas.style.cssText = (position || '') + 'width:'+w+'px;height:'+h+'px;filter:'+randomTint()+';';
+        canvas.style.cssText = (position || '') + 'width:'+w+'px;height:'+h+'px;filter:'+randomTint()+';mix-blend-mode:multiply;';
         if (!position) {
           // inline
           canvas.style.display = 'inline-block';
