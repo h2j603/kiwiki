@@ -568,6 +568,15 @@ html { scroll-behavior: smooth; }
   transform: scaleX(1.17647);
 }
 
+.aku-tagline {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  color: #111;
+  margin-top: 8px;
+  text-align: center;
+}
+
 // ---- Stats bar ----
 .stats-bar {
   font-family: inherit;
