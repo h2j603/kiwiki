@@ -248,11 +248,6 @@ body.lang-ja {
 
 // ---- Vlist (index page tables) ----
 // Scoped to .vlist so virus sub-page infoboxes remain unaffected.
-//   - thead hidden (no column headers)
-//   - width: auto lets columns shrink to their widest cell instead
-//     of stretching to fill 100% of the container, so the gaps
-//     between columns track the actual text width.
-//   - Consistent vertical margins across tables.
 .vlist table {
   width: 100%;
   margin: 20px 0 !important;
@@ -262,16 +257,28 @@ body.lang-ja {
   display: none !important;
 }
 
-// Row entrance: start hidden + shifted down, JS adds .is-visible
-// with a staggered delay so rows slide up one by one.
-.vlist table tbody tr {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
+// Continuous upward roll: the first virus table (.table-wrapper that
+// wraps it) has a fixed viewport height + overflow hidden. JS clones
+// the tbody content and animates transform: translateY to create an
+// infinite marquee loop. The CSS just provides the container + hide.
+.vlist .virus-roll {
+  overflow: hidden;
+  max-height: 420px;
+  position: relative;
 }
-.vlist table tbody tr.is-visible {
-  opacity: 1;
-  transform: translateY(0);
+.vlist .virus-roll table {
+  margin: 0 !important;
+}
+.vlist .virus-roll .roll-track {
+  display: block;
+  animation: rollUp var(--roll-duration, 30s) linear infinite;
+}
+@keyframes rollUp {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+.vlist .virus-roll:hover .roll-track {
+  animation-play-state: paused;
 }
 
 .vlist table + table {
@@ -650,32 +657,13 @@ a:hover { text-decoration-color: #111 !important; }
 // Label text on colored backgrounds
 .label-yellow:not(g) { color: #111 !important; }
 
-// ---- KiwiZero creature image pixel animation ----
-// Images materialize by scaling up from a tiny dot through discrete
-// pixel-resolution steps (image-rendering: pixelated makes each step
-// look chunky). Reverse for disappearance.
-@keyframes kiwiPixelIn {
-  0%   { transform: scale(0.03); opacity: 0; }
-  20%  { transform: scale(0.06); opacity: 0.3; }
-  40%  { transform: scale(0.12); opacity: 0.5; }
-  60%  { transform: scale(0.25); opacity: 0.7; }
-  80%  { transform: scale(0.5);  opacity: 0.85; }
-  100% { transform: scale(1);    opacity: 1; }
-}
-@keyframes kiwiPixelOut {
-  0%   { transform: scale(1);    opacity: 1; }
-  33%  { transform: scale(0.25); opacity: 0.5; }
-  66%  { transform: scale(0.06); opacity: 0.2; }
-  100% { transform: scale(0.03); opacity: 0; }
-}
-.kiwi-creature {
+// ---- KiwiZero creature pixel canvas ----
+// Creature images are drawn to a <canvas> at increasing resolution
+// (2×2 → 4×4 → 8×8 → ... → full) by JS. CSS just hides the
+// original <img> and styles the canvas.
+.kiwi-creature-canvas {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
-  transform-origin: center center;
-  animation: kiwiPixelIn 0.5s steps(5) both;
-}
-.kiwi-creature.is-leaving {
-  animation: kiwiPixelOut 0.4s steps(3) both;
 }
 
 // Respect reduced motion
