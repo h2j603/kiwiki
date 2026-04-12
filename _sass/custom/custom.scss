@@ -564,6 +564,8 @@ html { scroll-behavior: smooth; }
   height: 60px;
   display: inline-block;
   object-fit: contain;
+  // Undo parent's scaleX(0.85) so the logo stays a perfect circle
+  transform: scaleX(1.17647);
 }
 
 // ---- Stats bar ----
