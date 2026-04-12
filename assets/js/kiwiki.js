@@ -150,13 +150,40 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 300);
   } catch(e){}
 
-  // ---- Index virus name underline ----
+  // ---- Index virus name: random per-character underline ----
+  // Wrap each character of every virus name link in a <span>, then
+  // continuously toggle underline on ~30% of the spans every 400ms.
   try {
     var vlistLinks = document.querySelectorAll('.vlist td a');
+    var allCharSpans = [];
     for (var ui = 0; ui < vlistLinks.length; ui++) {
-      vlistLinks[ui].style.textDecoration = 'underline';
-      vlistLinks[ui].style.textUnderlineOffset = '2px';
+      var link = vlistLinks[ui];
+      var text = link.textContent;
+      link.innerHTML = '';
+      link.style.textDecoration = 'none';
+      for (var ci = 0; ci < text.length; ci++) {
+        var sp = document.createElement('span');
+        sp.textContent = text[ci];
+        link.appendChild(sp);
+        allCharSpans.push(sp);
+      }
     }
+    // Continuously toggle random underlines
+    var ulPrev = [];
+    setInterval(function(){
+      for (var i = 0; i < ulPrev.length; i++) {
+        if (ulPrev[i]) ulPrev[i].style.textDecoration = 'none';
+      }
+      ulPrev = [];
+      var count = Math.max(1, Math.floor(allCharSpans.length * 0.3));
+      for (var k = 0; k < count; k++) {
+        var sp = allCharSpans[Math.floor(Math.random() * allCharSpans.length)];
+        if (sp) {
+          sp.style.textDecoration = 'underline';
+          ulPrev.push(sp);
+        }
+      }
+    }, 400);
   } catch(e){}
 });
 
