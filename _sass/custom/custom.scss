@@ -199,14 +199,20 @@ body.lang-ja {
 .main-content table {
   width: 100%;
   border-collapse: collapse;
-  border: none;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+  border-left: none;
+  border-right: none;
   margin: 20px 0 50px;
   text-align: left;
   font-size: 13px;
   font-family: "neue-haas-unica", "Noto Serif KR", sans-serif;
 
   th, td {
-    border: none;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
+    border-left: none;
+    border-right: none;
     padding: 10px;
   }
 
@@ -251,6 +257,11 @@ body.lang-ja {
 .vlist table {
   width: 100%;
   margin: 20px 0 !important;
+  border: none !important;
+}
+.vlist table th,
+.vlist table td {
+  border: none !important;
 }
 
 .vlist table thead {
@@ -660,7 +671,7 @@ html { scroll-behavior: smooth; }
 // Table shadow & cell borders
 .main-content table { box-shadow: none !important; }
 .main-content table td,
-.main-content table th { border: none !important; }
+.main-content table th { border-bottom-color: #111 !important; }
 
 // Links: kill rgba hover underline
 a { text-decoration-color: #111 !important; }
