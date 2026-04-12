@@ -373,9 +373,11 @@ body.lang-ja {
 
 // ---- Language toggle ----
 .lang-toggle {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   border: 1px solid #111;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
+  width: fit-content;
   position: relative;
   z-index: 100;
 }
@@ -555,7 +557,17 @@ html { scroll-behavior: smooth; }
   color: #111;
   margin-bottom: 20px;
   opacity: 1;
+  text-align: center;
   span { margin-right: 16px; }
+}
+
+// ---- Index page: center non-table elements ----
+// Title paragraphs (p.en / p.ko / p.ja that sit outside .vlist)
+// are centered. These appear below the table on the index page.
+.main-content > main > p.en,
+.main-content > main > p.ko,
+.main-content > main > p.ja {
+  text-align: center;
 }
 
 // ---- Mobile ----
