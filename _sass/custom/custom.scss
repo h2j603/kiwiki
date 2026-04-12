@@ -552,7 +552,11 @@ html { scroll-behavior: smooth; }
   .main-content {
     font-size: 16px;
     line-height: 1.65;
-    padding: 12px;
+    padding: 4px;
+  }
+
+  .main-content-wrap {
+    padding: 6px;
   }
 
   .main-content table {
