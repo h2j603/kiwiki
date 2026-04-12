@@ -4,6 +4,8 @@ nav_order: 1
 permalink: /
 ---
 
+<div class="aku-logo-wrap"><img src="{{ '/assets/images/aku-logo.svg' | relative_url }}" alt="AKU" class="aku-logo"></div>
+
 <div class="en vlist" markdown="1">
 
 | Code | Name | Type | Vector | Severity |
