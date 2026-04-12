@@ -18,18 +18,46 @@
   window._kExplicit = !!(p || hadStored);
 })();
 
-// --- INDEX PAGE: row entrance + continuous multilingual shuffle ---
+// --- INDEX PAGE: rolling marquee + continuous multilingual shuffle ---
 document.addEventListener('DOMContentLoaded', function(){
   try {
-    // ---- Row entrance: stagger each row's slide-up appearance ----
+    // ---- Continuous rolling marquee for the virus table ----
+    // Wraps each vlist's first table-wrapper in a .virus-roll container
+    // with a .roll-track div that holds two copies of the tbody.
+    // CSS @keyframes rollUp translates the track -50% so it loops.
     var vlists = document.querySelectorAll('.vlist');
     for (var vi = 0; vi < vlists.length; vi++) {
-      var rows = vlists[vi].querySelectorAll('tbody tr');
-      for (var ri = 0; ri < rows.length; ri++) {
-        (function(row, d) {
-          setTimeout(function(){ row.classList.add('is-visible'); }, d);
-        })(rows[ri], ri * 60);
-      }
+      var wrapper = vlists[vi].querySelector('.table-wrapper');
+      if (!wrapper) continue;
+      var table = wrapper.querySelector('table');
+      if (!table) continue;
+      var tbody = table.querySelector('tbody');
+      if (!tbody) continue;
+
+      // Clone the tbody rows for seamless loop
+      var clone = tbody.cloneNode(true);
+
+      // Build roll container
+      var roll = document.createElement('div');
+      roll.className = 'virus-roll';
+      var track = document.createElement('div');
+      track.className = 'roll-track';
+
+      // Create two copies of the table inside the track
+      var t1 = table.cloneNode(false); // empty table shell
+      t1.appendChild(tbody);
+      var t2 = table.cloneNode(false);
+      t2.appendChild(clone);
+      track.appendChild(t1);
+      track.appendChild(t2);
+
+      // Calculate duration based on row count (slower = more rows)
+      var rowCount = tbody.querySelectorAll('tr').length;
+      track.style.setProperty('--roll-duration', (rowCount * 1.2) + 's');
+
+      roll.appendChild(track);
+      wrapper.innerHTML = '';
+      wrapper.appendChild(roll);
     }
 
     // ---- Continuous multilingual name shuffle (before explicit lang) ----
@@ -765,47 +793,107 @@ document.addEventListener('DOMContentLoaded', function(){
     }, 1500);
 
     // Phase 2: aggressively inject kiwi creature images everywhere
-    // Tinted in one of three kiwi-gradient colours instead of grayscale.
+    // Dark areas of the image become one of 3 kiwi colours via
+    // invert(1) (flips black→white) + sepia + hue-rotate + saturate.
+    // Images pixelate in via canvas rendering at increasing resolution.
     var imgFolder = '/kiwiki/assets/images/kiwi-creature/';
     var creatureFiles = ['IMG_6034.jpeg','IMG_6035.jpeg','IMG_6039.jpeg','IMG_6041.jpeg','IMG_6042.jpeg','IMG_6046.jpeg'];
     var colorTints = [
-      'grayscale(1) sepia(1) hue-rotate(70deg) saturate(5) brightness(1)',      // #54fe12 green
-      'grayscale(1) sepia(1) hue-rotate(0deg) saturate(3) brightness(1.2)',     // #febc12 yellow
-      'grayscale(1) sepia(1) hue-rotate(240deg) saturate(5) brightness(0.8)'    // #bc13fe purple
+      'grayscale(1) invert(1) sepia(1) hue-rotate(70deg) saturate(5) brightness(1)',   // #54fe12 green
+      'grayscale(1) invert(1) sepia(1) hue-rotate(0deg) saturate(3) brightness(1.2)',  // #febc12 yellow
+      'grayscale(1) invert(1) sepia(1) hue-rotate(240deg) saturate(5) brightness(0.8)' // #bc13fe purple
     ];
     function randomTint() { return colorTints[Math.floor(Math.random() * colorTints.length)]; }
-    // Insert multiple images per tick into random elements
+
+    // Canvas pixelation: draw img at tiny res then scale up in steps
+    function pixelateIn(canvas, img, targetW, targetH, onDone) {
+      var ctx = canvas.getContext('2d');
+      canvas.width = targetW;
+      canvas.height = targetH;
+      ctx.imageSmoothingEnabled = false;
+      var steps = [2, 4, 8, 16, 32, targetW];
+      var step = 0;
+      var iv = setInterval(function(){
+        var sw = Math.min(steps[step], targetW);
+        var sh = Math.round(sw * (targetH / targetW));
+        ctx.clearRect(0, 0, targetW, targetH);
+        ctx.drawImage(img, 0, 0, sw, sh);
+        ctx.drawImage(canvas, 0, 0, sw, sh, 0, 0, targetW, targetH);
+        step++;
+        if (step >= steps.length) { clearInterval(iv); if (onDone) onDone(); }
+      }, 80);
+    }
+    function pixelateOut(canvas, targetW, targetH, onDone) {
+      var ctx = canvas.getContext('2d');
+      ctx.imageSmoothingEnabled = false;
+      // Capture current content as source
+      var snap = ctx.getImageData(0, 0, targetW, targetH);
+      var steps = [32, 16, 8, 4, 2];
+      var step = 0;
+      var iv = setInterval(function(){
+        var sw = steps[step];
+        var sh = Math.round(sw * (targetH / targetW));
+        ctx.clearRect(0, 0, targetW, targetH);
+        ctx.putImageData(snap, 0, 0);
+        // Shrink then expand to pixelate
+        ctx.drawImage(canvas, 0, 0, targetW, targetH, 0, 0, sw, sh);
+        ctx.drawImage(canvas, 0, 0, sw, sh, 0, 0, targetW, targetH);
+        step++;
+        if (step >= steps.length) {
+          clearInterval(iv);
+          ctx.clearRect(0, 0, targetW, targetH);
+          if (onDone) onDone();
+        }
+      }, 80);
+    }
+
+    // Inject creature as a canvas with pixelate-in effect
+    function injectCreature(parent, position) {
+      var img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
+      img.onerror = function(){};
+      img.onload = function(){
+        var size = 40 + Math.floor(Math.random() * 80);
+        var w = size;
+        var h = Math.round(size * (img.naturalHeight / img.naturalWidth));
+        var canvas = document.createElement('canvas');
+        canvas.className = 'kiwi-creature-canvas';
+        canvas.style.cssText = (position || '') + 'width:'+w+'px;height:'+h+'px;filter:'+randomTint()+';';
+        if (!position) {
+          // inline
+          canvas.style.display = 'inline-block';
+          canvas.style.verticalAlign = 'middle';
+          canvas.style.margin = '0 4px';
+          if (parent.childNodes.length > 0) {
+            parent.insertBefore(canvas, parent.childNodes[Math.floor(Math.random() * parent.childNodes.length)]);
+          } else {
+            parent.appendChild(canvas);
+          }
+        } else {
+          document.body.appendChild(canvas);
+        }
+        pixelateIn(canvas, img, w, h, position ? function(){
+          // Fixed-position: pixelate out after 4s then remove
+          setTimeout(function(){
+            pixelateOut(canvas, w, h, function(){ canvas.remove(); });
+          }, 4000);
+        } : null);
+      };
+    }
+
+    // Insert multiple inline images per tick
     setInterval(function(){
       var targets = document.querySelectorAll('.main-content p, .main-content li, .main-content h2, .main-content td');
       for (var ii = 0; ii < 3; ii++) {
         var el = targets[Math.floor(Math.random() * targets.length)];
-        if (!el) continue;
-        var img = document.createElement('img');
-        img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
-        img.alt = '';
-        var size = 40 + Math.floor(Math.random() * 80);
-        img.className = 'kiwi-creature';
-        img.style.cssText = 'max-width:'+size+'px;height:auto;display:inline-block;vertical-align:middle;margin:0 4px;filter:'+randomTint()+';';
-        img.onerror = function() { this.style.display='none'; };
-        if (el.childNodes.length > 0) {
-          el.insertBefore(img, el.childNodes[Math.floor(Math.random() * el.childNodes.length)]);
-        } else {
-          el.appendChild(img);
-        }
+        if (el) injectCreature(el);
       }
     }, 2000);
     // Also scatter fixed-position images across the page
     setInterval(function(){
-      var img = document.createElement('img');
-      img.src = imgFolder + creatureFiles[Math.floor(Math.random() * creatureFiles.length)];
-      img.alt = '';
       var size = 50 + Math.floor(Math.random() * 100);
-      img.className = 'kiwi-creature';
-      img.style.cssText = 'position:fixed;max-width:'+size+'px;height:auto;pointer-events:none;z-index:9996;left:'+Math.random()*90+'%;top:'+Math.random()*90+'%;filter:'+randomTint()+';';
-      img.onerror = function() { this.remove(); };
-      document.body.appendChild(img);
-      setTimeout(function(){ img.classList.add('is-leaving'); }, 4000);
-      setTimeout(function(){ img.remove(); }, 5000);
+      injectCreature(null, 'position:fixed;pointer-events:none;z-index:9996;left:'+Math.random()*90+'%;top:'+Math.random()*90+'%;');
     }, 3000);
 
     // Phase 3: zalgo-kiwi text corruption
