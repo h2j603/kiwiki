@@ -560,20 +560,28 @@ html { scroll-behavior: smooth; }
 
 // ---- Mobile ----
 @media (max-width: 768px) {
-  .main-content {
-    font-size: 16px;
-    line-height: 1.65;
-    padding: 4px;
+  // Disable scaleX condensing — mobile needs every pixel of width
+  .main-content-wrap,
+  .aku-footer {
+    transform: none;
+    padding: 6px;
   }
 
-  .main-content-wrap {
-    padding: 6px;
+  // Tighten letter-spacing globally on mobile
+  body {
+    letter-spacing: 0.1em;
+  }
+
+  .main-content {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 2px;
   }
 
   .main-content table {
     font-size: 11px;
-    letter-spacing: 0.08em;
-    th, td { padding: 4px 6px; }
+    letter-spacing: 0.06em;
+    th, td { padding: 4px 5px; }
     // Hide Type + Vector columns on mobile
     th:nth-child(3), td:nth-child(3),
     th:nth-child(4), td:nth-child(4) { display: none; }
@@ -586,9 +594,15 @@ html { scroll-behavior: smooth; }
     -webkit-overflow-scrolling: touch;
   }
 
-  .pill { font-size: 9px; padding: 1px 5px; letter-spacing: 0.05em; }
-  .pill-code { font-size: 8px; padding: 1px 5px; letter-spacing: 0.03em; }
-  .pill-severity-critical { letter-spacing: 0.03em; }
+  .pill { font-size: 9px; padding: 1px 4px; letter-spacing: 0.03em; }
+  .pill-code { font-size: 8px; padding: 1px 4px; letter-spacing: 0.02em; }
+  .pill-severity-critical { letter-spacing: 0.02em; }
+
+  // Lang toggle + stats bar: compact on mobile
+  .lang-toggle { margin-bottom: 12px; }
+  .lang-btn { padding: 3px 10px; font-size: 11px; }
+  .stats-bar { font-size: 12px; margin-bottom: 14px; }
+  .stats-bar span { margin-right: 10px; }
 }
 
 
