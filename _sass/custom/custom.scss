@@ -254,7 +254,7 @@ body.lang-ja {
 //     between columns track the actual text width.
 //   - Consistent vertical margins across tables.
 .vlist table {
-  width: auto;
+  width: 100%;
   margin: 20px 0 !important;
 }
 
@@ -649,6 +649,34 @@ a:hover { text-decoration-color: #111 !important; }
 
 // Label text on colored backgrounds
 .label-yellow:not(g) { color: #111 !important; }
+
+// ---- KiwiZero creature image pixel animation ----
+// Images materialize by scaling up from a tiny dot through discrete
+// pixel-resolution steps (image-rendering: pixelated makes each step
+// look chunky). Reverse for disappearance.
+@keyframes kiwiPixelIn {
+  0%   { transform: scale(0.03); opacity: 0; }
+  20%  { transform: scale(0.06); opacity: 0.3; }
+  40%  { transform: scale(0.12); opacity: 0.5; }
+  60%  { transform: scale(0.25); opacity: 0.7; }
+  80%  { transform: scale(0.5);  opacity: 0.85; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+@keyframes kiwiPixelOut {
+  0%   { transform: scale(1);    opacity: 1; }
+  33%  { transform: scale(0.25); opacity: 0.5; }
+  66%  { transform: scale(0.06); opacity: 0.2; }
+  100% { transform: scale(0.03); opacity: 0; }
+}
+.kiwi-creature {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  transform-origin: center center;
+  animation: kiwiPixelIn 0.5s steps(5) both;
+}
+.kiwi-creature.is-leaving {
+  animation: kiwiPixelOut 0.4s steps(3) both;
+}
 
 // Respect reduced motion
 @media (prefers-reduced-motion: reduce) {
