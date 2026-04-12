@@ -262,6 +262,18 @@ body.lang-ja {
   display: none !important;
 }
 
+// Row entrance: start hidden + shifted down, JS adds .is-visible
+// with a staggered delay so rows slide up one by one.
+.vlist table tbody tr {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.vlist table tbody tr.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .vlist table + table {
   margin-top: 20px !important;
 }
@@ -637,3 +649,12 @@ a:hover { text-decoration-color: #111 !important; }
 
 // Label text on colored backgrounds
 .label-yellow:not(g) { color: #111 !important; }
+
+// Respect reduced motion
+@media (prefers-reduced-motion: reduce) {
+  .vlist table tbody tr {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

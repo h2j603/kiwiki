@@ -18,46 +18,79 @@
   window._kExplicit = !!(p || hadStored);
 })();
 
-// --- RANDOM MULTILINGUAL NAMES (index page, before explicit lang) ---
-// When no language has been chosen yet, randomly replace some virus
-// names in the visible (en) table with their ko/ja equivalents so
-// the index reads as a polyglot collage. Once the user picks a
-// language (clicks toggle or reloads with ?lang=), this is skipped.
-if (!window._kExplicit) {
-  document.addEventListener('DOMContentLoaded', function(){
-    try {
+// --- INDEX PAGE: row entrance + continuous multilingual shuffle ---
+document.addEventListener('DOMContentLoaded', function(){
+  try {
+    // ---- Row entrance: stagger each row's slide-up appearance ----
+    var vlists = document.querySelectorAll('.vlist');
+    for (var vi = 0; vi < vlists.length; vi++) {
+      var rows = vlists[vi].querySelectorAll('tbody tr');
+      for (var ri = 0; ri < rows.length; ri++) {
+        (function(row, d) {
+          setTimeout(function(){ row.classList.add('is-visible'); }, d);
+        })(rows[ri], ri * 60);
+      }
+    }
+
+    // ---- Continuous multilingual name shuffle (before explicit lang) ----
+    if (!window._kExplicit) {
       var divs = {
         en: document.querySelector('.en.vlist'),
         ko: document.querySelector('.ko.vlist'),
         ja: document.querySelector('.ja.vlist')
       };
-      if (!divs.en || !divs.ko || !divs.ja) return;
-      var tbodies = {
-        en: divs.en.querySelector('table:first-of-type tbody'),
-        ko: divs.ko.querySelector('table:first-of-type tbody'),
-        ja: divs.ja.querySelector('table:first-of-type tbody')
-      };
-      if (!tbodies.en || !tbodies.ko || !tbodies.ja) return;
-      var langs = ['en','ko','ja'];
-      var enRows = tbodies.en.querySelectorAll('tr');
-      var koRows = tbodies.ko.querySelectorAll('tr');
-      var jaRows = tbodies.ja.querySelectorAll('tr');
-      for (var r = 0; r < enRows.length; r++) {
-        var pick = langs[Math.floor(Math.random() * 3)];
-        if (pick === 'en') continue;
-        var srcRows = pick === 'ko' ? koRows : jaRows;
-        if (r >= srcRows.length) continue;
-        var tgt = enRows[r].querySelectorAll('td')[1];
-        var src = srcRows[r].querySelectorAll('td')[1];
-        if (tgt && src) {
-          var tgtLink = tgt.querySelector('a');
-          var srcLink = src.querySelector('a');
-          if (tgtLink && srcLink) tgtLink.textContent = srcLink.textContent;
+      if (divs.en && divs.ko && divs.ja) {
+        var tbodies = {
+          en: divs.en.querySelector('table:first-of-type tbody'),
+          ko: divs.ko.querySelector('table:first-of-type tbody'),
+          ja: divs.ja.querySelector('table:first-of-type tbody')
+        };
+        if (tbodies.en && tbodies.ko && tbodies.ja) {
+          var langs = ['en','ko','ja'];
+          var enRows = tbodies.en.querySelectorAll('tr');
+          var koRows = tbodies.ko.querySelectorAll('tr');
+          var jaRows = tbodies.ja.querySelectorAll('tr');
+
+          // Save original English names so we can restore them when
+          // the random picker lands back on 'en'.
+          var origNames = [];
+          for (var r = 0; r < enRows.length; r++) {
+            var c = enRows[r].querySelectorAll('td')[1];
+            var a = c ? c.querySelector('a') : null;
+            origNames.push(a ? a.textContent : '');
+          }
+
+          // Helper: swap one row's name to a random language
+          function shuffleRow(idx) {
+            if (idx >= enRows.length) return;
+            var pick = langs[Math.floor(Math.random() * 3)];
+            var tgt = enRows[idx].querySelectorAll('td')[1];
+            if (!tgt) return;
+            var tgtLink = tgt.querySelector('a');
+            if (!tgtLink) return;
+            if (pick === 'en') {
+              tgtLink.textContent = origNames[idx];
+            } else {
+              var srcRows = pick === 'ko' ? koRows : jaRows;
+              if (idx >= srcRows.length) return;
+              var src = srcRows[idx].querySelectorAll('td')[1];
+              var srcLink = src ? src.querySelector('a') : null;
+              if (srcLink) tgtLink.textContent = srcLink.textContent;
+            }
+          }
+
+          // Initial scramble: randomize every row at once
+          for (var r = 0; r < enRows.length; r++) shuffleRow(r);
+
+          // Continuous: switch one random name every 800ms
+          setInterval(function(){
+            shuffleRow(Math.floor(Math.random() * enRows.length));
+          }, 800);
         }
       }
-    } catch(e){}
-  });
-}
+    }
+  } catch(e){}
+});
 
 // --- INFECTION: 1~3 simultaneous strains ---
 (function(){
