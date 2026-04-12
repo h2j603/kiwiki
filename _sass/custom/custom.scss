@@ -1,11 +1,11 @@
 // ============================================
-// Kiwiki — lawngreen bg + black text
+// Kiwiki — #54fe12 bg + black text
 // ============================================
 
-// === NUCLEAR: force lawngreen + #111 everywhere ===
+// === NUCLEAR: force #54fe12 + #111 everywhere ===
 * { box-shadow: none !important; text-shadow: none !important; border-color: #111 !important; }
 
-// Force lawngreen bg on EVERY possible container
+// Force #54fe12 bg on EVERY possible container
 html, body,
 .main, .main-content, .main-content-wrap,
 .side-bar, .site-nav, .nav-list,
@@ -13,8 +13,8 @@ html, body,
 .search, .search-overlay, .search-results-wrap,
 .breadcrumb-nav, .children-nav,
 #top, [class*="nav"], [class*="header"] {
-  background: lawngreen !important;
-  background-color: lawngreen !important;
+  background: #54fe12 !important;
+  background-color: #54fe12 !important;
   background-image: none !important;
 }
 
@@ -47,30 +47,30 @@ div[style*="background:black"][style*="position:fixed"] {
 .main-content-wrap,
 .main,
 #main-content,
-main { background-color: lawngreen !important; background: lawngreen !important; }
+main { background-color: #54fe12 !important; background: #54fe12 !important; }
 
 // Force text #111 everywhere (with exceptions below)
 .main-content *, .breadcrumb-nav * { color: #111; }
 
-// Pill exceptions (black bg + lawngreen text)
-.pill-code, .pill-active { color: lawngreen !important; background: #111 !important; }
-.pill-severity-high, .pill-severity-critical { color: lawngreen !important; background: #111 !important; }
+// Pill exceptions (black bg + #54fe12 text)
+.pill-code, .pill-active { color: #54fe12 !important; background: #111 !important; }
+.pill-severity-high, .pill-severity-critical { color: #54fe12 !important; background: #111 !important; }
 
 // Infobox header
 .main-content > div:first-child table th,
-.main-content > table:first-of-type th { color: lawngreen !important; background: #111 !important; }
+.main-content > table:first-of-type th { color: #54fe12 !important; background: #111 !important; }
 
 
 
 // Lang toggle active
-.lang-btn.active { color: lawngreen !important; background: #111 !important; }
+.lang-btn.active { color: #54fe12 !important; background: #111 !important; }
 
 // ---- Base: serif body (EB Garamond) ----
 // All Garamond text: uppercase, tracking 200 (0.2em), condensed (scaleX).
 // EB Garamond lacks a variable width axis so condensing is achieved via
 // transform: scaleX(0.85) on the content containers further down.
 body {
-  background: lawngreen;
+  background: #54fe12;
   color: #111;
   font-size: 18px;
   font-family: "EB Garamond", "Noto Serif KR", Georgia, serif;
@@ -295,7 +295,7 @@ body.lang-ja {
 
   th {
     background: #111;
-    color: lawngreen;
+    color: #54fe12;
     text-align: center;
     font-family: inherit;
     font-size: 14px;
@@ -346,7 +346,7 @@ body.lang-ja {
 
 .pill-code {
   background: #111;
-  color: lawngreen;
+  color: #54fe12;
   border-color: #111;
   font-family: "IBM Plex Mono", "SF Mono", "Consolas", monospace;
   font-size: 10px;
@@ -355,10 +355,10 @@ body.lang-ja {
 }
 
 .pill-type, .pill-vector { background: transparent; color: #111; }
-.pill-active { background: #111; color: lawngreen; border-color: #111; }
+.pill-active { background: #111; color: #54fe12; border-color: #111; }
 .pill-severity-moderate { background: transparent; color: #111; border: 1px dashed #111; }
-.pill-severity-high { background: #111; color: lawngreen; border: 2px solid #111; }
-.pill-severity-critical { background: #111; color: lawngreen; border: 3px solid #111; font-weight: 700; letter-spacing: 0.5px; }
+.pill-severity-high { background: #111; color: #54fe12; border: 2px solid #111; }
+.pill-severity-critical { background: #111; color: #54fe12; border: 3px solid #111; font-weight: 700; letter-spacing: 0.5px; }
 
 // ---- Language toggle ----
 .lang-toggle {
@@ -381,7 +381,7 @@ body.lang-ja {
   cursor: pointer;
   &:not(:last-child) { border-right: 1px solid #111; }
   &:hover { background: transparent; text-decoration: none; }
-  &.active { background: #111; color: lawngreen; }
+  &.active { background: #111; color: #54fe12; }
 }
 
 // ---- HR (hazard stripe) ----
@@ -393,8 +393,8 @@ body.lang-ja {
     -45deg,
     #111,
     #111 4px,
-    lawngreen 4px,
-    lawngreen 8px
+    #54fe12 4px,
+    #54fe12 8px
   ) !important;
 }
 
@@ -427,7 +427,7 @@ body.lang-ja {
 .main-content h2 { clear: both; }
 
 // ---- Selection ----
-::selection { background: #111; color: lawngreen; }
+::selection { background: #111; color: #54fe12; }
 
 // ---- Scrollbar hide ----
 .main-content-wrap {
@@ -506,14 +506,14 @@ html { scroll-behavior: smooth; }
 // ---- Warning banner ----
 .warning-banner {
   background: #111;
-  color: lawngreen;
+  color: #54fe12;
   padding: 8px 14px;
   font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  span { color: lawngreen !important; }
+  span { color: #54fe12 !important; }
 }
 
 // ---- Redacted text ----
