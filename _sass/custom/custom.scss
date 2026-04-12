@@ -66,6 +66,9 @@ main { background-color: lawngreen !important; background: lawngreen !important;
 .lang-btn.active { color: lawngreen !important; background: #111 !important; }
 
 // ---- Base: serif body (EB Garamond) ----
+// All Garamond text: uppercase, tracking 200 (0.2em), condensed (scaleX).
+// EB Garamond lacks a variable width axis so condensing is achieved via
+// transform: scaleX(0.85) on the content containers further down.
 body {
   background: lawngreen;
   color: #111;
@@ -73,6 +76,8 @@ body {
   font-family: "EB Garamond", "Noto Serif KR", Georgia, serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 body.lang-ko {
@@ -88,7 +93,6 @@ body.lang-ja {
   max-width: 100%;
   font-size: 18px;
   line-height: 1.75;
-  letter-spacing: -0.01em;
   color: #111;
 
   h1 {
@@ -99,8 +103,6 @@ body.lang-ja {
     color: #111;
     border-bottom: none;
     margin: 0 0 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
   }
 
   h2 {
@@ -111,8 +113,6 @@ body.lang-ja {
     color: #111;
     border-bottom: none;
     margin: 2em 0 0.6em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
   }
 
   h3 {
@@ -122,8 +122,6 @@ body.lang-ja {
     font-size: 1.1em;
     color: #111;
     margin: 1.5em 0 0.4em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
   }
 
   p {
@@ -172,10 +170,16 @@ body.lang-ja {
   display: none !important;
 }
 
+// 장평 축소: EB Garamond has no variable width axis so we condense
+// the content container with scaleX. All children (text, pills,
+// borders) scale uniformly. transform-origin: center keeps it
+// centred in the parent.
 .main-content-wrap {
   max-width: 900px;
   margin: 0 auto !important;
   padding: 20px;
+  transform: scaleX(0.85);
+  transform-origin: center top;
 }
 .main {
   margin-left: 0 !important;
@@ -278,8 +282,6 @@ body.lang-ja {
     font-family: inherit;
     font-size: 14px;
     font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 3px;
   }
 
   td:first-child {
@@ -338,7 +340,7 @@ body.lang-ja {
 .pill-active { background: #111; color: lawngreen; border-color: #111; }
 .pill-severity-moderate { background: transparent; color: #111; border: 1px dashed #111; }
 .pill-severity-high { background: #111; color: lawngreen; border: 2px solid #111; }
-.pill-severity-critical { background: #111; color: lawngreen; border: 3px solid #111; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.pill-severity-critical { background: #111; color: lawngreen; border: 3px solid #111; font-weight: 700; letter-spacing: 0.5px; }
 
 // ---- Language toggle ----
 .lang-toggle {
@@ -356,8 +358,6 @@ body.lang-ja {
   font-weight: 400;
   font-family: inherit;
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   background: transparent;
   color: #111;
   cursor: pointer;
@@ -438,8 +438,6 @@ body.lang-ja {
     font-size: 1.2em;
     color: #111;
     border-bottom: 1px solid #111;
-    text-transform: uppercase;
-    letter-spacing: 2px;
   }
 
   .toc-nav {
@@ -519,15 +517,12 @@ html { scroll-behavior: smooth; }
   font-size: 10px;
   color: #111;
   font-family: inherit;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
 }
 
 // ---- Stats bar ----
 .stats-bar {
   font-family: inherit;
   font-size: 14px;
-  letter-spacing: 1px;
   color: #111;
   margin-bottom: 20px;
   opacity: 1;
@@ -592,8 +587,9 @@ html { scroll-behavior: smooth; }
   margin-top: 40px;
   font-size: 11px;
   color: #111;
-  letter-spacing: 0.5px;
   text-align: center;
+  transform: scaleX(0.85);
+  transform-origin: center top;
 }
 
 // ---- Deleted section trace ----
