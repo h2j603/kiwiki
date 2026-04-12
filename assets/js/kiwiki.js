@@ -12,7 +12,52 @@
   var langMap = {en:'en',ko:'ko',ja:'ja'};
   document.documentElement.setAttribute('lang', langMap[lang] || 'en');
   window._kLang = lang;
+  // Flag: did the user explicitly choose a language (URL param or stored)?
+  var hadStored = false;
+  try { hadStored = !!localStorage.getItem('kiwiki-lang'); } catch(e){}
+  window._kExplicit = !!(p || hadStored);
 })();
+
+// --- RANDOM MULTILINGUAL NAMES (index page, before explicit lang) ---
+// When no language has been chosen yet, randomly replace some virus
+// names in the visible (en) table with their ko/ja equivalents so
+// the index reads as a polyglot collage. Once the user picks a
+// language (clicks toggle or reloads with ?lang=), this is skipped.
+if (!window._kExplicit) {
+  document.addEventListener('DOMContentLoaded', function(){
+    try {
+      var divs = {
+        en: document.querySelector('.en.vlist'),
+        ko: document.querySelector('.ko.vlist'),
+        ja: document.querySelector('.ja.vlist')
+      };
+      if (!divs.en || !divs.ko || !divs.ja) return;
+      var tbodies = {
+        en: divs.en.querySelector('table:first-of-type tbody'),
+        ko: divs.ko.querySelector('table:first-of-type tbody'),
+        ja: divs.ja.querySelector('table:first-of-type tbody')
+      };
+      if (!tbodies.en || !tbodies.ko || !tbodies.ja) return;
+      var langs = ['en','ko','ja'];
+      var enRows = tbodies.en.querySelectorAll('tr');
+      var koRows = tbodies.ko.querySelectorAll('tr');
+      var jaRows = tbodies.ja.querySelectorAll('tr');
+      for (var r = 0; r < enRows.length; r++) {
+        var pick = langs[Math.floor(Math.random() * 3)];
+        if (pick === 'en') continue;
+        var srcRows = pick === 'ko' ? koRows : jaRows;
+        if (r >= srcRows.length) continue;
+        var tgt = enRows[r].querySelectorAll('td')[1];
+        var src = srcRows[r].querySelectorAll('td')[1];
+        if (tgt && src) {
+          var tgtLink = tgt.querySelector('a');
+          var srcLink = src.querySelector('a');
+          if (tgtLink && srcLink) tgtLink.textContent = srcLink.textContent;
+        }
+      }
+    } catch(e){}
+  });
+}
 
 // --- INFECTION: 1~3 simultaneous strains ---
 (function(){
@@ -660,9 +705,15 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiZero: the primordial strain — everything becomes kiwi
   if (v === 'kiwizero') { try {
     // Phase 1: ㅋ/k/き words → 키위/kiwi/キウイ
+    // Filter to visible elements only so the interaction reliably
+    // hits the active language block (including table cells) instead
+    // of wasting picks on hidden ko/ja blocks.
     var lang = window._kLang || 'en';
     setInterval(function(){
-      var ps = document.querySelectorAll('.main-content p, .main-content li, .main-content td, .main-content a, .main-content h2');
+      var all = document.querySelectorAll('.main-content p, .main-content li, .main-content td, .main-content a, .main-content h2');
+      var ps = [];
+      for (var fi = 0; fi < all.length; fi++) { if (all[fi].offsetParent !== null) ps.push(all[fi]); }
+      if (ps.length === 0) return;
       var p = ps[Math.floor(Math.random() * ps.length)];
       if (!p || !p.childNodes) return;
       for (var ci = 0; ci < p.childNodes.length; ci++) {
