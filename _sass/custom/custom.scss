@@ -257,13 +257,12 @@ body.lang-ja {
   display: none !important;
 }
 
-// Continuous upward roll: the first virus table (.table-wrapper that
-// wraps it) has a fixed viewport height + overflow hidden. JS clones
-// the tbody content and animates transform: translateY to create an
-// infinite marquee loop. The CSS just provides the container + hide.
+// Continuous upward roll: full viewport height, no clipping boundary.
+// The roll-track holds two copies of the tbody and translateY(-50%)
+// loops seamlessly so rows scroll up from bottom to top forever.
 .vlist .virus-roll {
   overflow: hidden;
-  max-height: 420px;
+  height: 100vh;
   position: relative;
 }
 .vlist .virus-roll table {
