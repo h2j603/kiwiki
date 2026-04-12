@@ -189,6 +189,10 @@ body.lang-ja {
   width: 100% !important;
   max-width: 100% !important;
 }
+// Override theme's .side-bar + .main margin that pushes content right
+.side-bar + .main {
+  margin-left: 0 !important;
+}
 .main-content h1:first-child { display: none; }
 
 // ---- Tables ----
@@ -548,6 +552,17 @@ html { scroll-behavior: smooth; }
   font-size: 10px;
   color: #111;
   font-family: inherit;
+}
+
+// ---- AKU logo (index page top) ----
+.aku-logo-wrap {
+  text-align: center;
+  margin: 20px 0 10px;
+}
+.aku-logo {
+  width: 80px;
+  height: auto;
+  display: inline-block;
 }
 
 // ---- Stats bar ----
