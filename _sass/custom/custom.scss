@@ -256,7 +256,7 @@ body.lang-ja {
 // Scoped to .vlist so virus sub-page infoboxes remain unaffected.
 .vlist table {
   width: 100%;
-  margin: 20px 0 !important;
+  margin: 20px auto !important;
   border: none !important;
 }
 .vlist table th,
@@ -572,11 +572,12 @@ html { scroll-behavior: smooth; }
 
 // ---- Mobile ----
 @media (max-width: 768px) {
-  // Disable scaleX condensing — mobile needs every pixel of width
-  .main-content-wrap,
-  .aku-footer {
-    transform: none;
+  // Keep scaleX but tighten padding
+  .main-content-wrap {
     padding: 6px;
+  }
+  .aku-footer {
+    padding: 10px;
   }
 
   // Tighten letter-spacing globally on mobile
