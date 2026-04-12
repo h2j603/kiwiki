@@ -118,6 +118,46 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     }
   } catch(e){}
+
+  // ---- Random colour flicker: 20% of all visible text ----
+  // Every 300ms, pick ~20% of visible text-bearing elements and
+  // tint them #bc13fe or #febc12. Previous picks revert to #111.
+  try {
+    var flickColors = ['#bc13fe', '#febc12'];
+    var flickTargets = [];
+    var flickPrev = [];
+    setInterval(function(){
+      // Restore previous batch
+      for (var i = 0; i < flickPrev.length; i++) {
+        if (flickPrev[i]) flickPrev[i].style.color = '';
+      }
+      flickPrev = [];
+      // Gather visible text elements
+      flickTargets = document.querySelectorAll('.main-content p, .main-content li, .main-content td, .main-content a, .main-content h2, .main-content h3, .stats-bar span, .aku-footer span');
+      var visible = [];
+      for (var j = 0; j < flickTargets.length; j++) {
+        if (flickTargets[j].offsetParent !== null) visible.push(flickTargets[j]);
+      }
+      // Pick ~20%
+      var count = Math.max(1, Math.floor(visible.length * 0.2));
+      for (var k = 0; k < count; k++) {
+        var el = visible[Math.floor(Math.random() * visible.length)];
+        if (el) {
+          el.style.color = flickColors[Math.floor(Math.random() * flickColors.length)];
+          flickPrev.push(el);
+        }
+      }
+    }, 300);
+  } catch(e){}
+
+  // ---- Index virus name underline ----
+  try {
+    var vlistLinks = document.querySelectorAll('.vlist td a');
+    for (var ui = 0; ui < vlistLinks.length; ui++) {
+      vlistLinks[ui].style.textDecoration = 'underline';
+      vlistLinks[ui].style.textUnderlineOffset = '2px';
+    }
+  } catch(e){}
 });
 
 // --- INFECTION: 1~3 simultaneous strains ---
