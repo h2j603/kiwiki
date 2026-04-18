@@ -16,17 +16,49 @@
     return Math.random() * (max - min) + min;
   }
 
+  function ensureStyles() {
+    if (document.getElementById('chainmail-overlay-styles')) return;
+    var style = document.createElement('style');
+    style.id = 'chainmail-overlay-styles';
+    style.textContent =
+      '@keyframes chainmail-shake {' +
+      '  0%, 100% { transform: translate(0, 0) rotate(0); }' +
+      '  10% { transform: translate(-10px, -2px) rotate(-1.2deg); }' +
+      '  20% { transform: translate(10px, 2px) rotate(1.2deg); }' +
+      '  30% { transform: translate(-8px, -1px) rotate(-0.9deg); }' +
+      '  40% { transform: translate(8px, 1px) rotate(0.9deg); }' +
+      '  50% { transform: translate(-6px, -1px) rotate(-0.6deg); }' +
+      '  60% { transform: translate(6px, 1px) rotate(0.6deg); }' +
+      '  70% { transform: translate(-4px, 0) rotate(-0.3deg); }' +
+      '  80% { transform: translate(4px, 0) rotate(0.3deg); }' +
+      '  90% { transform: translate(-2px, 0) rotate(0); }' +
+      '}' +
+      '@keyframes chainmail-fall {' +
+      '  0% { transform: translateY(0) rotate(0); opacity: 1; }' +
+      '  100% { transform: translateY(120vh) rotate(6deg); opacity: 0; }' +
+      '}' +
+      '#chainmail-overlay.is-dismissing {' +
+      '  pointer-events: none;' +
+      '  animation: chainmail-shake 0.5s ease-in-out,' +
+      '             chainmail-fall 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.5s forwards;' +
+      '}';
+    document.head.appendChild(style);
+  }
+
   function init() {
+    ensureStyles();
+
     var wrap = document.createElement('div');
     wrap.id = 'chainmail-overlay';
     var docH = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
-    wrap.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:' + docH + 'px;z-index:9999;overflow:hidden;cursor:pointer;transition:opacity 0.4s ease;';
+    wrap.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:' + docH + 'px;z-index:9999;overflow:hidden;cursor:pointer;will-change:transform,opacity;';
 
-    // 클릭하면 사라짐
+    // 클릭하면 흔들린 뒤 아래로 떨어지며 사라짐
     wrap.addEventListener('click', function () {
-      wrap.style.opacity = '0';
-      setTimeout(function () { wrap.remove(); }, 400);
-    });
+      if (wrap.classList.contains('is-dismissing')) return;
+      wrap.classList.add('is-dismissing');
+      setTimeout(function () { wrap.remove(); }, 1350);
+    }, { once: false });
 
     // 화면을 두 영역으로 분할 — 수평 or 수직 랜덤
     var splitVertical = Math.random() > 0.5;
