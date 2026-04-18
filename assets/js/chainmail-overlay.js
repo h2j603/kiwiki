@@ -1,4 +1,4 @@
-// === 체인메일 오버레이 — 원본 이미지를 최상위 레이어에 그물처럼 깔기 ===
+// === 체인메일 오버레이 — 이미지 분리 배치, 새로고침마다 랜덤 ===
 (function () {
   'use strict';
 
@@ -8,10 +8,19 @@
     base + '/assets/images/chainmail-2.png'
   ];
 
+  function rand(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
   function init() {
     var wrap = document.createElement('div');
     wrap.id = 'chainmail-overlay';
     wrap.style.cssText = 'position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:9999;overflow:hidden;';
+
+    // 화면을 두 영역으로 분할 — 수평 or 수직 랜덤
+    var splitVertical = Math.random() > 0.5;
+    // 분할 비율 랜덤 (40~60%)
+    var splitRatio = rand(0.35, 0.65);
 
     srcs.forEach(function (src, i) {
       var img = document.createElement('img');
@@ -19,13 +28,34 @@
       img.alt = '';
       img.draggable = false;
 
-      // 두 이미지 모두 화면 전체를 덮도록 배치
-      if (i === 0) {
-        img.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;';
+      // 랜덤 회전 (-15 ~ 15도)
+      var rotation = rand(-15, 15);
+      // 랜덤 스케일 (화면보다 크게, 110~160%)
+      var scale = rand(1.1, 1.6);
+
+      var styles = 'position:absolute;transform-origin:center center;';
+      styles += 'transform:rotate(' + rotation + 'deg) scale(' + scale + ');';
+
+      if (splitVertical) {
+        // 수직 분할: 왼쪽/오른쪽
+        styles += 'top:0;height:100%;';
+        if (i === 0) {
+          styles += 'left:0;width:' + (splitRatio * 100) + '%;';
+        } else {
+          styles += 'right:0;width:' + ((1 - splitRatio) * 100) + '%;';
+        }
       } else {
-        img.style.cssText = 'position:absolute;top:0;right:0;width:100%;height:100%;object-fit:cover;';
+        // 수평 분할: 위/아래
+        styles += 'left:0;width:100%;';
+        if (i === 0) {
+          styles += 'top:0;height:' + (splitRatio * 100) + '%;';
+        } else {
+          styles += 'bottom:0;height:' + ((1 - splitRatio) * 100) + '%;';
+        }
       }
 
+      styles += 'object-fit:cover;';
+      img.style.cssText = styles;
       wrap.appendChild(img);
     });
 
