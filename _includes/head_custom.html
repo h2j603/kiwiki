@@ -7,6 +7,10 @@
 <!-- Kiwiki JS (external file — avoids inline script issues) -->
 <script src="{{ '/assets/js/kiwiki.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
+<!-- 체인메일 오버레이 -->
+<script>window._kBaseUrl = "{{ '' | relative_url }}";</script>
+<script src="{{ '/assets/js/chainmail-overlay.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+
 <!-- Pretext-powered KiwiZero enhancement (ES module — loads from CDN) -->
 <script type="module" src="{{ '/assets/js/kiwizero-pretext.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
