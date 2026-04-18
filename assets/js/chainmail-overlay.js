@@ -19,11 +19,11 @@
       img.alt = '';
       img.draggable = false;
 
-      // 이미지 1: 왼쪽 아래, 이미지 2: 오른쪽 위
+      // 두 이미지 모두 화면 전체를 덮도록 배치
       if (i === 0) {
-        img.style.cssText = 'position:absolute;bottom:0;left:0;height:100vh;width:auto;opacity:0.35;object-fit:contain;';
+        img.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;';
       } else {
-        img.style.cssText = 'position:absolute;top:0;right:0;height:100vh;width:auto;opacity:0.35;object-fit:contain;';
+        img.style.cssText = 'position:absolute;top:0;right:0;width:100%;height:100%;object-fit:cover;';
       }
 
       wrap.appendChild(img);
