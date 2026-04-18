@@ -150,13 +150,13 @@ permalink: /
 {% include lang_toggle.html %}
 
 Web Kiwi Virus Wiki
-{: .en}
+{: .en .wiki-title}
 
 웹키위바이러스 위키
-{: .ko}
+{: .ko .wiki-title}
 
 ウェブキウイウイルス ウィキ
-{: .ja}
+{: .ja .wiki-title}
 
 <div class="stats-bar en"><span>33 documented</span> <span>1 primordial</span> <span>4 types</span> <span>5 vectors</span></div>
 
