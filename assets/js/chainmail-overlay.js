@@ -2,6 +2,10 @@
 (function () {
   'use strict';
 
+  // 배경색 랜덤 적용
+  var bgColors = ['#54fe12', '#f70000'];
+  document.documentElement.style.setProperty('--kw-bg', bgColors[Math.random() > 0.5 ? 1 : 0]);
+
   var base = window._kBaseUrl || '';
   var srcs = [
     base + '/assets/images/chainmail-1.png',
@@ -38,7 +42,7 @@
       // 랜덤 회전 (-15 ~ 15도)
       var rotation = rand(-15, 15);
       // 랜덤 스케일 (화면보다 크게, 110~160%)
-      var scale = rand(1.1, 1.6);
+      var scale = rand(0.7, 1.0);
 
       var styles = 'position:absolute;transform-origin:center center;';
       styles += 'transform:rotate(' + rotation + 'deg) scale(' + scale + ');';
