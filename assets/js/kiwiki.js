@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function(){
       }
       flickPrev = [];
       // Gather visible text elements
-      flickTargets = document.querySelectorAll('.main-content p, .main-content li, .main-content td, .main-content a, .main-content h2, .main-content h3, .stats-bar span, .aku-footer span');
+      flickTargets = document.querySelectorAll('.main-content p:not(.wiki-title), .main-content li, .main-content td, .main-content a:not(.wiki-title *), .main-content h2, .main-content h3, .stats-bar span, .aku-footer span');
       var visible = [];
       for (var j = 0; j < flickTargets.length; j++) {
         if (flickTargets[j].offsetParent !== null) visible.push(flickTargets[j]);
@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiEcho: text echoes itself wrongly — same sentence appears but subtly different
   if (v === 'kiwiecho') { try {
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       if(ps.length<3)return;
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(p.getAttribute('data-echoed'))return;
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', function(){
   if (v === 'kiwimirror') { try {
     document.querySelector('.main-content').style.transform='perspective(2000px) rotateY(0.3deg)';
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(p) p.style.letterSpacing=p.style.letterSpacing?'':'-0.03em';
     },4000);
@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function(){
   if (v === 'kiwimoss') { try {
     var corruptChars=['\u2588','\u2593','\u2592','\u2591','\u2580','\u2584','\u258C','\u2590'];
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(!p||!p.textContent)return;
       var t=p.textContent;
@@ -384,7 +384,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiSpot: words randomly vanish from sentences
   if (v === 'kiwispot') { try {
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(!p)return;
       var words=p.innerHTML.split(' ');
@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function(){
   if (v === 'kiwisyntax') { try {
     var idx=0;
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       if(idx<ps.length&&ps[idx].textContent.length>10){
         var t=ps[idx].textContent;
         ps[idx].innerHTML='<span style="font-family:EB Garamond,monospace;font-size:0.85em;color:#111;">if ('+t.substring(0,25)+') { return undefined; }</span>';
@@ -475,7 +475,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var notices=['[content removed]','[data expunged]','[memory corrupted]','[section unavailable]','[REDACTED]'];
     var fi=0;
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       if(fi<ps.length&&ps[fi].textContent.length>10){
         ps[fi].innerHTML='<span style="color:#111;font-family:EB Garamond,monospace;font-size:0.85em;font-style:italic;">'+notices[fi%notices.length]+'</span>';
         ps[fi].style.opacity='0.5';
@@ -489,7 +489,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiGhost: notifications from nowhere
   if (v === 'kiwighost') { try {
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(p){p.style.transition='opacity 0.1s';p.style.opacity='0';setTimeout(function(){p.style.opacity='1';},150);}
     },4000);
@@ -499,7 +499,7 @@ document.addEventListener('DOMContentLoaded', function(){
   if (v === 'kiwiparadox') { try {
     var negations={'is':'is not','can':'cannot','will':'will not','true':'false','yes':'no','safe':'unsafe','known':'unknown'};
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(!p)return;
       var t=p.textContent;
@@ -555,7 +555,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiClip: fragments of other sections appear
   if (v === 'kiwiclip') { try {
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       if(ps.length<3)return;
       var src=ps[Math.floor(Math.random()*ps.length)];
       var dst=ps[Math.floor(Math.random()*ps.length)];
@@ -594,7 +594,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiVoice: text gets struck through as if silenced
   if (v === 'kiwivoice') { try {
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(p&&!p.getAttribute('data-silenced')){
         p.setAttribute('data-silenced','1');
@@ -654,7 +654,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiCut: sentences sever mid-thought
   if (v === 'kiwicut') { try {
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(p&&p.textContent.length>20&&!p.getAttribute('data-cut')){
         p.setAttribute('data-cut','1');
@@ -726,7 +726,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiRoom: echoes of what you just read
   if (v === 'kiwiroom') { try {
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(!p||!p.textContent)return;
       var fragment=p.textContent.substring(0,Math.min(30,p.textContent.length));
@@ -751,7 +751,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiLoop: causality breaks
   if (v === 'kiwiloop') { try {
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       if(ps.length>4){
         var a=Math.floor(Math.random()*ps.length),b=Math.floor(Math.random()*ps.length);
         if(a!==b){var tmp=ps[a].textContent;ps[a].textContent=ps[b].textContent;ps[b].textContent=tmp;}
@@ -774,7 +774,7 @@ document.addEventListener('DOMContentLoaded', function(){
   // KiwiHowl: something is calling
   if (v === 'kiwihowl') { try {
     setInterval(function(){
-      var ps=document.querySelectorAll('.main-content p');
+      var ps=document.querySelectorAll('.main-content p:not(.wiki-title)');
       var p=ps[Math.floor(Math.random()*ps.length)];
       if(p){p.style.animation='shake 0.2s';setTimeout(function(){p.style.animation='';},200);}
     },6000);

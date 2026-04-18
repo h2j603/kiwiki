@@ -46,7 +46,7 @@ import { prepareWithSegments, layoutNextLine } from 'https://cdn.jsdelivr.net/np
       var ready = creatures.filter(function(i) { return i.complete && i.naturalWidth > 0; });
       if (!ready.length) return;
 
-      var ps = document.querySelectorAll('.main-content p');
+      var ps = document.querySelectorAll('.main-content p:not(.wiki-title)');
       if (ps.length < 3) return;
 
       var p = null;
