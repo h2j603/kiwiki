@@ -15,7 +15,13 @@
   function init() {
     var wrap = document.createElement('div');
     wrap.id = 'chainmail-overlay';
-    wrap.style.cssText = 'position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:9999;overflow:hidden;';
+    wrap.style.cssText = 'position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;overflow:hidden;cursor:pointer;transition:opacity 0.4s ease;';
+
+    // 클릭하면 사라짐
+    wrap.addEventListener('click', function () {
+      wrap.style.opacity = '0';
+      setTimeout(function () { wrap.remove(); }, 400);
+    });
 
     // 화면을 두 영역으로 분할 — 수평 or 수직 랜덤
     var splitVertical = Math.random() > 0.5;
