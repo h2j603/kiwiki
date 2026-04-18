@@ -15,7 +15,8 @@
   function init() {
     var wrap = document.createElement('div');
     wrap.id = 'chainmail-overlay';
-    wrap.style.cssText = 'position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;overflow:hidden;cursor:pointer;transition:opacity 0.4s ease;';
+    var docH = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+    wrap.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:' + docH + 'px;z-index:9999;overflow:hidden;cursor:pointer;transition:opacity 0.4s ease;';
 
     // 클릭하면 사라짐
     wrap.addEventListener('click', function () {
