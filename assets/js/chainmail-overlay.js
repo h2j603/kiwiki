@@ -79,6 +79,12 @@
     // 분할 비율 랜덤 (40~60%)
     var splitRatio = rand(0.35, 0.65);
 
+    var vw = window.innerWidth;
+    var vh = window.innerHeight;
+    // 뷰포트 기준 가로/세로 중 더 큰 변이 이 값을 넘으면 블러 적용
+    var BLUR_THRESHOLD_PX = 700;
+    var BLUR_MAX_PX = 5;
+
     srcs.forEach(function (src, i) {
       var img = document.createElement('img');
       img.src = src;
@@ -90,8 +96,25 @@
       // 랜덤 스케일 (화면보다 크게, 110~160%)
       var scale = rand(0.7, 1.0);
 
+      var widthFrac, heightFrac;
+      if (splitVertical) {
+        widthFrac = (i === 0 ? splitRatio : 1 - splitRatio);
+        heightFrac = 1;
+      } else {
+        widthFrac = 1;
+        heightFrac = (i === 0 ? splitRatio : 1 - splitRatio);
+      }
+      var renderedW = vw * widthFrac * scale;
+      var renderedH = vh * heightFrac * scale;
+      var maxDim = Math.max(renderedW, renderedH);
+
       var styles = 'position:absolute;transform-origin:center center;';
       styles += 'transform:rotate(' + rotation + 'deg) scale(' + scale + ');';
+
+      if (maxDim > BLUR_THRESHOLD_PX) {
+        var blurPx = Math.min((maxDim - BLUR_THRESHOLD_PX) / 120, BLUR_MAX_PX);
+        styles += 'filter:blur(' + blurPx.toFixed(2) + 'px);';
+      }
 
       if (splitVertical) {
         // 수직 분할: 왼쪽/오른쪽
