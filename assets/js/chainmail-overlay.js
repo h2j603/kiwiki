@@ -37,6 +37,9 @@
       '  0% { transform: translateY(0) rotate(0); opacity: 1; }' +
       '  100% { transform: translateY(120vh) rotate(6deg); opacity: 0; }' +
       '}' +
+      '#chainmail-overlay.is-shaking {' +
+      '  animation: chainmail-shake 0.5s ease-in-out;' +
+      '}' +
       '#chainmail-overlay.is-dismissing {' +
       '  pointer-events: none;' +
       '  animation: chainmail-shake 0.5s ease-in-out,' +
@@ -53,12 +56,23 @@
     var docH = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
     wrap.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:' + docH + 'px;z-index:9999;overflow:hidden;cursor:pointer;will-change:transform,opacity;';
 
-    // 클릭하면 흔들린 뒤 아래로 떨어지며 사라짐
+    // 첫 클릭: 흔들리기만, 두 번째 클릭: 흔들린 뒤 아래로 떨어지며 사라짐
+    var clicked = false;
     wrap.addEventListener('click', function () {
       if (wrap.classList.contains('is-dismissing')) return;
-      wrap.classList.add('is-dismissing');
-      setTimeout(function () { wrap.remove(); }, 1350);
-    }, { once: false });
+      if (!clicked) {
+        clicked = true;
+        wrap.classList.add('is-shaking');
+        setTimeout(function () { wrap.classList.remove('is-shaking'); }, 500);
+        return;
+      }
+      wrap.classList.remove('is-shaking');
+      // 다음 프레임에 dismiss 클래스 추가 — 애니메이션 재시작 보장
+      requestAnimationFrame(function () {
+        wrap.classList.add('is-dismissing');
+      });
+      setTimeout(function () { wrap.remove(); }, 1400);
+    });
 
     // 화면을 두 영역으로 분할 — 수평 or 수직 랜덤
     var splitVertical = Math.random() > 0.5;
