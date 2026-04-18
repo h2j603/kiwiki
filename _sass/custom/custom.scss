@@ -562,10 +562,9 @@ html { scroll-behavior: smooth; }
   margin: 20px 0 10px;
 }
 .aku-logo {
-  width: 60px;
+  width: auto;
   height: 60px;
   display: inline-block;
-  object-fit: contain;
 }
 
 .aku-tagline {
